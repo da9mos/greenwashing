@@ -1,0 +1,2 @@
+﻿batch_id;stage;company_id;report_id;input_file;input_sha256;prompt_file;prompt_sha256;model;thread;started_at;finished_at;status;n_items;n_rejected;checked_by
+gold_extract_C_disagree_v3;gold_extract_C;;;data/gold_extract/disagreements.csv;c47aa08256cb217c2ee7d98745848fb5c184f41f37d45f607ec8d3d116891378;prompts/gold_extract_C_v3.md;8548f893e0ddf5cd8ed843bf41c3f21b2ed589bf528272ddc7f31c4d969795a2;claude-haiku-5-5;Разметчик C — споры эталона поиска;2026-11-12T17:15:00Z;2026-11-12T17:19:43Z;ok;116;0;

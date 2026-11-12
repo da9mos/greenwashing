@@ -1,0 +1,93 @@
+﻿report_id;company_id;company;industry;year;report_type;file_name;status;drive_id
+GAZP-2023-ОУР;GAZP;Газпром;Нефтегаз;2023;ОУР;Газпром_2023_ОУР.pdf;pdf;1rsy9R3vR17hCK_Nfk2nhjrVDBmPDfATX
+GAZP-2023-ЭО;GAZP;Газпром;Нефтегаз;2023;ЭО;Газпром_2023_ЭО.pdf;pdf;1gvSpvDRNwLowLl7zBD-58dZIGoAw1lda
+GAZP-2024-ОУР;GAZP;Газпром;Нефтегаз;2024;ОУР;Газпром_2024_ОУР.pdf;pdf;1F8ueI_NRxhBbvOT3eTsIhxSLEyPCHVMw
+GAZP-2025-ОУР;GAZP;Газпром;Нефтегаз;2025;ОУР;Газпром_2025_ОУР.pdf;pdf;11ik3YY801ZVdwyOl80pPalkm0mmTsMJR
+IRKN-2023-ИО;IRKN;Иркутская нефтяная компания;Нефтегаз;2023;ИО;Иркутская_нефтяная_компания_2023_ИО.pdf;pdf;1bkc8xK1Zu-_5xefKzmD2biD61WiztNtr
+IRKN-2024-ИО;IRKN;Иркутская нефтяная компания;Нефтегаз;2024;ИО;Иркутская_нефтяная_компания_2024_ИО.pdf;pdf;1rfesDkmT_6YHd8-ZWKQ6Z-JLt_aNKIrB
+IRKN-2025-ИО;IRKN;Иркутская нефтяная компания;Нефтегаз;2025;ИО;Иркутская_нефтяная_компания_2025_ИО.pdf;pdf;1iwP559Gyjnser_nhjdob8Q0AEB-3BcVO
+LKOH-2023-ОУР;LKOH;ЛУКОЙЛ;Нефтегаз;2023;ОУР;ЛУКОЙЛ_2023_ОУР.pdf;pdf;11ZtBXPh5FBJnKycPfO_s__So-3XNz0YI
+LKOH-2024-ОУР;LKOH;ЛУКОЙЛ;Нефтегаз;2024;ОУР;ЛУКОЙЛ_2024_ОУР.pdf;pdf;1fq3YPFqSCI27mr2lDWO5ZkeGwwVUSZI1
+LKOH-2025-ОУР;LKOH;ЛУКОЙЛ;Нефтегаз;2025;ОУР;ЛУКОЙЛ_2025_ОУР.pdf;pdf;1M4V4wgJa2ywU92MkB0TG3PeQlls2pRND
+NVTK-2023-ОУР;NVTK;НОВАТЭК;Нефтегаз;2023;ОУР;НОВАТЭК_2023_ОУР.pdf;pdf;18M9iCpJqLJ5XHehsPL1aua9Te9Rin6MV
+NVTK-2024-ОУР;NVTK;НОВАТЭК;Нефтегаз;2024;ОУР;НОВАТЭК_2024_ОУР.pdf;pdf;1d1DpcaHbMeAOCFyzxAmc-XU3LxQmUMLQ
+NVTK-2025-ОУР;NVTK;НОВАТЭК;Нефтегаз;2025;ОУР;НОВАТЭК_2025_ОУР.pdf;pdf;184EbY3F0KLx6DtJRobqLb7A2vExFcvxX
+ROSN-2023-ОУР;ROSN;Роснефть;Нефтегаз;2023;ОУР;Роснефть_2023_ОУР.pdf;pdf;1kBhtVhoAYqDOgS02lKtyo16l60hXnJdv
+ROSN-2024-ОУР;ROSN;Роснефть;Нефтегаз;2024;ОУР;Роснефть_2024_ОУР.pdf;pdf;1CFgrtdaC3jBIHHaWD5uIfoQu0oCCPXm1
+ROSN-2025-ИО;ROSN;Роснефть;Нефтегаз;2025;ИО;Роснефть_2025_ИО.pdf;pdf;14FjqVI50Z5av1nA5Ok-8BhyEFI8xPcTn
+TATN-2023-ИО;TATN;Татнефть;Нефтегаз;2023;ИО;Татнефть_2023_ИО.pdf;pdf;1r1TS1mXHx-HOJLbHXYldz3A8a0u4l2OS
+TATN-2024-ИО;TATN;Татнефть;Нефтегаз;2024;ИО;Татнефть_2024_ИО.pdf;pdf;1P28YQ4rOmDMp_XRtwoMPUn6Re7ki8-KI
+TATN-2025-ИО;TATN;Татнефть;Нефтегаз;2025;ИО;Татнефть_2025_ИО.pdf;pdf;1xhQtogkhOKNCmnE8JuJS2Tz3PcxiRsrc
+TRNF-2023-ИО;TRNF;Транснефть;Нефтегаз;2023;ИО;Транснефть_2023_ИО.pdf;pdf;1Q5gknOdgKKvt8EHhsp-1eLkAncQmpiWv
+TRNF-2024-ИО;TRNF;Транснефть;Нефтегаз;2024;ИО;Транснефть_2024_ИО.pdf;pdf;1hi3aeFys3i-OyETDmsjs3FcWcymCkd-_
+TRNF-2025-ИО;TRNF;Транснефть;Нефтегаз;2025;ИО;Транснефть_2025_ИО.pdf;pdf;15yefCDNHGoKHwzhfNgAZVL_nBj6DbMKC
+ALRS-2023-ОУР;ALRS;АЛРОСА;Металлургия и горнодобыча;2023;ОУР;АЛРОСА_2023_ОУР.pdf;pdf;1NgvOnMqzfrH1l_Nt5gnyExacNCI-T1_m
+ALRS-2024-ОУР;ALRS;АЛРОСА;Металлургия и горнодобыча;2024;ОУР;АЛРОСА_2024_ОУР.pdf;pdf;1ov3gkcH1cnX9fPUEKCxi4bu-cdd95B5o
+ALRS-2025-ОУР;ALRS;АЛРОСА;Металлургия и горнодобыча;2025;ОУР;АЛРОСА_2025_ОУР.pdf;pdf;1qDL7suvZ8HBfFpBAubyH0mmZgEvCzuP5
+MAGN-2023-ИО;MAGN;ММК;Металлургия и горнодобыча;2023;ИО;ММК_2023_ИО.pdf;pdf;1A0xPutZbEs3b3kZkSEPUuWgxvPLEFQbN
+MAGN-2024-ИО;MAGN;ММК;Металлургия и горнодобыча;2024;ИО;ММК_2024_ИО.pdf;pdf;1DvRKrrq26Mjg1Ou4tRrCv8RIwfNMDdSm
+MAGN-2025-ИО;MAGN;ММК;Металлургия и горнодобыча;2025;ИО;ММК_2025_ИО.pdf;pdf;1hfQsTmvt1NfYGyfa5UmT_gePIIZpr-jl
+MINV-2023-ОУР;MINV;Металлоинвест;Металлургия и горнодобыча;2023;ОУР;Металлоинвест_2023_ОУР.pdf;pdf;1vlLLo4exGNuCz4vLRI4FWVQLkzGn2jTX
+MINV-2024-ОУР;MINV;Металлоинвест;Металлургия и горнодобыча;2024;ОУР;Металлоинвест_2024_ОУР.pdf;pdf;121-a-dY-_AJz0UQOj5o4sxYd4BJtV3zK
+MINV-2025-ОУР;MINV;Металлоинвест;Металлургия и горнодобыча;2025;ОУР;Металлоинвест_2025_ОУР.pdf;pdf;1nv8yW2yEfN-8ao0Xc8g6rCzPTJPXyWG4
+MTLR-2023-ОУР;MTLR;Мечел;Металлургия и горнодобыча;2023;ОУР;Мечел_2023_ОУР.pdf;pdf;1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6
+MTLR-2024-ОУР;MTLR;Мечел;Металлургия и горнодобыча;2024;ОУР;Мечел_2024_ОУР.pdf;pdf;1HwG0pqi8ZIkdWG2xFTwvp0mZ1400EBUr
+MTLR-2025-ГО;MTLR;Мечел;Металлургия и горнодобыча;2025;ГО;Мечел_2025_ГО.pdf;pdf;1tRAf0k9FUJquQpqW0nBadNbmQOARvyNJ
+MTLR-2025-ОУР;MTLR;Мечел;Металлургия и горнодобыча;2025;ОУР;Мечел_2025_ОУР.pdf;pdf;1jMr6B3hNVxcz26oHIIJm8MpYEdY0mMcd
+NLMK-2023-ОУР;NLMK;НЛМК;Металлургия и горнодобыча;2023;ОУР;НЛМК_2023_ОУР.pdf;pdf;1gww6MWcUlgw1_GIHwVaOzuZvxqUlj7_D
+NLMK-2024-ИО;NLMK;НЛМК;Металлургия и горнодобыча;2024;ИО;НЛМК_2024_ИО.pdf;pdf;1mqu8h5T8WjdLE4lXL1t-Va_5S0Yz0sWi
+NLMK-2025-ИО;NLMK;НЛМК;Металлургия и горнодобыча;2025;ИО;НЛМК_2025_ИО.pdf;pdf;1gyyXvsch0L0FCpBxVQw5uoy8dI4LnsDn
+NORN-2023-ОУР;NORN;Норникель;Металлургия и горнодобыча;2023;ОУР;Норникель_2023_ОУР.pdf;pdf;1ahcJ4wVIZTZtUwwY2atFpj05jMmn7mET
+NORN-2024-ОУР;NORN;Норникель;Металлургия и горнодобыча;2024;ОУР;Норникель_2024_ОУР.pdf;pdf;1axHS0RESVRMdaUnuv5-5WqQMJ3wTZmKr
+NORN-2025-ОУР;NORN;Норникель;Металлургия и горнодобыча;2025;ОУР;Норникель_2025_ОУР.pdf;pdf;1WK0vQ63edggc8_KpnOR4Fn-2btbq2gAL
+PLZL-2023-ОУР;PLZL;Полюс;Металлургия и горнодобыча;2023;ОУР;Полюс_2023_ОУР.pdf;pdf;16Jrcg7DlOAnNyIcDGWndFiidNIUcPyfp
+PLZL-2024-ОУР;PLZL;Полюс;Металлургия и горнодобыча;2024;ОУР;Полюс_2024_ОУР.pdf;pdf;1HQZOpkWWz2PC3WAyYSuRKgmYOKJc6hfp
+PLZL-2025-ИО;PLZL;Полюс;Металлургия и горнодобыча;2025;ИО;Полюс_2025_ИО.pdf;pdf;1JwuVEfK6W3o-x8wo1Qs7e0fR7gEsg063
+PLZL-2025-ОУР;PLZL;Полюс;Металлургия и горнодобыча;2025;ОУР;Полюс_2025_ОУР (ссылка на PDF);ссылка — скачать с сайта компании;1ubjrPMzF1ZQ6KvcszGRx2hbVQY8JIjD4xej9-pW2kXA
+RUAL-2023-ОУР;RUAL;РУСАЛ;Металлургия и горнодобыча;2023;ОУР;РУСАЛ_2023_ОУР.pdf;pdf;1h6l6FyNFyC-3kzEXXdWOZQYTv7SIP86-
+RUAL-2024-ОУР;RUAL;РУСАЛ;Металлургия и горнодобыча;2024;ОУР;РУСАЛ_2024_ОУР.pdf;pdf;1p5jraXUag_oZC4PBDLVUlnRQDNM9Uwmt
+RUAL-2025-ИО;RUAL;РУСАЛ;Металлургия и горнодобыча;2025;ИО;РУСАЛ_2025_ИО.pdf;pdf;1gvL1i8HXht1MMJDAzDR_7w-IErATGuZl
+RASP-2023-ОУР;RASP;Распадская;Металлургия и горнодобыча;2023;ОУР;Распадская_2023_ОУР.pdf;pdf;16W_H8EoauONbSrceigWN9wVTQNbGQpuv
+RASP-2024-ОУР;RASP;Распадская;Металлургия и горнодобыча;2024;ОУР;Распадская_2024_ОУР.pdf;pdf;1oa7Eq2uf1dLBuHLR8FRkBLIQeA4g-k3a
+RASP-2025-ОУР;RASP;Распадская;Металлургия и горнодобыча;2025;ОУР;Распадская_2025_ОУР.pdf;pdf;1vK7K8OCuktmkSkXbTMc4RoVGTr815Y_z
+CHMF-2023-ОУР;CHMF;Северсталь;Металлургия и горнодобыча;2023;ОУР;Северсталь_2023_ОУР.pdf;pdf;1a4bDAdG7exG0ys8d3cN6hpzD8c68A7Dy
+CHMF-2024-ИО;CHMF;Северсталь;Металлургия и горнодобыча;2024;ИО;Северсталь_2024_ИО.pdf;pdf;1QbOKrvDFzxxOMtn4TipgjMWS8hyrDzdz
+CHMF-2025-ИО;CHMF;Северсталь;Металлургия и горнодобыча;2025;ИО;Северсталь_2025_ИО.pdf;pdf;1DQBRcatDqmxSdGTCf-3oCuSr3F6LK7SJ
+TRMK-2023-ИО;TRMK;ТМК;Металлургия и горнодобыча;2023;ИО;ТМК_2023_ИО.pdf;pdf;1l5vSlfHNXIXnyYgGQSwZg97suBaLdwE7
+TRMK-2024-ОУР;TRMK;ТМК;Металлургия и горнодобыча;2024;ОУР;ТМК_2024_ОУР.pdf;pdf;1BR4fg_giDknEztJMPgm2I6lJbGTnm1zk
+TRMK-2025-ОУР;TRMK;ТМК;Металлургия и горнодобыча;2025;ОУР;ТМК_2025_ОУР.pdf;pdf;1ORYLoGMKgCvCuXUC0GMOl47xLI1HaSWq
+AKRN-2023-ОУР;AKRN;Акрон;Химия и нефтехимия;2023;ОУР;Акрон_2023_ОУР.pdf;pdf;10tz2WDfx9xVaSPAZFqivUqRpf8GINTZM
+AKRN-2024-ОУР;AKRN;Акрон;Химия и нефтехимия;2024;ОУР;Акрон_2024_ОУР.pdf;pdf;1O6zUBI0b4PWC6h10iU-2ZO5NZnAPEJv8
+AKRN-2025-ИО;AKRN;Акрон;Химия и нефтехимия;2025;ИО;Акрон_2025_ИО.pdf;pdf;1FLY86keRtBDjSfEIGwPYQSA14-yz0Ooz
+PIGM-2023-ОУР;PIGM;Пигмент;Химия и нефтехимия;2023;ОУР;Пигмент_2023_ОУР.pdf;pdf;1oYNoV_HXnLuGd5PMT_roWaXlYKdHXu6L
+PIGM-2024-ОУР;PIGM;Пигмент;Химия и нефтехимия;2024;ОУР;Пигмент_2024_ОУР.pdf;pdf;1TlxCP5g0EWl6vHiMUY7I2yxX5ljowduI
+PIGM-2025-ОУР;PIGM;Пигмент;Химия и нефтехимия;2025;ОУР;Пигмент_2025_ОУР.pdf;pdf;1Ao53bJCS2Qk3eBPow3h7QuVzYbF-HCVB
+SIBR-2023-ИО;SIBR;СИБУР;Химия и нефтехимия;2023;ИО;СИБУР_2023_ИО.pdf;pdf;12S_NDdx-wz7z5TFw9L-oA04sgX-xND5Z
+SIBR-2024-ИО;SIBR;СИБУР;Химия и нефтехимия;2024;ИО;СИБУР_2024_ИО.pdf;pdf;10GSDbU6XOOuxOVwOH63gKZej3drIqYSQ
+SIBR-2025-ИО;SIBR;СИБУР;Химия и нефтехимия;2025;ИО;СИБУР_2025_ИО.pdf;pdf;1qou7G3aVx23sKH4jKVr99g98xHkca9sv
+URKA-2023-ОУР;URKA;Уралкалий;Химия и нефтехимия;2023;ОУР;Уралкали_2023_ОУР.pdf;pdf;1u3HBwI-I2P36ZFOZBKJKy9ng-ouC4xzY
+URKA-2024-ОУР;URKA;Уралкалий;Химия и нефтехимия;2024;ОУР;Уралкали_2024_ОУР.pdf;pdf;1EsAB1_sPfU5GLVVM8oVUECaOD_Tx3S-z
+URKA-2025-ГО;URKA;Уралкалий;Химия и нефтехимия;2025;ГО;Уралкали_2025_ГО.pdf;pdf;1fvaJceNQkCcf0mJE4r4yLCgdVtPhL8Bv
+URKA-2025-ОУР;URKA;Уралкалий;Химия и нефтехимия;2025;ОУР;Уралкали_2025_ОУР.pdf;pdf;1ybSb97qefPdvTi1OYYJfwy1OeoyB0NyG
+URCH-2023-ОУР;URCH;Уралхим;Химия и нефтехимия;2023;ОУР;Уралхим_2023_ОУР.pdf;pdf;1PmxB7Wz-xbCT9QMHWh_kXPK0NTAAmfeW
+URCH-2024-ОУР;URCH;Уралхим;Химия и нефтехимия;2024;ОУР;Уралхим_2024_ОУР.pdf;pdf;18AKAfY0DBj2z47pFdApZnzx4xYLqK__N
+URCH-2025-ОУР;URCH;Уралхим;Химия и нефтехимия;2025;ОУР;Уралхим_2025_ОУР.pdf;pdf;1LCYBIEkNMuToHLDV9MBLdD2YgWFj2Ewh
+PHOR-2023-ИО;PHOR;ФосАгро;Химия и нефтехимия;2023;ИО;ФосАгро_2023_ИО.pdf;pdf;1fw9wiIqBZUiLkSmFmqV-E-EcfhZPZl7M
+PHOR-2024-ИО;PHOR;ФосАгро;Химия и нефтехимия;2024;ИО;ФосАгро_2024_ИО.pdf;pdf;1Shaq2upw33z51BlE8-2qmZD3pzh65BGv
+PHOR-2025-ИО;PHOR;ФосАгро;Химия и нефтехимия;2025;ИО;ФосАгро_2025_ИО.pdf;pdf;1HpQREqon9FbBgXOXefUFiy1yoYP6Jse9
+KMAZ-2023-ОУР;KMAZ;КАМАЗ;Машиностроение;2023;ОУР;КАМАЗ_2023_ОУР.pdf;pdf;1CtBEp_Bpqd__NjD4sqdpmGgbRMlm0LKM
+KMAZ-2024-ОУР;KMAZ;КАМАЗ;Машиностроение;2024;ОУР;КАМАЗ_2024_ОУР.pdf;pdf;1tmIu7SPsvu3ikO9RHyW5oPKhOqjsuy5w
+KMAZ-2025-ГО;KMAZ;КАМАЗ;Машиностроение;2025;ГО;КАМАЗ_2025_ГО.zip;архив — распаковать;1k9fz-zfFqX3NVbPuqubP1H1iyhREaSSk
+SHLZ-2023-ОУР;SHLZ;Щербинский лифтостроительный завод;Машиностроение;2023;ОУР;Щербинский_лифтостроительный_завод_2023_ОУР.pdf;pdf;1_aG3zOqt3OQt0lsrnZUBiLUXwarWYeOp
+SHLZ-2024-ОУР;SHLZ;Щербинский лифтостроительный завод;Машиностроение;2024;ОУР;Щербинский_лифтостроительный_завод_2024_ОУР.pdf;pdf;1dWOLGT-vF4PBwMO52Nc6PB_Cdkb-Kfbk
+SVEZ-2023-ОУР;SVEZ;Свеза;Лесная и ЦБП;2023;ОУР;Свеза_2023_ОУР.pdf;pdf;1mgujhJTduWnm0OvHoI-sQnhk6mxjRcFq
+SVEZ-2024-ОУР;SVEZ;Свеза;Лесная и ЦБП;2024;ОУР;Свеза_2024_ОУР.pdf;pdf;1pX9rpZMdwBJHEshfVTl2xPSXTVzqpAv9
+SGZH-2023-ИО;SGZH;Сегежа;Лесная и ЦБП;2023;ИО;Сегежа_2023_ИО.pdf;pdf;1fDe9xag6rGBnoG1lGGjcv9jV0kGjMqcL
+SGZH-2024-ИО;SGZH;Сегежа;Лесная и ЦБП;2024;ИО;Сегежа_2024_ИО.pdf;pdf;1qgRSgxIvsqDGsqUlEGXauM3ajpAiksOR
+SGZH-2025-ИО;SGZH;Сегежа;Лесная и ЦБП;2025;ИО;Сегежа_2025_ИО.pdf;pdf;1l_ofS14HXy04i94Q7i1kzK2qufviRYXB
+MVDK-2023-ГО;MVDK;Мосводоканал;ЖКХ и водоснабжение;2023;ГО;Мосводоканал_2023_ГО (ссылка на PDF);ссылка — скачать с сайта компании;14UznfIiVZckSLWYPHn0IA31SMnbNn2f-YyS1x6lUQfY
+MVDK-2024-ГО;MVDK;Мосводоканал;ЖКХ и водоснабжение;2024;ГО;Мосводоканал_2024_ГО (ссылка на PDF);ссылка — скачать с сайта компании;1_fei19eGn1u_Jhjj5gfpv-GuAvUtbZJAPe3xl5ditAk
+MVDK-2025-ГО;MVDK;Мосводоканал;ЖКХ и водоснабжение;2025;ГО;Мосводоканал_2025_ГО (ссылка на PDF);ссылка — скачать с сайта компании;1HcO4ddf51b85yhfiBFxO17cY5Ak-K5PIoLd0ODlts-0
+RVDK-2023-ОУР;RVDK;Росводоканал;ЖКХ и водоснабжение;2023;ОУР;Росводоканал_2023_ОУР.pdf;pdf;1bqq7ozlI4DcTsxG5BWTxJq9LHoXEaBnr
+RVDK-2024-ОУР;RVDK;Росводоканал;ЖКХ и водоснабжение;2024;ОУР;Росводоканал_2024_ОУР.pdf;pdf;1MfpjfKTaYoF_NXX-xhx1pKXQznOY_zLV
+RVDK-2025-ОУР;RVDK;Росводоканал;ЖКХ и водоснабжение;2025;ОУР;Росводоканал_2025_ОУР.pdf;pdf;1RDLX1ZSS3QnEzB-Yb8eg-ErqvtAHVnaE

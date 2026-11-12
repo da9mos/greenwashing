@@ -1,0 +1,31 @@
+# Тексты и файлы отчётов в репозиторий не кладём (около 360 МБ).
+# Где их взять — в README.md, раздел «Где взять тексты отчётов».
+*.pdf
+*.zip
+03_итерация_3_пайплайн/data/reports/*
+!03_итерация_3_пайплайн/data/reports/download_log.csv
+03_итерация_3_пайплайн/data/pages/*.jsonl
+03_итерация_3_пайплайн/data/pages_v0_sort/*.jsonl
+03_итерация_3_пайплайн/data/chunks/*.jsonl
+
+# Исходники с Google Drive и загрузки из чатов
+gdrive/
+uploads/
+
+# Ключи, пароли, локальные настройки
+.env
+.env.*
+*.key
+*.pem
+secrets*
+credentials*
+
+# Python и системный мусор
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+~$*

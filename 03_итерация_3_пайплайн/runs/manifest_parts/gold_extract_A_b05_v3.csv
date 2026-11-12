@@ -1,0 +1,2 @@
+batch_id;stage;company_id;report_id;input_file;input_sha256;prompt_file;prompt_sha256;model;thread;started_at;finished_at;status;n_items;n_rejected;checked_by
+gold_extract_A_b05_v3;gold_extract_A;;;batches/gold_extract_A/gold_extract_b05.jsonl;debe8786d55985f1447441adb650ffafb271b0280ec2b34d024e0057a05ed50b;prompts/gold_extract_A_v3.md;25ca04891f0d71c0a4d4232822ba2fe816968e24a1bcc4ef640c7d92f47e29c9;claude-opus-5-5;Разметчик A — эталон поиска;2026-11-12T17:05:00Z;2026-11-12T17:01:00Z;ok;58;0;

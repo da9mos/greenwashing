@@ -1,0 +1,2 @@
+batch_id;stage;company_id;report_id;input_file;input_sha256;prompt_file;prompt_sha256;model;thread;started_at;finished_at;status;n_items;n_rejected;checked_by
+gold_extract_B_b01_v3;gold_extract_B;;;batches/gold_extract_B/gold_extract_b01.jsonl;523e153abf9815736e92506b62fe9aad40833ae4df03d4ce19f84287438fb56b;prompts/gold_extract_B_v3.md;fc85a5308c349cbd0f9f8018aedbe6fa5c9305cabfe4dbf1095ae5d54dc8a517;claude-sonnet-5-5;Разметчик B — эталон поиска;2026-11-12T17:10:00Z;2026-11-12T17:30:00Z;ok;66;0;
