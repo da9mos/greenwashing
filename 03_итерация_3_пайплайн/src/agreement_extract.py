@@ -6,7 +6,7 @@
   data/gold_extract/sentences.jsonl
   llm/gold_extract_A/<версия>/*.json, llm/gold_extract_B/<версия>/*.json   (ответы разметчиков)
   llm/gold_extract_C/<версия>/*.json          (третий проход по расхождениям, если есть)
-  data/gold_extract/resolutions.csv           (решения Егора Д.: sentence_id;field;value;note), если есть
+  data/gold_extract/resolutions.csv           (решения: sentence_id;field;value;note;who; who пусто = Егор Д.), если есть
 Пишет:
   data/out/gold_extract.csv                   по шаблону templates/gold_extract_шаблон.csv
   data/gold_extract/disagreements.csv         что разошлось и что решено
@@ -68,7 +68,7 @@ def main() -> None:
     rp = ROOT / "data/gold_extract/resolutions.csv"
     if rp.exists():
         for r in csv.DictReader(open(rp, encoding="utf-8-sig"), delimiter=";"):
-            res[(r["sentence_id"], r["field"])] = (r["value"], r.get("note", ""))
+            res[(r["sentence_id"], r["field"])] = (r["value"], r.get("note", ""), r.get("who") or "Егор Д.")
 
     missing = [s["sentence_id"] for s in sents if s["sentence_id"] not in A or s["sentence_id"] not in B]
     sents_ok = [s for s in sents if s["sentence_id"] in A and s["sentence_id"] in B]
@@ -124,8 +124,8 @@ def main() -> None:
         for f in FIELDS:
             row[f"A_{f}"], row[f"B_{f}"] = a.get(f, ""), b.get(f, "")
             if (sid, f) in res:
-                val, note = res[(sid, f)]
-                who.add("Егор Д.")
+                val, note, by = res[(sid, f)]
+                who.add(by)
                 notes.append(note)
             elif a.get(f, "") == b.get(f, ""):
                 val = a.get(f, "")
@@ -143,7 +143,7 @@ def main() -> None:
         row["resolved_by"] = "совпало" if all_agree else ", ".join(sorted(who)) or "не решено"
         row["resolution_note"] = "; ".join(n for n in notes if n)
         # «да», если предложение проверил Егор Д. (есть строка в resolutions.csv)
-        row["human_check"] = "да" if any((sid, f) in res for f in FIELDS) else ""
+        row["human_check"] = "да" if any((sid, f) in res and res[(sid, f)][2] == "Егор Д." for f in FIELDS) else ""
         out_rows.append(row)
 
     (ROOT / "data/out").mkdir(parents=True, exist_ok=True)
