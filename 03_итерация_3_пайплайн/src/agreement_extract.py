@@ -142,7 +142,8 @@ def main() -> None:
         row["agree"] = "да" if all_agree else "нет"
         row["resolved_by"] = "совпало" if all_agree else ", ".join(sorted(who)) or "не решено"
         row["resolution_note"] = "; ".join(n for n in notes if n)
-        row["human_check"] = ""
+        # «да», если предложение проверил Егор Д. (есть строка в resolutions.csv)
+        row["human_check"] = "да" if any((sid, f) in res for f in FIELDS) else ""
         out_rows.append(row)
 
     (ROOT / "data/out").mkdir(parents=True, exist_ok=True)
