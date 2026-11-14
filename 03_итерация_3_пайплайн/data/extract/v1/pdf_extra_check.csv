@@ -1,0 +1,2 @@
+﻿claim_id;review_group;report_id;page;quote;status;source_sha256;check_method;visual_checked
+MAGN-2023-009;random_pdf_replacement;MAGN-2023-ИО;113;Группа ММК стремится предоставлять широкие возможности для образования персонала, а также инвестирует в развитие профессиональных и личных навыков и компетенций сотрудников.;PDF: точное совпадение после нормализации;9e423494bfcb9f68623f265980c107825451fc46c8f98d09d37193a1ace7874c;PyMuPDF text extraction + parse.normalize + whitespace;

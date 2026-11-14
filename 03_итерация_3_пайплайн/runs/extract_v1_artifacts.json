@@ -1,0 +1,38 @@
+{
+  "version": "v1",
+  "canonical_files": {
+    "data/extract/v1/claims.csv": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+    "data/extract/v1/claims_review.csv": "63a74947ed5a64bc605450c08a4dd94030cddc8dfff869189345cc59dbd4ff52",
+    "data/extract/v1/coverage.csv": "76fa9235a7526410a3f2d60b8b204274334fc281a6369bb2f7a3e1d24f9d6213",
+    "data/extract/v1/duplicates.csv": "72bd53644e6c650dd74f5f2e55cb61eaf521bb542afc19659f59cee63b172c0a",
+    "data/extract/v1/excluded.csv": "db2358ad4b5ca8e775bc9c93dc923c5f5831a94b1411cbc690a0d1f24032524c",
+    "data/extract/v1/manifest.csv": "9a1f80656c8ba34b57ec683ab3369bf3263c48e6ac0c234f6caabee33c107b61",
+    "data/extract/v1/pdf_extra_check.csv": "e90f644fc8bb9faf3bd94f7b48c772e63e58719aaad786f2a28d34c8a8fba869",
+    "data/extract/v1/pdf_sample_check.csv": "3148205359bf7f5dc8fcf170c5ca46313a04d5b6ee484cb6f8c7d8d33796c401",
+    "data/extract/v1/pdf_sample_check_v2.csv": "1c59c8fcae6d80c4cf916f7910f05eea9a450d4b2084eee3551a412e474b8fc4",
+    "data/extract/v1/quality.json": "0b804e865483446958976d56d0ffab92d0652a7e4e6c18ec88b1eb48ff964fd2",
+    "data/extract/v1/review_pdf_extra.csv": "9988d83a6d01075e1b4eea65056dd4723ba15b267d653c684384c0bda49b7db5",
+    "data/extract/v1/review_sample.csv": "aaec62280dad5bf3c47d80b25599687d17896bb8f93644564344d8dbfdf891dc",
+    "data/extract/v1/visual_check.json": "ae36be93a39981bafb841ec28644b04b79addeb77151565eff2259c63a0462f5",
+    "data/extract_evaluation/baseline_v1/errors.csv": "44601c015b62dc045417f4cc530a5fdd4262728556db72e265be9801af4b84aa",
+    "data/extract_evaluation/baseline_v1/metrics.json": "53cc64085bc8c8ebee47c4edd40a7c6c2a4732c540283fb5d49a6ab456c28c31",
+    "data/extract_evaluation/policy_v1/errors.csv": "c84f1f675d77cecc85ef9f0c499b9b15c587c51c61022894bda1e75c4b02fe39",
+    "data/extract_evaluation/policy_v1/metrics.json": "ce40364768ef982dcf320d25081a6b62fd15f092520a20ba680995c535eb4d1a",
+    "data/extract_evaluation/repeat_v1.json": "d1b571af56a5a5ed01da14c016fbd933939cdf2b3861a03063e7740b5d7d575a",
+    "data/extract_evaluation/v1/errors.csv": "c0cd6db52861e6946abb95c89710e933ef189a649f18a8b80c8597c5c0ef9b6c",
+    "data/extract_evaluation/v1/metrics.json": "90379a348da3c1b131d1ad37d479570f4ff017ef0e8ec6dd454c86d0d5f9b5cb",
+    "data/out/claims.csv": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+    "runs/manifest_parts/extract_v1.csv": "1499696db2e8bb14b8cb79af47c8f100105a8bcdc8a8ff410a8e5d347340de41"
+  },
+  "production_files": {
+    "claims.csv": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+    "claims_review.csv": "63a74947ed5a64bc605450c08a4dd94030cddc8dfff869189345cc59dbd4ff52",
+    "excluded.csv": "db2358ad4b5ca8e775bc9c93dc923c5f5831a94b1411cbc690a0d1f24032524c",
+    "duplicates.csv": "72bd53644e6c650dd74f5f2e55cb61eaf521bb542afc19659f59cee63b172c0a",
+    "coverage.csv": "76fa9235a7526410a3f2d60b8b204274334fc281a6369bb2f7a3e1d24f9d6213",
+    "review_sample.csv": "aaec62280dad5bf3c47d80b25599687d17896bb8f93644564344d8dbfdf891dc",
+    "review_pdf_extra.csv": "9988d83a6d01075e1b4eea65056dd4723ba15b267d653c684384c0bda49b7db5",
+    "quality.json": "0b804e865483446958976d56d0ffab92d0652a7e4e6c18ec88b1eb48ff964fd2"
+  },
+  "repeat_sha256": "d1b571af56a5a5ed01da14c016fbd933939cdf2b3861a03063e7740b5d7d575a"
+}

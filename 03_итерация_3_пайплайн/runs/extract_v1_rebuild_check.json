@@ -1,0 +1,18 @@
+{
+  "command": "python src/run_extract.py --output-root data/rebuilt_extract/run_02",
+  "exit_code": 0,
+  "production_sha256": {
+    "claims.csv": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+    "claims_review.csv": "63a74947ed5a64bc605450c08a4dd94030cddc8dfff869189345cc59dbd4ff52",
+    "excluded.csv": "db2358ad4b5ca8e775bc9c93dc923c5f5831a94b1411cbc690a0d1f24032524c",
+    "duplicates.csv": "72bd53644e6c650dd74f5f2e55cb61eaf521bb542afc19659f59cee63b172c0a",
+    "coverage.csv": "76fa9235a7526410a3f2d60b8b204274334fc281a6369bb2f7a3e1d24f9d6213",
+    "review_sample.csv": "aaec62280dad5bf3c47d80b25599687d17896bb8f93644564344d8dbfdf891dc",
+    "review_pdf_extra.csv": "9988d83a6d01075e1b4eea65056dd4723ba15b267d653c684384c0bda49b7db5",
+    "quality.json": "0b804e865483446958976d56d0ffab92d0652a7e4e6c18ec88b1eb48ff964fd2"
+  },
+  "production_equal": true,
+  "metric_groups_equal": true,
+  "repeat_agreement_equal": true,
+  "network_or_model_calls": false
+}

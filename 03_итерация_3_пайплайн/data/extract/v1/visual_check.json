@@ -1,0 +1,29 @@
+[
+  {
+    "report_id": "NORN-2023-ОУР",
+    "pdf_page": 133,
+    "source_sha256": "eb1ffe5335e30c7a53a05c4f5ae74df8a4d80d83e7f6061fb7d52923b684d6fe",
+    "method": "PyMuPDF render at native scale + Codex image inspection",
+    "quote_visible": true,
+    "text_matches": true,
+    "human_review": false
+  },
+  {
+    "report_id": "NORN-2024-ОУР",
+    "pdf_page": 90,
+    "source_sha256": "bec343c6e47e3cae31ae948df674af235fb5dffb840fbb390ef026c9ed2cccda",
+    "method": "PyMuPDF render at native scale + Codex image inspection",
+    "quote_visible": true,
+    "text_matches": true,
+    "human_review": false
+  },
+  {
+    "report_id": "NORN-2025-ОУР",
+    "pdf_page": 37,
+    "source_sha256": "bcde0eed60bc459b1c1386584c8ccaaa2b937057d606d9b5bdcee5bca40bf82b",
+    "method": "PyMuPDF render at native scale + Codex image inspection",
+    "quote_visible": true,
+    "text_matches": true,
+    "human_review": false
+  }
+]
