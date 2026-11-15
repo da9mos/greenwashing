@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "eval_sentences": 811,
+  "production_candidates": 1560,
+  "companies": 30,
+  "selection": "lexicon + speech-act regex; max 52/company; max 3/page; all reports first",
+  "codebook_sha256": "123d75b4ffcf361d1a1122d0be40bb200be8bce91f156d3ce745769150740d3f",
+  "prompt_sha256": "e2234d15ae646dc3aca1f759089050f9ebab30fea2633d07f668a560698b7a32",
+  "batches": {
+    "eval_01.jsonl": "ed46a20bd10ab7c63af84f418c6d58e5bd98742c19ef978d4a813d8a3ee9ca87",
+    "eval_02.jsonl": "2fa6d4d53996b07cb9fab33099d41af6642380e4a3eb36decaf8293e2a8a404b",
+    "eval_03.jsonl": "2ee7485ed4b77b6e94dc5b1ed45c515b4d76c4e5c7658b9d7e61cc731fdd177b",
+    "production_01.jsonl": "11c54caf23e95a34cd7a539f3afde72ea03d310e03781e7935f05f622e670ec6",
+    "production_02.jsonl": "83f129e6739e07ff5ea7ceb2873187a751c0bafa674df09f8abe8576552a7624",
+    "production_03.jsonl": "5f120a3510b427c1058facaf2dc89f9b03fe3afb0ac8d249b1a451edfaa28c26",
+    "production_selection.jsonl": "f3178ed7033bb61ef06e0f6296da5077b1b674eae5d521975a77ab296f02a17c"
+  }
+}

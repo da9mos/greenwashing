@@ -1,0 +1,97 @@
+{
+  "n": 30,
+  "sample_seed": 20261115,
+  "scope": "independent second stream on 30 randomly selected eval_01 sentences; not a new model/version study",
+  "agreement": {
+    "is_claim": {
+      "same": 26,
+      "n": 30
+    },
+    "type": {
+      "same": 25,
+      "n": 30
+    },
+    "esg_block": {
+      "same": 25,
+      "n": 30
+    },
+    "topic": {
+      "same": 24,
+      "n": 30
+    },
+    "has_number": {
+      "same": 26,
+      "n": 30
+    },
+    "has_deadline": {
+      "same": 29,
+      "n": 30
+    }
+  },
+  "disagreements": [
+    {
+      "sentence_id": "TRMK-2025-ОУР_f091_s06",
+      "fields": [
+        "is_claim",
+        "type",
+        "esg_block",
+        "topic",
+        "has_number"
+      ]
+    },
+    {
+      "sentence_id": "MINV-2025-ОУР_f115_s07",
+      "fields": [
+        "type",
+        "has_deadline"
+      ]
+    },
+    {
+      "sentence_id": "SHLZ-2024-ОУР_f084_s07",
+      "fields": [
+        "is_claim",
+        "type",
+        "esg_block",
+        "topic",
+        "has_number"
+      ]
+    },
+    {
+      "sentence_id": "MTLR-2025-ОУР_f057_s03",
+      "fields": [
+        "topic"
+      ]
+    },
+    {
+      "sentence_id": "TRMK-2023-ИО_f127_s04",
+      "fields": [
+        "esg_block",
+        "topic"
+      ]
+    },
+    {
+      "sentence_id": "SHLZ-2024-ОУР_f084_s01",
+      "fields": [
+        "is_claim",
+        "type",
+        "esg_block",
+        "topic",
+        "has_number"
+      ]
+    },
+    {
+      "sentence_id": "GAZP-2024-ОУР_f110_s04",
+      "fields": [
+        "is_claim",
+        "type",
+        "esg_block",
+        "topic",
+        "has_number"
+      ]
+    }
+  ],
+  "hashes": {
+    "batches/extract/v1/repeat_30.jsonl": "2e5f5032aca550fe88a2ef7d3cef427b4c7c0d3b7b68c7a26995b5a386382d1e",
+    "llm/extract/v1/repeat_30.jsonl": "5398e8c640af197e9ac60a981601f365b667908f03c2c87c093bb8d59dfb9f28"
+  }
+}
