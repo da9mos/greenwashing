@@ -16,6 +16,8 @@ from prepare_extract import read_records
 from extract_integrity import verify
 
 ROOT=Path(__file__).resolve().parents[1]
+from text_versions import FROZEN_EXTRACT_V1, VERSIONS, chunks_dir, pages_dir
+CHUNKS=PAGES=None  # задаются в main() по --text-version
 TOPICS={
  'E':{'вода','воздух','отходы','климат','биоразнообразие','земля','энергия','другое'},
  'S':{'безопасность труда','персонал и оплата','обучение','права человека','местные сообщества','клиенты и качество','другое'},
@@ -53,7 +55,13 @@ def validate(p):
 def main():
  ap=argparse.ArgumentParser(description=__doc__)
  ap.add_argument('--version',default='v1');ap.add_argument('--output-dir',type=Path)
+ # extract v1 заморожен на текстах v2 (хэши в source_hashes); новые версии извлечения — на v4
+ ap.add_argument('--text-version',choices=VERSIONS,default=None)
  args=ap.parse_args();v=args.version
+ global CHUNKS,PAGES
+ tv=args.text_version or (FROZEN_EXTRACT_V1 if v=='v1' else None)
+ if v=='v1' and tv!=FROZEN_EXTRACT_V1:raise SystemExit('extract v1 собран на текстах v2 и заморожен')
+ CHUNKS,PAGES=chunks_dir(tv),pages_dir(tv)
  verify(v)
  batchdir=ROOT/'batches/extract'/v;predir=ROOT/'llm/extract'/v
  out=args.output_dir or ROOT/'data/extract'/v
@@ -80,8 +88,8 @@ def main():
  if len(byid)!=len(predictions):raise ValueError('Cross-batch duplicate')
  chunks={};pages={}
  for rid in sorted({r['report_id'] for r in inputs}):
-  chunks[rid]={r['chunk_id']:r for r in read_records(ROOT/'data/chunks'/f'{rid}.jsonl')}
-  page_rows=list(read_records(ROOT/'data/pages'/f'{rid}.jsonl'))
+  chunks[rid]={r['chunk_id']:r for r in read_records(CHUNKS/f'{rid}.jsonl')}
+  page_rows=list(read_records(PAGES/f'{rid}.jsonl'))
   pages[rid]={int(r['page']):r for r in page_rows}
   if len(pages[rid])!=len(page_rows):raise ValueError(f'Duplicate pages: {rid}')
  reports={r['report_id']:r for r in csv.DictReader((ROOT.parent/'01_итерация_1_сбор_данных/выборка_30/reports.csv').open(encoding='utf-8-sig'),delimiter=';')}
@@ -121,7 +129,7 @@ def main():
    'reports':sorted({r['report_id'] for r in accepted if r['company_id']==c}),
    'blocks':sorted({r['esg_block'] for r in accepted if r['company_id']==c}),
    'years':sorted({r['year'] for r in accepted if r['company_id']==c})} for c in sorted({r['company_id'] for r in inputs})},
-  'source_hashes':{str(p.relative_to(ROOT)):sha(p) for rid in sorted(chunks) for p in (ROOT/'data/pages'/f'{rid}.jsonl',ROOT/'data/chunks'/f'{rid}.jsonl')}}
+  'source_hashes':{str(p.relative_to(ROOT)):sha(p) for rid in sorted(chunks) for p in (PAGES/f'{rid}.jsonl',CHUNKS/f'{rid}.jsonl')}}
  quality['acceptance']={
   'at_least_500_claims':len(accepted)>=500,
   'all_30_companies':quality['companies']==30,

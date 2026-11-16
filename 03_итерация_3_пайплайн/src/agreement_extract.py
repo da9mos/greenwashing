@@ -147,10 +147,17 @@ def main() -> None:
         out_rows.append(row)
 
     (ROOT / "data/out").mkdir(parents=True, exist_ok=True)
-    with open(ROOT / "data/out/gold_extract.csv", "w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=tmpl, delimiter=";", extrasaction="ignore")
-        w.writeheader()
-        w.writerows(out_rows)
+    # Эталон на нём заморожен (extract v1, тексты v2): перезапись другим содержимым запрещена.
+    import io
+    buf = io.StringIO(newline="")
+    w = csv.DictWriter(buf, fieldnames=tmpl, delimiter=";", extrasaction="ignore")
+    w.writeheader()
+    w.writerows(out_rows)
+    gold_path = ROOT / "data/out/gold_extract.csv"
+    new = "\ufeff" + buf.getvalue()
+    if gold_path.exists() and gold_path.read_text(encoding="utf-8", newline="") != new:
+        raise SystemExit(f"{gold_path} уже есть и отличается: не перезаписываю (эталон заморожен)")
+    gold_path.write_text(new, encoding="utf-8", newline="")
     with open(ROOT / "data/gold_extract/disagreements.csv", "w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["sentence_id", "field", "A", "B", "C", "final", "sentence"], delimiter=";")
         w.writeheader()

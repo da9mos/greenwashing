@@ -83,7 +83,9 @@ def read_reports() -> dict[str, list[dict]]:
 
 
 def read_chunks(report_id: str) -> list[dict]:
-    path = ROOT / "data" / "chunks" / f"{report_id}.jsonl"
+    # эталон поиска отобран на текстах v2 и заморожен — отбор повторяется на них же
+    from text_versions import FROZEN_EXTRACT_V1, chunks_dir
+    path = chunks_dir(FROZEN_EXTRACT_V1) / f"{report_id}.jsonl"
     if not path.exists():
         return []
     with open(path, encoding="utf-8") as f:

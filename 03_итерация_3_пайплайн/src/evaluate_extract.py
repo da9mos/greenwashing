@@ -222,7 +222,11 @@ def evaluate(gold: list[dict], predictions: list[dict], repetitions: int, seed: 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--predictions", type=Path, required=True)
-    parser.add_argument("--gold", type=Path, default=ROOT / "data/out/gold_extract.csv")
+    import sys
+    sys.path.insert(0, str(ROOT / "src"))
+    from text_versions import gold_csv
+    # по умолчанию — эталон на действующей версии текстов; метки во всех версиях одинаковые
+    parser.add_argument("--gold", type=Path, default=gold_csv())
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--bootstrap", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=20261115)

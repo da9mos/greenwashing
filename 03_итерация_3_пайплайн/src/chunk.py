@@ -1,6 +1,8 @@
 """Нарезка текста страниц на куски ~1 500 знаков с номером страницы. Без модели.
 
-    python src/chunk.py            # все data/pages/*.jsonl -> data/chunks/<report_id>.jsonl
+    python src/chunk.py                      # действующая версия: data/pages_v4 -> data/chunks_v4
+    python src/chunk.py pages_v3 chunks_v3   # любая другая версия в свою папку
+В готовую папку не пишет (16.11.2026: раньше вызов без аргументов перезаписывал data/chunks).
 
 Кусок никогда не переходит через границу страницы (чтобы номер страницы у цитаты был точным).
 Режем по абзацам, длинный абзац — по предложениям. Куски короче 200 знаков (колонтитулы,
@@ -67,11 +69,11 @@ def is_garbage(text: str) -> bool:
 
 def main() -> None:
     import sys
-    # python src/chunk.py                         — как раньше: data/pages -> data/chunks (перезаписывает!)
-    # python src/chunk.py pages_v3 chunks_v3      — другая версия текстов в свою папку
+    sys.path.insert(0, str(ROOT / "src"))
+    from text_versions import chunks_dir, pages_dir
     a = sys.argv[1:]
-    src, dst = (ROOT / "data" / a[0], ROOT / "data" / a[1]) if len(a) == 2 else (ROOT / "data" / "pages", ROOT / "data" / "chunks")
-    if len(a) == 2 and dst.exists() and any(dst.glob("*.jsonl")):
+    src, dst = (ROOT / "data" / a[0], ROOT / "data" / a[1]) if len(a) == 2 else (pages_dir(), chunks_dir())
+    if dst.exists() and any(dst.glob("*.jsonl")):
         sys.exit(f"{dst} уже заполнена, не перезаписываю")
     dst.mkdir(parents=True, exist_ok=True)
     total = dropped = 0

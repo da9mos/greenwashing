@@ -1,9 +1,10 @@
-"""Полная проверка эталона поиска заявлений data/out/gold_extract.csv. Без модели.
+"""Полная проверка эталона поиска заявлений. Без модели.
 
-    python src/audit_gold.py
+    python src/audit_gold.py                     # действующая версия текстов (v4): gold_extract_text_v4.csv
+    python src/audit_gold.py --text-version v2   # исходный эталон gold_extract.csv на текстах v2
 
 Проверяет:
-  1. Дословность: каждое предложение есть в тексте отчёта (data/pages) на указанной странице.
+  1. Дословность: каждое предложение есть в тексте отчёта (страницы той же версии) на указанной странице.
   2. Поля итоговой разметки: заполнены у заявлений, пусты у «не заявлений», допустимые значения,
      has_deadline только у обязательств, тема из своего блока (раздел 4 инструкции), нет «НА ПРОВЕРКУ».
   3. Подсказки к возможным ошибкам (не обязательно ошибки, смотреть глазами):
@@ -11,7 +12,8 @@
      будущего; результат с явным будущим («планирует», «к 2030 году»).
   4. Выборка: отрывок целиком в одной части (рабочий / отложенный), нет повторов предложений,
      нет примеров из инструкции в эталоне, покрытие компаний.
-Пишет data/gold_extract/audit.md и data/gold_extract/audit_flags.csv (подсказки по пункту 3).
+Пишет data/gold_extract/audit.md и audit_flags.csv (для v2, как раньше) или audit_v4.md и
+audit_flags_v4.csv (для другой версии), чтобы не затирать прежний отчёт.
 """
 from __future__ import annotations
 
@@ -56,10 +58,18 @@ def digits_wo_years(s: str) -> list[str]:
 
 
 def main() -> None:
-    gold = list(csv.DictReader(open(ROOT / "data/out/gold_extract.csv", encoding="utf-8-sig"), delimiter=";"))
+    import argparse
+    import sys
+    sys.path.insert(0, str(ROOT / "src"))
+    from text_versions import CURRENT, VERSIONS, gold_csv, pages_dir
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--text-version", default=CURRENT, choices=VERSIONS)
+    v = ap.parse_args().text_version
+    suffix = "" if v == "v2" else f"_{v}"
+    gold = list(csv.DictReader(open(gold_csv(v), encoding="utf-8-sig"), delimiter=";"))
     pages: dict[tuple[str, int], str] = {}
     for rid in {g["report_id"] for g in gold}:
-        for l in open(ROOT / "data/pages" / f"{rid}.jsonl", encoding="utf-8"):
+        for l in open(pages_dir(v) / f"{rid}.jsonl", encoding="utf-8"):
             p = json.loads(l)
             pages[(rid, int(p["page"]))] = norm(p["text"])
     errors, flags = [], []
@@ -148,9 +158,9 @@ def main() -> None:
     lines += ["", f"Повторяющихся предложений: {len(dup)}", "",
               f"## Ошибки: {len(errors)}", ""] + [f"- {e}" for e in errors] + \
              ["", f"## Подсказки к ручному просмотру: {len(flags)}", "",
-              "Список в `audit_flags.csv`. По видам: " + ", ".join(f"{k} {v}" for k, v in Counter(x[1] for x in flags).most_common())]
-    (ROOT / "data/gold_extract/audit.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    with open(ROOT / "data/gold_extract/audit_flags.csv", "w", encoding="utf-8-sig", newline="") as f:
+              f"Список в `audit_flags{suffix}.csv`. По видам: " + ", ".join(f"{k} {v}" for k, v in Counter(x[1] for x in flags).most_common())]
+    (ROOT / f"data/gold_extract/audit{suffix}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    with open(ROOT / f"data/gold_extract/audit_flags{suffix}.csv", "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(["sentence_id", "что", "детали", "предложение"])
         w.writerows(flags)

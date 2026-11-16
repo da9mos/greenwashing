@@ -26,7 +26,9 @@ def main():
   d=verify(v);print(f"Verified {len(d['files'])} frozen inputs");return
  out=ROOT/'runs'/f'extract_{v}_freeze.json'
  if out.exists():raise FileExistsError(out)
- paths=list((ROOT/'data/pages').glob('*.jsonl'))+list((ROOT/'data/chunks').glob('*.jsonl'))
+ from text_versions import CURRENT, FROZEN_EXTRACT_V1, chunks_dir, pages_dir
+ tv=FROZEN_EXTRACT_V1 if v=='v1' else CURRENT
+ paths=list(pages_dir(tv).glob('*.jsonl'))+list(chunks_dir(tv).glob('*.jsonl'))
  paths+=list((ROOT/'batches/extract'/v).glob('*'))
  paths+=[ROOT/'llm/extract'/v/f'{kind}_{i:02d}.jsonl' for kind in ('eval','production') for i in range(1,4)]
  paths+=[ROOT/'llm/extract'/v/'repeat_30.jsonl',ROOT/'llm/baseline_extract/v1/predictions.jsonl',

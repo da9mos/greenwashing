@@ -14,6 +14,9 @@ from select_gold_fragments import split_sentences, block_scores, INDEX_MARKERS
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = 'v1'
+# extract v1 собран на текстах v2 и заморожен; следующая версия извлечения берёт действующие тексты
+from text_versions import CURRENT, FROZEN_EXTRACT_V1, chunks_dir
+TEXT_VERSION = FROZEN_EXTRACT_V1 if VERSION == 'v1' else CURRENT
 FUTURE = re.compile(r'планир|планиру|планов|цель|цели|целев|намерен|предстоит|продолжит|будет|будут|стремит|обязуется|к 20[2-5]\d', re.I)
 DECL = re.compile(r'приоритет|привержен|ценност|важнейш|нулевой терпим|нулевая терпим|стремит|осозна[её]т|ответственност', re.I)
 ACTION = re.compile(r'сниз|сократ|увелич|уменьш|провод|провед|внедр|введ|реализ|реализу|прошл|обуч|разработ|утвержд|осуществ|достиг|обеспеч|поддерж|сертифи|направ|предостав|соблюд|принят|действует|организ|вошл|включен|улучш|контрол|созда|создан|финансир|инвест|постро|выдел|оснащ|модерниз|реконструк|заверш|переработ|установ|установл|запущ|выполн|предотвра|предусмотр|защит', re.I)
@@ -49,7 +52,7 @@ def main():
     for shard in range(3):
         write_jsonl(output/f'eval_{shard+1:02d}.jsonl', [{k:r[k] for k in keep} for r in raw[shard::3]])
     pool = defaultdict(list)
-    for path in sorted((ROOT/'data/chunks').glob('*.jsonl')):
+    for path in sorted(chunks_dir(TEXT_VERSION).glob('*.jsonl')):
         rid = path.stem
         company, year, *_ = rid.split('-')
         for ch in read_records(path):
