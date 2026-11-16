@@ -13,6 +13,11 @@ from pathlib import Path
 from extract_integrity import verify
 
 ROOT=Path(__file__).resolve().parents[1]
+def _rounded(x):
+ if isinstance(x,float):return round(x,10)
+ if isinstance(x,dict):return {k:_rounded(v) for k,v in x.items()}
+ if isinstance(x,list):return [_rounded(v) for v in x]
+ return x
 def main():
  p=argparse.ArgumentParser(description=__doc__)
  p.add_argument('--output-root',type=Path,required=True)
@@ -67,7 +72,9 @@ def main():
  for generated,canonical in [('evaluation','v1'),('policy_evaluation','policy_v1'),('baseline_evaluation','baseline_v1')]:
   groups=json.loads((out/generated/'metrics.json').read_text())['groups']
   reference=json.loads((ROOT/'data/extract_evaluation'/canonical/'metrics.json').read_text())['groups']
-  if groups!=reference:raise ValueError(f'Metrics differ: {generated}')
+  # 16.11.2026: сравнение с округлением до 10 знаков. На другом компьютере (другая версия Python
+  # или процессор) последняя цифра дроби может отличаться: 0,7674461365876654 и …653 — это одно число.
+  if _rounded(groups)!=_rounded(reference):raise ValueError(f'Metrics differ: {generated}')
  if hashlib.sha256((out/'repeat_v1.json').read_bytes()).hexdigest()!=expected['repeat_sha256']:raise ValueError('Repeat agreement differs')
  print('Canonical CSV/quality hashes, metric groups and repeat agreement match exactly')
  print(f'Rebuilt: {out}')

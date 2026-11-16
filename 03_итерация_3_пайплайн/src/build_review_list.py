@@ -54,7 +54,12 @@ def main() -> None:
     cols = ["№", "sentence_id", "отчёт", "страница", "что_проверить", "предложение", "контекст", "итог_заявление",
             "итог_тип", "итог_блок", "итог_тема", "итог_число", "итог_срок", "итог_флаг", "спорное_поле", "A", "B",
             "C", "Егор_согласен(да/нет)", "Егор_правильно", "комментарий"]
-    with open(ROOT / "data/gold_extract/для_Егора_проверка.csv", "w", encoding="utf-8-sig", newline="") as f:
+    # 16.11.2026: файл, который уже отдан Егору Д., не перезаписываем — повторная сборка идёт в отдельный файл.
+    out = ROOT / "data/gold_extract/для_Егора_проверка.csv"
+    if out.exists():
+        out = out.with_name("для_Егора_проверка_пересборка.csv")
+        print("для_Егора_проверка.csv уже есть (исторический), пишу в", out.name)
+    with open(out, "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(cols)
         for i, (g, why) in enumerate(pick, 1):
