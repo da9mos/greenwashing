@@ -21,6 +21,9 @@
    частая приставка составных слов (научно-, социально-, бизнес-, Санкт- …).
 3. Колонтитулы и меню: строка, которая повторяется на ≥50 % страниц отчёта (≥12 знаков), или на ≥30 %
    страниц и почти всегда стоит в первых/последних трёх строках страницы (≥8 знаков), убирается.
+5. Перенос слова с пробелом после дефиса или с неразрывным дефисом («экологиче- / ского»,
+   «штраф‑ / ных»): склеивается (дефис остаётся, если слово составное). Добавлено 16.11.2026 вечером,
+   после проверки цитат Егора К.: цитата Пигмента 2023 из-за этого не находилась в тексте.
 4. Мосводоканал 2023 и 2025 (из .txt): номер страницы бывает приклеен к концу строки после знака
    переноса (\x02), например «ско\x0268». Такие границы страниц теперь тоже распознаются.
 """
@@ -104,9 +107,13 @@ PREFIX_OK = {"научно", "социально", "бизнес", "санкт",
              "комплаенс", "фитнес", "интернет", "дизайн"}
 
 
+WORDS: Counter = Counter()   # частоты слов корпуса (заполняет build_hyphen_map)
+
+
 def build_hyphen_map(texts) -> dict[str, int]:
     """Возвращает {склеенное_слово_строчными: позиция_дефиса}."""
-    cnt = Counter()
+    cnt = WORDS
+    cnt.clear()
     for t in texts:
         cnt.update(w.lower() for w in WORD.findall(t))
     prefixes = defaultdict(set)
@@ -130,6 +137,36 @@ def build_hyphen_map(texts) -> dict[str, int]:
         if c >= jc or a in productive:
             out[joined] = len(a)
     return out
+
+
+BREAK = re.compile(r"([А-Яа-яЁё]+)[-\u2010\u2011\u00ad][ \t]*\n[ \t]*([а-яё]+)")
+
+
+def join_breaks(text: str, hmap: dict[str, int], log: Counter | None = None) -> str:
+    """Перенос слова, который parse.py v2 не убрал: после дефиса стоял пробел («экологиче- \nского»)
+    или дефис был неразрывным (U+2011, у Пигмента). Добавлено 16.11.2026 вечером.
+    Если склеенное слово — составное через дефис (есть в словаре дефисов), дефис оставляем."""
+    def rep(m):
+        a, b = m.group(1), m.group(2)
+        joined = (a + b).lower()
+        if b in ("и", "или", "либо", "а"):
+            return m.group(0).replace("\n", " ")       # «макро- и микро…»: висячий дефис, не перенос
+        if joined in hmap:
+            new = f"{a}-{b}"                         # составное слово через дефис
+        elif WORDS.get(joined, 0) >= 3:
+            new = a + b                              # обычное слово, просто перенос («функцио- нальных»)
+        elif a[-1:].lower() == "о" and len(a) >= 5 and len(b) >= 5 and WORDS.get(b.lower(), 0) >= 3:
+            new = f"{a}-{b}"                         # «экспортно-импортная»
+        elif WORDS.get(joined, 0) > 0:
+            new = a + b
+        elif a.lower() in PREFIX_OK or (len(a) >= 5 and a[-1] in "оe" and WORDS.get(a.lower(), 0) == 0):
+            new = f"{a}-{b}"                         # «бизнес-рискам», «корпоративно-правовому»
+        else:
+            new = a + b
+        if log is not None:
+            log[new.lower()] += 1
+        return new
+    return BREAK.sub(rep, text)
 
 
 def fix_hyphens(text: str, hmap: dict[str, int], log: Counter | None = None) -> str:
@@ -299,6 +336,7 @@ def main() -> None:
 
     qv2, qv3, heads_out = [], [], []
     hyph_log = Counter()
+    brk_log = Counter()
     for rid, rows in reports.items():
         old_rows = load(SRC / f"{rid}.jsonl")
         glued_old = sum(1 for r in old_rows for w in re.findall(r"[А-Яа-яЁё]+", r["text"]) if w.lower() in hmap)
@@ -311,6 +349,7 @@ def main() -> None:
         out_rows = []
         for r in rows:
             t = strip_headers(r["text"], heads)
+            t = join_breaks(t, hmap, brk_log)
             t = fix_hyphens(t, hmap, log)
             out_rows.append({"report_id": rid, "page": r["page"], "text": t, "n_chars": len(t.strip())})
         hyph_log.update(log)
@@ -339,6 +378,9 @@ def main() -> None:
               ["значок", "стало", "раз"])
     write_csv(REP / "шрифт_MAGN-2025_страницы.csv", font_pages, ["report_id", "page", "знаков_заменено"])
     print("v2:", Counter(q["verdict"] for q in qv2), "| v3:", Counter(q["verdict"] for q in qv3))
+    write_csv(REP / "переносы_с_пробелом.csv", [{"стало": a, "раз": c} for a, c in brk_log.most_common()],
+              ["стало", "раз"])
+    print("переносов с пробелом склеено:", sum(brk_log.values()))
     print("дефисов восстановлено:", sum(hyph_log.values()), "разных слов:", len(hyph_log))
 
 
