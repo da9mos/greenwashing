@@ -77,6 +77,18 @@ def main() -> None:
             t2 = norm(fix_font(t2))
             if t2 != t:
                 why.append("шрифт")
+        # перенос с пробелом («окру- жающей»): пробуем склеить и без дефиса, и с дефисом — берём то, что есть на странице
+        page_text = rep.get(page, "")
+        def join(m, keep):
+            return f"{m.group(1)}-{m.group(2)}" if keep else m.group(1) + m.group(2)
+        brk = re.compile(r"([А-Яа-яЁё]+)[-\u2010\u2011\u00ad] ([а-яё]+)")
+        if brk.search(t2):
+            cand = brk.sub(lambda m: join(m, False), t2)
+            if cand not in page_text and hyph(cand) not in page_text:
+                cand = brk.sub(lambda m: join(m, True), t2)
+            if cand != t2:
+                t2 = cand
+                why.append("перенос")
         t3 = hyph(t2)
         if t3 != t2:
             why.append("дефис")
