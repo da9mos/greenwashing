@@ -13,6 +13,9 @@ from pathlib import Path
 from extract_integrity import verify
 
 ROOT=Path(__file__).resolve().parents[1]
+# Извлечение v1 заморожено на текстах v2 и исходном эталоне: пересборка всегда берёт их,
+# какая бы версия текстов ни была действующей (src/text_versions.py).
+GOLD_V1=ROOT/'data/out/gold_extract.csv'
 def _rounded(x):
  if isinstance(x,float):return round(x,10)
  if isinstance(x,dict):return {k:_rounded(v) for k,v in x.items()}
@@ -46,7 +49,7 @@ def main():
  out.mkdir(parents=True)
  allpred=out/'eval_predictions.jsonl'
  allpred.write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in sorted(rows,key=lambda r:r['sentence_id'])),encoding='utf-8')
- subprocess.run([sys.executable,str(ROOT/'src/evaluate_extract.py'),'--predictions',str(allpred),'--output-dir',str(out/'evaluation')],check=True)
+ subprocess.run([sys.executable,str(ROOT/'src/evaluate_extract.py'),'--predictions',str(allpred),'--output-dir',str(out/'evaluation'),'--gold',str(GOLD_V1)],check=True)
  policy=[]
  for r in sorted(rows,key=lambda r:r['sentence_id']):
   r=dict(r)
@@ -55,8 +58,8 @@ def main():
   policy.append(r)
  policy_file=out/'policy_input_v1.jsonl'
  policy_file.write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in policy),encoding='utf-8')
- subprocess.run([sys.executable,str(ROOT/'src/evaluate_extract.py'),'--predictions',str(policy_file),'--output-dir',str(out/'policy_evaluation')],check=True)
- subprocess.run([sys.executable,str(ROOT/'src/evaluate_extract.py'),'--predictions',str(ROOT/'llm/baseline_extract/v1/predictions.jsonl'),'--output-dir',str(out/'baseline_evaluation')],check=True)
+ subprocess.run([sys.executable,str(ROOT/'src/evaluate_extract.py'),'--predictions',str(policy_file),'--output-dir',str(out/'policy_evaluation'),'--gold',str(GOLD_V1)],check=True)
+ subprocess.run([sys.executable,str(ROOT/'src/evaluate_extract.py'),'--predictions',str(ROOT/'llm/baseline_extract/v1/predictions.jsonl'),'--output-dir',str(out/'baseline_evaluation'),'--gold',str(GOLD_V1)],check=True)
  repeated=[json.loads(l) for l in (pred/'repeat_30.jsonl').read_text().splitlines() if l.strip()]
  original={r['sentence_id']:r for r in rows}
  fields=['is_claim','type','esg_block','topic','has_number','has_deadline']

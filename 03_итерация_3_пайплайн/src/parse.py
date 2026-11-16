@@ -11,7 +11,6 @@ v2 (12.11.2026): текст берётся в порядке потока PDF (�
 """
 import csv, json, re, sys, unicodedata
 from pathlib import Path
-import fitz  # PyMuPDF
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORTS = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data" / "reports"
@@ -38,6 +37,7 @@ def is_bad(ch):
 def parse_one(pdf, out):
     rid = pdf.stem
     rows = []
+    import fitz  # PyMuPDF; импорт здесь, чтобы normalize() работала без него (чистка v3/v4 PDF не читает)
     with fitz.open(pdf) as doc:
         for i, page in enumerate(doc, 1):
             # v2: без sort=True — иначе строки соседних колонок перемешиваются
