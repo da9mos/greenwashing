@@ -84,10 +84,10 @@ def main() -> None:
             return "исправлен текст", t3, str(page), ", ".join(why)
         if any(t3 in h for h in heads.get(rid, [])):
             return "колонтитул целиком", "", "", "предложение — это строка колонтитула, в v3 её нет"
-        hit = [h for h in heads.get(rid, []) if h and h in t3]
+        hit = sorted(h for h in heads.get(rid, []) if h and h in t3)
         if hit:
             t4 = t3
-            for h in sorted(hit, key=len, reverse=True):
+            for h in sorted(hit, key=lambda x: (-len(x), x)):
                 t4 = norm(t4.replace(h, " "))
             found = t4 in rep.get(page, "")
             return "колонтитул внутри", t4 if found else "", str(page), "убрано: " + " | ".join(hit)

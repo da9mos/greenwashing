@@ -78,7 +78,9 @@ def fix_font(text: str, log: Counter | None = None) -> str:
                 if rep.isupper() and prev.islower():
                     rep = " " + rep                    # «в̔ ральском» -> «в Уральском»
                 # шрифт ставит после буквы-значка лишний пробел или перенос строки: «̒ овета» -> «Совета»
-                if nxt in " \n" and nxt2.isalpha():
+                # но не после заглавной в конце аббревиатуры: «ОТиП́ для» -> «ОТиПБ для»
+                end_of_abbr = rep.isupper() and prev.isupper() and nxt2.islower()
+                if nxt in " \n" and nxt2.isalpha() and not end_of_abbr:
                     out.append(rep)
                     i += 2
                     continue
@@ -159,6 +161,10 @@ def header_lines(pages: list[str]) -> dict[str, int]:
     found = {}
     for l, c in occ.items():
         if not re.search(r"[А-Яа-яЁёA-Za-z]{3}", l):
+            continue
+        # Одно слово («безопасность») или название в кавычках («Норильский никель») бывают и строкой
+        # обычного текста: сверка с PDF 16.11 показала, что такие строки вырезались из середины страниц.
+        if " " not in l.strip() or l.lstrip().startswith("«"):
             continue
         if (len(l) >= 12 and c >= 0.5 * n) or (len(l) >= 8 and c >= 0.3 * n and edge[l] >= 0.8 * c):
             found[l] = c
@@ -299,7 +305,7 @@ def main() -> None:
         qv2.append(quality(rid, old_rows, glued_old))
 
         heads = header_lines([r["text"] for r in rows])
-        for l, c in sorted(heads.items(), key=lambda t: -t[1]):
+        for l, c in sorted(heads.items(), key=lambda t: (-t[1], t[0])):
             heads_out.append({"report_id": rid, "строка": l, "страниц": c, "всего_страниц": len(rows)})
         log = Counter()
         out_rows = []
