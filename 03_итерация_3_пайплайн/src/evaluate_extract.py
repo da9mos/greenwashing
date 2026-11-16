@@ -18,6 +18,15 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def _rel(p) -> str:
+    """Путь относительно папки конвейера, чтобы в metrics.json не попадал путь с чужого компьютера."""
+    p = Path(p).resolve()
+    try:
+        return str(p.relative_to(ROOT))
+    except ValueError:
+        return str(p)
 TYPES = ("обязательство", "результат", "декларация")
 NEGATIVE = "не заявление"
 CLASSES = TYPES + (NEGATIVE,)
@@ -229,7 +238,7 @@ def main() -> None:
             raise ValueError("Output exists; use a new version directory to preserve frozen results")
         document = {
             "prediction_sha256": prediction_hash, "gold_sha256": hashlib.sha256(gold_raw).hexdigest(),
-            "prediction_path": str(args.predictions), "gold_path": str(args.gold),
+            "prediction_path": _rel(args.predictions), "gold_path": _rel(args.gold),
             "definitions": {
                 "zero_division": 0,
                 "type_macro_f1": "Three types, only gold claims; missed claims are FN. All three classes always included.",
