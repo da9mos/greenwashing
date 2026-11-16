@@ -117,8 +117,10 @@ class Pages:
         a, b = idx[k], idx[k + len(lq) - 1] + 1
         q = norm(quote)
         # знаки по краям цитаты («…», точка в конце) — если на странице они стоят так же
-        lead = re.match(r"^[^\w]*", q).group(0)
-        trail = re.search(r"[^\w]*$", q).group(0)
+        # для ММК 2025 цифры в ключ не входят — их по краям цитаты добираем так же, как знаки
+        edge = r"[\W\d_]*" if rid in FONT_FIXED else r"[^\w]*"
+        lead = re.match("^" + edge, q).group(0)
+        trail = re.search(edge + "$", q).group(0)
         if lead and t[max(0, a - len(lead)):a] == lead:
             a -= len(lead)
         if trail and t[b:b + len(trail)] == trail:
