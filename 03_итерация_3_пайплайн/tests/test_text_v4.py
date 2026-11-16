@@ -276,6 +276,24 @@ class QuotesV4Tests(unittest.TestCase):
         unresolved = [r for r in rows if r["check_v4"] != "есть на странице v4"]
         self.assertLessEqual(len(unresolved), 5)
 
+    def test_numbers_not_lost(self):
+        """Цифры цитаты v2 сохраняются в v4; пропасть могут только цифры из убранного колонтитула,
+        а в ММК 2025 — «9», которой в PDF не было (это был «№»). Ловит обрезанные цитаты («100%» → «»)."""
+        heads = {}
+        for r in read_csv(REP / "колонтитулы.csv"):
+            heads.setdefault(r["report_id"], []).append(r["строка"])
+        for path, tcol in ((ROOT / "data/out/claims_text_v4.csv", "text"),
+                           (ROOT / "data/out/gold_extract_text_v4.csv", "sentence")):
+            for r in read_csv(path):
+                old = flat(r[tcol + "_v2"])
+                for h in heads.get(r["report_id"], []):
+                    old = old.replace(flat(h).strip(), " ")
+                lost = Counter(re.findall(r"\d", old)) - Counter(re.findall(r"\d", r[tcol]))
+                if r["report_id"] == "MAGN-2025-ИО":
+                    lost.pop("9", None)
+                if r["check_v4"] == "есть на странице v4":
+                    self.assertEqual(dict(lost), {}, f"{path.name}: {r['report_id']} «{old[:80]}»")
+
     def test_gold(self):
         rows = self.check(ROOT / "data/out/gold_extract_text_v4.csv", "sentence_id", "sentence",
                           len(read_csv(ROOT / "data/out/gold_extract.csv")))
