@@ -71,7 +71,19 @@ def prepare(source, run, prompt=None):
     raw = source.read_bytes()
     obj = json.loads(raw.decode('utf-8-sig'))
     rows = obj if isinstance(obj, list) else obj.get('claims', obj.get('rows'))
-    require(isinstance(rows, list) and rows, 'nonempty claims/rows array required')
+    require(isinstance(rows, list), 'claims/rows array required')
+    extraction_manifest = obj.get('manifest', {}) if isinstance(obj, dict) else {}
+    batch_ids = {b['id'] for b in extraction_manifest.get('batches', [])}
+    if batch_ids:
+        coverage = obj.get('coverage', [])
+        coverage_complete = (isinstance(coverage, list) and bool(coverage)
+                             and all(e.get('status') in {'extracted', 'excluded'} for e in coverage)
+                             and all(c.get('source_status') != 'needs_pdf_review'
+                                     and c.get('decision', {}).get('classification_status') != 'pending'
+                                     for c in rows))
+    else:
+        coverage_complete = False
+    require(isinstance(rows, list) and (rows or coverage_complete), 'claims required unless full extraction had no claims')
     ledger = []
     for i, row in enumerate(rows):
         require(isinstance(row, dict), 'claim must be object')
@@ -82,6 +94,8 @@ def prepare(source, run, prompt=None):
     prompt = Path(prompt) if prompt else HERE / 'FACT_CHECK_AGENT.md'
     prompt_bytes = prompt.read_bytes()
     plan = {'schema_version': SCHEMA, 'source_sha256': digest(raw), 'claims': ledger,
+            'report_id': extraction_manifest.get('report_id'), 'md_sha256': extraction_manifest.get('source_sha256'),
+            'extraction_coverage_complete': coverage_complete,
             'search_directions': ['support', 'contradiction'],
             'instruction': 'Researcher must specify atomic aspects, entity/period/boundary, then run both search directions. This is a queue, not completed research.'}
     files = {'input.json': raw, 'plan.json': encoded(plan), 'prompt.md': prompt_bytes}
@@ -267,6 +281,8 @@ def export(run, output, allow_partial=False):
                 for c in plan['claims']]
         summary = {'schema_version': SCHEMA, 'status': 'partial' if pending else 'research_complete',
                    'total': len(rows), 'unfinished': len(pending),
+                   'report_id': plan.get('report_id'), 'md_sha256': plan.get('md_sha256'),
+                   'extraction_coverage_complete': plan.get('extraction_coverage_complete', False),
                    'verdict_counts': dict(Counter(r['assessment']['verdict'] if r['assessment'] else 'not_researched' for r in rows)),
                    'limitation': 'Structural/provenance checks only. Reviewer judgments of independence, alignment, aspect completeness and truth are not mechanically proven. Research completion is not factual certainty or proof of greenwashing.'}
         target.mkdir(parents=True)

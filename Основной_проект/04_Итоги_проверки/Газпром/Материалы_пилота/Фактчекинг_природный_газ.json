@@ -1,0 +1,114 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "e4f08cd4234a485cfd11a71cecdb7c46d462aac4da26fa6b2cfbd04f206658e6",
+  "claim_id": "C000001",
+  "quote": "Наша страна обладает крупнейшими запасами природного газа — это самый чистый и доступный энергетический ресурс, использование которого является оптимальным способом снижения негативного воздействия на окружающую среду.",
+  "reviewer": "Codex",
+  "checked_at": "2026-11-19T00:52:12+05:00",
+  "revision": 1,
+  "research_status": "partial",
+  "reason": "МЭА сравнивает газ с углём по выбросам парниковых газов за жизненный цикл. Это сравнение не покрывает все энергоресурсы, доступность и другие экологические воздействия. Формулировка «самый чистый и доступный» расширяет сравнение без явных критериев. Утверждение о запасах требует отдельной проверки на сопоставимый год и по единому определению запасов.",
+  "verdict": "not_verifiable",
+  "target": {
+    "proposition": "Наша страна обладает крупнейшими запасами природного газа — это самый чистый и доступный энергетический ресурс, использование которого является оптимальным способом снижения негативного воздействия на окружающую среду.",
+    "entity": "Россия / природный газ",
+    "period": "unknown",
+    "boundary": "Сравниваемые энергоресурсы и стадии воздействия не указаны",
+    "assessment_object": "reported_fact"
+  },
+  "sources": [
+    {
+      "id": "IEA-2025",
+      "url": "https://www.iea.org/reports/global-methane-tracker-2025/key-findings",
+      "publisher": "International Energy Agency",
+      "origin_group": "IEA Global Methane Tracker",
+      "origin_basis": "Оригинальная публикация МЭА с собственной оценкой жизненного цикла",
+      "event_period": "2024",
+      "locator": "Key findings · lifecycle emissions comparison",
+      "content": "Nearly all of the natural gas consumed today produces fewer lifecycle greenhouse gas emissions than coal",
+      "content_sha256": "5dc65056b1d581422e2a597d55eafea7ca17577e82f585f5e6a4e03c4f6f9697",
+      "tool_ref": "web.open turn95view0, § lifecycle comparison",
+      "retrieved_at": "2026-11-19T00:52:12+05:00",
+      "publication_date": "2025-05-07",
+      "access": "excerpt",
+      "independence": "independent"
+    }
+  ],
+  "searches": [
+    {
+      "id": "Q1",
+      "query": "IEA global methane tracker natural gas life cycle emissions coal cleaner 2025 natural gas lifecycle greenhouse gas",
+      "tool": "web.search_query",
+      "tool_ref": "turn94search0",
+      "outcome_note": "Найдено сравнение с углём. Ограниченный периметр.",
+      "searched_at": "2026-11-19T00:52:12+05:00",
+      "direction": "support",
+      "status": "completed",
+      "source_ids": [
+        "IEA-2025"
+      ]
+    },
+    {
+      "id": "Q2",
+      "query": "IPCC natural gas methane lifecycle emissions coal renewable lowest emission gas AR6 mitigation electricity life cycle",
+      "tool": "web.search_query",
+      "tool_ref": "turn94search10",
+      "outcome_note": "Поиском найден контекст альтернатив, страница IPCC вернула 403. Прочитана оговорка МЭА о добыче, метане и границах сравнения.",
+      "searched_at": "2026-11-19T00:52:12+05:00",
+      "direction": "contradiction",
+      "status": "completed",
+      "source_ids": [
+        "IEA-2025"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "source_id": "IEA-2025",
+      "quote": "Nearly all of the natural gas consumed today produces fewer lifecycle greenhouse gas emissions than coal",
+      "relation": "context",
+      "reason": "Газ сравнивается только с углём.",
+      "alignment": {
+        "entity": {
+          "status": "mismatch",
+          "reason": "В отчёте Газпрома сравнение не конкретизировано. МЭА сравнивает глобальные выбросы газа и угля за жизненный цикл."
+        },
+        "period": {
+          "status": "unknown",
+          "reason": "В отчёте Газпрома сравнение не конкретизировано. МЭА сравнивает глобальные выбросы газа и угля за жизненный цикл."
+        },
+        "boundary": {
+          "status": "mismatch",
+          "reason": "В отчёте Газпрома сравнение не конкретизировано. МЭА сравнивает глобальные выбросы газа и угля за жизненный цикл."
+        },
+        "metric": {
+          "status": "mismatch",
+          "reason": "В отчёте Газпрома сравнение не конкретизировано. МЭА сравнивает глобальные выбросы газа и угля за жизненный цикл."
+        },
+        "unit": {
+          "status": "unknown",
+          "reason": "В отчёте Газпрома сравнение не конкретизировано. МЭА сравнивает глобальные выбросы газа и угля за жизненный цикл."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Россия располагает крупнейшими запасами природного газа",
+      "reason": "Ещё не проверен сопоставимый реестр запасов.",
+      "status": "unresolved",
+      "evidence_ids": []
+    },
+    {
+      "id": "A2",
+      "proposition": "Газ — самый чистый и доступный энергоресурс и оптимальный способ снижения воздействия",
+      "reason": "У сравнения нет явных метрики и набора альтернатив.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "E1"
+      ]
+    }
+  ]
+}

@@ -32,13 +32,13 @@ DeepSeek переносит содержание исходного PDF в Markd
 
 ## Локальная проверка доказательств
 
-Инструмент: `11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/tools/review_gate.py`.
+Инструмент: [review_gate.py](../review_gate.py).
 
-Из каталога `Тесты_PDF_в_MD_DeepSeek_Codex`:
+Из корня рабочей папки с оригиналом и результатом:
 
 ```sh
-python3 tools/review_gate.py _проверка/review/review.json --root . --require-checked
-python3 -m unittest discover -s tools -p test_review_gate.py -v
+python3 /путь/к/Агент/review_gate.py _проверка/review/review.json --root . --require-checked
+python3 -m unittest discover -s /путь/к/Агент -p test_review_gate.py -v
 ```
 
 Gate читает локальные файлы, не вызывает API, не изменяет отчёты и не повышает существующие статусы. Для чтения действительного числа PDF-страниц и проверки исходных изображений используется установленный PyMuPDF.
