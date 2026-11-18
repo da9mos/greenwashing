@@ -1,0 +1,11 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "status": "partial",
+  "total": 2,
+  "unfinished": 1,
+  "verdict_counts": {
+    "true": 1,
+    "not_researched": 1
+  },
+  "limitation": "Structural/provenance checks only. Reviewer judgments of independence, alignment, aspect completeness and truth are not mechanically proven. Research completion is not factual certainty or proof of greenwashing."
+}

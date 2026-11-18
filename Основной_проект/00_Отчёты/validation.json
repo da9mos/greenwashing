@@ -1,0 +1,16 @@
+{
+  "report_count": 92,
+  "company_count": 30,
+  "physical_pages": 14731,
+  "registry_commit": "5597472",
+  "registry_blob": "35326eb7d811bcc3b5a270bdb5dcc2131149eaa8",
+  "registry_verified_via": "GitHub fetch_file and identical local git blob",
+  "all_ids_match_registry": true,
+  "all_local_pdfs_opened": true,
+  "all_page_markers_in_order": true,
+  "all_page_anchors_present_and_unique": true,
+  "local_asset_links_remaining": 0,
+  "visual_references_replaced": 14793,
+  "full_content_verified": false,
+  "exceptions": []
+}

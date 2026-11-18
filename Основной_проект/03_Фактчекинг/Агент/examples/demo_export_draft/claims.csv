@@ -1,0 +1,3 @@
+﻿id;source_id;page;type;block;quote;research_status;verdict;reason
+C000001;DEMO-SYNTHETIC-1;1;;E;Emissions 10 tonnes;complete;true;Synthetic fixture only
+C000002;DEMO-SYNTHETIC-2;2;;;Pending second claim;not_researched;not_researched;Поиск ещё не выполнен

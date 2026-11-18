@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {
+      "id": "DEMO-SYNTHETIC-1",
+      "page": 1,
+      "quote": "Emissions 10 tonnes",
+      "block": "E"
+    },
+    {
+      "id": "DEMO-SYNTHETIC-2",
+      "page": 2,
+      "quote": "Pending second claim",
+      "block": ""
+    }
+  ]
+}

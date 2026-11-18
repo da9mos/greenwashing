@@ -1,0 +1,8 @@
+{
+  "base_commit": "5597472",
+  "base_agent": "v2",
+  "profile": "full ESG extraction including numeric disclosures and tables",
+  "schema_version": "esg-extraction-3.0",
+  "taxonomy_sha256": "ac46e7341ad1fa90031fa0657734d6afc06d9e738cb7eb549b99a03d3b186dfb",
+  "old_benchmark_valid_for_v3": false
+}

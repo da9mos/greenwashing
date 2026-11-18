@@ -1,0 +1,143 @@
+{
+  "claims": [
+    {
+      "id": "C000001",
+      "source_id": "DEMO-SYNTHETIC-1",
+      "input_index": 0,
+      "quote": "Emissions 10 tonnes",
+      "original": {
+        "id": "DEMO-SYNTHETIC-1",
+        "page": 1,
+        "quote": "Emissions 10 tonnes",
+        "block": "E"
+      },
+      "assessment": {
+        "schema_version": "esg-factcheck-1.0",
+        "source_sha256": "937dab73bfa7911faf1ed9c8b4c3f58491a3f6013e70c2c347d571454d5ec1bc",
+        "claim_id": "C000001",
+        "quote": "Emissions 10 tonnes",
+        "revision": 1,
+        "reviewer": "synthetic-test-reviewer",
+        "checked_at": "2026-11-19T09:00:00+05:00",
+        "research_status": "complete",
+        "verdict": "true",
+        "reason": "Synthetic fixture only",
+        "target": {
+          "proposition": "Emissions 10 tonnes",
+          "entity": "Test Co",
+          "period": "2023",
+          "boundary": "one plant",
+          "assessment_object": "reported_fact"
+        },
+        "source_review": {
+          "status": "verified",
+          "method": "synthetic fixture",
+          "locator": "fixture:1"
+        },
+        "aspect_coverage_confirmed": true,
+        "aspect_coverage_reason": "One numerical claim in fixture",
+        "searches": [
+          {
+            "id": "q1",
+            "query": "synthetic supporting query",
+            "direction": "support",
+            "tool": "fixture",
+            "tool_ref": "fixture:q1",
+            "searched_at": "2026-11-19T08:00:00+05:00",
+            "status": "completed",
+            "source_ids": [
+              "s1"
+            ],
+            "outcome_note": "synthetic hit"
+          },
+          {
+            "id": "q2",
+            "query": "synthetic opposing query",
+            "direction": "contradiction",
+            "tool": "fixture",
+            "tool_ref": "fixture:q2",
+            "searched_at": "2026-11-19T08:01:00+05:00",
+            "status": "completed",
+            "source_ids": [],
+            "outcome_note": "synthetic zero hits"
+          }
+        ],
+        "sources": [
+          {
+            "id": "s1",
+            "url": "https://example.org/synthetic",
+            "publisher": "synthetic",
+            "origin_group": "independent lab",
+            "origin_basis": "synthetic independent measurement fixture",
+            "publication_date": "2024-01-01",
+            "event_period": "2023",
+            "locator": "fixture paragraph1",
+            "content": "Synthetic independent measurement: emissions were 10 tonnes in 2023.",
+            "content_sha256": "087f5ff659319e7c2a9c9cb204f3e29ef490c089944259773038b8bad47e4e76",
+            "tool_ref": "fixture:open1",
+            "retrieved_at": "2026-11-19T08:02:00+05:00",
+            "access": "excerpt",
+            "independence": "independent"
+          }
+        ],
+        "evidence": [
+          {
+            "id": "e1",
+            "source_id": "s1",
+            "quote": "emissions were 10 tonnes in 2023.",
+            "relation": "supports",
+            "reason": "fixture measurement",
+            "alignment": {
+              "entity": {
+                "status": "matched",
+                "reason": "synthetic exact match"
+              },
+              "period": {
+                "status": "matched",
+                "reason": "synthetic exact match"
+              },
+              "boundary": {
+                "status": "matched",
+                "reason": "synthetic exact match"
+              },
+              "metric": {
+                "status": "matched",
+                "reason": "synthetic exact match"
+              },
+              "unit": {
+                "status": "matched",
+                "reason": "synthetic exact match"
+              }
+            }
+          }
+        ],
+        "aspects": [
+          {
+            "id": "a1",
+            "proposition": "10 tonnes",
+            "status": "supported",
+            "evidence_ids": [
+              "e1"
+            ],
+            "reason": "fixture"
+          }
+        ]
+      },
+      "research_status": "complete"
+    },
+    {
+      "id": "C000002",
+      "source_id": "DEMO-SYNTHETIC-2",
+      "input_index": 1,
+      "quote": "Pending second claim",
+      "original": {
+        "id": "DEMO-SYNTHETIC-2",
+        "page": 2,
+        "quote": "Pending second claim",
+        "block": ""
+      },
+      "assessment": null,
+      "research_status": "not_researched"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "937dab73bfa7911faf1ed9c8b4c3f58491a3f6013e70c2c347d571454d5ec1bc",
+  "claims": [
+    {
+      "id": "C000001",
+      "source_id": "DEMO-SYNTHETIC-1",
+      "input_index": 0,
+      "quote": "Emissions 10 tonnes",
+      "original": {
+        "id": "DEMO-SYNTHETIC-1",
+        "page": 1,
+        "quote": "Emissions 10 tonnes",
+        "block": "E"
+      }
+    },
+    {
+      "id": "C000002",
+      "source_id": "DEMO-SYNTHETIC-2",
+      "input_index": 1,
+      "quote": "Pending second claim",
+      "original": {
+        "id": "DEMO-SYNTHETIC-2",
+        "page": 2,
+        "quote": "Pending second claim",
+        "block": ""
+      }
+    }
+  ],
+  "search_directions": [
+    "support",
+    "contradiction"
+  ],
+  "instruction": "Researcher must specify atomic aspects, entity/period/boundary, then run both search directions. This is a queue, not completed research."
+}
