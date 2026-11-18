@@ -1,0 +1,159 @@
+{
+  "version": "3.1",
+  "sources": {
+    "GILLAN2021": {
+      "title": "Firms and social responsibility: A review of ESG and CSR research in corporate finance",
+      "url": "https://doi.org/10.1016/j.jcorpfin.2021.101889",
+      "kind": "journal_review",
+      "read_scope": "publisher introduction and abstract; author version located",
+      "use": "ESG umbrella terminology; not a sentence annotation standard"
+    },
+    "BERG2022": {
+      "title": "Aggregate Confusion: The Divergence of ESG Ratings",
+      "url": "https://revfin.org/aggregate-confusion-the-divergence-of-esg-ratings/",
+      "doi": "10.1093/rof/rfac033",
+      "kind": "journal_author_summary",
+      "read_scope": "journal research summary; publisher DOI failed in this verification",
+      "use": "scope and measurement disagreement; no universal statement-level gold"
+    },
+    "CLAIM2023": {
+      "title": "Environmental Claim Detection",
+      "url": "https://aclanthology.org/2023.acl-short.91/",
+      "kind": "peer_reviewed_conference",
+      "read_scope": "ACL abstract and full paper checked separately",
+      "use": "distinguish detecting a claim from verifying it; E-only benchmark, not full ESG"
+    },
+    "ESRS2023": {
+      "title": "ESRS 1, Appendix A, AR16, 2023 snapshot",
+      "url": "https://knowledgehub.efrag.org/eng/interactive/esrs-set-1/esrs-1-general-requirements/2023-07-31-da/22",
+      "kind": "standard_snapshot",
+      "read_scope": "topic table AR16",
+      "use": "E1–E5, S1–S4, G1; chosen fixed reference, not a claim about latest applicable law"
+    },
+    "SASB2023": {
+      "title": "IFRS Foundation: SASB Standards, WSS2023, slide 8",
+      "url": "https://www.ifrs.org/content/dam/ifrs/meetings/2023/september/wss/breakout-sasb-standards.pdf",
+      "kind": "standard_setter_presentation",
+      "read_scope": "slide 8 sustainability topics",
+      "use": "five dimensions; privacy and data security social capital; mapping to three letters is our choice"
+    },
+    "OECD2023": {
+      "title": "G20/OECD Principles of Corporate Governance 2023, About the Principles",
+      "url": "https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report/component-3.html",
+      "kind": "principles",
+      "read_scope": "definition of corporate governance and responsibilities framework",
+      "use": "management/board/shareholder/stakeholder relationships and accountability"
+    },
+    "GRI2021": {
+      "title": "GRI 1: Foundation 2021, introduction and key concepts",
+      "url": "https://www.globalreporting.org/publications/documents/english/gri-1-foundation-2021/",
+      "kind": "standard",
+      "read_scope": "impact definition",
+      "use": "impacts on economy, environment, people and human rights; GRI economic topics do not all map to G"
+    },
+    "G12023": {
+      "title": "ESRS G1 Business conduct, 2023 snapshot, objective §§1–2",
+      "url": "https://www.efrag.org/sites/default/files/sites/webpublishing/SiteAssets/ESRS%20G1%20Delegated-act-2023-5303-annex-1_en.pdf",
+      "kind": "standard_snapshot",
+      "read_scope": "objective and disclosure headings",
+      "use": "ethics, bribery, suppliers/payment practices, political influence; G1 is not all governance"
+    }
+  },
+  "inclusion_rules": {
+    "I1": {
+      "description": "Субъект сообщает о совершённом действии, текущем состоянии, результате или воздействии в E/S/G; знак результата не влияет"
+    },
+    "I2": {
+      "description": "Будущая цель, обязательство или намерение в E/S/G, даже без числа и срока"
+    },
+    "I3": {
+      "description": "Публичный принцип, ценность или позиция по E/S/G; отсутствие измеримости не исключает декларацию"
+    },
+    "I4": {
+      "description": "Количественное ESG-раскрытие, включая таблицу: показатель+значение с контекстом; неполный контекст требует проверки"
+    }
+  },
+  "classification_rules": {
+    "E1": {
+      "block": "E",
+      "description": "Утверждение о природе: воздействие, зависимость, экологический результат, цель или содержательная экологическая практика",
+      "source_refs": [
+        "ESRS2023",
+        "GRI2021"
+      ]
+    },
+    "E2": {
+      "block": "E",
+      "description": "Экологический риск/возможность и адаптация как предмет утверждения; факт наличия органа контроля отделять в G",
+      "source_refs": [
+        "ESRS2023",
+        "SASB2023"
+      ]
+    },
+    "S1": {
+      "block": "S",
+      "description": "Работники/подрядчики: труд, здоровье, безопасность, права, зарплата, обучение",
+      "source_refs": [
+        "ESRS2023",
+        "SASB2023"
+      ]
+    },
+    "S2": {
+      "block": "S",
+      "description": "Затронутые сообщества, права человека, социальные программы, доступ к услугам",
+      "source_refs": [
+        "ESRS2023",
+        "GRI2021"
+      ]
+    },
+    "S3": {
+      "block": "S",
+      "description": "Потребители: безопасность, качество, доступность, маркетинг, приватность и ущерб людям от использования данных",
+      "source_refs": [
+        "ESRS2023",
+        "SASB2023"
+      ]
+    },
+    "G1": {
+      "block": "G",
+      "description": "Органы, подотчётность, права акционеров, независимость, контроль и политика вознаграждения руководства",
+      "source_refs": [
+        "OECD2023"
+      ]
+    },
+    "G2": {
+      "block": "G",
+      "description": "Этика, антикоррупция, конкуренция, конфликты интересов, налоги, лоббирование, закупочные и платёжные процедуры",
+      "source_refs": [
+        "G12023",
+        "OECD2023"
+      ]
+    },
+    "G3": {
+      "block": "G",
+      "description": "Процесс управления рисками/ESG, контроль, ответственность, раскрытие и заверение; не замещает предмет E/S",
+      "source_refs": [
+        "OECD2023",
+        "G12023"
+      ]
+    }
+  },
+  "exclusion_rules": {
+    "X1": {
+      "description": "Техническая разметка, контакты, самостоятельный заголовок/оглавление без собственной ESG-пропозиции"
+    },
+    "X2": {
+      "description": "Абстрактный закон, стандарт или описание чужого процесса без собственной практики/позиции компании"
+    },
+    "X3": {
+      "description": "Обычный финансовый/операционный показатель без ESG-предмета"
+    },
+    "X4": {
+      "description": "Приветствие, художественный фрагмент или иной связный текст без ESG-утверждения"
+    },
+    "X5": {
+      "description": "Критерий/вопрос анкеты без ответа компании; собственный ответ и объяснение извлекать отдельно"
+    }
+  },
+  "scientific_status": "Project operational definition grounded in research and fixed standards; not universal scientific consensus or legal compliance certification"
+}
