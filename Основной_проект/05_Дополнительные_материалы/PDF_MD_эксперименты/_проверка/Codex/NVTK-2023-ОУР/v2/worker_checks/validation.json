@@ -1,0 +1,15 @@
+{
+  "physical_pages": 138,
+  "page_order_valid": true,
+  "local_assets": 138,
+  "missing_references": [],
+  "html_tables": 48,
+  "report_sha256": "6c0846f4a7d107128d44b74c850c3f211c7e33ecbd3c07b33d403e5587df22c6",
+  "review_status_counts": {
+    "checked": 1,
+    "pending": 137
+  },
+  "browser_render": "unavailable: local Chrome launch terminated (SIGABRT / EPERM); not retried",
+  "rendered_preview": "_проверка/preview.html",
+  "source_and_image_checksums_verified": true
+}

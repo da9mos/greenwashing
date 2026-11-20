@@ -1,0 +1,227 @@
+{
+  "GAZP-2023-ОУР_57": {
+    "before_sha256": "a3bd533cfc4266912e6bcd165af48d41e319ecd63bc60fbda97b01d8a5efc931",
+    "after_sha256": "a3bd533cfc4266912e6bcd165af48d41e319ecd63bc60fbda97b01d8a5efc931",
+    "changed_by_codex": false,
+    "raw_sha256": "2fcd8c60341f99b1cd0a05c2d462fc73e70f6001df42e6152dab82ad6b7f01de",
+    "render": {
+      "report_sha256": "a3bd533cfc4266912e6bcd165af48d41e319ecd63bc60fbda97b01d8a5efc931",
+      "anchors": 1,
+      "tables": 4,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "GAZP-2025-ОУР_75": {
+    "before_sha256": "0821618d7366f3d43cbd2948b2c75f269695b21fa58bd5d026720ee6bf5127c1",
+    "after_sha256": "0821618d7366f3d43cbd2948b2c75f269695b21fa58bd5d026720ee6bf5127c1",
+    "changed_by_codex": false,
+    "raw_sha256": "d78896b8a4adb991f045da303cb8328d38a78ecd17db4ce877beff5b6319a080",
+    "render": {
+      "report_sha256": "0821618d7366f3d43cbd2948b2c75f269695b21fa58bd5d026720ee6bf5127c1",
+      "anchors": 2,
+      "tables": 3,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "GAZP-2025-ОУР_109": {
+    "before_sha256": "2a0098b8bd62056a4dc6419aefeb8d0d62a2c567929ccc861ddc51ce1bf84f15",
+    "after_sha256": "2a0098b8bd62056a4dc6419aefeb8d0d62a2c567929ccc861ddc51ce1bf84f15",
+    "changed_by_codex": false,
+    "raw_sha256": "e4a88ad7918aa76def08fa621e1765a5bc0b5d163dbb58ea5f0a3658fa5fb322",
+    "render": {
+      "report_sha256": "2a0098b8bd62056a4dc6419aefeb8d0d62a2c567929ccc861ddc51ce1bf84f15",
+      "anchors": 1,
+      "tables": 1,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "GAZP-2023-ЭО_76": {
+    "before_sha256": "7c7112f754a3eae72ad2e36a6e1744097b5519bb183d89893034b4c85f61ac05",
+    "after_sha256": "41764fd4a67aebcb4aaae1964933399b006c62d4ced610d66c5872b3a70ffc35",
+    "changed_by_codex": true,
+    "raw_sha256": "c74821c8866150d9b7eba2c4cc08b09b4c7a191e693898bff9202e1d7fec4930",
+    "render": {
+      "report_sha256": "41764fd4a67aebcb4aaae1964933399b006c62d4ced610d66c5872b3a70ffc35",
+      "anchors": 1,
+      "tables": 3,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "TRMK-2023-ИО_4": {
+    "before_sha256": "631e905aca075b5671a3d28ca1fc5cdb46fb33d017defcc0d72bf41dead93022",
+    "after_sha256": "256caa4acb95a8a117c2463468e5ed730e7682e17a349f318694da5085bbb62e",
+    "changed_by_codex": true,
+    "raw_sha256": "b4d3a30f8d00d397c60ccfcd658f7fb41bae2dbd0c80b1c43b75769ea3b731ac",
+    "render": {
+      "report_sha256": "256caa4acb95a8a117c2463468e5ed730e7682e17a349f318694da5085bbb62e",
+      "anchors": 1,
+      "tables": 0,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "GAZP-2023-ОУР_92": {
+    "before_sha256": "544bc46ebdc09ec01d569e31f5f5c77954c0991320c4c198cc73197f36941741",
+    "after_sha256": "4bbf22f30187a74233e30b656e235c9a96bc249109d66947a3932ad1abafbcd3",
+    "changed_by_codex": true,
+    "raw_sha256": "b6f7858aa02c30a286576af1a19d9602995bc86bf6b8153f25e5c03aa422a3bf",
+    "render": {
+      "report_sha256": "4bbf22f30187a74233e30b656e235c9a96bc249109d66947a3932ad1abafbcd3",
+      "anchors": 1,
+      "tables": 1,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "GAZP-2024-ОУР_113": {
+    "before_sha256": "889fb0ab165551c2bc39a5adcdea6ec6636c393a84392fcacbd0a5b3f1f467c6",
+    "after_sha256": "889fb0ab165551c2bc39a5adcdea6ec6636c393a84392fcacbd0a5b3f1f467c6",
+    "changed_by_codex": false,
+    "raw_sha256": "5a94eca6b164fdfd7110a6203587c8c4f204b9abc37f45cc5b7da6eb2cec5b7d",
+    "render": {
+      "report_sha256": "889fb0ab165551c2bc39a5adcdea6ec6636c393a84392fcacbd0a5b3f1f467c6",
+      "anchors": 1,
+      "tables": 1,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "LKOH-2023-ОУР_15": {
+    "before_sha256": "d9ce259d845e5e3ed1a881c36a90f17bef3137a4f5ad9a4c09c1699caad47600",
+    "after_sha256": "d9ce259d845e5e3ed1a881c36a90f17bef3137a4f5ad9a4c09c1699caad47600",
+    "changed_by_codex": false,
+    "raw_sha256": "ec2587a9b12350169c6b3df23b1d378633f0c3d5ee0afd07b3b8e42684c9458b",
+    "render": {
+      "report_sha256": "d9ce259d845e5e3ed1a881c36a90f17bef3137a4f5ad9a4c09c1699caad47600",
+      "anchors": 1,
+      "tables": 2,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  },
+  "LKOH-2023-ОУР_98": {
+    "before_sha256": "c91026dc43f8f1b62aeec71e9f3be086e33b61239a8573576bf7ba59e7fbbf9b",
+    "after_sha256": "c91026dc43f8f1b62aeec71e9f3be086e33b61239a8573576bf7ba59e7fbbf9b",
+    "changed_by_codex": false,
+    "raw_sha256": "415e445a4b17254c4ebc83b5b9dab81acb1beed009149752268962500b73db92",
+    "render": {
+      "report_sha256": "c91026dc43f8f1b62aeec71e9f3be086e33b61239a8573576bf7ba59e7fbbf9b",
+      "anchors": 1,
+      "tables": 2,
+      "images": 1,
+      "missing_images": [],
+      "widths": [
+        {
+          "width": 1440,
+          "document_overflow": false
+        },
+        {
+          "width": 390,
+          "document_overflow": false
+        }
+      ],
+      "scope": "Browser rendering; not full source content review"
+    },
+    "full_page_checked": false
+  }
+}

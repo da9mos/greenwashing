@@ -1,0 +1,6 @@
+{
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "bytes": 46016,
+  "basis": "full baseline plus observed regression rules, not size target",
+  "run_state": "new_full_pilot_required"
+}

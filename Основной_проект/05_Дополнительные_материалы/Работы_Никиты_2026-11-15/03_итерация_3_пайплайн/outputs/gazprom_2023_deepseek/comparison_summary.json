@@ -1,0 +1,17 @@
+{
+  "compared_pages": 220,
+  "expected_pages": 220,
+  "all_char_diffs_reconstruct_candidate": true,
+  "comparison_metric": "Exact Unicode character alignment + raw Levenshtein distance; difference is not proof of error or accuracy",
+  "initial_version_preserved": true,
+  "numeric_difference_pages": 187,
+  "baseline_hashes": {
+    "social": "e4e2ad44646819674fce03833e3e15477e2506bce9154cae04743b4d5c02a8e3",
+    "environment": "3266f34aef76d8f9a46f561659ac8a42c62a47a5cd60d0a8fda5886fdd25289f"
+  },
+  "changed_selected_pages": [
+    "social:57",
+    "environment:19",
+    "environment:24"
+  ]
+}

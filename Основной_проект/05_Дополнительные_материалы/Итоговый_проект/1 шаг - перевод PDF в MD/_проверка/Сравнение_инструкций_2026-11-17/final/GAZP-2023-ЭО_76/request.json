@@ -1,0 +1,34 @@
+{
+  "version": "instruction-ab-final-20261117",
+  "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "system_sha256": "ae30b323d6cb66ec168cafbce24bc57ded35344ee93bfae72300ad95f8fe7ebe",
+  "input_sha256": "3529190f32aee41b9ae3f91c22d220d70ab7993575a5f10d47822be575e5aef6",
+  "input_text_sha256": "bac283ea1b1036ec9f1e163e136a3a53a57bd1c771bc9a4a15277a87f5f80488",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/GAZP-2023-ЭО/page_0076_full.png",
+      "sha256": "de090b15f687495df1f687fe9fac7c878a61ec4788c7e468f82950febf14c2ea"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_76/source_regions/top_left.png",
+      "sha256": "44459f24188062fe8052f0736c8158c7b00fb1b3ff094b725e410194ed3b181e"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_76/source_regions/top_right.png",
+      "sha256": "027beaa5e9e7f780fe3d4266d2192407e5d6e0cb46766b2b2f91bb17320a8e10"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_76/source_regions/bottom_left.png",
+      "sha256": "f6a22db1f71ec755940563cac2aa741581de6be348473e4fa11298db7c9d873c"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_76/source_regions/bottom_right.png",
+      "sha256": "36bcabe61aae624232fc5323b5a8e98d24e520e2b36571a97e985dcf7ad3843e"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

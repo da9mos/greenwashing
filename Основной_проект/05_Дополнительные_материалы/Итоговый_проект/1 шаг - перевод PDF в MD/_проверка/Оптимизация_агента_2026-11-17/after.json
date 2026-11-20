@@ -1,0 +1,11 @@
+{
+  "master_sha256": "402ca33babc5594c47fc32686e9fdf434d9b7ede50217c74723f01d68fe58873",
+  "master_bytes": 18393,
+  "previous_master_bytes": 39736,
+  "run_state": "prepared_not_activated",
+  "deepseek_pilot_run": false,
+  "codex_forward_test": "one existing page, partial, no full-page checked",
+  "tests": 139,
+  "frozen_v4_1_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+  "old_master_preserved": true
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-17",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Агент",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_boolean_page_rejected (test_assess_claims.EvidenceGateTests.test_boolean_page_rejected) ... ok\ntest_changed_source_rejected (test_assess_claims.EvidenceGateTests.test_changed_source_rejected) ... ok\ntest_comparable_evidence_contract_accepted (test_assess_claims.EvidenceGateTests.test_comparable_evidence_contract_accepted) ... ok\ntest_conflicting_evidence_rejected (test_assess_claims.EvidenceGateTests.test_conflicting_evidence_rejected) ... ok\ntest_duplicate_id_rejected (test_assess_claims.EvidenceGateTests.test_duplicate_id_rejected) ... ok\ntest_empty_quote_rejected (test_assess_claims.EvidenceGateTests.test_empty_quote_rejected) ... ok\ntest_invalid_calendar_date_rejected (test_assess_claims.EvidenceGateTests.test_invalid_calendar_date_rejected) ... ok\ntest_missing_evidence_rejected (test_assess_claims.EvidenceGateTests.test_missing_evidence_rejected) ... ok\ntest_nonobject_root_rejected (test_assess_claims.EvidenceGateTests.test_nonobject_root_rejected) ... ok\ntest_open_assessment_valid (test_assess_claims.EvidenceGateTests.test_open_assessment_valid) ... ok\ntest_result_not_declaration_when_evidence_missing (test_assess_claims.EvidenceGateTests.test_result_not_declaration_when_evidence_missing) ... ok\ntest_same_source_cannot_be_independent (test_assess_claims.EvidenceGateTests.test_same_source_cannot_be_independent) ... ok\ntest_self_report_is_not_independent (test_assess_claims.EvidenceGateTests.test_self_report_is_not_independent) ... ok\ntest_unreviewed_evidence_rejected (test_assess_claims.EvidenceGateTests.test_unreviewed_evidence_rejected) ... ok\ntest_wrong_evidence_dimensions_rejected (test_assess_claims.EvidenceGateTests.test_wrong_evidence_dimensions_rejected) ... ok\ntest_wrong_page_rejected (test_assess_claims.EvidenceGateTests.test_wrong_page_rejected) ... ok\ntest_wrong_quote_rejected (test_assess_claims.EvidenceGateTests.test_wrong_quote_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.008s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Агент/assess_claims.py",
+        "validate",
+        "--report",
+        "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/Результаты работы/Газпром 2023 - экологический отчёт/report.md",
+        "--assessment",
+        "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Пример/Газпром_2023_три_типа.json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"valid\",\n  \"claims\": 3,\n  \"errors\": [],\n  \"check_scope\": \"source integrity and evidence contract; not independent semantic truth verification\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "prepare",
+        "real_report",
+        "temporary_packet"
+      ],
+      "exit_code": 0,
+      "physical_pages": 84,
+      "status": "prepared_not_assessed"
+    }
+  ],
+  "csv_rows": 3,
+  "csv_bom": true,
+  "quote_visual_pages": [
+    7,
+    14,
+    37
+  ],
+  "source_sha256": "c9b0f1a7c1215b55ae71e2bab071906fd389a99120371c0092d00c51544719a7"
+}

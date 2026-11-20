@@ -1,0 +1,34 @@
+[
+  {
+    "path": "tile_390_000.png",
+    "requested_y": 0,
+    "actual_y": 0
+  },
+  {
+    "path": "tile_390_001.png",
+    "requested_y": 900,
+    "actual_y": 900
+  },
+  {
+    "path": "tile_390_002.png",
+    "requested_y": 1800,
+    "actual_y": 1781
+  },
+  {
+    "path": "tile_390_003.png",
+    "requested_y": 2700,
+    "actual_y": 1781
+  },
+  {
+    "path": "table_x0_390_0_000.png",
+    "table": 0,
+    "scroll_left": 0,
+    "actual_y": 400
+  },
+  {
+    "path": "table_x295_390_0_000.png",
+    "table": 0,
+    "scroll_left": 295,
+    "actual_y": 400
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "report_id": "ALRS-2023-ОУР",
+    "report_sha256": "a2e711acd488d25c085abb3fc968792f568692e103f38fc5df219e631daca40c",
+    "page_anchors": 170,
+    "expected_pages": 170,
+    "tables_rendered": 87,
+    "image_references": 170,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "ALRS-2024-ОУР",
+    "report_sha256": "8a3ad9862f610821019c8cf147f802fe00299712780fae40bac547ef177b0917",
+    "page_anchors": 189,
+    "expected_pages": 189,
+    "tables_rendered": 86,
+    "image_references": 189,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "ALRS-2025-ОУР",
+    "report_sha256": "fd37a37f7b33322b0681cf76e6f2df8af638c4332f78b1f03359adbed43c1e28",
+    "page_anchors": 247,
+    "expected_pages": 247,
+    "tables_rendered": 136,
+    "image_references": 247,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "GAZP-2023-ЭО",
+    "report_sha256": "b5017816283efd9020038782b28f015581754ff862ae2c9ef92a7ce78c7a8489",
+    "page_anchors": 84,
+    "expected_pages": 84,
+    "tables_rendered": 42,
+    "image_references": 84,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MAGN-2023-ИО",
+    "report_sha256": "b6852ec6918dc66d4b6771297f1451d3fc9bb91003a37b762db34d3af74774dc",
+    "page_anchors": 242,
+    "expected_pages": 242,
+    "tables_rendered": 155,
+    "image_references": 242,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MAGN-2024-ИО",
+    "report_sha256": "2cb1fe56a4e2f9d27063bf0ffe64ae228b98f7ce828b48920fd43224613c3245",
+    "page_anchors": 329,
+    "expected_pages": 329,
+    "tables_rendered": 200,
+    "image_references": 329,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MAGN-2025-ИО",
+    "report_sha256": "c4e02435682039ca258b043df829569c7daa82ad3b730f3149821bbeaffd9ed6",
+    "page_anchors": 378,
+    "expected_pages": 378,
+    "tables_rendered": 199,
+    "image_references": 378,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MINV-2023-ОУР",
+    "report_sha256": "fe3a68cd11f556bc6431b832f1e7afa6f99e1fabe62ab11026522fed20c6a62d",
+    "page_anchors": 158,
+    "expected_pages": 158,
+    "tables_rendered": 90,
+    "image_references": 158,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MINV-2024-ОУР",
+    "report_sha256": "e2ab9729343d870623383eb11c7ea7658a90ceb29626d668e2ef0435abe65604",
+    "page_anchors": 162,
+    "expected_pages": 162,
+    "tables_rendered": 97,
+    "image_references": 162,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MINV-2025-ОУР",
+    "report_sha256": "5ff401e028a82d342bcaea9be212e3fcdbee2e06c8e730b79e2a73b6327057be",
+    "page_anchors": 188,
+    "expected_pages": 188,
+    "tables_rendered": 112,
+    "image_references": 188,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MTLR-2023-ОУР",
+    "report_sha256": "74395264cf25343573b7e8bcf004b39fcd2e31a38a5c784c4378f46fda42ba07",
+    "page_anchors": 98,
+    "expected_pages": 98,
+    "tables_rendered": 88,
+    "image_references": 98,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MTLR-2024-ОУР",
+    "report_sha256": "28533a29c5fb333d49b44b251a269f0c096cfd7c2f1629135c83a74869fc01e9",
+    "page_anchors": 133,
+    "expected_pages": 133,
+    "tables_rendered": 64,
+    "image_references": 133,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MTLR-2025-ГО",
+    "report_sha256": "266ce0b0f2c0009ff762a4c69f7c64afec96715eaf0e5349aec97641cb5b7777",
+    "page_anchors": 69,
+    "expected_pages": 69,
+    "tables_rendered": 29,
+    "image_references": 69,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "MTLR-2025-ОУР",
+    "report_sha256": "1913ab4e5f0e21c0a4c6ec4287f214c070374baa98d77935abb2fe456c317389",
+    "page_anchors": 164,
+    "expected_pages": 164,
+    "tables_rendered": 66,
+    "image_references": 164,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "NLMK-2023-ОУР",
+    "report_sha256": "624b08593ef8be542a8be9fa1feafc36f6872eed0e09fb9e07572d9dac14c56b",
+    "page_anchors": 96,
+    "expected_pages": 96,
+    "tables_rendered": 49,
+    "image_references": 96,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "NLMK-2024-ИО",
+    "report_sha256": "27d39f832c7db4d4c1bd8ba7f139787c8dd2c02c1176f842fd0eed15653bb511",
+    "page_anchors": 172,
+    "expected_pages": 172,
+    "tables_rendered": 107,
+    "image_references": 172,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "NLMK-2025-ИО",
+    "report_sha256": "fc87d224ccf04242bafd16e6e97c5e8bce0090ad039f4c8fbd5c4d9802c0870e",
+    "page_anchors": 139,
+    "expected_pages": 139,
+    "tables_rendered": 102,
+    "image_references": 139,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "ROSN-2024-ОУР",
+    "report_sha256": "af77a420929fdb8f7b0a5ecd3fbe4353ef9f947d179cc1e72716831d49338f24",
+    "page_anchors": 135,
+    "expected_pages": 135,
+    "tables_rendered": 68,
+    "image_references": 135,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "ROSN-2025-ИО",
+    "report_sha256": "a0caa80ced963560894bddfdd9744d907786a237c2cdc40114d70df04901f7eb",
+    "page_anchors": 68,
+    "expected_pages": 68,
+    "tables_rendered": 18,
+    "image_references": 68,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "TATN-2023-ИО",
+    "report_sha256": "ba8394c31a4295ff1359784e6af5ba55e0932a988c691157f3805e4be070e054",
+    "page_anchors": 172,
+    "expected_pages": 172,
+    "tables_rendered": 113,
+    "image_references": 170,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "TATN-2024-ИО",
+    "report_sha256": "7272fc4bfe05a14aca0d57d89f181c2e90792dc752a0af824afc89d33b45b77a",
+    "page_anchors": 200,
+    "expected_pages": 200,
+    "tables_rendered": 168,
+    "image_references": 200,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "TATN-2025-ИО",
+    "report_sha256": "0e2b4f7cc106381a9ad150be99302b9d8ac5b9366836bb3d7571781b48ebb82d",
+    "page_anchors": 258,
+    "expected_pages": 258,
+    "tables_rendered": 220,
+    "image_references": 258,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "TRNF-2023-ИО",
+    "report_sha256": "acb283c2f4b7bc953dbd3e23a5fdf9284f0e95b6213a6c2a6f34e86ba8c92038",
+    "page_anchors": 343,
+    "expected_pages": 343,
+    "tables_rendered": 228,
+    "image_references": 343,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "TRNF-2024-ИО",
+    "report_sha256": "edd6242a275e47340c448d013dba2925974aec191f18045259fd8b83245233fd",
+    "page_anchors": 303,
+    "expected_pages": 303,
+    "tables_rendered": 195,
+    "image_references": 303,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  },
+  {
+    "report_id": "TRNF-2025-ИО",
+    "report_sha256": "26c7d554e593355b9743a83e210012ee2932226e77b0f514c248dc07fca79757",
+    "page_anchors": 190,
+    "expected_pages": 190,
+    "tables_rendered": 120,
+    "image_references": 190,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete saved MD parsed and browser-rendered; two viewport layouts tested. This does not verify every source object or reading order."
+  }
+]

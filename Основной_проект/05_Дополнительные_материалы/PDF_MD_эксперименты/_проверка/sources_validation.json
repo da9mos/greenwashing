@@ -1,0 +1,679 @@
+{
+  "verified_utc": "2026-11-15T20:54:15.927613+00:00",
+  "reports": 92,
+  "companies": 30,
+  "pdf_pages": 14731,
+  "bytes": 1805739899,
+  "historical_sha_matches": 89,
+  "without_historical_sha": [
+    "MVDK-2023-ГО",
+    "MVDK-2024-ГО",
+    "MVDK-2025-ГО"
+  ],
+  "all_pdf_parse_valid": true,
+  "all_manifest_hashes_equal": true,
+  "all_expected_year_in_first8": true,
+  "prior_cache_pagination_differences": [
+    {
+      "report_id": "MVDK-2023-ГО",
+      "previous_cached_pages": 179,
+      "current_pdf_pages": 190
+    },
+    {
+      "report_id": "MVDK-2025-ГО",
+      "previous_cached_pages": 203,
+      "current_pdf_pages": 211
+    }
+  ],
+  "checks": [
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+      "pages": 136,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "pages": 84,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+      "pages": 150,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "pages": 152,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "IRKN-2023-ИО",
+      "sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01",
+      "pages": 143,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "IRKN-2024-ИО",
+      "sha256": "d2985b5cc1b191cce33986df175a6e8fc1adea7d550c4c18d54c80fcd46dc71a",
+      "pages": 149,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "IRKN-2025-ИО",
+      "sha256": "228fab7a40864742381af6d43d8341517e52de6ad5377e9b77b931140c83f1da",
+      "pages": 206,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+      "pages": 115,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "LKOH-2024-ОУР",
+      "sha256": "00a2f35cf5f6476b2d335704bfc3a1ab4103a7ee149de03c8dc963753049f22c",
+      "pages": 116,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "LKOH-2025-ОУР",
+      "sha256": "9d7c0a478159ede3e769a034a375f4485cc515f35d2a1d74695f23b020ddbcfc",
+      "pages": 114,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NVTK-2023-ОУР",
+      "sha256": "d6b8fb4652269cacf3ff499ff8e638d32335100e4504d7a118552c55f9aa4e26",
+      "pages": 138,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NVTK-2024-ОУР",
+      "sha256": "694575b38cd79f5411673f04a1705a9600fffe4cac45890aeed4fd51b97a3b45",
+      "pages": 129,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NVTK-2025-ОУР",
+      "sha256": "c6c670617b67fed2c7d92094d065d229dcd268662b2790657be473155248f897",
+      "pages": 121,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "ROSN-2023-ОУР",
+      "sha256": "db3d7187ea7f3720ace148b8ef16730d7a5ce6324be4615cba3827a4aac37104",
+      "pages": 134,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "ROSN-2024-ОУР",
+      "sha256": "42b3490c7294cf71435d8b35072f68706eeb4e8165d0ea582d4d524f07b29330",
+      "pages": 135,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "ROSN-2025-ИО",
+      "sha256": "7803034c9640e4b3b938abb64c97c2b835f1eb218f4d1220ba7e60181aa3c3e8",
+      "pages": 68,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TATN-2023-ИО",
+      "sha256": "4788348f7c1a36f62c6a9b38bbc4a95a37358dc80ca719384320e86dd129e0c4",
+      "pages": 172,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TATN-2024-ИО",
+      "sha256": "c7a46f094c8efc31d4ba7aaf991431f3764bff4175bcd73a5b43b900e1c392f9",
+      "pages": 200,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TATN-2025-ИО",
+      "sha256": "bd7b5f78ee858212b64e372c3d4503d1a478d1abdf54832a69e47e8b26db7baa",
+      "pages": 258,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TRNF-2023-ИО",
+      "sha256": "fecf555ebe33e468a97278598a22a14d884055fd08a5e623e3b6e13a1419b135",
+      "pages": 343,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "sha256": "90656babcf51927861f61ab831996355c7e753915f0efa8100eff7b64dcfbd01",
+      "pages": 303,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TRNF-2025-ИО",
+      "sha256": "d40c3ae2f7fea0dcc7dea89d5b6f20774f939ec0415236a6ed41198a4f63dbc0",
+      "pages": 190,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "ALRS-2023-ОУР",
+      "sha256": "734e3ec9ba1318460d06d3d1ec4d6a5a43dbbe89e255a584ed3a7ae916ad7a94",
+      "pages": 170,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "ALRS-2024-ОУР",
+      "sha256": "595844f02fbd2efd6094f2bfd1b3fb32b03310b94caf9bbe6b1a5de69fab338e",
+      "pages": 189,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "ALRS-2025-ОУР",
+      "sha256": "319255ac293edeed703d7724b7884b192fb5abeb35def4cc1d300fa167516ed1",
+      "pages": 247,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MAGN-2023-ИО",
+      "sha256": "9e423494bfcb9f68623f265980c107825451fc46c8f98d09d37193a1ace7874c",
+      "pages": 242,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MAGN-2024-ИО",
+      "sha256": "b3787fa125a318a92c63634bb0721f569141093ef6e9cdd6e7916207a671e882",
+      "pages": 329,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MAGN-2025-ИО",
+      "sha256": "f2fb018684d36cfc4b4fb6b19a1146d167c6d619a01c27105be3714146197165",
+      "pages": 378,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MINV-2023-ОУР",
+      "sha256": "9cc2a6cc653f19153a6cad26cba523ec40ff4b759a0d808915922b7a875db2da",
+      "pages": 158,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MINV-2024-ОУР",
+      "sha256": "bc69219cdaf8bb8913c845d419fdb028fe137383b63f0e979fdc1fcaed18fe70",
+      "pages": 162,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MINV-2025-ОУР",
+      "sha256": "9293b9736cc8fc6d3b6e343074a6ea82f4890bf9e494bcd34ed5cfec1a65f270",
+      "pages": 188,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MTLR-2023-ОУР",
+      "sha256": "76aec4e18891c30cd8f910f728964ac7951da8913e609068f64f9a82ef17bd20",
+      "pages": 98,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MTLR-2024-ОУР",
+      "sha256": "83307e82d6dce8db5e3459bdf03afd4a7fbdc73f0112f6e97606d23257782b7a",
+      "pages": 133,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MTLR-2025-ГО",
+      "sha256": "6d4935683ded9ab492a62dcf4ebff700e6f6e8b2c6f60e8350e1d008cde323ea",
+      "pages": 69,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MTLR-2025-ОУР",
+      "sha256": "c455e39c6a068f5f2af250d2e41cf7fa7294b56b1a47c71fa3b8b7b970d03173",
+      "pages": 164,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NLMK-2023-ОУР",
+      "sha256": "e6937d5780e3c9c7f9090fd525216261418da2e524add836bc30da1139e75366",
+      "pages": 96,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NLMK-2024-ИО",
+      "sha256": "aa48da4c4009f70814551a0781e6043b3ba925f4f656c63e9572882f6e1b3d8d",
+      "pages": 172,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NLMK-2025-ИО",
+      "sha256": "bb4a1f0c51625b7d18397b58bc8705ec1cccbfbc34e0bfb8a3e6f88926d097cc",
+      "pages": 139,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NORN-2023-ОУР",
+      "sha256": "eb1ffe5335e30c7a53a05c4f5ae74df8a4d80d83e7f6061fb7d52923b684d6fe",
+      "pages": 246,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NORN-2024-ОУР",
+      "sha256": "bec343c6e47e3cae31ae948df674af235fb5dffb840fbb390ef026c9ed2cccda",
+      "pages": 198,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "NORN-2025-ОУР",
+      "sha256": "bcde0eed60bc459b1c1386584c8ccaaa2b937057d606d9b5bdcee5bca40bf82b",
+      "pages": 119,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PLZL-2023-ОУР",
+      "sha256": "2f75ef75b99a9606d2c3811e46d93720e526127de803998aa60b33a71797b3fd",
+      "pages": 152,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PLZL-2024-ОУР",
+      "sha256": "7e7f010f8201a36ed67c59cc4801c369fde346dc3baf689328e715dec5e84acf",
+      "pages": 257,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PLZL-2025-ИО",
+      "sha256": "7d6a1cdfc6df9465dadd5f1c617d01d834dd8cddb494b2c93b960ce34add0a61",
+      "pages": 136,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PLZL-2025-ОУР",
+      "sha256": "9a709fe6e5dc35f771628bccf860897ad3bbb0f3ebe3f5ef5e7c42e6839c3e82",
+      "pages": 346,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RUAL-2023-ОУР",
+      "sha256": "4e2ec7d8799d902684b3fd95ab94e536ca3378739bffb06eb126b21e114ce7db",
+      "pages": 206,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RUAL-2024-ОУР",
+      "sha256": "01d10533fbb79b083476fa3825b3e5353cd0ecc5b4a13e27c150a5c827ecc396",
+      "pages": 149,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RUAL-2025-ИО",
+      "sha256": "dae35d67fdb1f69209c9a3d76300e3cc438bbc575c357735d72c8e0be3ad2c53",
+      "pages": 294,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RASP-2023-ОУР",
+      "sha256": "83cf0795ad22cfc44bda9673918a7c16636cc232ea2a7790823004cf5c862951",
+      "pages": 70,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RASP-2024-ОУР",
+      "sha256": "12ab3f3bcf1f15ab05b4e7977246bebb8677b18154ed0c15442da856d6c8b252",
+      "pages": 103,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RASP-2025-ОУР",
+      "sha256": "422ef8ce11541c1a0e2d070c2f8d5c2dca1266f93dfea54919853e7b61f17ad3",
+      "pages": 204,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "CHMF-2023-ОУР",
+      "sha256": "40e113a8c7fafe237110cdd961faa1fef2e289c18c2037368d5ff11c85bc951b",
+      "pages": 295,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "CHMF-2024-ИО",
+      "sha256": "55d5f38a3ade9142c17f4b9825491d2e66d806ed0bbd135f59ac7520f36f2fa3",
+      "pages": 167,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "CHMF-2025-ИО",
+      "sha256": "bdb99a96c1e9625486f166432c9645cc9866b411f35b72fdb0f7fd8c086e0c15",
+      "pages": 186,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TRMK-2023-ИО",
+      "sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+      "pages": 43,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TRMK-2024-ОУР",
+      "sha256": "c6924a4d4c83f5716bf1747742d1f27b15f550336e0fb06d5590e7ffff13c8fb",
+      "pages": 128,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "TRMK-2025-ОУР",
+      "sha256": "d875da7c11226c03d40d4f7f887b1062bd2e7d347182f20f251b9bb3f35850a9",
+      "pages": 115,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "AKRN-2023-ОУР",
+      "sha256": "03bbb9b33fd94505e9584d5b9ccf6de1a6978cd2a70297aef3eedb01917462a6",
+      "pages": 54,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "AKRN-2024-ОУР",
+      "sha256": "64c49a254fbf1f99820fd5c2c2c542bcaf8948390fb5eebd851ec8da714c8edb",
+      "pages": 65,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "AKRN-2025-ИО",
+      "sha256": "d1c32189661b68b293aa5f76e21d8824811cf2fbadc9a48f2eb11c5c1c5389e2",
+      "pages": 117,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PIGM-2023-ОУР",
+      "sha256": "91addb77eda193c2fc11b4a9ff6d02aed4dac397736b3a44291ec3bd494001c3",
+      "pages": 120,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PIGM-2024-ОУР",
+      "sha256": "47bb17f1fa0a3bfce98730047f6b9738fd2727f17e002963911c2a179032358b",
+      "pages": 175,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PIGM-2025-ОУР",
+      "sha256": "c8cf3044fba858dfd339ec8805c6cd7f0b5f29fc0350e2dd4fb83dd446294ecb",
+      "pages": 187,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SIBR-2023-ИО",
+      "sha256": "21edcb668041da8614ba0a2fb9558923996b3fe38f026e46e4b198ba6eac82aa",
+      "pages": 183,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SIBR-2024-ИО",
+      "sha256": "00a8d1c8415842da33ddd3458b335efe8918917a0c3733c1eda527194237f810",
+      "pages": 223,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SIBR-2025-ИО",
+      "sha256": "fa7fc0d6e178af6ba037d88154e18561f0838101571c73634e5701d4ccdf6846",
+      "pages": 265,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URKA-2023-ОУР",
+      "sha256": "85afe2233992e34d8cc5b0b26203f9f4c9cff50eebf685148867576a5a66b368",
+      "pages": 131,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URKA-2024-ОУР",
+      "sha256": "82416c56b24804cecd66cdd1972fabdd2934e9b811be120cd92cd49049d39da8",
+      "pages": 132,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URKA-2025-ГО",
+      "sha256": "150d13758f7c3dae6c3011384848c156d1a134596065331891b476ed06bee354",
+      "pages": 82,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URKA-2025-ОУР",
+      "sha256": "cd5f8ea7ac5de62303e1168c375e4148c48703167135d8fdbff50db8518a494d",
+      "pages": 121,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URCH-2023-ОУР",
+      "sha256": "6a38320a4be1173cbfda6bfc9794be931ebcac71fec48d164c4b71bcb033323f",
+      "pages": 133,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URCH-2024-ОУР",
+      "sha256": "452b18ddc202c6999432feb3ba34a1d7483a8665e9579edb96a6b59a78723d71",
+      "pages": 110,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "URCH-2025-ОУР",
+      "sha256": "98c48cd41eed8f8aed21ed0b167b296b22f40e46833aa9fa1d654a92b7581add",
+      "pages": 117,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PHOR-2023-ИО",
+      "sha256": "b31786c820391498b6a05927ca839827a7088b0f87e910913c53aff67e2bb6f3",
+      "pages": 202,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PHOR-2024-ИО",
+      "sha256": "ebcc7245c2c6af50217f0bbe9d9da35dd09dcde85e22ec9b07658f97dad5c266",
+      "pages": 206,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "PHOR-2025-ИО",
+      "sha256": "4d808336fefbd477a0e4598f57db732e1dae2258983a000ec49c423602bc3ad4",
+      "pages": 217,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "KMAZ-2023-ОУР",
+      "sha256": "22a004d5b32ba5280084ef50eb620e9432c0e595db3b4ec435ce2ef808137e4a",
+      "pages": 162,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "KMAZ-2024-ОУР",
+      "sha256": "724cda1699cb70b5da77aa68cf4e453d63ab9638aadddde7c33d7a85e9eb768c",
+      "pages": 127,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "KMAZ-2025-ГО",
+      "sha256": "2b44b42c7bdd3ca5bbbbfa9b1127d2517b146cd6f53afe982e4122d1381c71e7",
+      "pages": 124,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SHLZ-2023-ОУР",
+      "sha256": "2faf7b5dc1893cfeb5642694c47d904f009ef55aa308dcdad732e8c423c191b2",
+      "pages": 36,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SHLZ-2024-ОУР",
+      "sha256": "b7b0aabc72207ad54dcb87b54f17c526d8e69acffbdc346c3bb4f27ef9b25611",
+      "pages": 56,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SVEZ-2023-ОУР",
+      "sha256": "f1232b048473392af27e0fab20652933deb7a5a861908f4ada1f84b262abe4a5",
+      "pages": 131,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SVEZ-2024-ОУР",
+      "sha256": "cfa9a847153d597cefaf3aa25c78b967947e629a73a3c78fe35cce6f1f63c525",
+      "pages": 58,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SGZH-2023-ИО",
+      "sha256": "7f064cab2d8b89e26cee51bca198a21720ab5c695953f3f96c08ca3fa890fcc8",
+      "pages": 164,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SGZH-2024-ИО",
+      "sha256": "5f66004d237942a26d3ab6bbfb4d150fce01a5041ca2ed64ad0f502591b6ac3a",
+      "pages": 167,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "SGZH-2025-ИО",
+      "sha256": "d3ea881d725121221c02472cb26d33a06f201556df77a7a28683a0130b9f12d2",
+      "pages": 177,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MVDK-2023-ГО",
+      "sha256": "d61f78f39a1ced5938fdab344c64f0b86130a3aa2a6ec5052980184a0ff0f73d",
+      "pages": 190,
+      "historical_sha_equal": null,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MVDK-2024-ГО",
+      "sha256": "0bb88d80fc2e451eb6992d91bc892b38151cd64f8133b6c43f4f6480dc9bfccc",
+      "pages": 92,
+      "historical_sha_equal": null,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "MVDK-2025-ГО",
+      "sha256": "3ec99d49877138c246934847e08ab42bdff959983525b75e74470003e3199fcf",
+      "pages": 211,
+      "historical_sha_equal": null,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RVDK-2023-ОУР",
+      "sha256": "18fb4843e08c9b18a58c643fea5dbd3d1174518cdd0933dc2b9366d76a572eee",
+      "pages": 92,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RVDK-2024-ОУР",
+      "sha256": "e4a31c29e135fcf9bc1723ce6b61551f08f17a47a0a127ce67621c8fb1bad610",
+      "pages": 95,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    },
+    {
+      "report_id": "RVDK-2025-ОУР",
+      "sha256": "24f9d896016839cd3f7fd714952bc4b28ca30aa046fdc5104b1e4f93ae38cef7",
+      "pages": 105,
+      "historical_sha_equal": true,
+      "year_in_first8": true
+    }
+  ],
+  "limits": [
+    "Year/type checks use extracted title/front matter, not visual review of every cover.",
+    "Registered ИО label can differ from literal title Годовой отчет/Годовой обзор; source files retained by historical SHA.",
+    "MVDK official issuer disclosure PDFs have no historical successful SHA and two differ in pagination from prior text caches."
+  ]
+}

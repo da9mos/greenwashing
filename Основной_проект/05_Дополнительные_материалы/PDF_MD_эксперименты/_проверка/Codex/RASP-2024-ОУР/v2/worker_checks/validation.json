@@ -1,0 +1,12 @@
+{
+  "source_sha256": "12ab3f3bcf1f15ab05b4e7977246bebb8677b18154ed0c15442da856d6c8b252",
+  "physical_pages": 103,
+  "page_markers_in_order": true,
+  "registered_pages": 103,
+  "image_references": 103,
+  "missing_assets": [],
+  "broken_internal_anchors": [],
+  "final_report_sha256": "68e3d11679b4e6c766bacdeada45cde827abc00ef21ba311f246fdc728613a7c",
+  "visual_render_review_completed": false,
+  "full_source_review_completed": false
+}

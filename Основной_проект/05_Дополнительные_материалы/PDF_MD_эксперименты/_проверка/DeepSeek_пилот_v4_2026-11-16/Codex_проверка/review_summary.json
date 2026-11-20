@@ -1,0 +1,34 @@
+{
+  "reviewed_pages": 3,
+  "accepted_page_scopes": 1,
+  "needs_rework_page_scopes": 2,
+  "whole_reports_checked": 0,
+  "pages": [
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 57,
+      "page_scope_status": "accepted",
+      "output_sha256": "fff59b1a9304a2f991d86e302f9ef659c7610747cc64111c00a8474288181722",
+      "open_defects": []
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "pdf_page": 76,
+      "page_scope_status": "needs_rework",
+      "output_sha256": "dbc38b29e83b04a6de97dc85b968bce77d392c41a15f6ef204abe836b5169348",
+      "open_defects": [
+        "EO76-HEADER",
+        "EO76-PRINTED-PAGE"
+      ]
+    },
+    {
+      "report_id": "TRMK-2023-ИО",
+      "pdf_page": 4,
+      "page_scope_status": "needs_rework",
+      "output_sha256": "bf9717a0e729e32c9373724d5bcb4e84f4db2ac3b2acc8d635fb6623dacf3601",
+      "open_defects": [
+        "TRMK4-NAVIGATION"
+      ]
+    }
+  ]
+}

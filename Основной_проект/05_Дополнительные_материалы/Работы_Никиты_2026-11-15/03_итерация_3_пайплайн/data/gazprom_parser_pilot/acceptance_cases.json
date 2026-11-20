@@ -1,0 +1,59 @@
+[
+  {
+    "pdf_page": 57,
+    "printed_pages": "110–111",
+    "metric": "FAR",
+    "scope": "Компании газового бизнеса",
+    "year": 2023,
+    "expected_value": 1.963,
+    "correction": "Увеличение оригинала и размер/базовая линия шрифта подтверждают три десятичных знака. Предыдущий контроль 1,96 был ошибочным."
+  },
+  {
+    "pdf_page": 57,
+    "printed_pages": "110–111",
+    "metric": "LTIFR",
+    "scope": "Компании газового бизнеса",
+    "year": 2023,
+    "expected_value": 0.102
+  },
+  {
+    "pdf_page": 115,
+    "printed_pages": "226–227",
+    "metric": "Текучесть кадров",
+    "year": 2022,
+    "expected_value": 5.9,
+    "unit": "%"
+  },
+  {
+    "pdf_page": 115,
+    "printed_pages": "226–227",
+    "metric": "Текучесть кадров",
+    "year": 2023,
+    "expected_value": 6.7,
+    "unit": "%"
+  },
+  {
+    "pdf_page": 115,
+    "printed_pages": "226–227",
+    "metric": "Изменение текучести",
+    "year": 2023,
+    "expected_value": 0.8,
+    "unit": "п. п.",
+    "reject_unit": "%"
+  },
+  {
+    "pdf_page": 57,
+    "metric": "FAR",
+    "scope": "Компании нефтяного бизнеса",
+    "year": 2023,
+    "expected_value": 0,
+    "footnote_marker": "11"
+  },
+  {
+    "pdf_page": 57,
+    "metric": "Коэффициент частоты травматизма",
+    "year": 2023,
+    "expected_value": 0.173,
+    "footnote_marker": "2"
+  }
+]

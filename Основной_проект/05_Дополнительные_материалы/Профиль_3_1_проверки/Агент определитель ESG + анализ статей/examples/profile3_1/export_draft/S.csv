@@ -1,0 +1,2 @@
+﻿id;statement;type;block;topic;block2;source_status;pages;inclusion_rule;classification_rule;subject;proposition;esg_object;classification_status;source_refs;secondary_blocks;ambiguity_note
+DEMO-2024-002;Компания сообщила об утечке персональных данных клиентов.;результат;S;клиенты и качество;;md_only;1;I1;S3;Компания;Компания сообщила об утечке персональных данных клиентов.;приватность клиентов;resolved;ESRS2023,SASB2023;;

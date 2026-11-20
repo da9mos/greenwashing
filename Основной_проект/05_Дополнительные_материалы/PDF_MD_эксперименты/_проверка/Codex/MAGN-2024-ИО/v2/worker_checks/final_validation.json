@@ -1,0 +1,16 @@
+{
+  "pages": 329,
+  "page_sequence_valid": true,
+  "missing_links": [],
+  "report_sha256": "5328654916e4996af4e730b12b8d2115e6b5b3211bf8cee75a18a36e9a4f3388",
+  "source_sha256": "b3787fa125a318a92c63634bb0721f569141093ef6e9cdd6e7916207a671e882",
+  "checked_pages": [],
+  "conversion_pending_pages": [
+    279,
+    280,
+    281,
+    282
+  ],
+  "render_status": "failed: Chrome launch SIGABRT / TargetClosedError; HTML generated, no viewport screenshots",
+  "review_status": "selective only; all full-page reviews pending"
+}

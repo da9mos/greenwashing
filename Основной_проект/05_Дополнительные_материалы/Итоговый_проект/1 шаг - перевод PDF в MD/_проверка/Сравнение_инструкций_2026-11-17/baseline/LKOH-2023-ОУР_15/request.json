@@ -1,0 +1,42 @@
+{
+  "version": "instruction-ab-baseline-20261117",
+  "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+  "instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+  "system_sha256": "89c56f3d7fafcf9d5c6f5dc6049b75b0a4678afca699bf25b2fcc07fa422b69c",
+  "input_sha256": "0874dac58aefe51b88ede65da904023f47ae4f214fb243c44398c10486bff008",
+  "input_text_sha256": "47f7360bc4fda77f53c76cf766fb8f5ab66923afc005b54f706b09af3aaf7311",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/LKOH-2023-ОУР/page_0015_full.png",
+      "sha256": "4c4fbfa0e1b724dbf69f2ac4f3f4c9bb58a363baf2816b8ff8a729aea2410ee3"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/LKOH-2023-ОУР/page_0015_zoom_0.png",
+      "sha256": "90ea57e77fd1263d2ed6a937970e7b6a6a284ac91bb6eeaf41bc36d12e0993d9"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/LKOH-2023-ОУР/page_0015_zoom_1.png",
+      "sha256": "f02ad3ec37a23ad1add7af9c9754bc50c1988ffe72f187aae8398ba6b0205e19"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/LKOH-2023-ОУР_15/source_regions/top_left.png",
+      "sha256": "7137d94dd2c48a29bcee296f064019ce4f38693ba123fbc347d10b0dcfbfb5d0"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/LKOH-2023-ОУР_15/source_regions/top_right.png",
+      "sha256": "dbd3a29d5c8ac6d24d4acd6c6355cd0af834b9be008711569a828b56930ac300"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/LKOH-2023-ОУР_15/source_regions/bottom_left.png",
+      "sha256": "41846ef0748d1161c19492362587aa9dd1a3b50e22621ccdd8a7b7859821b8c2"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/LKOH-2023-ОУР_15/source_regions/bottom_right.png",
+      "sha256": "f6bf742d3052983471da10ba9f2f51b2d5556b866b09ce30b176f616285bdad8"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

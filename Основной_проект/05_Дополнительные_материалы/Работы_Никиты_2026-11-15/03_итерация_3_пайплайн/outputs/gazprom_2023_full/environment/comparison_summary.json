@@ -1,0 +1,22 @@
+{
+  "reports": [
+    {
+      "report": "environment",
+      "pages": 84,
+      "local_md_bytes": 439063,
+      "cloud_md_bytes": 577536,
+      "local_errors": 0,
+      "empty_cloud_where_raw_nonempty": 0,
+      "triggered_pages": 34,
+      "numeric_difference_pages": 21,
+      "cloud_job_id": "pjb-zof6noi4erhkraigvm0c8v5ajune",
+      "local_seconds": 8.38,
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "cloud_tables": 81
+    }
+  ],
+  "total_pdf_pages": 84,
+  "all_pages_compared": true,
+  "metric_warning": "Numeric token overlap is a triage signal, not accuracy/recall; PDF raw text and both parsers may be wrong. Manual review is required.",
+  "estimated_base_credits": 840
+}

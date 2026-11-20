@@ -1,0 +1,18 @@
+{
+  "pages": 206,
+  "page_markers_unique_and_ordered": true,
+  "image_links": 206,
+  "missing_local_images": 0,
+  "table_text_fallback_pages": [
+    180
+  ],
+  "ocr_pages": 206,
+  "conversion_status_counts": {
+    "converted": 204,
+    "pending": 2
+  },
+  "review_status_counts": {
+    "pending": 206
+  },
+  "full_visual_review_pages": 0
+}

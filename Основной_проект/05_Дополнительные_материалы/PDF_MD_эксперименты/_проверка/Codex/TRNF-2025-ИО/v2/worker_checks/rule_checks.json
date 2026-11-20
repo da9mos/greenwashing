@@ -1,0 +1,7 @@
+{
+  "independent_tables_split": true,
+  "glossary_columns_split": true,
+  "real_empty_explanation_column_preserved": true,
+  "no_control_BEL": true,
+  "pending_not_promoted": true
+}

@@ -1,0 +1,525 @@
+[
+  {
+    "report": "GAZP-2023-ОУР_57",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ОУР_57/codex_working.md",
+    "output_sha256": "0e439660e7123d71a739058417beda6d96a48d2be7c367213a30d42b9f8f880e",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 448,
+            "reached": 98
+          },
+          {
+            "client": 350,
+            "scroll": 502,
+            "reached": 152
+          },
+          {
+            "client": 350,
+            "scroll": 488,
+            "reached": 138
+          },
+          {
+            "client": 350,
+            "scroll": 488,
+            "reached": 138
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2023-ОУР_57/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2023-ОУР_92",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ОУР_92/codex_working.md",
+    "output_sha256": "4755cf07c833d17c5e3debc315bacc2cd17dafab6a646fd198b8a62294b0fdf0",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 569,
+            "reached": 219
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2023-ОУР_92/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2023-ЭО_52",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_52/codex_working.md",
+    "output_sha256": "0675baafc0bd49eae0e63473325d5d531032987e2894c404e4f6696f10711774",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 611,
+            "reached": 261
+          },
+          {
+            "client": 350,
+            "scroll": 350,
+            "reached": 0
+          },
+          {
+            "client": 350,
+            "scroll": 631,
+            "reached": 281
+          },
+          {
+            "client": 350,
+            "scroll": 350,
+            "reached": 0
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2023-ЭО_52/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2023-ЭО_76",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_76/codex_working.md",
+    "output_sha256": "61b19cc1f83ff2ec8ba820898d1d2a963c0398a304e6662b3a608527c5d55de5",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 350,
+            "reached": 0
+          },
+          {
+            "client": 350,
+            "scroll": 350,
+            "reached": 0
+          },
+          {
+            "client": 350,
+            "scroll": 350,
+            "reached": 0
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2023-ЭО_76/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2024-ОУР_113",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_113/codex_working.md",
+    "output_sha256": "8f7250cd13042278e9dc1549611eab6dc96c761c18330d9ca2e0df1d83fb5668",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 529,
+            "reached": 179
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2024-ОУР_113/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2024-ОУР_95",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_95/codex_working.md",
+    "output_sha256": "b82a1ad938d95ef42cfb143fcc808d284e0f2c12a945a3ba531b4daee3a0b32e",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": []
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": []
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2024-ОУР_95/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2025-ОУР_109",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2025-ОУР_109/codex_working.md",
+    "output_sha256": "e6b4b0a8566acc134963da998575a2c20f5f277dc15922aeedbc251023233e8d",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 862,
+            "reached": 512
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2025-ОУР_109/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "IRKN-2023-ИО_13",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_13/codex_working.md",
+    "output_sha256": "bc3fd6e16e6fc4dc93882aa7b25385f0833721a0dc2aab3b3c75a139b7dc81df",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": []
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": []
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/IRKN-2023-ИО_13/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "IRKN-2023-ИО_98",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_98/codex_working.md",
+    "output_sha256": "aec57f3fd2b8dc896807fcc00aafb9dfff8c9efaf3c24c8c897c515a46600483",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 645,
+            "reached": 295
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/IRKN-2023-ИО_98/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "LKOH-2023-ОУР_15",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/LKOH-2023-ОУР_15/codex_working.md",
+    "output_sha256": "40004989685fb6ef90af672931436f84614ef9c42310a9a6ff090017b42bf21e",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 675,
+            "reached": 325
+          },
+          {
+            "client": 350,
+            "scroll": 466,
+            "reached": 116
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/LKOH-2023-ОУР_15/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "LKOH-2023-ОУР_98",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/LKOH-2023-ОУР_98/codex_working.md",
+    "output_sha256": "5dad3e8315b45c429b870a7a34a51449163be303d0eef1d62e436fb6635710bd",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 1124,
+            "reached": 774
+          },
+          {
+            "client": 350,
+            "scroll": 1145,
+            "reached": 795
+          },
+          {
+            "client": 350,
+            "scroll": 1145,
+            "reached": 795
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/LKOH-2023-ОУР_98/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "TRMK-2023-ИО_4",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/TRMK-2023-ИО_4/codex_working.md",
+    "output_sha256": "63070cf667acd3e4ac155f2c7864d06478fae00ba9a307e77f35befe1084426f",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": []
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": []
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/TRMK-2023-ИО_4/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  },
+  {
+    "report": "GAZP-2025-ОУР_75",
+    "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final_retry75/GAZP-2025-ОУР_75/codex_working.md",
+    "output_sha256": "8ec13dd95d1a561231bcd2e711225ee0c0d5b0c4fbeebd92fb4c7e4e34b48720",
+    "missing_images": [],
+    "images_loaded": true,
+    "widths": [
+      {
+        "width": 1440,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          },
+          {
+            "client": 1180,
+            "scroll": 1180,
+            "reached": 0
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "page_overflow": false,
+        "scroll_tables": [
+          {
+            "client": 350,
+            "scroll": 427,
+            "reached": 77
+          },
+          {
+            "client": 350,
+            "scroll": 350,
+            "reached": 0
+          },
+          {
+            "client": 350,
+            "scroll": 426,
+            "reached": 76
+          }
+        ]
+      }
+    ],
+    "displayed_text": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2025-ОУР_75/displayed_text.txt",
+    "scope": "full-page browser artifacts and technical rendering checks; source semantics reviewed separately; screenshots alone do not certify all cells"
+  }
+]

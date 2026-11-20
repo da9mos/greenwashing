@@ -1,0 +1,30 @@
+{
+  "report": "environment",
+  "pdf_page": 4,
+  "version": "v1",
+  "response": {
+    "pdf_page": 4,
+    "printed_pages": null,
+    "markdown": "# Содержание\n\n**Обращение О.Е. Аксютина к читателям Экологического отчета ПАО «Газпром» за 2023 год**\n5\n\n**Введение**\n6\n\n**Управление природоохранной деятельностью**\n8\n\nСистема экологического менеджмента\n8\n\nЭкологические цели и программы\n11\n\nФинансирование охраны окружающей среды\n12\n\n**Показатели воздействия на окружающую среду**\n16\n\nВоздействие на атмосферный воздух\n16\n\nИспользование попутного нефтяного газа\n19\n\nВодопользование\n20\n\nОбращение с отходами\n22\n\nЗемлепользование\n25\n\nАварийные ситуации\n27\n\nДеятельность за рубежом\n28",
+    "problems": [],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 228,
+    "total_tokens": 1817,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 3.31,
+  "image_sha256": [
+    "89d8525765bf7ccd9271aabc61bf2185a8db7013caee2ff68e6fe9ce43b3bace"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

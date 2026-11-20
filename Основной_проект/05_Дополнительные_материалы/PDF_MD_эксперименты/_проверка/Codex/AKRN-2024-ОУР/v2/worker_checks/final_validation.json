@@ -1,0 +1,35 @@
+{
+  "source_sha256": "64c49a254fbf1f99820fd5c2c2c542bcaf8948390fb5eebd851ec8da714c8edb",
+  "physical_pages_in_pdf": 65,
+  "page_markers_exactly_1_to_65": true,
+  "image_references": 65,
+  "missing_local_assets": [],
+  "missing_internal_targets": [],
+  "control_characters": 0,
+  "report_sha256": "7e2b8f13bd54595522541b69c0807b7806c059d490f00de7e93ce90ac87f930a",
+  "reviewed_fully_pages": [
+    1,
+    2
+  ],
+  "reviewed_partially_pages": [
+    5,
+    9,
+    11,
+    15,
+    16,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    36,
+    44,
+    61,
+    62,
+    63,
+    64
+  ],
+  "display_review": "pending; render_bundle failed launching Chrome with SIGABRT"
+}

@@ -1,0 +1,945 @@
+{
+  "folders": {
+    "Распадская": {
+      "success": true,
+      "id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj",
+      "url": "https://drive.google.com/drive/folders/1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj",
+      "title": "Распадская",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "Северсталь": {
+      "success": true,
+      "id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U",
+      "url": "https://drive.google.com/drive/folders/1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U",
+      "title": "Северсталь",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "ТМК": {
+      "success": true,
+      "id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N",
+      "url": "https://drive.google.com/drive/folders/1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N",
+      "title": "ТМК",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "Акрон": {
+      "success": true,
+      "id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC",
+      "url": "https://drive.google.com/drive/folders/1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC",
+      "title": "Акрон",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "Пигмент": {
+      "success": true,
+      "id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm",
+      "url": "https://drive.google.com/drive/folders/1c4w48_9evYa3tJRcflLxFsV5plDLeYGm",
+      "title": "Пигмент",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "СИБУР": {
+      "success": true,
+      "id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny",
+      "url": "https://drive.google.com/drive/folders/1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny",
+      "title": "СИБУР",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "Уралкалий": {
+      "success": true,
+      "id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc",
+      "url": "https://drive.google.com/drive/folders/1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc",
+      "title": "Уралкалий",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "Уралхим": {
+      "success": true,
+      "id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq",
+      "url": "https://drive.google.com/drive/folders/1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq",
+      "title": "Уралхим",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "ФосАгро": {
+      "success": true,
+      "id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV",
+      "url": "https://drive.google.com/drive/folders/1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV",
+      "title": "ФосАгро",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    }
+  },
+  "uploads": [
+    {
+      "report": "RASP-2023-ОУР",
+      "kind": "md",
+      "name": "RASP-2023-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RASP/RASP-2023-ОУР/report.md",
+      "size": 793999,
+      "id": "1p0wOEPB1Tz7XvI6JXk-9e5xOM81YmRqU",
+      "url": "https://drive.google.com/file/d/1p0wOEPB1Tz7XvI6JXk-9e5xOM81YmRqU/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2023-ОУР",
+      "kind": "zip",
+      "name": "RASP-2023-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2023-ОУР.part01.zip",
+      "size": 86285779,
+      "id": "1sA24J2vMBbMFNDBApQ7N_OHP2KXTSnar",
+      "url": "https://drive.google.com/file/d/1sA24J2vMBbMFNDBApQ7N_OHP2KXTSnar/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2023-ОУР",
+      "kind": "zip",
+      "name": "RASP-2023-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2023-ОУР.part02.zip",
+      "size": 31297527,
+      "id": "1dLiJgI8dNw4I6aHFQmrLIO-JW_fDTVHp",
+      "url": "https://drive.google.com/file/d/1dLiJgI8dNw4I6aHFQmrLIO-JW_fDTVHp/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2024-ОУР",
+      "kind": "md",
+      "name": "RASP-2024-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RASP/RASP-2024-ОУР/report.md",
+      "size": 1064257,
+      "id": "15pUVH5Onjei7MPM9aLaxvdDbr2Nrj3ji",
+      "url": "https://drive.google.com/file/d/15pUVH5Onjei7MPM9aLaxvdDbr2Nrj3ji/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2024-ОУР",
+      "kind": "zip",
+      "name": "RASP-2024-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2024-ОУР.part01.zip",
+      "size": 86266737,
+      "id": "1gWM2_ieRnnX8JffsNHJtLzeHyggp3RLC",
+      "url": "https://drive.google.com/file/d/1gWM2_ieRnnX8JffsNHJtLzeHyggp3RLC/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2024-ОУР",
+      "kind": "zip",
+      "name": "RASP-2024-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2024-ОУР.part02.zip",
+      "size": 61439709,
+      "id": "1N5QS1ijwlclJGDZ-oKj7lnLsI979U7c0",
+      "url": "https://drive.google.com/file/d/1N5QS1ijwlclJGDZ-oKj7lnLsI979U7c0/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2025-ОУР",
+      "kind": "md",
+      "name": "RASP-2025-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RASP/RASP-2025-ОУР/report.md",
+      "size": 1204726,
+      "id": "1QHF3q1-mareCUyAIwiNYsjHHuWDCCj-l",
+      "url": "https://drive.google.com/file/d/1QHF3q1-mareCUyAIwiNYsjHHuWDCCj-l/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2025-ОУР",
+      "kind": "zip",
+      "name": "RASP-2025-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2025-ОУР.part01.zip",
+      "size": 87938857,
+      "id": "11dolByhWk72659K7PJHZoedErftxAqzc",
+      "url": "https://drive.google.com/file/d/11dolByhWk72659K7PJHZoedErftxAqzc/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2025-ОУР",
+      "kind": "zip",
+      "name": "RASP-2025-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2025-ОУР.part02.zip",
+      "size": 89453535,
+      "id": "1MfEaTHHgJzOu_XEa5bOgBNfh_kZMJNAE",
+      "url": "https://drive.google.com/file/d/1MfEaTHHgJzOu_XEa5bOgBNfh_kZMJNAE/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "RASP-2025-ОУР",
+      "kind": "zip",
+      "name": "RASP-2025-ОУР.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/RASP-2025-ОУР.part03.zip",
+      "size": 65440007,
+      "id": "1Vr0BJUzou7ISsZ6Xf_2DrJCPGjF5YzF8",
+      "url": "https://drive.google.com/file/d/1Vr0BJUzou7ISsZ6Xf_2DrJCPGjF5YzF8/view?usp=drivesdk",
+      "parent_id": "1A_TlCc9-YA622Gv7JY4U0W-gy07rbIYj"
+    },
+    {
+      "report": "CHMF-2023-ОУР",
+      "kind": "md",
+      "name": "CHMF-2023-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/CHMF/CHMF-2023-ОУР/report.md",
+      "size": 2138690,
+      "id": "1ZXKXsVdQnS5frguX2RX2qLV688opwMOY",
+      "url": "https://drive.google.com/file/d/1ZXKXsVdQnS5frguX2RX2qLV688opwMOY/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2023-ОУР",
+      "kind": "zip",
+      "name": "CHMF-2023-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/CHMF-2023-ОУР.part01.zip",
+      "size": 87961190,
+      "id": "1TcdcaaHWEuXq6eRQGXzumjO5uLLTc5nP",
+      "url": "https://drive.google.com/file/d/1TcdcaaHWEuXq6eRQGXzumjO5uLLTc5nP/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2023-ОУР",
+      "kind": "zip",
+      "name": "CHMF-2023-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/CHMF-2023-ОУР.part02.zip",
+      "size": 14737282,
+      "id": "1iX6IxMu4XkhqfEfqhwboI7qPNlAYaJ-7",
+      "url": "https://drive.google.com/file/d/1iX6IxMu4XkhqfEfqhwboI7qPNlAYaJ-7/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2024-ИО",
+      "kind": "md",
+      "name": "CHMF-2024-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/CHMF/CHMF-2024-ИО/report.md",
+      "size": 2414600,
+      "id": "1YU0zco_18hHba7u1rd_NiU9jgdI2JDkQ",
+      "url": "https://drive.google.com/file/d/1YU0zco_18hHba7u1rd_NiU9jgdI2JDkQ/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2024-ИО",
+      "kind": "zip",
+      "name": "CHMF-2024-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/CHMF-2024-ИО.part01.zip",
+      "size": 87539618,
+      "id": "1uWjiVSt1j4ZCcT3hv6vSgeUJP0PABJiv",
+      "url": "https://drive.google.com/file/d/1uWjiVSt1j4ZCcT3hv6vSgeUJP0PABJiv/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2024-ИО",
+      "kind": "zip",
+      "name": "CHMF-2024-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/CHMF-2024-ИО.part02.zip",
+      "size": 74481971,
+      "id": "1nPp4guTcMSZPbvy7_cjyFfqBP4CMu-6n",
+      "url": "https://drive.google.com/file/d/1nPp4guTcMSZPbvy7_cjyFfqBP4CMu-6n/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2025-ИО",
+      "kind": "md",
+      "name": "CHMF-2025-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/CHMF/CHMF-2025-ИО/report.md",
+      "size": 2716474,
+      "id": "1hslyLxiOLuyoRs3I9ekG9qNt1CgeSgOg",
+      "url": "https://drive.google.com/file/d/1hslyLxiOLuyoRs3I9ekG9qNt1CgeSgOg/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2025-ИО",
+      "kind": "zip",
+      "name": "CHMF-2025-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/CHMF-2025-ИО.part01.zip",
+      "size": 87268614,
+      "id": "1EN0TP9DeZGsMiTVJKi36rd0SjC81skFA",
+      "url": "https://drive.google.com/file/d/1EN0TP9DeZGsMiTVJKi36rd0SjC81skFA/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "CHMF-2025-ИО",
+      "kind": "zip",
+      "name": "CHMF-2025-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/CHMF-2025-ИО.part02.zip",
+      "size": 71547317,
+      "id": "1xL42gFYiSTZkrGx6rbx2hWu2iWG9Pp0a",
+      "url": "https://drive.google.com/file/d/1xL42gFYiSTZkrGx6rbx2hWu2iWG9Pp0a/view?usp=drivesdk",
+      "parent_id": "1g8wZs7yM_9fomhz1tkA3CvFTLm8Afb7U"
+    },
+    {
+      "report": "TRMK-2023-ИО",
+      "kind": "md",
+      "name": "TRMK-2023-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRMK/TRMK-2023-ИО/report.md",
+      "size": 131288,
+      "id": "1NbX8ZbQ-bzP5CpIBL7g39IL9qzF5vVZr",
+      "url": "https://drive.google.com/file/d/1NbX8ZbQ-bzP5CpIBL7g39IL9qzF5vVZr/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2023-ИО",
+      "kind": "zip",
+      "name": "TRMK-2023-ИО.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/TRMK-2023-ИО.zip",
+      "size": 56430191,
+      "id": "1nfo684kGaIjXJh4p1VZ7WgW_RxqoFZ8a",
+      "url": "https://drive.google.com/file/d/1nfo684kGaIjXJh4p1VZ7WgW_RxqoFZ8a/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2024-ОУР",
+      "kind": "md",
+      "name": "TRMK-2024-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRMK/TRMK-2024-ОУР/report.md",
+      "size": 1489345,
+      "id": "1mttVJbvuZYCdM8IaZ5A72RUqqJp-73MR",
+      "url": "https://drive.google.com/file/d/1mttVJbvuZYCdM8IaZ5A72RUqqJp-73MR/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2024-ОУР",
+      "kind": "zip",
+      "name": "TRMK-2024-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/TRMK-2024-ОУР.part01.zip",
+      "size": 86938353,
+      "id": "1-I52wUR29Hbd-T_0gTrVKFwIXmdI4SAG",
+      "url": "https://drive.google.com/file/d/1-I52wUR29Hbd-T_0gTrVKFwIXmdI4SAG/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2024-ОУР",
+      "kind": "zip",
+      "name": "TRMK-2024-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/TRMK-2024-ОУР.part02.zip",
+      "size": 87603075,
+      "id": "1juhKGIJuI85_kEM8W2yBa45qNihIw6-X",
+      "url": "https://drive.google.com/file/d/1juhKGIJuI85_kEM8W2yBa45qNihIw6-X/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2024-ОУР",
+      "kind": "zip",
+      "name": "TRMK-2024-ОУР.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/TRMK-2024-ОУР.part03.zip",
+      "size": 67919949,
+      "id": "1S9GBn176I1fCCIDH2_akwnaYnAtnAVb-",
+      "url": "https://drive.google.com/file/d/1S9GBn176I1fCCIDH2_akwnaYnAtnAVb-/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2025-ОУР",
+      "kind": "md",
+      "name": "TRMK-2025-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRMK/TRMK-2025-ОУР/report.md",
+      "size": 1593386,
+      "id": "1VRVwMTEAFZiD0vs-O4O58-9fctU50Tkh",
+      "url": "https://drive.google.com/file/d/1VRVwMTEAFZiD0vs-O4O58-9fctU50Tkh/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2025-ОУР",
+      "kind": "zip",
+      "name": "TRMK-2025-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/TRMK-2025-ОУР.part01.zip",
+      "size": 85524325,
+      "id": "1EraAS_IGLQ8ikhTZMrq9KCEgMBQ8W0FR",
+      "url": "https://drive.google.com/file/d/1EraAS_IGLQ8ikhTZMrq9KCEgMBQ8W0FR/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "TRMK-2025-ОУР",
+      "kind": "zip",
+      "name": "TRMK-2025-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/TRMK-2025-ОУР.part02.zip",
+      "size": 63877134,
+      "id": "1mMxaT-_--zL003e42EM2LSDleAIHG7S5",
+      "url": "https://drive.google.com/file/d/1mMxaT-_--zL003e42EM2LSDleAIHG7S5/view?usp=drivesdk",
+      "parent_id": "1iUTbvvKTYXau9D0BzNAGtnRn1TaW0i9N"
+    },
+    {
+      "report": "AKRN-2023-ОУР",
+      "kind": "md",
+      "name": "AKRN-2023-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/AKRN/AKRN-2023-ОУР/report.md",
+      "size": 583539,
+      "id": "1ngAkCTm_O70SESubGiPc6O5WG_o_x2FA",
+      "url": "https://drive.google.com/file/d/1ngAkCTm_O70SESubGiPc6O5WG_o_x2FA/view?usp=drivesdk",
+      "parent_id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC"
+    },
+    {
+      "report": "AKRN-2023-ОУР",
+      "kind": "zip",
+      "name": "AKRN-2023-ОУР.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/AKRN-2023-ОУР.zip",
+      "size": 35128584,
+      "id": "1nK-snBDChKE7P3Szq_zbocOOSwrpEvGq",
+      "url": "https://drive.google.com/file/d/1nK-snBDChKE7P3Szq_zbocOOSwrpEvGq/view?usp=drivesdk",
+      "parent_id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC"
+    },
+    {
+      "report": "AKRN-2024-ОУР",
+      "kind": "md",
+      "name": "AKRN-2024-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/AKRN/AKRN-2024-ОУР/report.md",
+      "size": 535367,
+      "id": "1jhcFYUf-XQZBivNxDe0x1HOq82xBlNRO",
+      "url": "https://drive.google.com/file/d/1jhcFYUf-XQZBivNxDe0x1HOq82xBlNRO/view?usp=drivesdk",
+      "parent_id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC"
+    },
+    {
+      "report": "AKRN-2024-ОУР",
+      "kind": "zip",
+      "name": "AKRN-2024-ОУР.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/AKRN-2024-ОУР.zip",
+      "size": 70972731,
+      "id": "1SN0kY-Ixb4u3JIhgY_mfqbR2ynZvwWG7",
+      "url": "https://drive.google.com/file/d/1SN0kY-Ixb4u3JIhgY_mfqbR2ynZvwWG7/view?usp=drivesdk",
+      "parent_id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC"
+    },
+    {
+      "report": "AKRN-2025-ИО",
+      "kind": "md",
+      "name": "AKRN-2025-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/AKRN/AKRN-2025-ИО/report.md",
+      "size": 1242881,
+      "id": "1OV_L3kVDbJSw9xW31HPOhHdgLSktj1Z1",
+      "url": "https://drive.google.com/file/d/1OV_L3kVDbJSw9xW31HPOhHdgLSktj1Z1/view?usp=drivesdk",
+      "parent_id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC"
+    },
+    {
+      "report": "AKRN-2025-ИО",
+      "kind": "zip",
+      "name": "AKRN-2025-ИО.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/AKRN-2025-ИО.zip",
+      "size": 90653320,
+      "id": "1OPFLlC7pjBb84TDpBIOOW6F9HFTXEv2Q",
+      "url": "https://drive.google.com/file/d/1OPFLlC7pjBb84TDpBIOOW6F9HFTXEv2Q/view?usp=drivesdk",
+      "parent_id": "1IXksqkYq3wZm6Oh4Sup9GDdlpsXdEnzC"
+    },
+    {
+      "report": "PIGM-2023-ОУР",
+      "kind": "md",
+      "name": "PIGM-2023-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PIGM/PIGM-2023-ОУР/report.md",
+      "size": 813122,
+      "id": "1KCWkX8GZIF9vzhVzdyph2-Yrc0loZHwS",
+      "url": "https://drive.google.com/file/d/1KCWkX8GZIF9vzhVzdyph2-Yrc0loZHwS/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2023-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2023-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2023-ОУР.part01.zip",
+      "size": 87432715,
+      "id": "1d6bX6XMXAYxN3ng03Rt9-w-iEm_-znyR",
+      "url": "https://drive.google.com/file/d/1d6bX6XMXAYxN3ng03Rt9-w-iEm_-znyR/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2023-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2023-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2023-ОУР.part02.zip",
+      "size": 60024389,
+      "id": "1xAPu5EFIdZvWIhNF9vBvzkGodmL8X7V_",
+      "url": "https://drive.google.com/file/d/1xAPu5EFIdZvWIhNF9vBvzkGodmL8X7V_/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2024-ОУР",
+      "kind": "md",
+      "name": "PIGM-2024-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PIGM/PIGM-2024-ОУР/report.md",
+      "size": 1126950,
+      "id": "1tBDOWJvyevBz0ntTOyPy88IQ7malU3i9",
+      "url": "https://drive.google.com/file/d/1tBDOWJvyevBz0ntTOyPy88IQ7malU3i9/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2024-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2024-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2024-ОУР.part01.zip",
+      "size": 88794857,
+      "id": "12S6rKrU4mg7GBrmivBZ4YDUNQt-ms0Eq",
+      "url": "https://drive.google.com/file/d/12S6rKrU4mg7GBrmivBZ4YDUNQt-ms0Eq/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2024-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2024-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2024-ОУР.part02.zip",
+      "size": 48780855,
+      "id": "1Du4Z6y5kkNVahAJT8AhEORel3Y3bJs5Q",
+      "url": "https://drive.google.com/file/d/1Du4Z6y5kkNVahAJT8AhEORel3Y3bJs5Q/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2025-ОУР",
+      "kind": "md",
+      "name": "PIGM-2025-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PIGM/PIGM-2025-ОУР/report.md",
+      "size": 1374755,
+      "id": "1JDK1KJjkYuDbLHaw02PHrbgL7szyMT3i",
+      "url": "https://drive.google.com/file/d/1JDK1KJjkYuDbLHaw02PHrbgL7szyMT3i/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2025-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2025-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2025-ОУР.part01.zip",
+      "size": 88468158,
+      "id": "13CMe_UKk0wdukcRgZgPNck5QL0dgRHXo",
+      "url": "https://drive.google.com/file/d/13CMe_UKk0wdukcRgZgPNck5QL0dgRHXo/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2025-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2025-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2025-ОУР.part02.zip",
+      "size": 89933947,
+      "id": "1TybBcUGJ9JzV1FG8WYuN-evyKaqVunqx",
+      "url": "https://drive.google.com/file/d/1TybBcUGJ9JzV1FG8WYuN-evyKaqVunqx/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "PIGM-2025-ОУР",
+      "kind": "zip",
+      "name": "PIGM-2025-ОУР.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PIGM-2025-ОУР.part03.zip",
+      "size": 64781762,
+      "id": "1iq0dCNRZS185mclGVteQhdE72PspTsFs",
+      "url": "https://drive.google.com/file/d/1iq0dCNRZS185mclGVteQhdE72PspTsFs/view?usp=drivesdk",
+      "parent_id": "1c4w48_9evYa3tJRcflLxFsV5plDLeYGm"
+    },
+    {
+      "report": "SIBR-2023-ИО",
+      "kind": "md",
+      "name": "SIBR-2023-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SIBR/SIBR-2023-ИО/report.md",
+      "size": 2090310,
+      "id": "1JZV2Wu5AvibNj3c2vp9EUbpSihH3SlNG",
+      "url": "https://drive.google.com/file/d/1JZV2Wu5AvibNj3c2vp9EUbpSihH3SlNG/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2023-ИО",
+      "kind": "zip",
+      "name": "SIBR-2023-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2023-ИО.part01.zip",
+      "size": 84966989,
+      "id": "1d-I1Ih2Ki9Ih4zaDWFmYzmP2TkXPKPb_",
+      "url": "https://drive.google.com/file/d/1d-I1Ih2Ki9Ih4zaDWFmYzmP2TkXPKPb_/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2023-ИО",
+      "kind": "zip",
+      "name": "SIBR-2023-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2023-ИО.part02.zip",
+      "size": 87736404,
+      "id": "1sFETHfrNe0PKDvsStmNbCwvmzHMcqg46",
+      "url": "https://drive.google.com/file/d/1sFETHfrNe0PKDvsStmNbCwvmzHMcqg46/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2023-ИО",
+      "kind": "zip",
+      "name": "SIBR-2023-ИО.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2023-ИО.part03.zip",
+      "size": 67982596,
+      "id": "1p8BGDos7RihR5lSq3V3tCPADGlcy-pKm",
+      "url": "https://drive.google.com/file/d/1p8BGDos7RihR5lSq3V3tCPADGlcy-pKm/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2024-ИО",
+      "kind": "md",
+      "name": "SIBR-2024-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SIBR/SIBR-2024-ИО/report.md",
+      "size": 2198564,
+      "id": "1i0CKHMcDNcAOTqkCoxml-_ugOAWO92yf",
+      "url": "https://drive.google.com/file/d/1i0CKHMcDNcAOTqkCoxml-_ugOAWO92yf/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2024-ИО",
+      "kind": "zip",
+      "name": "SIBR-2024-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2024-ИО.part01.zip",
+      "size": 86814255,
+      "id": "1xstjDAbb8l4z-YHcMJvuXAOkFC5dfH9h",
+      "url": "https://drive.google.com/file/d/1xstjDAbb8l4z-YHcMJvuXAOkFC5dfH9h/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2024-ИО",
+      "kind": "zip",
+      "name": "SIBR-2024-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2024-ИО.part02.zip",
+      "size": 89106347,
+      "id": "11IBl6qIBJBX8wuOzrw8ANrehlJZJQ-M9",
+      "url": "https://drive.google.com/file/d/11IBl6qIBJBX8wuOzrw8ANrehlJZJQ-M9/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2024-ИО",
+      "kind": "zip",
+      "name": "SIBR-2024-ИО.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2024-ИО.part03.zip",
+      "size": 89091417,
+      "id": "13No9-gBmDlc8od5xxIWpDTR3tYBsyPxD",
+      "url": "https://drive.google.com/file/d/13No9-gBmDlc8od5xxIWpDTR3tYBsyPxD/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2024-ИО",
+      "kind": "zip",
+      "name": "SIBR-2024-ИО.part04.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2024-ИО.part04.zip",
+      "size": 63087499,
+      "id": "1k9QK1Wf4Z1u2MDlllmUV5xt6RQm905mK",
+      "url": "https://drive.google.com/file/d/1k9QK1Wf4Z1u2MDlllmUV5xt6RQm905mK/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "md",
+      "name": "SIBR-2025-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SIBR/SIBR-2025-ИО/report.md",
+      "size": 2313952,
+      "id": "1giWP8eaVW7DSMxOT_4YSaAHRz1Ns2A6x",
+      "url": "https://drive.google.com/file/d/1giWP8eaVW7DSMxOT_4YSaAHRz1Ns2A6x/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "zip",
+      "name": "SIBR-2025-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2025-ИО.part01.zip",
+      "size": 87806581,
+      "id": "1o83lrATlvINxus_ALCICmGnzdPx2hmvK",
+      "url": "https://drive.google.com/file/d/1o83lrATlvINxus_ALCICmGnzdPx2hmvK/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "zip",
+      "name": "SIBR-2025-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2025-ИО.part02.zip",
+      "size": 88467660,
+      "id": "1ZFqroah3gFit-tyGgm2JPyBTpToF8xXA",
+      "url": "https://drive.google.com/file/d/1ZFqroah3gFit-tyGgm2JPyBTpToF8xXA/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "zip",
+      "name": "SIBR-2025-ИО.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2025-ИО.part03.zip",
+      "size": 88376143,
+      "id": "16kiMr5DrqSMbh-8CBZXEFhx9oAMWPGS0",
+      "url": "https://drive.google.com/file/d/16kiMr5DrqSMbh-8CBZXEFhx9oAMWPGS0/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "zip",
+      "name": "SIBR-2025-ИО.part04.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2025-ИО.part04.zip",
+      "size": 89721277,
+      "id": "1Kq5xdC6ILEWUtBX0nneajOwUqzjMb_gO",
+      "url": "https://drive.google.com/file/d/1Kq5xdC6ILEWUtBX0nneajOwUqzjMb_gO/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "zip",
+      "name": "SIBR-2025-ИО.part05.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2025-ИО.part05.zip",
+      "size": 89155061,
+      "id": "10gUb7biIRQFMLyefh6DWiV6x_1hHR_UD",
+      "url": "https://drive.google.com/file/d/10gUb7biIRQFMLyefh6DWiV6x_1hHR_UD/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "SIBR-2025-ИО",
+      "kind": "zip",
+      "name": "SIBR-2025-ИО.part06.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/SIBR-2025-ИО.part06.zip",
+      "size": 65333944,
+      "id": "1W1-thw1jtRn_gzakKKvAoSUQTzKpePy5",
+      "url": "https://drive.google.com/file/d/1W1-thw1jtRn_gzakKKvAoSUQTzKpePy5/view?usp=drivesdk",
+      "parent_id": "1nUjeE4O2KwAbC00OfvaOpdx83bKcTeny"
+    },
+    {
+      "report": "URKA-2023-ОУР",
+      "kind": "md",
+      "name": "URKA-2023-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2023-ОУР/report.md",
+      "size": 1098646,
+      "id": "1Hbvi72UqMLOH42ZA_lHfGFn-HM-OO3r7",
+      "url": "https://drive.google.com/file/d/1Hbvi72UqMLOH42ZA_lHfGFn-HM-OO3r7/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2023-ОУР",
+      "kind": "zip",
+      "name": "URKA-2023-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URKA-2023-ОУР.part01.zip",
+      "size": 87140889,
+      "id": "1Ve4I6eCMv2sJz4d-APqK_3oRaNbndPFJ",
+      "url": "https://drive.google.com/file/d/1Ve4I6eCMv2sJz4d-APqK_3oRaNbndPFJ/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2023-ОУР",
+      "kind": "zip",
+      "name": "URKA-2023-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URKA-2023-ОУР.part02.zip",
+      "size": 20583415,
+      "id": "1dcaa57yKapA_mi1lCGYgBx6tN-Aq7mjL",
+      "url": "https://drive.google.com/file/d/1dcaa57yKapA_mi1lCGYgBx6tN-Aq7mjL/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2024-ОУР",
+      "kind": "md",
+      "name": "URKA-2024-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2024-ОУР/report.md",
+      "size": 1151333,
+      "id": "12rRkICj_WHAQwkty33Xn54dnMWgifo3t",
+      "url": "https://drive.google.com/file/d/12rRkICj_WHAQwkty33Xn54dnMWgifo3t/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2024-ОУР",
+      "kind": "zip",
+      "name": "URKA-2024-ОУР.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URKA-2024-ОУР.zip",
+      "size": 66672047,
+      "id": "1G-idQ9PximQiJ8gufJrFMl2uxlVvf0Yz",
+      "url": "https://drive.google.com/file/d/1G-idQ9PximQiJ8gufJrFMl2uxlVvf0Yz/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2025-ГО",
+      "kind": "md",
+      "name": "URKA-2025-ГО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2025-ГО/report.md",
+      "size": 970672,
+      "id": "1XmimyoMxAk64oU4sTRBPWw6nH0aYmpP_",
+      "url": "https://drive.google.com/file/d/1XmimyoMxAk64oU4sTRBPWw6nH0aYmpP_/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2025-ГО",
+      "kind": "zip",
+      "name": "URKA-2025-ГО.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URKA-2025-ГО.zip",
+      "size": 64929145,
+      "id": "1o1w81DjSGFwzvxLBjSQHiobMZlhIyGrY",
+      "url": "https://drive.google.com/file/d/1o1w81DjSGFwzvxLBjSQHiobMZlhIyGrY/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2025-ОУР",
+      "kind": "md",
+      "name": "URKA-2025-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2025-ОУР/report.md",
+      "size": 1147964,
+      "id": "1QKyGrwj5l1kAIn9Lrhj_r1qIqsSCQWAs",
+      "url": "https://drive.google.com/file/d/1QKyGrwj5l1kAIn9Lrhj_r1qIqsSCQWAs/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URKA-2025-ОУР",
+      "kind": "zip",
+      "name": "URKA-2025-ОУР.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URKA-2025-ОУР.zip",
+      "size": 58350970,
+      "id": "1p1iVEI9R8SEbwsEXXfHJ1HDPT4qLhFEj",
+      "url": "https://drive.google.com/file/d/1p1iVEI9R8SEbwsEXXfHJ1HDPT4qLhFEj/view?usp=drivesdk",
+      "parent_id": "1FM7NE5TLcAiOIRd2q-CWFQY3seBRZDRc"
+    },
+    {
+      "report": "URCH-2023-ОУР",
+      "kind": "md",
+      "name": "URCH-2023-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URCH/URCH-2023-ОУР/report.md",
+      "size": 975673,
+      "id": "1WE3xzgguBxDyHsXQ2lA3DVwlCg6EUYZ_",
+      "url": "https://drive.google.com/file/d/1WE3xzgguBxDyHsXQ2lA3DVwlCg6EUYZ_/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "URCH-2023-ОУР",
+      "kind": "zip",
+      "name": "URCH-2023-ОУР.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URCH-2023-ОУР.part01.zip",
+      "size": 88740451,
+      "id": "1YFJgQZjfK6QxUNX26HnPURpTJ_jVPmOA",
+      "url": "https://drive.google.com/file/d/1YFJgQZjfK6QxUNX26HnPURpTJ_jVPmOA/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "URCH-2023-ОУР",
+      "kind": "zip",
+      "name": "URCH-2023-ОУР.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URCH-2023-ОУР.part02.zip",
+      "size": 24440990,
+      "id": "1KqCjFbOvbyXvXtaRbtExad_MelK6xDVe",
+      "url": "https://drive.google.com/file/d/1KqCjFbOvbyXvXtaRbtExad_MelK6xDVe/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "URCH-2024-ОУР",
+      "kind": "md",
+      "name": "URCH-2024-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URCH/URCH-2024-ОУР/report.md",
+      "size": 1042228,
+      "id": "10YDeChDfYC0fp5lkKPxPk1Wt9d7ouzFP",
+      "url": "https://drive.google.com/file/d/10YDeChDfYC0fp5lkKPxPk1Wt9d7ouzFP/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "URCH-2024-ОУР",
+      "kind": "zip",
+      "name": "URCH-2024-ОУР.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URCH-2024-ОУР.zip",
+      "size": 62176038,
+      "id": "1ISb8sHvgwjbiMPEXAQYbtvV9FJRfI-iT",
+      "url": "https://drive.google.com/file/d/1ISb8sHvgwjbiMPEXAQYbtvV9FJRfI-iT/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "URCH-2025-ОУР",
+      "kind": "md",
+      "name": "URCH-2025-ОУР.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URCH/URCH-2025-ОУР/report.md",
+      "size": 1264059,
+      "id": "13t80wp9bY61R8IW_XN6ldy_N3s2FnX6b",
+      "url": "https://drive.google.com/file/d/13t80wp9bY61R8IW_XN6ldy_N3s2FnX6b/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "URCH-2025-ОУР",
+      "kind": "zip",
+      "name": "URCH-2025-ОУР.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/URCH-2025-ОУР.zip",
+      "size": 55461906,
+      "id": "1DqkU3RJi3BJLlRGLCUIu6o6eV4Lilkt0",
+      "url": "https://drive.google.com/file/d/1DqkU3RJi3BJLlRGLCUIu6o6eV4Lilkt0/view?usp=drivesdk",
+      "parent_id": "1HfZkCeCAzq4EU2GrMDQy7_FOwhvoxTeq"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2023-ИО",
+      "kind": "md",
+      "name": "PHOR-2023-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PHOR/PHOR-2023-ИО/report.md",
+      "size": 2727640,
+      "id": "1PaIaBOa2L7H81f5OP0D6vP4Npgj9tY3b",
+      "url": "https://drive.google.com/file/d/1PaIaBOa2L7H81f5OP0D6vP4Npgj9tY3b/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2023-ИО",
+      "kind": "zip",
+      "name": "PHOR-2023-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2023-ИО.part01.zip",
+      "size": 87455515,
+      "id": "1YSiCys92jCP8Z6hkwPg30TysVoO75cH1",
+      "url": "https://drive.google.com/file/d/1YSiCys92jCP8Z6hkwPg30TysVoO75cH1/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2023-ИО",
+      "kind": "zip",
+      "name": "PHOR-2023-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2023-ИО.part02.zip",
+      "size": 62767075,
+      "id": "1So1k5G0M9gHfsRql4JyXye54RxobB6dH",
+      "url": "https://drive.google.com/file/d/1So1k5G0M9gHfsRql4JyXye54RxobB6dH/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2024-ИО",
+      "kind": "md",
+      "name": "PHOR-2024-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PHOR/PHOR-2024-ИО/report.md",
+      "size": 2653600,
+      "id": "15CGkqYvm3tamWpNA-YMHCnPcBQ2fjBx5",
+      "url": "https://drive.google.com/file/d/15CGkqYvm3tamWpNA-YMHCnPcBQ2fjBx5/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2024-ИО",
+      "kind": "zip",
+      "name": "PHOR-2024-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2024-ИО.part01.zip",
+      "size": 87592652,
+      "id": "1YQcmerK98tHoFYMlPy55FfhmjJYkM43A",
+      "url": "https://drive.google.com/file/d/1YQcmerK98tHoFYMlPy55FfhmjJYkM43A/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2024-ИО",
+      "kind": "zip",
+      "name": "PHOR-2024-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2024-ИО.part02.zip",
+      "size": 81567085,
+      "id": "1oWSVhM4L-LLF9Re-EVYvxrNxRBb2RQfm",
+      "url": "https://drive.google.com/file/d/1oWSVhM4L-LLF9Re-EVYvxrNxRBb2RQfm/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2025-ИО",
+      "kind": "md",
+      "name": "PHOR-2025-ИО.md",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PHOR/PHOR-2025-ИО/report.md",
+      "size": 2753672,
+      "id": "1NyRe1Pkkh8EAm0MjTBxlh-d7VZXMAK6n",
+      "url": "https://drive.google.com/file/d/1NyRe1Pkkh8EAm0MjTBxlh-d7VZXMAK6n/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2025-ИО",
+      "kind": "zip",
+      "name": "PHOR-2025-ИО.part01.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2025-ИО.part01.zip",
+      "size": 87447991,
+      "id": "1HJDsKRpD9AU0-5UudGYE-B1OrkdgSv2R",
+      "url": "https://drive.google.com/file/d/1HJDsKRpD9AU0-5UudGYE-B1OrkdgSv2R/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2025-ИО",
+      "kind": "zip",
+      "name": "PHOR-2025-ИО.part02.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2025-ИО.part02.zip",
+      "size": 89814197,
+      "id": "1HmT0mWx9ljD-PnqDuhEEz3C_CL-1gnzg",
+      "url": "https://drive.google.com/file/d/1HmT0mWx9ljD-PnqDuhEEz3C_CL-1gnzg/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    },
+    {
+      "account": "juniorassist6@gmail.com",
+      "report": "PHOR-2025-ИО",
+      "kind": "zip",
+      "name": "PHOR-2025-ИО.part03.zip",
+      "local_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Пакеты_отчётов/PHOR-2025-ИО.part03.zip",
+      "size": 46038954,
+      "id": "1RWiiZYlwJkkWVNsQElPF-hfqAXPykQ90",
+      "url": "https://drive.google.com/file/d/1RWiiZYlwJkkWVNsQElPF-hfqAXPykQ90/view?usp=drivesdk",
+      "parent_id": "1zm0NuDW1cKfbMlc4gp_K9hmb8Um8wOPV"
+    }
+  ]
+}

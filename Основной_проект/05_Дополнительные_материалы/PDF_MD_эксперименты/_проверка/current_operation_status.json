@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-11-17T00:12:13.277976+05:00",
+  "provider_balance_available": true,
+  "provider_verified_by": "Live DeepSeek pilot v4.1: nine saved responses",
+  "active_instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+  "current_stage": "full_agent_revision_live_compared_codex_addressed_partial",
+  "pilot_pages": 9,
+  "raw_immutable": true,
+  "codex_working_files": 9,
+  "codex_changed_files": 3,
+  "full_corpus_semantic_checked": false,
+  "full_corpus_release": "hold_no_checked_claim",
+  "historical_v3_job": "Old blocked_deepseek_balance metadata retained as history; not evidence of current provider balance",
+  "results": "11_Проект_Сбер/Итоговый проект/Проверка_DeepSeek_Codex_2026-11-17/README.md",
+  "prepared_master_revision": {
+    "master_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+    "master_bytes": 46016,
+    "status": "live_pilot_13_pages_targeted_codex_review_required",
+    "saved_responses_across_3_variants": 39,
+    "final_working_files": 13,
+    "codex_changed_files": 10,
+    "tests_passed": 143,
+    "full_page_checked": 0,
+    "corpus_controller_switched": false
+  },
+  "prepared_master_note": "Compact version rejected after live comparison. Full revised master tested on13pages, known pilot defects addressed in separate Codex working versions. Genuine source ambiguities and full-page scope remain pending. Historical frozen and active corpus caches untouched."
+}

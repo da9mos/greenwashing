@@ -1,0 +1,17 @@
+[Unit]
+Description=Sber ESG review workspace
+After=network.target
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/sber-esg-review
+ExecStart=/usr/bin/python3 /opt/sber-esg-review/app.py
+Restart=on-failure
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/sber-esg-review
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target

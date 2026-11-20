@@ -1,0 +1,830 @@
+[
+  {
+    "company": "Газпром",
+    "report": "GAZP-2023-ОУР",
+    "pages": 136,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/GAZP/GAZP-2023-ОУР/report.md",
+    "files": 137,
+    "bytes": 130674529
+  },
+  {
+    "company": "Газпром",
+    "report": "GAZP-2023-ЭО",
+    "pages": 84,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/GAZP/GAZP-2023-ЭО/report.md",
+    "files": 85,
+    "bytes": 25309659
+  },
+  {
+    "company": "Газпром",
+    "report": "GAZP-2024-ОУР",
+    "pages": 150,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/GAZP/GAZP-2024-ОУР/report.md",
+    "files": 151,
+    "bytes": 112074734
+  },
+  {
+    "company": "Газпром",
+    "report": "GAZP-2025-ОУР",
+    "pages": 152,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/GAZP/GAZP-2025-ОУР/report.md",
+    "files": 153,
+    "bytes": 160358702
+  },
+  {
+    "company": "Иркутская нефтяная компания",
+    "report": "IRKN-2023-ИО",
+    "pages": 143,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/IRKN/IRKN-2023-ИО/report.md",
+    "files": 144,
+    "bytes": 33143017
+  },
+  {
+    "company": "Иркутская нефтяная компания",
+    "report": "IRKN-2024-ИО",
+    "pages": 149,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/IRKN/IRKN-2024-ИО/report.md",
+    "files": 150,
+    "bytes": 243466053
+  },
+  {
+    "company": "Иркутская нефтяная компания",
+    "report": "IRKN-2025-ИО",
+    "pages": 206,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/IRKN/IRKN-2025-ИО/report.md",
+    "files": 207,
+    "bytes": 260812651
+  },
+  {
+    "company": "ЛУКОЙЛ",
+    "report": "LKOH-2023-ОУР",
+    "pages": 115,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/LKOH/LKOH-2023-ОУР/report.md",
+    "files": 116,
+    "bytes": 55833943
+  },
+  {
+    "company": "ЛУКОЙЛ",
+    "report": "LKOH-2024-ОУР",
+    "pages": 116,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/LKOH/LKOH-2024-ОУР/report.md",
+    "files": 117,
+    "bytes": 92725271
+  },
+  {
+    "company": "ЛУКОЙЛ",
+    "report": "LKOH-2025-ОУР",
+    "pages": 114,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/LKOH/LKOH-2025-ОУР/report.md",
+    "files": 115,
+    "bytes": 147947700
+  },
+  {
+    "company": "НОВАТЭК",
+    "report": "NVTK-2023-ОУР",
+    "pages": 138,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/NVTK/NVTK-2023-ОУР/report.md",
+    "files": 139,
+    "bytes": 173095104
+  },
+  {
+    "company": "НОВАТЭК",
+    "report": "NVTK-2024-ОУР",
+    "pages": 129,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/NVTK/NVTK-2024-ОУР/report.md",
+    "files": 130,
+    "bytes": 163799532
+  },
+  {
+    "company": "НОВАТЭК",
+    "report": "NVTK-2025-ОУР",
+    "pages": 121,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/NVTK/NVTK-2025-ОУР/report.md",
+    "files": 122,
+    "bytes": 151716274
+  },
+  {
+    "company": "Роснефть",
+    "report": "ROSN-2023-ОУР",
+    "pages": 134,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/ROSN/ROSN-2023-ОУР/report.md",
+    "files": 135,
+    "bytes": 188821290
+  },
+  {
+    "company": "Роснефть",
+    "report": "ROSN-2024-ОУР",
+    "pages": 135,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/ROSN/ROSN-2024-ОУР/report.md",
+    "files": 136,
+    "bytes": 216692377
+  },
+  {
+    "company": "Роснефть",
+    "report": "ROSN-2025-ИО",
+    "pages": 68,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/ROSN/ROSN-2025-ИО/report.md",
+    "files": 69,
+    "bytes": 118944228
+  },
+  {
+    "company": "Татнефть",
+    "report": "TATN-2023-ИО",
+    "pages": 172,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TATN/TATN-2023-ИО/report.md",
+    "files": 173,
+    "bytes": 120839969
+  },
+  {
+    "company": "Татнефть",
+    "report": "TATN-2024-ИО",
+    "pages": 200,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TATN/TATN-2024-ИО/report.md",
+    "files": 201,
+    "bytes": 180947471
+  },
+  {
+    "company": "Татнефть",
+    "report": "TATN-2025-ИО",
+    "pages": 258,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TATN/TATN-2025-ИО/report.md",
+    "files": 259,
+    "bytes": 372093778
+  },
+  {
+    "company": "Транснефть",
+    "report": "TRNF-2023-ИО",
+    "pages": 343,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRNF/TRNF-2023-ИО/report.md",
+    "files": 344,
+    "bytes": 84988354
+  },
+  {
+    "company": "Транснефть",
+    "report": "TRNF-2024-ИО",
+    "pages": 303,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRNF/TRNF-2024-ИО/report.md",
+    "files": 304,
+    "bytes": 96672847
+  },
+  {
+    "company": "Транснефть",
+    "report": "TRNF-2025-ИО",
+    "pages": 190,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRNF/TRNF-2025-ИО/report.md",
+    "files": 191,
+    "bytes": 156129154
+  },
+  {
+    "company": "АЛРОСА",
+    "report": "ALRS-2023-ОУР",
+    "pages": 170,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/ALRS/ALRS-2023-ОУР/report.md",
+    "files": 171,
+    "bytes": 183148773
+  },
+  {
+    "company": "АЛРОСА",
+    "report": "ALRS-2024-ОУР",
+    "pages": 189,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/ALRS/ALRS-2024-ОУР/report.md",
+    "files": 190,
+    "bytes": 204183379
+  },
+  {
+    "company": "АЛРОСА",
+    "report": "ALRS-2025-ОУР",
+    "pages": 247,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/ALRS/ALRS-2025-ОУР/report.md",
+    "files": 253,
+    "bytes": 303915743
+  },
+  {
+    "company": "ММК",
+    "report": "MAGN-2023-ИО",
+    "pages": 242,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MAGN/MAGN-2023-ИО/report.md",
+    "files": 243,
+    "bytes": 257897885
+  },
+  {
+    "company": "ММК",
+    "report": "MAGN-2024-ИО",
+    "pages": 329,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MAGN/MAGN-2024-ИО/report.md",
+    "files": 330,
+    "bytes": 300459776
+  },
+  {
+    "company": "ММК",
+    "report": "MAGN-2025-ИО",
+    "pages": 378,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MAGN/MAGN-2025-ИО/report.md",
+    "files": 379,
+    "bytes": 368074325
+  },
+  {
+    "company": "Металлоинвест",
+    "report": "MINV-2023-ОУР",
+    "pages": 158,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MINV/MINV-2023-ОУР/report.md",
+    "files": 159,
+    "bytes": 267378794
+  },
+  {
+    "company": "Металлоинвест",
+    "report": "MINV-2024-ОУР",
+    "pages": 162,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MINV/MINV-2024-ОУР/report.md",
+    "files": 163,
+    "bytes": 316483571
+  },
+  {
+    "company": "Металлоинвест",
+    "report": "MINV-2025-ОУР",
+    "pages": 188,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MINV/MINV-2025-ОУР/report.md",
+    "files": 189,
+    "bytes": 279079986
+  },
+  {
+    "company": "Мечел",
+    "report": "MTLR-2023-ОУР",
+    "pages": 98,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MTLR/MTLR-2023-ОУР/report.md",
+    "files": 99,
+    "bytes": 266267017
+  },
+  {
+    "company": "Мечел",
+    "report": "MTLR-2024-ОУР",
+    "pages": 133,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MTLR/MTLR-2024-ОУР/report.md",
+    "files": 135,
+    "bytes": 223125724
+  },
+  {
+    "company": "Мечел",
+    "report": "MTLR-2025-ГО",
+    "pages": 69,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MTLR/MTLR-2025-ГО/report.md",
+    "files": 70,
+    "bytes": 147657141
+  },
+  {
+    "company": "Мечел",
+    "report": "MTLR-2025-ОУР",
+    "pages": 164,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/MTLR/MTLR-2025-ОУР/report.md",
+    "files": 165,
+    "bytes": 505974046
+  },
+  {
+    "company": "НЛМК",
+    "report": "NLMK-2023-ОУР",
+    "pages": 96,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/NLMK/NLMK-2023-ОУР/report.md",
+    "files": 98,
+    "bytes": 109584676
+  },
+  {
+    "company": "НЛМК",
+    "report": "NLMK-2024-ИО",
+    "pages": 172,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/NLMK/NLMK-2024-ИО/report.md",
+    "files": 173,
+    "bytes": 208126304
+  },
+  {
+    "company": "НЛМК",
+    "report": "NLMK-2025-ИО",
+    "pages": 139,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/NLMK/NLMK-2025-ИО/report.md",
+    "files": 140,
+    "bytes": 227863955
+  },
+  {
+    "company": "Норникель",
+    "report": "NORN-2023-ОУР",
+    "pages": 246,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/NORN/NORN-2023-ОУР/report.md",
+    "files": 247,
+    "bytes": 232884935
+  },
+  {
+    "company": "Норникель",
+    "report": "NORN-2024-ОУР",
+    "pages": 198,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/NORN/NORN-2024-ОУР/report.md",
+    "files": 199,
+    "bytes": 258464306
+  },
+  {
+    "company": "Норникель",
+    "report": "NORN-2025-ОУР",
+    "pages": 119,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/NORN/NORN-2025-ОУР/report.md",
+    "files": 120,
+    "bytes": 219920720
+  },
+  {
+    "company": "Полюс",
+    "report": "PLZL-2023-ОУР",
+    "pages": 152,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PLZL/PLZL-2023-ОУР/report.md",
+    "files": 153,
+    "bytes": 109033792
+  },
+  {
+    "company": "Полюс",
+    "report": "PLZL-2024-ОУР",
+    "pages": 257,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PLZL/PLZL-2024-ОУР/report.md",
+    "files": 258,
+    "bytes": 161818342
+  },
+  {
+    "company": "Полюс",
+    "report": "PLZL-2025-ИО",
+    "pages": 136,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PLZL/PLZL-2025-ИО/report.md",
+    "files": 137,
+    "bytes": 88261535
+  },
+  {
+    "company": "Полюс",
+    "report": "PLZL-2025-ОУР",
+    "pages": 346,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PLZL/PLZL-2025-ОУР/report.md",
+    "files": 347,
+    "bytes": 139181453
+  },
+  {
+    "company": "РУСАЛ",
+    "report": "RUAL-2023-ОУР",
+    "pages": 206,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RUAL/RUAL-2023-ОУР/report.md",
+    "files": 207,
+    "bytes": 149791396
+  },
+  {
+    "company": "РУСАЛ",
+    "report": "RUAL-2024-ОУР",
+    "pages": 149,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RUAL/RUAL-2024-ОУР/report.md",
+    "files": 150,
+    "bytes": 141245538
+  },
+  {
+    "company": "РУСАЛ",
+    "report": "RUAL-2025-ИО",
+    "pages": 294,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RUAL/RUAL-2025-ИО/report.md",
+    "files": 295,
+    "bytes": 199645746
+  },
+  {
+    "company": "Распадская",
+    "report": "RASP-2023-ОУР",
+    "pages": 70,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RASP/RASP-2023-ОУР/report.md",
+    "files": 71,
+    "bytes": 118228039
+  },
+  {
+    "company": "Распадская",
+    "report": "RASP-2024-ОУР",
+    "pages": 103,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RASP/RASP-2024-ОУР/report.md",
+    "files": 104,
+    "bytes": 148586777
+  },
+  {
+    "company": "Распадская",
+    "report": "RASP-2025-ОУР",
+    "pages": 204,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/RASP/RASP-2025-ОУР/report.md",
+    "files": 205,
+    "bytes": 243835027
+  },
+  {
+    "company": "Северсталь",
+    "report": "CHMF-2023-ОУР",
+    "pages": 295,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/CHMF/CHMF-2023-ОУР/report.md",
+    "files": 296,
+    "bytes": 104445192
+  },
+  {
+    "company": "Северсталь",
+    "report": "CHMF-2024-ИО",
+    "pages": 167,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/CHMF/CHMF-2024-ИО/report.md",
+    "files": 169,
+    "bytes": 164027967
+  },
+  {
+    "company": "Северсталь",
+    "report": "CHMF-2025-ИО",
+    "pages": 186,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/CHMF/CHMF-2025-ИО/report.md",
+    "files": 187,
+    "bytes": 161088400
+  },
+  {
+    "company": "ТМК",
+    "report": "TRMK-2023-ИО",
+    "pages": 43,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRMK/TRMK-2023-ИО/report.md",
+    "files": 44,
+    "bytes": 56525310
+  },
+  {
+    "company": "ТМК",
+    "report": "TRMK-2024-ОУР",
+    "pages": 128,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRMK/TRMK-2024-ОУР/report.md",
+    "files": 129,
+    "bytes": 243708415
+  },
+  {
+    "company": "ТМК",
+    "report": "TRMK-2025-ОУР",
+    "pages": 115,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/TRMK/TRMK-2025-ОУР/report.md",
+    "files": 116,
+    "bytes": 150750213
+  },
+  {
+    "company": "Акрон",
+    "report": "AKRN-2023-ОУР",
+    "pages": 54,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/AKRN/AKRN-2023-ОУР/report.md",
+    "files": 55,
+    "bytes": 35588452
+  },
+  {
+    "company": "Акрон",
+    "report": "AKRN-2024-ОУР",
+    "pages": 65,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/AKRN/AKRN-2024-ОУР/report.md",
+    "files": 66,
+    "bytes": 71391496
+  },
+  {
+    "company": "Акрон",
+    "report": "AKRN-2025-ИО",
+    "pages": 117,
+    "version": "Codex: рабочая версия",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/AKRN/AKRN-2025-ИО/report.md",
+    "files": 118,
+    "bytes": 91655178
+  },
+  {
+    "company": "Пигмент",
+    "report": "PIGM-2023-ОУР",
+    "pages": 120,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PIGM/PIGM-2023-ОУР/report.md",
+    "files": 121,
+    "bytes": 148088540
+  },
+  {
+    "company": "Пигмент",
+    "report": "PIGM-2024-ОУР",
+    "pages": 175,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PIGM/PIGM-2024-ОУР/report.md",
+    "files": 176,
+    "bytes": 138477230
+  },
+  {
+    "company": "Пигмент",
+    "report": "PIGM-2025-ОУР",
+    "pages": 187,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PIGM/PIGM-2025-ОУР/report.md",
+    "files": 188,
+    "bytes": 244304738
+  },
+  {
+    "company": "СИБУР",
+    "report": "SIBR-2023-ИО",
+    "pages": 183,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SIBR/SIBR-2023-ИО/report.md",
+    "files": 184,
+    "bytes": 242425095
+  },
+  {
+    "company": "СИБУР",
+    "report": "SIBR-2024-ИО",
+    "pages": 223,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SIBR/SIBR-2024-ИО/report.md",
+    "files": 224,
+    "bytes": 329875917
+  },
+  {
+    "company": "СИБУР",
+    "report": "SIBR-2025-ИО",
+    "pages": 265,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SIBR/SIBR-2025-ИО/report.md",
+    "files": 266,
+    "bytes": 510723298
+  },
+  {
+    "company": "Уралкалий",
+    "report": "URKA-2023-ОУР",
+    "pages": 131,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2023-ОУР/report.md",
+    "files": 132,
+    "bytes": 108613420
+  },
+  {
+    "company": "Уралкалий",
+    "report": "URKA-2024-ОУР",
+    "pages": 132,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2024-ОУР/report.md",
+    "files": 133,
+    "bytes": 67601738
+  },
+  {
+    "company": "Уралкалий",
+    "report": "URKA-2025-ГО",
+    "pages": 82,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2025-ГО/report.md",
+    "files": 83,
+    "bytes": 65724476
+  },
+  {
+    "company": "Уралкалий",
+    "report": "URKA-2025-ОУР",
+    "pages": 121,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URKA/URKA-2025-ОУР/report.md",
+    "files": 122,
+    "bytes": 59273885
+  },
+  {
+    "company": "Уралхим",
+    "report": "URCH-2023-ОУР",
+    "pages": 133,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URCH/URCH-2023-ОУР/report.md",
+    "files": 134,
+    "bytes": 113977783
+  },
+  {
+    "company": "Уралхим",
+    "report": "URCH-2024-ОУР",
+    "pages": 110,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URCH/URCH-2024-ОУР/report.md",
+    "files": 111,
+    "bytes": 63030814
+  },
+  {
+    "company": "Уралхим",
+    "report": "URCH-2025-ОУР",
+    "pages": 117,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/URCH/URCH-2025-ОУР/report.md",
+    "files": 118,
+    "bytes": 56506853
+  },
+  {
+    "company": "ФосАгро",
+    "report": "PHOR-2023-ИО",
+    "pages": 202,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PHOR/PHOR-2023-ИО/report.md",
+    "files": 203,
+    "bytes": 152442306
+  },
+  {
+    "company": "ФосАгро",
+    "report": "PHOR-2024-ИО",
+    "pages": 206,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PHOR/PHOR-2024-ИО/report.md",
+    "files": 207,
+    "bytes": 171290768
+  },
+  {
+    "company": "ФосАгро",
+    "report": "PHOR-2025-ИО",
+    "pages": 217,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/PHOR/PHOR-2025-ИО/report.md",
+    "files": 218,
+    "bytes": 225521850
+  },
+  {
+    "company": "КАМАЗ",
+    "report": "KMAZ-2023-ОУР",
+    "pages": 162,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/KMAZ/KMAZ-2023-ОУР/report.md",
+    "files": 163,
+    "bytes": 151996975
+  },
+  {
+    "company": "КАМАЗ",
+    "report": "KMAZ-2024-ОУР",
+    "pages": 127,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/KMAZ/KMAZ-2024-ОУР/report.md",
+    "files": 128,
+    "bytes": 96661228
+  },
+  {
+    "company": "КАМАЗ",
+    "report": "KMAZ-2025-ГО",
+    "pages": 124,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/KMAZ/KMAZ-2025-ГО/report.md",
+    "files": 125,
+    "bytes": 35212424
+  },
+  {
+    "company": "Щербинский лифтостроительный завод",
+    "report": "SHLZ-2023-ОУР",
+    "pages": 36,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SHLZ/SHLZ-2023-ОУР/report.md",
+    "files": 37,
+    "bytes": 32691497
+  },
+  {
+    "company": "Щербинский лифтостроительный завод",
+    "report": "SHLZ-2024-ОУР",
+    "pages": 56,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SHLZ/SHLZ-2024-ОУР/report.md",
+    "files": 57,
+    "bytes": 58442849
+  },
+  {
+    "company": "Свеза",
+    "report": "SVEZ-2023-ОУР",
+    "pages": 131,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SVEZ/SVEZ-2023-ОУР/report.md",
+    "files": 132,
+    "bytes": 122104185
+  },
+  {
+    "company": "Свеза",
+    "report": "SVEZ-2024-ОУР",
+    "pages": 58,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SVEZ/SVEZ-2024-ОУР/report.md",
+    "files": 59,
+    "bytes": 93321167
+  },
+  {
+    "company": "Сегежа",
+    "report": "SGZH-2023-ИО",
+    "pages": 164,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SGZH/SGZH-2023-ИО/report.md",
+    "files": 165,
+    "bytes": 172867735
+  },
+  {
+    "company": "Сегежа",
+    "report": "SGZH-2024-ИО",
+    "pages": 167,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SGZH/SGZH-2024-ИО/report.md",
+    "files": 168,
+    "bytes": 204349009
+  },
+  {
+    "company": "Сегежа",
+    "report": "SGZH-2025-ИО",
+    "pages": 177,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/SGZH/SGZH-2025-ИО/report.md",
+    "files": 178,
+    "bytes": 98297737
+  },
+  {
+    "company": "Мосводоканал",
+    "report": "MVDK-2023-ГО",
+    "pages": 190,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/MVDK/MVDK-2023-ГО/report.md",
+    "files": 191,
+    "bytes": 133712149
+  },
+  {
+    "company": "Мосводоканал",
+    "report": "MVDK-2024-ГО",
+    "pages": 92,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/MVDK/MVDK-2024-ГО/report.md",
+    "files": 93,
+    "bytes": 149073867
+  },
+  {
+    "company": "Мосводоканал",
+    "report": "MVDK-2025-ГО",
+    "pages": 211,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/MVDK/MVDK-2025-ГО/report.md",
+    "files": 212,
+    "bytes": 174338708
+  },
+  {
+    "company": "Росводоканал",
+    "report": "RVDK-2023-ОУР",
+    "pages": 92,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/RVDK/RVDK-2023-ОУР/report.md",
+    "files": 93,
+    "bytes": 45658797
+  },
+  {
+    "company": "Росводоканал",
+    "report": "RVDK-2024-ОУР",
+    "pages": 95,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/RVDK/RVDK-2024-ОУР/report.md",
+    "files": 96,
+    "bytes": 46666695
+  },
+  {
+    "company": "Росводоканал",
+    "report": "RVDK-2025-ОУР",
+    "pages": 105,
+    "version": "Автоматический перенос",
+    "source": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Все_отчёты_MD/RVDK/RVDK-2025-ОУР/report.md",
+    "files": 106,
+    "bytes": 59466469
+  }
+]

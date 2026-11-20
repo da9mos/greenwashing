@@ -1,0 +1,23 @@
+{
+  "source_sha256": "f2fb018684d36cfc4b4fb6b19a1146d167c6d619a01c27105be3714146197165",
+  "report_sha256": "22f20a07536068f6fa18d2a85a48eb427fee90cc82c631218c96f0428a8900ea",
+  "physical_pages": 378,
+  "page_markers_exactly_once_in_order": true,
+  "registry_count": 378,
+  "all_local_links_exist": true,
+  "internal_targets_exist": true,
+  "verified_source_image_hashes": 378,
+  "replacement_characters": 0,
+  "non_whitespace_controls": [],
+  "tables": 237,
+  "empty_table_rows": 1,
+  "conversion_status_counts": {
+    "converted": 378
+  },
+  "review_status_counts": {
+    "checked": 1,
+    "pending": 377
+  },
+  "full_original_review": false,
+  "render_verified": false
+}

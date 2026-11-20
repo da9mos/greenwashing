@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "report": "social",
+      "rendered_page_anchors": 136,
+      "source_image_references": 271,
+      "sample_image_decoded": true,
+      "desktop_width": 1440,
+      "mobile_width": 390,
+      "document_overflow": false
+    },
+    {
+      "report": "environment",
+      "rendered_page_anchors": 84,
+      "source_image_references": 84,
+      "sample_image_decoded": true,
+      "desktop_width": 1440,
+      "mobile_width": 390,
+      "document_overflow": false
+    }
+  ],
+  "javascript_errors": [],
+  "scope": "Full MD rendered; page/asset counts checked; selected blocks/screenshots reviewed, not every word of source PDF"
+}

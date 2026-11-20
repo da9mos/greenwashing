@@ -1,0 +1,190 @@
+{
+  "uploads": [
+    {
+      "name": "Корпус_92_отчёта_Drive.md",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1ohB9Bu7dHB8-acZKiIs6IG5czxTr_VxF",
+        "title": "Корпус_92_отчёта_Drive.md",
+        "file_name": "Корпус_92_отчёта_Drive.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1ohB9Bu7dHB8-acZKiIs6IG5czxTr_VxF/view?usp=drivesdk",
+        "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1ohB9Bu7dHB8-acZKiIs6IG5czxTr_VxF",
+          "title": "Корпус_92_отчёта_Drive.md",
+          "file_name": "Корпус_92_отчёта_Drive.md",
+          "mime_type": "text/markdown",
+          "url": "https://drive.google.com/file/d/1ohB9Bu7dHB8-acZKiIs6IG5czxTr_VxF/view?usp=drivesdk",
+          "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+        }
+      },
+      "isError": false
+    },
+    {
+      "name": "Реестр_доставки.csv",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1DyqZ8CLVbS0W8oyhbGWFKWviMeuOxnJX",
+        "title": "Реестр_доставки.csv",
+        "file_name": "Реестр_доставки.csv",
+        "mime_type": "text/csv",
+        "url": "https://drive.google.com/file/d/1DyqZ8CLVbS0W8oyhbGWFKWviMeuOxnJX/view?usp=drivesdk",
+        "parent_id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1DyqZ8CLVbS0W8oyhbGWFKWviMeuOxnJX",
+          "title": "Реестр_доставки.csv",
+          "file_name": "Реестр_доставки.csv",
+          "mime_type": "text/csv",
+          "url": "https://drive.google.com/file/d/1DyqZ8CLVbS0W8oyhbGWFKWviMeuOxnJX/view?usp=drivesdk",
+          "parent_id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4"
+        }
+      },
+      "isError": false
+    },
+    {
+      "name": "Итог_доставки.md",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1CgkNbJqzZC5M3BsE6G0TRvCqsuI36AXb",
+        "title": "Итог_доставки.md",
+        "file_name": "Итог_доставки.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1CgkNbJqzZC5M3BsE6G0TRvCqsuI36AXb/view?usp=drivesdk",
+        "parent_id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1CgkNbJqzZC5M3BsE6G0TRvCqsuI36AXb",
+          "title": "Итог_доставки.md",
+          "file_name": "Итог_доставки.md",
+          "mime_type": "text/markdown",
+          "url": "https://drive.google.com/file/d/1CgkNbJqzZC5M3BsE6G0TRvCqsuI36AXb/view?usp=drivesdk",
+          "parent_id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4"
+        }
+      },
+      "isError": false
+    },
+    {
+      "name": "Финальная_сверка_Drive.json",
+      "result": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Us8hAGxALnFcLzACauuSbw9UosAElzmK",
+        "title": "Финальная_сверка_Drive.json",
+        "file_name": "Финальная_сверка_Drive.json",
+        "mime_type": "application/json",
+        "url": "https://drive.google.com/file/d/1Us8hAGxALnFcLzACauuSbw9UosAElzmK/view?usp=drivesdk",
+        "parent_id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1Us8hAGxALnFcLzACauuSbw9UosAElzmK",
+          "title": "Финальная_сверка_Drive.json",
+          "file_name": "Финальная_сверка_Drive.json",
+          "mime_type": "application/json",
+          "url": "https://drive.google.com/file/d/1Us8hAGxALnFcLzACauuSbw9UosAElzmK/view?usp=drivesdk",
+          "parent_id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4"
+        }
+      },
+      "isError": false
+    }
+  ],
+  "readback": [
+    {
+      "name": "Корпус_92_отчёта_Drive.md",
+      "metadata": {
+        "id": "1ohB9Bu7dHB8-acZKiIs6IG5czxTr_VxF",
+        "title": "Корпус_92_отчёта_Drive.md",
+        "mime_type": null,
+        "size": "38933",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "Реестр_доставки.csv",
+      "metadata": {
+        "id": "1DyqZ8CLVbS0W8oyhbGWFKWviMeuOxnJX",
+        "title": "Реестр_доставки.csv",
+        "mime_type": null,
+        "size": "117456",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "Итог_доставки.md",
+      "metadata": {
+        "id": "1CgkNbJqzZC5M3BsE6G0TRvCqsuI36AXb",
+        "title": "Итог_доставки.md",
+        "mime_type": null,
+        "size": "2951",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "name": "Финальная_сверка_Drive.json",
+      "metadata": {
+        "id": "1Us8hAGxALnFcLzACauuSbw9UosAElzmK",
+        "title": "Финальная_сверка_Drive.json",
+        "mime_type": null,
+        "size": "285122",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "valid_responses": 223,
+  "invalid_json_attempts": 2,
+  "known_completion_requests": 225,
+  "usage_for_valid_responses_only": {
+    "prompt_tokens": 491201,
+    "completion_tokens": 322901,
+    "total_tokens": 814102
+  },
+  "billing_limitations": "One original invalid response was not preserved. Actual billed totals may include failed-format responses and cannot be inferred from these valid-response totals."
+}

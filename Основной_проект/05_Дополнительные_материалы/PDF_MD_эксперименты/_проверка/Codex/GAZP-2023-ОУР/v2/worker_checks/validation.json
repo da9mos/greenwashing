@@ -1,0 +1,20 @@
+{
+  "page_markers": 136,
+  "registry_pages": 136,
+  "source_image_hashes_verified": 136,
+  "local_assets_verified": 136,
+  "missing_local_links": 0,
+  "conversion_status": {
+    "converted": 136
+  },
+  "review_status": {
+    "checked": 1,
+    "pending": 135
+  },
+  "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+  "report_sha256": "0438aecde7250ca3bf08a4148b883b47dbd6c3f34cd3c35913887e1d616f7d7f",
+  "ocr_pages": [
+    132,
+    133
+  ]
+}

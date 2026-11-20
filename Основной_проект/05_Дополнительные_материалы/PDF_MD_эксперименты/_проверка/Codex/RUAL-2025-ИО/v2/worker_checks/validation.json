@@ -1,0 +1,23 @@
+{
+  "physical_pages": 294,
+  "page_markers_sequential": true,
+  "registry_pages": 294,
+  "missing_links": [],
+  "control_characters": [],
+  "html_parse_succeeded": true,
+  "visual_browser_render_checked": false,
+  "report_bytes": 3749105,
+  "source_sha256": "dae35d67fdb1f69209c9a3d76300e3cc438bbc575c357735d72c8e0be3ad2c53",
+  "review_status_counts": {
+    "checked": 1,
+    "pending": 293
+  },
+  "source_asset_hashes_match_all_294": true,
+  "table_pages_audited": 184,
+  "browser_render_attempt": {
+    "tool": "local headless Google Chrome",
+    "exit_code": 134,
+    "screenshot_created": false,
+    "result": "Процесс завершился до создания изображения; визуальное отображение HTML не проверено."
+  }
+}

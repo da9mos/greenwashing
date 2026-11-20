@@ -1,0 +1,9 @@
+{
+  "footnote_kept_separate": "pass",
+  "numeric_change_flagged_as_suspect": "pass",
+  "adjacent_cells_not_thousands_separator": "pass",
+  "rowspan_not_false_empty_column": "pass",
+  "empty_column_detected": "pass",
+  "symlink_rejected_before_content_read": "pass",
+  "cloud_published_receipt_local_ledger_fallback": "pass"
+}

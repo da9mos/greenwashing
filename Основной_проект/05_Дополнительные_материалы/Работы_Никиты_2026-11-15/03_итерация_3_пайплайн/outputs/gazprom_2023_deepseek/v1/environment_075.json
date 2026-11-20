@@ -1,0 +1,30 @@
+{
+  "report": "environment",
+  "pdf_page": 75,
+  "version": "v1",
+  "response": {
+    "pdf_page": 75,
+    "printed_pages": "73",
+    "markdown": "# Адреса и контакты\n\n**ПАО «ГАЗПРОМ»**\n\nРоссийская Федерация, 197229,\nг. Санкт-Петербург, Лахтинский просп., д. 2, корп. 3, стр. 1\nwww.gazprom.ru\nТелефон: +7 (812) 641-36-14\n\n**ООО «ГАЗПРОМ ВНИИГАЗ»**\n\nКорпоративный научно-технический центр экологической\nбезопасности и энергоэффективности\nРоссийская Федерация, 195112,\nг. Санкт-Петербург,\nвн. тер. г. муниципальный округ Малая Охта,\nпр-кт Малоохтинский, д. 45, литера А, помещ. 2-Н, офис 812\nТелефон: +7 (498) 657-42-06. Факс: +7 (498) 657-96-05\n\nЭкологический отчет ПАО «Газпром» за 2023 год",
+    "problems": [],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 291,
+    "total_tokens": 1880,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 3.48,
+  "image_sha256": [
+    "97c14c9743b5562f856c4d27c0e187a5e0f1eaeafa0218a8db286b22aecd65d8"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

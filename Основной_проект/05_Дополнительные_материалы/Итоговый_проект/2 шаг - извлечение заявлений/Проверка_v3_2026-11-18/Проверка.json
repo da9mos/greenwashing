@@ -1,0 +1,18 @@
+{
+  "base_commit": "5597472",
+  "test_suite": "45 passed: 18 existing +27 v3",
+  "real_prepare": {
+    "report_id": "GAZP-2023-ЭО",
+    "source_sha256": "c9b0f1a7c1215b55ae71e2bab071906fd389a99120371c0092d00c51544719a7",
+    "pages": 84,
+    "blocks": 1237,
+    "batches": 84,
+    "all_blocks_assigned_once": true,
+    "source_text_changed": false,
+    "semantic_extraction_completed": false
+  },
+  "v3_precision_recall": "not measured",
+  "pdf_review_completed": false,
+  "active_workspace": "GAZP-2023-ЭО_final",
+  "superseded_workspace": "GAZP-2023-ЭО: prompt whitespace normalized after initial prepare; retained history"
+}

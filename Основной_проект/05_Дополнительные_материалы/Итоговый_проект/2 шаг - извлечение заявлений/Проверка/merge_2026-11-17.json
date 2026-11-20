@@ -1,0 +1,9 @@
+{
+  "pages": 84,
+  "parts": 11,
+  "claims": 708,
+  "all_exported_rows_equal_existing": true,
+  "existing_output_overwrite_rejected": true,
+  "unit_tests_passed": 17,
+  "scope": "Saved extraction split into batches and recombined; no new semantic extraction or PDF review."
+}

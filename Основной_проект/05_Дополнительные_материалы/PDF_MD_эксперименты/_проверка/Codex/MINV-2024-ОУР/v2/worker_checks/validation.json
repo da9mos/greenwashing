@@ -1,0 +1,12 @@
+{
+  "physical_pages": 162,
+  "markers_in_order": true,
+  "missing_image_files": [],
+  "annotation_count": 296,
+  "unresolved_annotation_count": 0,
+  "internal_targets_exist": true,
+  "report_sha256": "d9711018ddac8b9100d68e5160eaee6cffe48a8f88b8c858ce636818162e8750",
+  "render_status": "blocked",
+  "render_reason": "Chrome launch SIGABRT; no screenshots available; HTML generated only.",
+  "named_links_resolved": 176
+}

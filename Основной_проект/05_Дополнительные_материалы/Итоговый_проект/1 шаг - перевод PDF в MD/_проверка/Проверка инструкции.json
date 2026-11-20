@@ -1,0 +1,454 @@
+{
+  "instruction_sha256": "c280f6b30869c170bad91c536f773578bb11655399b2f62ce212ddeab0a20a8a",
+  "test_type": "Synthetic behavioral contract checks, not full-document conversion or proof for all models",
+  "cases": [
+    {
+      "id": "capability_boundary",
+      "scenario": "Ты работаешь в текстовом чате без доступа к файлам, инструментам и изображениям. У тебя нет ни самого PDF, ни его содержимого. Можно ли сообщить, что документ полностью прочитан и сконвертирован? Верни JSON с can_claim_converted(boolean), status(string), next_action(string).",
+      "expected": {
+        "can_claim_converted": false,
+        "status": "blocked"
+      },
+      "response": {
+        "can_claim_converted": false,
+        "status": "blocked",
+        "next_action": "Предоставьте PDF и среду с доступом к файлам, извлечению текста и OCR; без них чтение и конвертация невозможны, поэтому заявлять о полной конвертации нельзя."
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3242,
+        "completion_tokens": 69,
+        "total_tokens": 3311,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 298
+      },
+      "seconds": 10.83
+    },
+    {
+      "id": "regression_rejection",
+      "scenario": "Это искусственный сценарий проверки правил. В исходнике подтверждены две смысловые связи. Первый кандидат неверно передал одну из них. Повтор исправил её, но испортил соседнюю связь, которая раньше была верной. Можно ли принять повтор целиком? Верни JSON с accept_candidate(boolean), must_check_neighbors(boolean), next_action(string).",
+      "expected": {
+        "accept_candidate": false,
+        "must_check_neighbors": true
+      },
+      "response": {
+        "accept_candidate": false,
+        "must_check_neighbors": true,
+        "next_action": "Отклонить повтор целиком: исправлять только повреждённый участок, затем повторно сверить по оригиналу весь затронутый объект и соседние смысловые связи; принять после проверки, что ранее верная связь восстановлена и исправленная передана точно."
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3254,
+        "completion_tokens": 86,
+        "total_tokens": 3340,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 310
+      },
+      "seconds": 10.53
+    },
+    {
+      "id": "mixed_scan",
+      "scenario": "Это искусственный сценарий. У страницы есть настоящий текстовый заголовок, но основная область — изображение с текстом. Извлечение вернуло только заголовок. Локальный OCR доступен. Нужно ли обрабатывать тело изображения, можно ли уже считать страницу полностью проверенной? Верни JSON с must_process_image_body(boolean), can_mark_checked_now(boolean), next_action(string).",
+      "expected": {
+        "must_process_image_body": true,
+        "can_mark_checked_now": false
+      },
+      "response": {
+        "must_process_image_body": true,
+        "can_mark_checked_now": false,
+        "next_action": "Применить локальный OCR к основной области изображения, извлечь текст, сверить результат с изображением страницы и только после этого оценивать полноту проверки."
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3257,
+        "completion_tokens": 59,
+        "total_tokens": 3316,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "prompt_cache_hit_tokens": 1024,
+        "prompt_cache_miss_tokens": 2233
+      },
+      "seconds": 5.99
+    },
+    {
+      "id": "unreadable_graphic",
+      "scenario": "Это искусственный сценарий. Подпись формулы читается, но часть символов самой формулы неразборчива. Есть возможность сохранить её изображение. Допустимо ли заменить формулу похожей известной по памяти? Верни JSON с can_guess_formula(boolean), must_preserve_image(boolean), status(string).",
+      "expected": {
+        "can_guess_formula": false,
+        "must_preserve_image": true,
+        "status": "pending"
+      },
+      "response": {
+        "can_guess_formula": false,
+        "must_preserve_image": true,
+        "status": "pending"
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3238,
+        "completion_tokens": 24,
+        "total_tokens": 3262,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 294
+      },
+      "seconds": 4.7
+    },
+    {
+      "id": "render_acceptance",
+      "scenario": "Это искусственный сценарий. Markdown записан, скрипт не выдал ошибок. Файл ни разу не открыт в просмотрщике, загрузка изображений и отображение таблиц не проверены. Можно ли утверждать, что отображение проверено? Верни JSON с can_claim_render_verified(boolean), must_check_saved_artifact(boolean), next_action(string).",
+      "expected": {
+        "can_claim_render_verified": false,
+        "must_check_saved_artifact": true
+      },
+      "response": {
+        "can_claim_render_verified": false,
+        "must_check_saved_artifact": true,
+        "next_action": "Открыть сохранённый report.md в просмотрщике или локально отрендерить и проверить читаемость заголовков, списков, таблиц, сносок, формул и изображений; проверить загрузку всех вложений и доступность широких таблиц. До этого результат не считать проверенным по отображению."
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3255,
+        "completion_tokens": 105,
+        "total_tokens": 3360,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 311
+      },
+      "seconds": 6.78
+    },
+    {
+      "id": "minimal_analytical_source",
+      "scenario": "Это искусственный сценарий. Для дальнейшего аналитического ИИ подготовлен обычный текстовый документ без необходимых изображений. Назови основной выходной файл и укажи, обязательны ли служебные CSV/JSON/QA среди входов аналитика и папка assets, если изображений нет. Верни JSON с main_file(string), require_service_files_in_main_input(boolean), require_assets_when_unused(boolean).",
+      "expected": {
+        "main_file": "report.md",
+        "require_service_files_in_main_input": false,
+        "require_assets_when_unused": false
+      },
+      "response": {
+        "main_file": "report.md",
+        "require_service_files_in_main_input": false,
+        "require_assets_when_unused": false
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3262,
+        "completion_tokens": 29,
+        "total_tokens": 3291,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 318
+      },
+      "seconds": 6.28
+    },
+    {
+      "id": "decorative_text_conflict",
+      "scenario": "В декоративном заголовке текстовый слой и OCR дают разные слова. Изображение пока не проверено. Можно ли выбрать более естественное слово и пометить блок checked? Верни JSON с can_choose_by_plausibility(boolean), can_mark_checked(boolean), must_check_source_image(boolean).",
+      "expected": {
+        "can_choose_by_plausibility": false,
+        "can_mark_checked": false,
+        "must_check_source_image": true
+      },
+      "response": {
+        "can_choose_by_plausibility": false,
+        "can_mark_checked": false,
+        "must_check_source_image": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3235,
+        "completion_tokens": 29,
+        "total_tokens": 3264,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 291
+      },
+      "seconds": 6.03
+    },
+    {
+      "id": "link_destination_metadata",
+      "scenario": "Видимый текст ссылки содержит номер приложения, печатная нумерация расходится с физической. PDF содержит именованное назначение перехода. Можно ли использовать предполагаемое постоянное смещение вместо разбора назначения? Верни JSON с can_guess_by_offset(boolean), must_resolve_pdf_destination(boolean), must_verify_final_anchor(boolean).",
+      "expected": {
+        "can_guess_by_offset": false,
+        "must_resolve_pdf_destination": true,
+        "must_verify_final_anchor": true
+      },
+      "response": {
+        "can_guess_by_offset": false,
+        "must_resolve_pdf_destination": true,
+        "must_verify_final_anchor": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3245,
+        "completion_tokens": 31,
+        "total_tokens": 3276,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 301
+      },
+      "seconds": 5.3
+    },
+    {
+      "id": "unresolved_link",
+      "scenario": "Видимый текст внутреннего перехода прочитан, но его назначение установить невозможно имеющимися средствами. Допустимо ли выдумать URL или поставить заглушку #? Верни JSON с can_invent_target(boolean), can_use_placeholder(boolean), must_mark_locally(boolean).",
+      "expected": {
+        "can_invent_target": false,
+        "can_use_placeholder": false,
+        "must_mark_locally": true
+      },
+      "response": {
+        "can_invent_target": false,
+        "can_use_placeholder": false,
+        "must_mark_locally": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3234,
+        "completion_tokens": 26,
+        "total_tokens": 3260,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 290
+      },
+      "seconds": 5.26
+    },
+    {
+      "id": "image_not_text_validation",
+      "scenario": "Все изображения страниц сохранены и открываются. Транскрипция на них ещё не сверена. Можно ли считать текст всего документа checked только потому, что читатель может посмотреть картинки? Верни JSON с can_mark_all_text_checked(boolean), must_distinguish_image_integrity_and_text_review(boolean).",
+      "expected": {
+        "can_mark_all_text_checked": false,
+        "must_distinguish_image_integrity_and_text_review": true
+      },
+      "response": {
+        "can_mark_all_text_checked": false,
+        "must_distinguish_image_integrity_and_text_review": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3237,
+        "completion_tokens": 27,
+        "total_tokens": 3264,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 293
+      },
+      "seconds": 5.04
+    },
+    {
+      "id": "partial_review",
+      "scenario": "У каждой страницы просмотрена одна строка, реестр страниц полный, ошибок скрипт не нашёл. Остальные строки и ячейки по PDF не проверены. Можно ли объявить весь документ полностью сверенным? Верни JSON с can_claim_full_review(boolean), unreviewed_content_remains_unchecked(boolean).",
+      "expected": {
+        "can_claim_full_review": false,
+        "unreviewed_content_remains_unchecked": true
+      },
+      "response": {
+        "can_claim_full_review": false,
+        "unreviewed_content_remains_unchecked": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3244,
+        "completion_tokens": 23,
+        "total_tokens": 3267,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 300
+      },
+      "seconds": 4.98
+    },
+    {
+      "id": "generalize_defect",
+      "scenario": "Подтверждён дефект преобразования. Разрешено редактировать постоянную инструкцию. Нужно закрепить защиту для других документов. Верни JSON с must_record_general_detection_and_acceptance_rule(boolean), include_company_page_and_value_in_universal_rule(boolean), must_add_regression_scenario(boolean), must_sync_active_copies(boolean).",
+      "expected": {
+        "must_record_general_detection_and_acceptance_rule": true,
+        "include_company_page_and_value_in_universal_rule": false,
+        "must_add_regression_scenario": true,
+        "must_sync_active_copies": true
+      },
+      "response": {
+        "must_record_general_detection_and_acceptance_rule": true,
+        "include_company_page_and_value_in_universal_rule": false,
+        "must_add_regression_scenario": true,
+        "must_sync_active_copies": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3250,
+        "completion_tokens": 53,
+        "total_tokens": 3303,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 306
+      },
+      "seconds": 5.29
+    },
+    {
+      "id": "verified_candidate_accepted",
+      "scenario": "У нового кандидата все затронутые ячейки и соседние связи сверены по оригиналу, регрессий нет, исправление присутствует в сохранённом результате, проверки сборки и рендера после него пройдены. Можно ли принять исправленный объект как checked без запроса повторной проверки у пользователя? Верни JSON с can_accept_checked_object(boolean), must_ask_user_to_repeat_same_review(boolean).",
+      "expected": {
+        "can_accept_checked_object": true,
+        "must_ask_user_to_repeat_same_review": false
+      },
+      "response": {
+        "can_accept_checked_object": true,
+        "must_ask_user_to_repeat_same_review": false
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3271,
+        "completion_tokens": 25,
+        "total_tokens": 3296,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 327
+      },
+      "seconds": 5.52
+    },
+    {
+      "id": "post_edit_recheck",
+      "scenario": "Документ был проверен, затем поменялся блок с таблицей и ссылкой. Достаточно ли старого протокола проверки? Верни JSON с old_receipt_sufficient(boolean), must_recheck_affected_content_and_assembly(boolean).",
+      "expected": {
+        "old_receipt_sufficient": false,
+        "must_recheck_affected_content_and_assembly": true
+      },
+      "response": {
+        "old_receipt_sufficient": false,
+        "must_recheck_affected_content_and_assembly": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3222,
+        "completion_tokens": 23,
+        "total_tokens": 3245,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 278
+      },
+      "seconds": 6.27
+    },
+    {
+      "id": "markdown_literal_content",
+      "scenario": "В исходной ячейке таблицы есть символ вертикальной черты и обратные кавычки, а в абзаце буквально напечатаны угловые скобки. Как их переносить? Верни JSON с must_preserve_visible_characters(boolean), must_escape_when_required(boolean), can_drop_characters_to_fix_render(boolean).",
+      "expected": {
+        "must_preserve_visible_characters": true,
+        "must_escape_when_required": true,
+        "can_drop_characters_to_fix_render": false
+      },
+      "response": {
+        "must_preserve_visible_characters": true,
+        "must_escape_when_required": true,
+        "can_drop_characters_to_fix_render": false
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3249,
+        "completion_tokens": 37,
+        "total_tokens": 3286,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 305
+      },
+      "seconds": 6.07
+    },
+    {
+      "id": "no_invented_assets",
+      "scenario": "Страница содержит логотип. На этом этапе агент возвращает только текст и не может создать или вырезать изображение. Локального файла логотипа нет. Допустимо ли поставить ссылку на придуманный файл в assets? Верни JSON с can_invent_local_file_link(boolean), must_defer_asset_creation_to_capable_stage(boolean).",
+      "expected": {
+        "can_invent_local_file_link": false,
+        "must_defer_asset_creation_to_capable_stage": true
+      },
+      "response": {
+        "can_invent_local_file_link": false,
+        "must_defer_asset_creation_to_capable_stage": true
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3252,
+        "completion_tokens": 27,
+        "total_tokens": 3279,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 308
+      },
+      "seconds": 5.87
+    },
+    {
+      "id": "use_geometry_for_small_digits",
+      "scenario": "На общей картинке трудно различить последнюю цифру числа и маленькую надстрочную сноску. Доступны увеличенные области страницы и исходные фрагменты PDF с координатами и размерами шрифта. Можно ли выбрать запись по правдоподобию, игнорируя эти данные? Верни JSON с can_guess_by_plausibility(boolean), must_use_available_geometry_and_zoom(boolean), can_flatten_before_distinguishing_footnote(boolean).",
+      "expected": {
+        "can_guess_by_plausibility": false,
+        "must_use_available_geometry_and_zoom": true,
+        "can_flatten_before_distinguishing_footnote": false
+      },
+      "response": {
+        "can_guess_by_plausibility": false,
+        "must_use_available_geometry_and_zoom": true,
+        "can_flatten_before_distinguishing_footnote": false
+      },
+      "passed": true,
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 3276,
+        "completion_tokens": 41,
+        "total_tokens": 3317,
+        "prompt_tokens_details": {
+          "cached_tokens": 2944
+        },
+        "prompt_cache_hit_tokens": 2944,
+        "prompt_cache_miss_tokens": 332
+      },
+      "seconds": 6.57
+    }
+  ],
+  "passed": true
+}

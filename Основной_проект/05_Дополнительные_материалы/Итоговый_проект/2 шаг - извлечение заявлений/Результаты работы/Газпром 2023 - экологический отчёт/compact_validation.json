@@ -1,0 +1,13 @@
+{
+  "rows": 615,
+  "claims": 705,
+  "counts": [
+    52,
+    615,
+    38
+  ],
+  "all_cells_match": true,
+  "each_column_order_preserved": true,
+  "layout": "independent_columns_no_gaps",
+  "fills": "none"
+}

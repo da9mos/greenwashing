@@ -1,0 +1,1066 @@
+[
+  {
+    "pdf_page": 1,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 2,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 3,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 4,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 9,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 5,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 6,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 2,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 7,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 8,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 9,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 3,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 10,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 11,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 12,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 13,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 14,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 15,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 14,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 16,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 17,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 17,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 11,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 18,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 19,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 20,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 21,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 22,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 23,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 24,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 25,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 9,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 26,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 27,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 28,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 29,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 30,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 31,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 2,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 32,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 33,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 34,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 35,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 36,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 37,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 18,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 38,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 39,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 1,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 40,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 41,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 42,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 14,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 43,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 44,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 45,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 46,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 3,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 47,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 48,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 49,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 50,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 51,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 52,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 53,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 54,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 55,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 56,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 57,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 58,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 59,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 60,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 61,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 62,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 63,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 64,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 65,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 66,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 67,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 7,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 68,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 69,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 6,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 70,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 71,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 8,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 72,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 73,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 74,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 75,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 76,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 77,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 78,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 12,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 79,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 80,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 81,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 82,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 83,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 84,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 85,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 6,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 86,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 14,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 87,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 11,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 88,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 89,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 90,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 91,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 92,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 93,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 94,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 95,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 96,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 97,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 9,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 98,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 5,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 99,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 5,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 100,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 101,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 4,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 102,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 103,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 104,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 105,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 106,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 107,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 108,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 109,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 110,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 2,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 111,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 112,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 113,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 27,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 114,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 115,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 6,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 116,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 117,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 118,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 6,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 119,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 120,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 121,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 85,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 122,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 123,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 124,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 125,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 126,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 0,
+    "decision": "No OCR appendix requiring removal."
+  },
+  {
+    "pdf_page": 127,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 167,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 128,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 40,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 129,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 107,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 130,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 171,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 131,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 24,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 132,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 35,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  },
+  {
+    "pdf_page": 133,
+    "unicode_records": 0,
+    "ambiguous_cell_records": 0,
+    "table_detection_error": null,
+    "ocr_conflict_records": 5,
+    "decision": "Native text retained; OCR supplemental duplicates/artifacts removed. Per-word visual verification remains pending."
+  }
+]

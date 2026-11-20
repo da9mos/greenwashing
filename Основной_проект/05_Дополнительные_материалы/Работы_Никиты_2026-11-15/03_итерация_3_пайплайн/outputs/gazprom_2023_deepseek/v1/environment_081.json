@@ -1,0 +1,33 @@
+{
+  "report": "environment",
+  "pdf_page": 81,
+  "version": "v1",
+  "response": {
+    "pdf_page": 81,
+    "printed_pages": null,
+    "markdown": "[НЕРАЗБОРЧИВО] Изображение страницы пустое или содержит только белый фон; читаемый текст, таблицы, подписи и колонтитулы отсутствуют.",
+    "problems": [
+      "Страница содержит только белое поле без видимого содержимого.",
+      "Невозможно определить печатный номер страницы и колонтитулы."
+    ],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 107,
+    "total_tokens": 1696,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 2.29,
+  "image_sha256": [
+    "2076d659beccc8ba41397bec82329b4ee44b4811f506df75dd9d1e420f2e82b4"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

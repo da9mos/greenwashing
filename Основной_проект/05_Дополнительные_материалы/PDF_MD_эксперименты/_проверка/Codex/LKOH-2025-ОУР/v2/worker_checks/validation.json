@@ -1,0 +1,13 @@
+{
+  "physical_pages": 114,
+  "page_order": "passed",
+  "local_images": 114,
+  "all_images_exist": true,
+  "internal_targets": 2621,
+  "all_internal_targets_exist": true,
+  "html_tables": 171,
+  "render_screenshots": [],
+  "visual_render_status": "blocked: Chromium bootstrap_check_in Permission denied (1100)",
+  "report_sha256": "d411720699ab269b85751332ff326b3056dc0854975c36e9a13a0f14f092802d",
+  "limitation": "Markdown преобразован в HTML и разобран парсером; визуальное отображение не проверено. Проверка структуры и ссылок не подтверждает точность транскрипции."
+}

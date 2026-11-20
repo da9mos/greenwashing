@@ -1,0 +1,9 @@
+{
+  "markdown_to_html": "completed",
+  "html_structure_and_links": "parsed_and_validated",
+  "browser_visual_review": "blocked",
+  "reason": "Установленный Chromium не запускается в sandbox: bootstrap_check_in / MachPortRendezvousServer Permission denied (1100). Ничего не скачивалось.",
+  "visual_display_checked": false,
+  "preview_file": "report.preview.html",
+  "scope": "HTML собран и разобран парсером; фактическое браузерное отображение не проверено."
+}

@@ -1,0 +1,1390 @@
+{
+  "report_id": "GAZP-2023-ЭО",
+  "pdf_page": 52,
+  "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "version": "instruction-ab-baseline-20261117",
+  "seconds": 15.73,
+  "answer": {
+    "pdf_page": 52,
+    "markdown": "# Низкоуглеродное развитие\n\n## Выбросы парниковых газов\n\nВо всех компаниях Группы, в том числе в ПАО «Газпром», количественная оценка прямых выбросов ПГ за 2023 г. проведена согласно Методике количественного определения объемов выбросов парниковых газов, утвержденной приказом Министерства природных ресурсов и экологии Российской Федерации от 27 мая 2022 г. № 371.\n\n**В 2023 г. выбросы ПГ (охват 1) Группы Газпром составили 209,55 млн т СО₂-экв., что ниже показателя 2022 г.**\n\n**Выбросы ПГ в Группе Газпром, 2019–2023 гг., млн т СО₂-экв.**\n\n| | 2019 | 2020 | 2021 | 2022 | 2023 |\n|---|---|---|---|---|---|\n| ПАО «Газпром» | 117,09 | 100,97 | 119,87 | 91,02 | 85,06 |\n| Газпром энергохолдинг | 89,03 | 81,32 | 93,65 | 90,09 | 90,22 |\n| Группа Газпром нефть | 16,04 | 16,65 | 18,73 | 21,08 | 23,16 |\n| Газпром нефтехим Салават | 6,04 | 6,01 | 6,23 | 6,00 | 5,88 |\n| ООО «Сахалинская Энергия» | 3,05 | 3,40 | 3,15 | 3,42 | 3,42 |\n| Прочие компании | 5,20 | 1,97 | 1,65 | 1,92 | 1,81 |\n\nВ 2023 г. снижение объема выбросов ПГ ПАО «Газпром» составило 6,5 % относительно уровня 2022 г.\n\nМасса выбросов ПГ сократилась за счет реализации мероприятий по энергосбережению, внедрения инноваций, расширения использования ресурсосберегающих технологий, а также из-за сокращения расхода природного газа на топливные нужды и объема товаротранспортной работы в результате снижения объемов поставок газа зарубежным партнерам.\n\n**В 2023 г. при проведении ремонтных работ на МГ предотвращен выброс ПГ в объеме 33,0 млн т СО₂-экв.**\n\nВ компаниях Группы Газпром действует система управления выбросами ПГ, которая предусматривает мониторинг и анализ показателей этих выбросов, внедрение инновационных проектов и НДТ, оценку эффективности и анализ деятельности в области сокращения выбросов ПГ, разработку актуализированных климатических целей и задач на будущий период.\n\n**Динамика выбросов ПГ в ПАО «Газпром» по видам деятельности, 2019–2023 гг., млн т СО₂-экв.**\n\n| | 2019 | 2020 | 2021 | 2022 | 2023 |\n|---|---|---|---|---|---|\n| Добыча | 15,01 | 14,27 | 17,95 | 15,63 | 14,12 |\n| Транспортировка | 93,65 | 77,61 | 93,09 | 66,03 | 60,10 |\n| Подземное хранение газа | 1,33 | 1,13 | 1,66 | 1,22 | 1,19 |\n| Переработка | 5,99 | 6,83 | 5,90 | 6,82 | 7,74 |\n| Прочие виды деятельности | 1,11 | 1,13 | 1,27 | 1,32 | 1,91 |\n\nЭкологический отчет ПАО «Газпром» за 2023 год\n\n50",
+    "issues": [
+      "Столбчатые диаграммы на обеих страницах (Выбросы ПГ в Группе Газпром и Динамика выбросов ПГ в ПАО «Газпром») не перенесены как изображения; значения подписей у столбцов (209,55; 213,53; 243,28; 210,32; 236,45 и 85,06; 91,02; 119,87; 100,97; 117,09) продублированы в Markdown в составе таблиц, но точное соответствие длин сегментов столбцов не проверялось."
+    ]
+  },
+  "numeric_comparison": {
+    "method": "normal_PDF_spans_individually; no_cross_span_number_join",
+    "pdf_decimal_tokens": 68,
+    "markdown_decimal_tokens": 58,
+    "pdf_only": {
+      "209.55": 1,
+      "213.53": 1,
+      "243.28": 1,
+      "210.32": 1,
+      "236.45": 1,
+      "117.09": 1,
+      "100.97": 1,
+      "119.87": 1,
+      "91.02": 1,
+      "85.06": 1
+    },
+    "markdown_only": {},
+    "pdf_span_evidence": [
+      {
+        "token": "209.55",
+        "raw_decimal": "209,55",
+        "block_index": 3,
+        "line_index": 1,
+        "span_index": 0,
+        "span_text": "ли 209,55 млн т СО",
+        "font": "Pragmatica-Bold",
+        "font_size": 8.5,
+        "flags": 20,
+        "bbox": [
+          286.3324890136719,
+          180.80880737304688,
+          367.83892822265625,
+          191.79930114746094
+        ],
+        "origin": [
+          286.3324890136719,
+          189.0028076171875
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "ли 209,55 млн т СО",
+            "font": "Pragmatica-Bold",
+            "size": 8.5,
+            "flags": 20,
+            "bbox": [
+              286.3324890136719,
+              180.80880737304688,
+              367.83892822265625,
+              191.79930114746094
+            ],
+            "origin": [
+              286.3324890136719,
+              189.0028076171875
+            ]
+          },
+          {
+            "text": "2",
+            "font": "Pragmatica-Bold",
+            "size": 4.95550012588501,
+            "flags": 20,
+            "bbox": [
+              367.70849609375,
+              187.0596923828125,
+              370.77099609375,
+              193.46714782714844
+            ],
+            "origin": [
+              367.70849609375,
+              191.8367919921875
+            ]
+          },
+          {
+            "text": "-экв., что ниже показателя 2022 г. ",
+            "font": "Pragmatica-Bold",
+            "size": 8.5,
+            "flags": 20,
+            "bbox": [
+              370.6966857910156,
+              180.81228637695312,
+              519.421142578125,
+              191.8027801513672
+            ],
+            "origin": [
+              370.6966857910156,
+              189.00628662109375
+            ]
+          }
+        ]
+      },
+      {
+        "token": "209.55",
+        "raw_decimal": "209,55",
+        "block_index": 5,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "209,55",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          435.07159423828125,
+          269.55352783203125,
+          454.4756164550781,
+          276.6650390625
+        ],
+        "origin": [
+          435.07159423828125,
+          274.85552978515625
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              433.114501953125,
+              268.2814025878906,
+              434.7455139160156,
+              276.9123840332031
+            ],
+            "origin": [
+              433.114501953125,
+              275.1553955078125
+            ]
+          },
+          {
+            "text": "209,55",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              435.07159423828125,
+              269.55352783203125,
+              454.4756164550781,
+              276.6650390625
+            ],
+            "origin": [
+              435.07159423828125,
+              274.85552978515625
+            ]
+          }
+        ]
+      },
+      {
+        "token": "213.53",
+        "raw_decimal": "213,53",
+        "block_index": 6,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "213,53",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          442.543701171875,
+          283.09912109375,
+          461.9751892089844,
+          290.21063232421875
+        ],
+        "origin": [
+          442.543701171875,
+          288.401123046875
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              440.58660888671875,
+              281.8271179199219,
+              442.2176208496094,
+              290.4580993652344
+            ],
+            "origin": [
+              440.58660888671875,
+              288.70111083984375
+            ]
+          },
+          {
+            "text": "213,53",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              442.543701171875,
+              283.09912109375,
+              461.9751892089844,
+              290.21063232421875
+            ],
+            "origin": [
+              442.543701171875,
+              288.401123046875
+            ]
+          }
+        ]
+      },
+      {
+        "token": "243.28",
+        "raw_decimal": "243,28",
+        "block_index": 7,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "243,28",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          494.3913879394531,
+          296.64471435546875,
+          513.8229370117188,
+          303.7562255859375
+        ],
+        "origin": [
+          494.3913879394531,
+          301.94671630859375
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              492.4342956542969,
+              295.3727111816406,
+              494.0653076171875,
+              304.0036926269531
+            ],
+            "origin": [
+              492.4342956542969,
+              302.2467041015625
+            ]
+          },
+          {
+            "text": "243,28",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              494.3913879394531,
+              296.64471435546875,
+              513.8229370117188,
+              303.7562255859375
+            ],
+            "origin": [
+              494.3913879394531,
+              301.94671630859375
+            ]
+          }
+        ]
+      },
+      {
+        "token": "210.32",
+        "raw_decimal": "210,32",
+        "block_index": 8,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "210,32",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          436.60211181640625,
+          310.1904296875,
+          456.0611877441406,
+          317.30194091796875
+        ],
+        "origin": [
+          436.60211181640625,
+          315.492431640625
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              434.6449890136719,
+              308.9183044433594,
+              436.2760009765625,
+              317.5492858886719
+            ],
+            "origin": [
+              434.6449890136719,
+              315.79229736328125
+            ]
+          },
+          {
+            "text": "210,32",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              436.60211181640625,
+              310.1904296875,
+              456.0611877441406,
+              317.30194091796875
+            ],
+            "origin": [
+              436.60211181640625,
+              315.492431640625
+            ]
+          }
+        ]
+      },
+      {
+        "token": "236.45",
+        "raw_decimal": "236,45",
+        "block_index": 9,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "236,45",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          482.6339111328125,
+          323.73602294921875,
+          502.06549072265625,
+          330.8475341796875
+        ],
+        "origin": [
+          482.6339111328125,
+          329.03802490234375
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              480.6767883300781,
+              322.4640197753906,
+              482.30780029296875,
+              331.0950012207031
+            ],
+            "origin": [
+              480.6767883300781,
+              329.3380126953125
+            ]
+          },
+          {
+            "text": "236,45",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              482.6339111328125,
+              323.73602294921875,
+              502.06549072265625,
+              330.8475341796875
+            ],
+            "origin": [
+              482.6339111328125,
+              329.03802490234375
+            ]
+          }
+        ]
+      },
+      {
+        "token": "117.09",
+        "raw_decimal": "117,09",
+        "block_index": 11,
+        "line_index": 1,
+        "span_index": 0,
+        "span_text": "117,09",
+        "font": "PragmaticaLight-Reg",
+        "font_size": 7.0,
+        "flags": 4,
+        "bbox": [
+          342.2652282714844,
+          350.2093200683594,
+          363.8252258300781,
+          358.8403015136719
+        ],
+        "origin": [
+          342.2652282714844,
+          357.08331298828125
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "117,09",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              342.2652282714844,
+              350.2093200683594,
+              363.8252258300781,
+              358.8403015136719
+            ],
+            "origin": [
+              342.2652282714844,
+              357.08331298828125
+            ]
+          }
+        ]
+      },
+      {
+        "token": "100.97",
+        "raw_decimal": "100,97",
+        "block_index": 11,
+        "line_index": 2,
+        "span_index": 0,
+        "span_text": "100,97",
+        "font": "PragmaticaLight-Reg",
+        "font_size": 7.0,
+        "flags": 4,
+        "bbox": [
+          382.4942321777344,
+          350.2093200683594,
+          404.0542297363281,
+          358.8403015136719
+        ],
+        "origin": [
+          382.4942321777344,
+          357.08331298828125
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "100,97",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              382.4942321777344,
+              350.2093200683594,
+              404.0542297363281,
+              358.8403015136719
+            ],
+            "origin": [
+              382.4942321777344,
+              357.08331298828125
+            ]
+          }
+        ]
+      },
+      {
+        "token": "119.87",
+        "raw_decimal": "119,87",
+        "block_index": 11,
+        "line_index": 3,
+        "span_index": 0,
+        "span_text": "119,87",
+        "font": "PragmaticaLight-Reg",
+        "font_size": 7.0,
+        "flags": 4,
+        "bbox": [
+          422.17724609375,
+          350.2093200683594,
+          443.73724365234375,
+          358.8403015136719
+        ],
+        "origin": [
+          422.17724609375,
+          357.08331298828125
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "119,87",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              422.17724609375,
+              350.2093200683594,
+              443.73724365234375,
+              358.8403015136719
+            ],
+            "origin": [
+              422.17724609375,
+              357.08331298828125
+            ]
+          }
+        ]
+      },
+      {
+        "token": "91.02",
+        "raw_decimal": "91,02",
+        "block_index": 11,
+        "line_index": 4,
+        "span_index": 0,
+        "span_text": "91,02",
+        "font": "PragmaticaLight-Reg",
+        "font_size": 7.0,
+        "flags": 4,
+        "bbox": [
+          465.3742370605469,
+          350.2093200683594,
+          483.042236328125,
+          358.8403015136719
+        ],
+        "origin": [
+          465.3742370605469,
+          357.08331298828125
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "91,02",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              465.3742370605469,
+              350.2093200683594,
+              483.042236328125,
+              358.8403015136719
+            ],
+            "origin": [
+              465.3742370605469,
+              357.08331298828125
+            ]
+          }
+        ]
+      },
+      {
+        "token": "85.06",
+        "raw_decimal": "85,06",
+        "block_index": 11,
+        "line_index": 5,
+        "span_index": 0,
+        "span_text": "85,06",
+        "font": "PragmaticaLight-Reg",
+        "font_size": 7.0,
+        "flags": 4,
+        "bbox": [
+          503.84625244140625,
+          350.2093200683594,
+          521.5142822265625,
+          358.8403015136719
+        ],
+        "origin": [
+          503.84625244140625,
+          357.08331298828125
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "85,06",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              503.84625244140625,
+              350.2093200683594,
+              521.5142822265625,
+              358.8403015136719
+            ],
+            "origin": [
+              503.84625244140625,
+              357.08331298828125
+            ]
+          }
+        ]
+      },
+      {
+        "token": "85.06",
+        "raw_decimal": "85,06",
+        "block_index": 22,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "85,06",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          369.0257873535156,
+          611.4313354492188,
+          384.8548583984375,
+          618.5428466796875
+        ],
+        "origin": [
+          369.0257873535156,
+          616.7333374023438
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "  ",
+            "font": "Pragmatica-Bold",
+            "size": 7.0,
+            "flags": 20,
+            "bbox": [
+              365.1116943359375,
+              610.2853393554688,
+              368.7027282714844,
+              619.3363037109375
+            ],
+            "origin": [
+              365.1116943359375,
+              617.0333251953125
+            ]
+          },
+          {
+            "text": "85,06",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              369.0257873535156,
+              611.4313354492188,
+              384.8548583984375,
+              618.5428466796875
+            ],
+            "origin": [
+              369.0257873535156,
+              616.7333374023438
+            ]
+          }
+        ]
+      },
+      {
+        "token": "91.02",
+        "raw_decimal": "91,02",
+        "block_index": 23,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "91,02",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          386.2421875,
+          625.1187133789062,
+          401.521240234375,
+          632.230224609375
+        ],
+        "origin": [
+          386.2421875,
+          630.4207153320312
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              384.28509521484375,
+              623.8466796875,
+              385.9161071777344,
+              632.4777221679688
+            ],
+            "origin": [
+              384.28509521484375,
+              630.720703125
+            ]
+          },
+          {
+            "text": "91,02",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              386.2421875,
+              625.1187133789062,
+              401.521240234375,
+              632.230224609375
+            ],
+            "origin": [
+              386.2421875,
+              630.4207153320312
+            ]
+          }
+        ]
+      },
+      {
+        "token": "119.87",
+        "raw_decimal": "119,87",
+        "block_index": 24,
+        "line_index": 1,
+        "span_index": 0,
+        "span_text": " 119,87",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          486.3081970214844,
+          638.8245849609375,
+          507.14227294921875,
+          645.9360961914062
+        ],
+        "origin": [
+          486.3081970214844,
+          644.1265869140625
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " 119,87",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              486.3081970214844,
+              638.8245849609375,
+              507.14227294921875,
+              645.9360961914062
+            ],
+            "origin": [
+              486.3081970214844,
+              644.1265869140625
+            ]
+          }
+        ]
+      },
+      {
+        "token": "100.97",
+        "raw_decimal": "100,97",
+        "block_index": 25,
+        "line_index": 1,
+        "span_index": 0,
+        "span_text": " 100,97",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          419.64788818359375,
+          652.5120239257812,
+          440.64697265625,
+          659.62353515625
+        ],
+        "origin": [
+          419.64788818359375,
+          657.8140258789062
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " 100,97",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              419.64788818359375,
+              652.5120239257812,
+              440.64697265625,
+              659.62353515625
+            ],
+            "origin": [
+              419.64788818359375,
+              657.8140258789062
+            ]
+          }
+        ]
+      },
+      {
+        "token": "117.09",
+        "raw_decimal": "117,09",
+        "block_index": 26,
+        "line_index": 1,
+        "span_index": 1,
+        "span_text": "117,09",
+        "font": "Pragmatica-Bold",
+        "font_size": 5.5,
+        "flags": 20,
+        "bbox": [
+          478.7690124511719,
+          666.1807861328125,
+          497.4305725097656,
+          673.2922973632812
+        ],
+        "origin": [
+          478.7690124511719,
+          671.4827880859375
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": " ",
+            "font": "PragmaticaLight-Reg",
+            "size": 7.0,
+            "flags": 4,
+            "bbox": [
+              476.8118896484375,
+              664.9088134765625,
+              478.4429016113281,
+              673.5398559570312
+            ],
+            "origin": [
+              476.8118896484375,
+              671.7828369140625
+            ]
+          },
+          {
+            "text": "117,09",
+            "font": "Pragmatica-Bold",
+            "size": 5.5,
+            "flags": 20,
+            "bbox": [
+              478.7690124511719,
+              666.1807861328125,
+              497.4305725097656,
+              673.2922973632812
+            ],
+            "origin": [
+              478.7690124511719,
+              671.4827880859375
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown_evidence": [],
+    "excluded_superscript_decimal_spans": []
+  },
+  "source_block_coverage": [
+    {
+      "source_id": "p52:block0",
+      "bbox": [
+        276.23748779296875,
+        809.9236450195312,
+        285.0224914550781,
+        818.974609375
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block1",
+      "bbox": [
+        540.60546875,
+        338.9761657714844,
+        549.2365112304688,
+        502.45440673828125
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block2",
+      "bbox": [
+        34.13099670410156,
+        170.34532165527344,
+        265.2417907714844,
+        232.3958282470703
+      ],
+      "source_tokens": 43,
+      "token_recall": 0.9535,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "определе",
+        "ния"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block3",
+      "bbox": [
+        286.3324890136719,
+        170.49832153320312,
+        526.8142700195312,
+        193.46714782714844
+      ],
+      "source_tokens": 21,
+      "token_recall": 0.8571,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "состави",
+        "ли",
+        "со2"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block4",
+      "bbox": [
+        38.94089889526367,
+        253.6637420654297,
+        256.993408203125,
+        264.08538818359375
+      ],
+      "source_tokens": 12,
+      "token_recall": 0.9167,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "со2"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block5",
+      "bbox": [
+        38.97800064086914,
+        268.2814025878906,
+        454.4756164550781,
+        276.9123840332031
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block6",
+      "bbox": [
+        38.97800064086914,
+        281.8271179199219,
+        461.9751892089844,
+        290.4580993652344
+      ],
+      "source_tokens": 2,
+      "token_recall": 0.5,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "213,53"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block7",
+      "bbox": [
+        38.97800064086914,
+        295.3727111816406,
+        513.8229370117188,
+        304.0036926269531
+      ],
+      "source_tokens": 2,
+      "token_recall": 0.5,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "243,28"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block8",
+      "bbox": [
+        38.97800064086914,
+        308.9183044433594,
+        456.0611877441406,
+        317.5492858886719
+      ],
+      "source_tokens": 2,
+      "token_recall": 0.5,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "210,32"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block9",
+      "bbox": [
+        38.97800064086914,
+        322.4640197753906,
+        502.06549072265625,
+        331.0950012207031
+      ],
+      "source_tokens": 2,
+      "token_recall": 0.5,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "236,45"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block10",
+      "bbox": [
+        351.95928955078125,
+        337.2877197265625,
+        521.6041259765625,
+        344.39923095703125
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block11",
+      "bbox": [
+        57.24620056152344,
+        350.2093200683594,
+        521.5142822265625,
+        358.8403015136719
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block12",
+      "bbox": [
+        57.24620056152344,
+        365.0628356933594,
+        521.6821899414062,
+        373.6938171386719
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block13",
+      "bbox": [
+        57.24620056152344,
+        379.9164123535156,
+        521.5211791992188,
+        388.5473937988281
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block14",
+      "bbox": [
+        57.24620056152344,
+        394.7699279785156,
+        521.6192016601562,
+        403.4009094238281
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block15",
+      "bbox": [
+        56.88140106201172,
+        409.62353515625,
+        521.6744384765625,
+        418.2545166015625
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block16",
+      "bbox": [
+        57.24620056152344,
+        424.4770202636719,
+        522.0182495117188,
+        433.1080017089844
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block17",
+      "bbox": [
+        33.93219757080078,
+        459.1373291015625,
+        263.5180969238281,
+        479.9283142089844
+      ],
+      "source_tokens": 15,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block18",
+      "bbox": [
+        33.881195068359375,
+        479.75830078125,
+        275.374755859375,
+        552.1016845703125
+      ],
+      "source_tokens": 40,
+      "token_recall": 0.95,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "иннова",
+        "ций"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block19",
+      "bbox": [
+        286.5024719238281,
+        459.2903137207031,
+        524.1075439453125,
+        482.2591857910156
+      ],
+      "source_tokens": 19,
+      "token_recall": 0.9474,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "со2"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block20",
+      "bbox": [
+        286.24359130859375,
+        500.39129638671875,
+        523.8618774414062,
+        572.7346801757812
+      ],
+      "source_tokens": 42,
+      "token_recall": 0.9524,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "управле",
+        "ния"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block21",
+      "bbox": [
+        38.775299072265625,
+        596.2933959960938,
+        380.58837890625,
+        606.715087890625
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "со2"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block22",
+      "bbox": [
+        38.97800064086914,
+        610.2853393554688,
+        384.8548583984375,
+        619.3363037109375
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block23",
+      "bbox": [
+        38.97800064086914,
+        623.8466796875,
+        401.521240234375,
+        632.4777221679688
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block24",
+      "bbox": [
+        38.97800064086914,
+        638.8121337890625,
+        507.14227294921875,
+        645.9360961914062
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block25",
+      "bbox": [
+        38.97800064086914,
+        652.4993896484375,
+        440.64697265625,
+        659.62353515625
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block26",
+      "bbox": [
+        38.97800064086914,
+        664.9088134765625,
+        497.4305725097656,
+        673.5398559570312
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block27",
+      "bbox": [
+        351.95928955078125,
+        679.8742065429688,
+        521.6041259765625,
+        686.9857177734375
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block28",
+      "bbox": [
+        57.05540084838867,
+        693.3648071289062,
+        521.6803588867188,
+        702.163818359375
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block29",
+      "bbox": [
+        56.408599853515625,
+        709.2105102539062,
+        521.4886474609375,
+        718.009521484375
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block30",
+      "bbox": [
+        57.24620056152344,
+        725.0560913085938,
+        521.521240234375,
+        733.8551635742188
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block31",
+      "bbox": [
+        57.24620056152344,
+        740.9017944335938,
+        521.6751708984375,
+        749.7008666992188
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block32",
+      "bbox": [
+        57.24620056152344,
+        756.3485717773438,
+        522.0182495117188,
+        765.1476440429688
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block33",
+      "bbox": [
+        226.1309051513672,
+        36.58268737792969,
+        325.9299011230469,
+        45.633689880371094
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block34",
+      "bbox": [
+        147.9344024658203,
+        65.08549499511719,
+        406.87493896484375,
+        89.12899780273438
+      ],
+      "source_tokens": 3,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    }
+  ],
+  "duplicate_paragraphs": [],
+  "automatic_flags": [
+    "decimal_span_suspect"
+  ],
+  "instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+  "report_sha256": "3c03170ac71cfd76c2d0e1b5d0fb341f1e9307f93cb07879c124242f441ba042",
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 38637,
+    "completion_tokens": 1157,
+    "total_tokens": 39794,
+    "prompt_tokens_details": {
+      "cached_tokens": 6784
+    },
+    "prompt_cache_hit_tokens": 6784,
+    "prompt_cache_miss_tokens": 31853
+  },
+  "review_status": "pending_independent_codex",
+  "checked": false
+}

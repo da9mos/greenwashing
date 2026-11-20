@@ -1,0 +1,17 @@
+{
+  "pages": 115,
+  "page_order_ok": true,
+  "missing_assets": [],
+  "missing_anchors": [],
+  "report_sha256": "1903d8267772c27bb6b2b6b61f5651c860660dc175ac20457636e3f43c576e56",
+  "source_sha256": "d875da7c11226c03d40d4f7f887b1062bd2e7d347182f20f251b9bb3f35850a9",
+  "html_tables": 79,
+  "source_images": 115,
+  "render_status": "blocked: Chrome SIGABRT at launch; HTML generated, no browser screenshots",
+  "full_source_checked_pages": [
+    1,
+    2,
+    115
+  ],
+  "all_other_pages_review_status": "pending"
+}

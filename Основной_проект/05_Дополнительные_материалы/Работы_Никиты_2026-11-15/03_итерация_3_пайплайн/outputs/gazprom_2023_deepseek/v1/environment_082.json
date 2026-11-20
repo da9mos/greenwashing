@@ -1,0 +1,33 @@
+{
+  "report": "environment",
+  "pdf_page": 82,
+  "version": "v1",
+  "response": {
+    "pdf_page": 82,
+    "printed_pages": null,
+    "markdown": "[НЕРАЗБОРЧИВО]",
+    "problems": [
+      "Страница пустая: на изображении отсутствует какой-либо текст, таблицы, формулы или подписи.",
+      "Невозможно определить колонтитулы и номер страницы."
+    ],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 79,
+    "total_tokens": 1668,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 2.08,
+  "image_sha256": [
+    "2076d659beccc8ba41397bec82329b4ee44b4811f506df75dd9d1e420f2e82b4"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

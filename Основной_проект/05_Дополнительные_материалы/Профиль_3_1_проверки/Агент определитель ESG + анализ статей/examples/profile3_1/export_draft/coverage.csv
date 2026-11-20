@@ -1,0 +1,7 @@
+﻿block_id;status;reason;claim_ids;exclusion_rule
+DEMO-2024:p1:b1;extracted;Есть приписываемая компании ESG-пропозиция;DEMO-2024-001;
+DEMO-2024:p1:b2;extracted;Есть приписываемая компании ESG-пропозиция;DEMO-2024-002;
+DEMO-2024:p1:b3;extracted;Есть приписываемая компании ESG-пропозиция;DEMO-2024-003;
+DEMO-2024:p1:b4;extracted;Есть приписываемая компании ESG-пропозиция;DEMO-2024-004;
+DEMO-2024:p1:b5;pending;"Не установлен конкретный ESG-предмет; не назначаем G автоматически";;
+DEMO-2024:p1:b6;excluded;Обычная выручка без ESG-связи;;X3

@@ -1,0 +1,39 @@
+[
+  {
+    "folder": "GAZP-2023-ЭО_76",
+    "id": "EO76-WEBSITE",
+    "operation": "replace_exact",
+    "before_quote": "www.bl.ru",
+    "after_quote": "www.b1.ru",
+    "source_bbox": [
+      270,
+      190,
+      380,
+      250
+    ],
+    "source_crop": "GAZP-2023-ЭО_76/website_source.png",
+    "finding": "На исходном PDF и извлечённом исходном bitmap после b прочитана цифра1. В DeepSeek строка содержит латинскую l. Основание — визуальная форма знака в растре, без обращения к бренду или сайту.",
+    "source_crop_sha256": "5b5c681450910fa260c50be5f8fdbd1168c565c5da25306ca8e7553779c19629",
+    "before_quote_sha256": "89de78d9c3aeb3cd8109f8a3e15397afeefaa3a08a9e0fc3be5e042cc5420ffb",
+    "after_quote_sha256": "234b9b7dfe7878703b71a7b56a6cca3e03c1d7d647778617375614053c49e016"
+  },
+  {
+    "folder": "TRMK-2023-ИО_4",
+    "id": "TRMK4-NAVIGATION-POSITION",
+    "operation": "move_and_restore_source_objects",
+    "before_quote": "1 ПОРТРЕТ КОМПАНИИ | 2 ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ | 3 ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ | 4",
+    "after_quote": "1 ПОРТРЕТ КОМПАНИИ | 2 ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ | 3 ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ\n\n4\n\nПрофиль Компании",
+    "insert_before": "# ПРОФИЛЬ КОМПАНИИ",
+    "source_bbox": [
+      890,
+      20,
+      1875,
+      125
+    ],
+    "source_crop": "TRMK-2023-ИО_4/navigation_source.png",
+    "finding": "Верхняя навигация источника содержит три раздела с номерами1/2/3, отдельный печатный номер4 и строку «Профиль Компании». Навигация возвращена наверх, номер страницы отделён, строка текущего раздела восстановлена.",
+    "source_crop_sha256": "62db9f954622daccee660f63ccfbdf8ce185bc4edc96bd6bff84270f37178d40",
+    "before_quote_sha256": "30fa0359d11281ce5a0818dbd2bebcb98dc18df1cb0a5a18de84ba5d8eeb81be",
+    "after_quote_sha256": "bcd864fe609f1e0862073b9a5aff463f0a9f14e38487b39754991cf179e519da"
+  }
+]

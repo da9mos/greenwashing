@@ -1,0 +1,55 @@
+[
+  {
+    "tier": "cost_effective",
+    "job_id": "pjb-um76hrbaeanc1gsyscd1pcyn0ymb",
+    "status": "COMPLETED",
+    "checks": {
+      "four_requested_pages": true,
+      "FAR_2023_1_963": true,
+      "LTIFR_2023_0_102": true,
+      "turnover_2022_5_9": true,
+      "turnover_2023_6_7": true,
+      "change_0_8_pp": true,
+      "FAR_zero_with_note_11": true,
+      "injury_0_173_note_2": true,
+      "six_separate_columns_turnover": false
+    },
+    "passed": 8,
+    "total": 9,
+    "estimated_base_credits": 12,
+    "turnover_cells": [
+      "33",
+      "Текусть кадров",
+      "5,9",
+      "6,7",
+      "+0,8 п. п. Причины увеличения текущей кадров являются переезд дочерних организаций ПАО «Газпром» в г. Санкт-Петербург и реструктуризация в организациях Группы Газпром нефть."
+    ]
+  },
+  {
+    "tier": "agentic",
+    "job_id": "pjb-wlwwlwqsbd8o49aypwenoslwzmcs",
+    "status": "COMPLETED",
+    "checks": {
+      "four_requested_pages": true,
+      "FAR_2023_1_963": true,
+      "LTIFR_2023_0_102": true,
+      "turnover_2022_5_9": true,
+      "turnover_2023_6_7": true,
+      "change_0_8_pp": true,
+      "FAR_zero_with_note_11": true,
+      "injury_0_173_note_2": true,
+      "six_separate_columns_turnover": true
+    },
+    "passed": 9,
+    "total": 9,
+    "estimated_base_credits": 40,
+    "turnover_cells": [
+      "33",
+      "Текучность кадров",
+      "5,9",
+      "6,7",
+      "+0,8 п. п.",
+      "Причинами увеличения текучности кадров являются переезд дочерних организаций ПАО «Газпром» в г. Санкт-Петербург и реструктуризация в организациях Группы Газпром нефть."
+    ]
+  }
+]

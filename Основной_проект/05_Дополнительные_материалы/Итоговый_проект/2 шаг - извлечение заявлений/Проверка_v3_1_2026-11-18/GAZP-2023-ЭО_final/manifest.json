@@ -1,0 +1,126 @@
+{
+  "schema_version": "esg-extraction-3.0",
+  "report_id": "GAZP-2023-ЭО",
+  "source_sha256": "c9b0f1a7c1215b55ae71e2bab071906fd389a99120371c0092d00c51544719a7",
+  "prompt_sha256": "551a459f6cf0d34a6d7ad4f94adfffa2ede423c81c481c1cd98caea9fc0187b5",
+  "taxonomy_sha256": "0a6298ea7d29521d4c7566e9c8534d1927fd136c0f5b462e09fd947045a38547",
+  "source_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/Результаты работы/Газпром 2023 - экологический отчёт/report.md",
+  "prompt_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/esg_agent_v3_1.md",
+  "taxonomy_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/taxonomy_v3_1.csv",
+  "page_kind": "declared_pdf_page_numbers_not_independently_verified_service_preamble_saved_separately",
+  "pages_per_batch": 4,
+  "preamble_sha256": "16e74de3653ad20d36418774b30daf6a97d82be30cabb9f0540eb104240e595c",
+  "preamble_status": "excluded_from_physical_page_coverage_not_semantically_reviewed",
+  "pages_sha256": "5fe5a52b6a255b157bf00369ab0448d06ac7b87fbcaf5e2c2148782f8e24e713",
+  "blocks_sha256": "06a608a2dd7cbd8defb6ee4b02e247e52e2ea88480a7494996e694ae4a7ab4f0",
+  "batches": [
+    {
+      "id": "GAZP-2023-ЭО_b0001",
+      "file": "batches/GAZP-2023-ЭО_b0001.json",
+      "sha256": "23b1bf535b12f8b2fe6b38b31dbeae0d970dc0c9e753606f3449777f08e89533"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0002",
+      "file": "batches/GAZP-2023-ЭО_b0002.json",
+      "sha256": "0b780aef3eb8a5b31cb52105445757de842f533f34b18ba2c836f10a1d80313e"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0003",
+      "file": "batches/GAZP-2023-ЭО_b0003.json",
+      "sha256": "226141f7c16b1af62623aeb1996f38789bf011eec333708ef52caa4a2ef8bcdf"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0004",
+      "file": "batches/GAZP-2023-ЭО_b0004.json",
+      "sha256": "52d337196ae0fc6190c2d040bce9f52b8dc3c9787405b71a2fbe4edfaa551128"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0005",
+      "file": "batches/GAZP-2023-ЭО_b0005.json",
+      "sha256": "f645ce3f951183ba3890c7ce9866feab2e3f47aa8f248f33968dac7ede13af8c"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0006",
+      "file": "batches/GAZP-2023-ЭО_b0006.json",
+      "sha256": "8877f1d52b02530e5638190a21a4853af75258aa30c84a61b12f3898997506d2"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0007",
+      "file": "batches/GAZP-2023-ЭО_b0007.json",
+      "sha256": "485f4e9d8071bcda005bc34da508ac922646deb1aa1a5d44b1f277db94716fd3"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0008",
+      "file": "batches/GAZP-2023-ЭО_b0008.json",
+      "sha256": "810ef54a2173701d0addd85239a0031239fd8a764694da17575066dbffdbadcd"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0009",
+      "file": "batches/GAZP-2023-ЭО_b0009.json",
+      "sha256": "a1510abd2374090268dfd1d57f54b4942344fac83aa2534ee4a1a22d34052289"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0010",
+      "file": "batches/GAZP-2023-ЭО_b0010.json",
+      "sha256": "6726e3dedd19859df6aa47e7a5a593778e7d9773ebd2228ee8eb615d221aba19"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0011",
+      "file": "batches/GAZP-2023-ЭО_b0011.json",
+      "sha256": "e3edce6aa77f306a5f86b4d76fb6a9f168c49b98a8555d9dc9cf68448aef6a07"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0012",
+      "file": "batches/GAZP-2023-ЭО_b0012.json",
+      "sha256": "e11a4c890f2b876652a5cbcc47c5e593823c42276a1773f2e49bbfc3db617b11"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0013",
+      "file": "batches/GAZP-2023-ЭО_b0013.json",
+      "sha256": "a66cab5ab34bc2d7fd3cef99d10aa3440cd55203b2421400070c3d61c19bd984"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0014",
+      "file": "batches/GAZP-2023-ЭО_b0014.json",
+      "sha256": "22a83e65f27bb81296cfb7acfcf171ffa2a3be1f323583489304aae6b586ff64"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0015",
+      "file": "batches/GAZP-2023-ЭО_b0015.json",
+      "sha256": "0831533c6165d9b21f3efa2cbc6c9047666d2935cdc286c26ccae3d5b6ca9f18"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0016",
+      "file": "batches/GAZP-2023-ЭО_b0016.json",
+      "sha256": "42f7fb7f53f2a3cae27a53e6f45f78282244207f07a48f59541fa8556fcdc984"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0017",
+      "file": "batches/GAZP-2023-ЭО_b0017.json",
+      "sha256": "93ec734d754f79e570adc639e4bb83eb7578fa7f04b27c9f4a410fbf122814de"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0018",
+      "file": "batches/GAZP-2023-ЭО_b0018.json",
+      "sha256": "b53cee635bafe4972a06c98a68be0945cf7a52fb5532e7a1d4a943ad0e45f07b"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0019",
+      "file": "batches/GAZP-2023-ЭО_b0019.json",
+      "sha256": "af1cfadb7347edfebef64d5046686d58b767f6f68dd12cf45dca208247cc2a6f"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0020",
+      "file": "batches/GAZP-2023-ЭО_b0020.json",
+      "sha256": "376232cd65358f872783428b58622bde5bb577a994e428143c0c6361061c2de1"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0021",
+      "file": "batches/GAZP-2023-ЭО_b0021.json",
+      "sha256": "2d6d1f613bc2d06e7a0e3e0d8be4eab0c2e4a489da27f1b5942aed5630bbe8a4"
+    }
+  ],
+  "decision_profile_version": "3.1",
+  "decision_rules_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/decision_rules_v3_1.json",
+  "decision_rules_sha256": "237785ad5ff8f2aa231e86d6da9748c0c9ccef9bca646124599bcca4d5145f4a"
+}

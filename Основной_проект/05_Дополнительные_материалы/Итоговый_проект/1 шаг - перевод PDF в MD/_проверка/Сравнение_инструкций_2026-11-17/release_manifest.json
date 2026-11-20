@@ -1,0 +1,238 @@
+{
+  "pages": 13,
+  "models_saved_responses": 39,
+  "changed_working_files": 10,
+  "status": "targeted_pilot_reviewed_with_addressed_fixes_and_explicit_pending",
+  "no_full_page_or_corpus_checked": true,
+  "comparability": [
+    {
+      "page": "GAZP-2023-ОУР_57",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2023-ОУР_92",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2023-ЭО_52",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2023-ЭО_76",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2024-ОУР_113",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2024-ОУР_95",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2025-ОУР_109",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "IRKN-2023-ИО_13",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "IRKN-2023-ИО_98",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "LKOH-2023-ОУР_15",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "LKOH-2023-ОУР_98",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "TRMK-2023-ИО_4",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    },
+    {
+      "page": "GAZP-2025-ОУР_75",
+      "same_pdf_sha": true,
+      "same_input_sha": true,
+      "same_image_hashes": true
+    }
+  ],
+  "working_files": [
+    {
+      "report": "GAZP-2023-ОУР",
+      "pdf_page": 57,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ОУР_57/codex_working.md",
+      "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+      "raw_markdown_sha256": "cbba065dd15e1238b49e6642b446015c8eea4db6ea24aac7fcd3dac627e8874c",
+      "working_sha256": "0e439660e7123d71a739058417beda6d96a48d2be7c367213a30d42b9f8f880e",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2023-ОУР",
+      "pdf_page": 92,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ОУР_92/codex_working.md",
+      "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+      "raw_markdown_sha256": "0a08acc198dca4417af72db2d31070ca8c6062af58f5cac0dacbe7a571f70954",
+      "working_sha256": "4755cf07c833d17c5e3debc315bacc2cd17dafab6a646fd198b8a62294b0fdf0",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2023-ЭО",
+      "pdf_page": 52,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_52/codex_working.md",
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "raw_markdown_sha256": "2f3d0a80874baaf100ac805625009669ddacc006da266718e9ca38468a95d7fb",
+      "working_sha256": "0675baafc0bd49eae0e63473325d5d531032987e2894c404e4f6696f10711774",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2023-ЭО",
+      "pdf_page": 76,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2023-ЭО_76/codex_working.md",
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "raw_markdown_sha256": "5b408418243f6c8ddbefec907ad657ff74a72f61ecfe027ebe373bdb8b9a8402",
+      "working_sha256": "61b19cc1f83ff2ec8ba820898d1d2a963c0398a304e6662b3a608527c5d55de5",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2024-ОУР",
+      "pdf_page": 113,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_113/codex_working.md",
+      "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+      "raw_markdown_sha256": "80984479dbf2da4819081526e499c3508e251cc8333038ea2fbf974f892e0437",
+      "working_sha256": "8f7250cd13042278e9dc1549611eab6dc96c761c18330d9ca2e0df1d83fb5668",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2024-ОУР",
+      "pdf_page": 95,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_95/codex_working.md",
+      "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+      "raw_markdown_sha256": "9995a0743ab614d79643132397819f8338f35da02d31c405f7f96fdad1ad8d2e",
+      "working_sha256": "b82a1ad938d95ef42cfb143fcc808d284e0f2c12a945a3ba531b4daee3a0b32e",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2025-ОУР",
+      "pdf_page": 109,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2025-ОУР_109/codex_working.md",
+      "source_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "raw_markdown_sha256": "2be3ab97bb72a5c5d1d87e86e0489fe7effcbde02a1b7ff8b76f4f8939aa4781",
+      "working_sha256": "e6b4b0a8566acc134963da998575a2c20f5f277dc15922aeedbc251023233e8d",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "IRKN-2023-ИО",
+      "pdf_page": 13,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_13/codex_working.md",
+      "source_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01",
+      "raw_markdown_sha256": "2d6ba6740ae440e7af0077c0cd92598eb7c13f76ad283e8c49cf1f7c6e1e5a31",
+      "working_sha256": "bc3fd6e16e6fc4dc93882aa7b25385f0833721a0dc2aab3b3c75a139b7dc81df",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "IRKN-2023-ИО",
+      "pdf_page": 98,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_98/codex_working.md",
+      "source_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01",
+      "raw_markdown_sha256": "e0a6654489b7625a870050e70516e0be12104e82f414ed3f9dd9fbc1d5a938b0",
+      "working_sha256": "aec57f3fd2b8dc896807fcc00aafb9dfff8c9efaf3c24c8c897c515a46600483",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "LKOH-2023-ОУР",
+      "pdf_page": 15,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/LKOH-2023-ОУР_15/codex_working.md",
+      "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+      "raw_markdown_sha256": "40004989685fb6ef90af672931436f84614ef9c42310a9a6ff090017b42bf21e",
+      "working_sha256": "40004989685fb6ef90af672931436f84614ef9c42310a9a6ff090017b42bf21e",
+      "changed": false,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "LKOH-2023-ОУР",
+      "pdf_page": 98,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/LKOH-2023-ОУР_98/codex_working.md",
+      "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+      "raw_markdown_sha256": "5392d29e5cd81b49e0c04e13adefd56665e3b81a26685a329b77f50a35553aeb",
+      "working_sha256": "5dad3e8315b45c429b870a7a34a51449163be303d0eef1d62e436fb6635710bd",
+      "changed": true,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "TRMK-2023-ИО",
+      "pdf_page": 4,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/TRMK-2023-ИО_4/codex_working.md",
+      "source_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+      "raw_markdown_sha256": "63070cf667acd3e4ac155f2c7864d06478fae00ba9a307e77f35befe1084426f",
+      "working_sha256": "63070cf667acd3e4ac155f2c7864d06478fae00ba9a307e77f35befe1084426f",
+      "changed": false,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    },
+    {
+      "report": "GAZP-2025-ОУР",
+      "pdf_page": 75,
+      "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final_retry75/GAZP-2025-ОУР_75/codex_working.md",
+      "source_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "raw_markdown_sha256": "8ec13dd95d1a561231bcd2e711225ee0c0d5b0c4fbeebd92fb4c7e4e34b48720",
+      "working_sha256": "8ec13dd95d1a561231bcd2e711225ee0c0d5b0c4fbeebd92fb4c7e4e34b48720",
+      "changed": false,
+      "review_status": "partial_targeted_source_review",
+      "full_page_checked": false
+    }
+  ],
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "instruction_bytes": 46016,
+  "validator_sha256": "987461fb06700cbe4e395e1e3fa696ad42db9e832faf7aebd243109e1a1d53a1",
+  "tests_passed": 143,
+  "manual_review_required": true,
+  "render_method": "viewport tiles plus overlapping horizontal table positions; old full-page mobile captures unreliable"
+}

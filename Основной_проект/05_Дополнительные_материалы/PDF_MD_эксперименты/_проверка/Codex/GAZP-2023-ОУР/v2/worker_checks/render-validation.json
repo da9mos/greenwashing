@@ -1,0 +1,9 @@
+{
+  "markdown_to_html": "completed",
+  "visual_render_review": "pending",
+  "reason": "Локальный Chromium не может запуститься в sandbox: bootstrap_check_in MachPortRendezvousServer Permission denied (1100). Загрузка или установка браузера не выполнялась.",
+  "headings": 216,
+  "tables": 11,
+  "coordinate_text_blocks": 131,
+  "embedded_images": 136
+}

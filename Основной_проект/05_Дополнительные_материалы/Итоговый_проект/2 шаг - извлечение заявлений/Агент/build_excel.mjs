@@ -1,0 +1,42 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {Workbook, SpreadsheetFile, FileBlob} from '@oai/artifact-tool';
+
+const dir = path.resolve(process.argv[2] || '.');
+const data = JSON.parse(await fs.readFile(path.join(dir, 'table.json'), 'utf8'));
+if (!data.rows.length || data.headers.length !== 4) throw new Error('Empty/invalid table');
+const wb = Workbook.create();
+const sheet = wb.worksheets.add('Заявления');
+const end = data.rows.length + 1;
+sheet.showGridLines = false;
+sheet.tabColor = '#164B78';
+sheet.getRange(`A1:D${end}`).values = [data.headers, ...data.rows];
+sheet.getRange(`A1:D${end}`).format.font = {name:'Arial',size:11,color:'#183044'};
+sheet.getRange(`A1:D${end}`).format.verticalAlignment = 'top';
+sheet.getRange(`B2:D${end}`).format.wrapText = true;
+sheet.getRange(`A1:A${end}`).format.columnWidthPx = 54;
+sheet.getRange(`A2:A${end}`).format.horizontalAlignment = 'center';
+sheet.getRange(`A2:A${end}`).setNumberFormat('0');
+for(const col of ['B','C','D']) sheet.getRange(`${col}1:${col}${end}`).format.columnWidthPx = 470;
+sheet.getRange('A1:D1').format = {fill:'#164B78',font:{name:'Arial',size:11,bold:true,color:'#FFFFFF'},horizontalAlignment:'center',verticalAlignment:'center',rowHeightPx:36};
+sheet.getRange('A1:D1').format.borders = {insideVertical:{style:'thin',color:'#FFFFFF'}};
+for(let i=0;i<data.rows.length;i++) {
+  const row = i+2;
+  const text = data.rows[i].slice(1).find(Boolean);
+  const lines = text.split('\n').reduce((sum,line)=>sum+Math.max(1,Math.ceil(line.length/52)),0);
+  sheet.getRange(`A${row}:D${row}`).format.rowHeightPx = Math.min(540, Math.max(46,lines*19+12));
+  if(i%2===0)sheet.getRange(`A${row}:D${row}`).format.fill='#EAF2F8';
+}
+sheet.freezePanes.freezeRows(1);
+wb.recalculate();
+await fs.writeFile(path.join(dir,'excel_inspection.ndjson'),(await wb.inspect({kind:'table',sheetId:sheet.name,range:'A1:D8',include:'values,formulas',tableMaxRows:8,tableMaxCols:4,maxChars:3000})).ndjson);
+const preview = await wb.render({sheetName:sheet.name,range:'A1:D7',scale:1,format:'png'});
+await fs.writeFile(path.join(dir,'preview.png'),new Uint8Array(await preview.arrayBuffer()));
+const output = path.join(dir,`${data.output_name}.xlsx`);
+await (await SpreadsheetFile.exportXlsx(wb)).save(output);
+const readback = await SpreadsheetFile.importXlsx(await FileBlob.load(output));
+const actual = readback.worksheets.getItemAt(0).getRange(`A1:D${end}`).values.map(row=>row.map(x=>x??''));
+if(JSON.stringify(actual)!==JSON.stringify([data.headers,...data.rows])) throw new Error('All-cell XLSX readback failed');
+if(readback.worksheets.items.length!==1) throw new Error('Unexpected sheets');
+await fs.writeFile(path.join(dir,'excel_validation.json'),JSON.stringify({rows:data.rows.length,columns:4,sheets:1,all_cells_match:true,output},null,2));
+console.log(JSON.stringify({output,rows:data.rows.length,readback:'all cells match'}));

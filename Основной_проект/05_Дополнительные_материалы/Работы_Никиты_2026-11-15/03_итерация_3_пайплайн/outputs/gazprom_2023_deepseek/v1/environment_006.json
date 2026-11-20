@@ -1,0 +1,30 @@
+{
+  "report": "environment",
+  "pdf_page": 6,
+  "version": "v1",
+  "response": {
+    "pdf_page": 6,
+    "printed_pages": null,
+    "markdown": "# Содержание\n\n| | |\n|---|---|\n| Премия ПАО «Газпром» в области науки и техники | 60 |\n| **Информационная открытость** | **62** |\n| **Сохранение биоразнообразия и добровольная экологическая ответственность** | **65** |\n| **Глоссарий основных понятий и сокращений** | **70** |\n| **Адреса и контакты** | **73** |\n| **Приложение** | **74** |",
+    "problems": [],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 157,
+    "total_tokens": 1746,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 2.78,
+  "image_sha256": [
+    "4f2a3b9f12fb0d0c99db20920aa3188f7d776f2b42dcd959483b5f6c8cc01fae"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

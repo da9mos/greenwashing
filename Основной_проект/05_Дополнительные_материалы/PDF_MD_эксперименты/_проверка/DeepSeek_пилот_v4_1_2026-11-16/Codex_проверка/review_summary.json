@@ -1,0 +1,383 @@
+{
+  "reviewed_at": "2026-11-16T19:07:44.987199+00:00",
+  "pages": [
+    {
+      "folder": "GAZP-2023-ОУР_57",
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 57,
+      "source_pdf_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+      "source_png_sha256": "e65ac8d778e54fbd9ba58aca219722aa38e75c9d9e84b6b79e128a1cef6e07c0",
+      "before_markdown_sha256": "a3bd533cfc4266912e6bcd165af48d41e319ecd63bc60fbda97b01d8a5efc931",
+      "after_working_sha256": "a3bd533cfc4266912e6bcd165af48d41e319ecd63bc60fbda97b01d8a5efc931",
+      "raw_sha256": "2fcd8c60341f99b1cd0a05c2d462fc73e70f6001df42e6152dab82ad6b7f01de",
+      "result_sha256": "192d49db59aebd1b00247cbe4dabe805f009134658c25ed575d818126a7043fb",
+      "input_sha256": "9dae01fbe15ffb7e0f4671e2844791e4bf696f4453612ed063831deefde1730e",
+      "request_sha256": "c8f023c74b4f0fddc5e9d2626394c0fb518ba70bb66e7080577293a362303be8",
+      "frozen_instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+      "frozen_adapter_sha256": "eefc64bb08b5a8bebbd6f755a94410d7af8e97285d891e33a6567043ea1e971e",
+      "source_crops": [
+        {
+          "path": "GAZP-2023-ОУР_57/source_regions/top_left.png",
+          "sha256": "eb6a7833b8c5d675921d977062abc1349fbcd6a432b6f852ecdb25187c61b7b4",
+          "pdf_bbox": [
+            0,
+            0,
+            666.70802734375,
+            471.45840820312503
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ОУР_57/source_regions/top_right.png",
+          "sha256": "a39e2da4e68274f7fca56f8181a462f5172e38f6b4e28229a1c0acfc84b027b4",
+          "pdf_bbox": [
+            523.842021484375,
+            0,
+            1190.550048828125,
+            471.45840820312503
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ОУР_57/source_regions/bottom_left.png",
+          "sha256": "979883f2854b5551f354e5765f3cba2fb7282973a16c84381d3f5016da4478a4",
+          "pdf_bbox": [
+            0,
+            370.4316064453125,
+            666.70802734375,
+            841.8900146484375
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ОУР_57/source_regions/bottom_right.png",
+          "sha256": "e24a4050d58a56ec2d19156479e8432bf5e78229e99b1a7315abf28051d4e9e0",
+          "pdf_bbox": [
+            523.842021484375,
+            370.4316064453125,
+            1190.550048828125,
+            841.8900146484375
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ОУР_57/navigation_source.png",
+          "sha256": "312bb5db57e66febb8fcd28856e09c9eede787eb555a5baea14613dcb766a109",
+          "pdf_bbox": [
+            16,
+            78,
+            33,
+            810
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ОУР_57/left_footnotes.png",
+          "sha256": "03095d4df6a59bb7fefd5c00b0f102a63af0cf2c5a93de43952b2f30eefc8f96",
+          "pdf_bbox": [
+            55,
+            694,
+            552,
+            786
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ОУР_57/right_footnotes.png",
+          "sha256": "5010a5105a03411a445cb37ca7804c98aa672a16ad564c10a4856aba6be33fb5",
+          "pdf_bbox": [
+            655,
+            685,
+            1140,
+            787
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        }
+      ],
+      "changes": [],
+      "whole_report_checked": false,
+      "checked": false,
+      "review_scope": "Указанные объекты трёх физических страниц пилота. Статус остальных страниц PDF этим протоколом не изменяется.",
+      "confirmed_navigation_exclusion": {
+        "source_bbox": [
+          20.85,
+          81.91,
+          29.62,
+          725.83
+        ],
+        "source_crop": "GAZP-2023-ОУР_57/navigation_source.png",
+        "source_crop_sha256": "312bb5db57e66febb8fcd28856e09c9eede787eb555a5baea14613dcb766a109",
+        "role": "Повторяющаяся боковая навигация по шести разделам отчёта, расположена вертикально в самостоятельной полосе. Активный раздел3 выделен цветом.",
+        "source_labels": [
+          "1. О Группе Газпром",
+          "2. Люди Группы Газпром",
+          "3. Безопасность производства",
+          "4. Развитие регионов",
+          "5. Окружающая среда и экологическая политика",
+          "6. Приложения"
+        ],
+        "basis": "Frozen-инструкция, раздел3, разрешает исключать навигационные повторы после установления их роли. Полоса отделена от содержательных таблиц, заголовков, пояснений и сносок. Остальное содержание страницы сохранено.",
+        "scope_restriction": "К аналитическим таблицам и остальному тексту исключение не применяется."
+      }
+    },
+    {
+      "folder": "GAZP-2023-ЭО_76",
+      "report_id": "GAZP-2023-ЭО",
+      "pdf_page": 76,
+      "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "source_png_sha256": "de090b15f687495df1f687fe9fac7c878a61ec4788c7e468f82950febf14c2ea",
+      "before_markdown_sha256": "7c7112f754a3eae72ad2e36a6e1744097b5519bb183d89893034b4c85f61ac05",
+      "after_working_sha256": "41764fd4a67aebcb4aaae1964933399b006c62d4ced610d66c5872b3a70ffc35",
+      "raw_sha256": "c74821c8866150d9b7eba2c4cc08b09b4c7a191e693898bff9202e1d7fec4930",
+      "result_sha256": "176c766438eabb0c8de310f1a4941b96893f97215e192a78d0f36ce945b3ff84",
+      "input_sha256": "3529190f32aee41b9ae3f91c22d220d70ab7993575a5f10d47822be575e5aef6",
+      "request_sha256": "b3ecf77d4609789c54e7afa0d3ceece4c083ff8c1e6f002085b4829fa7f1b6c8",
+      "frozen_instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+      "frozen_adapter_sha256": "eefc64bb08b5a8bebbd6f755a94410d7af8e97285d891e33a6567043ea1e971e",
+      "source_crops": [
+        {
+          "path": "GAZP-2023-ЭО_76/source_regions/top_left.png",
+          "sha256": "44459f24188062fe8052f0736c8158c7b00fb1b3ff094b725e410194ed3b181e",
+          "pdf_bbox": [
+            0,
+            0,
+            333.354560546875,
+            471.45840820312503
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ЭО_76/source_regions/top_right.png",
+          "sha256": "027beaa5e9e7f780fe3d4266d2192407e5d6e0cb46766b2b2f91bb17320a8e10",
+          "pdf_bbox": [
+            261.9214404296875,
+            0,
+            595.2760009765625,
+            471.45840820312503
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ЭО_76/source_regions/bottom_left.png",
+          "sha256": "f6a22db1f71ec755940563cac2aa741581de6be348473e4fa11298db7c9d873c",
+          "pdf_bbox": [
+            0,
+            370.4316064453125,
+            333.354560546875,
+            841.8900146484375
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ЭО_76/source_regions/bottom_right.png",
+          "sha256": "36bcabe61aae624232fc5323b5a8e98d24e520e2b36571a97e985dcf7ad3843e",
+          "pdf_bbox": [
+            261.9214404296875,
+            370.4316064453125,
+            595.2760009765625,
+            841.8900146484375
+          ],
+          "render_scale": 3.0,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ЭО_76/header_source.png",
+          "sha256": "8129a9235c2ba70acf2c889f1154fa0cf1d606357a63355831df90d955aed3b6",
+          "pdf_bbox": [
+            60,
+            175,
+            440,
+            275
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ЭО_76/website_source.png",
+          "sha256": "5b5c681450910fa260c50be5f8fdbd1168c565c5da25306ca8e7553779c19629",
+          "pdf_bbox": [
+            270,
+            190,
+            380,
+            250
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "GAZP-2023-ЭО_76/footer_source.png",
+          "sha256": "e0ccd3de8eb0fcb8c2cba5200604431e8290b6b6a3ef2289b34e50e0ea3a5499",
+          "pdf_bbox": [
+            250,
+            800,
+            310,
+            830
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        }
+      ],
+      "changes": [
+        {
+          "id": "EO76-WEBSITE",
+          "operation": "replace_exact",
+          "before_quote": "www.bl.ru",
+          "after_quote": "www.b1.ru",
+          "source_bbox": [
+            270,
+            190,
+            380,
+            250
+          ],
+          "source_crop": "GAZP-2023-ЭО_76/website_source.png",
+          "finding": "На исходном PDF и извлечённом исходном bitmap после b прочитана цифра1. В DeepSeek строка содержит латинскую l. Основание — визуальная форма знака в растре, без обращения к бренду или сайту.",
+          "source_crop_sha256": "5b5c681450910fa260c50be5f8fdbd1168c565c5da25306ca8e7553779c19629",
+          "before_quote_sha256": "89de78d9c3aeb3cd8109f8a3e15397afeefaa3a08a9e0fc3be5e042cc5420ffb",
+          "after_quote_sha256": "234b9b7dfe7878703b71a7b56a6cca3e03c1d7d647778617375614053c49e016"
+        }
+      ],
+      "whole_report_checked": false,
+      "checked": false,
+      "review_scope": "Указанные объекты трёх физических страниц пилота. Статус остальных страниц PDF этим протоколом не изменяется."
+    },
+    {
+      "folder": "TRMK-2023-ИО_4",
+      "report_id": "TRMK-2023-ИО",
+      "pdf_page": 4,
+      "source_pdf_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+      "source_png_sha256": "7e5dd44d308106d2d24246afe378c8f753569d1e7a0bda5f633a57a7ceaf67c1",
+      "before_markdown_sha256": "631e905aca075b5671a3d28ca1fc5cdb46fb33d017defcc0d72bf41dead93022",
+      "after_working_sha256": "256caa4acb95a8a117c2463468e5ed730e7682e17a349f318694da5085bbb62e",
+      "raw_sha256": "b4d3a30f8d00d397c60ccfcd658f7fb41bae2dbd0c80b1c43b75769ea3b731ac",
+      "result_sha256": "6a431e68b6ee3bd1df841ed62411207b54f12e28cd459314cb33035053373ec5",
+      "input_sha256": "c8d88b026687a9b54b7131a660955a95ecf9a6f96f876224cbac0be8bd82e962",
+      "request_sha256": "b409192c799ff72c9526c80c4e43676d230a5bb2896b7d727da81a978ed8e4a2",
+      "frozen_instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+      "frozen_adapter_sha256": "eefc64bb08b5a8bebbd6f755a94410d7af8e97285d891e33a6567043ea1e971e",
+      "source_crops": [
+        {
+          "path": "TRMK-2023-ИО_4/source_regions/top_left.png",
+          "sha256": "09c4209de938247c59a809efcb77c39bfc5b436609e16afef3a4586c74a5f8d9",
+          "pdf_bbox": [
+            0,
+            0,
+            1075.2,
+            604.8000000000001
+          ],
+          "render_scale": 2.046130952380952,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "TRMK-2023-ИО_4/source_regions/top_right.png",
+          "sha256": "6af45050f40cda00ed70f7de7177ff42f55eeea776724d4c51d928f3b5645882",
+          "pdf_bbox": [
+            844.8,
+            0,
+            1920.0,
+            604.8000000000001
+          ],
+          "render_scale": 2.046130952380952,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "TRMK-2023-ИО_4/source_regions/bottom_left.png",
+          "sha256": "fe260e5b0bcafae494576c3984f4b4ab16329a46b49609607a2e3a0040fea938",
+          "pdf_bbox": [
+            0,
+            475.2,
+            1075.2,
+            1080.0
+          ],
+          "render_scale": 2.046130952380952,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "TRMK-2023-ИО_4/source_regions/bottom_right.png",
+          "sha256": "2832bb8d168558dfd02e7c9c6d7c7e8ffe8218961f07f65bdc4d177043ad13a0",
+          "pdf_bbox": [
+            844.8,
+            475.2,
+            1920.0,
+            1080.0
+          ],
+          "render_scale": 2.046130952380952,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        },
+        {
+          "path": "TRMK-2023-ИО_4/navigation_source.png",
+          "sha256": "62db9f954622daccee660f63ccfbdf8ce185bc4edc96bd6bff84270f37178d40",
+          "pdf_bbox": [
+            890,
+            20,
+            1875,
+            125
+          ],
+          "render_scale": 4,
+          "pixels_match_source_pdf": true,
+          "visually_examined": true
+        }
+      ],
+      "changes": [
+        {
+          "id": "TRMK4-NAVIGATION-POSITION",
+          "operation": "move_and_restore_source_objects",
+          "before_quote": "1 ПОРТРЕТ КОМПАНИИ | 2 ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ | 3 ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ | 4",
+          "after_quote": "1 ПОРТРЕТ КОМПАНИИ | 2 ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ | 3 ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ\n\n4\n\nПрофиль Компании",
+          "insert_before": "# ПРОФИЛЬ КОМПАНИИ",
+          "source_bbox": [
+            890,
+            20,
+            1875,
+            125
+          ],
+          "source_crop": "TRMK-2023-ИО_4/navigation_source.png",
+          "finding": "Верхняя навигация источника содержит три раздела с номерами1/2/3, отдельный печатный номер4 и строку «Профиль Компании». Навигация возвращена наверх, номер страницы отделён, строка текущего раздела восстановлена.",
+          "source_crop_sha256": "62db9f954622daccee660f63ccfbdf8ce185bc4edc96bd6bff84270f37178d40",
+          "before_quote_sha256": "30fa0359d11281ce5a0818dbd2bebcb98dc18df1cb0a5a18de84ba5d8eeb81be",
+          "after_quote_sha256": "bcd864fe609f1e0862073b9a5aff463f0a9f14e38487b39754991cf179e519da"
+        }
+      ],
+      "whole_report_checked": false,
+      "checked": false,
+      "review_scope": "Указанные объекты трёх физических страниц пилота. Статус остальных страниц PDF этим протоколом не изменяется."
+    }
+  ],
+  "whole_reports_checked": 0,
+  "page_scope_checked": false,
+  "all_identified_content_defects_addressed_in_working_files": true,
+  "scope_notes": [
+    "ОУР57 повторно проверены четыре таблицы,75 числовых/прочерковых ячеек и13 сносок, регрессии значений нет.",
+    "ЭО76 проверены все14 строк таблиц, реквизиты в русской/английской шапке и печатный номер74, сайт исправлен по растровому оригиналу.",
+    "ТМК4 проверены основной текст,2001/2023/6,6 и тикерTRMK, навигационные номера и верхний порядок объектов восстановлены."
+  ],
+  "source_and_raw_untouched": true,
+  "working_files_ready_for_final_render": true
+}

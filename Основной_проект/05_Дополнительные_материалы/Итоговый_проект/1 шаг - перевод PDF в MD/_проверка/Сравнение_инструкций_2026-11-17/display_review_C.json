@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/ab_review_graphics",
+  "reviewed_at": "2026-11-17T06:00:54.447189+00:00",
+  "archived_review": {
+    "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/display_review_C_capture_v1.json",
+    "sha256": "76262ec926b2505ceaeee740db833604d7cbc6e77c45aa803f220f522dc1b75b",
+    "actual_pngs_viewed": 26,
+    "scope": "Четыре страницы: мобильные тайлы по всей высоте, правые края широких таблиц и четыре целевых desktop-тайла. Пути архивного протокола ведут в rendered_capture_v1/. Полное чтение всех desktop-пикселей не заявляется."
+  },
+  "current_render_review": {
+    "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2024-ОУР_95/tile_390_005.png",
+    "sha256": "799b3b6a7f3a19299b853e14cdb54ffacd1fda14bd73db0fef66af058af3f494",
+    "viewport_width": 390,
+    "actual_y": 4435,
+    "output_md_sha256": "b82a1ad938d95ef42cfb143fcc808d284e0f2c12a945a3ba531b4daee3a0b32e",
+    "observation": "На новом снимке >7,4 тыс. видно как знак строгого неравенства, а не blockquote. Предложение про 160 акций, продолжение и номера страниц 186/187 читаются; изображение источника загружено. Наложений или обрезки текста в этом viewport не обнаружено.",
+    "other_current_pngs_not_repeatedly_read": true
+  },
+  "current_outputs": [
+    {
+      "case": "GAZP-2023-ЭО_52",
+      "md_sha256": "0675baafc0bd49eae0e63473325d5d531032987e2894c404e4f6696f10711774",
+      "unchanged_from_archived_review": true,
+      "current_html_sha256": "c6adf2117a324a5ae38f32545a579f5fdf83239a236b316944c47fd073cf1cce"
+    },
+    {
+      "case": "GAZP-2024-ОУР_95",
+      "md_sha256": "b82a1ad938d95ef42cfb143fcc808d284e0f2c12a945a3ba531b4daee3a0b32e",
+      "unchanged_from_archived_review": true,
+      "current_html_sha256": "cda71b5703993841dd2fb322aa0c9001273dd0b7222197ecf40b8d78dd0e484c"
+    },
+    {
+      "case": "IRKN-2023-ИО_13",
+      "md_sha256": "bc3fd6e16e6fc4dc93882aa7b25385f0833721a0dc2aab3b3c75a139b7dc81df",
+      "unchanged_from_archived_review": true,
+      "current_html_sha256": "54cd39c2516ef219b32d8d4750db15c857cc33d5f183efec29e3ed1a534d2c25"
+    },
+    {
+      "case": "IRKN-2023-ИО_98",
+      "md_sha256": "aec57f3fd2b8dc896807fcc00aafb9dfff8c9efaf3c24c8c897c515a46600483",
+      "unchanged_from_archived_review": true,
+      "current_html_sha256": "3ad341373ed806df020f9dddac95ef9c5ed6803f602f9ca8f6ee9ff07f9862aa"
+    }
+  ],
+  "capture_bug_resolved": "Первый длинный мобильный PNG повторял верх страницы и исключён из доказательств полного отображения. Фактическое продолжение проверено в 26 архивных viewport-тайлах с actual_y. Текущий контрольный мобильный тайл корректен.",
+  "noncritical_notes": [
+    "GAZP95: часть пунктов с литеральными • и строк участников схлопнулась в абзацы. Информация читается; нормальный Markdown-список или таблица улучшили бы читаемость.",
+    "Исходное изображение PDF на мобильном экране мало; thumbnail не считается повторной смысловой проверкой всех мелких ячеек."
+  ],
+  "critical_remaining_display_issues_in_reviewed_scope": [],
+  "working_md_modified": false,
+  "full_page_semantic_checked": false
+}

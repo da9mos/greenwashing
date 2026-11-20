@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-15",
+  "original_rows": 7,
+  "new_rows": 6,
+  "total_rows": 13,
+  "original_sha256": "49182709fb491f31663680d99bfb7b31157d613f39a4b6e4e89f494d31fd1627",
+  "new_company_codes": [
+    "RASP",
+    "MAGN",
+    "NORN",
+    "CHMF"
+  ],
+  "original_preserved": true,
+  "truth_classification_performed": false,
+  "verified_independent_new_events": 6,
+  "direct_regulator_access": "unavailable; attributed republication read",
+  "source_types_new": [
+    "judicial_act_mirror",
+    "media",
+    "official_prosecutor_notice",
+    "regulator_notice_republished"
+  ]
+}

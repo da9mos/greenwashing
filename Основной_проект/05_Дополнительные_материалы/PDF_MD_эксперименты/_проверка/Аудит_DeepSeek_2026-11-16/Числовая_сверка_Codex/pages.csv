@@ -1,0 +1,76 @@
+report_id,pdf_page,classification,issue,full_page_checked
+GAZP-2023-ОУР,58,source_layer_quirk,,False
+GAZP-2023-ОУР,77,confirmed_model_error,Пропущена видимая плашка РСПП3.3.2 рядом с разделом о поддержке образования.,False
+GAZP-2023-ОУР,88,source_layer_quirk,,False
+GAZP-2023-ОУР,91,source_layer_quirk,,False
+GAZP-2023-ОУР,92,confirmed_model_error,"Абзац о сохранении764,75/654,5/450млнм³ и предотвращении34,4млнт повторён дважды; в исходнике один.",False
+GAZP-2023-ОУР,93,source_layer_quirk,,False
+GAZP-2023-ОУР,128,source_layer_quirk,,False
+GAZP-2023-ОУР,132,source_layer_quirk,,False
+GAZP-2023-ОУР,133,source_layer_quirk,,False
+GAZP-2023-ЭО,52,confirmed_model_error,"Нет общих итогов диаграммы2019–2022; перенесены отдельные компании, но не весь ряд итогов Группы.",False
+GAZP-2023-ЭО,76,source_layer_quirk,,False
+GAZP-2024-ОУР,22,source_layer_quirk,,False
+GAZP-2024-ОУР,26,source_layer_quirk,,False
+GAZP-2024-ОУР,31,source_layer_quirk,,False
+GAZP-2024-ОУР,36,source_layer_quirk,,False
+GAZP-2024-ОУР,37,source_layer_quirk,,False
+GAZP-2024-ОУР,38,source_layer_quirk,,False
+GAZP-2024-ОУР,43,source_layer_quirk,,False
+GAZP-2024-ОУР,50,source_layer_quirk,,False
+GAZP-2024-ОУР,51,source_layer_quirk,,False
+GAZP-2024-ОУР,53,source_layer_quirk,,False
+GAZP-2024-ОУР,62,source_layer_quirk,,False
+GAZP-2024-ОУР,66,source_layer_quirk,,False
+GAZP-2024-ОУР,71,source_layer_quirk,,False
+GAZP-2024-ОУР,93,source_layer_quirk,,False
+GAZP-2024-ОУР,95,confirmed_model_error,"Пропущен видимый показатель >7,4тыс. работников Газпрома, участвовавших в акциях.",False
+GAZP-2024-ОУР,101,source_layer_quirk,,False
+GAZP-2024-ОУР,102,source_layer_quirk,,False
+GAZP-2024-ОУР,103,source_layer_quirk,,False
+GAZP-2024-ОУР,110,source_layer_quirk,,False
+GAZP-2024-ОУР,111,source_layer_quirk,,False
+GAZP-2024-ОУР,113,confirmed_model_error,Правая таблица водопотребления2022/2023/2024 и поясняющий абзац отсутствуют в MD.,False
+GAZP-2024-ОУР,114,source_layer_quirk,,False
+GAZP-2024-ОУР,117,source_layer_quirk,,False
+GAZP-2024-ОУР,118,source_layer_quirk,,False
+GAZP-2024-ОУР,126,source_layer_quirk,,False
+GAZP-2024-ОУР,128,source_layer_quirk,,False
+GAZP-2024-ОУР,129,formatting_or_context,,False
+GAZP-2024-ОУР,136,formatting_or_context,,False
+GAZP-2024-ОУР,138,formatting_or_context,,False
+GAZP-2024-ОУР,139,source_layer_quirk,,False
+GAZP-2024-ОУР,140,source_layer_quirk,,False
+GAZP-2024-ОУР,142,formatting_or_context,,False
+GAZP-2024-ОУР,144,source_layer_quirk,,False
+GAZP-2024-ОУР,145,source_layer_quirk,,False
+GAZP-2024-ОУР,146,source_layer_quirk,,False
+GAZP-2024-ОУР,147,source_layer_quirk,,False
+GAZP-2024-ОУР,148,formatting_or_context,,False
+GAZP-2024-ОУР,149,formatting_or_context,,False
+GAZP-2025-ОУР,75,confirmed_model_error,"31 225,0³ превращено в31 225,03.",False
+GAZP-2025-ОУР,78,formatting_or_context,,False
+GAZP-2025-ОУР,109,confirmed_model_error,"56,70² /5,26² /37,53² превращены в56,702 /5,262 /37,532.",False
+GAZP-2025-ОУР,146,source_layer_quirk,,False
+GAZP-2025-ОУР,147,source_layer_quirk,,False
+GAZP-2025-ОУР,148,source_layer_quirk,,False
+GAZP-2025-ОУР,149,source_layer_quirk,,False
+IRKN-2023-ИО,11,source_layer_quirk,,False
+IRKN-2023-ИО,13,confirmed_model_error,"Добавлена таблица приблизительных координат точек (~2,9;3,6 и т.п.), которых нет как подписанных значений в оригинале. Это производные оценки, не транскрипция.",False
+IRKN-2023-ИО,19,formatting_or_context,,False
+IRKN-2023-ИО,20,formatting_or_context,,False
+IRKN-2023-ИО,61,source_layer_quirk,,False
+IRKN-2023-ИО,68,formatting_or_context,,False
+IRKN-2023-ИО,79,formatting_or_context,,False
+IRKN-2023-ИО,93,source_layer_quirk,,False
+IRKN-2023-ИО,97,formatting_or_context,,False
+IRKN-2023-ИО,98,needs_review,,False
+IRKN-2023-ИО,99,formatting_or_context,,False
+IRKN-2023-ИО,118,formatting_or_context,,False
+IRKN-2023-ИО,130,formatting_or_context,,False
+LKOH-2023-ОУР,2,formatting_or_context,,False
+LKOH-2023-ОУР,15,confirmed_model_error,Левая логическая страница разворота с таблицей воздействий и результатов отсутствует.,False
+LKOH-2023-ОУР,50,formatting_or_context,,False
+LKOH-2023-ОУР,57,source_layer_quirk,,False
+LKOH-2023-ОУР,59,source_layer_quirk,,False
+LKOH-2023-ОУР,98,confirmed_model_error,"Правая часть таблицы выбросов не перенесена: продолжение, твёрдые вещества, CO и углеводороды.",False

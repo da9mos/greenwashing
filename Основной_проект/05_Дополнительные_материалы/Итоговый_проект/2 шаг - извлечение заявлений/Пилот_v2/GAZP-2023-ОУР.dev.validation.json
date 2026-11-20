@@ -1,0 +1,12 @@
+{
+  "schema_version": "esg-extraction-2.0",
+  "claims": 18,
+  "blocks": 4930,
+  "pending_blocks": 4924,
+  "pending_claims": 3,
+  "second_pass": "pending",
+  "evidence_check": "quotes matched in MD",
+  "semantic_accuracy": "not measured",
+  "recall": "not measured",
+  "coverage_scope": "MD paragraph blocks only; PDF/image completeness not established"
+}

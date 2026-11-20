@@ -1,0 +1,109 @@
+{
+  "state": "passed",
+  "semantic_version": "v3",
+  "target_count": 49,
+  "statuses": {
+    "нет данных": 21,
+    "не выполнена": 8,
+    "выполнена": 17,
+    "изменена": 2,
+    "несопоставимая база": 1
+  },
+  "review_states": {
+    "завершена": 49
+  },
+  "changed_statuses": [
+    {
+      "target_id": "T-ALRS-005",
+      "before": "нет данных",
+      "after": "не выполнена"
+    },
+    {
+      "target_id": "T-CHMF-002",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-MAGN-001",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-MAGN-002",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-MAGN-003",
+      "before": "нет данных",
+      "after": "изменена"
+    },
+    {
+      "target_id": "T-MINV-002",
+      "before": "нет данных",
+      "after": "изменена"
+    },
+    {
+      "target_id": "T-MINV-003",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-PHOR-002",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-PLZL-001",
+      "before": "выполнена",
+      "after": "нет данных"
+    },
+    {
+      "target_id": "T-PLZL-002",
+      "before": "выполнена",
+      "after": "нет данных"
+    },
+    {
+      "target_id": "T-RASP-001",
+      "before": "нет данных",
+      "after": "несопоставимая база"
+    },
+    {
+      "target_id": "T-TATN-002",
+      "before": "нет данных",
+      "after": "не выполнена"
+    }
+  ],
+  "evidence_count": 164,
+  "evidence_issues": [],
+  "inputs_sha256": {
+    "data/out/metrics_dynamics.csv": "9bfbd1ab87dd761b69b449f8a0b6acc7d3a56ce3f8043e54c330ee74c2d302ce",
+    "../01_итерация_1_сбор_данных/выборка_30/reports.csv": "43c38088e1698061253feee4300132756b4790a3b58537a3dda00383d2784176",
+    "llm/nikita_dynamics/v2/review_A.json": "d2af7267088bb6ca4642242372585ca418dcba4d45ed9500dee320bfecb008c8",
+    "llm/nikita_dynamics/v2/review_B.json": "c6468935d7f058625f8cd237c0fe14a4018f8cceabe53c6127c1506f1b8e7b9e",
+    "data/review_v3/approved_patches.json": "1eebe33b9d5c4fbc92401253a0d45a0623cfe5d623e857cdf080564cb7a1f286",
+    "data/review_v2/norn_appendix_check.json": "e351ce541989dacb40fcdeac294adbb8373fc25f3457f8f84407049e077a61da",
+    "data/review_v2/source_pages_A.jsonl": "d97cb571a0f4606ef19db7aacf2df7e52338b3f2c197ffc10dc4ade29a12251e",
+    "data/review_v2/source_pages_B.jsonl": "534015353ea23b8dae3d58ebd583f5d6bcc6d4d3b42abd8d24d03d9ca779ec9b",
+    "data/review_v3/source_pages_A.jsonl": "283c573f6658083e8bfffd346233b5eac5b09c0ada5afa8eaa992772c40b7068",
+    "data/pages/ALRS-2023-ОУР.jsonl": "a81b4816ae83e1d1a86bc43cd1046183feb958ba202f18ce5b37b69be62d67c9",
+    "data/pages/CHMF-2023-ОУР.jsonl": "4c514fce272e0afe9d3654761ac10d28d5b2c1dff924aeede8f6b009fff68c83",
+    "data/pages/GAZP-2023-ОУР.jsonl": "0685a7b7f0cbabc031d3ec57f14294e993a699575a9d1e91d4052ec40a4258c9",
+    "data/pages/IRKN-2023-ИО.jsonl": "5d26f9afc9ae582cb345ca49f71970b5ac186afe9b9954ed74bf98846d33b9dc",
+    "data/pages/KMAZ-2023-ОУР.jsonl": "27b35282ef9960c20524a7e610ebe6caf1bbde8e9304c98fa8369530c2ea07f4",
+    "data/pages/MAGN-2023-ИО.jsonl": "dd2033b556073be4b8cd7d68afcd8ea4af95d1dc3cdd68492c37ab8b1fb009ea",
+    "data/pages/MINV-2023-ОУР.jsonl": "ceae9ba11c32a480e5b48059ef8c3d63d83ee159cade083b465f1317c5aaf90b",
+    "data/pages/MTLR-2023-ОУР.jsonl": "33aa58c1a93d8cf3d5f5351dedcf930ba1f5ece137dc1184f6ef40ca2da62167",
+    "data/pages/NORN-2023-ОУР.jsonl": "cc49c2250618f23cf28465e782b62cb19b2822b44df67f21535d9bd47dc02d4a",
+    "data/pages/PIGM-2023-ОУР.jsonl": "2283117894e346787055c887b9a559a8a6813c31091d046b63926747b9b0bad2",
+    "data/pages/ROSN-2023-ОУР.jsonl": "8a737ca855d8208894f9af1bb21e0d1da64e69fa57bcf13b4272677db045bbec",
+    "data/pages/RUAL-2023-ОУР.jsonl": "4a3a833b0514fad7dd91a09c47186fa83ddb3a58b812b3a4bd20656209c1d03a",
+    "data/pages/SGZH-2023-ИО.jsonl": "7d54781889f7a875771e0004fc0055319fd76fee452e98f673c819364f7f9b87",
+    "data/pages/SIBR-2023-ИО.jsonl": "6b05e05e2c076e6d75389a6061cd635863b74f9f157912737a48818bc074e129",
+    "data/pages/TATN-2023-ИО.jsonl": "db2f8cb873d8858ec7a23ec0ab00fd43e279047ec97a083d73cbc8c04b0a631f",
+    "data/pages/TATN-2025-ИО.jsonl": "59581cc22f074971b804687974f0e77faab3e7e29bf0b4d25fe04a3696e43ed4",
+    "data/pages/TRNF-2023-ИО.jsonl": "603212664ba31f7ced4031b0745cbcf5f9195d46d5a5e0a8b39c227819bb0567",
+    "data/pages/URCH-2023-ОУР.jsonl": "23627dcd7db25c0f27e8090c53a4f47a80eb2b6a8bed5acdedf666c6fe6c6f71",
+    "data/out/targets.csv": "a9b8f880acd66e8b5ab9134f7ec2af82122dcefe23fdba24ec3f0b85097faab4"
+  }
+}

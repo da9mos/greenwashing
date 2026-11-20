@@ -1,0 +1,86 @@
+{
+  "physical_pages": 186,
+  "page_order_correct": true,
+  "source_sha256": "bdb99a96c1e9625486f166432c9645cc9866b411f35b72fdb0f7fd8c086e0c15",
+  "report_sha256": "88b487c565a2522c27b140479ecae214271976dfb579c9005c3c8ee0114e3d5d",
+  "image_references": 186,
+  "missing_assets": [],
+  "broken_internal_anchors": [],
+  "local_html_preview": "preview.html",
+  "local_render_manifest": [
+    {
+      "pdf_page": 1,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 4,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 8,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 16,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 20,
+      "rendered_sheets": 3
+    },
+    {
+      "pdf_page": 25,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 36,
+      "rendered_sheets": 3
+    },
+    {
+      "pdf_page": 49,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 58,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 66,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 102,
+      "rendered_sheets": 1
+    },
+    {
+      "pdf_page": 138,
+      "rendered_sheets": 1
+    }
+  ],
+  "render_review": "Rendered cover/divider text and rebuilt tables 20/36 inspected; full document rendering not visually verified.",
+  "full_semantic_review_completed": false,
+  "all_source_images_hash_match": true,
+  "table_diagnostic_pages": [
+    12,
+    63,
+    73,
+    85,
+    86,
+    88,
+    112,
+    117,
+    123,
+    127,
+    130,
+    131,
+    140,
+    143,
+    146,
+    154,
+    156,
+    171,
+    179,
+    180,
+    185
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "base_head": "5715f0126e653187736317b1c6799bdaf6242ec4",
+  "input_sha256": {
+    "llm/nikita_dynamics/v1/group_A.json": "cc4b45ce640d09b1ca176f51c6e46dada2d68e9e1e223dd76b0aaa638a841b97",
+    "llm/nikita_dynamics/v1/group_B.json": "26304b3e68d8bb6b61222c1e2264cdd6c711d0fe73238fe1fd27060e07e30903"
+  },
+  "outputs": {
+    "data/nikita/dynamics_evidence.csv": {
+      "rows": 212,
+      "sha256": "b96252b951bf0e82a794274e809e564189862cd57d45f88e195316af59f55f3c"
+    },
+    "data/nikita/future_targets.csv": {
+      "rows": 0,
+      "sha256": "857c75d2fbcd06df909857d580fa7924dc2968fa860745b2989ba6bd967818a1"
+    },
+    "data/nikita/input_manifest.json": {
+      "rows": 98,
+      "sha256": "f788fe1811f680c2c99d7b82704809d75d3d5bda2d07f92384c3830d335d6390"
+    },
+    "data/out/claims_dynamics_additions.csv": {
+      "rows": 46,
+      "sha256": "f2414f943fdb67fc7189848d735d1c0cb8482d3d1dcb549a01a640b1ab816522"
+    },
+    "data/out/companies_review.csv": {
+      "rows": 30,
+      "sha256": "db1f7e16654810198de1da1dae7414b78ab19ac3c346b4e2591299ffe3577fe1"
+    },
+    "data/out/metrics_dynamics.csv": {
+      "rows": 49,
+      "sha256": "678b76c06e98f399ecefd00893ac0df4192beb849c7f885a804cb36418ce91f0"
+    },
+    "data/out/sampling_quotas.csv": {
+      "rows": 30,
+      "sha256": "5d2c4a9e5f8cfc66a9def783b8b0d26721a082b298ecf803ef797b03fa27462c"
+    },
+    "data/out/targets.csv": {
+      "rows": 49,
+      "sha256": "6ae283d1b70da42731f09c84d529c6c8d756cebb7928e04d3d0f8784d92599a8"
+    },
+    "runs/manifest_parts/nikita_dynamics_v1.csv": {
+      "rows": 2,
+      "sha256": "27d00193a51f5b3f751ae586b78938479f640a7f2734a519b8905c8bb6f88b8e"
+    },
+    "templates/metrics_dynamics_шаблон.csv": {
+      "rows": 0,
+      "sha256": "96914166cb693eb3d6ec08346ad86b046fb23e406342a57f0db1252abed56a38"
+    }
+  },
+  "prompt_sha256": "a9ca7e1f5f8e4885f58bffd8edfc96974eee6f8cf61d0f10a10eef248c2ecc78",
+  "run_date": "2026-11-15",
+  "scope": "Model-derived semantic assessment; literal quotes validated mechanically. No truth classification, no forced three targets per company.",
+  "source_sha256": {
+    "01_итерация_1_сбор_данных/выборка_30/companies.csv": "db17167afa5ea4f7b22c67ba9f9eb0ed2e1c47c14310a399430a77ecdf4a64c7",
+    "01_итерация_1_сбор_данных/выборка_30/reports.csv": "43c38088e1698061253feee4300132756b4790a3b58537a3dda00383d2784176",
+    "03_итерация_3_пайплайн/data/nikita/overrides_v1.json": "0c97f844ff5f8702b70481f028585d4ac58371bf4ad2ecf10e36da4d26a3dfdf",
+    "03_итерация_3_пайплайн/data/out/claims.csv": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+    "03_итерация_3_пайплайн/data/pages/AKRN-2023-ОУР.jsonl": "11d467703c4aba77660fa379563c5cb3003131f7b858fd91651b5b4d38df5a38",
+    "03_итерация_3_пайплайн/data/pages/AKRN-2024-ОУР.jsonl": "a8955914dee5707dcf1fdcb7245e3333b717b1e3950ef8ab037cd84f4ccbe77c",
+    "03_итерация_3_пайплайн/data/pages/AKRN-2025-ИО.jsonl": "b45b4eeb21d9a0626d4a5083e5591ee1a6e77fe7f1a8f02f827ad353084a06fa",
+    "03_итерация_3_пайплайн/data/pages/ALRS-2023-ОУР.jsonl": "a81b4816ae83e1d1a86bc43cd1046183feb958ba202f18ce5b37b69be62d67c9",
+    "03_итерация_3_пайплайн/data/pages/ALRS-2024-ОУР.jsonl": "5113289922fe53d6c134c5b20779ca6ba32ce73a703500c01a8af8ec2d6e70aa",
+    "03_итерация_3_пайплайн/data/pages/ALRS-2025-ОУР.jsonl": "ccd4f054e4ea9540dfce6886a538399719ad6c3a297394ea432a29ba47e87ad9",
+    "03_итерация_3_пайплайн/data/pages/CHMF-2023-ОУР.jsonl": "4c514fce272e0afe9d3654761ac10d28d5b2c1dff924aeede8f6b009fff68c83",
+    "03_итерация_3_пайплайн/data/pages/CHMF-2024-ИО.jsonl": "fcff5abcfeaee22e0314ea1990c4d5094744cee48c50b1ee07d3f2ebf5a48c09",
+    "03_итерация_3_пайплайн/data/pages/CHMF-2025-ИО.jsonl": "a8579f5c59a79ea6ddcc83a558371f848bae21c12c84d914f40c13098f510c43",
+    "03_итерация_3_пайплайн/data/pages/GAZP-2023-ОУР.jsonl": "0685a7b7f0cbabc031d3ec57f14294e993a699575a9d1e91d4052ec40a4258c9",
+    "03_итерация_3_пайплайн/data/pages/GAZP-2023-ЭО.jsonl": "9c9d1d2a198d6f65b45d214b8458608b504aadff4d76b82b0191420410158ee1",
+    "03_итерация_3_пайплайн/data/pages/GAZP-2024-ОУР.jsonl": "29e078186f8148fd40f8d041a24a6ac3f633decb76919d9d5cf7d9d2bd0bb5d5",
+    "03_итерация_3_пайплайн/data/pages/GAZP-2025-ОУР.jsonl": "5881ffd891b8d07b4d0d8304731079765a7e917bf6bcdb19f9b381746852942b",
+    "03_итерация_3_пайплайн/data/pages/IRKN-2023-ИО.jsonl": "5d26f9afc9ae582cb345ca49f71970b5ac186afe9b9954ed74bf98846d33b9dc",
+    "03_итерация_3_пайплайн/data/pages/IRKN-2024-ИО.jsonl": "112ea962040704432531baec7c54117810c822a82ab3d3e896d760520724bde9",
+    "03_итерация_3_пайплайн/data/pages/IRKN-2025-ИО.jsonl": "3d75a36f0e6e967a4cab46ac6224b889313a9528b9dc8478090b53b840eb5166",
+    "03_итерация_3_пайплайн/data/pages/KMAZ-2023-ОУР.jsonl": "27b35282ef9960c20524a7e610ebe6caf1bbde8e9304c98fa8369530c2ea07f4",
+    "03_итерация_3_пайплайн/data/pages/KMAZ-2024-ОУР.jsonl": "6a47a0fdba4294997e06b4e7d59ea78ef0edd272e8d914a950bcd147d3984f7c",
+    "03_итерация_3_пайплайн/data/pages/KMAZ-2025-ГО.jsonl": "95933b0296602e0c57e7c41af57b99600dfb508d7df5ab24bb72fff0c4061a09",
+    "03_итерация_3_пайплайн/data/pages/LKOH-2023-ОУР.jsonl": "00a95d726e5b70f34f5f67eb962fc7e309392769569fb4b4f48d1e9a24535957",
+    "03_итерация_3_пайплайн/data/pages/LKOH-2024-ОУР.jsonl": "dad1e5ed60893723d88a28c15d0666d80075a40051d7505ccb06fb9c96b5cd6a",
+    "03_итерация_3_пайплайн/data/pages/LKOH-2025-ОУР.jsonl": "09ac554e8d1c5572751e35715d030e19bdf85aca41bb2fcfd044dac844f26470",
+    "03_итерация_3_пайплайн/data/pages/MAGN-2023-ИО.jsonl": "dd2033b556073be4b8cd7d68afcd8ea4af95d1dc3cdd68492c37ab8b1fb009ea",
+    "03_итерация_3_пайплайн/data/pages/MAGN-2024-ИО.jsonl": "11bc1da20a16dca995f706af9c494ed68040a79c847490843b09337057ff0df4",
+    "03_итерация_3_пайплайн/data/pages/MAGN-2025-ИО.jsonl": "c2b4a24813cdd6faf9a9ed7ef27b9a173bdfe2622b1c7fad2860d208130ced3a",
+    "03_итерация_3_пайплайн/data/pages/MINV-2023-ОУР.jsonl": "ceae9ba11c32a480e5b48059ef8c3d63d83ee159cade083b465f1317c5aaf90b",
+    "03_итерация_3_пайплайн/data/pages/MINV-2024-ОУР.jsonl": "34610d38c9509640c5c1adde0f8546ae399af4d7fa096c4fd62e23cfdd69dac2",
+    "03_итерация_3_пайплайн/data/pages/MINV-2025-ОУР.jsonl": "0349769eb8bcd6817de3339406f6962641d163357ccc37963cbce529bb1d7637",
+    "03_итерация_3_пайплайн/data/pages/MTLR-2023-ОУР.jsonl": "33aa58c1a93d8cf3d5f5351dedcf930ba1f5ece137dc1184f6ef40ca2da62167",
+    "03_итерация_3_пайплайн/data/pages/MTLR-2024-ОУР.jsonl": "a2da410a887f6f8a86ecf4104d1edf91ab7dd4ed9a1bb5f573dabf8229a6cda9",
+    "03_итерация_3_пайплайн/data/pages/MTLR-2025-ГО.jsonl": "cd5f212b2d2c828947151692b0e3f8b4131a452773bdba0539634c6ffb355be5",
+    "03_итерация_3_пайплайн/data/pages/MTLR-2025-ОУР.jsonl": "1ee0a6eb3db12fb3ba03116bf2af29a0628716457aa2697ada16bca6ad2daa3e",
+    "03_итерация_3_пайплайн/data/pages/MVDK-2023-ГО.jsonl": "210a8c3eccafedbe4b7d6172e377b4273ada854618887faa25709b56fe307943",
+    "03_итерация_3_пайплайн/data/pages/MVDK-2024-ГО.jsonl": "aac1168f191afdc5236bca55193e23a5d1353c4c8d8a4d9d7102ce6ab6501330",
+    "03_итерация_3_пайплайн/data/pages/MVDK-2025-ГО.jsonl": "b1dafec573db98b22db28c5dbde4c69c517ff0b9c7a3bf7f9c3da7686588837e",
+    "03_итерация_3_пайплайн/data/pages/NLMK-2023-ОУР.jsonl": "16fa28c3769e1c54e16af3a5c51e84e1e3a80307d65e594a8d6a5f4164e58b80",
+    "03_итерация_3_пайплайн/data/pages/NLMK-2024-ИО.jsonl": "77bb86dac3d6d3e7a7432d602645dc4d59d99800d58c2c9c0ea019df5164582a",
+    "03_итерация_3_пайплайн/data/pages/NLMK-2025-ИО.jsonl": "b44036d93a712ea8b60e6442ca38eca8fa3d2e09ee6ff1d1ac1f62cfd2114b5e",
+    "03_итерация_3_пайплайн/data/pages/NORN-2023-ОУР.jsonl": "cc49c2250618f23cf28465e782b62cb19b2822b44df67f21535d9bd47dc02d4a",
+    "03_итерация_3_пайплайн/data/pages/NORN-2024-ОУР.jsonl": "0ad3aec3d98db22315f9ccfa360fb377209982d726df678b9edb8dca1aef83f1",
+    "03_итерация_3_пайплайн/data/pages/NORN-2025-ОУР.jsonl": "78594c564432942268def5206b5390470676ce21799925a09b9301f926e9d350",
+    "03_итерация_3_пайплайн/data/pages/NVTK-2023-ОУР.jsonl": "894605fa2ef0690909a7269f64e81ba0794544a13649e2f8ebd9ca70ce7830cd",
+    "03_итерация_3_пайплайн/data/pages/NVTK-2024-ОУР.jsonl": "c692c932e11fefb49695e91840d09e73986eb76eba254566749189fc2b92f4f2",
+    "03_итерация_3_пайплайн/data/pages/NVTK-2025-ОУР.jsonl": "78d2acdf3222e84e159b23b3cf4b102813ce68c2dc0fb7091b0997abbd4b2bdf",
+    "03_итерация_3_пайплайн/data/pages/PHOR-2023-ИО.jsonl": "670d03b43689e0f9e9e04a600619e39b02ff46fa386b7316e31123a25718970c",
+    "03_итерация_3_пайплайн/data/pages/PHOR-2024-ИО.jsonl": "07eace4c56177063fdc34a8c81432fb44e9bd3a5d84abebc672218b2992c5a58",
+    "03_итерация_3_пайплайн/data/pages/PHOR-2025-ИО.jsonl": "50cf4be4472d36bd0494c42a6fafcd45d2c4ff0fdb9036a09825eddc45ec76e8",
+    "03_итерация_3_пайплайн/data/pages/PIGM-2023-ОУР.jsonl": "2283117894e346787055c887b9a559a8a6813c31091d046b63926747b9b0bad2",
+    "03_итерация_3_пайплайн/data/pages/PIGM-2024-ОУР.jsonl": "1961dbd8a72ecddb1a3bc210864ab6c378cb9325250dc8c0f914240187a0a7f9",
+    "03_итерация_3_пайплайн/data/pages/PIGM-2025-ОУР.jsonl": "15869a096eb13cbfa9d0a86c37b9a8ce99a437f755a681fe4cf878170bc0c800",
+    "03_итерация_3_пайплайн/data/pages/PLZL-2023-ОУР.jsonl": "71aa0bd1eb29a306310ee99c000bd5205c862fe31e0654eee102f41a39e4fa4e",
+    "03_итерация_3_пайплайн/data/pages/PLZL-2024-ОУР.jsonl": "37431bf58fc9cc1b268392a901235f34edcdc00b6f71ab16ee185a4dd1d64b64",
+    "03_итерация_3_пайплайн/data/pages/PLZL-2025-ИО.jsonl": "ca6f31081778ad1b9f2b9e12b71fa4007027871da6f39c1e7c063bb84c834bc6",
+    "03_итерация_3_пайплайн/data/pages/PLZL-2025-ОУР.jsonl": "071c4fb2b1b058fb8207bf2b0a81e7ce19605d4558727b448bc767e51548240b",
+    "03_итерация_3_пайплайн/data/pages/RASP-2023-ОУР.jsonl": "757871483e96a764d5c1f2455c73c425d6b099d0a038d7426b72dd151e7bf0ae",
+    "03_итерация_3_пайплайн/data/pages/RASP-2024-ОУР.jsonl": "c32f5f375d14fff516a0dbc96668e161350c12ea04e39ac497f036a096ab6636",
+    "03_итерация_3_пайплайн/data/pages/RASP-2025-ОУР.jsonl": "931312a13cd74331f6137fbcd869c708936882fa7e560e7f43a8ebd87c9bc432",
+    "03_итерация_3_пайплайн/data/pages/ROSN-2023-ОУР.jsonl": "8a737ca855d8208894f9af1bb21e0d1da64e69fa57bcf13b4272677db045bbec",
+    "03_итерация_3_пайплайн/data/pages/ROSN-2024-ОУР.jsonl": "65c00ce0c7eac7393539d66094aa6bc0646877f11af36c5f358e01378c97b10f",
+    "03_итерация_3_пайплайн/data/pages/ROSN-2025-ИО.jsonl": "3d62846e8f832451ef5116e56eeb7ebcd7fe1cfc907807e8208cb765015b275b",
+    "03_итерация_3_пайплайн/data/pages/RUAL-2023-ОУР.jsonl": "4a3a833b0514fad7dd91a09c47186fa83ddb3a58b812b3a4bd20656209c1d03a",
+    "03_итерация_3_пайплайн/data/pages/RUAL-2024-ОУР.jsonl": "cc29331142157d58b61ed672accf71ce5b243e6883796af23c812c6a049bd8b5",
+    "03_итерация_3_пайплайн/data/pages/RUAL-2025-ИО.jsonl": "a188b7e4a18c627c85b13c71854d9bef0e6921222c10494291b8ef52c512bba4",
+    "03_итерация_3_пайплайн/data/pages/RVDK-2023-ОУР.jsonl": "4c33906c054e3f1e16093e3b3d77f68732ebdcd4fa5e5c4f9a0250ebea2ae7f8",
+    "03_итерация_3_пайплайн/data/pages/RVDK-2024-ОУР.jsonl": "e7008f4c370218b265efa6a7ea6294519d841e3405b5bb03a9a22131a1b1d6d5",
+    "03_итерация_3_пайплайн/data/pages/RVDK-2025-ОУР.jsonl": "ffc5d5b00e0b31595bd475c538f772ee349e8ed0b85b1734344134ed898275d5",
+    "03_итерация_3_пайплайн/data/pages/SGZH-2023-ИО.jsonl": "7d54781889f7a875771e0004fc0055319fd76fee452e98f673c819364f7f9b87",
+    "03_итерация_3_пайплайн/data/pages/SGZH-2024-ИО.jsonl": "4c31ceba5a9cded2a6eaf3b4ec0d4846fa88a2ce1f8f0c2ce9676debea2878e2",
+    "03_итерация_3_пайплайн/data/pages/SGZH-2025-ИО.jsonl": "04032b9972f23d4905b0c0f757a7384949fd3daf6646e914714f20ffba8b3ea2",
+    "03_итерация_3_пайплайн/data/pages/SHLZ-2023-ОУР.jsonl": "23f5a078df258c8af82dbb5c95661ffe1e64ba8644dc664ee55e7a8a6c9964df",
+    "03_итерация_3_пайплайн/data/pages/SHLZ-2024-ОУР.jsonl": "cc36c1c60b560e914224335b5b6593a5682c40d98c3042cd3ff3be2fcf9f1e2f",
+    "03_итерация_3_пайплайн/data/pages/SIBR-2023-ИО.jsonl": "6b05e05e2c076e6d75389a6061cd635863b74f9f157912737a48818bc074e129",
+    "03_итерация_3_пайплайн/data/pages/SIBR-2024-ИО.jsonl": "94d680ec4dadd1c751cdab053b00b1a0caad9f2381418528f9ee2de9c0417201",
+    "03_итерация_3_пайплайн/data/pages/SIBR-2025-ИО.jsonl": "25b14cacac3907eda32ff2d175fd0b76deb3ab7e29634132dc5f62767f44a6de",
+    "03_итерация_3_пайплайн/data/pages/SVEZ-2023-ОУР.jsonl": "9cbbc3b4fcfab85a9b2ccf570c9232e9adb2461751b6da3747f9a0382d528875",
+    "03_итерация_3_пайплайн/data/pages/SVEZ-2024-ОУР.jsonl": "25ab2cc85b91aef4e7347b8091cc8c6713b20acc1a067ab9c70f08679a76982c",
+    "03_итерация_3_пайплайн/data/pages/TATN-2023-ИО.jsonl": "db2f8cb873d8858ec7a23ec0ab00fd43e279047ec97a083d73cbc8c04b0a631f",
+    "03_итерация_3_пайплайн/data/pages/TATN-2024-ИО.jsonl": "2ec4e69cbe3a4de80450f5cdda28427d650df3668111ac0b32f7a3ea03b5b82a",
+    "03_итерация_3_пайплайн/data/pages/TATN-2025-ИО.jsonl": "59581cc22f074971b804687974f0e77faab3e7e29bf0b4d25fe04a3696e43ed4",
+    "03_итерация_3_пайплайн/data/pages/TRMK-2023-ИО.jsonl": "1de932b71f779d38c35479cef12fc41f97f4e4b9d4e0290ab03fb56291eb8a80",
+    "03_итерация_3_пайплайн/data/pages/TRMK-2024-ОУР.jsonl": "41c1981ab9e18678371aa285cad3eb549968eec84c4d421c60d75f0298565812",
+    "03_итерация_3_пайплайн/data/pages/TRMK-2025-ОУР.jsonl": "e99b1409f2539e9464ff26d389e4c94ee3f7d72350da722b78f5365c235b2cd2",
+    "03_итерация_3_пайплайн/data/pages/TRNF-2023-ИО.jsonl": "603212664ba31f7ced4031b0745cbcf5f9195d46d5a5e0a8b39c227819bb0567",
+    "03_итерация_3_пайплайн/data/pages/TRNF-2024-ИО.jsonl": "2f30ac40fdaf8742c98020687c7e61a1189a763c99f3c56a7c14d15bb67129cc",
+    "03_итерация_3_пайплайн/data/pages/TRNF-2025-ИО.jsonl": "12a81f32fab0e447d7850b20af69567a8ab9edc80eb26c64cd084f48310b071d",
+    "03_итерация_3_пайплайн/data/pages/URCH-2023-ОУР.jsonl": "23627dcd7db25c0f27e8090c53a4f47a80eb2b6a8bed5acdedf666c6fe6c6f71",
+    "03_итерация_3_пайплайн/data/pages/URCH-2024-ОУР.jsonl": "af5a94b1e0226f2a8ad11c24907eac528a13054b8a46e71ab627e652b99c27eb",
+    "03_итерация_3_пайплайн/data/pages/URCH-2025-ОУР.jsonl": "d1e81f656dfc91409c12c238dd389fcf5fb2a9d3988d9b86f8af7bc49d2e32b0",
+    "03_итерация_3_пайплайн/data/pages/URKA-2023-ОУР.jsonl": "2f2d9c991e687198490f6f883aa7f4ba5cdd133bb015a84d1355c9c26be40939",
+    "03_итерация_3_пайплайн/data/pages/URKA-2024-ОУР.jsonl": "5aa8d0351dc4b73df01b79d74289bf7c704a2c0c4d8adea6e8577a390068fbb6",
+    "03_итерация_3_пайплайн/data/pages/URKA-2025-ГО.jsonl": "c018619605e005e1a76f42cf147fd6755ef97c28948f1f140d6e1c8a32d3ccaa",
+    "03_итерация_3_пайплайн/data/pages/URKA-2025-ОУР.jsonl": "2fbe30d91a2bcca2f635c3bb9f73d9550871b2409f56b7fa654e35197664eaf7",
+    "03_итерация_3_пайплайн/src/build_nikita.py": "eaf00a03b9e41ecffdd20aff8d16b737318ce20ef4a9ab344775cbd385a66b90",
+    "03_итерация_3_пайплайн/tests/test_build_nikita.py": "7235c18bcbbe8545ded81387bad968cb5424857c7738ec764304685ed5f6708a"
+  }
+}

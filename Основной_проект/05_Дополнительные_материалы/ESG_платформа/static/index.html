@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Контур ESG · Рабочая проверка</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./"><span class="brand-icon">E</span> Контур ESG</a><span class="header-label">Рабочая проверка отчётности</span></header>
+<main>
+  <section class="intro">
+    <div><h1>Проверка ESG-отчётов</h1><p>Выберите документы, запустите сверку и проследите, на чём основано каждое решение.</p></div>
+    <button id="auditAll" class="secondary">Сверить весь корпус</button>
+  </section>
+  <section class="stats" aria-label="Обзор корпуса">
+    <div><span>Компании</span><strong id="companies">—</strong></div>
+    <div><span>Отчёты</span><strong id="reports">—</strong></div>
+    <div><span>Сверено технически</span><strong id="audited">—</strong></div>
+    <div><span>В очереди агента</span><strong id="queued">—</strong></div>
+  </section>
+  <section class="workspace">
+    <aside class="card">
+      <h2>Выбор отчётов</h2>
+      <label for="company">Компания</label><select id="company"></select>
+      <div id="choices"></div>
+      <button id="run" class="primary">Запустить извлечение</button>
+      <p class="hint">Выбранные отчёты поступят в очередь агента. Техническую сверку можно повторить отдельно.</p>
+    </aside>
+    <article class="card detail">
+      <div class="detail-head"><div><span class="tag" id="reportId"></span><h2 id="reportTitle">Отчёт</h2></div><button id="audit" class="secondary">Сверить MD</button></div>
+      <div id="steps" class="steps"></div>
+      <div class="documents"><a id="md" target="_blank" rel="noopener">Открыть Markdown ↗</a><a id="pdf" target="_blank" rel="noopener">Оригинал PDF ↗</a><a id="csv">Скачать CSV ↓</a><button class="secondary" id="reviewReport" disabled>Проверить заявления отчёта</button></div>
+      <div class="results-head"><h3>Заявления и доказательства</h3><label for="filter" class="sr">Фильтр заявлений</label><input id="filter" type="search" placeholder="Поиск по заявлениям"></div>
+      <p id="scope" class="hint"></p>
+      <div id="claims"></div>
+    </article>
+  </section>
+  <p id="notice" class="notice" role="status"></p>
+</main>
+<script type="module" src="app.js"></script>
+</body></html>

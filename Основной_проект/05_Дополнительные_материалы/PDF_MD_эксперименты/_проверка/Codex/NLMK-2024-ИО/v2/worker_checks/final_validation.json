@@ -1,0 +1,13 @@
+{
+  "source_sha256": "aa48da4c4009f70814551a0781e6043b3ba925f4f656c63e9572882f6e1b3d8d",
+  "final_report_sha256": "f0aaab68cdc827c4e4ad4f3b215a82d5fffe610f88bc89182dcb0928e02a4710",
+  "physical_page_markers": 172,
+  "page_sequence_valid": true,
+  "image_references": 172,
+  "missing_assets": [],
+  "broken_internal_targets": [],
+  "unresolved_unicode": [],
+  "baseline_coverage_report_applies_to": "report.native-original.md; final repairs documented in changes.json",
+  "full_source_review_completed": false,
+  "render_completed": false
+}

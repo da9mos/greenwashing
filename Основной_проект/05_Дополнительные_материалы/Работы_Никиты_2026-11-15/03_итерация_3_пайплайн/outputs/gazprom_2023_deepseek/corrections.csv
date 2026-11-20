@@ -1,0 +1,5 @@
+﻿report;pdf_page;issue;action;selected
+social;57;"Wrong title footnote2 instead of1 in v1; v2 introduces neighboring severity-footnote regression";"One source-verified title footnote patch to v1; reject full v2";source_checked/social_057.json
+environment;19;Second chart series encoded with blank year;"Repeat vision pass with explicit year+series columns; source numeric controls pass";v2/environment_019.json
+environment;24;Second chart series encoded with blank year;"Repeat vision pass with explicit year+series columns; source numeric controls pass";v2/environment_024.json
+social;85;Two malformed JSON wrappers;Plain Markdown fallback on same source images, original failed response retained where available;v1/social_085.json

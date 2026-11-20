@@ -1,0 +1,15 @@
+{
+  "version": "instruction-final-20261117-retry75",
+  "created_at": "2026-11-17T05:44:13.512133+00:00",
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "system_sha256": "ae30b323d6cb66ec168cafbce24bc57ded35344ee93bfae72300ad95f8fe7ebe",
+  "adapter_sha256": "eefc64bb08b5a8bebbd6f755a94410d7af8e97285d891e33a6567043ea1e971e",
+  "pages": [
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 75,
+      "source_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0"
+    }
+  ],
+  "old_active_job_untouched": true
+}

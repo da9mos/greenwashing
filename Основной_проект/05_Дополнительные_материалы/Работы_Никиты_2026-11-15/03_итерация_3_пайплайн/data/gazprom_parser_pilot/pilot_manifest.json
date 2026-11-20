@@ -1,0 +1,44 @@
+{
+  "source_url": "https://rspp.ru/upload/uf/0c9/o4rfv3pii610qmtk11i87ak03qqwuaxo/gazprom_sustainability_report_ru_2023.pdf",
+  "sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+  "pdf_pages": 136,
+  "sample_pages": [
+    {
+      "pdf_page": 50,
+      "current_cache_exact_match": false,
+      "chars_plain": 3990,
+      "chars_sorted": 10593
+    },
+    {
+      "pdf_page": 57,
+      "current_cache_exact_match": false,
+      "chars_plain": 4551,
+      "chars_sorted": 10575
+    },
+    {
+      "pdf_page": 115,
+      "current_cache_exact_match": false,
+      "chars_plain": 4520,
+      "chars_sorted": 15960
+    },
+    {
+      "pdf_page": 130,
+      "current_cache_exact_match": false,
+      "chars_plain": 3756,
+      "chars_sorted": 7727
+    }
+  ],
+  "cloud_llamaparse_run": true,
+  "cloud_jobs": [
+    {
+      "tier": "cost_effective",
+      "id": "pjb-um76hrbaeanc1gsyscd1pcyn0ymb",
+      "status": "COMPLETED"
+    },
+    {
+      "tier": "agentic",
+      "id": "pjb-wlwwlwqsbd8o49aypwenoslwzmcs",
+      "status": "COMPLETED"
+    }
+  ]
+}

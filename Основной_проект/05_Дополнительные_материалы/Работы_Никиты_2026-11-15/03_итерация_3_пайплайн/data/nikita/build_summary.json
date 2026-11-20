@@ -1,0 +1,27 @@
+{
+  "source_commit": "5715f0126e653187736317b1c6799bdaf6242ec4",
+  "original_claims_rows": 928,
+  "original_claims_sha256": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+  "original_claims_unchanged": true,
+  "targets": 49,
+  "companies_with_targets": 21,
+  "companies_reviewed": 30,
+  "dynamics_rows": 49,
+  "companion_claims": 46,
+  "evidence_rows": 220,
+  "statuses": {
+    "нет данных": 29,
+    "не выполнена": 6,
+    "выполнена": 14
+  },
+  "quota_sum": 500,
+  "quota_company_count": 30,
+  "quota_capacity_checks": true,
+  "rebuild_matching_outputs": 10,
+  "rebuild_build_manifest_identical": true,
+  "tests_new": 10,
+  "validation_errors": 0,
+  "validation_warnings": 0,
+  "active_overrides": "data/nikita/overrides_v2.json",
+  "scope": "Iteration2 methodology/templates and evidence-linked examples, not final truth classification/index or human gold."
+}

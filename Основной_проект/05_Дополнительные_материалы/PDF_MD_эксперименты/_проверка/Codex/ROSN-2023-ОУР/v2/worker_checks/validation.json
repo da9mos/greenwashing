@@ -1,0 +1,16 @@
+{
+  "page_markers": 134,
+  "pages_in_order": true,
+  "registry_pages": 134,
+  "source_page_images": 134,
+  "missing_local_targets": [],
+  "missing_anchors": [],
+  "html_tables": 0,
+  "review_status_counts": {
+    "checked": 1,
+    "pending": 133
+  },
+  "rendered_html": "preview.html",
+  "visual_render_review": "Не выполнена: запуск локального headless Chrome завершился SIGABRT. HTML сформирован и разобран, но визуальное отображение не подтверждено.",
+  "fixed_width_table_pages": 52
+}

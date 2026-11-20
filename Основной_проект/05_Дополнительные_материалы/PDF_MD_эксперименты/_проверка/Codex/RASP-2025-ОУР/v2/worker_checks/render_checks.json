@@ -1,0 +1,97 @@
+{
+  "method": "PyMuPDF Story HTML rendering of saved Markdown page bodies",
+  "browser_render_available": false,
+  "browser_failure": "Headless Chrome aborted in sandbox. No permissions escalated.",
+  "pages": [
+    {
+      "pdf_page": 1,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0001.pdf"
+    },
+    {
+      "pdf_page": 2,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 2,
+      "rendered_pdf": "preview_0002.pdf"
+    },
+    {
+      "pdf_page": 18,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0018.pdf"
+    },
+    {
+      "pdf_page": 47,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0047.pdf"
+    },
+    {
+      "pdf_page": 52,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0052.pdf"
+    },
+    {
+      "pdf_page": 54,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0054.pdf"
+    },
+    {
+      "pdf_page": 57,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0057.pdf"
+    },
+    {
+      "pdf_page": 62,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0062.pdf"
+    },
+    {
+      "pdf_page": 89,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0089.pdf"
+    },
+    {
+      "pdf_page": 99,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0099.pdf"
+    },
+    {
+      "pdf_page": 118,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0118.pdf"
+    },
+    {
+      "pdf_page": 165,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0165.pdf"
+    },
+    {
+      "pdf_page": 170,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0170.pdf"
+    },
+    {
+      "pdf_page": 174,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 1,
+      "rendered_pdf": "preview_0174.pdf"
+    },
+    {
+      "pdf_page": 183,
+      "renderer": "PyMuPDF Story",
+      "render_pages": 2,
+      "rendered_pdf": "preview_0183.pdf"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "instruction-ab-final-20261117",
+  "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "system_sha256": "ae30b323d6cb66ec168cafbce24bc57ded35344ee93bfae72300ad95f8fe7ebe",
+  "input_sha256": "95c4f81633ce929325b18dad11af6d94915fec3ce6e01813a4c4ef18deb36125",
+  "input_text_sha256": "91b9bf792d1abab89e9577e0cd7066b0f3330bbcbb535165ec4a5b69821def97",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/GAZP-2024-ОУР/page_0113_full.png",
+      "sha256": "06e09bcec167eaa8100a49b224804c2b3e2c92d2274093a3ec7b3dedad19b3f8"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/GAZP-2024-ОУР/page_0113_zoom_0.png",
+      "sha256": "bae39e6744853e4f16fa0d8a00790b9a6b70247b55f72c0a2fee833db7039cbf"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/GAZP-2024-ОУР/page_0113_zoom_1.png",
+      "sha256": "34ef479fd08043f361aeb49f7e22b7c3d4b641d4f44e84cd32c208f28debf147"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_113/source_regions/top_left.png",
+      "sha256": "4f3f5c3e6708e0155d5f6b2b2fb9706d4ff82bce498eb998975baa43be6ab1cc"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_113/source_regions/top_right.png",
+      "sha256": "6ff3ba4744569a2bc80216a7e4fa47e1382df185b5435af0181eb236c09fb35d"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_113/source_regions/bottom_left.png",
+      "sha256": "b0167966c259664e426ee49597ebe83db3de7e8c7f4f46fdda66a429b5e52878"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/GAZP-2024-ОУР_113/source_regions/bottom_right.png",
+      "sha256": "5cad8decbfc90220c0983f4c2f2aa1da6069f5da672a92ef349df748783e5ec6"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

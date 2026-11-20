@@ -1,0 +1,32 @@
+{
+  "report": "environment",
+  "pdf_page": 84,
+  "version": "v1",
+  "response": {
+    "pdf_page": 84,
+    "printed_pages": null,
+    "markdown": "www.gazprom.ru",
+    "problems": [
+      "Страница содержит только сплошной синий фон и адрес сайта внизу слева; иного текстового, табличного или графического содержимого не обнаружено."
+    ],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 73,
+    "total_tokens": 1662,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 2.45,
+  "image_sha256": [
+    "2ce5b5f70111a54c8ed261cf82d61f06d660bec5859e7a21b3b25f55b52c7653"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

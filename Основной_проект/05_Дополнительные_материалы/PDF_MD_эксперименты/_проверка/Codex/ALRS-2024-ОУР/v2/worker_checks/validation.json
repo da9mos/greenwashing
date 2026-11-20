@@ -1,0 +1,20 @@
+{
+  "pages": 189,
+  "page_order_ok": true,
+  "assets_references": 189,
+  "missing_assets": [],
+  "broken_internal_links": [],
+  "control_characters": 0,
+  "checked_pages": [
+    1,
+    4,
+    100,
+    152,
+    153,
+    154
+  ],
+  "pending_pages": 183,
+  "source_sha256": "595844f02fbd2efd6094f2bfd1b3fb32b03310b94caf9bbe6b1a5de69fab338e",
+  "report_sha256": "bba2181904481fbf978af12a1e1c1f56ccbc9ca4e5630ec5c67b467074ca6edd",
+  "render_status": "unavailable: BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,De"
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "file": "v2/social_057.json",
+    "reason": "Regression: severity label footnote1 instead of source3; v1 severity3 retained in source-checked patch",
+    "selected": "source_checked/social_057.json"
+  }
+]

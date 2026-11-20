@@ -1,0 +1,62 @@
+{
+  "physical_pages": 158,
+  "page_markers_sequential_once": true,
+  "page_registry_complete": true,
+  "assets": 158,
+  "asset_hashes_match_native_manifest": true,
+  "local_links_and_anchors_valid": true,
+  "report_sha256": "073896cf78e944c06128687898c901defcfe8ece96f277d5f776ae118e5e85eb",
+  "conversion_status_counts": {
+    "converted": 158
+  },
+  "review_status_counts": {
+    "checked": 8,
+    "pending": 150
+  },
+  "checked_pages": [
+    1,
+    6,
+    7,
+    24,
+    69,
+    83,
+    106,
+    158
+  ],
+  "source_images_inspected": [
+    1,
+    6,
+    7,
+    14,
+    17,
+    21,
+    24,
+    33,
+    35,
+    69,
+    79,
+    83,
+    106,
+    118,
+    120,
+    127,
+    145,
+    146,
+    147,
+    152,
+    156,
+    158
+  ],
+  "display_review": {
+    "status": "blocked",
+    "command": "python3 render_bundle.py --input result/report.md --output result/_проверка/render",
+    "reason": "Chrome process terminated with SIGABRT / TargetClosedError in restricted environment; HTML generated, no screenshots created.",
+    "full_pdf_comparison": false
+  },
+  "limitations": [
+    "Полная построчная сверка всего документа не выполнена. Все непросмотренные страницы converted/pending.",
+    "На страницах 17 и 33 мелкий/закрытый текст в декоративных фотографиях не полностью транскрибирован.",
+    "У непроверенных таблиц остаётся риск слияния строк, пустых детекторных колонок и нарушенного порядка.",
+    "У ссылки на странице 145 аннотация без назначения. Видимый адрес сохранён, URL не угадан."
+  ]
+}

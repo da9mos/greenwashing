@@ -1,0 +1,19 @@
+{
+  "flags_total": 76,
+  "decisions": {
+    "эвристический флаг снят": 73,
+    "требует адресной проверки": 3
+  },
+  "confirmed_gold_label_errors": 0,
+  "pending_sentence_ids": [
+    "LKOH-2023-ОУР_f016_s07",
+    "IRKN-2025-ИО_f049_s01",
+    "TRMK-2025-ОУР_f091_s01"
+  ],
+  "gold_unchanged": true,
+  "gold_sha256": "78055fe430f9725809ef71a2a8702cb62d15c7d38b8ff8d9b1349c93bb5c3f5f",
+  "flags_sha256": "20b5c15a27ad9c1a3915f62a8062750956b0374c77894d07bef20eccb4186e69",
+  "codebook_sha256": "123d75b4ffcf361d1a1122d0be40bb200be8bce91f156d3ce745769150740d3f",
+  "human_review": false,
+  "double_independent_human_annotation": false
+}

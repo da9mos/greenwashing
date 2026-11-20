@@ -1,0 +1,45 @@
+{
+  "target_id": "T-NORN-001",
+  "checked_at": "2026-11-15",
+  "document_title": "Книга приложений к Отчету об устойчивом развитии Норникеля за2025год",
+  "source_url": "https://life.nornickel.ru/docs/reports/the_book_of_applications_2025_rus.pdf",
+  "source_type": "official_company_pdf",
+  "discovered_via": "https://nornickel.ru/sustainability/",
+  "retrieval": "downloaded_and_read",
+  "sha256": "9f90acc576837a32a7045b8490d82c993c5b9c551833712cb32745bd8aeb90e0",
+  "pdf_pages": 41,
+  "method": "pdftotext -layout, full-document targeted lookup; visual render of relevant two spreads",
+  "full_text_queries": {
+    "новых.{0,40}проект": 0,
+    "экологически.{0,40}безопас": 0,
+    "соответств.{0,40}объект": 0,
+    "размещ.{0,40}отход": 2
+  },
+  "evidence": [
+    {
+      "pdf_page": 5,
+      "printed_page": 231,
+      "quote": "Общая масса отходов в разбивке по типу и способу обращения",
+      "scope": "all_group_and_named_operating_assets; no_new_project_denominator",
+      "visual_checked": true
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 234,
+      "scope": "group_waste_by_hazard_class_and_handling_method",
+      "visual_checked": true
+    }
+  ],
+  "target_definition": {
+    "numerator": "Отходы новых проектов, размещенные на экологически безопасных объектах с лучшими технологиями",
+    "denominator": "Все отходы новых проектов с2025года"
+  },
+  "not_equivalent_metric": "Доля объектов размещения отходов, соответствующих нормативам РФ",
+  "conclusion": "Отдельного сопоставимого показателя выполнения исходной цели в проверенной Книге приложений не установлено. Общая масса отходов не даёт знаменателя по новым проектам.",
+  "recommended_status": "нет данных",
+  "comparison_valid": false,
+  "annual_value_to_insert": null,
+  "limitations": "Проверка одного приложения и конкретной цели. Это не доказательство отсутствия сведений во всех источниках, невыполнения или снятия цели. Доля соответствующих объектов имеет другой знаменатель.",
+  "review_A_modified": false,
+  "builder_modified": false
+}

@@ -1,0 +1,30 @@
+{
+  "report": "environment",
+  "pdf_page": 5,
+  "version": "v1",
+  "response": {
+    "pdf_page": 5,
+    "printed_pages": null,
+    "markdown": "# Содержание\n\n**Предупреждение воздействия на окружающую среду**\n31\n\nЭкологическая оценка проектов\n31\n\nСтрахование экологических рисков\n32\n\nПроизводственный экологический контроль и мониторинг\n33\n\nГосударственный контроль (надзор)\n36\n\n**Повышение энергоэффективности и энергосбережение**\n37\n\n**Низкоуглеродное развитие**\n44\n\nРоль природного газа в низкоуглеродном развитии\n44\n\nВыбросы парниковых газов\n50\n\nИспользование возобновляемых и вторичных источников энергии\n54\n\n**Научно-техническое обеспечение охраны окружающей среды**\n56\n\nИнновационные исследования и разработки\n56\n\nИспользование наилучших доступных технологий\n59",
+    "problems": [],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 236,
+    "total_tokens": 1825,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 2.9,
+  "image_sha256": [
+    "6fda8bcf0a2f0fef1797ae46fb9dba913b07753f28e4d29f70df23365b2fd9fa"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

@@ -1,0 +1,18 @@
+{
+  "source_sha256": "fecf555ebe33e468a97278598a22a14d884055fd08a5e623e3b6e13a1419b135",
+  "physical_pages": 343,
+  "page_markers_exact_1_to_343": true,
+  "missing_assets": [],
+  "missing_internal_anchors": [],
+  "visually_reviewed_pages": [
+    1,
+    28,
+    172,
+    174,
+    193
+  ],
+  "other_pages_review_status": "pending",
+  "rendered_to_html": true,
+  "viewer_visual_check_completed": false,
+  "report_sha256": "6b3df984dec29dbfdce68593b6289e67e72e2b74f3882d115fb3ce040e80106c"
+}

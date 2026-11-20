@@ -1,0 +1,42 @@
+{
+  "version": "instruction-ab-baseline-20261117",
+  "source_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+  "instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+  "system_sha256": "89c56f3d7fafcf9d5c6f5dc6049b75b0a4678afca699bf25b2fcc07fa422b69c",
+  "input_sha256": "c8d88b026687a9b54b7131a660955a95ecf9a6f96f876224cbac0be8bd82e962",
+  "input_text_sha256": "dce8cb49afe9f0a187c402e5ed471b90d484245c220d21259a63834510b7b8bb",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/TRMK-2023-ИО/page_0004_full.png",
+      "sha256": "df53e05e0a8417cc261d4fe836ac0e9aec7997e2455e27694aa164745d5a2e3f"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/TRMK-2023-ИО/page_0004_zoom_0.png",
+      "sha256": "f228db368e9a5b9c28146d7473fca615a0d17c51e4fc71834286126fd0f56202"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/TRMK-2023-ИО/page_0004_zoom_1.png",
+      "sha256": "2b55a077232a8656baab919ea14edfd38b1ed918bb2044259c0250f445a6d23f"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/TRMK-2023-ИО_4/source_regions/top_left.png",
+      "sha256": "09c4209de938247c59a809efcb77c39bfc5b436609e16afef3a4586c74a5f8d9"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/TRMK-2023-ИО_4/source_regions/top_right.png",
+      "sha256": "6af45050f40cda00ed70f7de7177ff42f55eeea776724d4c51d928f3b5645882"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/TRMK-2023-ИО_4/source_regions/bottom_left.png",
+      "sha256": "fe260e5b0bcafae494576c3984f4b4ab16329a46b49609607a2e3a0040fea938"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/TRMK-2023-ИО_4/source_regions/bottom_right.png",
+      "sha256": "2832bb8d168558dfd02e7c9c6d7c7e8ffe8218961f07f65bdc4d177043ad13a0"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

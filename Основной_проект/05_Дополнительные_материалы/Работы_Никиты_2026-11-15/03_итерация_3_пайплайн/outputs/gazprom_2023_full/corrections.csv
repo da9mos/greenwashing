@@ -1,0 +1,14 @@
+﻿report_id;pdf_page;block_id;field;before;after;source_basis;reviewer
+social;115;page-targeted;label;Текучность кадров;Текучесть кадров;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+social;115;page-targeted;label;увеличения текучности кадров;увеличения текучести кадров;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+social;115;page-targeted;restore_raw_cell;–4,4 %;–4,4;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+social;115;page-targeted;restore_raw_cell;+122,1 %;+122,1;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+social;115;page-targeted;restore_raw_cell;0 %;0;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+social;115;page-targeted;restore_raw_cell;0 %;0;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;13;page-targeted;remove_empty_columns;[5];removed only source-confirmed empty columns;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;24;page-targeted;restore_chart_scope;Год | Отходы, тыс. т;Динамика образования отходов в Группе Газпром, 2019–2023 гг., тыс. т;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;24;page-targeted;restore_chart_scope;Год | Отходы, тыс. т;Газпром энергохолдинг;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;24;page-targeted;restore_chart_scope;Год | Отходы, тыс. т;Группа Газпром нефть;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;24;page-targeted;restore_chart_scope;Год | Отходы, тыс. т;Газпром нефтехим Салават;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;40;page-targeted;remove_empty_columns;[3];removed only source-confirmed empty columns;"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review
+environment;40;page-targeted;duplicate_chart;repeated 23,96 /24,08 /28,34 table;"duplicate removed; first chart retained";"visual source check; see INDEPENDENT_QA.md and visual/";root+independent_review

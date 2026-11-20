@@ -1,0 +1,34 @@
+{
+  "version": "instruction-ab-baseline-20261117",
+  "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "instruction_sha256": "dce345a70642d6a339fdaf5888d869b41fcdab7d6c15f17a9040df8a072c5f93",
+  "system_sha256": "89c56f3d7fafcf9d5c6f5dc6049b75b0a4678afca699bf25b2fcc07fa422b69c",
+  "input_sha256": "3c6008f50471cb28ceb3eb02c252b701d794056480f1c488cbd3f05261aadb99",
+  "input_text_sha256": "b352159dd546cee4a5f4ab649218ffe0011dd631cf70868b90b4658b5f78eb18",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/GAZP-2023-ЭО/page_0052_full.png",
+      "sha256": "fd834ec3ed518bcdd1e19ae8ce84da5a8eee5829d680f345c40c9867b0df5134"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/GAZP-2023-ЭО_52/source_regions/top_left.png",
+      "sha256": "a42a4377df77e9903eb83985db2bc89762a39d9a07df6980b77390732003f82f"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/GAZP-2023-ЭО_52/source_regions/top_right.png",
+      "sha256": "843eb6e4011dc80c3c72bd399a484ee2cd4d21a3fcf272ca020d58f566ba6ede"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/GAZP-2023-ЭО_52/source_regions/bottom_left.png",
+      "sha256": "dfcf36423fea002cd4c26597f68ed92d7b5572252efdd491f1439e686f33c447"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/GAZP-2023-ЭО_52/source_regions/bottom_right.png",
+      "sha256": "97b3a87dd688df2060f0f8bb0ced746019bcc8372bdfca4d71d355854f3ec1db"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

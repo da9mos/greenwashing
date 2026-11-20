@@ -1,0 +1,572 @@
+[
+  {
+    "engine": "DeepSeek",
+    "report_id": "GAZP-2023-ОУР",
+    "report_sha256": "b21a31086bce0ea410ff23cdacdd96473d10edd89d3ca9c43f0434c9017d4002",
+    "page_anchors": 136,
+    "tables_rendered": 210,
+    "image_references": 136,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "DeepSeek",
+    "report_id": "GAZP-2023-ЭО",
+    "report_sha256": "9bc89bc195771174c97c58f15a470101680197a5caded7d57e6edfaa055faa95",
+    "page_anchors": 84,
+    "tables_rendered": 79,
+    "image_references": 84,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "DeepSeek",
+    "report_id": "GAZP-2024-ОУР",
+    "report_sha256": "62fb42424e9c15891d3f030a8d7a56b3abd0f40e17152bd7414410b4518608db",
+    "page_anchors": 150,
+    "tables_rendered": 208,
+    "image_references": 154,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "DeepSeek",
+    "report_id": "GAZP-2025-ОУР",
+    "report_sha256": "df7f2584c5c6857a5843a7fb9a413fc79aa11fd283e8d6d23c34ffe4fdf2ce97",
+    "page_anchors": 152,
+    "tables_rendered": 214,
+    "image_references": 152,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "DeepSeek",
+    "report_id": "IRKN-2023-ИО",
+    "report_sha256": "5024ed127295d5e4eaaff02cb626e2dbeebe3b5d58109b10a7c76f9b61240331",
+    "page_anchors": 143,
+    "tables_rendered": 69,
+    "image_references": 143,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "ALRS-2023-ОУР",
+    "report_sha256": "c31a445485793ab95711d719eb87cee1b6fab4a224a9b2e9bb918f68d7d85c80",
+    "page_anchors": 170,
+    "tables_rendered": 88,
+    "image_references": 170,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "ALRS-2024-ОУР",
+    "report_sha256": "bba2181904481fbf978af12a1e1c1f56ccbc9ca4e5630ec5c67b467074ca6edd",
+    "page_anchors": 189,
+    "tables_rendered": 87,
+    "image_references": 189,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "GAZP-2023-ОУР",
+    "report_sha256": "6cf47008f6a70959883161ad102434c112f7729b55d63b25a85c4294aa5ff7fc",
+    "page_anchors": 136,
+    "tables_rendered": 30,
+    "image_references": 136,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "GAZP-2023-ЭО",
+    "report_sha256": "651a7dd2ff8f33b3148acc7135712ed700b345d13b1214e393a7d5608fc4f3db",
+    "page_anchors": 84,
+    "tables_rendered": 65,
+    "image_references": 84,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "GAZP-2024-ОУР",
+    "report_sha256": "1d8246bbc9d39ab5d2563dac83d6947b7152ba0a50ab85c2ad8c6f298d5f442f",
+    "page_anchors": 150,
+    "tables_rendered": 10,
+    "image_references": 150,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "GAZP-2025-ОУР",
+    "report_sha256": "ce851845d464ce1e22e599477a3fd2e3717b4ab2900a2ba482b98edf4a654885",
+    "page_anchors": 32,
+    "tables_rendered": 0,
+    "image_references": 31,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": true
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "IRKN-2023-ИО",
+    "report_sha256": "90dcb242dcb2a35a4de824fc53575ffd642044d98a83f4b83ebae6ced33c0036",
+    "page_anchors": 143,
+    "tables_rendered": 12,
+    "image_references": 143,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "IRKN-2024-ИО",
+    "report_sha256": "b7ef493b4262bb366af0255fd9348166434ddb2fd2ca2d42d2158697f64f3d8b",
+    "page_anchors": 149,
+    "tables_rendered": 0,
+    "image_references": 149,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "IRKN-2025-ИО",
+    "report_sha256": "83e62c88b4276f5ca11484a467e07aa62d7eab76aba4257b62bb46067f8b76dc",
+    "page_anchors": 206,
+    "tables_rendered": 73,
+    "image_references": 206,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "LKOH-2023-ОУР",
+    "report_sha256": "8c40a91fb4b45cec9a071c4b565b575807f26a51deaf0d85d630a098caf92c21",
+    "page_anchors": 115,
+    "tables_rendered": 0,
+    "image_references": 115,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "LKOH-2024-ОУР",
+    "report_sha256": "6081d9a9c6b69a1227581149f897fc562e81d494403a4f802a166a8a17bc124d",
+    "page_anchors": 116,
+    "tables_rendered": 173,
+    "image_references": 116,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "LKOH-2025-ОУР",
+    "report_sha256": "d411720699ab269b85751332ff326b3056dc0854975c36e9a13a0f14f092802d",
+    "page_anchors": 114,
+    "tables_rendered": 171,
+    "image_references": 114,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "MAGN-2023-ИО",
+    "report_sha256": "b52f04352fff69ffca6d2810de4fb36893856d486bd2179ffec2f389e1a43c45",
+    "page_anchors": 242,
+    "tables_rendered": 156,
+    "image_references": 242,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "NVTK-2023-ОУР",
+    "report_sha256": "6c0846f4a7d107128d44b74c850c3f211c7e33ecbd3c07b33d403e5587df22c6",
+    "page_anchors": 138,
+    "tables_rendered": 48,
+    "image_references": 138,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "NVTK-2024-ОУР",
+    "report_sha256": "280bc06cdac9266e502d31ae490045168b2fc8e2e6c1fc3acdb3fae3a60cc06b",
+    "page_anchors": 129,
+    "tables_rendered": 53,
+    "image_references": 129,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "NVTK-2025-ОУР",
+    "report_sha256": "f4ce26a4556dc3ddf48c4845d626073b2299ea0dc1c24b94b93a15cfc68b9957",
+    "page_anchors": 121,
+    "tables_rendered": 84,
+    "image_references": 121,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "ROSN-2023-ОУР",
+    "report_sha256": "f529a71ec411813bad990108f382d1bf2ff9626cb3e57fda559b89b695422115",
+    "page_anchors": 134,
+    "tables_rendered": 0,
+    "image_references": 134,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "ROSN-2024-ОУР",
+    "report_sha256": "6f26f3c70219ef6534be5a9bcbe160a1eb3f5fca645ef45aae5bdc280f3a31df",
+    "page_anchors": 135,
+    "tables_rendered": 66,
+    "image_references": 135,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "ROSN-2025-ИО",
+    "report_sha256": "470c42677c833df6b31b2ed63a4155bdc639360970c946ec185a7347888e4425",
+    "page_anchors": 68,
+    "tables_rendered": 19,
+    "image_references": 68,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "TATN-2023-ИО",
+    "report_sha256": "2538cc8358124b9d837987d0a7e73d607e4291581159c0f63ab32fbfbe84d078",
+    "page_anchors": 172,
+    "tables_rendered": 118,
+    "image_references": 172,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "TATN-2024-ИО",
+    "report_sha256": "48af549a0fbff7062591dffc239cc73bec4338627520114c51fedbb8f3e1cab1",
+    "page_anchors": 200,
+    "tables_rendered": 166,
+    "image_references": 200,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "TATN-2025-ИО",
+    "report_sha256": "31fda188a73ffd0c79b2bcc38c0ed614ccc9b77d97f0cabf6a414a610e6a6c30",
+    "page_anchors": 258,
+    "tables_rendered": 234,
+    "image_references": 258,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "TRNF-2023-ИО",
+    "report_sha256": "6b3df984dec29dbfdce68593b6289e67e72e2b74f3882d115fb3ce040e80106c",
+    "page_anchors": 343,
+    "tables_rendered": 233,
+    "image_references": 343,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "TRNF-2024-ИО",
+    "report_sha256": "85b3dbd77b146fcef68d8c96a3272fc58ec38840176cef2a467536a2a73e5ded",
+    "page_anchors": 303,
+    "tables_rendered": 207,
+    "image_references": 303,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  },
+  {
+    "engine": "Codex",
+    "report_id": "TRNF-2025-ИО",
+    "report_sha256": "3106af30d350d607b1b97fb0994c29a65b4a97557e72352cc9cd9e1f9595fef9",
+    "page_anchors": 190,
+    "tables_rendered": 126,
+    "image_references": 190,
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Complete MD rendered; viewport layout inspected, not every source word"
+  }
+]

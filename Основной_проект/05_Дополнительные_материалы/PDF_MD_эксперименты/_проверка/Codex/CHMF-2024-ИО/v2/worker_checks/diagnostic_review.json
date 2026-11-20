@@ -1,0 +1,877 @@
+[
+  {
+    "pdf_page": 1,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Полное исходное изображение page_0001.png"
+    ]
+  },
+  {
+    "pdf_page": 2,
+    "diagnostic": "Some source link destinations are unresolved; do not invent URLs.",
+    "examined": true,
+    "disposition": "source_link_pending",
+    "evidence": [
+      "Полное исходное изображение; исходные глифы выбирались по двум колонкам и базовым линиям печатных номеров. Назначения трёх неисправных PDF-ссылок не угадывались."
+    ]
+  },
+  {
+    "pdf_page": 4,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 5,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 7,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 9,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "Полное исходное изображение; текст и числа ячеек перенесены исходными глифами по заданным границам.",
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 9,
+    "diagnostic": "Some source glyphs have ambiguous table-cell ownership; inspect the source geometry.",
+    "examined": true,
+    "disposition": "reconstructed_table_partial_page_review",
+    "evidence": [
+      "Полное исходное изображение; текст и числа ячеек перенесены исходными глифами по заданным границам.",
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 11,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 12,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 13,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 16,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 17,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 18,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 22,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 24,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 25,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 26,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 27,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 29,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "native_body_retained_ocr_noise_removed_pending_full_review",
+    "evidence": [
+      "Контактные листы: текст тела присутствует в native-кандидате; содержательная страница, не скан."
+    ]
+  },
+  {
+    "pdf_page": 30,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 31,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 35,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 36,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 37,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 38,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 39,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 42,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 43,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 44,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 45,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 47,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 48,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 49,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 50,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 53,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 54,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 55,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 56,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "Контактные листы: текст тела присутствует в native-кандидате; содержательная страница, не скан.",
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 56,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "native_body_retained_ocr_noise_removed_pending_full_review",
+    "evidence": [
+      "Контактные листы: текст тела присутствует в native-кандидате; содержательная страница, не скан.",
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 57,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 58,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 60,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 61,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 62,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 64,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 66,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 67,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 72,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 73,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 74,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 75,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 76,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 77,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 79,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 80,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 81,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 82,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "native_body_retained_ocr_noise_removed_pending_full_review",
+    "evidence": [
+      "Контактные листы: текст тела присутствует в native-кандидате; содержательная страница, не скан."
+    ]
+  },
+  {
+    "pdf_page": 83,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 84,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 85,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 89,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 91,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 92,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 94,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 95,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 96,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 97,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 99,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 103,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 105,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 106,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 107,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 109,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 110,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 112,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 113,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 114,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 115,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 116,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 117,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 121,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 122,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "divider_visually_checked",
+    "evidence": [
+      "Контактные листы contact_0–1; заголовок и подпись видны целиком."
+    ]
+  },
+  {
+    "pdf_page": 123,
+    "diagnostic": "Some source link destinations are unresolved; do not invent URLs.",
+    "examined": true,
+    "disposition": "source_link_pending",
+    "evidence": []
+  },
+  {
+    "pdf_page": 135,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 136,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 138,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 139,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 141,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "ocr_reprocessed_pending_word_review",
+    "evidence": [
+      "Локальный Tesseract rus+eng, масштаб 3; источник изображений — исходный PDF. Статус текста pending."
+    ]
+  },
+  {
+    "pdf_page": 142,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "ocr_reprocessed_pending_word_review",
+    "evidence": [
+      "Локальный Tesseract rus+eng, масштаб 3; источник изображений — исходный PDF. Статус текста pending."
+    ]
+  },
+  {
+    "pdf_page": 143,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "ocr_reprocessed_pending_word_review",
+    "evidence": [
+      "Локальный Tesseract rus+eng, масштаб 3; источник изображений — исходный PDF. Статус текста pending."
+    ]
+  },
+  {
+    "pdf_page": 144,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "ocr_reprocessed_pending_word_review",
+    "evidence": [
+      "Локальный Tesseract rus+eng, масштаб 3; источник изображений — исходный PDF. Статус текста pending."
+    ]
+  },
+  {
+    "pdf_page": 145,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "ocr_reprocessed_pending_word_review",
+    "evidence": [
+      "Локальный Tesseract rus+eng, масштаб 3; источник изображений — исходный PDF. Статус текста pending."
+    ]
+  },
+  {
+    "pdf_page": 146,
+    "diagnostic": "Image-dominant or nearly empty page: OCR/visual transcription requires review.",
+    "examined": true,
+    "disposition": "ocr_reprocessed_pending_word_review",
+    "evidence": [
+      "Локальный Tesseract rus+eng, масштаб 3; источник изображений — исходный PDF. Статус текста pending."
+    ]
+  },
+  {
+    "pdf_page": 151,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 152,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 154,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  },
+  {
+    "pdf_page": 155,
+    "diagnostic": "Source font mapping has unresolved characters; inspect the source image.",
+    "examined": true,
+    "disposition": "class_normalized_partial_visual_review",
+    "evidence": [
+      "unicode_locations.json + unicode_0–3.jpg: U+F0FC Wingdings = ✓; U+F0B7 Symbol = •; U+0007 не имеет видимого знака. Выборочная сверка класса на каждой затронутой странице, не всех вхождений."
+    ]
+  }
+]

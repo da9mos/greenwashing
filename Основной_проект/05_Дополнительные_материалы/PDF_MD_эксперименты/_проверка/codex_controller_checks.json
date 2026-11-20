@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-15T21:10:16.584004+00:00",
+  "controller_sha256": "1d60cce1033613c0b37c8a9376ecb6b5a3b6e13abf603d33e838ff90230496f3",
+  "type": "Behavioral guards against real existing assembled artifact; no additional model calls",
+  "checks": {
+    "missing_current_worker_publication_not_assembled": true,
+    "failed_new_worker_does_not_promote_stale_bundle": true,
+    "missing_terminal_event_not_complete": true,
+    "nonexistent_PID_finished": true,
+    "adopted_returncode_unknown_preserved": true
+  },
+  "runtime_observation": {
+    "controller_pid": 52347,
+    "live_workers_adopted": [
+      51411,
+      51823
+    ],
+    "worker_slots": 2,
+    "CLI_signals_sent": 0,
+    "adopted_2023_environment_assembled": true,
+    "adopted_2023_environment_complete": false
+  },
+  "limits": [
+    "Current corpus remains running; completion is not asserted.",
+    "Bundle gate is structural and worker registry state is not proof of full source fidelity."
+  ]
+}

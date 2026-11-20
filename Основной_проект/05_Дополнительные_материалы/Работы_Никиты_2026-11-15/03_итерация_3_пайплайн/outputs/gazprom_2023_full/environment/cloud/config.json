@@ -1,0 +1,12 @@
+{
+  "file_id": "8524a64d-1d07-433f-b1e0-3b8d05f12615",
+  "tier": "agentic",
+  "version": "latest",
+  "output_options": {
+    "markdown": {
+      "tables": {
+        "output_tables_as_markdown": true
+      }
+    }
+  }
+}

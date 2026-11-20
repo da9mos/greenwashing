@@ -1,0 +1,34 @@
+{
+  "version": "instruction-ab-compact-20261117",
+  "source_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01",
+  "instruction_sha256": "402ca33babc5594c47fc32686e9fdf434d9b7ede50217c74723f01d68fe58873",
+  "system_sha256": "519fe93648b75ffde3876c624f40eb3800659635d216dfbbd69a3340abd455da",
+  "input_sha256": "4c34bd8f6eb252ca08751cb94b5162b37ba96dba3952af9efb8725413387841b",
+  "input_text_sha256": "5e684a03628405534c1a4d5f3b0e3ae48dd99541d289ee6bd4537a9b191c82c3",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/IRKN-2023-ИО/page_0098_full.png",
+      "sha256": "f3630216c8eab6f8b2c6bc82a865eab7c861002ac43baf408efb31a9291b2174"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/IRKN-2023-ИО_98/source_regions/top_left.png",
+      "sha256": "d41c7f9d16d77c461bfc29eeab551873fa58bf344d61e65a7dc6b68a24202af5"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/IRKN-2023-ИО_98/source_regions/top_right.png",
+      "sha256": "bcbe25db140cc6890d9275125804fda0c41cf8ea881df17aa62b9aaf6dc943bf"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/IRKN-2023-ИО_98/source_regions/bottom_left.png",
+      "sha256": "995eba5e101775dc16ce674464138d795a14c0ea2ba867a08d9c1d40b6f0d0d8"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/IRKN-2023-ИО_98/source_regions/bottom_right.png",
+      "sha256": "8bbee96a1c768b30c64a4dc2180845e0807c19a91a09d01cc8b9e317b5509ff3"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

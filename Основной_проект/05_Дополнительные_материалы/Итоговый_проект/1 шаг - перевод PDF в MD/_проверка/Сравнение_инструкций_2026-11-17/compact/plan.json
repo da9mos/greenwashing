@@ -1,0 +1,75 @@
+{
+  "version": "instruction-ab-compact-20261117",
+  "created_at": "2026-11-17T05:36:35.933100+00:00",
+  "instruction_sha256": "402ca33babc5594c47fc32686e9fdf434d9b7ede50217c74723f01d68fe58873",
+  "system_sha256": "519fe93648b75ffde3876c624f40eb3800659635d216dfbbd69a3340abd455da",
+  "adapter_sha256": "eefc64bb08b5a8bebbd6f755a94410d7af8e97285d891e33a6567043ea1e971e",
+  "pages": [
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 57,
+      "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6"
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 75,
+      "source_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0"
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 109,
+      "source_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0"
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "pdf_page": 76,
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24"
+    },
+    {
+      "report_id": "TRMK-2023-ИО",
+      "pdf_page": 4,
+      "source_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5"
+    },
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 92,
+      "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6"
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "pdf_page": 113,
+      "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b"
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "pdf_page": 15,
+      "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8"
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "pdf_page": 98,
+      "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8"
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "pdf_page": 52,
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24"
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "pdf_page": 95,
+      "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b"
+    },
+    {
+      "report_id": "IRKN-2023-ИО",
+      "pdf_page": 13,
+      "source_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01"
+    },
+    {
+      "report_id": "IRKN-2023-ИО",
+      "pdf_page": 98,
+      "source_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01"
+    }
+  ],
+  "old_active_job_untouched": true
+}

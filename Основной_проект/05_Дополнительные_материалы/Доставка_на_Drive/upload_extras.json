@@ -1,0 +1,442 @@
+{
+  "folders": {
+    "agent1": {
+      "success": true,
+      "id": "11lIh53sWOxxSDv_yAABeXoj7vBvVfJ6G",
+      "url": "https://drive.google.com/drive/folders/11lIh53sWOxxSDv_yAABeXoj7vBvVfJ6G",
+      "title": "Агент",
+      "parent_id": "1nmptGpBL97eWHw65TuD8iIBYyFuOSHBe"
+    },
+    "stage2": {
+      "success": true,
+      "id": "1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4",
+      "url": "https://drive.google.com/drive/folders/1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4",
+      "title": "2 этап - оценка заявлений",
+      "parent_id": "13xgBN54QOJrpUTmaMDKN9MTcjcwE5PKa"
+    },
+    "stage2_folders": {
+      "Агент": {
+        "success": true,
+        "id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n",
+        "url": "https://drive.google.com/drive/folders/1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n",
+        "title": "Агент",
+        "parent_id": "1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4"
+      },
+      "Пример": {
+        "success": true,
+        "id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE",
+        "url": "https://drive.google.com/drive/folders/1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE",
+        "title": "Пример",
+        "parent_id": "1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4"
+      },
+      "Проверка": {
+        "success": true,
+        "id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+        "url": "https://drive.google.com/drive/folders/17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+        "title": "Проверка",
+        "parent_id": "1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4"
+      }
+    },
+    "examples": {
+      "success": true,
+      "id": "1dQTeETUyHOx9gIi_dgip_NjgKoTxWDAC",
+      "url": "https://drive.google.com/drive/folders/1dQTeETUyHOx9gIi_dgip_NjgKoTxWDAC",
+      "title": "Результаты работы — 2 примера",
+      "parent_id": "1nmptGpBL97eWHw65TuD8iIBYyFuOSHBe"
+    },
+    "source_archive": {
+      "success": true,
+      "id": "1QrQPHqN0bFtQvVOPwMKPXmfGB_ho_pBJ",
+      "url": "https://drive.google.com/drive/folders/1QrQPHqN0bFtQvVOPwMKPXmfGB_ho_pBJ",
+      "title": "Полная исходная папка",
+      "parent_id": "13xgBN54QOJrpUTmaMDKN9MTcjcwE5PKa"
+    },
+    "checks": {
+      "success": true,
+      "id": "1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4",
+      "url": "https://drive.google.com/drive/folders/1HxyuheG2EGtTxmRdBYWP_WElQb7kGda4",
+      "title": "Проверки и ограничения",
+      "parent_id": "13xgBN54QOJrpUTmaMDKN9MTcjcwE5PKa"
+    }
+  },
+  "uploads": [
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/Excel_просмотр.png",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1tIMpxeEZ5k3asPh3t8ATEUIFZaAp3t_o",
+      "title": "Excel_просмотр.png",
+      "file_name": "Excel_просмотр.png",
+      "mime_type": "image/png",
+      "url": "https://drive.google.com/file/d/1tIMpxeEZ5k3asPh3t8ATEUIFZaAp3t_o/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1tIMpxeEZ5k3asPh3t8ATEUIFZaAp3t_o",
+        "title": "Excel_просмотр.png",
+        "file_name": "Excel_просмотр.png",
+        "mime_type": "image/png",
+        "url": "https://drive.google.com/file/d/1tIMpxeEZ5k3asPh3t8ATEUIFZaAp3t_o/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/Excel_проверка.ndjson",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1pUFix1B9aM9TlHVvWUqMvjQgozcJ6TJ9",
+      "title": "Excel_проверка.ndjson",
+      "file_name": "Excel_проверка.ndjson",
+      "mime_type": "application/octet-stream",
+      "url": "https://drive.google.com/file/d/1pUFix1B9aM9TlHVvWUqMvjQgozcJ6TJ9/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1pUFix1B9aM9TlHVvWUqMvjQgozcJ6TJ9",
+        "title": "Excel_проверка.ndjson",
+        "file_name": "Excel_проверка.ndjson",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/1pUFix1B9aM9TlHVvWUqMvjQgozcJ6TJ9/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/Отчёт.md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1LdjP9fcXpf3CBjZa8C3JZ2wQjqsjJTRi",
+      "title": "Отчёт.md",
+      "file_name": "Отчёт.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1LdjP9fcXpf3CBjZa8C3JZ2wQjqsjJTRi/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1LdjP9fcXpf3CBjZa8C3JZ2wQjqsjJTRi",
+        "title": "Отчёт.md",
+        "file_name": "Отчёт.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1LdjP9fcXpf3CBjZa8C3JZ2wQjqsjJTRi/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/Результаты_запусков.json",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1hDZ-wRbL5e6bEryVMAGeCiKS7_ven6tl",
+      "title": "Результаты_запусков.json",
+      "file_name": "Результаты_запусков.json",
+      "mime_type": "application/json",
+      "url": "https://drive.google.com/file/d/1hDZ-wRbL5e6bEryVMAGeCiKS7_ven6tl/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1hDZ-wRbL5e6bEryVMAGeCiKS7_ven6tl",
+        "title": "Результаты_запусков.json",
+        "file_name": "Результаты_запусков.json",
+        "mime_type": "application/json",
+        "url": "https://drive.google.com/file/d/1hDZ-wRbL5e6bEryVMAGeCiKS7_ven6tl/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/Excel_экспорт_проверка.ndjson",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "13i9RRDdyLzjGqaEXeoJ2TxLGQBW8GFxi",
+      "title": "Excel_экспорт_проверка.ndjson",
+      "file_name": "Excel_экспорт_проверка.ndjson",
+      "mime_type": "application/octet-stream",
+      "url": "https://drive.google.com/file/d/13i9RRDdyLzjGqaEXeoJ2TxLGQBW8GFxi/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "13i9RRDdyLzjGqaEXeoJ2TxLGQBW8GFxi",
+        "title": "Excel_экспорт_проверка.ndjson",
+        "file_name": "Excel_экспорт_проверка.ndjson",
+        "mime_type": "application/octet-stream",
+        "url": "https://drive.google.com/file/d/13i9RRDdyLzjGqaEXeoJ2TxLGQBW8GFxi/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/build_excel.mjs",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1Z8O2O6VpLhDdh18F930Kaws7V_asxnhh",
+      "title": "build_excel.mjs",
+      "file_name": "build_excel.mjs",
+      "mime_type": "text/javascript",
+      "url": "https://drive.google.com/file/d/1Z8O2O6VpLhDdh18F930Kaws7V_asxnhh/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Z8O2O6VpLhDdh18F930Kaws7V_asxnhh",
+        "title": "build_excel.mjs",
+        "file_name": "build_excel.mjs",
+        "mime_type": "text/javascript",
+        "url": "https://drive.google.com/file/d/1Z8O2O6VpLhDdh18F930Kaws7V_asxnhh/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Проверка/Excel_результат.json",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1Q7m9PFIiX6gW4BlHis0Ngy9aNb3reThc",
+      "title": "Excel_результат.json",
+      "file_name": "Excel_результат.json",
+      "mime_type": "application/json",
+      "url": "https://drive.google.com/file/d/1Q7m9PFIiX6gW4BlHis0Ngy9aNb3reThc/view?usp=drivesdk",
+      "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Q7m9PFIiX6gW4BlHis0Ngy9aNb3reThc",
+        "title": "Excel_результат.json",
+        "file_name": "Excel_результат.json",
+        "mime_type": "application/json",
+        "url": "https://drive.google.com/file/d/1Q7m9PFIiX6gW4BlHis0Ngy9aNb3reThc/view?usp=drivesdk",
+        "parent_id": "17aQbk9LGj8iWq4lp4JfzxTGyqdFnpJ2m"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Агент/test_assess_claims.py",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1aFLePnBJoZJN-iZok8ljkTP8OAVA41kZ",
+      "title": "test_assess_claims.py",
+      "file_name": "test_assess_claims.py",
+      "mime_type": "text/x-python",
+      "url": "https://drive.google.com/file/d/1aFLePnBJoZJN-iZok8ljkTP8OAVA41kZ/view?usp=drivesdk",
+      "parent_id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1aFLePnBJoZJN-iZok8ljkTP8OAVA41kZ",
+        "title": "test_assess_claims.py",
+        "file_name": "test_assess_claims.py",
+        "mime_type": "text/x-python",
+        "url": "https://drive.google.com/file/d/1aFLePnBJoZJN-iZok8ljkTP8OAVA41kZ/view?usp=drivesdk",
+        "parent_id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Агент/assess_claims.py",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1WztTP9BwsXe4rjbeX7AaQ66mNtU6x2Gu",
+      "title": "assess_claims.py",
+      "file_name": "assess_claims.py",
+      "mime_type": "text/x-python",
+      "url": "https://drive.google.com/file/d/1WztTP9BwsXe4rjbeX7AaQ66mNtU6x2Gu/view?usp=drivesdk",
+      "parent_id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1WztTP9BwsXe4rjbeX7AaQ66mNtU6x2Gu",
+        "title": "assess_claims.py",
+        "file_name": "assess_claims.py",
+        "mime_type": "text/x-python",
+        "url": "https://drive.google.com/file/d/1WztTP9BwsXe4rjbeX7AaQ66mNtU6x2Gu/view?usp=drivesdk",
+        "parent_id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Агент/CLAIM_ASSESSMENT_AGENT.md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1CxT58PyHTAbILpKXLWppu1pF4hZPAeE9",
+      "title": "CLAIM_ASSESSMENT_AGENT.md",
+      "file_name": "CLAIM_ASSESSMENT_AGENT.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1CxT58PyHTAbILpKXLWppu1pF4hZPAeE9/view?usp=drivesdk",
+      "parent_id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1CxT58PyHTAbILpKXLWppu1pF4hZPAeE9",
+        "title": "CLAIM_ASSESSMENT_AGENT.md",
+        "file_name": "CLAIM_ASSESSMENT_AGENT.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1CxT58PyHTAbILpKXLWppu1pF4hZPAeE9/view?usp=drivesdk",
+        "parent_id": "1XUceJKOPYQwyOGDo1Um_yoAOadsVFb2n"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/README.md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1IiSEXME8T63n7bJi0SdI93Dk2-AxB7Qa",
+      "title": "README.md",
+      "file_name": "README.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1IiSEXME8T63n7bJi0SdI93Dk2-AxB7Qa/view?usp=drivesdk",
+      "parent_id": "1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1IiSEXME8T63n7bJi0SdI93Dk2-AxB7Qa",
+        "title": "README.md",
+        "file_name": "README.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1IiSEXME8T63n7bJi0SdI93Dk2-AxB7Qa/view?usp=drivesdk",
+        "parent_id": "1vbaClqQkEE1Usqh6bKMTvG4yevIBrqn4"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Пример/Газпром_2023_три_типа.csv",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1lvwl1OJiYhO8S-bfgpto0-HN4SoSnAMs",
+      "title": "Газпром_2023_три_типа.csv",
+      "file_name": "Газпром_2023_три_типа.csv",
+      "mime_type": "text/csv",
+      "url": "https://drive.google.com/file/d/1lvwl1OJiYhO8S-bfgpto0-HN4SoSnAMs/view?usp=drivesdk",
+      "parent_id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1lvwl1OJiYhO8S-bfgpto0-HN4SoSnAMs",
+        "title": "Газпром_2023_три_типа.csv",
+        "file_name": "Газпром_2023_три_типа.csv",
+        "mime_type": "text/csv",
+        "url": "https://drive.google.com/file/d/1lvwl1OJiYhO8S-bfgpto0-HN4SoSnAMs/view?usp=drivesdk",
+        "parent_id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Пример/Газпром_2023_три_типа.json",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "12S1s0A_mgfYkTsB4A_4u4jJPsypXdWDB",
+      "title": "Газпром_2023_три_типа.json",
+      "file_name": "Газпром_2023_три_типа.json",
+      "mime_type": "application/json",
+      "url": "https://drive.google.com/file/d/12S1s0A_mgfYkTsB4A_4u4jJPsypXdWDB/view?usp=drivesdk",
+      "parent_id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "12S1s0A_mgfYkTsB4A_4u4jJPsypXdWDB",
+        "title": "Газпром_2023_три_типа.json",
+        "file_name": "Газпром_2023_три_типа.json",
+        "mime_type": "application/json",
+        "url": "https://drive.google.com/file/d/12S1s0A_mgfYkTsB4A_4u4jJPsypXdWDB/view?usp=drivesdk",
+        "parent_id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE"
+      }
+    },
+    {
+      "path": "11_Проект_Сбер/Итоговый проект/2 этап - оценка заявлений/Пример/Газпром_2023_три_типа.xlsx",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1ja8vS1jJWr0poMRXh1jYpNS5pMyEAXTa",
+      "title": "Газпром_2023_три_типа.xlsx",
+      "file_name": "Газпром_2023_три_типа.xlsx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1ja8vS1jJWr0poMRXh1jYpNS5pMyEAXTa/edit?usp=drivesdk&ouid=101697204515726376691&rtpof=true&sd=true",
+      "parent_id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1ja8vS1jJWr0poMRXh1jYpNS5pMyEAXTa",
+        "title": "Газпром_2023_три_типа.xlsx",
+        "file_name": "Газпром_2023_три_типа.xlsx",
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1ja8vS1jJWr0poMRXh1jYpNS5pMyEAXTa/edit?usp=drivesdk&ouid=101697204515726376691&rtpof=true&sd=true",
+        "parent_id": "1sfmnN4oV4nx1QtA5ptMS1zVrWlSghsZE"
+      }
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Полная_исходная_папка/Итоговый_проект.part01.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "181cKCiR4_3K-aDWL8EAioM7rc7MsIF7F",
+      "title": "Итоговый_проект.part01.zip",
+      "file_name": "Итоговый_проект.part01.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/181cKCiR4_3K-aDWL8EAioM7rc7MsIF7F/view?usp=drivesdk",
+      "parent_id": "1QrQPHqN0bFtQvVOPwMKPXmfGB_ho_pBJ",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "181cKCiR4_3K-aDWL8EAioM7rc7MsIF7F",
+        "title": "Итоговый_проект.part01.zip",
+        "file_name": "Итоговый_проект.part01.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/181cKCiR4_3K-aDWL8EAioM7rc7MsIF7F/view?usp=drivesdk",
+        "parent_id": "1QrQPHqN0bFtQvVOPwMKPXmfGB_ho_pBJ"
+      }
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Выгрузка_2026-11-17/Полная_исходная_папка/Итоговый_проект.part02.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1tEPxTwJ8QI2MRLv0bAkbQwCcz4D-JwxA",
+      "title": "Итоговый_проект.part02.zip",
+      "file_name": "Итоговый_проект.part02.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1tEPxTwJ8QI2MRLv0bAkbQwCcz4D-JwxA/view?usp=drivesdk",
+      "parent_id": "1QrQPHqN0bFtQvVOPwMKPXmfGB_ho_pBJ",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1tEPxTwJ8QI2MRLv0bAkbQwCcz4D-JwxA",
+        "title": "Итоговый_проект.part02.zip",
+        "file_name": "Итоговый_проект.part02.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1tEPxTwJ8QI2MRLv0bAkbQwCcz4D-JwxA/view?usp=drivesdk",
+        "parent_id": "1QrQPHqN0bFtQvVOPwMKPXmfGB_ho_pBJ"
+      }
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/Результаты работы/Газпром 2023 - социальный отчёт/report.md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1SoV8tgYX4dGpGnnoPYAg4BD9ontyh5qx",
+      "title": "report.md",
+      "file_name": "report.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1SoV8tgYX4dGpGnnoPYAg4BD9ontyh5qx/view?usp=drivesdk",
+      "parent_id": "1MaaW8B7z3KCHPvzqsGJnbshffbzs4Rsm",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1SoV8tgYX4dGpGnnoPYAg4BD9ontyh5qx",
+        "title": "report.md",
+        "file_name": "report.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1SoV8tgYX4dGpGnnoPYAg4BD9ontyh5qx/view?usp=drivesdk",
+        "parent_id": "1MaaW8B7z3KCHPvzqsGJnbshffbzs4Rsm"
+      }
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/Результаты работы/Газпром 2023 - экологический отчёт/report.md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1OZ7860qGawyz1DMtqeSgCDzi17jV2MBT",
+      "title": "report.md",
+      "file_name": "report.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1OZ7860qGawyz1DMtqeSgCDzi17jV2MBT/view?usp=drivesdk",
+      "parent_id": "1Qo3kEGeJ2wY9EcvgEni4244axah5_CGk",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1OZ7860qGawyz1DMtqeSgCDzi17jV2MBT",
+        "title": "report.md",
+        "file_name": "report.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1OZ7860qGawyz1DMtqeSgCDzi17jV2MBT/view?usp=drivesdk",
+        "parent_id": "1Qo3kEGeJ2wY9EcvgEni4244axah5_CGk"
+      }
+    }
+  ]
+}

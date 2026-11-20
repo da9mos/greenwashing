@@ -1,0 +1,76 @@
+{
+  "state": "passed",
+  "target_count": 49,
+  "statuses": {
+    "нет данных": 19,
+    "не выполнена": 7,
+    "выполнена": 19,
+    "изменена": 2,
+    "несопоставимая база": 2
+  },
+  "review_states": {
+    "завершена": 44,
+    "сохранена проверка v1": 5
+  },
+  "changed_statuses": [
+    {
+      "target_id": "T-ALRS-005",
+      "before": "нет данных",
+      "after": "не выполнена"
+    },
+    {
+      "target_id": "T-CHMF-002",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-MAGN-001",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-MAGN-002",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-MAGN-003",
+      "before": "нет данных",
+      "after": "изменена"
+    },
+    {
+      "target_id": "T-MINV-002",
+      "before": "нет данных",
+      "after": "изменена"
+    },
+    {
+      "target_id": "T-MINV-003",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-PHOR-002",
+      "before": "нет данных",
+      "after": "выполнена"
+    },
+    {
+      "target_id": "T-RASP-001",
+      "before": "нет данных",
+      "after": "несопоставимая база"
+    },
+    {
+      "target_id": "T-TATN-002",
+      "before": "нет данных",
+      "after": "несопоставимая база"
+    }
+  ],
+  "evidence_count": 87,
+  "evidence_issues": [],
+  "inputs_sha256": {
+    "llm/nikita_dynamics/v2/review_A.json": "d2af7267088bb6ca4642242372585ca418dcba4d45ed9500dee320bfecb008c8",
+    "llm/nikita_dynamics/v2/review_B.json": "c6468935d7f058625f8cd237c0fe14a4018f8cceabe53c6127c1506f1b8e7b9e",
+    "data/review_v2/norn_appendix_check.json": "e351ce541989dacb40fcdeac294adbb8373fc25f3457f8f84407049e077a61da",
+    "data/review_v2/source_pages_A.jsonl": "d97cb571a0f4606ef19db7aacf2df7e52338b3f2c197ffc10dc4ade29a12251e",
+    "data/review_v2/source_pages_B.jsonl": "534015353ea23b8dae3d58ebd583f5d6bcc6d4d3b42abd8d24d03d9ca779ec9b"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "tile_1440_000.png",
+    "requested_y": 0,
+    "actual_y": 0
+  },
+  {
+    "path": "tile_1440_001.png",
+    "requested_y": 900,
+    "actual_y": 417
+  }
+]

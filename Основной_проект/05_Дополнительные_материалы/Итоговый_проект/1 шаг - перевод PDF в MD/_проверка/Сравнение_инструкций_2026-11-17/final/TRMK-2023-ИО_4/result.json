@@ -1,0 +1,298 @@
+{
+  "report_id": "TRMK-2023-ИО",
+  "pdf_page": 4,
+  "source_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+  "version": "instruction-ab-final-20261117",
+  "seconds": 38.94,
+  "answer": {
+    "pdf_page": 4,
+    "markdown": "ТРУБНАЯ МЕТАЛЛУРГИЧЕСКАЯ КОМПАНИЯ. ГОДОВОЙ ОТЧЕТ 2023\n\n1 ПОРТРЕТ КОМПАНИИ | 2 ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ | 3 ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ\n\n→ Профиль Компании\n\n4\n\n# ПРОФИЛЬ КОМПАНИИ\n\nТМК — ведущий поставщик стальных труб, трубных решений и сопутствующих сервисов для различных секторов экономики. Компания производит и реализует нарезные трубы, специальные трубы, трубопроводные системы и другую продукцию для энергетики, химической промышленности, машиностроения, строительства и других отраслей. ТМК обладает широкими компетенциями в машиностроительном сегменте, поставляет инженерные решения для энергетических и металлургических производств, а также разрабатывает новую линейку продукции для водородной энергетики.\n\n**Компания была создана в 2001 году и на конец 2023 года объединяла ряд производственных активов общей мощностью 6,6 млн тонн трубной продукции в год.** Основным направлением деятельности ТМК является производство и продажа бесшовных и сварных труб, труб с соединениями класса «Премиум» в сочетании с широким комплексом услуг по термообработке, нанесению защитных покрытий, складированию и ремонту труб.\n\n**ТМК уделяет большое внимание деятельности в области устойчивого развития, в том числе вопросам экологии и социального развития.** Политика общества в области охраны окружающей среды и социальной сферы размещены на сайте Компании.\n\n**ТМК располагает разветвленной сбытовой сетью, которая позволяет реализовывать продукцию потребителям в России и за рубежом.**\n\n**Ценные бумаги Компании обращаются на Московской бирже под тикером TRMK.**\n\nПроизводственные и сервисные возможности Компании позволяют удовлетворять потребности самого широкого круга потребителей и предлагать эффективные решения их производственных задач.",
+    "issues": []
+  },
+  "numeric_comparison": {
+    "method": "normal_PDF_spans_individually; no_cross_span_number_join",
+    "pdf_decimal_tokens": 0,
+    "markdown_decimal_tokens": 1,
+    "pdf_only": {},
+    "markdown_only": {
+      "6.6": 1
+    },
+    "pdf_span_evidence": [],
+    "markdown_evidence": [
+      {
+        "token": "6.6",
+        "text_context": "нец 2023 года объединяла ряд производственных активов общей мощностью 6,6 млн тонн трубной продукции в год. основным направлением деятельности "
+      }
+    ],
+    "excluded_superscript_decimal_spans": []
+  },
+  "source_block_coverage": [
+    {
+      "source_id": "p4:block0",
+      "bbox": [
+        125.70899963378906,
+        41.95331573486328,
+        1855.7099609375,
+        91.95331573486328
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block1",
+      "bbox": [
+        201.99996948242188,
+        505.218017578125,
+        1038.0137939453125,
+        606.5889892578125
+      ],
+      "source_tokens": 53,
+      "token_recall": 0.0,
+      "state": "source_text_uncertain",
+      "missing_samples": [
+        "γφóõσôðā",
+        "êýòσ",
+        "ψφïíσôσ",
+        "ë",
+        "ìφíω",
+        "ð",
+        "ôσ",
+        "ñφôτø",
+        "ìφíσ",
+        "φêüτíðôāòσ",
+        "χāí",
+        "õχφðïëφíψöëτôôýϊ"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block2",
+      "bbox": [
+        70.0000991821289,
+        290.01788330078125,
+        1083.42626953125,
+        416.97784423828125
+      ],
+      "source_tokens": 60,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block3",
+      "bbox": [
+        70.0000991821289,
+        186.2244873046875,
+        1186.9339599609375,
+        244.2244873046875
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block4",
+      "bbox": [
+        1223.6199951171875,
+        757.4099731445312,
+        1675.2861328125,
+        974.4099731445312
+      ],
+      "source_tokens": 19,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block5",
+      "bbox": [
+        70.0000991821289,
+        736.2969970703125,
+        777.558837890625,
+        795.677978515625
+      ],
+      "source_tokens": 32,
+      "token_recall": 0.0,
+      "state": "source_text_uncertain",
+      "missing_samples": [
+        "ρλγ",
+        "ωíτòāτö",
+        "êφòþúφτ",
+        "ëôðóσôðτ",
+        "íτāöτòþôφψöð",
+        "ë",
+        "φêòσψöð",
+        "ωψöφυùðëφìφ",
+        "χσïëðöðā",
+        "öφó",
+        "ùðψòτ",
+        "ëφõχφψσó"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block6",
+      "bbox": [
+        70.0001220703125,
+        828.2839965820312,
+        769.7319946289062,
+        866.6699829101562
+      ],
+      "source_tokens": 15,
+      "token_recall": 0.0,
+      "state": "source_text_uncertain",
+      "missing_samples": [
+        "ρλγ",
+        "χσψõφòσìστö",
+        "χσïëτöëòτôôφυ",
+        "ψêýöφëφυ",
+        "ψτöþā",
+        "ñφöφχσā",
+        "õφïëφòāτö",
+        "χτσòðïφëýëσöþ",
+        "õχφíωñøðā",
+        "õφöχτêðöτòāó",
+        "ë",
+        "οφψψðð"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block7",
+      "bbox": [
+        70.0000991821289,
+        955.409912109375,
+        735.980224609375,
+        972.8009033203125
+      ],
+      "source_tokens": 10,
+      "token_recall": 0.0,
+      "state": "source_text_uncertain",
+      "missing_samples": [
+        "àτôôýτ",
+        "êωóσìð",
+        "γφóõσôðð",
+        "φêχσûσāöψā",
+        "ôσ",
+        "λφψñφëψñφυ",
+        "êðχîτ",
+        "õφí",
+        "öðñτχφó",
+        "861"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block8",
+      "bbox": [
+        894.7230224609375,
+        57.096336364746094,
+        901.9510498046875,
+        83.0963363647461
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block9",
+      "bbox": [
+        881.43212890625,
+        22.392074584960938,
+        966.7410278320312,
+        140.39207458496094
+      ],
+      "source_tokens": 2,
+      "token_recall": 0.5,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "компании1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block10",
+      "bbox": [
+        921.4091186523438,
+        54.605960845947266,
+        1144.818115234375,
+        83.0963363647461
+      ],
+      "source_tokens": 3,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block11",
+      "bbox": [
+        1152.489990234375,
+        54.605838775634766,
+        1436.77197265625,
+        83.0963363647461
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block12",
+      "bbox": [
+        1444.43994140625,
+        54.605960845947266,
+        1534.01171875,
+        82.60596466064453
+      ],
+      "source_tokens": 3,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p4:block13",
+      "bbox": [
+        965.176513671875,
+        102.37397003173828,
+        1062.0439453125,
+        116.37397003173828
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    }
+  ],
+  "duplicate_paragraphs": [],
+  "automatic_flags": [
+    "decimal_span_suspect"
+  ],
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "report_sha256": "63070cf667acd3e4ac155f2c7864d06478fae00ba9a307e77f35befe1084426f",
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 17909,
+    "completion_tokens": 564,
+    "total_tokens": 18473,
+    "prompt_tokens_details": {
+      "cached_tokens": 7680
+    },
+    "prompt_cache_hit_tokens": 7680,
+    "prompt_cache_miss_tokens": 10229
+  },
+  "review_status": "pending_independent_codex",
+  "checked": false
+}

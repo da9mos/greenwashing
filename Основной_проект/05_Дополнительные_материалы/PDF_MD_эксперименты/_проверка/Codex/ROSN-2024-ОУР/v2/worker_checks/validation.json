@@ -1,0 +1,17 @@
+{
+  "physical_page_markers": 135,
+  "source_images": 135,
+  "tables_rendered": 66,
+  "report_chars": 1107664,
+  "local_image_links_valid": true,
+  "internal_page_targets_valid": true,
+  "rendered_html": "preview.html",
+  "visual_render_review": false,
+  "conversion_status_counts": {
+    "converted": 135
+  },
+  "review_status_counts": {
+    "checked": 2,
+    "pending": 133
+  }
+}

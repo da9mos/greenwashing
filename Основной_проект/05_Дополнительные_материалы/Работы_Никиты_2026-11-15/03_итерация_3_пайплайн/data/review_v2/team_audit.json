@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "name": "extract_rebuild",
+      "result": "passed_after_fix",
+      "rows": 928,
+      "fix": "float tolerance 1e-12 only; exact integer counts and file hashes retained",
+      "run": "/private/tmp/sber-team-extract-review-fixed-20261115"
+    },
+    {
+      "name": "gold_integrity",
+      "result": "passed",
+      "sentences": 811,
+      "claims": 465,
+      "semantic_flags_for_review": 76,
+      "flags_dismissed": 73,
+      "flags_open": 3,
+      "review_method": "one machine review, not independent double human annotation"
+    },
+    {
+      "name": "unit_tests",
+      "result": "passed",
+      "count": 27
+    },
+    {
+      "name": "external_fact_links",
+      "result": "repaired_in_v2",
+      "details": "3 false PIGM links removed; 6 original report quotes checked; 6 new external events added; original v1 retained"
+    },
+    {
+      "name": "spreadsheet_export",
+      "result": "resolved",
+      "details": "XML-incompatible PDF extraction control/noncharacters removed only from presentation copy; original evidence unchanged"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "report": "social",
+    "page": 85,
+    "attempt": 1,
+    "failure": "invalid JSON, expected comma at char1197",
+    "raw_response_saved": false,
+    "evidence": "original full-run log; response was not saved by initial runner; fixed in runner afterward"
+  },
+  {
+    "report": "social",
+    "page": 85,
+    "attempt": 2,
+    "failure": "invalid JSON, unescaped quotes inside Markdown at char1016",
+    "raw_response_saved": true,
+    "raw_file": "v1_social_085_raw_response.json"
+  },
+  {
+    "report": "social",
+    "page": 85,
+    "attempt": 3,
+    "result": "plain Markdown response recovered without editing its content",
+    "raw_response_saved": true,
+    "raw_file": "social_085_format_recovery_response.json"
+  }
+]

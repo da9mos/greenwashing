@@ -1,0 +1,17 @@
+{
+  "source_sha256": "01d10533fbb79b083476fa3825b3e5353cd0ecc5b4a13e27c150a5c827ecc396",
+  "report_sha256": "46ccfe73c72338ef3e6908107d24308543dadcd1e289d1ba0b20f106e8a56193",
+  "physical_pages": 149,
+  "page_order_ok": true,
+  "missing_local_links": [],
+  "broken_internal_anchors": [],
+  "control_characters": 0,
+  "rendering_review_completed": false,
+  "full_source_review_completed": false,
+  "baseline_glyph_accounting_applies_to": "baseline/report.md; after source-based corrections exact glyph inventory is not asserted",
+  "empty_geometric_columns_removed": 58,
+  "table_nonempty_cell_content_and_sequence_unchanged": true,
+  "rendering_note": "Markdown преобразован в HTML локально; попытка визуального рендера Chrome завершилась кодом 134, итоговое отображение не проверено.",
+  "technical_tsv_rows_in_report": 0,
+  "markdown_html_conversion": "Completed locally for final saved report; browser visual inspection unavailable (Chrome exit 134)."
+}

@@ -1,0 +1,18 @@
+{
+  "report_sha256": "36655d7e5c8f289fd53f56975297f674c1ba38a77313005636bb599558e7e4cb",
+  "physical_page_markers": 206,
+  "page_order_valid": true,
+  "registry_all_pages": true,
+  "assets_referenced": 206,
+  "assets_missing": [],
+  "unique_anchors": 206,
+  "table_count": 172,
+  "unicode_replacement_characters": 0,
+  "ocr_tsv_metadata_remaining": false,
+  "review_status_counts": {
+    "checked": 18,
+    "pending": 188
+  },
+  "html_render_completed": true,
+  "full_document_visual_render_review": false
+}

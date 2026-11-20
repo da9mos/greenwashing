@@ -1,0 +1,1055 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-17",
+  "language": "ru",
+  "purpose": "Начальная методическая настройка этапа2, без обработки корпоративных отчётов",
+  "sources": [
+    {
+      "source_id": "S01",
+      "citation": "Global Reporting Initiative. GRI 1: Foundation 2021. 2021.",
+      "title": "GRI 1: Foundation 2021",
+      "issuer": "Global Reporting Initiative",
+      "publication_date": "2021",
+      "official_url": "https://www.globalreporting.org/publications/documents/english/gri-1-foundation-2021/",
+      "sections": [
+        "§1.1",
+        "§3",
+        "§4 Reporting principles",
+        "§5.2"
+      ],
+      "read_scope": "Официальный HTML, разделы 1, 3–5, требования и guidance восьми принципов.",
+      "access": "full_relevant_sections_open",
+      "jurisdiction": "global_voluntary",
+      "applies_to": "Организации, использующие GRI. Требования зависят от заявления об использовании GRI.",
+      "reporting_vs_marketing": "sustainability_reporting",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Официальный текст 2021 доступен. GRI отличает requirements, recommendations и guidance."
+      },
+      "operational_rule": "Проверять accuracy, balance, clarity, comparability, completeness, sustainability context, timeliness, verifiability.",
+      "risk": "Односторонность и непроверяемость раскрытия.",
+      "how_to_verify": "Сопоставить факт, расчёт, источник, период, ограничения и отрицательные воздействия.",
+      "counterexample_synthetic": "Снижение объявлено вместе с ростом другого существенного воздействия и объяснением. Это может быть сбалансированным раскрытием.",
+      "quotes": []
+    },
+    {
+      "source_id": "S02",
+      "citation": "Global Reporting Initiative. GRI 2: General Disclosures 2021. 2021.",
+      "title": "GRI 2: General Disclosures 2021",
+      "issuer": "Global Reporting Initiative",
+      "publication_date": "2021",
+      "official_url": "https://www.globalreporting.org/publications/documents/english/gri-2-general-disclosures-2021/",
+      "sections": [
+        "2-2",
+        "2-3",
+        "2-4",
+        "2-5",
+        "2-7",
+        "2-8",
+        "2-15",
+        "2-23–2-27"
+      ],
+      "read_scope": "Официальный HTML, reporting practices, workers, conflicts, policies, remediation, compliance.",
+      "access": "full_relevant_sections_open",
+      "jurisdiction": "global_voluntary",
+      "applies_to": "Организации с применимой формой использования GRI.",
+      "reporting_vs_marketing": "sustainability_reporting",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Официальный текст 2021 доступен. Отсутствующий процесс допускает раскрытие факта отсутствия."
+      },
+      "operational_rule": "Различать границы, пересчёты, предмет заверения, политику, реализацию и значимые нарушения.",
+      "risk": "Заверение части показателей распространено на весь отчёт.",
+      "how_to_verify": "Прочитать assurance statement, перечень охвата и исключений.",
+      "counterexample_synthetic": "Внешнее заверение трёх показателей с явным указанием охвата корректно ограничивает заявление.",
+      "quotes": []
+    },
+    {
+      "source_id": "S03",
+      "citation": "ISO. ISO 14021:2026, Environmental statements and programmes for products — Self-declared environmental claims. 2026-06.",
+      "title": "ISO 14021:2026, Environmental statements and programmes for products — Self-declared environmental claims",
+      "issuer": "ISO",
+      "publication_date": "2026-06",
+      "official_url": "https://www.iso.org/standard/14021",
+      "sections": [
+        "Abstract",
+        "General information",
+        "Life cycle"
+      ],
+      "read_scope": "Прочитаны официальная аннотация, метаданные и история версии. Платный полный нормативный текст не прочитан.",
+      "access": "official_abstract_only_full_text_paid",
+      "jurisdiction": "international_standard",
+      "applies_to": "Самодекларируемые экологические заявления о продуктах, их программы и связанная коммуникация.",
+      "reporting_vs_marketing": "product_claims_and_marketing",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Edition 3 Published с июня 2026. Заменяет withdrawn edition 2016."
+      },
+      "operational_rule": "Использовать подтверждённую область применения и фиксировать редакцию. Детальные критерии требуют полного текста.",
+      "risk": "Приписывание версии 2026 непроверенных номеров пунктов.",
+      "how_to_verify": "Проверить номер редакции и доступ к оригинальному пункту.",
+      "counterexample_synthetic": "Корпоративная политика охраны труда сама по себе находится за пределами подтверждённой продуктовой области.",
+      "quotes": []
+    },
+    {
+      "source_id": "S04",
+      "citation": "ISO. ISO 14021:2016, Environmental labels and declarations — Self-declared environmental claims (Type II environmental labelling). 2016-03.",
+      "title": "ISO 14021:2016, Environmental labels and declarations — Self-declared environmental claims (Type II environmental labelling)",
+      "issuer": "ISO",
+      "publication_date": "2016-03",
+      "official_url": "https://www.iso.org/standard/66652.html",
+      "sections": [
+        "Abstract",
+        "Life cycle, stage 95.99"
+      ],
+      "read_scope": "Официальная аннотация и история, полный платный текст не прочитан.",
+      "access": "official_abstract_only_full_text_paid",
+      "jurisdiction": "international_standard",
+      "applies_to": "Исторические продуктовые экологические заявления.",
+      "reporting_vs_marketing": "product_claims_and_marketing",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Withdrawn 2026-06-24, заменён ISO 14021:2026."
+      },
+      "operational_rule": "Сохранять редакцию, относящуюся к периоду заявления.",
+      "risk": "Автоматическая ретроактивная оценка отчёта 2023 по новому стандарту.",
+      "how_to_verify": "Зафиксировать дату отчёта, заявленный стандарт и аналитическую основу оценки.",
+      "counterexample_synthetic": "Указание применявшейся редакции 2016 в отчёте 2024 само по себе согласуется с историей публикации.",
+      "quotes": []
+    },
+    {
+      "source_id": "S05",
+      "citation": "Competition and Markets Authority. Making environmental claims on goods and services, Green Claims Code. 2021-09-20.",
+      "title": "Making environmental claims on goods and services, Green Claims Code",
+      "issuer": "Competition and Markets Authority",
+      "publication_date": "2021-09-20",
+      "official_url": "https://www.gov.uk/government/publications/green-claims-code-making-environmental-claims/environmental-claims-on-goods-and-services",
+      "sections": [
+        "Introduction, coverage",
+        "Chapter 3 Principles",
+        "Chapter 4 Applying the principles"
+      ],
+      "read_scope": "Официальное руководство, область применения и шесть принципов. Также проверена текущая коллекция CMA.",
+      "access": "full_relevant_sections_open",
+      "jurisdiction": "United_Kingdom",
+      "applies_to": "Экологические commercial practices, B2C и в ограниченной степени B2B.",
+      "reporting_vs_marketing": "marketing",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Code остаётся в официальной коллекции, обновлённой 2026-01-22. Правовые ссылки приложения 2021 не проверены как полная текущая правовая база."
+      },
+      "operational_rule": "Оценивать точность, ясность, существенные пропуски, сравнения, жизненный цикл и обоснование.",
+      "risk": "Узкая выгода формирует чрезмерно общий экологический образ.",
+      "how_to_verify": "Проверить объект, оговорки, trade-offs и подтверждение сравнения.",
+      "counterexample_synthetic": "Заявление о снижении массы упаковки с ограниченным предметом и расчётом может быть обоснованным.",
+      "quotes": [],
+      "status_url": "https://www.gov.uk/government/collections/how-to-make-environmental-claims-about-products-and-services",
+      "russian_application": "Методический ориентир. Применимость британского права определяется отдельно."
+    },
+    {
+      "source_id": "S06",
+      "citation": "US Federal Trade Commission. 16 CFR Part 260, Guides for the Use of Environmental Marketing Claims. 2012-10-11.",
+      "title": "16 CFR Part 260, Guides for the Use of Environmental Marketing Claims",
+      "issuer": "US Federal Trade Commission",
+      "publication_date": "2012-10-11",
+      "official_url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-260",
+      "sections": [
+        "§260.1",
+        "§260.2",
+        "§260.3",
+        "§260.4",
+        "§260.5",
+        "§260.6",
+        "§260.12–260.16"
+      ],
+      "read_scope": "Открыт официальный eCFR, прочитаны scope, substantiation и general principles. Специальные разделы зарегистрированы для тематического обращения.",
+      "access": "full_general_sections_open_special_sections_indexed",
+      "jurisdiction": "United_States",
+      "applies_to": "Экологические заявления при продаже и маркетинге товаров, упаковки и услуг, включая B2B.",
+      "reporting_vs_marketing": "marketing",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "eCFR показывает актуальность title16 на 2026-11-12. §260.1 называет guides позицией FTC, не самостоятельными обязательными правилами."
+      },
+      "operational_rule": "Учитывать разумные интерпретации, подтверждение до публикации, общий образ и заметность оговорок.",
+      "risk": "Малое улучшение подано как крупная выгода.",
+      "how_to_verify": "Сравнить абсолютный эффект, относительную долю и прочтение потребителем.",
+      "counterexample_synthetic": "Рост вторичного сырья с 2% до 3% при точном указании обеих долей раскрывает масштаб изменения.",
+      "quotes": [],
+      "russian_application": "Методический ориентир для анализа. Законодательная применимость к российскому отчёту требует отдельного основания."
+    },
+    {
+      "source_id": "S07",
+      "citation": "UN Secretary-General High-Level Expert Group. Integrity Matters: Net Zero Commitments by Businesses, Financial Institutions, Cities and Regions. 2022-11.",
+      "title": "Integrity Matters: Net Zero Commitments by Businesses, Financial Institutions, Cities and Regions",
+      "issuer": "UN Secretary-General High-Level Expert Group",
+      "publication_date": "2022-11",
+      "official_url": "https://www.un.org/sites/un2.un.org/files/high-level_expert_group_n7b.pdf",
+      "sections": [
+        "Recommendation 1 Announcing a Net Zero Pledge",
+        "Recommendation 2 Setting Net Zero Targets",
+        "Recommendation 3 Using Voluntary Credits",
+        "Recommendation 4 Creating a Transition Plan",
+        "Recommendation 8 Increasing Transparency and Accountability"
+      ],
+      "read_scope": "Оригинальный PDF загружен напрямую и извлечён pdftotext в памяти временной папки. Прочитаны recommendations1–4 и8. Web-инструмент на том же URL отвечал403.",
+      "access": "official_pdf_read_via_direct_download",
+      "jurisdiction": "global_recommendations",
+      "applies_to": "Net-zero commitments негосударственных субъектов.",
+      "reporting_vs_marketing": "commitments_and_reporting",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Отчёт 2022 доступен по официальному URL. Используется как рекомендации группы экспертов."
+      },
+      "operational_rule": "Разделять сокращение выбросов, credits, остаточные выбросы, interim targets и transition plan.",
+      "risk": "Credits представлены как достижение промежуточного сокращения по net-zero pathway.",
+      "how_to_verify": "Проверить валовые выбросы, scopes, целевые периоды, retired credits и заявленный путь.",
+      "counterexample_synthetic": "Покупка credits отдельно от собственного сокращения раскрыта как beyond-value-chain mitigation.",
+      "quotes": []
+    },
+    {
+      "source_id": "S08",
+      "citation": "UN Environment Programme and International Trade Centre. Guidelines for Providing Product Sustainability Information. 2017.",
+      "title": "Guidelines for Providing Product Sustainability Information",
+      "issuer": "UN Environment Programme and International Trade Centre",
+      "publication_date": "2017",
+      "official_url": "https://wedocs.unep.org/items/7e2b239e-c819-4b5c-851a-eef3e186d7a7",
+      "sections": [
+        "§2 Mindset, p15",
+        "§3 Fundamental Principles, pp17–34",
+        "§4 Aspirational Principles, pp35–48",
+        "Glossary, p50"
+      ],
+      "read_scope": "Открыт оригинал66страниц через новый официальный bitstream, executive summary, scope, содержание и fundamental principles.",
+      "access": "official_pdf_relevant_sections_open",
+      "jurisdiction": "global_voluntary_guidance",
+      "applies_to": "Потребительская информация об экологических, социальных и экономических свойствах продуктов.",
+      "reporting_vs_marketing": "product_sustainability_communication",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Официальный репозиторий публикует документ2017."
+      },
+      "operational_rule": "Проверять reliability, relevance, clarity, transparency, accessibility, существенные воздействия и жизненный цикл.",
+      "risk": "Перенос нагрузки скрыт общей формулировкой устойчивости.",
+      "how_to_verify": "Сопоставить улучшение с hotspot и ограничениями исследования.",
+      "counterexample_synthetic": "Упаковка легче, при этом рост водопотребления раскрыт отдельно и общий выигрыш не утверждается.",
+      "quotes": [],
+      "official_pdf_url": "https://wedocs.unep.org/bitstreams/7e6e8c26-aca2-494b-8f24-cb1a6625dcf6/download"
+    },
+    {
+      "source_id": "S09",
+      "citation": "Банк России. Информационное письмо № ИН-06-28/49 о рекомендациях по раскрытию ПАО нефинансовой информации. 2021-07-12.",
+      "title": "Информационное письмо № ИН-06-28/49 о рекомендациях по раскрытию ПАО нефинансовой информации",
+      "issuer": "Банк России",
+      "publication_date": "2021-07-12",
+      "official_url": "https://www.cbr.ru/StaticHtml/File/117620/20210712_in-06-28_49.pdf",
+      "sections": [
+        "§3 Существенная информация, pp14–15",
+        "§4 Принципы, pp16–18",
+        "§5 Политики и результаты, pp22–25",
+        "§8 Внешняя оценка, p33"
+      ],
+      "read_scope": "Оригинальный44-страничный PDF, scope, содержание и принципы §4. Прочие разделы отмечены как навигационные ссылки.",
+      "access": "official_pdf_principles_read_other_sections_indexed",
+      "jurisdiction": "Russian_Federation",
+      "applies_to": "Публичные акционерные общества, рекомендации раскрытия.",
+      "reporting_vs_marketing": "nonfinancial_reporting",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Оригинал письма доступен. Его рекомендательный характер подтверждён текстом. Аудит всех последующих актов не выполнен."
+      },
+      "operational_rule": "Проверять баланс ESG-воздействий, охват деятельности, достаточность, сопоставимость и методологию.",
+      "risk": "Положительная история заменяет существенные отрицательные результаты.",
+      "how_to_verify": "Сверить границы, источники, ограничения и абсолютные/удельные величины.",
+      "counterexample_synthetic": "Абсолютные и удельные показатели с причинами разнонаправленной динамики позволяют оценить результат.",
+      "quotes": []
+    },
+    {
+      "source_id": "S10",
+      "citation": "World Resources Institute and World Business Council for Sustainable Development. The GHG Protocol: A Corporate Accounting and Reporting Standard, Revised Edition. 2004.",
+      "title": "The GHG Protocol: A Corporate Accounting and Reporting Standard, Revised Edition",
+      "issuer": "World Resources Institute and World Business Council for Sustainable Development",
+      "publication_date": "2004",
+      "official_url": "https://ghgprotocol.org/sites/default/files/ghgp/standards/ghg-protocol-revised.pdf",
+      "sections": [
+        "Chapter3 Organizational boundaries",
+        "Chapter4 Operational boundaries",
+        "Chapter5 Tracking Emissions Over Time, pp34–39",
+        "Chapter9 Reporting GHG Emissions",
+        "Chapter11 Setting GHG Targets, Box4 p76"
+      ],
+      "read_scope": "Открыт116-страничный официальный PDF. Прочитаны chapter5 иchapter11, Box4, границы зарегистрированы по оглавлению.",
+      "access": "official_pdf_selected_chapters_read",
+      "jurisdiction": "global_accounting_standard",
+      "applies_to": "Корпоративная инвентаризация парниковых газов и отслеживание целей.",
+      "reporting_vs_marketing": "GHG_accounting_and_reporting",
+      "current_status": {
+        "as_of": "2026-11-17",
+        "description": "Официальный Corporate Standard публикуется в revised edition. Последующие стандарты и программы могут добавлять требования."
+      },
+      "operational_rule": "Различать absolute/intensity, базовый год и пересчёты из-за изменения структуры или методов.",
+      "risk": "Удельное снижение трактуется как сокращение общих выбросов.",
+      "how_to_verify": "Пересчитать numerator/denominator, охват и сопоставимость базы.",
+      "counterexample_synthetic": "Удельные выбросы снизились на10%, выпуск вырос на20%, абсолютные выросли на8%.",
+      "quotes": []
+    }
+  ],
+  "feature_families": [
+    {
+      "family_id": "E01",
+      "dimension": "E",
+      "name": "Общие экологические выгоды",
+      "search_examples": [
+        "экологичный",
+        "зелёный",
+        "без вреда природе",
+        "eco-friendly"
+      ],
+      "verification_question": "Какое свойство, объект, периметр и ограничения подразумеваются?",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S08"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E02",
+      "dimension": "E",
+      "name": "Климатический результат",
+      "search_examples": [
+        "сократили выбросы",
+        "декарбонизация",
+        "emission reduction"
+      ],
+      "verification_question": "Какие газы, scopes, валовые величины и период?",
+      "source_ids": [
+        "S07",
+        "S10"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E03",
+      "dimension": "E",
+      "name": "Удельная эффективность",
+      "search_examples": [
+        "на единицу продукции",
+        "углеродоёмкость",
+        "intensity"
+      ],
+      "verification_question": "Как изменились знаменатель и абсолютный числитель?",
+      "source_ids": [
+        "S01",
+        "S10"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E04",
+      "dimension": "E",
+      "name": "База сравнения",
+      "search_examples": [
+        "по сравнению",
+        "на 30% меньше",
+        "baseline"
+      ],
+      "verification_question": "Названы год, объект, метод и сопоставимый охват?",
+      "source_ids": [
+        "S05",
+        "S10"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E05",
+      "dimension": "E",
+      "name": "Границы результата",
+      "search_examples": [
+        "вся группа",
+        "наши предприятия",
+        "Scope 1",
+        "Scope 3"
+      ],
+      "verification_question": "Какие активы, цепочка стоимости и исключения включены?",
+      "source_ids": [
+        "S02",
+        "S10"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E06",
+      "dimension": "E",
+      "name": "Цели и планы",
+      "search_examples": [
+        "стремимся",
+        "к 2030",
+        "net zero",
+        "углеродная нейтральность"
+      ],
+      "verification_question": "Это намерение, цель или достигнутый результат? Есть сроки, действия и промежуточные цели?",
+      "source_ids": [
+        "S07"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E07",
+      "dimension": "E",
+      "name": "Компенсации и удаления",
+      "search_examples": [
+        "offset",
+        "carbon credits",
+        "компенсировали",
+        "поглощение"
+      ],
+      "verification_question": "Разделены собственное сокращение, removal, avoided emissions и credits?",
+      "source_ids": [
+        "S07",
+        "S10"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E08",
+      "dimension": "E",
+      "name": "Возобновляемая энергия",
+      "search_examples": [
+        "100% ВИЭ",
+        "зелёная энергия",
+        "сертификаты энергии"
+      ],
+      "verification_question": "Предметом служат закупки, потребление, производство или все энергоресурсы?",
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E09",
+      "dimension": "E",
+      "name": "Жизненный цикл",
+      "search_examples": [
+        "нулевой след",
+        "жизненный цикл",
+        "cradle to grave"
+      ],
+      "verification_question": "Какие стадии, функциональная единица и trade-offs рассмотрены?",
+      "source_ids": [
+        "S05",
+        "S08"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E10",
+      "dimension": "E",
+      "name": "Циркулярность и отходы",
+      "search_examples": [
+        "безотходный",
+        "перерабатываемый",
+        "recycled",
+        "recyclable"
+      ],
+      "verification_question": "Разделены пригодность, сбор, фактическая переработка и вторичное содержание?",
+      "source_ids": [
+        "S06",
+        "S08"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E11",
+      "dimension": "E",
+      "name": "Вода и местный контекст",
+      "search_examples": [
+        "сберегли воду",
+        "водопотребление",
+        "water positive"
+      ],
+      "verification_question": "Известны бассейн, дефицит воды, забор, потребление и сброс?",
+      "source_ids": [
+        "S01"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E12",
+      "dimension": "E",
+      "name": "Биоразнообразие и компенсация",
+      "search_examples": [
+        "восстановили",
+        "посадили деревья",
+        "nature positive"
+      ],
+      "verification_question": "Как соотносятся мера, состояние экосистемы и отрицательные воздействия?",
+      "source_ids": [
+        "S01",
+        "S08"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E13",
+      "dimension": "E",
+      "name": "Сертификаты и знаки",
+      "search_examples": [
+        "сертифицирован",
+        "экомаркировка",
+        "знак качества"
+      ],
+      "verification_question": "Какие объект, критерии, срок и независимость схемы?",
+      "source_ids": [
+        "S06"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "E14",
+      "dimension": "E",
+      "name": "Обязательное соответствие как выгода",
+      "search_examples": [
+        "соблюдаем нормативы",
+        "без запрещённых веществ"
+      ],
+      "verification_question": "Сформулировано соответствие или заявлено преимущество сверх базового уровня?",
+      "source_ids": [
+        "S05",
+        "S08"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S01",
+      "dimension": "S",
+      "name": "Безопасность труда",
+      "search_examples": [
+        "нулевой травматизм",
+        "LTIFR",
+        "безопасные условия"
+      ],
+      "verification_question": "Какие категории работников, события, часы и период учтены?",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S02",
+      "dimension": "S",
+      "name": "Работники и подрядчики",
+      "search_examples": [
+        "все сотрудники",
+        "подрядчики",
+        "работающие по договорам"
+      ],
+      "verification_question": "Соответствуют ли категории охвату заявления?",
+      "source_ids": [
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S03",
+      "dimension": "S",
+      "name": "Равенство и разнообразие",
+      "search_examples": [
+        "равные возможности",
+        "доля женщин",
+        "инклюзивный"
+      ],
+      "verification_question": "Что измерено, в каких должностях и в каком периметре?",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S04",
+      "dimension": "S",
+      "name": "Оплата и разрыв",
+      "search_examples": [
+        "равная оплата",
+        "гендерный разрыв",
+        "медианная зарплата"
+      ],
+      "verification_question": "Есть определения оплаты, выборки, корректировок и ограничений?",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S05",
+      "dimension": "S",
+      "name": "Обучение и развитие",
+      "search_examples": [
+        "обучили",
+        "часы обучения",
+        "развитие персонала"
+      ],
+      "verification_question": "Измерены ресурсы, охват, усвоение или долгосрочный эффект?",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S06",
+      "dimension": "S",
+      "name": "Права человека и поставщики",
+      "search_examples": [
+        "нулевая терпимость",
+        "права человека",
+        "ответственные поставщики"
+      ],
+      "verification_question": "Раскрыты проверка исполнения, негативные случаи и работа с ними?",
+      "source_ids": [
+        "S02",
+        "S09"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S07",
+      "dimension": "S",
+      "name": "Сообщества и благотворительность",
+      "search_examples": [
+        "помогли регионам",
+        "социальный вклад",
+        "инвестиции в общество"
+      ],
+      "verification_question": "Какая связь между затратами, охватом, результатом и заявленным воздействием?",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "S08",
+      "dimension": "S",
+      "name": "Жалобы и восстановление прав",
+      "search_examples": [
+        "горячая линия",
+        "жалоб нет",
+        "обращения решены"
+      ],
+      "verification_question": "Доступен ли механизм, что считается жалобой и решением?",
+      "source_ids": [
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "G01",
+      "dimension": "G",
+      "name": "Антикоррупционная политика",
+      "search_examples": [
+        "нулевая терпимость к коррупции",
+        "кодекс этики"
+      ],
+      "verification_question": "Утверждается наличие политики или отсутствие случаев?",
+      "source_ids": [
+        "S02",
+        "S09"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "G02",
+      "dimension": "G",
+      "name": "Соблюдение требований",
+      "search_examples": [
+        "нарушений нет",
+        "штрафов не было",
+        "compliance"
+      ],
+      "verification_question": "Как определены значимые нарушения, санкции, периоды и рассмотрение споров?",
+      "source_ids": [
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "G03",
+      "dimension": "G",
+      "name": "Корпоративное управление",
+      "search_examples": [
+        "независимый совет",
+        "конфликт интересов",
+        "прозрачное управление"
+      ],
+      "verification_question": "Каковы критерии, состав, полномочия и процедуры?",
+      "source_ids": [
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "G04",
+      "dimension": "G",
+      "name": "Внешнее заверение",
+      "search_examples": [
+        "проверен аудитором",
+        "независимое заверение",
+        "assured"
+      ],
+      "verification_question": "Какие показатели, уровень уверенности и ограничения проверены?",
+      "source_ids": [
+        "S02"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "G05",
+      "dimension": "G",
+      "name": "Пересчёты и смена методик",
+      "search_examples": [
+        "пересчитано",
+        "изменена методика",
+        "restated"
+      ],
+      "verification_question": "Как изменение повлияло на динамику и сопоставимость?",
+      "source_ids": [
+        "S02",
+        "S10"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    },
+    {
+      "family_id": "G06",
+      "dimension": "G",
+      "name": "Рейтинги и лидерство",
+      "search_examples": [
+        "лидер ESG",
+        "высший рейтинг",
+        "лучший в отрасли"
+      ],
+      "verification_question": "Известны агентство, шкала, год, выборка, объект и предмет рейтинга?",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "role": "candidate_retrieval_only",
+      "authorship": "research_design_proposal"
+    }
+  ],
+  "synthetic_pairs": [
+    {
+      "pair_id": "P01",
+      "family_id": "E03",
+      "synthetic": true,
+      "positive_risk_candidate": "Удельные выбросы снизились на 10%, следовательно, общие выбросы сократились.",
+      "negative_risk_control": "Удельные выбросы снизились на 10%, выпуск вырос на 20%, общие выбросы выросли на 8%.",
+      "expected_check": "Подстановка интенсивности вместо абсолютного результата.",
+      "source_ids": [
+        "S10"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P02",
+      "family_id": "E04",
+      "synthetic": true,
+      "positive_risk_candidate": "Мы сократили выбросы на 30%.",
+      "negative_risk_control": "Выбросы Scope1+2 сократились с100 до70тыс.тCO2e между2020 и2024 в сопоставимом периметре.",
+      "expected_check": "В первой версии нет базы, периода и охвата. Дополнительные данные могут снять риск.",
+      "source_ids": [
+        "S01",
+        "S10"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P03",
+      "family_id": "E05",
+      "synthetic": true,
+      "positive_risk_candidate": "Выбросы всей группы сократились на 20%.",
+      "negative_risk_control": "Выбросы двух заводов сократились на 20%. Остальные заводы и Scope3 в расчёт не включены.",
+      "expected_check": "Условие пары задаёт охват только двух заводов.",
+      "source_ids": [
+        "S02",
+        "S10"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P04",
+      "family_id": "E07",
+      "synthetic": true,
+      "positive_risk_candidate": "Мы снизили собственные выбросы на 100% благодаря покупке carbon credits.",
+      "negative_risk_control": "Валовые выбросы составили100тыс.тCO2e. Отдельно приобретены и погашены100тыс.credits.",
+      "expected_check": "Подмена собственной декарбонизации компенсацией. Проверить реестр и качество credits.",
+      "source_ids": [
+        "S07"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P05",
+      "family_id": "E06",
+      "synthetic": true,
+      "positive_risk_candidate": "Наше обещание net zero к2050 доказывает сегодняшнюю климатическую нейтральность.",
+      "negative_risk_control": "Мы заявили цель net zero к2050, с промежуточными целями и планом. Текущие выбросы сохраняются.",
+      "expected_check": "Подмена будущего состояния текущим.",
+      "source_ids": [
+        "S07"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P06",
+      "family_id": "E13",
+      "synthetic": true,
+      "positive_risk_candidate": "Все продукты экологически сертифицированы.",
+      "negative_risk_control": "Сертификат схемыX действует для моделиA до31.12.2027 и охватывает критерииY.",
+      "expected_check": "По условию сертификат получен только на модельA.",
+      "source_ids": [
+        "S06"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P07",
+      "family_id": "E10",
+      "synthetic": true,
+      "positive_risk_candidate": "Наша упаковка полностью циркулярна, поскольку технически перерабатывается.",
+      "negative_risk_control": "Материал технически перерабатывается. Фактическая доступность сбора и доля переработки требуют отдельной оценки.",
+      "expected_check": "Техническое свойство превращено в утверждение результата системы.",
+      "source_ids": [
+        "S06",
+        "S08"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P08",
+      "family_id": "E09",
+      "synthetic": true,
+      "positive_risk_candidate": "Снижение веса упаковки сделало весь продукт экологически безопасным.",
+      "negative_risk_control": "Вес упаковки снизился на15%. Исследование ограничено стадией упаковки.",
+      "expected_check": "По условию воздействие всего продукта не исследовалось.",
+      "source_ids": [
+        "S05",
+        "S08"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P09",
+      "family_id": "S01",
+      "synthetic": true,
+      "positive_risk_candidate": "В компании нулевой травматизм.",
+      "negative_risk_control": "Среди штатных сотрудников несчастных случаев не зарегистрировано. Два случая у подрядчиков раскрыты отдельно.",
+      "expected_check": "По условию подрядчики работали на площадках компании. Широкая первая версия скрывает случаи.",
+      "source_ids": [
+        "S02",
+        "S09"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P10",
+      "family_id": "S04",
+      "synthetic": true,
+      "positive_risk_candidate": "Гендерный разрыв в оплате отсутствует.",
+      "negative_risk_control": "Скорректированный разрыв для сопоставимых должностей равен0%. Нескорректированный медианный разрыв равен18%.",
+      "expected_check": "Одинаковое слово разрыв скрывает разные метрики.",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P11",
+      "family_id": "S05",
+      "synthetic": true,
+      "positive_risk_candidate": "10000часов обучения доказали рост квалификации.",
+      "negative_risk_control": "Проведено10000часов обучения. Оценка усвоения и изменения квалификации пока не проводилась.",
+      "expected_check": "Затраты и активность подменяют измеренный эффект.",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P12",
+      "family_id": "S08",
+      "synthetic": true,
+      "positive_risk_candidate": "Отсутствие жалоб подтверждает полное отсутствие нарушений прав работников.",
+      "negative_risk_control": "По каналу зарегистрировано0жалоб. Это число характеризует обращения и охват канала.",
+      "expected_check": "По условию нет независимого исследования нарушений или доступности канала.",
+      "source_ids": [
+        "S02"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P13",
+      "family_id": "G01",
+      "synthetic": true,
+      "positive_risk_candidate": "Кодекс этики гарантирует, что коррупционных случаев нет.",
+      "negative_risk_control": "Кодекс утверждён. За год расследовано3подтверждённых случая, приняты меры.",
+      "expected_check": "Наличие политики и результат исполнения проверяются отдельно.",
+      "source_ids": [
+        "S02",
+        "S09"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P14",
+      "family_id": "G04",
+      "synthetic": true,
+      "positive_risk_candidate": "Независимый аудитор подтвердил достоверность всех ESG-заявлений.",
+      "negative_risk_control": "Ограниченное заверение охватило показатели1–3. Остальные сведения находятся вне предмета заключения.",
+      "expected_check": "По условию assurance statement ограничен тремя показателями.",
+      "source_ids": [
+        "S02"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P15",
+      "family_id": "G05",
+      "synthetic": true,
+      "positive_risk_candidate": "Мы сократили выбросы на25% благодаря экологическим мерам.",
+      "negative_risk_control": "Пересчёт из-за новой методики уменьшил оценку на25%. Сопоставимого операционного снижения не выявлено.",
+      "expected_check": "По условию изменение вызвано только методом расчёта.",
+      "source_ids": [
+        "S02",
+        "S10"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    },
+    {
+      "pair_id": "P16",
+      "family_id": "G06",
+      "synthetic": true,
+      "positive_risk_candidate": "Высокий ESG-рейтинг подтверждает отсутствие экологических нарушений.",
+      "negative_risk_control": "Компания получила рейтингА по шкале агентстваX в2024. Предмет рейтинга и ограничения приведены в методологии.",
+      "expected_check": "По условию рейтинг не оценивает отсутствие каждого нарушения.",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "truth_status": "synthetic_context_only",
+      "instruction": "Это авторские тестовые формулировки. Positive означает кандидат с риском, negative означает контроль без указанной ошибки при заданном контексте. Обе версии требуют проверки фактов при применении к реальному отчёту."
+    }
+  ],
+  "suggested_claim_fields": [
+    "claim_id",
+    "report_id",
+    "company",
+    "reporting_year",
+    "verbatim_quote",
+    "page_or_md_anchor",
+    "context_before",
+    "context_after",
+    "dimension",
+    "family_ids",
+    "claim_type",
+    "subject",
+    "scope",
+    "period",
+    "baseline",
+    "metric",
+    "unit",
+    "numerator",
+    "denominator",
+    "methodology",
+    "target_date",
+    "evidence_refs",
+    "counterevidence_refs",
+    "source_rule_ids",
+    "jurisdiction",
+    "applicability_reason",
+    "reporting_vs_marketing",
+    "missing_information",
+    "risk_reason",
+    "confidence_reason",
+    "review_status"
+  ],
+  "gaps": [
+    {
+      "topic": "Минэкономразвития, приказ01.11.2023 №764",
+      "status": "official_original_not_verified",
+      "action": "Найти оригинал на economy.gov.ru или официальном портале. Сторонняя скан-копия и правовые базы найдены, критерии не перенесены в нормативные правила."
+    },
+    {
+      "topic": "UN Guiding Principles on Business and Human Rights2011",
+      "status": "official_catalogue_and_indexed_excerpt_only",
+      "official_url": "https://unglobalcompact.org/library/2",
+      "pdf_url": "https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf",
+      "sections_to_read": [
+        "15",
+        "17",
+        "20",
+        "21"
+      ],
+      "action": "Каталог UNGlobalCompact подтверждает документ. PDF OHCHR возвращает403. Полные положения не выдавать за прочитанные."
+    },
+    {
+      "topic": "РСПП",
+      "status": "not_researched_in_this_note",
+      "action": "При добавлении классифицировать как отраслевое руководство и общественное заверение. Проверить конкретный документ и редакцию."
+    },
+    {
+      "topic": "Полнота правового аудита",
+      "status": "outside_completed_scope",
+      "action": "Выполнена методическая проверка источников и статусов страниц. Все действующие российские, британские и американские акты не сверялись."
+    }
+  ]
+}

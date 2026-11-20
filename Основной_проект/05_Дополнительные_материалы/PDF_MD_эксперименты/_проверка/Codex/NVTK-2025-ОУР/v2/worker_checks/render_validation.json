@@ -1,0 +1,23 @@
+{
+  "markdown_rendered_to_html": true,
+  "browser_visual_check": "unavailable: local Chromium launch denied by sandbox MachPortRendezvous",
+  "local_links_missing": [],
+  "page_anchors": 121,
+  "image_links": 121,
+  "tables": 84,
+  "native_replacement_glyphs": 0,
+  "rendered_samples": [
+    {
+      "pdf_page": 1,
+      "scale": 1.0
+    },
+    {
+      "pdf_page": 97,
+      "scale": 1.0
+    },
+    {
+      "pdf_page": 117,
+      "scale": 1.0
+    }
+  ]
+}

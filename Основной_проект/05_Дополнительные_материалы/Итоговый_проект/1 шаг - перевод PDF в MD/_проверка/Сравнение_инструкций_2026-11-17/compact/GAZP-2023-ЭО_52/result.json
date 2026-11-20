@@ -1,0 +1,546 @@
+{
+  "report_id": "GAZP-2023-ЭО",
+  "pdf_page": 52,
+  "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "version": "instruction-ab-compact-20261117",
+  "seconds": 7.21,
+  "answer": {
+    "pdf_page": 52,
+    "markdown": "# Низкоуглеродное развитие\n\n# Выбросы парниковых газов\n\nВо всех компаниях Группы, в том числе в ПАО «Газпром», количественная оценка прямых выбросов ПГ за 2023 г. проведена согласно Методике количественного определения объемов выбросов парниковых газов, утвержденной приказом Министерства природных ресурсов и экологии Российской Федерации от 27 мая 2022 г. № 371.\n\n**В 2023 г. выбросы ПГ (охват 1) Группы Газпром составили 209,55 млн т СО2-экв., что ниже показателя 2022 г.**\n\n**Выбросы ПГ в Группе Газпром, 2019–2023 гг., млн т СО2-экв.**\n\n| | 2019 | 2020 | 2021 | 2022 | 2023 |\n|---|---:|---:|---:|---:|---:|\n| ПАО «Газпром» | 117,09 | 100,97 | 119,87 | 91,02 | 85,06 |\n| Газпром энергохолдинг | 89,03 | 81,32 | 93,65 | 90,09 | 90,22 |\n| Группа Газпром нефть | 16,04 | 16,65 | 18,73 | 21,08 | 23,16 |\n| Газпром нефтехим Салават | 6,04 | 6,01 | 6,23 | 6,00 | 5,88 |\n| ООО «Сахалинская Энергия» | 3,05 | 3,40 | 3,15 | 3,42 | 3,42 |\n| Прочие компании | 5,20 | 1,97 | 1,65 | 1,92 | 1,81 |\n\nИтого по годам (подписи на столбцах диаграммы): 2019 — 236,45; 2020 — 210,32; 2021 — 243,28; 2022 — 213,53; 2023 — 209,55.\n\nВ 2023 г. снижение объема выбросов ПГ ПАО «Газпром» составило 6,5 % относительно уровня 2022 г.\n\nМасса выбросов ПГ сократилась за счет реализации мероприятий по энергосбережению, внедрения инноваций, расширения использования ресурсосберегающих технологий, а также из-за сокращения расхода природного газа на топливные нужды и объема товаротранспортной работы в результате снижения объемов поставок газа зарубежным партнерам.\n\n**В 2023 г. при проведении ремонтных работ на МГ предотвращен выброс ПГ в объеме 33,0 млн т СО2-экв.**\n\nВ компаниях Группы Газпром действует система управления выбросами ПГ, которая предусматривает мониторинг и анализ показателей этих выбросов, внедрение инновационных проектов и НДТ, оценку эффективности и анализ деятельности в области сокращения выбросов ПГ, разработку актуализированных климатических целей и задач на будущий период.\n\n**Динамика выбросов ПГ в ПАО «Газпром» по видам деятельности, 2019–2023 гг., млн т СО2-экв.**\n\n| | 2019 | 2020 | 2021 | 2022 | 2023 |\n|---|---:|---:|---:|---:|---:|\n| Добыча | 15,01 | 14,27 | 17,95 | 15,63 | 14,12 |\n| Транспортировка | 93,65 | 77,61 | 93,09 | 66,03 | 60,10 |\n| Подземное хранение газа | 1,33 | 1,13 | 1,66 | 1,22 | 1,19 |\n| Переработка | 5,99 | 6,83 | 5,90 | 6,82 | 7,74 |\n| Прочие виды деятельности | 1,11 | 1,13 | 1,27 | 1,32 | 1,91 |\n\nИтого по годам (подписи на столбцах диаграммы): 2019 — 117,09; 2020 — 100,97; 2021 — 119,87; 2022 — 91,02; 2023 — 85,06.\n\nЭкологический отчет ПАО «Газпром» за 2023 год\n\n50",
+    "issues": [
+      "Стр. 52, верх левой половины разворота: между подзаголовком «Выбросы парниковых газов» и основным текстом значительный пустой промежуток; проверено по полному растру — содержимого нет, но при необходимости уточнить оформление у обвязки.",
+      "Стр. 52, диаграммы: точные значения столбцов вынесены только для итоговых чисел (подписи справа); разбивка по видам деятельности/компаниям представлена числовой таблицей под диаграммами и перенесена. Отдельные длины сегментов столбцов не измерялись (не подписаны)."
+    ]
+  },
+  "numeric_comparison": {
+    "method": "normal_PDF_spans_individually; no_cross_span_number_join",
+    "pdf_decimal_tokens": 68,
+    "markdown_decimal_tokens": 68,
+    "pdf_only": {},
+    "markdown_only": {},
+    "pdf_span_evidence": [],
+    "markdown_evidence": [],
+    "excluded_superscript_decimal_spans": []
+  },
+  "source_block_coverage": [
+    {
+      "source_id": "p52:block0",
+      "bbox": [
+        276.23748779296875,
+        809.9236450195312,
+        285.0224914550781,
+        818.974609375
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block1",
+      "bbox": [
+        540.60546875,
+        338.9761657714844,
+        549.2365112304688,
+        502.45440673828125
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block2",
+      "bbox": [
+        34.13099670410156,
+        170.34532165527344,
+        265.2417907714844,
+        232.3958282470703
+      ],
+      "source_tokens": 43,
+      "token_recall": 0.9535,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "определе",
+        "ния"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block3",
+      "bbox": [
+        286.3324890136719,
+        170.49832153320312,
+        526.8142700195312,
+        193.46714782714844
+      ],
+      "source_tokens": 21,
+      "token_recall": 0.9048,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "состави",
+        "ли"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block4",
+      "bbox": [
+        38.94089889526367,
+        253.6637420654297,
+        256.993408203125,
+        264.08538818359375
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block5",
+      "bbox": [
+        38.97800064086914,
+        268.2814025878906,
+        454.4756164550781,
+        276.9123840332031
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block6",
+      "bbox": [
+        38.97800064086914,
+        281.8271179199219,
+        461.9751892089844,
+        290.4580993652344
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block7",
+      "bbox": [
+        38.97800064086914,
+        295.3727111816406,
+        513.8229370117188,
+        304.0036926269531
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block8",
+      "bbox": [
+        38.97800064086914,
+        308.9183044433594,
+        456.0611877441406,
+        317.5492858886719
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block9",
+      "bbox": [
+        38.97800064086914,
+        322.4640197753906,
+        502.06549072265625,
+        331.0950012207031
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block10",
+      "bbox": [
+        351.95928955078125,
+        337.2877197265625,
+        521.6041259765625,
+        344.39923095703125
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block11",
+      "bbox": [
+        57.24620056152344,
+        350.2093200683594,
+        521.5142822265625,
+        358.8403015136719
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block12",
+      "bbox": [
+        57.24620056152344,
+        365.0628356933594,
+        521.6821899414062,
+        373.6938171386719
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block13",
+      "bbox": [
+        57.24620056152344,
+        379.9164123535156,
+        521.5211791992188,
+        388.5473937988281
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block14",
+      "bbox": [
+        57.24620056152344,
+        394.7699279785156,
+        521.6192016601562,
+        403.4009094238281
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block15",
+      "bbox": [
+        56.88140106201172,
+        409.62353515625,
+        521.6744384765625,
+        418.2545166015625
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block16",
+      "bbox": [
+        57.24620056152344,
+        424.4770202636719,
+        522.0182495117188,
+        433.1080017089844
+      ],
+      "source_tokens": 7,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block17",
+      "bbox": [
+        33.93219757080078,
+        459.1373291015625,
+        263.5180969238281,
+        479.9283142089844
+      ],
+      "source_tokens": 15,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block18",
+      "bbox": [
+        33.881195068359375,
+        479.75830078125,
+        275.374755859375,
+        552.1016845703125
+      ],
+      "source_tokens": 40,
+      "token_recall": 0.95,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "иннова",
+        "ций"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block19",
+      "bbox": [
+        286.5024719238281,
+        459.2903137207031,
+        524.1075439453125,
+        482.2591857910156
+      ],
+      "source_tokens": 19,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block20",
+      "bbox": [
+        286.24359130859375,
+        500.39129638671875,
+        523.8618774414062,
+        572.7346801757812
+      ],
+      "source_tokens": 42,
+      "token_recall": 0.9524,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "управле",
+        "ния"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block21",
+      "bbox": [
+        38.775299072265625,
+        596.2933959960938,
+        380.58837890625,
+        606.715087890625
+      ],
+      "source_tokens": 16,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block22",
+      "bbox": [
+        38.97800064086914,
+        610.2853393554688,
+        384.8548583984375,
+        619.3363037109375
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block23",
+      "bbox": [
+        38.97800064086914,
+        623.8466796875,
+        401.521240234375,
+        632.4777221679688
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block24",
+      "bbox": [
+        38.97800064086914,
+        638.8121337890625,
+        507.14227294921875,
+        645.9360961914062
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block25",
+      "bbox": [
+        38.97800064086914,
+        652.4993896484375,
+        440.64697265625,
+        659.62353515625
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block26",
+      "bbox": [
+        38.97800064086914,
+        664.9088134765625,
+        497.4305725097656,
+        673.5398559570312
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block27",
+      "bbox": [
+        351.95928955078125,
+        679.8742065429688,
+        521.6041259765625,
+        686.9857177734375
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block28",
+      "bbox": [
+        57.05540084838867,
+        693.3648071289062,
+        521.6803588867188,
+        702.163818359375
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block29",
+      "bbox": [
+        56.408599853515625,
+        709.2105102539062,
+        521.4886474609375,
+        718.009521484375
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block30",
+      "bbox": [
+        57.24620056152344,
+        725.0560913085938,
+        521.521240234375,
+        733.8551635742188
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block31",
+      "bbox": [
+        57.24620056152344,
+        740.9017944335938,
+        521.6751708984375,
+        749.7008666992188
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block32",
+      "bbox": [
+        57.24620056152344,
+        756.3485717773438,
+        522.0182495117188,
+        765.1476440429688
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block33",
+      "bbox": [
+        226.1309051513672,
+        36.58268737792969,
+        325.9299011230469,
+        45.633689880371094
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p52:block34",
+      "bbox": [
+        147.9344024658203,
+        65.08549499511719,
+        406.87493896484375,
+        89.12899780273438
+      ],
+      "source_tokens": 3,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    }
+  ],
+  "duplicate_paragraphs": [],
+  "automatic_flags": [],
+  "instruction_sha256": "402ca33babc5594c47fc32686e9fdf434d9b7ede50217c74723f01d68fe58873",
+  "report_sha256": "5763e4a32282a1234baf53b00f7f7148d9ef16752557720d3e343ab121943cc1",
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 35385,
+    "completion_tokens": 1315,
+    "total_tokens": 36700,
+    "prompt_tokens_details": {
+      "cached_tokens": 3456
+    },
+    "prompt_cache_hit_tokens": 3456,
+    "prompt_cache_miss_tokens": 31929
+  },
+  "review_status": "pending_independent_codex",
+  "checked": false
+}

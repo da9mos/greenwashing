@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/corpus_audit",
+  "reviewed_at": "2026-11-16T18:57:28.451989+00:00",
+  "report_id": "GAZP-2023-ЭО",
+  "pdf_page": 76,
+  "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "output_sha256": "dbc38b29e83b04a6de97dc85b968bce77d392c41a15f6ef204abe836b5169348",
+  "whole_report_checked": false,
+  "page_scope_status": "needs_rework",
+  "checked": false,
+  "checked_scope": "Вся содержательная область указанной физической страницы, с явным учётом разрешённого исключения повторяющейся навигации. Остальные физические страницы исходного PDF не входят в этот пилот.",
+  "open_defects": [
+    "EO76-HEADER",
+    "EO76-PRINTED-PAGE"
+  ],
+  "components": {
+    "text": {
+      "status": "pending",
+      "finding": "Тело заключения прочитано полностью, последний абзац сохранён. Верхний текстовый блок аудитора и печатный номер 74 отсутствуют."
+    },
+    "numbers": {
+      "status": "pending",
+      "finding": "Все 14 значений трёх таблиц, категории, единицы, области Охвата 1/2 и ссылки на страницы 50/52/51 совпали. Регистрационные номера и контактные числа верхнего блока опущены."
+    },
+    "tables": {
+      "status": "checked",
+      "finding": "Все 14 строк трёх таблиц сопоставлены по категориям и единицам млн т. CO₂-экв /тыс. т.CH₄. Числа 0,34 /1,9 /0,03 и 71,58 /782,02 /7,28 /16,93 /22,62 совпали."
+    },
+    "footnotes": {
+      "status": "not_applicable",
+      "finding": "На этой физической странице нет надстрочных сносок, требующих привязки к значениям."
+    },
+    "graphics": {
+      "status": "checked",
+      "finding": "Полный исходный растр с логотипом и сканом сохранён и доступен через source.png."
+    },
+    "reading_order": {
+      "status": "pending",
+      "finding": "Порядок тела заключения сохранён. Верхний блок автора и нижний печатный номер не вошли в последовательность текста."
+    },
+    "links": {
+      "status": "pending",
+      "finding": "В PDF нет аннотаций. Видимый адресwww.b1.ru отсутствует в Markdown вместе с остальными реквизитами."
+    },
+    "display": {
+      "status": "checked",
+      "finding": "Три таблицы и основной текст отображаются при 1440/390. Исходное изображение читается. Пустые неназванные шапки добавлены Markdown-синтаксисом и видны как тонкие пустые строки, исходные категории не заменены."
+    }
+  },
+  "source_identity": {
+    "page_folder": "GAZP-2023-ЭО_76",
+    "report_id": "GAZP-2023-ЭО",
+    "pdf_page": 76,
+    "source_pdf": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2023-ЭО.pdf",
+    "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+    "source_png_sha256": "de090b15f687495df1f687fe9fac7c878a61ec4788c7e468f82950febf14c2ea",
+    "source_pixels_match_original_pdf": true,
+    "source_render_scale": 2,
+    "source_rect": [
+      0.0,
+      0.0,
+      595.2760009765625,
+      841.8900146484375
+    ],
+    "saved_markdown_sha256": "dbc38b29e83b04a6de97dc85b968bce77d392c41a15f6ef204abe836b5169348",
+    "raw_sha256": "88bfc7ea39cac12d20a4935792ea82a60177cfd40b505cb4d08fe5c1dbfcdb52",
+    "result_sha256": "511f6f7695f0aa5db10a938fa9962fd5af40d7779f7699019a6caa92b77c3dfb",
+    "input_sha256": "aebf0a0a3e00a343c4fc97e4a1beed0f84b4b066670f16d84a841963a110e732",
+    "request_sha256": "4e5fd5d94ea4b48db1d6a7a4b00ac5beb335f348781bf6e9cc6538e946311a47",
+    "frozen_instruction_sha256": "e2a8f2ca0867bf8262b02ce784ede12442a9bbfa09daf176a2b57c48558a08dc",
+    "raw_answer_matches_result": true,
+    "finish_reason": "stop"
+  },
+  "evidence": {
+    "source_crops_manifest": "../source_crops.json",
+    "exact_quotes": "exact_quotes.json",
+    "render_check": "render/render_check.json",
+    "full_render": "render/full_page_1440.png",
+    "source_png": "../../GAZP-2023-ЭО_76/source.png"
+  },
+  "deepseek_issue_resolution": "Raw issues пуст, несмотря на пропуск верхнего блока аудитора и печатного номера. Приёмка всей страницы отклонена."
+}

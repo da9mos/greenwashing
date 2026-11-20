@@ -1,0 +1,43 @@
+{
+  "source_sha256": "bb4a1f0c51625b7d18397b58bc8705ec1cccbfbc34e0bfb8a3e6f88926d097cc",
+  "report_sha256": "2564dd6a3764fcddb4f7041c441cbc12e9142763bd2c3740e71d5b7f837e02aa",
+  "physical_pages": 139,
+  "page_markers_in_order": true,
+  "unique_page_anchors": 139,
+  "image_references": 139,
+  "missing_assets": [],
+  "broken_internal_targets": [],
+  "source_checked_pages": [
+    1,
+    2,
+    3,
+    16,
+    46,
+    85,
+    108
+  ],
+  "source_partially_reviewed_pages": [
+    29,
+    51,
+    83,
+    84,
+    115,
+    116,
+    118,
+    119,
+    125
+  ],
+  "structure_inspected_pending": [
+    22,
+    111,
+    112,
+    114,
+    117,
+    123,
+    128,
+    136
+  ],
+  "browser_render_status": "pending: Chrome launch failed (SIGABRT/EPERM)",
+  "alternative_render": "MuPDF Story, selected tables 115/119/125; selected first-page snapshots inspected. Not a whole-document browser check.",
+  "native_coverage_scope": "native_coverage.json and report.before-review.md describe initial mechanical candidate, not the edited issued report."
+}

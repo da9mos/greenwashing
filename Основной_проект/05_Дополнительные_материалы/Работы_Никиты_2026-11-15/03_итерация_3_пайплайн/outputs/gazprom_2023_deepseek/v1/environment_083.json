@@ -1,0 +1,33 @@
+{
+  "report": "environment",
+  "pdf_page": 83,
+  "version": "v1",
+  "response": {
+    "pdf_page": 83,
+    "printed_pages": null,
+    "markdown": "",
+    "problems": [
+      "Предоставленное изображение не содержит текста, таблиц или иных элементов для транскрипции: виден только однородный синий фон без какого-либо содержимого.",
+      "Нет возможности определить колонтитулы, номера страниц или содержательные блоки."
+    ],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 1589,
+    "completion_tokens": 91,
+    "total_tokens": 1680,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 1205
+  },
+  "finish_reason": "stop",
+  "seconds": 2.19,
+  "image_sha256": [
+    "725944ebba00065a4302f3a3d243d3133d7d29131cd767cf5804e78a49c31acc"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

@@ -1,0 +1,227 @@
+{
+  "checks": [
+    {
+      "target_id": "T-ALRS-004",
+      "year": 2025,
+      "value": "0.21",
+      "operator": "<=",
+      "threshold": "0.16",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-ALRS-005",
+      "year": 2025,
+      "value": "0.74",
+      "operator": "<=",
+      "threshold": "0.5",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-CHMF-002",
+      "year": 2024,
+      "value": "3.4",
+      "operator": ">=",
+      "threshold": "3",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-CHMF-005",
+      "year": 2025,
+      "value": "0.59",
+      "operator": "<=",
+      "threshold": "0.48",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-CHMF-006",
+      "year": 2025,
+      "value": "3",
+      "operator": "<=",
+      "threshold": "0",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-MAGN-001",
+      "basis": "explicit report statement:163% of original target",
+      "passed": true
+    },
+    {
+      "target_id": "T-MAGN-002",
+      "year": 2025,
+      "value": "46.2",
+      "operator": ">=",
+      "threshold": "37.5",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-MINV-001",
+      "year": 2025,
+      "value": "2",
+      "operator": "<=",
+      "threshold": "0",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-MINV-003",
+      "year": 2025,
+      "value": "35",
+      "operator": ">=",
+      "threshold": "32",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-PHOR-001",
+      "year": 2025,
+      "value": "150",
+      "operator": ">=",
+      "threshold": "123",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-PHOR-002",
+      "year": 2024,
+      "value": "76",
+      "operator": ">=",
+      "threshold": "65",
+      "basis": "officially adopted prior measurement",
+      "passed": true
+    },
+    {
+      "target_id": "T-PIGM-002",
+      "year": 2024,
+      "value": "12",
+      "operator": ">=",
+      "threshold": "12",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-SIBR-001",
+      "year": 2025,
+      "value": "90",
+      "operator": ">=",
+      "threshold": "80",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-SIBR-002",
+      "year": 2025,
+      "value": "5000000",
+      "operator": ">=",
+      "threshold": "5000000",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-TATN-001",
+      "year": 2025,
+      "value": "10027",
+      "operator": "<=",
+      "threshold": "11227.5",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-TATN-002",
+      "year": 2025,
+      "value": "0.25",
+      "operator": "<=",
+      "threshold": "0.238",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-TRNF-001",
+      "year": 2025,
+      "value": "0.68",
+      "operator": ">=",
+      "threshold": "0.5",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-TRNF-002",
+      "year": 2025,
+      "value": "0.03",
+      "operator": "<=",
+      "threshold": "0.063",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-URCH-001",
+      "year": 2025,
+      "value": "93.3",
+      "operator": ">=",
+      "threshold": "50",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-URCH-002",
+      "year": 2024,
+      "value": "100",
+      "operator": ">=",
+      "threshold": "100",
+      "basis": "one-time completion before deadline",
+      "passed": true
+    },
+    {
+      "target_id": "T-URKA-001",
+      "year": 2025,
+      "value": "0.132",
+      "operator": "<=",
+      "threshold": "0.1206",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-URKA-002",
+      "year": 2025,
+      "value": "143",
+      "operator": "<=",
+      "threshold": "267.75",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-URKA-003",
+      "year": 2025,
+      "value": "7.6",
+      "operator": "<=",
+      "threshold": "6.5",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-URKA-004",
+      "year": 2025,
+      "value": "4.19",
+      "operator": "<=",
+      "threshold": "7",
+      "basis": "numeric",
+      "passed": true
+    },
+    {
+      "target_id": "T-URKA-005",
+      "year": 2025,
+      "value": "54.6",
+      "operator": ">=",
+      "threshold": "50",
+      "basis": "numeric",
+      "passed": true
+    }
+  ],
+  "count": 25,
+  "errors": 0
+}

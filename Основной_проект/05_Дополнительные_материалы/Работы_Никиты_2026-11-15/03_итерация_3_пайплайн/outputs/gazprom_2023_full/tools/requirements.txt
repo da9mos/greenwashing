@@ -1,0 +1,1 @@
+pymupdf4llm==2.1

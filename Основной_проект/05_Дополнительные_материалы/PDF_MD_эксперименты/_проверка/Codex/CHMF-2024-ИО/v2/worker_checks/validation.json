@@ -1,0 +1,12 @@
+{
+  "source_sha256": "55d5f38a3ade9142c17f4b9825491d2e66d806ed0bbd135f59ac7520f36f2fa3",
+  "physical_pages": 167,
+  "markers_correct": true,
+  "local_links_and_anchors_missing": [],
+  "rendered_tables": 207,
+  "images": 168,
+  "remaining_bad_unicode": {},
+  "baseline_report_sha256": "a53dd30b4f37b6f3e952bb120d0398c257ca35179617fd6f25084d039f1b8239",
+  "final_report_sha256": "ca5336ad7fc0c1779d0ae7fd45f868ea5f23821b66068277b2ab3f1f0cdc84eb",
+  "scope": "Структурная проверка; не подтверждает точность содержания."
+}

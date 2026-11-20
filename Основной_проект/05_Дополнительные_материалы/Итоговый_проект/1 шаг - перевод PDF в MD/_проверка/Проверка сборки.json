@@ -1,0 +1,24 @@
+{
+  "reports": [
+    {
+      "report": "social",
+      "pages": 136,
+      "text_blocks_verified_against_raw_with_logged_patches": 136,
+      "assets": 271,
+      "only_report_and_assets": true
+    },
+    {
+      "report": "environment",
+      "pages": 84,
+      "text_blocks_verified_against_raw_with_logged_patches": 84,
+      "assets": 84,
+      "only_report_and_assets": true
+    }
+  ],
+  "instruction_matches_canonical": true,
+  "instruction_contract_cases": 17,
+  "source_verified_packaging_corrections": 4,
+  "new_PDF_conversion_requests": 0,
+  "all_original_PDF_words_verified": false,
+  "note": "Text/asset/package integrity checks do not constitute complete source-PDF factual or lexical verification"
+}

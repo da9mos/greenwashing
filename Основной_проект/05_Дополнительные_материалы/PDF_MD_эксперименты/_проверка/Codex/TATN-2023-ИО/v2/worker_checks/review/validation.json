@@ -1,0 +1,17 @@
+{
+  "physical_page_markers": 172,
+  "page_markers_unique_ordered": true,
+  "assets_referenced": 172,
+  "broken_local_links": [],
+  "report_sha256": "2538cc8358124b9d837987d0a7e73d607e4291581159c0f63ab32fbfbe84d078",
+  "source_sha256": "4788348f7c1a36f62c6a9b38bbc4a95a37358dc80ca719384320e86dd129e0c4",
+  "numeric_inventory_differences_excluding_rebuilt_page12": [],
+  "rendered_to_html": true,
+  "visual_render_review": "Inspected local PyMuPDF Story renders of pages 1, 8, 12 and first render sheet of 142. This exposed and prompted correction of introductory column order on 142; no full-document display acceptance. Final corrected introductory block of page 142 rerendered and visually inspected.",
+  "coverage_note": "native_coverage.json describes baseline, not corrected report; its hash is retained as provenance, not final validation.",
+  "url_whitespace_normalizations": 9,
+  "browser_render_limitation": "Playwright browser absent; installed Chrome aborts under process sandbox. No download attempted.",
+  "assets_hashes_checked": 172,
+  "assets_hash_mismatches": [],
+  "final_integrity_checks_passed": true
+}

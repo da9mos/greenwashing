@@ -1,0 +1,157 @@
+{
+  "snapshot_commit": "5715f0126e653187736317b1c6799bdaf6242ec4",
+  "method": "read-only git show of exact original HEAD; CSV semicolon UTF8 BOM; no repo outputs changed",
+  "checks": {
+    "companies": {
+      "path": "01_итерация_1_сбор_данных/выборка_30/companies.csv",
+      "sha256": "db17167afa5ea4f7b22c67ba9f9eb0ed2e1c47c14310a399430a77ecdf4a64c7",
+      "rows": 30,
+      "columns": [
+        "company_id",
+        "company",
+        "industry",
+        "years",
+        "n_years",
+        "n_files",
+        "file_issues",
+        "weak_reporting"
+      ],
+      "all_weak_pending": true
+    },
+    "reports": {
+      "path": "01_итерация_1_сбор_данных/выборка_30/reports.csv",
+      "sha256": "43c38088e1698061253feee4300132756b4790a3b58537a3dda00383d2784176",
+      "rows": 92,
+      "columns": [
+        "report_id",
+        "company_id",
+        "company",
+        "industry",
+        "year",
+        "report_type",
+        "file_name",
+        "status",
+        "drive_id"
+      ],
+      "min_distinct_years_per_company": 2
+    },
+    "claims": {
+      "path": "03_итерация_3_пайплайн/data/out/claims.csv",
+      "sha256": "d2ba664cc78d39445e993505cb7db15dc02212916e8e41f032535c0cdb6f9b39",
+      "rows": 928,
+      "columns": [
+        "claim_id",
+        "company_id",
+        "year",
+        "report_id",
+        "page",
+        "text",
+        "type",
+        "esg_block",
+        "topic",
+        "metric",
+        "value",
+        "unit",
+        "base_year",
+        "target_year",
+        "has_number",
+        "has_deadline",
+        "prompt_version",
+        "model",
+        "sentence_id",
+        "chunk_id",
+        "second_type",
+        "flag",
+        "confidence",
+        "source_url",
+        "quote_check",
+        "review_status"
+      ],
+      "types": {
+        "результат": 694,
+        "обязательство": 96,
+        "декларация": 138
+      },
+      "esg": {
+        "S": 329,
+        "E": 252,
+        "G": 347
+      },
+      "blank_numeric_fields": {
+        "metric": 928,
+        "value": 928,
+        "unit": 928,
+        "base_year": 928,
+        "target_year": 928
+      }
+    },
+    "gold": {
+      "path": "03_итерация_3_пайплайн/data/out/gold_extract.csv",
+      "sha256": "78055fe430f9725809ef71a2a8702cb62d15c7d38b8ff8d9b1349c93bb5c3f5f",
+      "rows": 811,
+      "columns": [
+        "sentence_id",
+        "fragment_id",
+        "company_id",
+        "report_id",
+        "year",
+        "page",
+        "split",
+        "sample_part",
+        "sentence",
+        "A_is_claim",
+        "A_type",
+        "A_second_type",
+        "A_esg_block",
+        "A_topic",
+        "A_has_number",
+        "A_has_deadline",
+        "A_flag",
+        "B_is_claim",
+        "B_type",
+        "B_second_type",
+        "B_esg_block",
+        "B_topic",
+        "B_has_number",
+        "B_has_deadline",
+        "B_flag",
+        "agree",
+        "final_is_claim",
+        "final_type",
+        "final_second_type",
+        "final_esg_block",
+        "final_topic",
+        "final_has_number",
+        "final_has_deadline",
+        "final_flag",
+        "resolved_by",
+        "resolution_note",
+        "human_check"
+      ],
+      "claims": 465,
+      "human_checked_sentences": 44,
+      "human_checked_claims": 32
+    },
+    "external": {
+      "path": "03_итерация_3_пайплайн/data/out/external_facts.csv",
+      "sha256": "49182709fb491f31663680d99bfb7b31157d613f39a4b6e4e89f494d31fd1627",
+      "rows": 7,
+      "columns": [
+        "№",
+        "Компания",
+        "Код",
+        "Дата события",
+        "Тип события",
+        "Что произошло",
+        "Сумма, ₽",
+        "Источник и где смотреть",
+        "Ссылка",
+        "Цитата дословно",
+        "Блок",
+        "Связанное заявление"
+      ],
+      "companies": 2,
+      "nonblank_url": 1
+    }
+  }
+}

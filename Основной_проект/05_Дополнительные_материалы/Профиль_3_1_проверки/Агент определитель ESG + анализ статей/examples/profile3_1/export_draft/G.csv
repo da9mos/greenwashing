@@ -1,0 +1,3 @@
+﻿id;statement;type;block;topic;block2;source_status;pages;inclusion_rule;classification_rule;subject;proposition;esg_object;classification_status;source_refs;secondary_blocks;ambiguity_note
+DEMO-2024-003;Компания создала комитет по надзору за климатическими рисками.;результат;G;совет директоров и акционеры;E;md_only;1;I1;G1;Компания;Компания создала комитет по надзору за климатическими рисками.;механизм надзора за климатическими рисками;resolved;OECD2023;E;
+DEMO-2024-004;Компания связала премирование директора с выбросами и травматизмом.;результат;G;совет директоров и акционеры;E;md_only;1;I1;G1;Компания;Компания связала премирование директора с выбросами и травматизмом.;"структура стимулов директора; экологический и трудовой KPI";resolved;OECD2023;E,S;

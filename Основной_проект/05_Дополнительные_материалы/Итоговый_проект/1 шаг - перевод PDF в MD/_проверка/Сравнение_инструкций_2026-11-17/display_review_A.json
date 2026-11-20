@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex independent display reviewer A",
+  "reviewed_at": "2026-11-17T06:00:22.346605+00:00",
+  "scope": "Read-only visual review of selected actual viewport PNGs from five assigned report pages; one own workingMarkdown57 correction authorized after reporting a critical display defect.",
+  "superseded_capture": {
+    "files": "full_*_unreliable_capture.png",
+    "finding": "Mobile75 y2400–3800 repeated the header and firsttable despite one heading in HTML/displayed_text. These fullpagePNG were excluded as unreliable capture/compositor evidence.",
+    "resolved_by": "New viewporttiles with recorded actual_y; several different mobile75 sections and righttableedge visually verified without repeated beginnings."
+  },
+  "pages": [
+    {
+      "report": "GAZP-2025-ОУР_75",
+      "viewed": [
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2025-ОУР_75/tile_390_000.png",
+          "capture_metadata": {
+            "path": "tile_390_000.png",
+            "requested_y": 0,
+            "actual_y": 0
+          },
+          "sha256_at_report_write": "f1398b18040277ffa88e6a931693ce775cd30a71f1e6eb3bc2d9300861e3b134",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2025-ОУР_75/tile_390_003.png",
+          "capture_metadata": {
+            "path": "tile_390_003.png",
+            "requested_y": 2700,
+            "actual_y": 2700
+          },
+          "sha256_at_report_write": "56bf1deca20b20be57bc4d58fbfaeef7509867722981223bd17c9e23360f1172",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2025-ОУР_75/tile_390_007.png",
+          "capture_metadata": {
+            "path": "tile_390_007.png",
+            "requested_y": 6300,
+            "actual_y": 6300
+          },
+          "sha256_at_report_write": "92d18aa4bcfe21161dbc09c3549d3ad8b186791d34e79cbcd5a0fc3f8c00a826",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2025-ОУР_75/table_right_390_0_000.png",
+          "capture_metadata": {},
+          "sha256_at_report_write": "3d1281a8849e41c123f2dd88b9c133d8a02656b5a9452940755c38c4361624e3",
+          "capture_version": "archived rendered_capture_v1"
+        }
+      ],
+      "unviewed_tiles": [
+        "tile_1440_000.png",
+        "tile_1440_001.png",
+        "tile_1440_002.png",
+        "tile_1440_003.png",
+        "tile_1440_004.png",
+        "tile_390_001.png",
+        "tile_390_002.png",
+        "tile_390_004.png",
+        "tile_390_005.png",
+        "tile_390_006.png",
+        "tile_390_008.png",
+        "table_x0_390_0_000.png",
+        "table_x77_390_0_000.png",
+        "table_x0_390_2_000.png",
+        "table_x76_390_2_000.png"
+      ],
+      "observations": [
+        "Новые viewport tiles y0/2700/6300 показывают разные реальные участки без повторения начала.",
+        "Литеральный знак> в >30 виден на mobiletile003.",
+        "Правыйскролл первойтаблицы y455 показывает2025,31 225,0³ и0,05 полностью; значения не потеряны.",
+        "Перваяколонка расходов на390 дробит слова на многочисленные короткие строки. Это замечание читаемости, не потеря содержимого.",
+        "Видимые сноски4–12 в tile007 читаются и сохраняют номера."
+      ],
+      "limitations": [
+        "ПросмотренныеPNG подтверждают только названные зоны отображения; семантические статусы не повышаются.",
+        "Не проверялись клики/ссылки и every-cell access на непосмотренных горизонтальных позициях."
+      ]
+    },
+    {
+      "report": "GAZP-2025-ОУР_109",
+      "viewed": [
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2025-ОУР_109/tile_1440_001.png",
+          "capture_metadata": {
+            "path": "tile_1440_001.png",
+            "requested_y": 900,
+            "actual_y": 900
+          },
+          "sha256_at_report_write": "613d6f15f7897568345876452c13c0c7652d8aaa352e55444e09c9bd7ad8211f",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2025-ОУР_109/tile_1440_002.png",
+          "capture_metadata": {
+            "path": "tile_1440_002.png",
+            "requested_y": 1800,
+            "actual_y": 1800
+          },
+          "sha256_at_report_write": "f07d59d4f390e0efcd33f2076ad9383ec385dcb2e7b4e15beef08134c98572da",
+          "capture_version": "archived rendered_capture_v1"
+        }
+      ],
+      "unviewed_tiles": [
+        "tile_1440_000.png",
+        "tile_1440_003.png",
+        "tile_390_000.png",
+        "tile_390_001.png",
+        "tile_390_002.png",
+        "tile_390_003.png",
+        "tile_390_004.png",
+        "tile_390_005.png",
+        "tile_390_006.png",
+        "table_x0_390_0_000.png",
+        "table_x0_390_0_001.png",
+        "table_x315_390_0_000.png",
+        "table_x315_390_0_001.png",
+        "table_x512_390_0_000.png",
+        "table_x512_390_0_001.png"
+      ],
+      "observations": [
+        "Оговорка об ограниченном переносе графических связей и перечень подписей читаются; ложной линейнойцепи в рабочемтексте нет.",
+        "В desktoptiles001/002 просмотрены все5строк и7колонок таблицы, надстрочные², периоды2018/2024/2025, единицы и сноска2.",
+        "Заголовок «Достижение» разрывается между строками посреди слова; содержание доступно, но типографика требует улучшения."
+      ],
+      "limitations": [
+        "ПросмотренныеPNG подтверждают только названные зоны отображения; семантические статусы не повышаются.",
+        "Не проверялись клики/ссылки и every-cell access на непосмотренных горизонтальных позициях."
+      ]
+    },
+    {
+      "report": "GAZP-2023-ЭО_76",
+      "viewed": [
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2023-ЭО_76/tile_1440_000.png",
+          "capture_metadata": {
+            "path": "tile_1440_000.png",
+            "requested_y": 0,
+            "actual_y": 0
+          },
+          "sha256_at_report_write": "a618fbbe412fb7ca8796e6339dfded739ffbc33ad4a138f23e44f63d08166883",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2023-ЭО_76/tile_1440_001.png",
+          "capture_metadata": {
+            "path": "tile_1440_001.png",
+            "requested_y": 900,
+            "actual_y": 900
+          },
+          "sha256_at_report_write": "46a807c166dad1f91f656aa0c31bf6a75192c698492fa25650868b271bbe31ad",
+          "capture_version": "archived rendered_capture_v1"
+        }
+      ],
+      "unviewed_tiles": [
+        "tile_1440_002.png",
+        "tile_1440_003.png",
+        "tile_390_000.png",
+        "tile_390_001.png",
+        "tile_390_002.png",
+        "tile_390_003.png"
+      ],
+      "observations": [
+        "Восстановленный текстлоготипа Б1 и двуязычные реквизиты отображаются без отсутствующего logoasset.",
+        "Явная пометка неоднозначности сайта1/l читается, неподтверждённый URL не выдаётся за точный.",
+        "Все3таблицы видны в desktoptile001; числа и нижниеиндексыCO₂/CH₄ не потеряны.",
+        "Оговорка ограниченияобъёма аудиторскогозадания присутствует под последнейтаблицей."
+      ],
+      "limitations": [
+        "ПросмотренныеPNG подтверждают только названные зоны отображения; семантические статусы не повышаются.",
+        "Не проверялись клики/ссылки и every-cell access на непосмотренных горизонтальных позициях."
+      ]
+    },
+    {
+      "report": "GAZP-2023-ОУР_57",
+      "viewed": [
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2023-ОУР_57/tile_1440_000.png",
+          "capture_metadata": {
+            "path": "tile_1440_000.png",
+            "requested_y": 0,
+            "actual_y": 0
+          },
+          "sha256_at_report_write": "d8ff3885e528bd13eb1bc50c6532feac831c6d95afc8470055c6cb7ce0b014ad",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2023-ОУР_57/tile_1440_001.png",
+          "capture_metadata": {
+            "path": "tile_1440_001.png",
+            "requested_y": 900,
+            "actual_y": 900
+          },
+          "sha256_at_report_write": "6e6cf278e9d8c3b5e66e91eb65ed960799bc6d0381f3f68672c03116f8eefb65",
+          "capture_version": "archived rendered_capture_v1"
+        },
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/GAZP-2023-ОУР_57/tile_1440_002.png",
+          "capture_metadata": {
+            "path": "tile_1440_002.png",
+            "requested_y": 1800,
+            "actual_y": 1800
+          },
+          "sha256_at_report_write": "8daca4c763e685cff7f4e1a94091f8f6a535286c13effe558ab00788fbf4adfd",
+          "capture_version": "archived rendered_capture_v1"
+        }
+      ],
+      "unviewed_tiles": [
+        "tile_1440_003.png",
+        "tile_1440_004.png",
+        "tile_390_000.png",
+        "tile_390_001.png",
+        "tile_390_002.png",
+        "tile_390_003.png",
+        "tile_390_004.png",
+        "tile_390_005.png",
+        "tile_390_006.png",
+        "table_x0_390_0_000.png",
+        "table_x0_390_0_001.png",
+        "table_x98_390_0_000.png",
+        "table_x98_390_0_001.png",
+        "table_x0_390_1_000.png",
+        "table_x152_390_1_000.png",
+        "table_x0_390_2_000.png",
+        "table_x138_390_2_000.png",
+        "table_x0_390_3_000.png",
+        "table_x138_390_3_000.png"
+      ],
+      "observations": [
+        "На desktoptiles000/001/002 просмотрены все4таблицы и13сносок;0,173²,76,6²,1,963 отображались раздельно от сносок.",
+        "В предшествующем capture на tile002 найдена автоперенумерация навигации3–8 вместо исходных3,4,5,6,2,1. HTML подтверждалol start3.",
+        "РабочаяMD исправлена после сообщения ведущему: точки экранированы, строки разделеныhardbreaks. MarkdownIt подтвердил буквальные3,4,5,6,2,1 и5br безol; post-fix viewportPNG отдельно просмотрен: номера3,4,5,6,2,1 сохранены."
+      ],
+      "limitations": [
+        "ПросмотренныеPNG подтверждают только названные зоны отображения; семантические статусы не повышаются.",
+        "Не проверялись клики/ссылки и every-cell access на непосмотренных горизонтальных позициях.",
+        "Основные прежние viewportнаблюдения относятся к rendered_capture_v1; текущий post-fix кадр отдельно привязан выше. Полный новый capture всех страниц не перечитывался."
+      ],
+      "corrected_working_sha256": "0e439660e7123d71a739058417beda6d96a48d2be7c367213a30d42b9f8f880e",
+      "postfix_visual_readback": {
+        "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered/GAZP-2023-ОУР_57/tile_1440_002.png",
+        "sha256": "691ddaacbafdf0f4f1a7a761b9946d45559af1cdd495a7eb583fbfdd21f29d83",
+        "observed_at": "2026-11-17T06:00:22.345762+00:00",
+        "finding": "На фактическом post-fix PNG навигация отображается3,4,5,6,2,1 раздельными строками; автоматических7/8 больше нет. Числовая таблицаFAR и примечания сохранены.",
+        "working_sha256": "0e439660e7123d71a739058417beda6d96a48d2be7c367213a30d42b9f8f880e"
+      }
+    },
+    {
+      "report": "TRMK-2023-ИО_4",
+      "viewed": [
+        {
+          "path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/rendered_capture_v1/TRMK-2023-ИО_4/tile_1440_000.png",
+          "capture_metadata": {
+            "path": "tile_1440_000.png",
+            "requested_y": 0,
+            "actual_y": 0
+          },
+          "sha256_at_report_write": "0c0d132839c06ef97f42b2f85d2acc77385ed05079754e105a9b131810efc8d7",
+          "capture_version": "archived rendered_capture_v1"
+        }
+      ],
+      "unviewed_tiles": [
+        "tile_1440_001.png",
+        "tile_390_000.png",
+        "tile_390_001.png",
+        "tile_390_002.png"
+      ],
+      "observations": [
+        "Desktoptile000 показывает весь основнойтекст:2001/2023,6,6млнтонн,тикерTRMK,подписьфотографии; текст не наезжает и не обрезан.",
+        "Видна верхняячасть исходногоизображения; полныйнижнийрастр и mobileвид не просмотрены."
+      ],
+      "limitations": [
+        "ПросмотренныеPNG подтверждают только названные зоны отображения; семантические статусы не повышаются.",
+        "Не проверялись клики/ссылки и every-cell access на непосмотренных горизонтальных позициях."
+      ]
+    }
+  ],
+  "summary": {
+    "assigned_pages": 5,
+    "new_viewport_pngs_inspected": 13,
+    "full_display_or_semantic_checked": false,
+    "critical_content_display_defects_found": 1,
+    "critical_defects_fixed_in_working_md": 1,
+    "postfix57_visual_capture_review_pending": false,
+    "readability_notes": [
+      "Mobile75 firstcolumn wordfragmentation; horizontal scrolling exposes full numeric cells.",
+      "Desktop109 Достижение header wraps midword.",
+      "Ведущий сообщил об обновленииCSS для переноса слов; ранее отмеченные переносы относятся к archived capture_v1. НовыйCSS целиком этимпроверяющим не пересматривался."
+    ],
+    "capture_versions": "12 archived viewport captures plus one current post-fix57 capture"
+  },
+  "no_semantic_status_promotion": true
+}

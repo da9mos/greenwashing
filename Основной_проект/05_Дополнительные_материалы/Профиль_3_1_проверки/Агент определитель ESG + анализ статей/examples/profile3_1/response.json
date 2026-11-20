@@ -1,0 +1,235 @@
+{
+  "schema_version": "esg-extraction-3.0",
+  "source_sha256": "7bf6d0b2404f828693d2e808e69e90623e3bd8c15cd993d99852d7b3bfebf78c",
+  "batch_id": "DEMO-2024_b0001",
+  "reviewer": "Codex: synthetic illustrative walkthrough; not independent validation",
+  "claims": [
+    {
+      "id": "DEMO-2024-001",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "Компания в 2024 году сократила выбросы на 10%.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Иллюстративное решение Codex по профилю3.1; не независимый тест модели",
+      "evidence": [
+        {
+          "block_id": "DEMO-2024:p1:b1",
+          "quote": "Компания в 2024 году сократила выбросы на 10%.",
+          "role": "statement"
+        },
+        {
+          "block_id": "DEMO-2024:p1:b1",
+          "quote": "Компания",
+          "role": "subject"
+        },
+        {
+          "block_id": "DEMO-2024:p1:b1",
+          "quote": "выбросы",
+          "role": "metric"
+        },
+        {
+          "block_id": "DEMO-2024:p1:b1",
+          "quote": "10%",
+          "role": "value"
+        },
+        {
+          "block_id": "DEMO-2024:p1:b1",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "DEMO-2024:p1:b1",
+          "quote": "2024",
+          "role": "period"
+        }
+      ],
+      "quantitative": true,
+      "metric": "выбросы",
+      "value": "10%",
+      "unit": "%",
+      "period": "2024",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Компания в 2024 году сократила выбросы на 10%.",
+        "esg_object": "экологический результат по выбросам",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "DEMO-2024-002",
+      "type": "результат",
+      "block": "S",
+      "topic": "клиенты и качество",
+      "block2": "",
+      "statement": "Компания сообщила об утечке персональных данных клиентов.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Иллюстративное решение Codex по профилю3.1; не независимый тест модели",
+      "evidence": [
+        {
+          "block_id": "DEMO-2024:p1:b2",
+          "quote": "Компания сообщила об утечке персональных данных клиентов.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S3",
+        "subject": "Компания",
+        "proposition": "Компания сообщила об утечке персональных данных клиентов.",
+        "esg_object": "приватность клиентов",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "DEMO-2024-003",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "E",
+      "statement": "Компания создала комитет по надзору за климатическими рисками.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Иллюстративное решение Codex по профилю3.1; не независимый тест модели",
+      "evidence": [
+        {
+          "block_id": "DEMO-2024:p1:b3",
+          "quote": "Компания создала комитет по надзору за климатическими рисками.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "Компания",
+        "proposition": "Компания создала комитет по надзору за климатическими рисками.",
+        "esg_object": "механизм надзора за климатическими рисками",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "DEMO-2024-004",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "E",
+      "statement": "Компания связала премирование директора с выбросами и травматизмом.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Иллюстративное решение Codex по профилю3.1; не независимый тест модели",
+      "evidence": [
+        {
+          "block_id": "DEMO-2024:p1:b4",
+          "quote": "Компания связала премирование директора с выбросами и травматизмом.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "Компания",
+        "proposition": "Компания связала премирование директора с выбросами и травматизмом.",
+        "esg_object": "структура стимулов директора; экологический и трудовой KPI",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "E",
+          "S"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "block_id": "DEMO-2024:p1:b1",
+      "status": "extracted",
+      "reason": "Есть приписываемая компании ESG-пропозиция",
+      "claim_ids": [
+        "DEMO-2024-001"
+      ]
+    },
+    {
+      "block_id": "DEMO-2024:p1:b2",
+      "status": "extracted",
+      "reason": "Есть приписываемая компании ESG-пропозиция",
+      "claim_ids": [
+        "DEMO-2024-002"
+      ]
+    },
+    {
+      "block_id": "DEMO-2024:p1:b3",
+      "status": "extracted",
+      "reason": "Есть приписываемая компании ESG-пропозиция",
+      "claim_ids": [
+        "DEMO-2024-003"
+      ]
+    },
+    {
+      "block_id": "DEMO-2024:p1:b4",
+      "status": "extracted",
+      "reason": "Есть приписываемая компании ESG-пропозиция",
+      "claim_ids": [
+        "DEMO-2024-004"
+      ]
+    },
+    {
+      "block_id": "DEMO-2024:p1:b5",
+      "status": "pending",
+      "reason": "Не установлен конкретный ESG-предмет; не назначаем G автоматически",
+      "claim_ids": []
+    },
+    {
+      "block_id": "DEMO-2024:p1:b6",
+      "status": "excluded",
+      "reason": "Обычная выручка без ESG-связи",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "root": "13xgBN54QOJrpUTmaMDKN9MTcjcwE5PKa",
+  "corpus": {
+    "success": true,
+    "id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae",
+    "url": "https://drive.google.com/drive/folders/13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae",
+    "title": "Все 92 отчёта",
+    "parent_id": "1nmptGpBL97eWHw65TuD8iIBYyFuOSHBe"
+  },
+  "companies": {
+    "Газпром": {
+      "success": true,
+      "id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "url": "https://drive.google.com/drive/folders/1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "title": "Газпром",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    },
+    "Иркутская нефтяная компания": {
+      "success": true,
+      "id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "url": "https://drive.google.com/drive/folders/1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "title": "Иркутская нефтяная компания",
+      "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+    }
+  },
+  "uploads": [
+    {
+      "kind": "zip",
+      "report": "GAZP-2023-ЭО",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "152gOyWxhTlgkmZ-RkKYZuqeBcrSIl9eL",
+      "title": "GAZP-2023-ЭО.zip",
+      "file_name": "GAZP-2023-ЭО.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/152gOyWxhTlgkmZ-RkKYZuqeBcrSIl9eL/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "152gOyWxhTlgkmZ-RkKYZuqeBcrSIl9eL",
+        "title": "GAZP-2023-ЭО.zip",
+        "file_name": "GAZP-2023-ЭО.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/152gOyWxhTlgkmZ-RkKYZuqeBcrSIl9eL/view?usp=drivesdk",
+        "parent_id": "13yAiL0CYNSbOAr8ztbOk3cTeVEst4Uae"
+      }
+    },
+    {
+      "report": "GAZP-2023-ОУР",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1jPBMoWV-vmNNLlnmYKrwGan__INF9AcW",
+      "title": "GAZP-2023-ОУР.md",
+      "file_name": "GAZP-2023-ОУР.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1jPBMoWV-vmNNLlnmYKrwGan__INF9AcW/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1jPBMoWV-vmNNLlnmYKrwGan__INF9AcW",
+        "title": "GAZP-2023-ОУР.md",
+        "file_name": "GAZP-2023-ОУР.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1jPBMoWV-vmNNLlnmYKrwGan__INF9AcW/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2023-ОУР",
+      "kind": "zip:GAZP-2023-ОУР.part01.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1w8R_gZHRZZZAF4FtCjq6wzBsMcjgUrYQ",
+      "title": "GAZP-2023-ОУР.part01.zip",
+      "file_name": "GAZP-2023-ОУР.part01.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1w8R_gZHRZZZAF4FtCjq6wzBsMcjgUrYQ/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1w8R_gZHRZZZAF4FtCjq6wzBsMcjgUrYQ",
+        "title": "GAZP-2023-ОУР.part01.zip",
+        "file_name": "GAZP-2023-ОУР.part01.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1w8R_gZHRZZZAF4FtCjq6wzBsMcjgUrYQ/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2023-ОУР",
+      "kind": "zip:GAZP-2023-ОУР.part02.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1VvGx1SGdEUHEdud1WBSrX5YVe8AGgJJJ",
+      "title": "GAZP-2023-ОУР.part02.zip",
+      "file_name": "GAZP-2023-ОУР.part02.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1VvGx1SGdEUHEdud1WBSrX5YVe8AGgJJJ/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1VvGx1SGdEUHEdud1WBSrX5YVe8AGgJJJ",
+        "title": "GAZP-2023-ОУР.part02.zip",
+        "file_name": "GAZP-2023-ОУР.part02.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1VvGx1SGdEUHEdud1WBSrX5YVe8AGgJJJ/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2023-ЭО",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1QOBZ7wr2wRS0KhXYm9jkeheUGK8AkBMN",
+      "title": "GAZP-2023-ЭО.md",
+      "file_name": "GAZP-2023-ЭО.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1QOBZ7wr2wRS0KhXYm9jkeheUGK8AkBMN/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1QOBZ7wr2wRS0KhXYm9jkeheUGK8AkBMN",
+        "title": "GAZP-2023-ЭО.md",
+        "file_name": "GAZP-2023-ЭО.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1QOBZ7wr2wRS0KhXYm9jkeheUGK8AkBMN/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2024-ОУР",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1bTfT9ZZbYulGjoYwqZDDpKMZlr0aSCCq",
+      "title": "GAZP-2024-ОУР.md",
+      "file_name": "GAZP-2024-ОУР.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1bTfT9ZZbYulGjoYwqZDDpKMZlr0aSCCq/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1bTfT9ZZbYulGjoYwqZDDpKMZlr0aSCCq",
+        "title": "GAZP-2024-ОУР.md",
+        "file_name": "GAZP-2024-ОУР.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1bTfT9ZZbYulGjoYwqZDDpKMZlr0aSCCq/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2024-ОУР",
+      "kind": "zip:GAZP-2024-ОУР.part01.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "13v_w1Ys3N7kKg1Dp_Ejvv2g3wfwRR5SP",
+      "title": "GAZP-2024-ОУР.part01.zip",
+      "file_name": "GAZP-2024-ОУР.part01.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/13v_w1Ys3N7kKg1Dp_Ejvv2g3wfwRR5SP/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "13v_w1Ys3N7kKg1Dp_Ejvv2g3wfwRR5SP",
+        "title": "GAZP-2024-ОУР.part01.zip",
+        "file_name": "GAZP-2024-ОУР.part01.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/13v_w1Ys3N7kKg1Dp_Ejvv2g3wfwRR5SP/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2024-ОУР",
+      "kind": "zip:GAZP-2024-ОУР.part02.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1Zut8dk9Lu4FaNxqy626xXq1L5S4VhJ9R",
+      "title": "GAZP-2024-ОУР.part02.zip",
+      "file_name": "GAZP-2024-ОУР.part02.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1Zut8dk9Lu4FaNxqy626xXq1L5S4VhJ9R/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1Zut8dk9Lu4FaNxqy626xXq1L5S4VhJ9R",
+        "title": "GAZP-2024-ОУР.part02.zip",
+        "file_name": "GAZP-2024-ОУР.part02.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1Zut8dk9Lu4FaNxqy626xXq1L5S4VhJ9R/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2025-ОУР",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1tk1Vg4NE932i_Ig2uxXEvKao2p9h1SMj",
+      "title": "GAZP-2025-ОУР.md",
+      "file_name": "GAZP-2025-ОУР.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1tk1Vg4NE932i_Ig2uxXEvKao2p9h1SMj/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1tk1Vg4NE932i_Ig2uxXEvKao2p9h1SMj",
+        "title": "GAZP-2025-ОУР.md",
+        "file_name": "GAZP-2025-ОУР.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1tk1Vg4NE932i_Ig2uxXEvKao2p9h1SMj/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2025-ОУР",
+      "kind": "zip:GAZP-2025-ОУР.part01.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1O4ZxlO-rwsv4yKuI-ywwHcl2_6Qtn-0P",
+      "title": "GAZP-2025-ОУР.part01.zip",
+      "file_name": "GAZP-2025-ОУР.part01.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1O4ZxlO-rwsv4yKuI-ywwHcl2_6Qtn-0P/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1O4ZxlO-rwsv4yKuI-ywwHcl2_6Qtn-0P",
+        "title": "GAZP-2025-ОУР.part01.zip",
+        "file_name": "GAZP-2025-ОУР.part01.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1O4ZxlO-rwsv4yKuI-ywwHcl2_6Qtn-0P/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "GAZP-2025-ОУР",
+      "kind": "zip:GAZP-2025-ОУР.part02.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1uG2ZB42NZjTgGZmUFY1hv5X2b921_Jc-",
+      "title": "GAZP-2025-ОУР.part02.zip",
+      "file_name": "GAZP-2025-ОУР.part02.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1uG2ZB42NZjTgGZmUFY1hv5X2b921_Jc-/view?usp=drivesdk",
+      "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1uG2ZB42NZjTgGZmUFY1hv5X2b921_Jc-",
+        "title": "GAZP-2025-ОУР.part02.zip",
+        "file_name": "GAZP-2025-ОУР.part02.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1uG2ZB42NZjTgGZmUFY1hv5X2b921_Jc-/view?usp=drivesdk",
+        "parent_id": "1_X7AU1fvIl37yB8h4PoCCjtR69Z2qA8j"
+      }
+    },
+    {
+      "report": "IRKN-2023-ИО",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1nzUrv_UV8rWST5wKaRHqByVWOrgYOSvz",
+      "title": "IRKN-2023-ИО.md",
+      "file_name": "IRKN-2023-ИО.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1nzUrv_UV8rWST5wKaRHqByVWOrgYOSvz/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1nzUrv_UV8rWST5wKaRHqByVWOrgYOSvz",
+        "title": "IRKN-2023-ИО.md",
+        "file_name": "IRKN-2023-ИО.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1nzUrv_UV8rWST5wKaRHqByVWOrgYOSvz/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2023-ИО",
+      "kind": "zip:IRKN-2023-ИО.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1fWAocXmVApVVEUWjVrwJemsbe_mLf62t",
+      "title": "IRKN-2023-ИО.zip",
+      "file_name": "IRKN-2023-ИО.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1fWAocXmVApVVEUWjVrwJemsbe_mLf62t/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1fWAocXmVApVVEUWjVrwJemsbe_mLf62t",
+        "title": "IRKN-2023-ИО.zip",
+        "file_name": "IRKN-2023-ИО.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1fWAocXmVApVVEUWjVrwJemsbe_mLf62t/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2024-ИО",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "14dHtzptxBDTaNAV7vgXYVvPJ_xw6BWXC",
+      "title": "IRKN-2024-ИО.md",
+      "file_name": "IRKN-2024-ИО.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/14dHtzptxBDTaNAV7vgXYVvPJ_xw6BWXC/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "14dHtzptxBDTaNAV7vgXYVvPJ_xw6BWXC",
+        "title": "IRKN-2024-ИО.md",
+        "file_name": "IRKN-2024-ИО.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/14dHtzptxBDTaNAV7vgXYVvPJ_xw6BWXC/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2024-ИО",
+      "kind": "zip:IRKN-2024-ИО.part01.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "19ScILGJczaJWvhFJbCVd1kwhLwPD62mn",
+      "title": "IRKN-2024-ИО.part01.zip",
+      "file_name": "IRKN-2024-ИО.part01.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/19ScILGJczaJWvhFJbCVd1kwhLwPD62mn/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "19ScILGJczaJWvhFJbCVd1kwhLwPD62mn",
+        "title": "IRKN-2024-ИО.part01.zip",
+        "file_name": "IRKN-2024-ИО.part01.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/19ScILGJczaJWvhFJbCVd1kwhLwPD62mn/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2024-ИО",
+      "kind": "zip:IRKN-2024-ИО.part02.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1ODgRF1o0RrvB3ml69qnJblZnZYlzAAFM",
+      "title": "IRKN-2024-ИО.part02.zip",
+      "file_name": "IRKN-2024-ИО.part02.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1ODgRF1o0RrvB3ml69qnJblZnZYlzAAFM/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1ODgRF1o0RrvB3ml69qnJblZnZYlzAAFM",
+        "title": "IRKN-2024-ИО.part02.zip",
+        "file_name": "IRKN-2024-ИО.part02.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1ODgRF1o0RrvB3ml69qnJblZnZYlzAAFM/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2024-ИО",
+      "kind": "zip:IRKN-2024-ИО.part03.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1I-QOX7Kq3BdChzSM97lo5QtuhhGESt7i",
+      "title": "IRKN-2024-ИО.part03.zip",
+      "file_name": "IRKN-2024-ИО.part03.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1I-QOX7Kq3BdChzSM97lo5QtuhhGESt7i/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1I-QOX7Kq3BdChzSM97lo5QtuhhGESt7i",
+        "title": "IRKN-2024-ИО.part03.zip",
+        "file_name": "IRKN-2024-ИО.part03.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1I-QOX7Kq3BdChzSM97lo5QtuhhGESt7i/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2025-ИО",
+      "kind": "md",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1TJTPa7LdF5TqMIn4WZjooSO6b-qQ8veo",
+      "title": "IRKN-2025-ИО.md",
+      "file_name": "IRKN-2025-ИО.md",
+      "mime_type": "text/markdown",
+      "url": "https://drive.google.com/file/d/1TJTPa7LdF5TqMIn4WZjooSO6b-qQ8veo/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1TJTPa7LdF5TqMIn4WZjooSO6b-qQ8veo",
+        "title": "IRKN-2025-ИО.md",
+        "file_name": "IRKN-2025-ИО.md",
+        "mime_type": "text/markdown",
+        "url": "https://drive.google.com/file/d/1TJTPa7LdF5TqMIn4WZjooSO6b-qQ8veo/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2025-ИО",
+      "kind": "zip:IRKN-2025-ИО.part01.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1xVy8mK756a0mnWW9RWo9hFrkKJsskmUv",
+      "title": "IRKN-2025-ИО.part01.zip",
+      "file_name": "IRKN-2025-ИО.part01.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1xVy8mK756a0mnWW9RWo9hFrkKJsskmUv/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1xVy8mK756a0mnWW9RWo9hFrkKJsskmUv",
+        "title": "IRKN-2025-ИО.part01.zip",
+        "file_name": "IRKN-2025-ИО.part01.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1xVy8mK756a0mnWW9RWo9hFrkKJsskmUv/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2025-ИО",
+      "kind": "zip:IRKN-2025-ИО.part02.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "16A93_gNZVuJn0TToRfqhyJVfu0uGTucw",
+      "title": "IRKN-2025-ИО.part02.zip",
+      "file_name": "IRKN-2025-ИО.part02.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/16A93_gNZVuJn0TToRfqhyJVfu0uGTucw/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "16A93_gNZVuJn0TToRfqhyJVfu0uGTucw",
+        "title": "IRKN-2025-ИО.part02.zip",
+        "file_name": "IRKN-2025-ИО.part02.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/16A93_gNZVuJn0TToRfqhyJVfu0uGTucw/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    },
+    {
+      "report": "IRKN-2025-ИО",
+      "kind": "zip:IRKN-2025-ИО.part03.zip",
+      "accepted_input": "file_uri",
+      "success": true,
+      "id": "1EAdn6kOGPvUeHVhWGd_4sIZlKr0xkYGf",
+      "title": "IRKN-2025-ИО.part03.zip",
+      "file_name": "IRKN-2025-ИО.part03.zip",
+      "mime_type": "application/zip",
+      "url": "https://drive.google.com/file/d/1EAdn6kOGPvUeHVhWGd_4sIZlKr0xkYGf/view?usp=drivesdk",
+      "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO",
+      "structuredContent": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1EAdn6kOGPvUeHVhWGd_4sIZlKr0xkYGf",
+        "title": "IRKN-2025-ИО.part03.zip",
+        "file_name": "IRKN-2025-ИО.part03.zip",
+        "mime_type": "application/zip",
+        "url": "https://drive.google.com/file/d/1EAdn6kOGPvUeHVhWGd_4sIZlKr0xkYGf/view?usp=drivesdk",
+        "parent_id": "1zzfN8nwx-WgK7WkeNGA5PXMft9eNzWyO"
+      }
+    }
+  ]
+}

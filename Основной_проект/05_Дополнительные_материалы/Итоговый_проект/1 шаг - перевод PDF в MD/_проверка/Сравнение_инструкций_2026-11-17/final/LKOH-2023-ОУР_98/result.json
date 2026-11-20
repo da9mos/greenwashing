@@ -1,0 +1,1277 @@
+{
+  "report_id": "LKOH-2023-ОУР",
+  "pdf_page": 98,
+  "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+  "version": "instruction-ab-final-20261117",
+  "seconds": 10.52,
+  "answer": {
+    "pdf_page": 98,
+    "markdown": "lukoil.ru\n\n06 Отчете | О Компании | 01 | Стратегия и корпоративное управление | 02 | Климат и природа | 03 | Люди и отношения | Приложения\n\n# Выбросы\n\n## Валовые выбросы в атмосферу загрязняющих веществ (без учета CO2) по Группе «ЛУКОЙЛ»\n\n| Показатели | Ед. изм. | 2019 | 2020 | 2021 | 2022 | 2023 | Системы отчетности GRI | SASB | IPIECA | Другие |\n|---|---|---|---|---|---|---|---|---|---|---|\n| **Общий объем выбросов загрязняющих веществ** | тыс. т | 429 | 395 | 425 | 457 | **467** | GRI 305-7 | | ENV-5 C1 | БИР; МЭР 19 |\n| ✓ Российские организации | тыс. т | 402 | 376 | 403 | 437 | **455** | GRI 305-7 | | ENV-5 C1 | БИР |\n| ✓ Зарубежные организации | тыс. т | 26 | 19 | 22 | 20 | **12** | GRI 305-7 | | ENV-5 C1 | БИР |\n| Доля выбросов загрязняющих веществ в атмосферу от производств, расположенных в городах численностью более 1 млн человек (Волгоград, Пермь) | % | | | 4,4 | **4,3** | | | EM-RM-120a.2 | | |\n| Количество НПЗ, расположенных в густонаселенных городах (свыше 1 млн человек) | шт. | | | 2 | **2** | | | EM-RM-120a.2 | | |\n\n**Объем выбросов в разбивке по видам загрязняющих веществ:**\n\n| Показатели | Ед. изм. | 2019 | 2020 | 2021 | 2022 | 2023 | Системы отчетности GRI | SASB | IPIECA | Другие |\n|---|---|---|---|---|---|---|---|---|---|---|\n| **Выбросы NOx** | тыс. т | **49** | **45** | **42** | **41** | **40** | GRI 305-7 | | ENV-5 C1 | |\n| В разбивке по видам деятельности | | | | | | | | | | |\n| ✓ Геологоразведка и добыча | тыс. т | | | 17 | 15 | **15** | GRI 305-7 | EM-EP-120a.1 | ENV-5 C1 | |\n| ✓ Нефтепереработка, нефтехимия | тыс. т | | | 7 | 9 | **7** | GRI 305-7 | EM-RM-120a.1 | ENV-5 C1 | |\n| ✓ Электроэнергетика | тыс. т | | | 17 | 17 | **18** | GRI 305-7 | | ENV-5 C1 | |\n| ✓ НПО, Транспортировка | тыс. т | | | 0,3 | 0 | **0** | GRI 305-7 | EM-MD-120a.1 | ENV-5 C1 | |\n| В разбивке по географии | | | | | | | | | | |\n| ✓ Российские организации | тыс. т | 46 | 42 | 40 | 37 | **38** | GRI 305-7 | | | |\n| ✓ Зарубежные организации | тыс. т | 3 | 3 | 2 | 3,5 | **1,3** | GRI 305-7 | | | |\n| **Выбросы SO2** | тыс. т | **41** | **31** | **35** | **33** | **24** | GRI 305-7 | | ENV-5 C1 | |\n| В разбивке по видам деятельности | | | | | | | | | | |\n| ✓ Геологоразведка и добыча | тыс. т | | | 19 | 15 | **13** | GRI 305-7 | EM-EP-120a.1 | ENV-5 C1 | |\n| ✓ Нефтепереработка, нефтехимия | тыс. т | | | 15 | 16 | **10** | GRI 305-7 | EM-RM-120a.1 | ENV-5 C1 | |\n| ✓ Электроэнергетика | тыс. т | | | 0,3 | 0,6 | **0,3** | GRI 305-7 | | ENV-5 C1 | |\n| ✓ НПО, Транспортировка | тыс. т | | | 0,7 | 0,6 | **0,5** | GRI 305-7 | EM-MD-120a.1 | ENV-5 C1 | |\n\n## Продолжение таблицы (правая колонка)\n\n| Показатели | Ед. изм. | 2019 | 2020 | 2021 | 2022 | 2023 | Системы отчетности GRI | SASB | IPIECA | Другие |\n|---|---|---|---|---|---|---|---|---|---|---|\n| В разбивке по географии | | | | | | | | | | |\n| ✓ Российские организации | тыс. т | 22 | 19 | 19 | 20,5 | **17,6** | GRI 305-7 | | | |\n| ✓ Зарубежные организации | тыс. т | 19 | 12 | 16 | 12 | **7** | GRI 305-7 | | | |\n| **Выбросы твердых веществ** | тыс. т | **15** | **14** | **18** | **21** | **24** | GRI 305-7 | | ENV-5 A1 | |\n| В разбивке по видам деятельности | | | | | | | | | | |\n| ✓ Геологоразведка и добыча | тыс. т | | | 18 | 20 | **24** | GRI 305-7 | EM-EP-120a.1 | ENV-5 A1 | |\n| ✓ Нефтепереработка, нефтехимия | тыс. т | | | 0,4 | 0,6 | **0,8** | GRI 305-7 | EM-RM-120a.1 | ENV-5 A1 | |\n| ✓ Электроэнергетика | тыс. т | | | 0,03 | 0,03 | **0,03** | GRI 305-7 | | ENV-5 A1 | |\n| ✓ НПО, Транспортировка | тыс. т | | | 0,04 | 0,03 | **0,04** | GRI 305-7 | EM-MD-120a.1 | ENV-5 A1 | |\n| В разбивке по географии | | | | | | | | | | |\n| ✓ Российские организации | тыс. т | 15 | 14 | 18 | 20 | **24** | GRI 305-7 | | | |\n| ✓ Зарубежные организации | тыс. т | 0,2 | 0,2 | 0,2 | 0,2 | **0,2** | GRI 305-7 | | | |\n| **Выбросы СO** | тыс. т | **155** | **143** | **177** | **198** | **226** | GRI 305-7 | | ENV-5 A1 | |\n| В разбивке по видам деятельности | | | | | | | | | | |\n| ✓ Геологоразведка и добыча | тыс. т | | | 167 | 189 | **217** | GRI 305-7 | | ENV-5 A1 | |\n| ✓ Нефтепереработка, нефтехимия | тыс. т | | | 5 | 6 | **5** | GRI 305-7 | | ENV-5 A1 | |\n| ✓ Электроэнергетика | тыс. т | | | 4 | 4 | **4** | GRI 305-7 | | ENV-5 A1 | |\n| ✓ НПО, Транспортировка | тыс. т | | | 0,2 | 0,3 | **0,4** | GRI 305-7 | | ENV-5 A1 | |\n| В разбивке по географии | | | | | | | | | | |\n| ✓ Российские организации | тыс. т | 152 | 141 | 175 | 196,5 | **224,8** | GRI 305-7 | | | |\n| ✓ Зарубежные организации | тыс. т | 2 | 2 | 2 | 1,7 | **1,5** | GRI 305-7 | | | |\n| **Выбросы углеводородов** | тыс. т | **61** | **49** | **37** | **40** | **32** | GRI 305-7 | | | |\n| В разбивке по видам деятельности | | | | | | | | | | |\n| ✓ Геологоразведка и добыча | тыс. т | | | 35 | 37 | **30,6** | GRI 305-7 | | | |\n| ✓ Нефтепереработка, нефтехимия | тыс. т | | | 2 | 2 | **1,3** | GRI 305-7 | | | |\n| ✓ Электроэнергетика | тыс. т | | | 0,2 | 0,5 | **0,03** | GRI 305-7 | | | |\n| ✓ НПО, Транспортировка | тыс. т | | | 0,02 | 0,03 | **0,05** | GRI 305-7 | | | |\n\n192 Отчет об устойчивом развитии Группы «ЛУКОЙЛ» за 2023 год 193",
+    "issues": []
+  },
+  "numeric_comparison": {
+    "method": "normal_PDF_spans_individually; no_cross_span_number_join",
+    "pdf_decimal_tokens": 42,
+    "markdown_decimal_tokens": 42,
+    "pdf_only": {},
+    "markdown_only": {},
+    "pdf_span_evidence": [],
+    "markdown_evidence": [],
+    "excluded_superscript_decimal_spans": []
+  },
+  "source_block_coverage": [
+    {
+      "source_id": "p98:block0",
+      "bbox": [
+        33.9364013671875,
+        766.6487426757812,
+        1213.00634765625,
+        778.5386962890625
+      ],
+      "source_tokens": 11,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block1",
+      "bbox": [
+        34.01570129394531,
+        12.538078308105469,
+        1218.4298095703125,
+        26.387977600097656
+      ],
+      "source_tokens": 20,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block2",
+      "bbox": [
+        694.6383056640625,
+        83.98318481445312,
+        1147.8416748046875,
+        94.07268524169922
+      ],
+      "source_tokens": 10,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block3",
+      "bbox": [
+        1023.6478271484375,
+        103.12517547607422,
+        1197.6513671875,
+        113.19767761230469
+      ],
+      "source_tokens": 4,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block4",
+      "bbox": [
+        694.6297607421875,
+        121.83367156982422,
+        803.8367919921875,
+        131.9061737060547
+      ],
+      "source_tokens": 4,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block5",
+      "bbox": [
+        694.6297607421875,
+        138.17066955566406,
+        1049.3228759765625,
+        150.35116577148438
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block6",
+      "bbox": [
+        694.6356201171875,
+        155.86256408691406,
+        1049.3228759765625,
+        168.04306030273438
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block7",
+      "bbox": [
+        694.6383056640625,
+        174.84738159179688,
+        1156.7210693359375,
+        184.96238708496094
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block8",
+      "bbox": [
+        694.6383056640625,
+        192.57421875,
+        846.7637329101562,
+        202.64671325683594
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block9",
+      "bbox": [
+        694.6383056640625,
+        208.91969299316406,
+        782.7747802734375,
+        221.10018920898438
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block10",
+      "bbox": [
+        705.977294921875,
+        220.2586669921875,
+        745.1911010742188,
+        230.33116149902344
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block11",
+      "bbox": [
+        823.8807983398438,
+        210.22018432617188,
+        1156.7210693359375,
+        220.33518981933594
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block12",
+      "bbox": [
+        694.635498046875,
+        236.5998077392578,
+        794.8759765625,
+        248.78030395507812
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block13",
+      "bbox": [
+        705.9744873046875,
+        247.93878173828125,
+        759.1044311523438,
+        258.0112609863281
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block14",
+      "bbox": [
+        823.8779907226562,
+        237.90029907226562,
+        1156.7210693359375,
+        248.0153045654297
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block15",
+      "bbox": [
+        694.635498046875,
+        264.2840576171875,
+        1156.7210693359375,
+        276.4645690917969
+      ],
+      "source_tokens": 12,
+      "token_recall": 0.9167,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block16",
+      "bbox": [
+        694.635498046875,
+        281.9682922363281,
+        1156.7210693359375,
+        294.1488037109375
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block17",
+      "bbox": [
+        694.6383056640625,
+        300.99560546875,
+        803.8453369140625,
+        311.0680847167969
+      ],
+      "source_tokens": 4,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block18",
+      "bbox": [
+        694.6383056640625,
+        317.3410949707031,
+        1049.3228759765625,
+        329.5216064453125
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block19",
+      "bbox": [
+        694.6356201171875,
+        335.02117919921875,
+        1049.3228759765625,
+        347.2016906738281
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block20",
+      "bbox": [
+        694.6383056640625,
+        354.0059814453125,
+        1156.7210693359375,
+        364.1209716796875
+      ],
+      "source_tokens": 15,
+      "token_recall": 0.8667,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "со",
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block21",
+      "bbox": [
+        694.6383056640625,
+        371.7327880859375,
+        846.7637329101562,
+        381.8052673339844
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block22",
+      "bbox": [
+        694.6383056640625,
+        388.0782775878906,
+        782.7747802734375,
+        400.2587890625
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block23",
+      "bbox": [
+        705.977294921875,
+        399.41729736328125,
+        745.1911010742188,
+        409.4897766113281
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block24",
+      "bbox": [
+        823.8807983398438,
+        389.3787841796875,
+        1156.7210693359375,
+        399.4937744140625
+      ],
+      "source_tokens": 11,
+      "token_recall": 0.9091,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block25",
+      "bbox": [
+        694.635498046875,
+        415.7583923339844,
+        794.8759765625,
+        427.93890380859375
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block26",
+      "bbox": [
+        705.9744873046875,
+        427.097412109375,
+        759.1044311523438,
+        437.1698913574219
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block27",
+      "bbox": [
+        823.8779907226562,
+        417.05889892578125,
+        1156.7210693359375,
+        427.17388916015625
+      ],
+      "source_tokens": 11,
+      "token_recall": 0.9091,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block28",
+      "bbox": [
+        694.635498046875,
+        443.44268798828125,
+        1156.7210693359375,
+        455.6231994628906
+      ],
+      "source_tokens": 12,
+      "token_recall": 0.9167,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block29",
+      "bbox": [
+        694.635498046875,
+        461.1269836425781,
+        1156.7210693359375,
+        473.3074951171875
+      ],
+      "source_tokens": 13,
+      "token_recall": 0.9231,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "а1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block30",
+      "bbox": [
+        694.6383056640625,
+        480.154296875,
+        803.8453369140625,
+        490.2267761230469
+      ],
+      "source_tokens": 4,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block31",
+      "bbox": [
+        694.6383056640625,
+        496.4997863769531,
+        759.9097900390625,
+        508.6802978515625
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block32",
+      "bbox": [
+        705.977294921875,
+        507.83880615234375,
+        762.2225952148438,
+        517.9113159179688
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block33",
+      "bbox": [
+        823.8807983398438,
+        497.80029296875,
+        1049.3228759765625,
+        507.915283203125
+      ],
+      "source_tokens": 10,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block34",
+      "bbox": [
+        694.635498046875,
+        524.1798706054688,
+        763.0604858398438,
+        536.3603515625
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block35",
+      "bbox": [
+        705.9744873046875,
+        535.5188598632812,
+        762.2197875976562,
+        545.5913696289062
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block36",
+      "bbox": [
+        823.8779907226562,
+        525.4804077148438,
+        1049.3228759765625,
+        535.5953979492188
+      ],
+      "source_tokens": 10,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block37",
+      "bbox": [
+        694.6383056640625,
+        553.1647338867188,
+        1049.3228759765625,
+        563.2542114257812
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block38",
+      "bbox": [
+        694.6383056640625,
+        570.8914794921875,
+        846.7637329101562,
+        580.9639892578125
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block39",
+      "bbox": [
+        694.6383056640625,
+        587.2369995117188,
+        782.7747802734375,
+        599.41748046875
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block40",
+      "bbox": [
+        705.977294921875,
+        598.5759887695312,
+        745.1911010742188,
+        608.6484985351562
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block41",
+      "bbox": [
+        823.8807983398438,
+        588.5375366210938,
+        1049.3228759765625,
+        598.6525268554688
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block42",
+      "bbox": [
+        694.635498046875,
+        614.9170532226562,
+        794.8759765625,
+        627.0975341796875
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block43",
+      "bbox": [
+        705.9744873046875,
+        626.256103515625,
+        759.1044311523438,
+        636.32861328125
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block44",
+      "bbox": [
+        823.8779907226562,
+        616.2175903320312,
+        1049.3228759765625,
+        626.3325805664062
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block45",
+      "bbox": [
+        694.635498046875,
+        642.6012573242188,
+        1049.3228759765625,
+        654.78173828125
+      ],
+      "source_tokens": 9,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block46",
+      "bbox": [
+        694.635498046875,
+        660.2857055664062,
+        1049.3228759765625,
+        672.4661865234375
+      ],
+      "source_tokens": 10,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block47",
+      "bbox": [
+        34.01570129394531,
+        63.21696090698242,
+        93.19170379638672,
+        78.64795684814453
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block48",
+      "bbox": [
+        48.48899841308594,
+        107.14031982421875,
+        445.0269470214844,
+        132.1982879638672
+      ],
+      "source_tokens": 12,
+      "token_recall": 0.9167,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "со2"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block49",
+      "bbox": [
+        48.48899841308594,
+        144.04336547851562,
+        501.6921081542969,
+        154.13287353515625
+      ],
+      "source_tokens": 10,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block50",
+      "bbox": [
+        377.49847412109375,
+        163.18536376953125,
+        551.5020141601562,
+        173.2578582763672
+      ],
+      "source_tokens": 4,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block51",
+      "bbox": [
+        48.48052978515625,
+        181.85134887695312,
+        155.3714141845703,
+        201.93682861328125
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block52",
+      "bbox": [
+        177.7230224609375,
+        181.85134887695312,
+        547.9230346679688,
+        191.94085693359375
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block53",
+      "bbox": [
+        526.5239868164062,
+        196.72967529296875,
+        551.26904296875,
+        205.02467346191406
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block54",
+      "bbox": [
+        48.486297607421875,
+        210.83790588378906,
+        546.1730346679688,
+        223.01840209960938
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block55",
+      "bbox": [
+        48.486297607421875,
+        228.52210998535156,
+        546.1730346679688,
+        240.70260620117188
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block56",
+      "bbox": [
+        48.47200012207031,
+        247.54937744140625,
+        170.61700439453125,
+        307.601806640625
+      ],
+      "source_tokens": 21,
+      "token_recall": 0.7143,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "загрязня",
+        "ющих",
+        "располо",
+        "женных",
+        "числен",
+        "ностью"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block57",
+      "bbox": [
+        177.71450805664062,
+        247.48983764648438,
+        464.33599853515625,
+        257.6048278808594
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block58",
+      "bbox": [
+        48.488990783691406,
+        315.23370361328125,
+        169.69049072265625,
+        355.294189453125
+      ],
+      "source_tokens": 11,
+      "token_recall": 0.8182,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "располо",
+        "женных"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block59",
+      "bbox": [
+        177.739990234375,
+        315.1827087402344,
+        464.33599853515625,
+        325.2976989746094
+      ],
+      "source_tokens": 6,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block60",
+      "bbox": [
+        48.48899841308594,
+        362.87548828125,
+        314.82708740234375,
+        372.9649963378906
+      ],
+      "source_tokens": 8,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block61",
+      "bbox": [
+        48.48899841308594,
+        380.5597839355469,
+        510.6069030761719,
+        391.6752014160156
+      ],
+      "source_tokens": 15,
+      "token_recall": 0.8667,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "nоx",
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block62",
+      "bbox": [
+        48.48899841308594,
+        398.2865905761719,
+        200.61431884765625,
+        408.35906982421875
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block63",
+      "bbox": [
+        48.48899459838867,
+        414.632080078125,
+        136.62548828125,
+        426.8125915527344
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block64",
+      "bbox": [
+        59.82798767089844,
+        425.9710998535156,
+        99.04187774658203,
+        436.0435791015625
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block65",
+      "bbox": [
+        177.7314910888672,
+        415.9325866699219,
+        510.6068115234375,
+        426.0475769042969
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block66",
+      "bbox": [
+        48.48630142211914,
+        442.3121643066406,
+        148.726806640625,
+        454.49267578125
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block67",
+      "bbox": [
+        59.82530212402344,
+        453.65118408203125,
+        112.95966339111328,
+        463.7236633300781
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block68",
+      "bbox": [
+        177.7288055419922,
+        443.6126708984375,
+        510.6068115234375,
+        453.7276611328125
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block69",
+      "bbox": [
+        48.48630142211914,
+        469.9963684082031,
+        510.6068115234375,
+        482.1768798828125
+      ],
+      "source_tokens": 12,
+      "token_recall": 0.9167,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block70",
+      "bbox": [
+        48.48630142211914,
+        487.6806640625,
+        510.6068115234375,
+        499.8611755371094
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block71",
+      "bbox": [
+        48.48899841308594,
+        506.7080078125,
+        157.69699096679688,
+        516.780517578125
+      ],
+      "source_tokens": 4,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block72",
+      "bbox": [
+        48.48899841308594,
+        523.0535278320312,
+        403.173583984375,
+        535.2340087890625
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block73",
+      "bbox": [
+        48.486297607421875,
+        540.7335815429688,
+        403.173583984375,
+        552.9140625
+      ],
+      "source_tokens": 12,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block74",
+      "bbox": [
+        48.48899841308594,
+        559.7184448242188,
+        510.6068115234375,
+        571.833740234375
+      ],
+      "source_tokens": 15,
+      "token_recall": 0.9333,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block75",
+      "bbox": [
+        48.48899841308594,
+        577.4451904296875,
+        200.61431884765625,
+        587.5177001953125
+      ],
+      "source_tokens": 5,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block76",
+      "bbox": [
+        48.48899459838867,
+        593.7907104492188,
+        136.62548828125,
+        605.97119140625
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block77",
+      "bbox": [
+        59.82798767089844,
+        605.1296997070312,
+        99.04187774658203,
+        615.2022094726562
+      ],
+      "source_tokens": 2,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block78",
+      "bbox": [
+        177.7314910888672,
+        595.0912475585938,
+        510.6068115234375,
+        605.2062377929688
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block79",
+      "bbox": [
+        48.48630142211914,
+        621.4707641601562,
+        148.726806640625,
+        633.6512451171875
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block80",
+      "bbox": [
+        59.82530212402344,
+        632.809814453125,
+        112.95966339111328,
+        642.88232421875
+      ],
+      "source_tokens": 1,
+      "token_recall": 1.0,
+      "state": "no_large_omission_detected",
+      "missing_samples": [],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block81",
+      "bbox": [
+        177.7288055419922,
+        622.7713012695312,
+        510.6068115234375,
+        632.8862915039062
+      ],
+      "source_tokens": 14,
+      "token_recall": 0.9286,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block82",
+      "bbox": [
+        48.48630142211914,
+        649.1550903320312,
+        510.6069030761719,
+        661.3355712890625
+      ],
+      "source_tokens": 12,
+      "token_recall": 0.9167,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    },
+    {
+      "source_id": "p98:block83",
+      "bbox": [
+        48.48630142211914,
+        666.83935546875,
+        510.6069030761719,
+        679.0198364257812
+      ],
+      "source_tokens": 16,
+      "token_recall": 0.9375,
+      "state": "no_large_omission_detected",
+      "missing_samples": [
+        "с1"
+      ],
+      "scope": "Token availability only; not proof of reading order, object relations or correctness"
+    }
+  ],
+  "duplicate_paragraphs": [],
+  "automatic_flags": [],
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "report_sha256": "5392d29e5cd81b49e0c04e13adefd56665e3b81a26685a329b77f50a35553aeb",
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 44678,
+    "completion_tokens": 2480,
+    "total_tokens": 47158,
+    "prompt_tokens_details": {
+      "cached_tokens": 7680
+    },
+    "prompt_cache_hit_tokens": 7680,
+    "prompt_cache_miss_tokens": 36998
+  },
+  "review_status": "pending_independent_codex",
+  "checked": false
+}

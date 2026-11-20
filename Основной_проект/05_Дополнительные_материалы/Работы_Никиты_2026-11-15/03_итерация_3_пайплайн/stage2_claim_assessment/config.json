@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "stage": "2_claim_assessment",
+  "status": "initial_setup_not_run",
+  "methodology_status": "draft_pending_team_review",
+  "execution_enabled": false,
+  "model_calls_enabled": false,
+  "network_enabled": false,
+  "corpus_processing_performed": false,
+  "input_policy": {
+    "legacy_claims": "read_only",
+    "legacy_gold": "read_only",
+    "source_required": [
+      "report_id",
+      "company_id",
+      "pdf_page",
+      "source_sha256",
+      "verbatim_quote",
+      "source_quality"
+    ],
+    "source_types": [
+      "markdown_text",
+      "markdown_table",
+      "source_verified_fragment"
+    ],
+    "unverified_ocr": "candidate_only_requires_source_review"
+  },
+  "coverage": {
+    "companies": 30,
+    "reports": 92,
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "esg_blocks": [
+      "E",
+      "S",
+      "G"
+    ],
+    "keyword_match_required": false,
+    "max_candidates_per_company": null,
+    "max_candidates_per_page": null,
+    "numeric_density_filter": false,
+    "length_filter_as_exhaustive_rule": false
+  },
+  "claim_types": [
+    "обязательство",
+    "результат",
+    "декларация"
+  ],
+  "final_classes": [
+    "подтверждено",
+    "декларативно",
+    "противоречит фактам"
+  ],
+  "assessment_statuses": [
+    "needs_source_review",
+    "needs_evidence",
+    "ready_for_human_review"
+  ],
+  "confidence_policy": "Self-reported confidence is not calibrated accuracy; confidence numbers are not accepted in this initial contract.",
+  "language_policy": "Neutral risk signal for internal study, not an accusation of intent or legal breach.",
+  "evaluation_policy": {
+    "synthetic_examples_are_gold": false,
+    "truth_classification_metrics_available": false,
+    "required_future_human_annotation": 150,
+    "independent_human_annotators": 2,
+    "search_gold_is_truth_gold": false,
+    "classification_kappa_min": 0.6,
+    "classification_macro_f1_min": 0.7,
+    "thresholds_are_targets_not_achieved_results": true
+  },
+  "external_context": {
+    "legal_jurisdiction": "Russian company reports; foreign advertising guidance is an analytical reference, not automatically binding law",
+    "source_publication_date_distinct_from_event_period": true,
+    "textbooks_reading_only": "Follow source registry restrictions; do not embed reading-only textbook text into model inputs"
+  },
+  "resources": {
+    "sources": "knowledge/sources.json",
+    "phrase_library": "knowledge/phrase_library.csv",
+    "definitions": "knowledge/definitions.md",
+    "evidence_rules": "knowledge/evidence_rules.md",
+    "schema": "schemas/assessment.schema.json",
+    "fixtures": "fixtures/synthetic_cases.json"
+  }
+}

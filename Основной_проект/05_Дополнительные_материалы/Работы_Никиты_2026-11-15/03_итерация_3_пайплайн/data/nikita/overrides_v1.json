@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-15",
+  "scope": "Explicit assembly QA corrections. Retained model JSON remains unchanged; this file is hashed in the build input manifest.",
+  "targets": {
+    "T-RASP-001": {
+      "set": {"comparison_valid": false, "comparison_limitations": "Отчёт 2025, стр. 71, сообщает об обновлённой модели расчёта вовлечённости. Самооценка компании относительно старого диапазона сохранена в цитатах, но сопоставимость исходной цели и новой методики независимо не доказана"},
+      "reason": "Conservative comparability check requested by reviewer; do not classify revised-method 56% as a mechanically comparable failure of the original 59–79% target"
+    },
+    "T-URCH-003": {
+      "skip_fields": ["deadline_evidence"],
+      "reason": "Redundant auxiliary deadline quote refers to another row of the parsed table. Primary target_evidence itself contains the employee engagement 70% target and its own ДО2025 ГОДА horizon; preserve that verified primary proof"
+    }
+  }
+}

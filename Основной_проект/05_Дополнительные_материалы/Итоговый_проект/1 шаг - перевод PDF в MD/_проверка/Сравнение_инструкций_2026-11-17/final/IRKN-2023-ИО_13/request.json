@@ -1,0 +1,42 @@
+{
+  "version": "instruction-ab-final-20261117",
+  "source_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01",
+  "instruction_sha256": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+  "system_sha256": "ae30b323d6cb66ec168cafbce24bc57ded35344ee93bfae72300ad95f8fe7ebe",
+  "input_sha256": "1eb235fa753f8d31c4afd808c3d4813be54f05886cb6a279a8ced4dc80b9c156",
+  "input_text_sha256": "8f98be9b301eb86883b9ed30c1b13fbbd1d5831dc42991863dc848b912b7f47e",
+  "json_mode": true,
+  "thinking": "disabled",
+  "provided_images": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/IRKN-2023-ИО/page_0013_full.png",
+      "sha256": "529012b10d986af3ffe670b33335112393b4948a751379151d0d60cf64e4226c"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/IRKN-2023-ИО/page_0013_zoom_0.png",
+      "sha256": "65fa5c03851e09caa81188817cc8e65d34481ea106cb5c09c08085035674c2d2"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_проверка/геометрия/IRKN-2023-ИО/page_0013_zoom_1.png",
+      "sha256": "6548ff02465184a86f549162b56a6ef14b566a4ee93686888ee7426de868c672"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_13/source_regions/top_left.png",
+      "sha256": "9f411db5f6b689a034c1b5914ab6c99480f4cac743f56a9e4672107439ed883b"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_13/source_regions/top_right.png",
+      "sha256": "fc2d1388e057421530df81c85e0a6289039ca2bce858c9f4abad287dfcf7e78e"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_13/source_regions/bottom_left.png",
+      "sha256": "4b019f05cfc05b0c44ab3820b425fbc020c60476af5b4e2d0a1e1f726ce9894a"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/final/IRKN-2023-ИО_13/source_regions/bottom_right.png",
+      "sha256": "f62377741183272bf87fe4219d1599d7aea30e996c25e0b48652a4cef6fe0dec"
+    }
+  ],
+  "model": "deepseek-flash",
+  "max_tokens": 24000
+}

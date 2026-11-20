@@ -1,0 +1,17 @@
+{
+  "social_057": {
+    "file": "source_checked/social_057.json",
+    "decision": "source_patch",
+    "reason": "v1 row-title footnote2 corrected to source1; v2 rejected for new severity footnote1 instead of3"
+  },
+  "environment_024": {
+    "file": "v2/environment_024.json",
+    "decision": "accept_v2_after_targeted_source_check",
+    "reason": "explicit years and named series; numeric controls retained"
+  },
+  "environment_019": {
+    "file": "v2/environment_019.json",
+    "decision": "accept_v2_after_targeted_source_check",
+    "reason": "Chart QA: explicit year+series, all60 checked numerical values retained"
+  }
+}

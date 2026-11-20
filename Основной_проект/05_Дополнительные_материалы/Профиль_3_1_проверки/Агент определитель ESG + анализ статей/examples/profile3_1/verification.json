@@ -1,0 +1,40 @@
+{
+  "check": {
+    "pending_blocks": 1,
+    "pending_claims": 0,
+    "pending_classifications": 0,
+    "decision_profile_version": "3.1",
+    "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+  },
+  "ordinary_export_blocked": true,
+  "draft_summary": {
+    "schema_version": "esg-extraction-3.0",
+    "status": "partial",
+    "claims": 4,
+    "pending_blocks": 1,
+    "pending_claims": 0,
+    "primary_counts": {
+      "E": 1,
+      "S": 1,
+      "G": 2
+    },
+    "secondary_counts": {
+      "E": 2,
+      "S": 1,
+      "G": 0
+    },
+    "page_kind": "declared_pdf_page_numbers_not_independently_verified",
+    "preamble_status": "empty",
+    "limitations": "MD coverage only; not proven semantic recall, PDF completeness or external truth. Numeric reconstruction requires semantic review.",
+    "legacy_block2_counts": {
+      "E": 2,
+      "S": 0,
+      "G": 0
+    },
+    "decision_profile_version": "3.1",
+    "pending_classifications": 0,
+    "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+  },
+  "source_is_synthetic": true,
+  "model_accuracy_measured": false
+}

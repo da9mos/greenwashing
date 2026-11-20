@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/corpus_audit",
+  "reviewed_at": "2026-11-16T18:57:28.451506+00:00",
+  "report_id": "GAZP-2023-ОУР",
+  "pdf_page": 57,
+  "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+  "output_sha256": "fff59b1a9304a2f991d86e302f9ef659c7610747cc64111c00a8474288181722",
+  "whole_report_checked": false,
+  "page_scope_status": "accepted",
+  "checked": true,
+  "checked_scope": "Вся содержательная область указанной физической страницы, с явным учётом разрешённого исключения повторяющейся навигации. Остальные физические страницы исходного PDF не входят в этот пилот.",
+  "open_defects": [],
+  "components": {
+    "text": {
+      "status": "checked",
+      "finding": "Прочитаны все заголовки, строки, все поясняющие текстовые блоки и тексты сносок 1–13. Подтверждённая повторяющаяся боковая навигация исключена согласно разделу 3 frozen-инструкции."
+    },
+    "numbers": {
+      "status": "checked",
+      "finding": "Все 75 числовых и прочерковых ячеек четырёх таблиц сверены с увеличениями. 1,963 сохранено целиком. 0,173² и 76,6² содержат исходные значения и отдельную сноску 2. Периоды 2021–2023 и пояснения 44,2%,12,9%,66,4% сохранены."
+    },
+    "tables": {
+      "status": "checked",
+      "finding": "Сверены четыре таблицы, строки каждой компании, все три года, единица «чел.» второй таблицы, определения LTIFR и FAR в сносках, прочерки и нули."
+    },
+    "footnotes": {
+      "status": "checked",
+      "finding": "Сноски 1–13 сопоставлены с надстрочными знаками. ×1 000 для частоты травматизма, ×1 000 000 для LTIFR и ×100 000 000 для FAR переданы. Значения 0¹¹ и 1,23¹² не склеены со сносками."
+    },
+    "graphics": {
+      "status": "checked",
+      "finding": "Содержательные цветные индикаторы 29.1 и 29.2 переданы текстом, весь исходный растр сохранён. Самостоятельных диаграмм с данными на странице нет."
+    },
+    "reading_order": {
+      "status": "checked",
+      "finding": "Текст каждой половины разворота читается сверху вниз, абзацы под таблицами восстановлены из колонок. Содержание таблиц не перемешано."
+    },
+    "links": {
+      "status": "checked",
+      "finding": "В PDF четыре аннотации повторяющейся навигации. Содержательных внешних адресов на странице нет. Локальная ссылкаsource.png существует и соответствует исходной странице."
+    },
+    "display": {
+      "status": "checked",
+      "finding": "Проверены отдельные снимки всех четырёх HTML-таблиц, полный рендер и ширины 1440/390. Сноски и последние цифры чисел различимы, общего переполнения нет."
+    }
+  },
+  "source_identity": {
+    "page_folder": "GAZP-2023-ОУР_57",
+    "report_id": "GAZP-2023-ОУР",
+    "pdf_page": 57,
+    "source_pdf": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2023-ОУР.pdf",
+    "source_pdf_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+    "source_png_sha256": "e65ac8d778e54fbd9ba58aca219722aa38e75c9d9e84b6b79e128a1cef6e07c0",
+    "source_pixels_match_original_pdf": true,
+    "source_render_scale": 2,
+    "source_rect": [
+      0.0,
+      0.0,
+      1190.550048828125,
+      841.8900146484375
+    ],
+    "saved_markdown_sha256": "fff59b1a9304a2f991d86e302f9ef659c7610747cc64111c00a8474288181722",
+    "raw_sha256": "a372eb9c154a832d2e39db7c323f02bcf1fdedc0951300cb91d15dabe3bb4227",
+    "result_sha256": "a9d97c2f76fb4bd33c719ca0ec9d98eb3be41dd757df344b17006ecc3fba493c",
+    "input_sha256": "f5ded3fc9f10e0edb06e7af6d65007677ac4303db856327571e5a50329dbed6f",
+    "request_sha256": "df1499f5edb49612e0681108dfc77447a3fd1b93d457b9d82b25c2ba5ac771bf",
+    "frozen_instruction_sha256": "e2a8f2ca0867bf8262b02ce784ede12442a9bbfa09daf176a2b57c48558a08dc",
+    "raw_answer_matches_result": true,
+    "finish_reason": "stop"
+  },
+  "evidence": {
+    "source_crops_manifest": "../source_crops.json",
+    "exact_quotes": "exact_quotes.json",
+    "render_check": "render/render_check.json",
+    "full_render": "render/full_page_1440.png",
+    "source_png": "../../GAZP-2023-ОУР_57/source.png"
+  },
+  "deepseek_issue_resolution": "Пять исходных issues описывают уже прочитанные сноски и номера, самостоятельных нерешённых расхождений не содержат. Независимая проверка подтверждает приведённые значения. Raw сохранён."
+}

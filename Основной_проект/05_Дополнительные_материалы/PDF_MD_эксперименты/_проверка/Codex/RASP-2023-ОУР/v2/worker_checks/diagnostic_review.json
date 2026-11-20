@@ -1,0 +1,434 @@
+[
+  {
+    "pdf_page": 1,
+    "initial_issues": [
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "checked"
+  },
+  {
+    "pdf_page": 2,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 4,
+    "initial_issues": [
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "corrected selected objects",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 5,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 11,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "corrected selected objects",
+    "whole_page_status": "checked"
+  },
+  {
+    "pdf_page": 12,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 13,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "corrected selected objects",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 14,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 17,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 19,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image.",
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 20,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 21,
+    "initial_issues": [
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 24,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 25,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 26,
+    "initial_issues": [
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "corrected selected objects",
+    "whole_page_status": "checked"
+  },
+  {
+    "pdf_page": 27,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image.",
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 29,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 31,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 32,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 36,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 39,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 40,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 41,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 43,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image.",
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 44,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 45,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 47,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 48,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 49,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 50,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 52,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 53,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 54,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 58,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image.",
+      "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "inspected; native body retained; noise removed or cover text added",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 59,
+    "initial_issues": [
+      "Source font mapping has unresolved characters; inspect the source image."
+    ],
+    "unicode_region_review": "inspected and repaired",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "not a full table review",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 60,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 63,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 64,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 66,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 67,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 68,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  },
+  {
+    "pdf_page": 69,
+    "initial_issues": [],
+    "unicode_region_review": "not flagged",
+    "ocr_region_review": "not flagged",
+    "ambiguous_cell_assignments_review": "none recorded in native candidate",
+    "table_structure_review": "pending",
+    "whole_page_status": "pending"
+  }
+]

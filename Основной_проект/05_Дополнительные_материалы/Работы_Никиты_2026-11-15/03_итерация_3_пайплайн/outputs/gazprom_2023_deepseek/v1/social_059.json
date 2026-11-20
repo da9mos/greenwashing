@@ -1,0 +1,31 @@
+{
+  "report": "social",
+  "pdf_page": 59,
+  "version": "v1",
+  "response": {
+    "pdf_page": 59,
+    "printed_pages": null,
+    "markdown": "**ДЕРЖИМ КУРС НА БЕЗОПАСНОСТЬ**\n\nКЛЮЧЕВАЯ ЗАДАЧА ПРИ ЧРЕЗВЫЧАЙНОЙ СИТУАЦИИ — СОХРАНИТЬ ЧЕЛОВЕЧЕСКИЕ ЖИЗНИ. МЫ РЕГУЛЯРНО ПРОВОДИМ СУДОВЫЕ УЧЕНИЯ И ОТРАБАТЫВАЕМ СПАСЕНИЕ ЛЮДЕЙ НА МОРЕ.\n\n**ВЛАДИМИР ЛИ**\nКапитан судна-газовоза «Портовый»\n(ООО «Газпром флот»)\n\nРуководит работой судна-газовоза, обеспечивает функционирование системы управления безопасностью судов и охраной труда, контролирует подготовку экипажа к борьбе за живучесть судна и спасение людей. Победитель корпоративного конкурса капитанов на знание фундаментальных основ морской науки в 2023 г.",
+    "problems": [],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 2591,
+    "completion_tokens": 284,
+    "total_tokens": 2875,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 2207
+  },
+  "finish_reason": "stop",
+  "seconds": 5.75,
+  "image_sha256": [
+    "ca1d5763bc378deda713efae515ef07a6aea4e954a2fc31aba5e0fff54e0b041",
+    "56115070a18fd723dc521818487390cba6f1e05fd887e9a0e4f9a5d9878b5fa7"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

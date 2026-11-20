@@ -1,0 +1,249 @@
+{
+  "ALRS-2025-ОУР": {
+    "report_id": "ALRS-2025-ОУР",
+    "sha256": "b7103939dfdb62c74e3fb4b3bf059e7b9d383a4578b831ba94b6c4f5d1245173",
+    "anchors": 247,
+    "tables": 136,
+    "images": 252,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MAGN-2024-ИО": {
+    "report_id": "MAGN-2024-ИО",
+    "sha256": "5328654916e4996af4e730b12b8d2115e6b5b3211bf8cee75a18a36e9a4f3388",
+    "anchors": 329,
+    "tables": 201,
+    "images": 329,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MAGN-2025-ИО": {
+    "report_id": "MAGN-2025-ИО",
+    "sha256": "22f20a07536068f6fa18d2a85a48eb427fee90cc82c631218c96f0428a8900ea",
+    "anchors": 378,
+    "tables": 237,
+    "images": 378,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MINV-2023-ОУР": {
+    "report_id": "MINV-2023-ОУР",
+    "sha256": "073896cf78e944c06128687898c901defcfe8ece96f277d5f776ae118e5e85eb",
+    "anchors": 158,
+    "tables": 99,
+    "images": 158,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MINV-2024-ОУР": {
+    "report_id": "MINV-2024-ОУР",
+    "sha256": "d9711018ddac8b9100d68e5160eaee6cffe48a8f88b8c858ce636818162e8750",
+    "anchors": 162,
+    "tables": 103,
+    "images": 162,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MINV-2025-ОУР": {
+    "report_id": "MINV-2025-ОУР",
+    "sha256": "f2c0bcf51099faae32ef408630844106ed01b66f933a7a78f43029f1924f270b",
+    "anchors": 188,
+    "tables": 114,
+    "images": 188,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MTLR-2023-ОУР": {
+    "report_id": "MTLR-2023-ОУР",
+    "sha256": "08c56e1cebf86ba0cf1897f9490bce774ddf7b11d83b51457af95fbf9e2cce5f",
+    "anchors": 98,
+    "tables": 136,
+    "images": 98,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MTLR-2024-ОУР": {
+    "report_id": "MTLR-2024-ОУР",
+    "sha256": "c82572ae3c755cef48e049ac3b1fb38f4bcb516a60912bc71bf41090e391dc75",
+    "anchors": 133,
+    "tables": 72,
+    "images": 134,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MTLR-2025-ГО": {
+    "report_id": "MTLR-2025-ГО",
+    "sha256": "68aec51f3a431e3f08836ac2ac7c7850bef9cbe55e5192f02755611422614879",
+    "anchors": 69,
+    "tables": 37,
+    "images": 69,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "MTLR-2025-ОУР": {
+    "report_id": "MTLR-2025-ОУР",
+    "sha256": "676252b214843e032810bcbb0298fce07733b4694c4062b7f607a43031ca34c8",
+    "anchors": 164,
+    "tables": 73,
+    "images": 164,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "NLMK-2023-ОУР": {
+    "report_id": "NLMK-2023-ОУР",
+    "sha256": "8b6f08a0ec5803bda5b23d834483fc52b08cda056d87e9e88cc236755c014bcc",
+    "anchors": 96,
+    "tables": 49,
+    "images": 149,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "NLMK-2024-ИО": {
+    "report_id": "NLMK-2024-ИО",
+    "sha256": "f0aaab68cdc827c4e4ad4f3b215a82d5fffe610f88bc89182dcb0928e02a4710",
+    "anchors": 172,
+    "tables": 108,
+    "images": 172,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "NLMK-2025-ИО": {
+    "report_id": "NLMK-2025-ИО",
+    "sha256": "2564dd6a3764fcddb4f7041c441cbc12e9142763bd2c3740e71d5b7f837e02aa",
+    "anchors": 139,
+    "tables": 99,
+    "images": 139,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  }
+}

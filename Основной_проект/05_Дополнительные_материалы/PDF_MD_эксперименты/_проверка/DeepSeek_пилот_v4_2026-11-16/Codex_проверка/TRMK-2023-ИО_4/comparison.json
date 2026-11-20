@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex /root/corpus_audit",
+  "reviewed_at": "2026-11-16T18:57:28.452221+00:00",
+  "report_id": "TRMK-2023-ИО",
+  "pdf_page": 4,
+  "source_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+  "output_sha256": "bf9717a0e729e32c9373724d5bcb4e84f4db2ac3b2acc8d635fb6623dacf3601",
+  "whole_report_checked": false,
+  "page_scope_status": "needs_rework",
+  "checked": false,
+  "checked_scope": "Вся содержательная область указанной физической страницы, с явным учётом разрешённого исключения повторяющейся навигации. Остальные физические страницы исходного PDF не входят в этот пилот.",
+  "open_defects": [
+    "TRMK4-NAVIGATION"
+  ],
+  "components": {
+    "text": {
+      "status": "pending",
+      "finding": "Основной абзац, выделенные блоки, тикер TRMK и подпись на фотографии прочитаны по оригиналу и совпали. Навигационный заголовок «ПОРТРЕТ КОМПАНИИ» продублирован, цифры связаны с чужими пунктами."
+    },
+    "numbers": {
+      "status": "pending",
+      "finding": "Год 2001, период 2023 и 6,6 млн тонн трубной продукции в год визуально совпали. Номера разделов 1/2/3 в навигации получили неверные связи."
+    },
+    "tables": {
+      "status": "not_applicable",
+      "finding": "Источник содержит текстовые информационные блоки и фотографию, табличных данных на странице нет."
+    },
+    "footnotes": {
+      "status": "not_applicable",
+      "finding": "На этой странице нет содержательных надстрочных сносок. Номера 1/2/3 относятся к навигации."
+    },
+    "graphics": {
+      "status": "checked",
+      "finding": "Фотография, пиктограммы и логотип доступны в полном исходном растре. Текст о производственных и сервисных возможностях перенесён из оранжевого блока."
+    },
+    "reading_order": {
+      "status": "pending",
+      "finding": "Порядок основного текста и подписи сохранён. Навигационный блок ошибочен, а объяснение модели о наложении цифр не подтверждается изображением."
+    },
+    "links": {
+      "status": "checked",
+      "finding": "PDF не содержит аннотаций ссылок. Единственная локальная ссылкаsource.png разрешается в правильное изображение."
+    },
+    "display": {
+      "status": "checked",
+      "finding": "Полный Markdown отрендерен, первая область навигации просмотрена. Ошибочное соответствие пунктов видно и в отображении. При 1440/390 общего переполнения нет."
+    }
+  },
+  "source_identity": {
+    "page_folder": "TRMK-2023-ИО_4",
+    "report_id": "TRMK-2023-ИО",
+    "pdf_page": 4,
+    "source_pdf": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/TRMK-2023-ИО.pdf",
+    "source_pdf_sha256": "b23ae3f5836acdd7d10813ed1f8ae762c5de3f33b9d4da3789ba752f01602cc5",
+    "source_png_sha256": "7e5dd44d308106d2d24246afe378c8f753569d1e7a0bda5f633a57a7ceaf67c1",
+    "source_pixels_match_original_pdf": true,
+    "source_render_scale": 1.3541666666666667,
+    "source_rect": [
+      0.0,
+      0.0,
+      1920.0,
+      1080.0
+    ],
+    "saved_markdown_sha256": "bf9717a0e729e32c9373724d5bcb4e84f4db2ac3b2acc8d635fb6623dacf3601",
+    "raw_sha256": "aa03485354c19e65784153450549e0b01f165e88c835ddac6cab1f17a7336ee3",
+    "result_sha256": "69616a9ba7400acd18841971fcc48ade3c3d60a45d2b901ed8d19f42ba07ba4e",
+    "input_sha256": "e132972fc3e2c8f3a302d2c9eda1011bd0cce1fa60f89577aa949c3939918671",
+    "request_sha256": "704dda8804cb0406104c484b8a415163b5f7afe7908cb1d698109d8b42ccf337",
+    "frozen_instruction_sha256": "e2a8f2ca0867bf8262b02ce784ede12442a9bbfa09daf176a2b57c48558a08dc",
+    "raw_answer_matches_result": true,
+    "finish_reason": "stop"
+  },
+  "evidence": {
+    "source_crops_manifest": "../source_crops.json",
+    "exact_quotes": "exact_quotes.json",
+    "render_check": "render/render_check.json",
+    "full_render": "render/full_page_1440.png",
+    "source_png": "../../TRMK-2023-ИО_4/source.png"
+  },
+  "deepseek_issue_resolution": "Заявление DeepSeek о совмещении/наложении цифр не подтверждено источником. Основной текст с повреждённым шрифтом восстановлен правильно, навигация требует правки."
+}

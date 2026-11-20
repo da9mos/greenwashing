@@ -1,0 +1,117 @@
+{
+  "unicode_diagnostics": {
+    "all_pages_scanned": true,
+    "unresolved_unicode": 0
+  },
+  "records": [
+    {
+      "pdf_page": 1,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 6,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 7,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 17,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [
+        "Полная построчная сверка текста, порядка чтения и связей по оригиналу не выполнена.",
+        "Мелкий/закрытый текст внутри фотографии не полностью прочитан; декоративная фотография сохранена, основной текст извлечён."
+      ],
+      "whole_page_review": "pending"
+    },
+    {
+      "pdf_page": 24,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 33,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [
+        "Полная построчная сверка текста, порядка чтения и связей по оригиналу не выполнена.",
+        "Мелкий/закрытый текст внутри фотографии не полностью прочитан; декоративная фотография сохранена, основной текст извлечён."
+      ],
+      "whole_page_review": "pending"
+    },
+    {
+      "pdf_page": 69,
+      "original_issues": [
+        "Some source glyphs have ambiguous table-cell ownership; inspect the source geometry."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 83,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 106,
+      "original_issues": [
+        "Some source glyphs have ambiguous table-cell ownership; inspect the source geometry."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    },
+    {
+      "pdf_page": 145,
+      "original_issues": [
+        "Some source link destinations are unresolved; do not invent URLs."
+      ],
+      "source_image_inspected": true,
+      "resolution": [
+        "Полная построчная сверка текста, порядка чтения и связей по оригиналу не выполнена.",
+        "Аннотация ссылки www.fsb-tcfd.org/. не содержит назначения; адрес не угадан.",
+        "Таблицы требуют сверки строк и столбцов: возможны слитые строки, пустые детекторные колонки и смешение с диаграммами."
+      ],
+      "whole_page_review": "pending"
+    },
+    {
+      "pdf_page": 158,
+      "original_issues": [
+        "Image-dominant or nearly empty page: OCR/visual transcription requires review."
+      ],
+      "source_image_inspected": true,
+      "resolution": [],
+      "whole_page_review": "checked"
+    }
+  ]
+}

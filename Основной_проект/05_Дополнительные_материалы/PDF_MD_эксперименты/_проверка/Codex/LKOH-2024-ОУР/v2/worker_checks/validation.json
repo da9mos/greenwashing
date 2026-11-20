@@ -1,0 +1,19 @@
+{
+  "page_markers_in_order": true,
+  "registry_complete": true,
+  "sha256_matches_input": true,
+  "assets_match_input": true,
+  "missing_local_assets": [],
+  "missing_internal_anchors": [],
+  "native_letter_count_differences": [],
+  "native_digit_count_differences": [],
+  "tables": 173,
+  "table_tags_balanced": true,
+  "report_bytes": 1161791,
+  "review_status_counts": {
+    "pending": 116
+  },
+  "conversion_status_counts": {
+    "converted": 116
+  }
+}

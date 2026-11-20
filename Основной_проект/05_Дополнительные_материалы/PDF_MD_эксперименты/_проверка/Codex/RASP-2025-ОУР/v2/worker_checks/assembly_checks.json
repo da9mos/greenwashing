@@ -1,0 +1,15 @@
+{
+  "physical_pages": 204,
+  "page_markers_unique_and_ordered": true,
+  "local_links_valid": true,
+  "broken_local_links": [],
+  "broken_internal_targets": [],
+  "assets_match_all_204_source_hashes": true,
+  "replacement_characters": 0,
+  "unexpected_control_characters": 0,
+  "report_sha256": "36872b33d9b75d478bf47f702c169572867fe0b5fbe110e7c20857d3b953d46d",
+  "source_pdf_sha256": "422ef8ce11541c1a0e2d070c2f8d5c2dca1266f93dfea54919853e7b61f17ad3",
+  "source_page_count": 204,
+  "rendering": "Saved Markdown bodies of 15 reviewed pages rendered locally with PyMuPDF Story and visually inspected (17 render sheets). Full-report browser rendering unverified.",
+  "full_semantic_review": false
+}

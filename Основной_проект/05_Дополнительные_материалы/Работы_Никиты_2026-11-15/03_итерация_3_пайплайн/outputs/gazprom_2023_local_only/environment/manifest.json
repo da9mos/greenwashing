@@ -1,0 +1,19 @@
+{
+  "source_name": "gazprom_environment_2023.pdf",
+  "sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "pdf_pages": 84,
+  "engine": "pymupdf4llm",
+  "version": "2.1",
+  "ocr": "local tesseract rus+eng",
+  "network": "Python network connections blocked; no API clients or cloud calls",
+  "seconds": 29.72,
+  "ocr_pages": [
+    1,
+    76,
+    77,
+    78,
+    79
+  ],
+  "split_pages": [],
+  "state": "converted; semantic review pending"
+}

@@ -1,0 +1,16 @@
+{
+  "source_sha256": "03bbb9b33fd94505e9584d5b9ccf6de1a6978cd2a70297aef3eedb01917462a6",
+  "report_sha256": "77d793e850d34bc5f8493a70d93eaed9d6de9bcc27e117a510c063f310019fcf",
+  "physical_pages": 54,
+  "page_markers_in_order": true,
+  "images": 54,
+  "tables": 24,
+  "missing_local_images": [],
+  "broken_internal_anchors": [],
+  "table_grid_width_errors": [],
+  "source_review": "Cover fully reviewed; selected tables and Unicode diagnostics reviewed; all other full-page reviews pending",
+  "external_links": "Preserved from PDF annotations; not opened or tested",
+  "browser_render": "blocked: Chrome SIGABRT",
+  "native_accounting": "baseline only",
+  "native_body_character_inventory_after_reordering": "unchanged on pages 2–40 and 42–54 after documented Unicode normalization; pages 1 and 41 have visual transcription edits"
+}

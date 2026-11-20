@@ -1,0 +1,20 @@
+{
+  "unique_claims": 18,
+  "primary_counts": {
+    "E": 0,
+    "S": 18,
+    "G": 0
+  },
+  "primary_unresolved": 0,
+  "secondary_label_counts": {
+    "E": 0,
+    "S": 0,
+    "G": 0
+  },
+  "types": {
+    "декларация": 5,
+    "результат": 12,
+    "обязательство": 1
+  },
+  "counting_rule": "Primary views partition unique claim IDs. Secondary labels overlap and must not be added to unique_claims."
+}

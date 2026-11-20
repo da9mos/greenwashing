@@ -1,0 +1,12 @@
+{
+  "tests_passed": 63,
+  "full_model_accuracy_measured": false,
+  "real_source_prepared": {
+    "pages": 84,
+    "blocks": 1237,
+    "batches": 21,
+    "active_workspace": "GAZP-2023-ЭО_final"
+  },
+  "review": "Independent methodological review found award and audit-priority ambiguities; both resolved explicitly",
+  "source_rules": "8 source keys,4 inclusion rules,8 classification rules,5 exclusions"
+}

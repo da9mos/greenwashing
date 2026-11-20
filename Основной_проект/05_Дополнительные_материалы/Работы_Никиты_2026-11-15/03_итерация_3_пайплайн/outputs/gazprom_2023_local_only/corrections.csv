@@ -1,0 +1,4 @@
+﻿report;pdf_page;change;basis;status
+social;115;"Reconstruct two six-column tables using visually checked source coordinate boundaries; retain notes";source page geometry and image;targeted_review
+social;57;"Keep local layout tables; repair narrative order from original clipped text columns";source page geometry, no external parse;targeted_review
+social;130;"Keep local layout tables; repair narrative order from original clipped text columns";source page geometry, no external parse;targeted_review

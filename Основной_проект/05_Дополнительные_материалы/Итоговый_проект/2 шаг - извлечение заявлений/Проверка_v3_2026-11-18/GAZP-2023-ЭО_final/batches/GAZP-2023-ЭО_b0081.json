@@ -1,0 +1,99 @@
+{
+  "schema_version": "esg-extraction-3.0",
+  "source_sha256": "c9b0f1a7c1215b55ae71e2bab071906fd389a99120371c0092d00c51544719a7",
+  "prompt_sha256": "a7860acf8f93898086be27c87715205a53d14138206f498e086bd655727557a0",
+  "taxonomy_sha256": "ac46e7341ad1fa90031fa0657734d6afc06d9e738cb7eb549b99a03d3b186dfb",
+  "batch_id": "GAZP-2023-ЭО_b0081",
+  "target_block_ids": [
+    "GAZP-2023-ЭО:p81:b1",
+    "GAZP-2023-ЭО:p81:b2",
+    "GAZP-2023-ЭО:p81:b3",
+    "GAZP-2023-ЭО:p81:b4"
+  ],
+  "blocks": [
+    {
+      "id": "GAZP-2023-ЭО:p80:b1",
+      "page": 80,
+      "start": 1,
+      "end": 92,
+      "text": "<a id=\"pdf-page-80\"></a>\n<!-- source_text_begin -->\n[НЕРАЗБОРЧИВО]\n<!-- source_text_end -->"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p80:b2",
+      "page": 80,
+      "start": 94,
+      "end": 158,
+      "text": "<details>\n<summary>Служебное: оригинал PDF-страницы 80</summary>"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p80:b3",
+      "page": 80,
+      "start": 160,
+      "end": 224,
+      "text": "![Оригинал PDF-страницы 80, изображение 1](assets/pdf_080_1.png)"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p80:b4",
+      "page": 80,
+      "start": 226,
+      "end": 236,
+      "text": "</details>"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p81:b1",
+      "page": 81,
+      "start": 1,
+      "end": 211,
+      "text": "<a id=\"pdf-page-81\"></a>\n<!-- source_text_begin -->\n[НЕРАЗБОРЧИВО] Изображение страницы пустое или содержит только белый фон; читаемый текст, таблицы, подписи и колонтитулы отсутствуют.\n<!-- source_text_end -->"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p81:b2",
+      "page": 81,
+      "start": 213,
+      "end": 277,
+      "text": "<details>\n<summary>Служебное: оригинал PDF-страницы 81</summary>"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p81:b3",
+      "page": 81,
+      "start": 279,
+      "end": 343,
+      "text": "![Оригинал PDF-страницы 81, изображение 1](assets/pdf_081_1.png)"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p81:b4",
+      "page": 81,
+      "start": 345,
+      "end": 355,
+      "text": "</details>"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p82:b1",
+      "page": 82,
+      "start": 1,
+      "end": 92,
+      "text": "<a id=\"pdf-page-82\"></a>\n<!-- source_text_begin -->\n[НЕРАЗБОРЧИВО]\n<!-- source_text_end -->"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p82:b2",
+      "page": 82,
+      "start": 94,
+      "end": 158,
+      "text": "<details>\n<summary>Служебное: оригинал PDF-страницы 82</summary>"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p82:b3",
+      "page": 82,
+      "start": 160,
+      "end": 224,
+      "text": "![Оригинал PDF-страницы 82, изображение 1](assets/pdf_082_1.png)"
+    },
+    {
+      "id": "GAZP-2023-ЭО:p82:b4",
+      "page": 82,
+      "start": 226,
+      "end": 236,
+      "text": "</details>"
+    }
+  ]
+}

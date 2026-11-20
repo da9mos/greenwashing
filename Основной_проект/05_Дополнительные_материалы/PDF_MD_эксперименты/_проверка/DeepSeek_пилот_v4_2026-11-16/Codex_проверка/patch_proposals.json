@@ -1,0 +1,71 @@
+[
+  {
+    "id": "EO76-HEADER",
+    "page_folder": "GAZP-2023-ЭО_76",
+    "severity": "major",
+    "type": "omitted_text_region",
+    "source_bbox": [
+      60,
+      175,
+      440,
+      275
+    ],
+    "source_crop": "GAZP-2023-ЭО_76/auditor_header.png",
+    "source_observation": "Полностью видимый блок автора заключения, русский и английский адреса, контакты и регистрационные идентификаторы отсутствуют в Markdown.",
+    "operation": "insert_after_exact",
+    "old": "Приложение",
+    "new": "Приложение\n\nБ1\nНОВЫЕ ВЫЗОВЫ\nНОВЫЕ РЕШЕНИЯ\n\nООО «ЦАТР – аудиторские услуги»\nРоссия, 115035, Москва\nСадовническая наб., 75\nТел.: +7 495 705 9700\n+7 495 755 9700\nФакс: +7 495 755 9701\nОГРН: 1027739707203\nИНН: 7709383532\nОКПО: 59002827\nКПП: 770501001\n\nTSATR – Audit Services LLC\nSadovnicheskaya Nab., 75\nMoscow, 115035, Russia\nTel: +7 495 705 9700\n+7 495 755 9700\nFax: +7 495 755 9701\nwww.b1.ru",
+    "expected_occurrences": 1,
+    "original_markdown_sha256": "dbc38b29e83b04a6de97dc85b968bce77d392c41a15f6ef204abe836b5169348",
+    "old_quote_sha256": "26b855cc1660a365f859c871146d407adc04b7bb2476e523f43443bd9f3de6d5",
+    "proposed_new_quote_sha256": "9a34b0b97a12f6b106a991889ac731406b8a7444da2587b479a1cd8e638aff7d",
+    "source_crop_sha256": "8129a9235c2ba70acf2c889f1154fa0cf1d606357a63355831df90d955aed3b6",
+    "applied": false
+  },
+  {
+    "id": "EO76-PRINTED-PAGE",
+    "page_folder": "GAZP-2023-ЭО_76",
+    "severity": "minor",
+    "type": "omitted_printed_page_label",
+    "source_bbox": [
+      250,
+      800,
+      310,
+      830
+    ],
+    "source_crop": "GAZP-2023-ЭО_76/printed_page.png",
+    "source_observation": "Печатное обозначение 74 видно внизу. Физическая страница 76.",
+    "operation": "insert_before_exact",
+    "old": "![Исходная страница](source.png)",
+    "new": "74\n\n![Исходная страница](source.png)",
+    "expected_occurrences": 1,
+    "original_markdown_sha256": "dbc38b29e83b04a6de97dc85b968bce77d392c41a15f6ef204abe836b5169348",
+    "old_quote_sha256": "078e937b1b6230e77074aba4235618d2eafd7fd403051329f1dff8506f594f19",
+    "proposed_new_quote_sha256": "d7da056070b02fe664a61cb088538432be11d17e231017eaedb23b2de7b6ce3e",
+    "source_crop_sha256": "e0ccd3de8eb0fcb8c2cba5200604431e8290b6b6a3ef2289b34e50e0ea3a5499",
+    "applied": false
+  },
+  {
+    "id": "TRMK4-NAVIGATION",
+    "page_folder": "TRMK-2023-ИО_4",
+    "severity": "moderate",
+    "type": "wrong_label_number_association",
+    "source_bbox": [
+      890,
+      20,
+      1580,
+      125
+    ],
+    "source_crop": "TRMK-2023-ИО_4/navigation.png",
+    "source_observation": "В источнике 1 относится к «ПОРТРЕТ КОМПАНИИ», 2 к «ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ», 3 к «ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ». В Markdown портрет продублирован и связан с цифрой2.",
+    "operation": "replace_exact",
+    "old": "ПОРТРЕТ\nКОМПАНИИ1\n\nПОРТРЕТ\nКОМПАНИИ\n2\n\nОТЧЕТ О КОРПОРАТИВНОМ\nУПРАВЛЕНИИ\n3\n\nИНФОРМАЦИЯ\nДЛЯ АКЦИОНЕРОВ",
+    "new": "1. ПОРТРЕТ КОМПАНИИ\n2. ОТЧЕТ О КОРПОРАТИВНОМ УПРАВЛЕНИИ\n3. ИНФОРМАЦИЯ ДЛЯ АКЦИОНЕРОВ",
+    "expected_occurrences": 1,
+    "original_markdown_sha256": "bf9717a0e729e32c9373724d5bcb4e84f4db2ac3b2acc8d635fb6623dacf3601",
+    "old_quote_sha256": "d201b69b0fee88db152bec5e0cfa4eed932395cfe08815747cb214e6230c8b6d",
+    "proposed_new_quote_sha256": "a9778d9029ebbe8628bd1c0df40f561dcf360c923bd3406ae7c3eb3e05293a86",
+    "source_crop_sha256": "b18149e46c12d3331753428b780580457b55b0f2d883dc7ca01ab1f831f08c70",
+    "applied": false
+  }
+]

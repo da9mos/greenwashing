@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-11-16T05:12:09.298236+00:00",
+  "registry": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing/01_итерация_1_сбор_данных/выборка_30/reports.csv",
+  "registry_sha256": "43c38088e1698061253feee4300132756b4790a3b58537a3dda00383d2784176",
+  "checker_sha256": "d269a60efd70b3cc4249a62487eeb43df12d5a15ed33cccad15448d92aea037b",
+  "sources_ledger_sha256": "bffe2e405624d984e6aa214683e69c459d14f72b4ea52daac06e1af82d0f3e39",
+  "reports_expected": 92,
+  "companies_expected": 30,
+  "report_states": {
+    "compared_unreviewed": 3,
+    "structural_issues": 2,
+    "pending": 87
+  },
+  "engine_states": {
+    "DeepSeek": {
+      "structurally_valid_unreviewed": 3,
+      "structural_issues": 2,
+      "pending": 87
+    },
+    "Codex": {
+      "structurally_valid_unreviewed": 25,
+      "pending": 67
+    }
+  },
+  "source_PDFs_readable": 92,
+  "source_pages_total": 14731,
+  "decimal_diff_pages": {
+    "DeepSeek": 68,
+    "Codex": 217
+  },
+  "pair_pages_compared": 665,
+  "structural_issue_count": 2,
+  "checked_authorized": false,
+  "note": "Snapshot during live runs. Differences are not model accuracy; no visual/semantic acceptance is granted."
+}

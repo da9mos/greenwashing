@@ -1,0 +1,451 @@
+{
+  "reviewer": "/root/ab_review_tables",
+  "reviewed_at": "2026-11-17T05:42:16.330797+00:00",
+  "method": "Independent visual PDF/source-image comparison and reading of both saved Markdown outputs; coordinates checked with actual PDF spans where relevant",
+  "assigned_pages": 4,
+  "full_page_checked": false,
+  "scope_note": "This is a one-run comparison on four assigned pages, not model accuracy estimation. No PDF external/internal annotations or final output rendering were reviewed.",
+  "source_image_identity": {
+    "GAZP-2023-ОУР:92": "previous pilot full raster pixel-equal to in-memory current PDF scale2 render",
+    "GAZP-2024-ОУР:113": "previous pilot full raster pixel-equal to in-memory current PDF scale2 render",
+    "LKOH-2023-ОУР:98": "previous pilot full raster pixel-equal to in-memory current PDF scale2 render",
+    "LKOH-2023-ОУР:15": "same dimensions2495x1588;15 differing channel bytes among11886180 versus in-memory scale2 render; original PDF and visual content used, no pixel identity claim"
+  },
+  "pages": [
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 92,
+      "variants": {
+        "baseline": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/GAZP-2023-ОУР_92/page.md",
+          "output_sha256": "61a78d282c8a2fefac751e8a95dd3f8e97d62d841436c54ee1fbe62e5cf8144b",
+          "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+          "model_issues": [
+            "В подписи заголовка таблицы текстовый слой содержит «ПАО «Газпром,» без закрывающей кавычки (source_id p92:block19); по изображению кавычка также отсутствует, поэтому оставлено как в оригинале."
+          ]
+        },
+        "compact": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/GAZP-2023-ОУР_92/page.md",
+          "output_sha256": "e5fae2c54eb266745e8f8453c913779f8f9f48a54477d3235098459b0ecd5d31",
+          "source_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+          "model_issues": [
+            "В заголовке таблицы указано «ПАО «Газпром, тыс. т» — отсутствует закрывающая кавычка после слова «Газпром» (вероятно, как в оригинале, но отмечено для сверки)."
+          ]
+        }
+      },
+      "scope": "Full source overview and source reading; both saved MD texts read. All visible main tables, values/period headers, notes and major blocks compared. No final Markdown rendering or PDF annotations checked. No full-page checked.",
+      "component_status": {
+        "text": "reviewed_with_findings",
+        "numbers": "reviewed_with_findings",
+        "tables": "reviewed_with_findings",
+        "footnotes": "reviewed",
+        "graphics": "partial",
+        "reading_order": "reviewed_with_findings",
+        "links": "pending",
+        "display": "pending"
+      },
+      "issues": [
+        {
+          "severity": "major",
+          "kind": "reading_order",
+          "variants": [
+            "baseline",
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              60,
+              85,
+              430,
+              630
+            ],
+            "description": "Левая колонка: заголовок и вводный абзац о сокращении выбросов метана внизу; продолжение вверху следующей колонки"
+          },
+          "output_excerpt": "В дополнение к этому Группа Газпром реализует проект внедрения МКС",
+          "finding": "Обе версии помещают продолжение перед заголовком «Сокращение выбросов метана» и вводным абзацем. Compact также помещает абзац «В 2023 г.…» перед заголовком; нарушена цепочка продолжения колонок."
+        },
+        {
+          "severity": "minor",
+          "kind": "unsupported_typographic_repair",
+          "variants": [
+            "baseline"
+          ],
+          "source_locator": {
+            "bbox": [
+              650,
+              80,
+              1140,
+              98
+            ],
+            "description": "Заголовок таблицы выбросов метана"
+          },
+          "output_excerpt": "ПАО «Газпром», тыс. т",
+          "finding": "В исходном видимом заголовке нет закрывающей кавычки после «Газпром», baseline добавляет её, хотя собственный issues утверждает, что оставлено как в оригинале."
+        },
+        {
+          "severity": "minor",
+          "kind": "navigation_omission",
+          "variants": [
+            "baseline"
+          ],
+          "source_locator": {
+            "bbox": [
+              15,
+              75,
+              35,
+              730
+            ],
+            "description": "Вертикальная левая навигация"
+          },
+          "output_excerpt": "Отчет о социальной деятельности Группы Газпром за 2023 год",
+          "finding": "Читаемые названия боковых разделов отсутствуют в baseline и не перечислены в issues. Compact сохраняет их отдельными строками."
+        }
+      ],
+      "confirmed_matches": [
+        "Пять строк таблицы метана × четыре числовые колонки обеих версий соответствуют источнику",
+        "Все основные абзацы, инфоплашки765/2 млрд/49,9, блок рынка ГМТ и два примечания присутствуют в обеих версиях"
+      ]
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "pdf_page": 113,
+      "variants": {
+        "baseline": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/GAZP-2024-ОУР_113/page.md",
+          "output_sha256": "f82c7e414d07c9ae730720351a4f414fc9c3acee201bb201dbf5dc6b0df615a4",
+          "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+          "model_issues": []
+        },
+        "compact": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/GAZP-2024-ОУР_113/page.md",
+          "output_sha256": "815796bf655366d102b0e5d2aed4a0997994724ca56ee2ccc4735583db016c2a",
+          "source_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+          "model_issues": []
+        }
+      },
+      "scope": "Full source overview and source reading; both saved MD texts read. All visible main tables, values/period headers, notes and major blocks compared. No final Markdown rendering or PDF annotations checked. No full-page checked.",
+      "component_status": {
+        "text": "reviewed_with_findings",
+        "numbers": "reviewed_with_findings",
+        "tables": "reviewed_with_findings",
+        "footnotes": "reviewed",
+        "graphics": "partial",
+        "reading_order": "reviewed_with_findings",
+        "links": "pending",
+        "display": "pending"
+      },
+      "issues": [
+        {
+          "severity": "minor",
+          "kind": "character_substitution",
+          "variants": [
+            "baseline"
+          ],
+          "source_locator": {
+            "bbox": [
+              240,
+              260,
+              540,
+              350
+            ],
+            "description": "Зелёная плашка корпоративной экологической цели"
+          },
+          "output_excerpt": "снижению сверхнормативного сброса 3В",
+          "finding": "Исходное сокращение ЗВ (загрязняющие вещества) записано цифрой3 вместо буквыЗ. Compact читает ЗВ верно."
+        },
+        {
+          "severity": "minor",
+          "kind": "header_navigation_omission",
+          "variants": [
+            "baseline"
+          ],
+          "source_locator": {
+            "bbox": [
+              55,
+              5,
+              1170,
+              70
+            ],
+            "description": "Верхний колонтитул и навигация1–7"
+          },
+          "output_excerpt": "# Охрана водных ресурсов",
+          "finding": "Baseline не переносит название отчёта в верхнем колонтитуле и навигацию1–7, issues пустой. Compact эти блоки сохраняет."
+        }
+      ],
+      "confirmed_matches": [
+        "Обе половины разворота, главные тексты и плашки присутствуют в обеих версиях",
+        "Все семь строк водной таблицы × четыре числовые колонки (2022,2023,2024,изменение) сверены и верны в обеих версиях",
+        "Итог 4545,37 и пояснение про рост2,6% сохранены"
+      ]
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "pdf_page": 15,
+      "variants": {
+        "baseline": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/LKOH-2023-ОУР_15/page.md",
+          "output_sha256": "05d1a437872fc9ca57bb5b57974ad1f0070a6dbc8520b9931450da7e5f670e97",
+          "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+          "model_issues": [
+            "Извлечённые строки в блоке 99 дублируют текст верхней навигации (О Компании, Об Отчете, разделы 01, 02, 03, Приложения), который уже присутствует в блоке 59 и других местах; в Markdown верхняя навигация не воспроизведена отдельно, чтобы избежать дублирования колонтитулов.",
+            "Номера страниц «26» и «27» присутствуют внизу разворота; в тексте указаны оба, но принадлежность к соответствующим половинам разворота (левая — 26, правая — 27) подтверждена по изображению, а не по координатам текстового слоя."
+          ]
+        },
+        "compact": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/LKOH-2023-ОУР_15/page.md",
+          "output_sha256": "32a4ebdc4e27e032d7de4ea176a6a23f97644a3cf122e11083fc4d11f67f3267",
+          "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+          "model_issues": [
+            "Блок навигации в верхней части страницы (lukoil.ru; 01 | Стратегия и корпоративное управление; 02 | Климат и природа; 03 | Люди и отношения; Приложения; О Компании; Об Отчете) не отражён в markdown: текстовые spans дублируются с наложением (block59/block99), в изображении читаются как единая полоса навигации.",
+            "Номера страниц 26 и 27 в нижнем колонтитуле сохранены как самостоятельные строки; вопрос принадлежности к левой/правой половине разворота не влияет на текст."
+          ]
+        }
+      },
+      "scope": "Full source overview and source reading; both saved MD texts read. All visible main tables, values/period headers, notes and major blocks compared. No final Markdown rendering or PDF annotations checked. No full-page checked.",
+      "component_status": {
+        "text": "reviewed_with_findings",
+        "numbers": "reviewed_with_findings",
+        "tables": "reviewed_with_findings",
+        "footnotes": "reviewed",
+        "graphics": "partial",
+        "reading_order": "reviewed_with_findings",
+        "links": "pending",
+        "display": "pending"
+      },
+      "issues": [
+        {
+          "severity": "major",
+          "kind": "table_column_shift",
+          "variants": [
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              140,
+              505,
+              560,
+              535
+            ],
+            "description": "Последняя строка левой таблицы, восполнение популяций рыб"
+          },
+          "output_excerpt": "| | Восполнение популяций рыб в природных водоемах | | 10,6 тыс. мальков |",
+          "finding": "Текст из третьей колонки «Динамика показателей за2019–2022годы» перемещён во вторую «Цели». В baseline ячейка находится в правильной третьей колонке. Пустая объединённая цель не разрешает сдвигать следующий текст влево."
+        },
+        {
+          "severity": "minor",
+          "kind": "duplicate_title",
+          "variants": [
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              30,
+              65,
+              540,
+              90
+            ],
+            "description": "Единственный заголовок над левой таблицей"
+          },
+          "output_excerpt": "# Основные воздействия и результаты деятельности\n\n## Основные воздействия и результаты деятельности",
+          "finding": "Один исходный заголовок дублирован как H1 и H2."
+        },
+        {
+          "severity": "minor",
+          "kind": "readable_edge_omission",
+          "variants": [
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              30,
+              8,
+              85,
+              30
+            ],
+            "description": "Сайт в верхнем левом углу"
+          },
+          "output_excerpt": "Блок навигации в верхней части страницы (lukoil.ru;",
+          "finding": "lukoil.ru отсутствует в MD, хотя читаем. Указание пропуска в issues не заменяет перенос доступного текста. Baseline сайт сохраняет."
+        },
+        {
+          "severity": "minor",
+          "kind": "readable_navigation_omission",
+          "variants": [
+            "baseline",
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              675,
+              8,
+              1210,
+              33
+            ],
+            "description": "Верхняя горизонтальная навигация"
+          },
+          "output_excerpt": "Приложения",
+          "finding": "Обе версии исключают читаемую навигацию, называя её дублирующими текстовыми spans. Дубликат извлечения следует свести к одному реальному объекту, а не к нулю; issue фиксируется, но пропуск остаётся."
+        },
+        {
+          "severity": "minor",
+          "kind": "invented_icon_substitution",
+          "variants": [
+            "baseline"
+          ],
+          "source_locator": {
+            "bbox": [
+              30,
+              190,
+              65,
+              470
+            ],
+            "description": "Пиктограммы категорий слева и справа"
+          },
+          "output_excerpt": "✅ **Климат и атмосферный воздух**",
+          "finding": "Исходные пиктограммы заменены произвольными эмодзи (галочка,медаль,шестерёнка и др.), не идентичными источнику. Compact не добавляет такие эмодзи."
+        }
+      ],
+      "confirmed_matches": [
+        "Числовые значения левой таблицы и направления изменений сохранены в обеих версиях; регресс compact относится к принадлежности текстовой ячейки колонке",
+        "Правая таблица управления присутствует целиком в обеих версиях: цели,стандарты,риски,КПД,сертификация,программы;82%/71%,ISO14001:2015/45001:2018/50001:2018 сохранены",
+        "Три изменения2023,четыре мероприятия2024,примечания1–6 слева и1–3 справа присутствуют"
+      ]
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "pdf_page": 98,
+      "variants": {
+        "baseline": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/baseline/LKOH-2023-ОУР_98/page.md",
+          "output_sha256": "859cfc14941897ad134bd64049b12e32ab5c4f3da0b9b0b7bf6d38099259e395",
+          "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+          "model_issues": [
+            "Строка «Доля выбросов загрязняющих веществ в атмосферу... (Волгоград, Пермь)»: значения за 2019–2021 в таблице отсутствуют, в исходном изображении ячейки пусты — оставлено пусто.",
+            "Строка «Количество НПЗ...»: значения за 2019, 2020 и 2023 в исходном изображении отсутствуют (ячейки пусты) — оставлено пусто.",
+            "Строки «Объем выбросов в разбивке по видам деятельности» по подразделам: значения за 2019–2020 в изображении отсутствуют — оставлено пусто.",
+            "Заголовок колонок систем отчетности (GRI/SASB/IPIECA/Другие) передан одной объединённой колонкой; в оригинале это группировка подшапки."
+          ]
+        },
+        "compact": {
+          "output_path": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/_проверка/Сравнение_инструкций_2026-11-17/compact/LKOH-2023-ОУР_98/page.md",
+          "output_sha256": "6630c8dd551b25070662c292725345130762baa52ff09fce5fa56ebda75a45a5",
+          "source_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+          "model_issues": [
+            "Страница представляет разворот: печатные номера 192 (левый) и 193 (правый); физический номер — 98. Первая таблица (192) содержит полное оглавление показателей; вторая половина (193) продолжает таблицу начиная с «В разбивке по географии» без повторного заголовка строки — принадлежность строк верхней части (российские/зарубежные организации) к показателю «Выбросы твердых веществ» установлена по контексту левой половины (раздел «Выбросы твердых веществ»). Строки «Российские организации 22/19/19/20,5/17,6» и «Зарубежные организации 19/12/16/12/7» на правой половине являются частью раздела «Выбросы твердых веществ» (проверено по структуре и числам левой половины: сумма 22+19=41 и т.д. не совпадает с итогом 24, что указывает на иное соответствие — требует уточнения по вёрстке оригинала при необходимости)."
+          ]
+        }
+      },
+      "scope": "Full source overview and source reading; both saved MD texts read. All visible main tables, values/period headers, notes and major blocks compared. No final Markdown rendering or PDF annotations checked. No full-page checked.",
+      "component_status": {
+        "text": "reviewed_with_findings",
+        "numbers": "reviewed_with_findings",
+        "tables": "reviewed_with_findings",
+        "footnotes": "reviewed",
+        "graphics": "partial",
+        "reading_order": "reviewed_with_findings",
+        "links": "pending",
+        "display": "pending"
+      },
+      "issues": [
+        {
+          "severity": "major",
+          "kind": "year_column_shift",
+          "variants": [
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              300,
+              242,
+              361,
+              261
+            ],
+            "description": "Доля выбросов, значения4,4 и4,3; заголовки2022/2023 x305.6–326.7/x336.2–357.3"
+          },
+          "output_excerpt": "| % | | | 4,4 | 4,3 | |",
+          "finding": "4,4 и4,3 сдвинуты в2021/2022 вместо исходных2022/2023. Baseline эту строку сохраняет правильно."
+        },
+        {
+          "severity": "major",
+          "kind": "year_column_shift",
+          "variants": [
+            "baseline",
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              300,
+              310,
+              361,
+              329
+            ],
+            "description": "Количество НПЗ: два значения2 под2022 и2023; source glyph bboxes321.8–326.7 и352.1–357.3"
+          },
+          "output_excerpt": "| шт. | | | 2 | 2 | |",
+          "finding": "В обеих версиях два значения2 попали в2021/2022,2023 оставлен пустым. Source визуально и по координатам:2022=2,2023=2. Baseline issues ошибочно утверждает пустоту2023."
+        },
+        {
+          "severity": "major",
+          "kind": "reporting_framework_column_shift",
+          "variants": [
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              1120,
+              100,
+              1195,
+              490
+            ],
+            "description": "Правый блок: IPIECA x1125.2–1152.6; ENV-5 А1 x1125.9–1156.7"
+          },
+          "output_excerpt": "| GRI 305-7 | | | ENV-5 A1 |",
+          "finding": "ENV-5 A1 для твердых веществ и CO со связанными деятельностными строками помещён в «Другие» вместо IPIECA. Baseline сохраняет эту позицию в объединённой колонке с явным порядкомGRI/SASB/IPIECA/Другие."
+        },
+        {
+          "severity": "major",
+          "kind": "wrong_continuation_interpretation",
+          "variants": [
+            "compact"
+          ],
+          "source_locator": {
+            "bbox": [
+              690,
+              120,
+              1010,
+              175
+            ],
+            "description": "Верхние правые строки по географии продолжают SO2 с нижней левой половины"
+          },
+          "output_excerpt": "Строки «Российские организации 22/19/19/20,5/17,6» и «Зарубежные организации 19/12/16/12/7» на правой половине являются частью раздела «Выбросы твердых веществ»",
+          "finding": "Это неверное утверждение в issues: строки относятся к SO₂. Следующий видимый заголовок «Выбросы твердых веществ» начинается после них. Суммы22+19=41 и17,6+7≈24,6 согласуются сSO₂ с учётом округления, но доказательство — вёрстка/продолжение, а не только арифметика."
+        },
+        {
+          "severity": "minor",
+          "kind": "navigation_omission",
+          "variants": [
+            "baseline"
+          ],
+          "source_locator": {
+            "bbox": [
+              30,
+              8,
+              1210,
+              33
+            ],
+            "description": "Сайт и верхняя навигация"
+          },
+          "output_excerpt": "# Выбросы",
+          "finding": "Baseline не переносит сайт/верхнюю навигацию и не отмечает этот пропуск; compact сохраняет."
+        }
+      ],
+      "confirmed_matches": [
+        "Обе половины разворота и все видимые основные строки присутствуют",
+        "Все остальные просмотренные числовые ряды общего объёма,NOx,SO2,твердых веществ,CO,углеводородов и разбивок соответствуют визуальному источнику; исключения по годам отмечены отдельно",
+        "КодыGRI/SASB на основных строках сохранены, регресс compact по IPIECA отмечен отдельно"
+      ]
+    }
+  ],
+  "conclusion": "Neither variant passes full-page acceptance. Compact has confirmed structural regressions on LKOH15 and LKOH98; baseline also has common year misalignment on LKOH98 and reading-order defect onGAZP92. Smaller prompt is not yet justified by quality. Repair generic handling of empty/merged cells, continuation chains, and independent navigation objects, then re-run entire small set.",
+  "changes_to_sources": false
+}

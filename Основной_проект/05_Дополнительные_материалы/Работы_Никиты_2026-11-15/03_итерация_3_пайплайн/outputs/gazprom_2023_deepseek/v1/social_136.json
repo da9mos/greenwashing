@@ -1,0 +1,31 @@
+{
+  "report": "social",
+  "pdf_page": 136,
+  "version": "v1",
+  "response": {
+    "pdf_page": 136,
+    "printed_pages": null,
+    "markdown": "Отчет о социальной деятельности Группы Газпром за 2023 год\n\n# 6.12. КОНТАКТЫ И ОБРАТНАЯ СВЯЗЬ\n\nПо вопросам, связанным с Отчетом о социальной деятельности Группы Газпром, можно обращаться в Управление ПАО «Газпром», отвечающее за организацию деятельности в области корпоративных коммуникаций и устойчивого развития.\n\nАдрес электронной почты: sustainability@gazprom.ru.\n\nWWW.GAZPROM.RU",
+    "problems": [],
+    "review_status": "converted"
+  },
+  "model": "deepseek-flash",
+  "usage": {
+    "prompt_tokens": 2591,
+    "completion_tokens": 157,
+    "total_tokens": 2748,
+    "prompt_tokens_details": {
+      "cached_tokens": 384
+    },
+    "prompt_cache_hit_tokens": 384,
+    "prompt_cache_miss_tokens": 2207
+  },
+  "finish_reason": "stop",
+  "seconds": 4.01,
+  "image_sha256": [
+    "3e5c526467167b5bb19f3e931d79fa277dd5738045094201110f8521e36169ad",
+    "2d953f00818a91adfc1466f5b9da78a689c421841d2e34c4553f6f58a7de8d04"
+  ],
+  "system_sha256": "4ce3286d623578cb61ccd97a41a1f8b209b54b73d6568f89dd48d3ed79b852fd",
+  "extra_instruction": ""
+}

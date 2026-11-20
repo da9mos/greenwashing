@@ -1,0 +1,26 @@
+{
+  "schema_version": "esg-extraction-3.0",
+  "report_id": "DEMO-2024",
+  "source_sha256": "7bf6d0b2404f828693d2e808e69e90623e3bd8c15cd993d99852d7b3bfebf78c",
+  "prompt_sha256": "f8f824163386faa81d584f881fb782e8849034fccbd5a87050718c78e9d92c7b",
+  "taxonomy_sha256": "8cfec8074c13b2d339597c7b48ebee49ecfabfb1dabc349271e5e3dbf4eeb01a",
+  "source_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/examples/profile3_1/source.md",
+  "prompt_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/esg_agent_v3_1.md",
+  "taxonomy_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/taxonomy_v3_1.csv",
+  "page_kind": "declared_pdf_page_numbers_not_independently_verified",
+  "pages_per_batch": 1,
+  "preamble_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "preamble_status": "empty",
+  "pages_sha256": "0e04b3637f94477323524034fc667e7db036869fdb84e5040f799cd53d9b9b62",
+  "blocks_sha256": "f7834880ed01b400c47ff98b0f43e3eeceb7cafe3afc9279479520e986f46f3b",
+  "batches": [
+    {
+      "id": "DEMO-2024_b0001",
+      "file": "batches/DEMO-2024_b0001.json",
+      "sha256": "f2e3e8fd0df412ba422cee3f56a7a3f463e076fc5d9843816ed289daa5282fc7"
+    }
+  ],
+  "decision_profile_version": "3.1",
+  "decision_rules_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/decision_rules_v3_1.json",
+  "decision_rules_sha256": "237785ad5ff8f2aa231e86d6da9748c0c9ccef9bca646124599bcca4d5145f4a"
+}

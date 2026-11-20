@@ -1,0 +1,438 @@
+{
+  "schema_version": "esg-extraction-3.0",
+  "report_id": "GAZP-2023-ЭО",
+  "source_sha256": "c9b0f1a7c1215b55ae71e2bab071906fd389a99120371c0092d00c51544719a7",
+  "prompt_sha256": "a7860acf8f93898086be27c87715205a53d14138206f498e086bd655727557a0",
+  "taxonomy_sha256": "ac46e7341ad1fa90031fa0657734d6afc06d9e738cb7eb549b99a03d3b186dfb",
+  "source_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/Результаты работы/Газпром 2023 - экологический отчёт/report.md",
+  "prompt_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/esg_agent_v3.md",
+  "taxonomy_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_esg_v3/Агент определитель ESG + анализ статей/agent/taxonomy.csv",
+  "page_kind": "declared_pdf_page_numbers_not_independently_verified_service_preamble_saved_separately",
+  "pages_per_batch": 1,
+  "preamble_sha256": "16e74de3653ad20d36418774b30daf6a97d82be30cabb9f0540eb104240e595c",
+  "preamble_status": "excluded_from_physical_page_coverage_not_semantically_reviewed",
+  "pages_sha256": "5fe5a52b6a255b157bf00369ab0448d06ac7b87fbcaf5e2c2148782f8e24e713",
+  "blocks_sha256": "06a608a2dd7cbd8defb6ee4b02e247e52e2ea88480a7494996e694ae4a7ab4f0",
+  "batches": [
+    {
+      "id": "GAZP-2023-ЭО_b0001",
+      "file": "batches/GAZP-2023-ЭО_b0001.json",
+      "sha256": "6c3484229ec0fbf88013279f2cc8c1c3d63d89395075fcef0e55401af1e0dc3c"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0002",
+      "file": "batches/GAZP-2023-ЭО_b0002.json",
+      "sha256": "ea6e59bc8ed6939092213aa92ed4a3d955d33a0e62fe7a6e058040e83e59353c"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0003",
+      "file": "batches/GAZP-2023-ЭО_b0003.json",
+      "sha256": "ace0752bd74d6c4974f4e66739a4289a8dde6ae98cac6906b76d012f98a780fe"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0004",
+      "file": "batches/GAZP-2023-ЭО_b0004.json",
+      "sha256": "2263270fc62ec6dddbc655cfc5a4acfe80528720a53e86afa5e8d8480a279f75"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0005",
+      "file": "batches/GAZP-2023-ЭО_b0005.json",
+      "sha256": "2dc1f1d3fb1b9286c039c6aeaf237d8945bd19f5687f3b01f70d96af0f02dcd7"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0006",
+      "file": "batches/GAZP-2023-ЭО_b0006.json",
+      "sha256": "a53198761c4415706e03a36871b7f095fe6d8365a9531386a532bbba064acd31"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0007",
+      "file": "batches/GAZP-2023-ЭО_b0007.json",
+      "sha256": "4bee6f3647091072d4420c524b60a1a51dea124453fe8b07e6865aadbb167c52"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0008",
+      "file": "batches/GAZP-2023-ЭО_b0008.json",
+      "sha256": "a1b82e110254fef43cdcd1b205cae64e2d6e5e4fe05f1e601712654f4f7dafd6"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0009",
+      "file": "batches/GAZP-2023-ЭО_b0009.json",
+      "sha256": "3a7b2a461246a25463b54506f7e3012de52933f6ac4e251944b3d5a1d3f23790"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0010",
+      "file": "batches/GAZP-2023-ЭО_b0010.json",
+      "sha256": "0d0aebc286658a8956a29f458d9612cd6d06df9c7f04e03ab1a5e0f99495d4be"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0011",
+      "file": "batches/GAZP-2023-ЭО_b0011.json",
+      "sha256": "06bf9385f824b4aeaf5c9080a39ec5408795922fcfb9f7f6eb7080921e2fe59c"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0012",
+      "file": "batches/GAZP-2023-ЭО_b0012.json",
+      "sha256": "054cbafdb9de78e80a4275b2b0c076f3e1b3c7341367bcb44b6ef26e9814239e"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0013",
+      "file": "batches/GAZP-2023-ЭО_b0013.json",
+      "sha256": "71c13886f0e7e6ea86fba94b6e499333c6ef76581bcaecfb0e17660774687c42"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0014",
+      "file": "batches/GAZP-2023-ЭО_b0014.json",
+      "sha256": "9da5a277eaee996e1d2fb1b1af9d1d928c56f57707c3cc773d68cb1f7d67974b"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0015",
+      "file": "batches/GAZP-2023-ЭО_b0015.json",
+      "sha256": "f474dd5c024b4ecd377fda7250485f93db8fc7ab2790ef69f41dcd881d566f47"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0016",
+      "file": "batches/GAZP-2023-ЭО_b0016.json",
+      "sha256": "a86ca4bb99b0a613918c4f3fc3893b55723604959c1086c90e901a5b110ae7ca"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0017",
+      "file": "batches/GAZP-2023-ЭО_b0017.json",
+      "sha256": "96269949643d8621a0a8508e2921d93209928521558662447a17d7ed7f9e1114"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0018",
+      "file": "batches/GAZP-2023-ЭО_b0018.json",
+      "sha256": "e8a5f106b974469868edb4052229b634db0667b8a9f413c4434f8a9838ca6b0b"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0019",
+      "file": "batches/GAZP-2023-ЭО_b0019.json",
+      "sha256": "aa6397935c504f2c0f693412af8a98ddb063abf724b05f0c0e0966b6dff751c6"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0020",
+      "file": "batches/GAZP-2023-ЭО_b0020.json",
+      "sha256": "0dc251a29800bd301677c01028eae71783f30fffeaf191e416eb4be19cba3082"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0021",
+      "file": "batches/GAZP-2023-ЭО_b0021.json",
+      "sha256": "998fc2cacb00cc0a5d8dd59d522837c2abd3c3d6638555d27c34ef90ef10b17f"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0022",
+      "file": "batches/GAZP-2023-ЭО_b0022.json",
+      "sha256": "297f515e52bb7392a134b1470096762f23616bca20cca9441307ad7a4d0df1a4"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0023",
+      "file": "batches/GAZP-2023-ЭО_b0023.json",
+      "sha256": "f951cfd6953e3da19ce6dfd54def8706068d2b6b676c4f178458d3ad4884a101"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0024",
+      "file": "batches/GAZP-2023-ЭО_b0024.json",
+      "sha256": "1d7f21859b49c67083ab0d656614cfc909f1e1f18e6dabb5fea00e8699e2a780"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0025",
+      "file": "batches/GAZP-2023-ЭО_b0025.json",
+      "sha256": "12b7964bf08ad6d92b7699294f74b9609a0bcf405bc5e2d0a394a48dde75e2e3"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0026",
+      "file": "batches/GAZP-2023-ЭО_b0026.json",
+      "sha256": "154a85267c46aeac8782d3c17903f688e0da85fb9423fec411d382930f661c62"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0027",
+      "file": "batches/GAZP-2023-ЭО_b0027.json",
+      "sha256": "abe04d67095bfadc5fc39290e95c6061035afe20da71f6fc7c0cd96a21e0022b"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0028",
+      "file": "batches/GAZP-2023-ЭО_b0028.json",
+      "sha256": "88ac287d665d4cae61baff73309dfcf882cab3b7cdb82bf8a025a990c267ef38"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0029",
+      "file": "batches/GAZP-2023-ЭО_b0029.json",
+      "sha256": "78d7ed86057fa7601bffd62ed19d43e947fe10995a1fab7042e4cb662c926757"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0030",
+      "file": "batches/GAZP-2023-ЭО_b0030.json",
+      "sha256": "16a9fed8bed65c67d31ae3effd356e524490a7f979e05e241511246e239c37d3"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0031",
+      "file": "batches/GAZP-2023-ЭО_b0031.json",
+      "sha256": "65d491e14d7e1b4043e4a9c1627fb5488f34df940d87e4af194d5e1a5d31e3fd"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0032",
+      "file": "batches/GAZP-2023-ЭО_b0032.json",
+      "sha256": "26e1db227f2f061e20365c526d05ceafc09d336c3c1177562927f9fb6e5c8f26"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0033",
+      "file": "batches/GAZP-2023-ЭО_b0033.json",
+      "sha256": "b7824817c1ab7fc455f8b58ac20b6187942cdcc11d7f0f3278f63ee6d8b42dae"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0034",
+      "file": "batches/GAZP-2023-ЭО_b0034.json",
+      "sha256": "784f3c2e8b2ebf8cba061a597b85e5153850dabe96218334568dd2f9cbe63f69"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0035",
+      "file": "batches/GAZP-2023-ЭО_b0035.json",
+      "sha256": "3c875474f923b0e482c2af549efb341571afdf369455943d9dee348afb5e67d2"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0036",
+      "file": "batches/GAZP-2023-ЭО_b0036.json",
+      "sha256": "8ce12c08ee32a9bbe189c102c0c4f91a21917ad5f495f30d6f3da85e18b7d20a"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0037",
+      "file": "batches/GAZP-2023-ЭО_b0037.json",
+      "sha256": "0cff3f4dfdf3d585fdb48948daaddaa8739e6bef12f9b14ba7c1e88c30f1a907"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0038",
+      "file": "batches/GAZP-2023-ЭО_b0038.json",
+      "sha256": "1679dc4c8de2f8e6547d691ba18109ba3a7c3b43211a42bee097995c22bcf926"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0039",
+      "file": "batches/GAZP-2023-ЭО_b0039.json",
+      "sha256": "3ca2dae2bf764fad05ad9e7ae3c1aaff5bccf22e3eae60996f7fb8989d343678"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0040",
+      "file": "batches/GAZP-2023-ЭО_b0040.json",
+      "sha256": "6e145ea8e75960f6b2223915e0034e7c87d1d5f8ff9aaafdb14c42807aca9363"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0041",
+      "file": "batches/GAZP-2023-ЭО_b0041.json",
+      "sha256": "70368038592e9bf4fd994bd4da4029b15c69c11690f85f81fa22452829390f9d"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0042",
+      "file": "batches/GAZP-2023-ЭО_b0042.json",
+      "sha256": "2f0c4a029e5cf558c38f8ffb46e1bb17173b570228520673f3615eff3c6222ce"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0043",
+      "file": "batches/GAZP-2023-ЭО_b0043.json",
+      "sha256": "82bfe065d7d2cce61b4be98d899ff36e5ae33bba9455bef6fa4e8c5df9da9af6"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0044",
+      "file": "batches/GAZP-2023-ЭО_b0044.json",
+      "sha256": "dec0ef0cf30a0a61d6b6e99f19e34caf93d2f424766439b64136fc3727403101"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0045",
+      "file": "batches/GAZP-2023-ЭО_b0045.json",
+      "sha256": "b2c7a6ddd22645e3fee7c257399880e2fe81bef61c9860f6fe9b6b65ba87aa8f"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0046",
+      "file": "batches/GAZP-2023-ЭО_b0046.json",
+      "sha256": "f053b222539d95a9ceac6937425d129153688d5aa2890f0a070876683607086f"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0047",
+      "file": "batches/GAZP-2023-ЭО_b0047.json",
+      "sha256": "7c1e9a9a38303aeba173d578c082a7351cf386e0347b9b1ce643d643eed9c589"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0048",
+      "file": "batches/GAZP-2023-ЭО_b0048.json",
+      "sha256": "5ec51593a13505ce6666f8d62e5a98e1eafcc35b68a360cc1f744a17cc44732b"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0049",
+      "file": "batches/GAZP-2023-ЭО_b0049.json",
+      "sha256": "c9457a1e40381a59874a4734fe73ccf596acffdaccda73ca419d6c96dba75cb7"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0050",
+      "file": "batches/GAZP-2023-ЭО_b0050.json",
+      "sha256": "2d3c707c76beba6ed68036140f4666cee5c8b8dce51ace46b725d2570e723e87"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0051",
+      "file": "batches/GAZP-2023-ЭО_b0051.json",
+      "sha256": "dae5a3aa7bf4c7e29d1cb879773da63090b3484bd8926cb41f983d360529e593"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0052",
+      "file": "batches/GAZP-2023-ЭО_b0052.json",
+      "sha256": "eb0b5a84cc74a1768e981707654eefa95e026a3fbfab17d4bffde6ffc452259b"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0053",
+      "file": "batches/GAZP-2023-ЭО_b0053.json",
+      "sha256": "a5e77a68298e91f353e3b5934027acd5768f1ffd2cdb280e1f6ac9fa2c87b76e"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0054",
+      "file": "batches/GAZP-2023-ЭО_b0054.json",
+      "sha256": "f042c9f8b7b77d015c3610e566fba2d5d58da5b8f14548be3ed1a0b01ce39f8a"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0055",
+      "file": "batches/GAZP-2023-ЭО_b0055.json",
+      "sha256": "3605b417c418713cad5ce2742b59ff9c430fef70b600f8884e1093ed44f62e6d"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0056",
+      "file": "batches/GAZP-2023-ЭО_b0056.json",
+      "sha256": "da2812ac4a0a91c6ee90a5ecd5ffde0175b86c9166460b59e38859d457eecef5"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0057",
+      "file": "batches/GAZP-2023-ЭО_b0057.json",
+      "sha256": "7aa07a227e47a189cc686749daf85b77d632a219750af22192180eb175aaaa65"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0058",
+      "file": "batches/GAZP-2023-ЭО_b0058.json",
+      "sha256": "3a0bd4c152c83765521526e0b434f8e3a2c2b25019764c2c76f248ebb763dcd0"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0059",
+      "file": "batches/GAZP-2023-ЭО_b0059.json",
+      "sha256": "ae1dfed64037a381d979155e2334bf4480c39ca4dcffe1ed9778f310701a7c64"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0060",
+      "file": "batches/GAZP-2023-ЭО_b0060.json",
+      "sha256": "c5ccf30a26edc54dab2f6779a139494e96876d9aca0a44644b0891a55244b293"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0061",
+      "file": "batches/GAZP-2023-ЭО_b0061.json",
+      "sha256": "4f0225e4c902f832e9c27e69ed013fc69cc89016ce2f3d86a255a9dba37a2ef1"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0062",
+      "file": "batches/GAZP-2023-ЭО_b0062.json",
+      "sha256": "fae81cb6f07f5761e2d6f7c4552a961f0520cc91b568058361b3bc2e0651d845"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0063",
+      "file": "batches/GAZP-2023-ЭО_b0063.json",
+      "sha256": "38b4e4abbcb9c790d74e69ee4960efe243e22642ddeb0438c52dc946680fa01a"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0064",
+      "file": "batches/GAZP-2023-ЭО_b0064.json",
+      "sha256": "5a476853f4431184d18b97dfda76c79bc55ef4ae851a0fd718617bf22b81b890"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0065",
+      "file": "batches/GAZP-2023-ЭО_b0065.json",
+      "sha256": "42c90cf22cb55085c094f64f71eca1fad8a119016bf4b9f5c86309cd8c62c2ae"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0066",
+      "file": "batches/GAZP-2023-ЭО_b0066.json",
+      "sha256": "7756a4a1a45d91431e9e20455d34c32665be703f9aa0255aa4a58bab0806156d"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0067",
+      "file": "batches/GAZP-2023-ЭО_b0067.json",
+      "sha256": "51e0ae9a72d5030d13502b25339e9c543814ff86bad60e8ab4e0dc32de4da2f0"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0068",
+      "file": "batches/GAZP-2023-ЭО_b0068.json",
+      "sha256": "9ea64d917dcc7e2828f9da2f134c0f556c302925a354e815b2b681fab72b5188"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0069",
+      "file": "batches/GAZP-2023-ЭО_b0069.json",
+      "sha256": "789fe4b9b84d6934e913306ab8ac438f4cea0e11622c2ba8e37910f001788aa7"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0070",
+      "file": "batches/GAZP-2023-ЭО_b0070.json",
+      "sha256": "478942bda9213fff0e367efe38d079002596faf2c14c8abf3e07f51bae32acc6"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0071",
+      "file": "batches/GAZP-2023-ЭО_b0071.json",
+      "sha256": "8e94866ba2c2eae00850aa7b5f2ab6aa838287b3a975c8242dd5e263b9499217"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0072",
+      "file": "batches/GAZP-2023-ЭО_b0072.json",
+      "sha256": "b03cf23a841e55c78ebc8b625b0a706c96a884607dda3c6349baee1cde1ccf51"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0073",
+      "file": "batches/GAZP-2023-ЭО_b0073.json",
+      "sha256": "e888433591def0d50c904596ae7f4e20ad826ed5344d1111bb4e0b1c5e63c1a1"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0074",
+      "file": "batches/GAZP-2023-ЭО_b0074.json",
+      "sha256": "3e32256606797ba7b16aba726fb07be4f528727afa43aef8a23eb2df9dca0e83"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0075",
+      "file": "batches/GAZP-2023-ЭО_b0075.json",
+      "sha256": "7915b122b3d292c537cdebe38fd3a418c59a23af29758194cde59b599b32a35f"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0076",
+      "file": "batches/GAZP-2023-ЭО_b0076.json",
+      "sha256": "b05b1420666881114ff5b6d3c69ba29e3802f70dabdc538c8ec5f94fcd326c08"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0077",
+      "file": "batches/GAZP-2023-ЭО_b0077.json",
+      "sha256": "02282fe00c5e88726e1841f13d635e1135b7755e67cd2e50322885f583c8b963"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0078",
+      "file": "batches/GAZP-2023-ЭО_b0078.json",
+      "sha256": "5112866d7ea26a5023b0becaa94ceb69ead03518df000cf216b2bdb2d19da9dd"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0079",
+      "file": "batches/GAZP-2023-ЭО_b0079.json",
+      "sha256": "620e9191c5cd87016366f67beca2f81c2675c47acf429ea030bb9b9205180b56"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0080",
+      "file": "batches/GAZP-2023-ЭО_b0080.json",
+      "sha256": "496dac4c060b0fcdefe0965dd8acd3369c8c84fdf2512c108491a7a2e8c975d4"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0081",
+      "file": "batches/GAZP-2023-ЭО_b0081.json",
+      "sha256": "a296c061927187d7f44368b8b028d9c52fc43e4777c292a0f0ab9b684d1d67ae"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0082",
+      "file": "batches/GAZP-2023-ЭО_b0082.json",
+      "sha256": "6cb3f7b0ffceb9319313ddfe1743f39373d5a26ce549c35aff77c6860cf29ea9"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0083",
+      "file": "batches/GAZP-2023-ЭО_b0083.json",
+      "sha256": "402b6914499455913a51e1d74665d35693740bc7c0eec88c5d201222201bcc47"
+    },
+    {
+      "id": "GAZP-2023-ЭО_b0084",
+      "file": "batches/GAZP-2023-ЭО_b0084.json",
+      "sha256": "44f2bba6e4379af48388dcd90da43ae11ecc8937131cf4827e05764b94eb130d"
+    }
+  ]
+}

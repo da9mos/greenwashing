@@ -1,0 +1,108 @@
+{
+  "version": "v3",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1rYjMIeWuUNQI9GUdzC8gEWddb0_d3hUcc1qgobJ78l0/edit",
+  "parent_folder_id": "1iIT6DmrHePCIoajIWiWG5JIvKzV52pLm",
+  "native_mime": "application/vnd.google-apps.spreadsheet",
+  "verified_tab_count": 14,
+  "verified_claims": 974,
+  "verified_targets": 49,
+  "verified_review_evidence": 164,
+  "verified_formula_counts": {
+    "fulfilled": 17,
+    "failed": 8,
+    "unresolved": 21,
+    "changed": 2,
+    "noncomparable": 1
+  },
+  "basic_filters": 11,
+  "visual_check": "Header and first rows of all 14 actual Google-exported tabs rendered and inspected; direct browser unavailable",
+  "tests": 40,
+  "rebuild_identical_files": 5,
+  "validation_state": "passed",
+  "native_readback": [
+    {
+      "sheet": "Обзор",
+      "rows": 11,
+      "expectedRows": 11,
+      "differences": []
+    },
+    {
+      "sheet": "Динамика",
+      "rows": 50,
+      "expectedRows": 50,
+      "differences": []
+    },
+    {
+      "sheet": "Сопоставления",
+      "rows": 50,
+      "expectedRows": 50,
+      "differences": []
+    },
+    {
+      "sheet": "Заявления",
+      "rows": 975,
+      "expectedRows": 975,
+      "differences": []
+    },
+    {
+      "sheet": "Компании",
+      "rows": 31,
+      "expectedRows": 31,
+      "differences": []
+    },
+    {
+      "sheet": "Доказательства",
+      "rows": 221,
+      "expectedRows": 221,
+      "differences": []
+    },
+    {
+      "sheet": "Новые доказательства",
+      "rows": 165,
+      "expectedRows": 165,
+      "differences": []
+    },
+    {
+      "sheet": "Повторная проверка",
+      "rows": 50,
+      "expectedRows": 50,
+      "differences": []
+    },
+    {
+      "sheet": "Внешние факты",
+      "rows": 14,
+      "expectedRows": 14,
+      "differences": []
+    },
+    {
+      "sheet": "Пробелы",
+      "rows": 31,
+      "expectedRows": 31,
+      "differences": []
+    },
+    {
+      "sheet": "Отчёты",
+      "rows": 93,
+      "expectedRows": 93,
+      "differences": []
+    },
+    {
+      "sheet": "Проверка разметки",
+      "rows": 77,
+      "expectedRows": 77,
+      "differences": []
+    },
+    {
+      "sheet": "Аудит команды",
+      "rows": 8,
+      "expectedRows": 8,
+      "differences": []
+    },
+    {
+      "sheet": "Методика",
+      "rows": 11,
+      "expectedRows": 11,
+      "differences": []
+    }
+  ]
+}

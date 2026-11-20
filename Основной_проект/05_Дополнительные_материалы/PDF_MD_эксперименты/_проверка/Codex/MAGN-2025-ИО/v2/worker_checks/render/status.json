@@ -1,0 +1,8 @@
+{
+  "status": "blocked",
+  "html_generated": true,
+  "screenshots_generated": false,
+  "screenshots_reviewed": false,
+  "reason": "Chrome launch failed in restricted execution environment: SIGABRT / EPERM",
+  "source_content_review": false
+}

@@ -1,0 +1,12 @@
+{
+  "pages_local": 220,
+  "pages_cloud": 220,
+  "pages_compared": 220,
+  "targeted_visual_pages": 9,
+  "corrections": 13,
+  "portable_local_pages_identical": 84,
+  "local_hashes_unchanged": 220,
+  "secret_scan": "passed",
+  "all_pages_semantically_verified": false,
+  "status": "converted_and_compared; full semantic review pending"
+}

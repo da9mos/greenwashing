@@ -1,0 +1,24 @@
+{
+  "pages": 69,
+  "page_order_valid": true,
+  "images": 69,
+  "missing_assets": [],
+  "broken_internal_anchors": [],
+  "report_sha256": "68aec51f3a431e3f08836ac2ac7c7850bef9cbe55e5192f02755611422614879",
+  "source_sha256": "6d4935683ded9ab492a62dcf4ebff700e6f6e8b2c6f60e8350e1d008cde323ea",
+  "native_accounting_scope": "native_coverage.json applies only to report.native.md; corrected report has deliberate deletion of hidden navigation and OCR artifacts, restored map labels, checkbox state and table links",
+  "render": "HTML generated, Chrome SIGABRT/EPERM at launch; screenshots unavailable",
+  "checked_pages": [
+    1,
+    2,
+    7,
+    23,
+    50,
+    67
+  ],
+  "all_other_pages": "converted/pending",
+  "html_tables": 37,
+  "html_page_anchors": 69,
+  "html_images": 69,
+  "html_structure_only": true
+}

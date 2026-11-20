@@ -1,0 +1,287 @@
+{
+  "RUAL-2023-ОУР": {
+    "report_id": "RUAL-2023-ОУР",
+    "sha256": "36655d7e5c8f289fd53f56975297f674c1ba38a77313005636bb599558e7e4cb",
+    "anchors": 206,
+    "tables": 172,
+    "images": 206,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "RUAL-2024-ОУР": {
+    "report_id": "RUAL-2024-ОУР",
+    "sha256": "46ccfe73c72338ef3e6908107d24308543dadcd1e289d1ba0b20f106e8a56193",
+    "anchors": 149,
+    "tables": 130,
+    "images": 149,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "RUAL-2025-ИО": {
+    "report_id": "RUAL-2025-ИО",
+    "sha256": "128b0d366a5021617702cada4a375a9e8eae31d9cb1deb289e93c082960c63d2",
+    "anchors": 294,
+    "tables": 354,
+    "images": 294,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "RASP-2023-ОУР": {
+    "report_id": "RASP-2023-ОУР",
+    "sha256": "73d213189cdfe26c12d08a8c13313e3e7982e883d6886005bb76d63ee5abdf94",
+    "anchors": 70,
+    "tables": 64,
+    "images": 70,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "RASP-2024-ОУР": {
+    "report_id": "RASP-2024-ОУР",
+    "sha256": "68e3d11679b4e6c766bacdeada45cde827abc00ef21ba311f246fdc728613a7c",
+    "anchors": 103,
+    "tables": 54,
+    "images": 103,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "RASP-2025-ОУР": {
+    "report_id": "RASP-2025-ОУР",
+    "sha256": "36872b33d9b75d478bf47f702c169572867fe0b5fbe110e7c20857d3b953d46d",
+    "anchors": 204,
+    "tables": 83,
+    "images": 204,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "CHMF-2023-ОУР": {
+    "report_id": "CHMF-2023-ОУР",
+    "sha256": "a3d92f4dd4a81bbe7f99952d674b21a7ccc00f4d152e78c48a9194a0dddd6981",
+    "anchors": 295,
+    "tables": 173,
+    "images": 295,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "CHMF-2024-ИО": {
+    "report_id": "CHMF-2024-ИО",
+    "sha256": "ca5336ad7fc0c1779d0ae7fd45f868ea5f23821b66068277b2ab3f1f0cdc84eb",
+    "anchors": 167,
+    "tables": 207,
+    "images": 168,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "CHMF-2025-ИО": {
+    "report_id": "CHMF-2025-ИО",
+    "sha256": "88b487c565a2522c27b140479ecae214271976dfb579c9005c3c8ee0114e3d5d",
+    "anchors": 186,
+    "tables": 248,
+    "images": 186,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "TRMK-2023-ИО": {
+    "report_id": "TRMK-2023-ИО",
+    "sha256": "d0b1064d23555f6abd4c7a68c5fac05dc0660e565053dc42e65045bb78b4d847",
+    "anchors": 43,
+    "tables": 25,
+    "images": 45,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "TRMK-2024-ОУР": {
+    "report_id": "TRMK-2024-ОУР",
+    "sha256": "e757775fe511c960a9b20ca94012b4a968d990f245036a1093d0c61476c18f00",
+    "anchors": 128,
+    "tables": 121,
+    "images": 128,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "TRMK-2025-ОУР": {
+    "report_id": "TRMK-2025-ОУР",
+    "sha256": "1903d8267772c27bb6b2b6b61f5651c860660dc175ac20457636e3f43c576e56",
+    "anchors": 115,
+    "tables": 79,
+    "images": 115,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "AKRN-2023-ОУР": {
+    "report_id": "AKRN-2023-ОУР",
+    "sha256": "77d793e850d34bc5f8493a70d93eaed9d6de9bcc27e117a510c063f310019fcf",
+    "anchors": 54,
+    "tables": 24,
+    "images": 54,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "AKRN-2024-ОУР": {
+    "report_id": "AKRN-2024-ОУР",
+    "sha256": "7e2b8f13bd54595522541b69c0807b7806c059d490f00de7e93ce90ac87f930a",
+    "anchors": 65,
+    "tables": 31,
+    "images": 65,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  },
+  "AKRN-2025-ИО": {
+    "report_id": "AKRN-2025-ИО",
+    "sha256": "7dee51125a8cfaf054b760405c78d33aaea6b4a477ed16013ab3806f9474a2b5",
+    "anchors": 117,
+    "tables": 112,
+    "images": 117,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser parsing and two viewport screenshots; not full PDF content verification"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "applied": "partial",
+  "scope": "Source-grounded proposed repairs, raw/model artifacts unchanged",
+  "proposals": [
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 75,
+      "class": "number_footnote_fusion",
+      "before_model_fragment": "| Расходы на мероприятия по охране труда и промышленную безопасность, всего | –² | –² | 31 225,03 |",
+      "source_fragment": "2025:31 225,0, затем отдельная надстрочная3; единица млн руб.",
+      "proposed_action": "В ячейке2025 заменить31 225,03 на31 225,0<sup>3</sup>; сохранить текст сноски3 о периметре.",
+      "evidence": [
+        {
+          "path": "GAZP-2025-ОУР/page_0075/crop_00.png",
+          "sha256": "c7f679ded9ae1160acc711c921153e20de8d37434c82ab323762a032a6e58f62"
+        }
+      ],
+      "raw_answer_sha256": "7de0d9af2f72becdddcfdc6aa9d8bea94e0bd17c8e93fabf02f711eacf752df9",
+      "source_pdf_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "applied": true,
+      "applied_scope": "Existing assembled v3 report.md only, raw answer unchanged",
+      "applied_evidence_path": "_проверка/DeepSeek/GAZP-2025-ОУР/v3/codex_verified_number_fixes.json",
+      "applied_evidence_sha256": "136c337fed2283e463f0e0e6d869fc46582240f9f23af10baacd7f57e13b8776",
+      "after_md_sha256": "9ff56dc4376b164d08439eba7341976a9a63f64f65b1177b2d11edcacb14248c"
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 109,
+      "class": "number_footnote_fusion",
+      "before_model_fragment": "56,702",
+      "source_fragment": "56,70<sup>2</sup>",
+      "proposed_action": "Адресно заменить только исходную ячейку базового2018 года; сохранить смысл сноски2 о пересчёте исторической базы. Новая v4-версия уже прошла целевую регрессионную сверку, raw v3 не менять.",
+      "evidence": [
+        {
+          "path": "GAZP-2025-ОУР/page_0109/crop_00.png",
+          "sha256": "9179663805130cb491a71543d5c8981e5aecd415c321048787cc565fff128090"
+        }
+      ],
+      "raw_answer_sha256": "02cf5478738fc2279c1b4a579c1016b89c24a93750a44198e4f88f67b825bab7",
+      "source_pdf_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "applied": true,
+      "applied_scope": "Existing assembled v3 report.md only, raw answer unchanged",
+      "applied_evidence_path": "_проверка/DeepSeek/GAZP-2025-ОУР/v3/codex_verified_number_fixes.json",
+      "applied_evidence_sha256": "136c337fed2283e463f0e0e6d869fc46582240f9f23af10baacd7f57e13b8776",
+      "after_md_sha256": "9ff56dc4376b164d08439eba7341976a9a63f64f65b1177b2d11edcacb14248c"
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 109,
+      "class": "number_footnote_fusion",
+      "before_model_fragment": "5,262",
+      "source_fragment": "5,26<sup>2</sup>",
+      "proposed_action": "Адресно заменить только исходную ячейку базового2018 года; сохранить смысл сноски2 о пересчёте исторической базы. Новая v4-версия уже прошла целевую регрессионную сверку, raw v3 не менять.",
+      "evidence": [
+        {
+          "path": "GAZP-2025-ОУР/page_0109/crop_01.png",
+          "sha256": "a99b3388dc5fc543e74ec981311cfa94c06ecc68e23854f3c2c08a7785b79ba9"
+        }
+      ],
+      "raw_answer_sha256": "02cf5478738fc2279c1b4a579c1016b89c24a93750a44198e4f88f67b825bab7",
+      "source_pdf_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "applied": true,
+      "applied_scope": "Existing assembled v3 report.md only, raw answer unchanged",
+      "applied_evidence_path": "_проверка/DeepSeek/GAZP-2025-ОУР/v3/codex_verified_number_fixes.json",
+      "applied_evidence_sha256": "136c337fed2283e463f0e0e6d869fc46582240f9f23af10baacd7f57e13b8776",
+      "after_md_sha256": "9ff56dc4376b164d08439eba7341976a9a63f64f65b1177b2d11edcacb14248c"
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "pdf_page": 109,
+      "class": "number_footnote_fusion",
+      "before_model_fragment": "37,532",
+      "source_fragment": "37,53<sup>2</sup>",
+      "proposed_action": "Адресно заменить только исходную ячейку базового2018 года; сохранить смысл сноски2 о пересчёте исторической базы. Новая v4-версия уже прошла целевую регрессионную сверку, raw v3 не менять.",
+      "evidence": [
+        {
+          "path": "GAZP-2025-ОУР/page_0109/footnote_37_53.png",
+          "sha256": "7b0fbb987db0e2cacf722cbde2aaf6539478ecd4372654f16d219f6a8233e6ef"
+        }
+      ],
+      "raw_answer_sha256": "02cf5478738fc2279c1b4a579c1016b89c24a93750a44198e4f88f67b825bab7",
+      "source_pdf_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "applied": true,
+      "applied_scope": "Existing assembled v3 report.md only, raw answer unchanged",
+      "applied_evidence_path": "_проверка/DeepSeek/GAZP-2025-ОУР/v3/codex_verified_number_fixes.json",
+      "applied_evidence_sha256": "136c337fed2283e463f0e0e6d869fc46582240f9f23af10baacd7f57e13b8776",
+      "after_md_sha256": "9ff56dc4376b164d08439eba7341976a9a63f64f65b1177b2d11edcacb14248c"
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "pdf_page": 113,
+      "class": "missing_logical_page_region",
+      "before_model_fragment": "MD заканчивается текстом об измерении качества сточных вод; таблицы водопотребления нет.",
+      "source_fragment": "Показатели водопотребления, млнм³. Колонки2022/2023/2024/изменение. Из поверхностных источников3193,42/3743,39/3849,64/+2,8%; пресной3156,76/3710,38/3817,39/+2,9%; непресной36,66/33,01/32,25/−2,3%; подземной91,85/128,00/124,77/−2,5%; коммунальной142,46/143,29/150,59/+5,1%; прочихсистем288,28/417,53/420,37/+0,7%; всего3716,01/4432,21/4545,37/+2,6%.",
+      "proposed_action": "Восстановить всю правую логическую область: заголовок, все7 строк таблицы и поясняющие два абзаца. Проверить столбцы и проценты по source crop.",
+      "evidence": [
+        {
+          "path": "GAZP-2024-ОУР/page_0113/missing_water_table.png",
+          "sha256": "c0ecf5fc13eab36c2d579767dab4ce13a5071928370f409492e7e2d3ccf5c42c"
+        }
+      ],
+      "raw_answer_sha256": "8ed870e57ab41fd31f784adaf8f7e7393a881f50e68bf14e6ad9e029ebab917f",
+      "source_pdf_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+      "applied": false
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "pdf_page": 15,
+      "class": "missing_logical_page_region",
+      "before_model_fragment": "MD содержит таблицу элементов системы управления из правой части; таблицы воздействий/результатов слева нет.",
+      "source_fragment": "Таблица «Основные воздействия и результаты деятельности»: цели, динамика2019–2022 и2023/2022; в числе пропущенных значений10,8%,2,8%,3,7%,27,6%,КПД1,0,10,6тыс.мальков.",
+      "proposed_action": "Восстановить целиком левую логическую страницу с табличными связями, стрелками, периодами, единицами, сносками, изменениями2023 и мероприятиями2024. Не вставлять только найденные числа.",
+      "evidence": [
+        {
+          "path": "LKOH-2023-ОУР/page_0015/missing_left_table.png",
+          "sha256": "49e415f3a52a55dfce8a7af31403d10858f023f5ec32866b7acca2682a1b405e"
+        }
+      ],
+      "raw_answer_sha256": "f1634900c15f5dd50fe4aed602d9873a71d73d5cbea07524d53515d482985c4b",
+      "source_pdf_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+      "applied": false
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "pdf_page": 98,
+      "class": "missing_table_continuation",
+      "before_model_fragment": "MD обрывается после разбивки SO₂ по видам деятельности; правого продолжения таблицы нет.",
+      "source_fragment": "В правой части есть географическое продолжениеSO₂, твёрдые вещества, CO и углеводороды. Например2023:твёрдыевещества24тыс.т;CO226тыс.т;углеводороды32тыс.т.",
+      "proposed_action": "Дописать всю правую часть исходной таблицы, включая пустые ячейки2019/2020, все строки и системы отчётности. У цифр196,5/224,8 и1,7/1,5 восстановить верные2022/2023 колонки.",
+      "evidence": [
+        {
+          "path": "LKOH-2023-ОУР/page_0098/missing_right_table.png",
+          "sha256": "6cfc5fa23f0cfd64e292bd53fcdf17a662ea9993dfdabe2e213361310c108acb"
+        }
+      ],
+      "raw_answer_sha256": "8ed9ba10dde3fad76025f2e87bdb893d829805bdc47ddb220c9b174057069172",
+      "source_pdf_sha256": "2aff8495117e60915dfd07ce077d5b799297bcab16004b5877a6a7afac0442e8",
+      "applied": false
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "pdf_page": 52,
+      "class": "missing_chart_total_series",
+      "before_model_fragment": "В MD есть компании и значение2023 в абзаце, но нет ряда общих итогов2019–2022.",
+      "source_fragment": "ИтогоГруппа2019:236,45;2020:210,32;2021:243,28;2022:213,53;2023:209,55млнтCO₂-экв.",
+      "proposed_action": "Добавить к таблице отдельный ряд общих итогов с исходными годами и единицей, не суммировать/выводить числа самостоятельно.",
+      "evidence": [
+        {
+          "path": "GAZP-2023-ЭО/page_0052/missing_group_totals.png",
+          "sha256": "7e6dabdc043247b263fa67aca7e0a3c4b4f3b82ce133c126241903e7a8f97ad1"
+        }
+      ],
+      "raw_answer_sha256": "afff97160dbc1c321eb51fb009d48a8f0579ca6b4b6dc1d07592a01b6c1a349e",
+      "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "applied": false
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "pdf_page": 95,
+      "class": "missing_callout",
+      "before_model_fragment": "Плашка >7,4тыс. работников в MD отсутствует.",
+      "source_fragment": ">7,4тыс. работников Газпрома приняли участие в160 акциях в2024 году.",
+      "proposed_action": "Восстановить плашку с исходным знаком > и её подписью; не преобразовывать в точное7400.",
+      "evidence": [
+        {
+          "path": "GAZP-2024-ОУР/page_0095/crop_00.png",
+          "sha256": "78019afa22ce3954c674b34ae24c5e01495c78f380f40558783e2a78a6e2bdf3"
+        }
+      ],
+      "raw_answer_sha256": "77f676cc552c9ff01f8ff90008ab11aa57234de805c409664e837fbc3308b184",
+      "source_pdf_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+      "applied": false
+    },
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 77,
+      "class": "missing_identifier",
+      "before_model_fragment": "Плашка РСПП3.3.2 отсутствует.",
+      "source_fragment": "РСПП3.3.2 рядом с разделом «Поддержка образования и науки».",
+      "proposed_action": "Добавить исходный идентификатор возле соответствующего заголовка, не превращать3.3.2 в десятичную величину.",
+      "evidence": [
+        {
+          "path": "GAZP-2023-ОУР/page_0077/crop_00.png",
+          "sha256": "bcc93adf51055eedc916d07c9e694e00897db115b0c1f20f065bca13881b4fd3"
+        }
+      ],
+      "raw_answer_sha256": "1dc1813be46ccd056095591c9e0326bc5da8b57d4ddc4b0d52b8a599924fc1e8",
+      "source_pdf_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+      "applied": false
+    },
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "pdf_page": 92,
+      "class": "duplicated_author_paragraph",
+      "before_model_fragment": "В 2023 г. ПАО «Газпром» сократило затраты природного газа на технологические нужды со стравливанием более чем на 2 млрд м³ газа. Это стало возможно, в частности, в результате сохранения газа с помощью МКС (764,75 млн м³ газа), выработки газа на потребителя при помощи ГРС (654,5 млн м³ газа) и перепуска газа из ремонтируемого участка в смежный газопровод (450 млн м³ газа). С учетом проведенных мероприятий в сегменте транспортировки газа в 2023 г. количество предотвращенных выбросов метана в пересчете на СО₂-эквивалент составило 34,4 млн т.\n\n[тот же абзац повторён после другой плашки]",
+      "source_fragment": "В 2023 г. ПАО «Газпром» сократило затраты природного газа на технологические нужды со стравливанием более чем на 2 млрд м³ газа. Это стало возможно, в частности, в результате сохранения газа с помощью МКС (764,75 млн м³ газа), выработки газа на потребителя при помощи ГРС (654,5 млн м³ газа) и перепуска газа из ремонтируемого участка в смежный газопровод (450 млн м³ газа). С учетом проведенных мероприятий в сегменте транспортировки газа в 2023 г. количество предотвращенных выбросов метана в пересчете на СО₂-эквивалент составило 34,4 млн т. [в источнике один экземпляр]",
+      "proposed_action": "Удалить только второй модельный дубль абзаца, сохранить обе реальные плашки765млнм³ и2млрдм³ и весь единственный авторский абзац.",
+      "evidence": [
+        {
+          "path": "GAZP-2023-ОУР/page_0092/source.png",
+          "sha256": "98fff8515296412978d9bd0b33d99de02e4749777746f8d5234eda15f2da722e"
+        }
+      ],
+      "raw_answer_sha256": "5709129646250c9f25517203d576674be64f9d1f5e28ce57f14d16d2b8f552bc",
+      "source_pdf_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+      "applied": false
+    },
+    {
+      "report_id": "IRKN-2023-ИО",
+      "pdf_page": 13,
+      "class": "unrequested_derived_values",
+      "before_model_fragment": "Положение тем на диаграмме (приблизительно, по сетке): таблица19точек с~2,9;3,6 и т.п.",
+      "source_fragment": "В оригинале показаны точки с номерами тем и цветными зонами; точных числовых координат каждой точки как подписанных данных нет.",
+      "proposed_action": "Удалить модельную таблицу приблизительных координат из основного транскрипта; сохранить изображение, легенду, подписи осей и список тем. Если оценки нужны отдельно, маркировать как производный анализ вне report.md.",
+      "evidence": [
+        {
+          "path": "IRKN-2023-ИО/page_0013/source.png",
+          "sha256": "039a4adfe06686c41ff3fa6351f988a5939f349430a4fb228f188db18637ae97"
+        }
+      ],
+      "raw_answer_sha256": "f05e7468d3b153ded4f2cae392b6bf865e0b39772377e986e9ecfcb6fb70e970",
+      "source_pdf_sha256": "ae501f9a35616b0386a5ebbd73968b68316b561b9187abee185e5caef03e4f01",
+      "applied": false
+    }
+  ],
+  "applied_proposals": 4,
+  "unapplied_proposals": 8,
+  "raw_unchanged": true
+}

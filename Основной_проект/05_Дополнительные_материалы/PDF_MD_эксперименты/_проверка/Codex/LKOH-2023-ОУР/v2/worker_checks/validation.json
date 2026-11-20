@@ -1,0 +1,14 @@
+{
+  "physical_page_markers": 115,
+  "page_registry_entries": 115,
+  "existing_source_images": 115,
+  "resolved_internal_links": 0,
+  "report_sha256": "8c40a91fb4b45cec9a071c4b565b575807f26a51deaf0d85d630a098caf92c21",
+  "converted_pages": 115,
+  "checked_pages": [
+    1
+  ],
+  "review_pending_pages": 114,
+  "html_rendered": true,
+  "visual_render_check": "not completed: local Chrome launch aborted (SIGABRT); HTML generated and structural checks passed"
+}

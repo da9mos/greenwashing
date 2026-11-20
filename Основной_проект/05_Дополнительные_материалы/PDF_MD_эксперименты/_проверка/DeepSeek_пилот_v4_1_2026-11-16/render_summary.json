@@ -1,0 +1,164 @@
+{
+  "GAZP-2023-ОУР_57": {
+    "report_sha256": "a3bd533cfc4266912e6bcd165af48d41e319ecd63bc60fbda97b01d8a5efc931",
+    "anchors": 1,
+    "tables": 4,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "GAZP-2025-ОУР_75": {
+    "report_sha256": "0821618d7366f3d43cbd2948b2c75f269695b21fa58bd5d026720ee6bf5127c1",
+    "anchors": 2,
+    "tables": 3,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "GAZP-2025-ОУР_109": {
+    "report_sha256": "2a0098b8bd62056a4dc6419aefeb8d0d62a2c567929ccc861ddc51ce1bf84f15",
+    "anchors": 1,
+    "tables": 1,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "GAZP-2023-ЭО_76": {
+    "report_sha256": "7c7112f754a3eae72ad2e36a6e1744097b5519bb183d89893034b4c85f61ac05",
+    "anchors": 1,
+    "tables": 3,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "TRMK-2023-ИО_4": {
+    "report_sha256": "631e905aca075b5671a3d28ca1fc5cdb46fb33d017defcc0d72bf41dead93022",
+    "anchors": 1,
+    "tables": 0,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "GAZP-2023-ОУР_92": {
+    "report_sha256": "544bc46ebdc09ec01d569e31f5f5c77954c0991320c4c198cc73197f36941741",
+    "anchors": 1,
+    "tables": 1,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "GAZP-2024-ОУР_113": {
+    "report_sha256": "889fb0ab165551c2bc39a5adcdea6ec6636c393a84392fcacbd0a5b3f1f467c6",
+    "anchors": 1,
+    "tables": 1,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "LKOH-2023-ОУР_15": {
+    "report_sha256": "d9ce259d845e5e3ed1a881c36a90f17bef3137a4f5ad9a4c09c1699caad47600",
+    "anchors": 1,
+    "tables": 2,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  },
+  "LKOH-2023-ОУР_98": {
+    "report_sha256": "c91026dc43f8f1b62aeec71e9f3be086e33b61239a8573576bf7ba59e7fbbf9b",
+    "anchors": 1,
+    "tables": 2,
+    "images": 1,
+    "missing_images": [],
+    "widths": [
+      {
+        "width": 1440,
+        "document_overflow": false
+      },
+      {
+        "width": 390,
+        "document_overflow": false
+      }
+    ],
+    "scope": "Browser rendering; not full source content review"
+  }
+}

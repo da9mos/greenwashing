@@ -1,0 +1,205 @@
+{
+  "report_id": "GAZP-2023-ОУР",
+  "physical_pdf_page": 57,
+  "printed_pages": "110–111",
+  "source_pdf_sha256": "390e165d8e3f1de8dc3619bccea00a49bc0d4cf036a53e828c9152e3c8619af6",
+  "markdown_sha256": "18e60cbf83337d49bce5e015dd5b63c66c2c52e5ba95c00f365939be2d9abacb",
+  "engine": "DeepSeek v2",
+  "scope": "One page checked against rendered original and span metadata; not acceptance of the full report",
+  "visual_verification_performed": true,
+  "confirmed_numeric_changes": 3,
+  "source_and_decimal_diff": {
+    "method": "normal_PDF_spans_individually; no_cross_span_number_join",
+    "pdf_decimal_tokens": 32,
+    "markdown_decimal_tokens": 32,
+    "pdf_only": {
+      "1.963": 1,
+      "0.173": 1,
+      "76.6": 1
+    },
+    "markdown_only": {
+      "0.17": 1,
+      "76.64": 1,
+      "1.96": 1
+    },
+    "pdf_span_evidence": [
+      {
+        "token": "1.963",
+        "raw_decimal": "1,963",
+        "block_index": 2,
+        "line_index": 3,
+        "span_index": 0,
+        "span_text": "1,963",
+        "font": "InterV",
+        "font_size": 8.0,
+        "flags": 4,
+        "bbox": [
+          1097.0430908203125,
+          404.2821044921875,
+          1118.83349609375,
+          415.5700988769531
+        ],
+        "origin": [
+          1097.0430908203125,
+          413.0101013183594
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "1,963",
+            "font": "InterV",
+            "size": 8.0,
+            "flags": 4,
+            "bbox": [
+              1097.0430908203125,
+              404.2821044921875,
+              1118.83349609375,
+              415.5700988769531
+            ],
+            "origin": [
+              1097.0430908203125,
+              413.0101013183594
+            ]
+          }
+        ]
+      },
+      {
+        "token": "0.173",
+        "raw_decimal": "0,173",
+        "block_index": 10,
+        "line_index": 3,
+        "span_index": 0,
+        "span_text": "0,173",
+        "font": "InterV",
+        "font_size": 8.0,
+        "flags": 4,
+        "bbox": [
+          505.20318603515625,
+          162.28213500976562,
+          525.7896118164062,
+          173.57012939453125
+        ],
+        "origin": [
+          505.20318603515625,
+          171.0101318359375
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "0,173",
+            "font": "InterV",
+            "size": 8.0,
+            "flags": 4,
+            "bbox": [
+              505.20318603515625,
+              162.28213500976562,
+              525.7896118164062,
+              173.57012939453125
+            ],
+            "origin": [
+              505.20318603515625,
+              171.0101318359375
+            ]
+          },
+          {
+            "text": "2",
+            "font": "InterV",
+            "size": 4.664000034332275,
+            "flags": 5,
+            "bbox": [
+              525.8010864257812,
+              163.25770568847656,
+              528.6600952148438,
+              169.83860778808594
+            ],
+            "origin": [
+              525.8010864257812,
+              168.34613037109375
+            ]
+          }
+        ]
+      },
+      {
+        "token": "76.6",
+        "raw_decimal": "76,6",
+        "block_index": 11,
+        "line_index": 3,
+        "span_index": 0,
+        "span_text": "76,6",
+        "font": "InterV",
+        "font_size": 8.0,
+        "flags": 4,
+        "bbox": [
+          508.6037902832031,
+          178.53604125976562,
+          525.71337890625,
+          189.82403564453125
+        ],
+        "origin": [
+          508.6037902832031,
+          187.2640380859375
+        ],
+        "superscript_flag": false,
+        "smaller_raised": false,
+        "line_spans": [
+          {
+            "text": "76,6",
+            "font": "InterV",
+            "size": 8.0,
+            "flags": 4,
+            "bbox": [
+              508.6037902832031,
+              178.53604125976562,
+              525.71337890625,
+              189.82403564453125
+            ],
+            "origin": [
+              508.6037902832031,
+              187.2640380859375
+            ]
+          },
+          {
+            "text": "2",
+            "font": "InterV",
+            "size": 4.664000034332275,
+            "flags": 5,
+            "bbox": [
+              525.8010864257812,
+              179.51161193847656,
+              528.6600952148438,
+              186.09251403808594
+            ],
+            "origin": [
+              525.8010864257812,
+              184.60003662109375
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown_evidence": [
+      {
+        "token": "0.17",
+        "text_context": " показатель 2021 2022 2023 коэффициент частоты травматизма¹ 0,13 0,12 0,17³² коэффициент тяжести травматизма³ 68,19 67,87 76,64 количество постр"
+      },
+      {
+        "token": "76.64",
+        "text_context": "атизма¹ 0,13 0,12 0,17³² коэффициент тяжести травматизма³ 68,19 67,87 76,64 количество пострадавших при несчастных случаях 42 39 57² количество п"
+      },
+      {
+        "token": "1.96",
+        "text_context": "зпром наименование 2021 2022 2023 компании газового бизнеса 0,99 1,18 1,96³ компании газового бизнеса (низкие сети)⁸ –⁹ –⁹ 1,927 компании газово"
+      }
+    ],
+    "excluded_superscript_decimal_spans": []
+  },
+  "markdown_table_rows": [
+    "| Коэффициент частоты травматизма¹ | 0,13 | 0,12 | 0,17³² |",
+    "| Коэффициент тяжести травматизма³ | 68,19 | 67,87 | 76,64 |",
+    "| Компании газового бизнеса | 0,08 | 0,08 | 0,102 |",
+    "| Компании газового бизнеса | 0,99 | 1,18 | 1,96³ |"
+  ],
+  "checked_authorized": false
+}

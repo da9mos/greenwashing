@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "report": "social_final",
+      "pages": 136,
+      "ocr_pages": [
+        132,
+        133
+      ],
+      "md_pages_no_missing_or_duplicates": true,
+      "network_blocking": "Python network connections blocked; no API clients or cloud calls"
+    },
+    {
+      "report": "environment_final",
+      "pages": 84,
+      "ocr_pages": [
+        1,
+        76,
+        77,
+        78,
+        79
+      ],
+      "md_pages_no_missing_or_duplicates": true,
+      "network_blocking": "Python network connections blocked; no API clients or cloud calls"
+    }
+  ],
+  "source_numeric_controls": "passed",
+  "scanned_social132_133_recognized": true,
+  "secret_scan": "passed",
+  "API_requests_in_this_version": 0,
+  "all_pages_source_verified": false,
+  "network_guard_test": "passed",
+  "complete_year_pages": 220,
+  "targeted115_last_row_and_footnotes": "passed",
+  "targeted57_130_reading_order": "passed"
+}

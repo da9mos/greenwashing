@@ -1,0 +1,15 @@
+{
+  "source_pdf": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/CHMF-2023-ОУР.pdf",
+  "source_sha256": "40e113a8c7fafe237110cdd961faa1fef2e289c18c2037368d5ff11c85bc951b",
+  "physical_pages": 295,
+  "page_markers_exact_sequence": true,
+  "missing_images": [],
+  "broken_internal_links": [],
+  "markdown_rendered": true,
+  "rendered_tables": 173,
+  "image_references": 295,
+  "report_sha256": "a3d92f4dd4a81bbe7f99952d674b21a7ccc00f4d152e78c48a9194a0dddd6981",
+  "remaining_private_use_symbols": [],
+  "visual_render_review_completed": false,
+  "visual_render_limitation": "Playwright browser unavailable; installed Chrome failed to launch under environment restrictions."
+}

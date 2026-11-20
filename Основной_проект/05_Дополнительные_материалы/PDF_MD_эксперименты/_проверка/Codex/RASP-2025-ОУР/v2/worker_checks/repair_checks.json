@@ -1,0 +1,51 @@
+{
+  "digit_checks": [
+    {
+      "pdf_page": 18,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 47,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 52,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 54,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 57,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 62,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 89,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 99,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 118,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 165,
+      "source_body_digit_inventory_matches_repaired_body": true
+    },
+    {
+      "pdf_page": 183,
+      "source_body_digit_inventory_matches_repaired_body": true
+    }
+  ],
+  "repaired_table_column_counts_pass": true,
+  "source_superscript_pass": true,
+  "scope": "Regression checks for addressed repairs; no substitute for source review."
+}
