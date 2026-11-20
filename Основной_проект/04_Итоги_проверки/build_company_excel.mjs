@@ -15,7 +15,8 @@ for (const [index, report] of data.sheets.entries()) {
   sheet.getRange('A1:F1').merge();
   sheet.getRange('A1').values = [[`${data.company} · ${report.id}`]];
   sheet.getRange('A2:F2').merge();
-  sheet.getRange('A2').values = [[data.draft ? 'Промежуточная выгрузка' : 'Результаты проверки заявлений']];
+  sheet.getRange('A2').values = [[data.scope_note || (data.draft ? 'Промежуточная выгрузка' : 'Результаты проверки заявлений')]];
+  sheet.getRange('A2:F2').format = { font: { name: 'Arial', size: 10, color: '#555555' }, wrapText: true, rowHeightPx: 30 };
   sheet.getRange(`A3:F${end}`).values = [data.headers, ...report.rows];
   if (report.rows.length) {
     const table = sheet.tables.add(`A3:F${end}`, true, `Claims${index + 1}`);
@@ -29,7 +30,7 @@ for (const [index, report] of data.sheets.entries()) {
     report.rows.forEach((row, n) => {
       const lines = Math.max(...row.map((value, i) => String(value).split('\n')
         .reduce((count, line) => count + Math.max(1, Math.ceil(line.length * 7 / (widths[i] - 14))), 0)));
-      sheet.getRange(`A${n + 4}:F${n + 4}`).format.rowHeightPx = Math.min(440, Math.max(28, 14 * lines + 12));
+      sheet.getRange(`A${n + 4}:F${n + 4}`).format.rowHeightPx = Math.min(540, Math.max(34, 20 * lines + 16));
     });
   }
   for (const range of ['A1:F1', 'A3:F3']) {

@@ -48,13 +48,15 @@ def cache_for(report):
     return STATE / f"{report['report_id']}-{report['packaged_md_sha256'][:10]}-{revision}"
 
 
-def extraction_status(total, accepted, pending, invalid):
+def extraction_status(total, accepted, pending, invalid, pending_classifications=0):
     if invalid:
         return 'Требуется разбор отклонённых ответов'
     if not accepted:
         return 'Партии подготовлены, извлечение не выполнено'
     if accepted < total:
         return 'Частичное извлечение'
+    if pending_classifications:
+        return 'Извлечение выполнено, есть неоднозначные классификации'
     if pending:
         return 'Извлечение выполнено, есть открытые блоки/PDF'
     return 'Охват MD заявлен; независимая сверка и фактчекинг открыты'
@@ -74,6 +76,53 @@ def canonical_batch(data):
     return result, provenance
 
 
+def research_path(report, claim):
+    identity = json.dumps([report['packaged_md_sha256'], claim['id'], claim['statement']], ensure_ascii=False)
+    key = __import__('hashlib').sha256(identity.encode()).hexdigest()
+    return OUTPUT / report['company'] / 'Текущий_прогон/Фактчекинг' / report['report_id'] / (key + '.json')
+
+
+def source_review_for(report, claim):
+    proof = PROJECT / '08_Аудит_агентов_2026-11-20/01_PDF/patch_review.json'
+    if not proof.exists():
+        return None
+    data = worker.base.read(proof)
+    if data.get('patched_output', {}).get('sha256') != report['packaged_md_sha256']:
+        return None
+    for item in data.get('claims', []):
+        if item.get('status') == 'verified' and item.get('output_locator', {}).get('excerpt') == claim['statement']:
+            return {'status': 'verified', 'method': item['method'],
+                    'locator': json.dumps(item['source_locator'], ensure_ascii=False),
+                    'proof_file': str(proof.relative_to(PROJECT)), 'proof_sha256': worker.base.sha(proof)}
+    return None
+
+
+def research_step():
+    """Execute the existing project fact agent on an accepted claim without waiting for the entire corpus."""
+    for report in registry():
+        _, data = inspect_report(report)
+        for claim in data['claims']:
+            path = research_path(report, claim)
+            if path.exists():
+                previous = worker.base.read(path)
+                if previous['result'].get('status') == 'complete' or previous.get('retry_after_epoch', 0) > time.time():
+                    continue
+            state = {'state': 'researching', 'report_id': report['report_id'], 'claim_id': claim['id'],
+                     'updated_at': now(), 'pid': os.getpid(), 'project_agent': '03_Фактчекинг/Агент/FACT_CHECK_AGENT.md'}
+            atomic(CONTROL / 'current.json', state)
+            snapshot(state)
+            result = worker.search_claim({'report': report, 'claim': claim, 'source_review': source_review_for(report, claim)})
+            atomic(path, {'report_id': report['report_id'], 'claim_id': claim['id'],
+                          'source_sha256': report['packaged_md_sha256'], 'updated_at': now(), 'result': result,
+                          'retry_after_epoch': 0 if result.get('status') == 'complete' else time.time() + 3600})
+            finished = {'state': 'research_complete' if result.get('status') == 'complete' else 'research_open',
+                        'report_id': report['report_id'], 'claim_id': claim['id'], 'updated_at': now()}
+            atomic(CONTROL / 'current.json', finished)
+            snapshot(finished)
+            return True
+    return False
+
+
 def inspect_report(report):
     source = PROJECT / report['repository_path']
     if worker.base.sha(source) != report['packaged_md_sha256']:
@@ -88,14 +137,22 @@ def inspect_report(report):
     if manifest['source_sha256'] != report['packaged_md_sha256']:
         raise ValueError('Cached source version mismatch')
     claims, coverage, accepted, invalid, ids, id_provenance = [], [], [], [], set(), []
-    pending_claims = 0
+    pending_claims = pending_classifications = 0
     for batch in manifest['batches']:
         path = root / 'accepted' / (batch['id'] + '.json')
-        published = OUTPUT / report['company'] / 'Текущий_прогон/Ответы' / (batch['id'] + '.json')
-        if not path.exists() and published.exists():
-            worker.profile.check(work, published)
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_bytes(published.read_bytes())
+        published = OUTPUT / report['company'] / 'Текущий_прогон/Ответы' / report['packaged_md_sha256'][:12] / (batch['id'] + '.json')
+        legacy = published.parent.parent / published.name
+        candidate = published if published.exists() else legacy
+        if not path.exists() and candidate.exists():
+            saved = worker.base.read(candidate)
+            if saved.get('source_sha256') == report['packaged_md_sha256']:
+                try:
+                    worker.profile.check(work, candidate)
+                except (ValueError, KeyError, TypeError) as exc:
+                    invalid.append({'batch_id': batch['id'], 'error': str(exc)})
+                    continue
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(candidate.read_bytes())
         if not path.exists():
             continue
         try:
@@ -112,11 +169,14 @@ def inspect_report(report):
         id_provenance.extend(mapping)
         coverage.extend(data['coverage'])
         pending_claims += summary['pending_claims']
+        pending_classifications += summary['pending_classifications']
         accepted.append(batch['id'])
         published.parent.mkdir(parents=True, exist_ok=True)
         published.write_bytes(path.read_bytes())
     pending_blocks = sum(c['status'] == 'pending' for c in coverage)
     total = len(manifest['batches'])
+    researched = [worker.base.read(p) for c in claims if (p := research_path(report, c)).exists()]
+    finished = sum(p['result'].get('status') == 'complete' for p in researched)
     result = {
         'report_id': report['report_id'], 'company': report['company'],
         'company_id': report['company_id'], 'pages': report['physical_pages'],
@@ -124,12 +184,15 @@ def inspect_report(report):
         'profile_sha256': manifest['prompt_sha256'], 'total_batches': total,
         'accepted_batches': len(accepted), 'candidate_claims': len(claims),
         'pending_blocks': pending_blocks, 'pending_claims': pending_claims,
+        'pending_classifications': pending_classifications,
+        'research_attempted': len(researched), 'research_finished': finished,
         'invalid_batches': invalid, 'accepted_batch_ids': accepted,
         'esg_counts': dict(Counter(c['block'] for c in claims)),
         'type_counts': dict(Counter(c['type'] for c in claims)),
-        'status': extraction_status(total, len(accepted), pending_blocks + pending_claims, invalid),
+        'status': extraction_status(total, len(accepted), pending_blocks + pending_claims, invalid,
+                                    pending_classifications),
         'pdf_review': 'Полная независимая сверка не подтверждена',
-        'factcheck': 'Массовая внешняя проверка не завершена',
+        'factcheck': f'Внешнее исследование: {finished}/{len(claims)} кандидатов; приёмка корпуса открыта',
     }
     return result, {'report_id': report['report_id'], 'source_sha256': report['packaged_md_sha256'],
                     'accepted_batch_ids': accepted, 'expected_batches': total,
@@ -149,7 +212,9 @@ def snapshot(control=None):
         atomic(target / (report['report_id'] + '.json'), data)
     stamp = now()
     totals = {key: sum(r[key] for r in reports) for key in
-              ('pages', 'total_batches', 'accepted_batches', 'candidate_claims', 'pending_blocks', 'pending_claims')}
+              ('pages', 'total_batches', 'accepted_batches', 'candidate_claims', 'pending_blocks', 'pending_claims',
+               'pending_classifications')}
+    totals.update({key: sum(r.get(key, 0) for r in reports) for key in ('research_attempted', 'research_finished')})
     payload = {'updated_at': stamp, 'companies': len(by_company), 'reports': len(reports),
                'totals': totals, 'control': control or {}, 'report_status': reports}
     atomic(HERE / 'status.json', payload)
@@ -158,11 +223,12 @@ def snapshot(control=None):
         lines = [f"# Сводка — {company['name']}", '', f'Обновлено: {stamp}.', '',
                  'Рабочий результат. Кандидатное заявление не означает подтверждённый факт. '
                  'Полная сверка с PDF, независимая полнота и массовый фактчекинг остаются открытыми.', '',
-                 '| Отчёт | Страниц | Принято партий | Кандидатов | Открытых блоков | Статус |',
-                 '|---|---:|---:|---:|---:|---|']
+                 '| Отчёт | Страниц | Принято партий | Кандидатов | Открытых блоков | Требуют PDF | Неоднозначных классификаций | Внешних исследований | Статус |',
+                 '|---|---:|---:|---:|---:|---:|---:|---:|---|']
         for row in rows:
             lines.append(f"| {row['report_id']} | {row['pages']} | {row['accepted_batches']}/{row['total_batches']} | "
-                         f"{row['candidate_claims']} | {row['pending_blocks']} | {row['status']} |")
+                         f"{row['candidate_claims']} | {row['pending_blocks']} | {row['pending_claims']} | "
+                         f"{row['pending_classifications']} | {row.get('research_finished', 0)} | {row['status']} |")
         lines += ['', 'Открытые блоки посчитаны только в принятых партиях; непройденные партии в этот счётчик не входят.', '',
                   '[Данные текущего прогона](Текущий_прогон/). Сохранены точные цитаты, страницы, тип, E/S/G, '
                   'числовой контекст и основания методики. Прежние пилотные Excel/CSV сохранены отдельно.', '']
@@ -177,7 +243,7 @@ def snapshot(control=None):
                 text = text[:pos] + '\n' + marker + 'Ниже сохранены сведения прежнего пилота/подготовки.\n' + text[pos:]
                 readme.write_text(text)
     fields = ['report_id', 'company', 'pages', 'total_batches', 'accepted_batches', 'candidate_claims',
-              'pending_blocks', 'pending_claims', 'status', 'pdf_review', 'factcheck']
+              'pending_blocks', 'pending_claims', 'pending_classifications', 'research_attempted', 'research_finished', 'status', 'pdf_review', 'factcheck']
     with (HERE / 'Сводка_прогона.csv').open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fields, delimiter=';', extrasaction='ignore')
         writer.writeheader(); writer.writerows(reports)
@@ -192,18 +258,29 @@ def exclusive():
         yield
 
 
-def run(watch):
+def run(watch, stage='all'):
     with exclusive():
         # One executor owns the shared accepted cache. The existing SSH worker obeys this pause.
         (STATE / 'PAUSED').write_text('Local corpus controller owns extraction; see 06_Прогон_корпуса.\n')
         failures = 0
         blocked_reports = {}
+        turn = 1 if stage == 'all' else 0
         while not (CONTROL / 'STOP').exists():
             status = snapshot({'state': 'selecting', 'pid': os.getpid(), 'validation_blocks': blocked_reports})
             todo = next((r for r in status['report_status']
                          if r['accepted_batches'] < r['total_batches'] and r['report_id'] not in blocked_reports), None)
+            if stage == 'factcheck' or (stage == 'all' and (turn % 2 or not todo)):
+                if research_step():
+                    turn += 1
+                    if not watch:
+                        return
+                    continue
+                if stage == 'factcheck':
+                    snapshot({'state': 'research_queue_waiting', 'updated_at': now(),
+                              'next_required': 'New accepted claims or review of partial/blocked research.'})
+                    return
             if not todo:
-                snapshot({'state': 'extraction_sweep_finished', 'validation_blocks': blocked_reports,
+                snapshot({'state': 'awaiting_quality_review', 'validation_blocks': blocked_reports,
                           'next_required': 'Independent PDF/semantic review and external fact-checking before final exports.'})
                 return
             report = next(r for r in registry() if r['report_id'] == todo['report_id'])
@@ -221,6 +298,7 @@ def run(watch):
             if old.exists():
                 shutil.copy2(old, attempt / 'response.json')
             atomic(attempt / 'result.json', result)
+            turn += 1
             after, _ = inspect_report(report)
             if after['accepted_batches'] > todo['accepted_batches']:
                 failures = 0
@@ -245,16 +323,19 @@ def run(watch):
                     time.sleep(delay)
             if not watch:
                 return
-        snapshot({'state': 'stopped_by_control_file', 'updated_at': now()})
+        stopped = {'state': 'stopped_by_control_file', 'updated_at': now()}
+        atomic(CONTROL / 'current.json', stopped)
+        snapshot(stopped)
 
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--run', action='store_true')
     p.add_argument('--watch', action='store_true')
+    p.add_argument('--stage', choices=['all', 'extraction', 'factcheck'], default='all')
     args = p.parse_args()
     if args.run:
-        run(args.watch)
+        run(args.watch, args.stage)
     else:
         s = snapshot({'state': 'prepared', 'updated_at': now()})
         print(json.dumps({'companies': s['companies'], 'reports': s['reports'], **s['totals']}, ensure_ascii=False))

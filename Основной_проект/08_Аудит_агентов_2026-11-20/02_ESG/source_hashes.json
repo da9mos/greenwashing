@@ -1,0 +1,13 @@
+{
+  "02_Аналитика_заявлений/Агент/agent/esg_agent_v3_1.md": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
+  "02_Аналитика_заявлений/Агент/agent/decision_rules_v3_1.json": "237785ad5ff8f2aa231e86d6da9748c0c9ccef9bca646124599bcca4d5145f4a",
+  "02_Аналитика_заявлений/Агент/agent/taxonomy_v3_1.csv": "0a6298ea7d29521d4c7566e9c8534d1927fd136c0f5b462e09fd947045a38547",
+  "02_Аналитика_заявлений/Агент/README_v3_1.md": "80433aae09e778eb203d483d2bd52e5fe17c8927ef5be5470889890f1cc206ea",
+  "02_Аналитика_заявлений/Агент/Методика_выявления_ESG_v3_1.md": "89708a7696ea4d457c677df79bc9703fdfb811ce91d0ffc4ff8dc68e00a2a9a6",
+  "02_Аналитика_заявлений/Агент/scripts/esg_agent_v3.py": "d72adc3c5fafe87a59bbeb3147af5b31e7642272db01c7119e4c1585f9da9981",
+  "02_Аналитика_заявлений/Агент/scripts/esg_agent_v3_1.py": "eccb0ad516450be02ae2e858240a27e6450e87f7d142703e78d7a7cf6528c4a4",
+  "02_Аналитика_заявлений/Агент/scripts/review_response.py": "3fda4397c1a72362627330cb30074ccee51462027f2bf6f6a09320c1eb6496b8",
+  "06_Прогон_корпуса/run_corpus.py": "b89ff8423e92e042ec0631a32c6bbc211c886e86f4e28ebf402127e969d186ef",
+  "00_Отчёты/Газпром/GAZP-2023-ЭО.md": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+  "03_Фактчекинг/Агент/examples/gazprom_pilot_input.json": "7402986b59606afe103cf15fbfa6358c6a284a0750b7753f2b71a2c03bd8afcc"
+}

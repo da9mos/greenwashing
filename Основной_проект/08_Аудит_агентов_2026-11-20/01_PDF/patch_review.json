@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-20T17:10:54.890845+00:00",
+  "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "original_output": {
+    "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+    "sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+    "snapshot": "original_report.snapshot.md"
+  },
+  "patched_output": {
+    "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/patched_report.md",
+    "sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+  },
+  "changes": [
+    {
+      "id": "PDF-MD-001a",
+      "pdf_page": 7,
+      "old": "Они обеспечивают поставки газа потребителям регионов Восточной Сибири",
+      "new": "Они обеспечат поставки газа потребителям регионов Восточной Сибири",
+      "bbox": [
+        67,
+        406,
+        312,
+        427
+      ],
+      "source_crop": "pdf-page-07-tense-defect.png",
+      "reason": "В исходнике будущее время; результат переноса ввел настоящее время.",
+      "old_count_before": 1,
+      "new_count_after": 1,
+      "status": "verified_by_source_crop"
+    },
+    {
+      "id": "PDF-MD-001b",
+      "pdf_page": 7,
+      "old": "позволяют организовать новый мощный канал экспорта российского газа",
+      "new": "позволят организовать новый мощный канал экспорта российского газа",
+      "bbox": [
+        67,
+        427,
+        312,
+        459
+      ],
+      "source_crop": "pdf-page-07-tense-defect.png",
+      "reason": "Восстановлено будущее время исходного обещания.",
+      "old_count_before": 1,
+      "new_count_after": 1,
+      "status": "verified_by_source_crop"
+    },
+    {
+      "id": "PDF-MD-002",
+      "pdf_page": 14,
+      "old": "в отчетном году вложение инвестиционных средств на ООС сократились",
+      "new": "в отчетном году вложения инвестиционных средств на ООС сократились",
+      "bbox": [
+        285,
+        615,
+        531,
+        649
+      ],
+      "source_crop": "pdf-page-14-word-defect.png",
+      "reason": "Перенос исходного «вложе-/ния» должен давать «вложения».",
+      "old_count_before": 1,
+      "new_count_after": 1,
+      "status": "verified_by_source_crop"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "GAZP-2023-EO-DEMO-001",
+      "pdf_page": 37,
+      "status": "verified",
+      "method": "Re-read previously visually inspected original source raster/crop against the saved patched Markdown fragment; exact quote preserved",
+      "source_locator": {
+        "pdf_page": 37,
+        "printed_page": "35",
+        "bbox": [
+          67,
+          541,
+          312,
+          791
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-37.png",
+        "crop": "pdf-page-37-claim-crop.png"
+      },
+      "output_locator": {
+        "anchor": "pdf-page-37",
+        "excerpt": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г."
+      },
+      "quote_unchanged": true
+    },
+    {
+      "claim_id": "GAZP-2023-EO-DEMO-002",
+      "pdf_page": 14,
+      "status": "verified",
+      "method": "Re-read previously visually inspected original source raster/crop against the saved patched Markdown fragment; exact quote preserved",
+      "source_locator": {
+        "pdf_page": 14,
+        "printed_page": "12",
+        "bbox": [
+          33,
+          169,
+          277,
+          213
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-14.png",
+        "crop": "pdf-page-14-claim-crop.png"
+      },
+      "output_locator": {
+        "anchor": "pdf-page-14",
+        "excerpt": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб."
+      },
+      "quote_unchanged": true
+    },
+    {
+      "claim_id": "GAZP-2023-EO-DEMO-003",
+      "pdf_page": 7,
+      "status": "verified",
+      "method": "Re-read previously visually inspected original source raster/crop against the saved patched Markdown fragment; exact quote preserved",
+      "source_locator": {
+        "pdf_page": 7,
+        "printed_page": "5",
+        "bbox": [
+          319,
+          304,
+          562,
+          367
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-07.png",
+        "crop": "pdf-page-07-claim-crop.png"
+      },
+      "output_locator": {
+        "anchor": "pdf-page-7",
+        "excerpt": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома."
+      },
+      "quote_unchanged": true
+    },
+    {
+      "claim_id": "GAZP-2023-EO-EXTERNAL-004",
+      "pdf_page": 38,
+      "status": "verified",
+      "method": "Re-read previously visually inspected original source raster/crop against the saved patched Markdown fragment; exact quote preserved",
+      "source_locator": {
+        "pdf_page": 38,
+        "printed_page": "36",
+        "bbox": [
+          33,
+          169,
+          278,
+          224
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-38.png",
+        "crop": "pdf-page-38-claim-crop.png"
+      },
+      "output_locator": {
+        "anchor": "pdf-page-38",
+        "excerpt": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было."
+      },
+      "quote_unchanged": true
+    }
+  ],
+  "original_untouched": true,
+  "document_status": "partial",
+  "open_limitations": [
+    "Оставшиеся полнота графики/колонтитулов/печатных номеров не исправлены.",
+    "Полные 84 страницы, все таблицы и отображение MD не приняты как checked.",
+    "Исходная рабочая версия MD и работающий кэш не изменены."
+  ]
+}

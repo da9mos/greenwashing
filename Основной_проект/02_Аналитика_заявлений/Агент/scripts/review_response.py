@@ -29,7 +29,7 @@ def review(work, response):
         for field, role in FIELDS.items():
             value = claim.get(field)
             if isinstance(value, str) and value and not any(
-                ev['role'] == role and value in ev['quote'] for ev in claim['evidence']
+                ev['role'] == role and base.evidence_supports(field, value, ev['quote']) for ev in claim['evidence']
             ):
                 claim[field] = ''
                 claim['source_status'] = 'needs_pdf_review'
@@ -50,6 +50,12 @@ def review(work, response):
         entry['claim_ids'] = references[block_id]
         if entry['status'] == 'extracted' and not entry['claim_ids']:
             entry.update(status='pending', reason='Нет цитаты и ссылки на извлечённое заявление. Нужна проверка.')
+            reopened += 1
+        if entry['status'] == 'extracted' and any(
+            claim.get('quantitative') is True and claim.get('source_status') == 'needs_pdf_review'
+            and claim['id'] in entry['claim_ids'] for claim in data['claims']
+        ):
+            entry.update(status='pending', reason='Не закрыт числовой контекст заявления; требуется сверка PDF.')
             reopened += 1
     _, stats = profile.check(work, data)
     return data, {**stats, 'cleared_unsupported_fields': dict(missing), 'reopened_blocks': reopened}

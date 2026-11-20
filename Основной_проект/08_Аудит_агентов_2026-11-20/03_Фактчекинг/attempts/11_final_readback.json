@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "claim_id": "C000001",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "sources_verified_against_native_journal": 4,
+      "source_review_status": "verified"
+    },
+    {
+      "claim_id": "C000002",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "sources_verified_against_native_journal": 2,
+      "source_review_status": "verified"
+    },
+    {
+      "claim_id": "C000003",
+      "verdict": "not_verifiable",
+      "research_status": "complete",
+      "sources_verified_against_native_journal": 2,
+      "source_review_status": "verified"
+    },
+    {
+      "claim_id": "C000004",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "sources_verified_against_native_journal": 2,
+      "source_review_status": "verified"
+    }
+  ],
+  "export_files": [
+    "summary.json",
+    "claims.csv",
+    "claims.json"
+  ],
+  "native_journal_files": 11,
+  "text_search_requests": 16
+}

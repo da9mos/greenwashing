@@ -1,0 +1,2485 @@
+{
+  "started_at_utc": "2026-11-20T17:26:25.354021+00:00",
+  "finished_at_utc": "2026-11-20T17:26:36.010296+00:00",
+  "validator_files": {
+    "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/02_Аналитика_заявлений/Агент/scripts/esg_agent_v3_1.py": "eccb0ad516450be02ae2e858240a27e6450e87f7d142703e78d7a7cf6528c4a4",
+    "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/02_Аналитика_заявлений/Агент/scripts/esg_agent_v3.py": "5a45ffa2ba273f2b14fd63fe926c79733b902c7c0844e993380737562c3a50f6",
+    "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/02_Аналитика_заявлений/Агент/scripts/review_response.py": "d5a6fe0c8358803cdb9e344b0bf7bf8acca1cf18b10fc077aa6c7c0c1698d15b"
+  },
+  "selection": "All accepted/*.json under cache_for for the current 92-report registry; sourceSHA+promptSHA.",
+  "scope": "Structural, quote, coverage, quantitative context and classification trace validation; no semantic recall or truth certification.",
+  "totals": {
+    "reports_in_registry": 92,
+    "accepted_files_found": 67,
+    "claims_in_accepted_files": 3717,
+    "validated_batches": 66,
+    "validated_claims": 3455,
+    "validated_pending_blocks": 1740,
+    "validated_pending_claims": 1315,
+    "validated_pending_classifications": 23,
+    "invalid_batches": 1,
+    "claims_in_invalid_batches": 262,
+    "derivative_candidates": 1,
+    "claims_in_derivative_candidates": 262
+  },
+  "reports": [
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ОУР-0d59b784c5-23de9bbe99",
+      "source_sha256_expected": "0d59b784c554e3e9bc3df8ca7990dfe1f4d9893a8d4d2a2d81b9f1ce1d5920d1",
+      "accepted_files": 1,
+      "source_sha256_actual": "0d59b784c554e3e9bc3df8ca7990dfe1f4d9893a8d4d2a2d81b9f1ce1d5920d1"
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99",
+      "source_sha256_expected": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+      "accepted_files": 8,
+      "source_sha256_actual": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd"
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2024-ОУР-7e2563d09d-23de9bbe99",
+      "source_sha256_expected": "7e2563d09da93a0321998a15d81a52186b79f25c6180155d29da78bfa71ef36d",
+      "accepted_files": 1,
+      "source_sha256_actual": "7e2563d09da93a0321998a15d81a52186b79f25c6180155d29da78bfa71ef36d"
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2025-ОУР-b2c92082e7-23de9bbe99",
+      "source_sha256_expected": "b2c92082e77d88e3adf14c73dc7f502c9d099ed4abad7f37fb78ef7c63714690",
+      "accepted_files": 1,
+      "source_sha256_actual": "b2c92082e77d88e3adf14c73dc7f502c9d099ed4abad7f37fb78ef7c63714690"
+    },
+    {
+      "report_id": "IRKN-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/IRKN-2023-ИО-7ea9b126c7-23de9bbe99",
+      "source_sha256_expected": "7ea9b126c7296bd5f985cae14dba609a1603d005200b780ffc034e0882286167",
+      "accepted_files": 1,
+      "source_sha256_actual": "7ea9b126c7296bd5f985cae14dba609a1603d005200b780ffc034e0882286167"
+    },
+    {
+      "report_id": "IRKN-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/IRKN-2024-ИО-cb38df5c2d-23de9bbe99",
+      "source_sha256_expected": "cb38df5c2d13bbe903735734dc7eee9f52c3b6af6f736c42c5e2a88cb56fddcf",
+      "accepted_files": 0,
+      "source_sha256_actual": "cb38df5c2d13bbe903735734dc7eee9f52c3b6af6f736c42c5e2a88cb56fddcf"
+    },
+    {
+      "report_id": "IRKN-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/IRKN-2025-ИО-5f85cfd7df-23de9bbe99",
+      "source_sha256_expected": "5f85cfd7dfe9e2a8bfe9dd836eb823e18b09f00755d825663634383f826599eb",
+      "accepted_files": 0,
+      "source_sha256_actual": "5f85cfd7dfe9e2a8bfe9dd836eb823e18b09f00755d825663634383f826599eb"
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2023-ОУР-78477d8d68-23de9bbe99",
+      "source_sha256_expected": "78477d8d68fafe192f6855113b6d5caf2064f1816b63f7c4932d55dc55ad9d1b",
+      "accepted_files": 1,
+      "source_sha256_actual": "78477d8d68fafe192f6855113b6d5caf2064f1816b63f7c4932d55dc55ad9d1b"
+    },
+    {
+      "report_id": "LKOH-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2024-ОУР-48397e1c59-23de9bbe99",
+      "source_sha256_expected": "48397e1c59b207618f110eaa4a85516b424ac8e7d4c0a738c4a70f7b8254095a",
+      "accepted_files": 2,
+      "source_sha256_actual": "48397e1c59b207618f110eaa4a85516b424ac8e7d4c0a738c4a70f7b8254095a"
+    },
+    {
+      "report_id": "LKOH-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2025-ОУР-4a095ca7de-23de9bbe99",
+      "source_sha256_expected": "4a095ca7dee5b49f5649ba9d11b01d2999f705faada1983e12a5ca4ceab9e4ab",
+      "accepted_files": 3,
+      "source_sha256_actual": "4a095ca7dee5b49f5649ba9d11b01d2999f705faada1983e12a5ca4ceab9e4ab"
+    },
+    {
+      "report_id": "NVTK-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NVTK-2023-ОУР-a4c7cf4cc4-23de9bbe99",
+      "source_sha256_expected": "a4c7cf4cc42f2b16458e090d0178dffd68ae8781bc5147aebd4f06adc7532320",
+      "accepted_files": 0,
+      "source_sha256_actual": "a4c7cf4cc42f2b16458e090d0178dffd68ae8781bc5147aebd4f06adc7532320"
+    },
+    {
+      "report_id": "NVTK-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NVTK-2024-ОУР-f51a645909-23de9bbe99",
+      "source_sha256_expected": "f51a645909476b5f67dc3bac6004cb9e280e235d13f7c5a8766c8dcbd2409cd3",
+      "accepted_files": 3,
+      "source_sha256_actual": "f51a645909476b5f67dc3bac6004cb9e280e235d13f7c5a8766c8dcbd2409cd3"
+    },
+    {
+      "report_id": "NVTK-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NVTK-2025-ОУР-15d2a75a84-23de9bbe99",
+      "source_sha256_expected": "15d2a75a84c1ef457029808f07e4a735552c3bbb10741dad42734caaa55a04da",
+      "accepted_files": 0,
+      "source_sha256_actual": "15d2a75a84c1ef457029808f07e4a735552c3bbb10741dad42734caaa55a04da"
+    },
+    {
+      "report_id": "ROSN-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/ROSN-2023-ОУР-94b103f223-23de9bbe99",
+      "source_sha256_expected": "94b103f223998de0735115df5510a1bc95d36288d879cc8c9674af613d7f858d",
+      "accepted_files": 0,
+      "source_sha256_actual": "94b103f223998de0735115df5510a1bc95d36288d879cc8c9674af613d7f858d"
+    },
+    {
+      "report_id": "ROSN-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/ROSN-2024-ОУР-21f3749f31-23de9bbe99",
+      "source_sha256_expected": "21f3749f319498259c694c813c4b787708d7852eea057a9d148fa47fd27aea6c",
+      "accepted_files": 0,
+      "source_sha256_actual": "21f3749f319498259c694c813c4b787708d7852eea057a9d148fa47fd27aea6c"
+    },
+    {
+      "report_id": "ROSN-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/ROSN-2025-ИО-91c7765d5c-23de9bbe99",
+      "source_sha256_expected": "91c7765d5ca9267edd389d16b3ddf972f12229a2483c1010728b5d4bb3a1fa1a",
+      "accepted_files": 1,
+      "source_sha256_actual": "91c7765d5ca9267edd389d16b3ddf972f12229a2483c1010728b5d4bb3a1fa1a"
+    },
+    {
+      "report_id": "TATN-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TATN-2023-ИО-74c6de3761-23de9bbe99",
+      "source_sha256_expected": "74c6de37613cd98dc5fbab215651611d3f111d644a58d826a2809f8fc7098806",
+      "accepted_files": 0,
+      "source_sha256_actual": "74c6de37613cd98dc5fbab215651611d3f111d644a58d826a2809f8fc7098806"
+    },
+    {
+      "report_id": "TATN-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TATN-2024-ИО-5c5ec6076c-23de9bbe99",
+      "source_sha256_expected": "5c5ec6076c4353d704738253ab18021f6b39a4bd6a5c5448e86a594cead910c0",
+      "accepted_files": 0,
+      "source_sha256_actual": "5c5ec6076c4353d704738253ab18021f6b39a4bd6a5c5448e86a594cead910c0"
+    },
+    {
+      "report_id": "TATN-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TATN-2025-ИО-9004d8ceec-23de9bbe99",
+      "source_sha256_expected": "9004d8ceec4db2912f45ffc42a5c2f0094bfa186448c537815659361b3785741",
+      "accepted_files": 2,
+      "source_sha256_actual": "9004d8ceec4db2912f45ffc42a5c2f0094bfa186448c537815659361b3785741"
+    },
+    {
+      "report_id": "TRNF-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2023-ИО-6a817f7d30-23de9bbe99",
+      "source_sha256_expected": "6a817f7d3011511a32777094b18b06d1643728d4c6049ef447955d6973ab6995",
+      "accepted_files": 2,
+      "source_sha256_actual": "6a817f7d3011511a32777094b18b06d1643728d4c6049ef447955d6973ab6995"
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99",
+      "source_sha256_expected": "1aa04fcbbef46624aafa0ceb4060afce7663c12683fa6974cff5879b3746a50f",
+      "accepted_files": 11,
+      "source_sha256_actual": "1aa04fcbbef46624aafa0ceb4060afce7663c12683fa6974cff5879b3746a50f"
+    },
+    {
+      "report_id": "TRNF-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2025-ИО-13683f47fe-23de9bbe99",
+      "source_sha256_expected": "13683f47fe5c47e0c3ef30003149af00f4bd60152c68d3c0974e645180b1b09f",
+      "accepted_files": 1,
+      "source_sha256_actual": "13683f47fe5c47e0c3ef30003149af00f4bd60152c68d3c0974e645180b1b09f"
+    },
+    {
+      "report_id": "ALRS-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/ALRS-2023-ОУР-92c865e730-23de9bbe99",
+      "source_sha256_expected": "92c865e73036254c2edc04b1605c151c59577649a47b4330a6b85d7010ebfbb6",
+      "accepted_files": 0,
+      "source_sha256_actual": "92c865e73036254c2edc04b1605c151c59577649a47b4330a6b85d7010ebfbb6"
+    },
+    {
+      "report_id": "ALRS-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/ALRS-2024-ОУР-856edb43f2-23de9bbe99",
+      "source_sha256_expected": "856edb43f2efe43f8b1721080806e1bccc8d82061dac37efd0f876f4d8cdd19e",
+      "accepted_files": 0,
+      "source_sha256_actual": "856edb43f2efe43f8b1721080806e1bccc8d82061dac37efd0f876f4d8cdd19e"
+    },
+    {
+      "report_id": "ALRS-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/ALRS-2025-ОУР-6ad4a680b2-23de9bbe99",
+      "source_sha256_expected": "6ad4a680b2cce992126251e504002ca9accdd5b66516d3a46f59930da7f1fc9c",
+      "accepted_files": 0,
+      "source_sha256_actual": "6ad4a680b2cce992126251e504002ca9accdd5b66516d3a46f59930da7f1fc9c"
+    },
+    {
+      "report_id": "MAGN-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2023-ИО-b5f44cefc8-23de9bbe99",
+      "source_sha256_expected": "b5f44cefc8b74a894d4c74a5340505d118d56f9a4cc386a4d6dcb31f6f180142",
+      "accepted_files": 3,
+      "source_sha256_actual": "b5f44cefc8b74a894d4c74a5340505d118d56f9a4cc386a4d6dcb31f6f180142"
+    },
+    {
+      "report_id": "MAGN-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2024-ИО-2ee42d45f7-23de9bbe99",
+      "source_sha256_expected": "2ee42d45f713865613aa7191a98ded4cf074d7007b2f4f65bcbd66ab408eb4ed",
+      "accepted_files": 2,
+      "source_sha256_actual": "2ee42d45f713865613aa7191a98ded4cf074d7007b2f4f65bcbd66ab408eb4ed"
+    },
+    {
+      "report_id": "MAGN-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2025-ИО-bfa0ff7665-23de9bbe99",
+      "source_sha256_expected": "bfa0ff76650feb2eeaaf21f5afec93cc4c1e8c3e5a83a51da5079d9345920294",
+      "accepted_files": 0,
+      "source_sha256_actual": "bfa0ff76650feb2eeaaf21f5afec93cc4c1e8c3e5a83a51da5079d9345920294"
+    },
+    {
+      "report_id": "MINV-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MINV-2023-ОУР-07d98a6fcd-23de9bbe99",
+      "source_sha256_expected": "07d98a6fcd133210302ec74dd08cd6a623e66b2ba5718ef0e69527c8e37c4e81",
+      "accepted_files": 0,
+      "source_sha256_actual": "07d98a6fcd133210302ec74dd08cd6a623e66b2ba5718ef0e69527c8e37c4e81"
+    },
+    {
+      "report_id": "MINV-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MINV-2024-ОУР-b93eb4966d-23de9bbe99",
+      "source_sha256_expected": "b93eb4966d273899e817962d6cc3ac989d575b3e38ba11bb2075baeef25dc98a",
+      "accepted_files": 0,
+      "source_sha256_actual": "b93eb4966d273899e817962d6cc3ac989d575b3e38ba11bb2075baeef25dc98a"
+    },
+    {
+      "report_id": "MINV-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MINV-2025-ОУР-b6afdf15e5-23de9bbe99",
+      "source_sha256_expected": "b6afdf15e58731fbd8502f0360ecc1a89a565e9da191d7b9e5ebb34b10a7dc23",
+      "accepted_files": 1,
+      "source_sha256_actual": "b6afdf15e58731fbd8502f0360ecc1a89a565e9da191d7b9e5ebb34b10a7dc23"
+    },
+    {
+      "report_id": "MTLR-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2023-ОУР-43f2dbb643-23de9bbe99",
+      "source_sha256_expected": "43f2dbb6435bd9268070eb6db48c313c2af57edaded99bad13b0b22101a15eed",
+      "accepted_files": 2,
+      "source_sha256_actual": "43f2dbb6435bd9268070eb6db48c313c2af57edaded99bad13b0b22101a15eed"
+    },
+    {
+      "report_id": "MTLR-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2024-ОУР-b90eebaf23-23de9bbe99",
+      "source_sha256_expected": "b90eebaf2372de042d5028f878d4252baeb36378aa75e313d56c0c17c785f7e1",
+      "accepted_files": 2,
+      "source_sha256_actual": "b90eebaf2372de042d5028f878d4252baeb36378aa75e313d56c0c17c785f7e1"
+    },
+    {
+      "report_id": "MTLR-2025-ГО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2025-ГО-380445f8e5-23de9bbe99",
+      "source_sha256_expected": "380445f8e571666cf8f0121aa8b8b4d48ec51f94e1fd1cadf130a1f6c1f43277",
+      "accepted_files": 0,
+      "source_sha256_actual": "380445f8e571666cf8f0121aa8b8b4d48ec51f94e1fd1cadf130a1f6c1f43277"
+    },
+    {
+      "report_id": "MTLR-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2025-ОУР-63b21f31a4-23de9bbe99",
+      "source_sha256_expected": "63b21f31a42f8dcd034606dca319a31516712db796feae5a5f0b05b3463fa095",
+      "accepted_files": 0,
+      "source_sha256_actual": "63b21f31a42f8dcd034606dca319a31516712db796feae5a5f0b05b3463fa095"
+    },
+    {
+      "report_id": "NLMK-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NLMK-2023-ОУР-b80ab362de-23de9bbe99",
+      "source_sha256_expected": "b80ab362de76036922891fc8eb7f43f7fe9d0f24709d53fd307593ccb767d457",
+      "accepted_files": 0,
+      "source_sha256_actual": "b80ab362de76036922891fc8eb7f43f7fe9d0f24709d53fd307593ccb767d457"
+    },
+    {
+      "report_id": "NLMK-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NLMK-2024-ИО-067c55b3ac-23de9bbe99",
+      "source_sha256_expected": "067c55b3ac90cc95383538263c6dc34cd335fc91e5a787a41475387dc587fd82",
+      "accepted_files": 0,
+      "source_sha256_actual": "067c55b3ac90cc95383538263c6dc34cd335fc91e5a787a41475387dc587fd82"
+    },
+    {
+      "report_id": "NLMK-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NLMK-2025-ИО-58a2592b5d-23de9bbe99",
+      "source_sha256_expected": "58a2592b5d25c6a6ea105efdb48568bbdebf57317a65dc3c527a8335231e0429",
+      "accepted_files": 1,
+      "source_sha256_actual": "58a2592b5d25c6a6ea105efdb48568bbdebf57317a65dc3c527a8335231e0429"
+    },
+    {
+      "report_id": "NORN-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NORN-2023-ОУР-435d682673-23de9bbe99",
+      "source_sha256_expected": "435d682673a5086affdc71b5af7c58c1bce02e800fa9ffd27ae04663656e8727",
+      "accepted_files": 0,
+      "source_sha256_actual": "435d682673a5086affdc71b5af7c58c1bce02e800fa9ffd27ae04663656e8727"
+    },
+    {
+      "report_id": "NORN-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NORN-2024-ОУР-c92fb19a2a-23de9bbe99",
+      "source_sha256_expected": "c92fb19a2a6f266197b284946e7ea41ab2e5819ffc5edd263ad712cdfe07cd4d",
+      "accepted_files": 0,
+      "source_sha256_actual": "c92fb19a2a6f266197b284946e7ea41ab2e5819ffc5edd263ad712cdfe07cd4d"
+    },
+    {
+      "report_id": "NORN-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/NORN-2025-ОУР-47f7c79c52-23de9bbe99",
+      "source_sha256_expected": "47f7c79c52f3fa4b0b6ed522fc30eee33745b0bf5242da2fe44154c102dd9769",
+      "accepted_files": 0,
+      "source_sha256_actual": "47f7c79c52f3fa4b0b6ed522fc30eee33745b0bf5242da2fe44154c102dd9769"
+    },
+    {
+      "report_id": "PLZL-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PLZL-2023-ОУР-2368c71fb5-23de9bbe99",
+      "source_sha256_expected": "2368c71fb58ffaab4df37ce3c94941018fdb2f791a06588c4ff841c671900104",
+      "accepted_files": 1,
+      "source_sha256_actual": "2368c71fb58ffaab4df37ce3c94941018fdb2f791a06588c4ff841c671900104"
+    },
+    {
+      "report_id": "PLZL-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PLZL-2024-ОУР-753c91697e-23de9bbe99",
+      "source_sha256_expected": "753c91697ea3361e2a85348b4073769c01b5a4f67b41793e65560b1ead208c62",
+      "accepted_files": 0,
+      "source_sha256_actual": "753c91697ea3361e2a85348b4073769c01b5a4f67b41793e65560b1ead208c62"
+    },
+    {
+      "report_id": "PLZL-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PLZL-2025-ИО-22cc0b79cf-23de9bbe99",
+      "source_sha256_expected": "22cc0b79cffd5204ac4bac91bd3568aee60ec8f6ce4933520dd20829418ce8c7",
+      "accepted_files": 0,
+      "source_sha256_actual": "22cc0b79cffd5204ac4bac91bd3568aee60ec8f6ce4933520dd20829418ce8c7"
+    },
+    {
+      "report_id": "PLZL-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PLZL-2025-ОУР-923535c792-23de9bbe99",
+      "source_sha256_expected": "923535c792e02262dd64815628cb456e6a0f588dbc4ff21bdc4ed0762117f629",
+      "accepted_files": 1,
+      "source_sha256_actual": "923535c792e02262dd64815628cb456e6a0f588dbc4ff21bdc4ed0762117f629"
+    },
+    {
+      "report_id": "RUAL-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RUAL-2023-ОУР-bdbc29a522-23de9bbe99",
+      "source_sha256_expected": "bdbc29a522c85dba56bd74406055681b8e75ad16f70f1413d4ff8d6dd836f4f2",
+      "accepted_files": 0,
+      "source_sha256_actual": "bdbc29a522c85dba56bd74406055681b8e75ad16f70f1413d4ff8d6dd836f4f2"
+    },
+    {
+      "report_id": "RUAL-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RUAL-2024-ОУР-857d70d7a5-23de9bbe99",
+      "source_sha256_expected": "857d70d7a52e40c38b4dcf6b56b2a1d2dadd91077bac0e3b36bd5379f47e26c5",
+      "accepted_files": 0,
+      "source_sha256_actual": "857d70d7a52e40c38b4dcf6b56b2a1d2dadd91077bac0e3b36bd5379f47e26c5"
+    },
+    {
+      "report_id": "RUAL-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RUAL-2025-ИО-b331bdefce-23de9bbe99",
+      "source_sha256_expected": "b331bdefce5c015301cc09e36a38f71930f9b75c39848ac29e763b28165604f0",
+      "accepted_files": 0,
+      "source_sha256_actual": "b331bdefce5c015301cc09e36a38f71930f9b75c39848ac29e763b28165604f0"
+    },
+    {
+      "report_id": "RASP-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RASP-2023-ОУР-0281377f10-23de9bbe99",
+      "source_sha256_expected": "0281377f10ed0aaac151eaa6ba08b35fb4f358704841a4bdefb755403fae7610",
+      "accepted_files": 1,
+      "source_sha256_actual": "0281377f10ed0aaac151eaa6ba08b35fb4f358704841a4bdefb755403fae7610"
+    },
+    {
+      "report_id": "RASP-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RASP-2024-ОУР-dca6cbf01b-23de9bbe99",
+      "source_sha256_expected": "dca6cbf01bd9f27c34261823662b3433abc44f3e1c1b34d5b8758c24a7e16b57",
+      "accepted_files": 0,
+      "source_sha256_actual": "dca6cbf01bd9f27c34261823662b3433abc44f3e1c1b34d5b8758c24a7e16b57"
+    },
+    {
+      "report_id": "RASP-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RASP-2025-ОУР-631c852531-23de9bbe99",
+      "source_sha256_expected": "631c85253169fcf6671411d4ba186825d598d252e2bb7ff2631d3069c03c6a4b",
+      "accepted_files": 0,
+      "source_sha256_actual": "631c85253169fcf6671411d4ba186825d598d252e2bb7ff2631d3069c03c6a4b"
+    },
+    {
+      "report_id": "CHMF-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2023-ОУР-744d2276c7-23de9bbe99",
+      "source_sha256_expected": "744d2276c70145791ed69edbb05524b65b652701b6b90ad90ec128ddfadff41c",
+      "accepted_files": 0,
+      "source_sha256_actual": "744d2276c70145791ed69edbb05524b65b652701b6b90ad90ec128ddfadff41c"
+    },
+    {
+      "report_id": "CHMF-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2024-ИО-74cfbca7fb-23de9bbe99",
+      "source_sha256_expected": "74cfbca7fb0fed715f48698c272a418b015fd78a0a291fdeb46fbfa096f065d3",
+      "accepted_files": 2,
+      "source_sha256_actual": "74cfbca7fb0fed715f48698c272a418b015fd78a0a291fdeb46fbfa096f065d3"
+    },
+    {
+      "report_id": "CHMF-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2025-ИО-70f2da8eb9-23de9bbe99",
+      "source_sha256_expected": "70f2da8eb9fda4f508c7f8161634553d7b6e0fe6a45535061567506a01bf0abb",
+      "accepted_files": 2,
+      "source_sha256_actual": "70f2da8eb9fda4f508c7f8161634553d7b6e0fe6a45535061567506a01bf0abb"
+    },
+    {
+      "report_id": "TRMK-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRMK-2023-ИО-d5f6976605-23de9bbe99",
+      "source_sha256_expected": "d5f6976605d21f709e77a453077cb0f9cd9b184e75e8eb4f8ada4907f8d6d704",
+      "accepted_files": 0,
+      "source_sha256_actual": "d5f6976605d21f709e77a453077cb0f9cd9b184e75e8eb4f8ada4907f8d6d704"
+    },
+    {
+      "report_id": "TRMK-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRMK-2024-ОУР-6496315571-23de9bbe99",
+      "source_sha256_expected": "64963155716edcd5112284c816ee9b988b0cbfca1fad393d4330efd6526201d5",
+      "accepted_files": 1,
+      "source_sha256_actual": "64963155716edcd5112284c816ee9b988b0cbfca1fad393d4330efd6526201d5"
+    },
+    {
+      "report_id": "TRMK-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRMK-2025-ОУР-2fe35f9402-23de9bbe99",
+      "source_sha256_expected": "2fe35f9402f06e61eb0c1814a0a96d6dda24b17b1112aad5c5d4017cef2ad143",
+      "accepted_files": 0,
+      "source_sha256_actual": "2fe35f9402f06e61eb0c1814a0a96d6dda24b17b1112aad5c5d4017cef2ad143"
+    },
+    {
+      "report_id": "AKRN-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/AKRN-2023-ОУР-53d848b3d8-23de9bbe99",
+      "source_sha256_expected": "53d848b3d80ad8a039b500a6e1cb3c7cc98368a9a9cda0ddf2c5c926bb50d411",
+      "accepted_files": 0,
+      "source_sha256_actual": "53d848b3d80ad8a039b500a6e1cb3c7cc98368a9a9cda0ddf2c5c926bb50d411"
+    },
+    {
+      "report_id": "AKRN-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/AKRN-2024-ОУР-5b713d4f4e-23de9bbe99",
+      "source_sha256_expected": "5b713d4f4e13525c87effc22d5395181642a0d8d3599da0c1caa19b3aec74ee3",
+      "accepted_files": 1,
+      "source_sha256_actual": "5b713d4f4e13525c87effc22d5395181642a0d8d3599da0c1caa19b3aec74ee3"
+    },
+    {
+      "report_id": "AKRN-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/AKRN-2025-ИО-8fff881498-23de9bbe99",
+      "source_sha256_expected": "8fff8814982941fa8b3546a2b4b453fdfa6d1e237da8cd8e6af2dbc5e637c4ec",
+      "accepted_files": 1,
+      "source_sha256_actual": "8fff8814982941fa8b3546a2b4b453fdfa6d1e237da8cd8e6af2dbc5e637c4ec"
+    },
+    {
+      "report_id": "PIGM-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PIGM-2023-ОУР-ce8489ae85-23de9bbe99",
+      "source_sha256_expected": "ce8489ae85636960b8e9a86faaa41fa407973a9db3c9030f59ed129b6990b431",
+      "accepted_files": 0,
+      "source_sha256_actual": "ce8489ae85636960b8e9a86faaa41fa407973a9db3c9030f59ed129b6990b431"
+    },
+    {
+      "report_id": "PIGM-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PIGM-2024-ОУР-3ce6ccec1a-23de9bbe99",
+      "source_sha256_expected": "3ce6ccec1a326eeaa09f3dbe2a1a17e09527e6de111a74191d432057851154ef",
+      "accepted_files": 0,
+      "source_sha256_actual": "3ce6ccec1a326eeaa09f3dbe2a1a17e09527e6de111a74191d432057851154ef"
+    },
+    {
+      "report_id": "PIGM-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PIGM-2025-ОУР-a82eabdda1-23de9bbe99",
+      "source_sha256_expected": "a82eabdda1254eea255e2514e2d7ee2a9a11d060fcaccf4e1fd2b818e5586fa9",
+      "accepted_files": 0,
+      "source_sha256_actual": "a82eabdda1254eea255e2514e2d7ee2a9a11d060fcaccf4e1fd2b818e5586fa9"
+    },
+    {
+      "report_id": "SIBR-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SIBR-2023-ИО-3008be62e9-23de9bbe99",
+      "source_sha256_expected": "3008be62e938b244d26de20f1fd1dbf5c24a3507172ebd4649d99756e93c6d97",
+      "accepted_files": 0,
+      "source_sha256_actual": "3008be62e938b244d26de20f1fd1dbf5c24a3507172ebd4649d99756e93c6d97"
+    },
+    {
+      "report_id": "SIBR-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SIBR-2024-ИО-d95ff92c93-23de9bbe99",
+      "source_sha256_expected": "d95ff92c93c060361d884f9c4283300592bed1b4059cda66ae99703369b73e13",
+      "accepted_files": 1,
+      "source_sha256_actual": "d95ff92c93c060361d884f9c4283300592bed1b4059cda66ae99703369b73e13"
+    },
+    {
+      "report_id": "SIBR-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SIBR-2025-ИО-3c90d6d427-23de9bbe99",
+      "source_sha256_expected": "3c90d6d427442317b01adf77d740780d858fe36318cac1e863bb14bbc3ee1b7e",
+      "accepted_files": 1,
+      "source_sha256_actual": "3c90d6d427442317b01adf77d740780d858fe36318cac1e863bb14bbc3ee1b7e"
+    },
+    {
+      "report_id": "URKA-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URKA-2023-ОУР-c3613b9cee-23de9bbe99",
+      "source_sha256_expected": "c3613b9cee34a7adff49afba11cc22a59416135e7d94dfebe900f1f6bb6130c5",
+      "accepted_files": 1,
+      "source_sha256_actual": "c3613b9cee34a7adff49afba11cc22a59416135e7d94dfebe900f1f6bb6130c5"
+    },
+    {
+      "report_id": "URKA-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URKA-2024-ОУР-71bc15dc27-23de9bbe99",
+      "source_sha256_expected": "71bc15dc27d7e71e3f404aa7baa457d386b594afea89096f64d568c43cea0c9b",
+      "accepted_files": 0,
+      "source_sha256_actual": "71bc15dc27d7e71e3f404aa7baa457d386b594afea89096f64d568c43cea0c9b"
+    },
+    {
+      "report_id": "URKA-2025-ГО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URKA-2025-ГО-036f68dd17-23de9bbe99",
+      "source_sha256_expected": "036f68dd1770d8caabbbe087dbb84b6beafa5eb00843a73bb613918e03993346",
+      "accepted_files": 0,
+      "source_sha256_actual": "036f68dd1770d8caabbbe087dbb84b6beafa5eb00843a73bb613918e03993346"
+    },
+    {
+      "report_id": "URKA-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URKA-2025-ОУР-5db809ad6a-23de9bbe99",
+      "source_sha256_expected": "5db809ad6a11bb81939efe748d635432c9304497585592b4e0528bb3d49cbb7b",
+      "accepted_files": 1,
+      "source_sha256_actual": "5db809ad6a11bb81939efe748d635432c9304497585592b4e0528bb3d49cbb7b"
+    },
+    {
+      "report_id": "URCH-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URCH-2023-ОУР-531e0c59da-23de9bbe99",
+      "source_sha256_expected": "531e0c59da1fb5dccdeefd581214132658b5a3257a60fb802a84711accfbdeb3",
+      "accepted_files": 0,
+      "source_sha256_actual": "531e0c59da1fb5dccdeefd581214132658b5a3257a60fb802a84711accfbdeb3"
+    },
+    {
+      "report_id": "URCH-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URCH-2024-ОУР-f5107e9ad5-23de9bbe99",
+      "source_sha256_expected": "f5107e9ad5095817d399fc77e76c86bbf30c556975dbda67f0649aeedbb6117c",
+      "accepted_files": 0,
+      "source_sha256_actual": "f5107e9ad5095817d399fc77e76c86bbf30c556975dbda67f0649aeedbb6117c"
+    },
+    {
+      "report_id": "URCH-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/URCH-2025-ОУР-50a08d80d0-23de9bbe99",
+      "source_sha256_expected": "50a08d80d0f86b61ecb2e01f633ead92e6c3807d8edeb59a5f699cb84527178b",
+      "accepted_files": 0,
+      "source_sha256_actual": "50a08d80d0f86b61ecb2e01f633ead92e6c3807d8edeb59a5f699cb84527178b"
+    },
+    {
+      "report_id": "PHOR-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PHOR-2023-ИО-389d236ca8-23de9bbe99",
+      "source_sha256_expected": "389d236ca8701938b45670f942cd57e2e237606563c7c563f343ed82ee1e9059",
+      "accepted_files": 0,
+      "source_sha256_actual": "389d236ca8701938b45670f942cd57e2e237606563c7c563f343ed82ee1e9059"
+    },
+    {
+      "report_id": "PHOR-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PHOR-2024-ИО-3d5b3d358e-23de9bbe99",
+      "source_sha256_expected": "3d5b3d358eae9e47ceeb86af8ffe0f556b5e88bb6a4cad76b348ca5126626a53",
+      "accepted_files": 0,
+      "source_sha256_actual": "3d5b3d358eae9e47ceeb86af8ffe0f556b5e88bb6a4cad76b348ca5126626a53"
+    },
+    {
+      "report_id": "PHOR-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/PHOR-2025-ИО-23ca1f177a-23de9bbe99",
+      "source_sha256_expected": "23ca1f177ab53faefde960d8d3d31b1e0fb1bd01764dc5b8d9c53b055e59d513",
+      "accepted_files": 0,
+      "source_sha256_actual": "23ca1f177ab53faefde960d8d3d31b1e0fb1bd01764dc5b8d9c53b055e59d513"
+    },
+    {
+      "report_id": "KMAZ-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/KMAZ-2023-ОУР-85372588a2-23de9bbe99",
+      "source_sha256_expected": "85372588a2dbb4c226c15865c9efffed40ae12daa10fa7fb7d6f6743bb6ea0ac",
+      "accepted_files": 0,
+      "source_sha256_actual": "85372588a2dbb4c226c15865c9efffed40ae12daa10fa7fb7d6f6743bb6ea0ac"
+    },
+    {
+      "report_id": "KMAZ-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/KMAZ-2024-ОУР-6ec9f488d9-23de9bbe99",
+      "source_sha256_expected": "6ec9f488d91f80286d7fa02d0261572efb25b08f8c71ccf541f2db1ea6ebc315",
+      "accepted_files": 0,
+      "source_sha256_actual": "6ec9f488d91f80286d7fa02d0261572efb25b08f8c71ccf541f2db1ea6ebc315"
+    },
+    {
+      "report_id": "KMAZ-2025-ГО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/KMAZ-2025-ГО-0f4fe82185-23de9bbe99",
+      "source_sha256_expected": "0f4fe82185624dd0740542032c7c5999a2c5e71ef47f88aaf25dbcca93f0ca07",
+      "accepted_files": 2,
+      "source_sha256_actual": "0f4fe82185624dd0740542032c7c5999a2c5e71ef47f88aaf25dbcca93f0ca07"
+    },
+    {
+      "report_id": "SHLZ-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SHLZ-2023-ОУР-5a4a2569d0-23de9bbe99",
+      "source_sha256_expected": "5a4a2569d0be5848d954d362d26f579d1da55e7f3a4f51b9601dd708ae2f45b6",
+      "accepted_files": 0,
+      "source_sha256_actual": "5a4a2569d0be5848d954d362d26f579d1da55e7f3a4f51b9601dd708ae2f45b6"
+    },
+    {
+      "report_id": "SHLZ-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SHLZ-2024-ОУР-4e4c95d878-23de9bbe99",
+      "source_sha256_expected": "4e4c95d8786e060b09dee54cbea2a0e15a01086bcdf5a15b786555ae066e51f1",
+      "accepted_files": 0,
+      "source_sha256_actual": "4e4c95d8786e060b09dee54cbea2a0e15a01086bcdf5a15b786555ae066e51f1"
+    },
+    {
+      "report_id": "SVEZ-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SVEZ-2023-ОУР-55242773ea-23de9bbe99",
+      "source_sha256_expected": "55242773ea38ca2f0f50fbeb3ea0a1c689479667d0ee654609611752f65766f1",
+      "accepted_files": 1,
+      "source_sha256_actual": "55242773ea38ca2f0f50fbeb3ea0a1c689479667d0ee654609611752f65766f1"
+    },
+    {
+      "report_id": "SVEZ-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SVEZ-2024-ОУР-622973bc73-23de9bbe99",
+      "source_sha256_expected": "622973bc7330d54919bb1e4b9fda43dd2f25d7f4ab14e472b71d2948ff564068",
+      "accepted_files": 0,
+      "source_sha256_actual": "622973bc7330d54919bb1e4b9fda43dd2f25d7f4ab14e472b71d2948ff564068"
+    },
+    {
+      "report_id": "SGZH-2023-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SGZH-2023-ИО-3339ee736a-23de9bbe99",
+      "source_sha256_expected": "3339ee736aa5024bc8abe6f02c3d5fdc3bfc27076926d9ca8e36d2e780364de8",
+      "accepted_files": 0,
+      "source_sha256_actual": "3339ee736aa5024bc8abe6f02c3d5fdc3bfc27076926d9ca8e36d2e780364de8"
+    },
+    {
+      "report_id": "SGZH-2024-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SGZH-2024-ИО-ad88cc55d6-23de9bbe99",
+      "source_sha256_expected": "ad88cc55d69b8e82fe8390f335bd1a104f8aff224a7ec206cec0534999692100",
+      "accepted_files": 0,
+      "source_sha256_actual": "ad88cc55d69b8e82fe8390f335bd1a104f8aff224a7ec206cec0534999692100"
+    },
+    {
+      "report_id": "SGZH-2025-ИО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/SGZH-2025-ИО-17f1779bae-23de9bbe99",
+      "source_sha256_expected": "17f1779baefc4de0546be63eaea45bf16e94cc56c320e318b5ae141d52c9a05a",
+      "accepted_files": 0,
+      "source_sha256_actual": "17f1779baefc4de0546be63eaea45bf16e94cc56c320e318b5ae141d52c9a05a"
+    },
+    {
+      "report_id": "MVDK-2023-ГО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MVDK-2023-ГО-24962a37c6-23de9bbe99",
+      "source_sha256_expected": "24962a37c698c154ffb0c2b15accddc8a1c89cd50239026fcedf4c32ca4b3e03",
+      "accepted_files": 0,
+      "source_sha256_actual": "24962a37c698c154ffb0c2b15accddc8a1c89cd50239026fcedf4c32ca4b3e03"
+    },
+    {
+      "report_id": "MVDK-2024-ГО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MVDK-2024-ГО-6ec267f30d-23de9bbe99",
+      "source_sha256_expected": "6ec267f30d742206f9bc1f40dbb4809543f7d4a055fc5505015f2c6d9f4a1201",
+      "accepted_files": 0,
+      "source_sha256_actual": "6ec267f30d742206f9bc1f40dbb4809543f7d4a055fc5505015f2c6d9f4a1201"
+    },
+    {
+      "report_id": "MVDK-2025-ГО",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/MVDK-2025-ГО-de1b3c92dd-23de9bbe99",
+      "source_sha256_expected": "de1b3c92dd75dd8ea0318eac1ea5b490718e1b14b841c267c2e06e0609e31add",
+      "accepted_files": 1,
+      "source_sha256_actual": "de1b3c92dd75dd8ea0318eac1ea5b490718e1b14b841c267c2e06e0609e31add"
+    },
+    {
+      "report_id": "RVDK-2023-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RVDK-2023-ОУР-e73c1f6a37-23de9bbe99",
+      "source_sha256_expected": "e73c1f6a37f710364a7df657a38aaa7bf197e75fb4a00a1b28fd0622707e053e",
+      "accepted_files": 0,
+      "source_sha256_actual": "e73c1f6a37f710364a7df657a38aaa7bf197e75fb4a00a1b28fd0622707e053e"
+    },
+    {
+      "report_id": "RVDK-2024-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RVDK-2024-ОУР-18400ca44a-23de9bbe99",
+      "source_sha256_expected": "18400ca44ae4c3cdf82ab017e08d2902967066aa3aff5aef7e6bedc5352c508a",
+      "accepted_files": 0,
+      "source_sha256_actual": "18400ca44ae4c3cdf82ab017e08d2902967066aa3aff5aef7e6bedc5352c508a"
+    },
+    {
+      "report_id": "RVDK-2025-ОУР",
+      "cache": "/Users/nikitachukreev/.local/state/sber-esg-worker/RVDK-2025-ОУР-1f4faf4867-23de9bbe99",
+      "source_sha256_expected": "1f4faf4867da6ba5b937b8188eb8ba591cd62f5f59ed1f34780f9647edee4f8f",
+      "accepted_files": 0,
+      "source_sha256_actual": "1f4faf4867da6ba5b937b8188eb8ba591cd62f5f59ed1f34780f9647edee4f8f"
+    }
+  ],
+  "entries": [
+    {
+      "report_id": "GAZP-2023-ОУР",
+      "batch_id": "GAZP-2023-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ОУР-0d59b784c5-23de9bbe99/accepted/GAZP-2023-ОУР_b0002.json",
+      "original_sha256": "55b3a64379e898c646de05d8cd3576401f69ec7d3826b27c376b8f750f0f09ae",
+      "claims": 44,
+      "coverage_blocks": 146,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 35,
+        "pending_claims": 23,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0001.json",
+      "original_sha256": "2376b19110c21dec8258f5202a262e195de45da7b768c1050c196376f664d47a",
+      "claims": 0,
+      "coverage_blocks": 32,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0002.json",
+      "original_sha256": "e4f08cd4234a485cfd11a71cecdb7c46d462aac4da26fa6b2cfbd04f206658e6",
+      "claims": 22,
+      "coverage_blocks": 52,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 6,
+        "pending_claims": 1,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0003",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0003.json",
+      "original_sha256": "20080d112b83074539869a12d48fff1c3fe9569c872a8e1c856cc60e070279d3",
+      "claims": 69,
+      "coverage_blocks": 71,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 11,
+        "pending_claims": 24,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0004",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0004.json",
+      "original_sha256": "920ceefe02888fb3b46767fbd90fd0c3bd1d3161556ee7419d402cb670751e66",
+      "claims": 262,
+      "coverage_blocks": 60,
+      "status": "invalid",
+      "reason": "period не подтверждено дословным фрагментом соответствующей роли",
+      "exception": "ValueError",
+      "numeric_diagnostics": [
+        {
+          "claim_id": "GAZP-2023-ЭО_b0004_c0027",
+          "issue": "unsupported_field",
+          "field": "period",
+          "value": "2023",
+          "quotes": [
+            "2019–2023 гг."
+          ]
+        },
+        {
+          "claim_id": "GAZP-2023-ЭО_b0004_c0028",
+          "issue": "unsupported_field",
+          "field": "period",
+          "value": "2023",
+          "quotes": [
+            "2019–2023 гг."
+          ]
+        }
+      ],
+      "revision_candidate": {
+        "path": "cache_revisions/GAZP-2023-ЭО/GAZP-2023-ЭО_b0004.json",
+        "original_sha256": "920ceefe02888fb3b46767fbd90fd0c3bd1d3161556ee7419d402cb670751e66",
+        "new_sha256": "aa3868fc12dbc674ec3c15585a4d9b59ae6dc0c9ec807794a0f6a5e60059f9d0",
+        "diff_summary": [
+          {
+            "claim_id": "GAZP-2023-ЭО_b0004_c0027",
+            "field": "period",
+            "before": "2023",
+            "after": ""
+          },
+          {
+            "claim_id": "GAZP-2023-ЭО_b0004_c0028",
+            "field": "period",
+            "before": "2023",
+            "after": ""
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p13:b7",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p13:b7",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0007",
+                "GAZP-2023-ЭО_b0004_c0008",
+                "GAZP-2023-ЭО_b0004_c0009",
+                "GAZP-2023-ЭО_b0004_c0010",
+                "GAZP-2023-ЭО_b0004_c0011",
+                "GAZP-2023-ЭО_b0004_c0012",
+                "GAZP-2023-ЭО_b0004_c0013",
+                "GAZP-2023-ЭО_b0004_c0014",
+                "GAZP-2023-ЭО_b0004_c0015",
+                "GAZP-2023-ЭО_b0004_c0016",
+                "GAZP-2023-ЭО_b0004_c0017",
+                "GAZP-2023-ЭО_b0004_c0018",
+                "GAZP-2023-ЭО_b0004_c0019",
+                "GAZP-2023-ЭО_b0004_c0020",
+                "GAZP-2023-ЭО_b0004_c0021",
+                "GAZP-2023-ЭО_b0004_c0022",
+                "GAZP-2023-ЭО_b0004_c0023",
+                "GAZP-2023-ЭО_b0004_c0024",
+                "GAZP-2023-ЭО_b0004_c0025",
+                "GAZP-2023-ЭО_b0004_c0026"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p13:b7",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0007",
+                "GAZP-2023-ЭО_b0004_c0008",
+                "GAZP-2023-ЭО_b0004_c0009",
+                "GAZP-2023-ЭО_b0004_c0010",
+                "GAZP-2023-ЭО_b0004_c0011",
+                "GAZP-2023-ЭО_b0004_c0012",
+                "GAZP-2023-ЭО_b0004_c0013",
+                "GAZP-2023-ЭО_b0004_c0014",
+                "GAZP-2023-ЭО_b0004_c0015",
+                "GAZP-2023-ЭО_b0004_c0016",
+                "GAZP-2023-ЭО_b0004_c0017",
+                "GAZP-2023-ЭО_b0004_c0018",
+                "GAZP-2023-ЭО_b0004_c0019",
+                "GAZP-2023-ЭО_b0004_c0020",
+                "GAZP-2023-ЭО_b0004_c0021",
+                "GAZP-2023-ЭО_b0004_c0022",
+                "GAZP-2023-ЭО_b0004_c0023",
+                "GAZP-2023-ЭО_b0004_c0024",
+                "GAZP-2023-ЭО_b0004_c0025",
+                "GAZP-2023-ЭО_b0004_c0026"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p14:b3",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p14:b3",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0027",
+                "GAZP-2023-ЭО_b0004_c0028",
+                "GAZP-2023-ЭО_b0004_c0029"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p14:b3",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0027",
+                "GAZP-2023-ЭО_b0004_c0028",
+                "GAZP-2023-ЭО_b0004_c0029"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p14:b4",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p14:b4",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0027",
+                "GAZP-2023-ЭО_b0004_c0028"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p14:b4",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0027",
+                "GAZP-2023-ЭО_b0004_c0028"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p14:b6",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p14:b6",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0030"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p14:b6",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0030"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p14:b7",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p14:b7",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0181",
+                "GAZP-2023-ЭО_b0004_c0182",
+                "GAZP-2023-ЭО_b0004_c0183",
+                "GAZP-2023-ЭО_b0004_c0184",
+                "GAZP-2023-ЭО_b0004_c0185",
+                "GAZP-2023-ЭО_b0004_c0186",
+                "GAZP-2023-ЭО_b0004_c0187",
+                "GAZP-2023-ЭО_b0004_c0188",
+                "GAZP-2023-ЭО_b0004_c0189",
+                "GAZP-2023-ЭО_b0004_c0190",
+                "GAZP-2023-ЭО_b0004_c0191",
+                "GAZP-2023-ЭО_b0004_c0192",
+                "GAZP-2023-ЭО_b0004_c0193",
+                "GAZP-2023-ЭО_b0004_c0194"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p14:b7",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0181",
+                "GAZP-2023-ЭО_b0004_c0182",
+                "GAZP-2023-ЭО_b0004_c0183",
+                "GAZP-2023-ЭО_b0004_c0184",
+                "GAZP-2023-ЭО_b0004_c0185",
+                "GAZP-2023-ЭО_b0004_c0186",
+                "GAZP-2023-ЭО_b0004_c0187",
+                "GAZP-2023-ЭО_b0004_c0188",
+                "GAZP-2023-ЭО_b0004_c0189",
+                "GAZP-2023-ЭО_b0004_c0190",
+                "GAZP-2023-ЭО_b0004_c0191",
+                "GAZP-2023-ЭО_b0004_c0192",
+                "GAZP-2023-ЭО_b0004_c0193",
+                "GAZP-2023-ЭО_b0004_c0194"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p14:b10",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p14:b10",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0195",
+                "GAZP-2023-ЭО_b0004_c0196",
+                "GAZP-2023-ЭО_b0004_c0197",
+                "GAZP-2023-ЭО_b0004_c0198",
+                "GAZP-2023-ЭО_b0004_c0199",
+                "GAZP-2023-ЭО_b0004_c0200",
+                "GAZP-2023-ЭО_b0004_c0201",
+                "GAZP-2023-ЭО_b0004_c0202",
+                "GAZP-2023-ЭО_b0004_c0203"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p14:b10",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0195",
+                "GAZP-2023-ЭО_b0004_c0196",
+                "GAZP-2023-ЭО_b0004_c0197",
+                "GAZP-2023-ЭО_b0004_c0198",
+                "GAZP-2023-ЭО_b0004_c0199",
+                "GAZP-2023-ЭО_b0004_c0200",
+                "GAZP-2023-ЭО_b0004_c0201",
+                "GAZP-2023-ЭО_b0004_c0202",
+                "GAZP-2023-ЭО_b0004_c0203"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p14:b11",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p14:b11",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0204"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p14:b11",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0204"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p15:b3",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p15:b3",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0205",
+                "GAZP-2023-ЭО_b0004_c0206",
+                "GAZP-2023-ЭО_b0004_c0207",
+                "GAZP-2023-ЭО_b0004_c0208",
+                "GAZP-2023-ЭО_b0004_c0209",
+                "GAZP-2023-ЭО_b0004_c0210",
+                "GAZP-2023-ЭО_b0004_c0211",
+                "GAZP-2023-ЭО_b0004_c0212",
+                "GAZP-2023-ЭО_b0004_c0213",
+                "GAZP-2023-ЭО_b0004_c0214",
+                "GAZP-2023-ЭО_b0004_c0215"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p15:b3",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0205",
+                "GAZP-2023-ЭО_b0004_c0206",
+                "GAZP-2023-ЭО_b0004_c0207",
+                "GAZP-2023-ЭО_b0004_c0208",
+                "GAZP-2023-ЭО_b0004_c0209",
+                "GAZP-2023-ЭО_b0004_c0210",
+                "GAZP-2023-ЭО_b0004_c0211",
+                "GAZP-2023-ЭО_b0004_c0212",
+                "GAZP-2023-ЭО_b0004_c0213",
+                "GAZP-2023-ЭО_b0004_c0214",
+                "GAZP-2023-ЭО_b0004_c0215"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p15:b5",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p15:b5",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0217",
+                "GAZP-2023-ЭО_b0004_c0218",
+                "GAZP-2023-ЭО_b0004_c0219",
+                "GAZP-2023-ЭО_b0004_c0220"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p15:b5",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0217",
+                "GAZP-2023-ЭО_b0004_c0218",
+                "GAZP-2023-ЭО_b0004_c0219",
+                "GAZP-2023-ЭО_b0004_c0220"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p15:b6",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p15:b6",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0217",
+                "GAZP-2023-ЭО_b0004_c0218",
+                "GAZP-2023-ЭО_b0004_c0219",
+                "GAZP-2023-ЭО_b0004_c0220"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p15:b6",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0217",
+                "GAZP-2023-ЭО_b0004_c0218",
+                "GAZP-2023-ЭО_b0004_c0219",
+                "GAZP-2023-ЭО_b0004_c0220"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b3",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b3",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0227",
+                "GAZP-2023-ЭО_b0004_c0228",
+                "GAZP-2023-ЭО_b0004_c0229",
+                "GAZP-2023-ЭО_b0004_c0230",
+                "GAZP-2023-ЭО_b0004_c0231",
+                "GAZP-2023-ЭО_b0004_c0232",
+                "GAZP-2023-ЭО_b0004_c0233",
+                "GAZP-2023-ЭО_b0004_c0234",
+                "GAZP-2023-ЭО_b0004_c0235",
+                "GAZP-2023-ЭО_b0004_c0236",
+                "GAZP-2023-ЭО_b0004_c0237",
+                "GAZP-2023-ЭО_b0004_c0238",
+                "GAZP-2023-ЭО_b0004_c0239",
+                "GAZP-2023-ЭО_b0004_c0240",
+                "GAZP-2023-ЭО_b0004_c0241",
+                "GAZP-2023-ЭО_b0004_c0242",
+                "GAZP-2023-ЭО_b0004_c0243",
+                "GAZP-2023-ЭО_b0004_c0244",
+                "GAZP-2023-ЭО_b0004_c0245",
+                "GAZP-2023-ЭО_b0004_c0246",
+                "GAZP-2023-ЭО_b0004_c0247",
+                "GAZP-2023-ЭО_b0004_c0248",
+                "GAZP-2023-ЭО_b0004_c0249",
+                "GAZP-2023-ЭО_b0004_c0250",
+                "GAZP-2023-ЭО_b0004_c0251"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b3",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0227",
+                "GAZP-2023-ЭО_b0004_c0228",
+                "GAZP-2023-ЭО_b0004_c0229",
+                "GAZP-2023-ЭО_b0004_c0230",
+                "GAZP-2023-ЭО_b0004_c0231",
+                "GAZP-2023-ЭО_b0004_c0232",
+                "GAZP-2023-ЭО_b0004_c0233",
+                "GAZP-2023-ЭО_b0004_c0234",
+                "GAZP-2023-ЭО_b0004_c0235",
+                "GAZP-2023-ЭО_b0004_c0236",
+                "GAZP-2023-ЭО_b0004_c0237",
+                "GAZP-2023-ЭО_b0004_c0238",
+                "GAZP-2023-ЭО_b0004_c0239",
+                "GAZP-2023-ЭО_b0004_c0240",
+                "GAZP-2023-ЭО_b0004_c0241",
+                "GAZP-2023-ЭО_b0004_c0242",
+                "GAZP-2023-ЭО_b0004_c0243",
+                "GAZP-2023-ЭО_b0004_c0244",
+                "GAZP-2023-ЭО_b0004_c0245",
+                "GAZP-2023-ЭО_b0004_c0246",
+                "GAZP-2023-ЭО_b0004_c0247",
+                "GAZP-2023-ЭО_b0004_c0248",
+                "GAZP-2023-ЭО_b0004_c0249",
+                "GAZP-2023-ЭО_b0004_c0250",
+                "GAZP-2023-ЭО_b0004_c0251"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b5",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b5",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0227",
+                "GAZP-2023-ЭО_b0004_c0228",
+                "GAZP-2023-ЭО_b0004_c0229",
+                "GAZP-2023-ЭО_b0004_c0230",
+                "GAZP-2023-ЭО_b0004_c0231",
+                "GAZP-2023-ЭО_b0004_c0232",
+                "GAZP-2023-ЭО_b0004_c0233",
+                "GAZP-2023-ЭО_b0004_c0234",
+                "GAZP-2023-ЭО_b0004_c0235",
+                "GAZP-2023-ЭО_b0004_c0236"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b5",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0227",
+                "GAZP-2023-ЭО_b0004_c0228",
+                "GAZP-2023-ЭО_b0004_c0229",
+                "GAZP-2023-ЭО_b0004_c0230",
+                "GAZP-2023-ЭО_b0004_c0231",
+                "GAZP-2023-ЭО_b0004_c0232",
+                "GAZP-2023-ЭО_b0004_c0233",
+                "GAZP-2023-ЭО_b0004_c0234",
+                "GAZP-2023-ЭО_b0004_c0235",
+                "GAZP-2023-ЭО_b0004_c0236"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b7",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b7",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0237",
+                "GAZP-2023-ЭО_b0004_c0238",
+                "GAZP-2023-ЭО_b0004_c0239",
+                "GAZP-2023-ЭО_b0004_c0240",
+                "GAZP-2023-ЭО_b0004_c0241"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b7",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0237",
+                "GAZP-2023-ЭО_b0004_c0238",
+                "GAZP-2023-ЭО_b0004_c0239",
+                "GAZP-2023-ЭО_b0004_c0240",
+                "GAZP-2023-ЭО_b0004_c0241"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b8",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b8",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0237",
+                "GAZP-2023-ЭО_b0004_c0238",
+                "GAZP-2023-ЭО_b0004_c0239",
+                "GAZP-2023-ЭО_b0004_c0240",
+                "GAZP-2023-ЭО_b0004_c0241"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b8",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0237",
+                "GAZP-2023-ЭО_b0004_c0238",
+                "GAZP-2023-ЭО_b0004_c0239",
+                "GAZP-2023-ЭО_b0004_c0240",
+                "GAZP-2023-ЭО_b0004_c0241"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b9",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b9",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0242",
+                "GAZP-2023-ЭО_b0004_c0243",
+                "GAZP-2023-ЭО_b0004_c0244",
+                "GAZP-2023-ЭО_b0004_c0245",
+                "GAZP-2023-ЭО_b0004_c0246"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b9",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0242",
+                "GAZP-2023-ЭО_b0004_c0243",
+                "GAZP-2023-ЭО_b0004_c0244",
+                "GAZP-2023-ЭО_b0004_c0245",
+                "GAZP-2023-ЭО_b0004_c0246"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b10",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b10",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0242",
+                "GAZP-2023-ЭО_b0004_c0243",
+                "GAZP-2023-ЭО_b0004_c0244",
+                "GAZP-2023-ЭО_b0004_c0245",
+                "GAZP-2023-ЭО_b0004_c0246"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b10",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0242",
+                "GAZP-2023-ЭО_b0004_c0243",
+                "GAZP-2023-ЭО_b0004_c0244",
+                "GAZP-2023-ЭО_b0004_c0245",
+                "GAZP-2023-ЭО_b0004_c0246"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b11",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b11",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0247",
+                "GAZP-2023-ЭО_b0004_c0248",
+                "GAZP-2023-ЭО_b0004_c0249",
+                "GAZP-2023-ЭО_b0004_c0250",
+                "GAZP-2023-ЭО_b0004_c0251"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b11",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0247",
+                "GAZP-2023-ЭО_b0004_c0248",
+                "GAZP-2023-ЭО_b0004_c0249",
+                "GAZP-2023-ЭО_b0004_c0250",
+                "GAZP-2023-ЭО_b0004_c0251"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b12",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b12",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0247",
+                "GAZP-2023-ЭО_b0004_c0248",
+                "GAZP-2023-ЭО_b0004_c0249",
+                "GAZP-2023-ЭО_b0004_c0250",
+                "GAZP-2023-ЭО_b0004_c0251"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b12",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0247",
+                "GAZP-2023-ЭО_b0004_c0248",
+                "GAZP-2023-ЭО_b0004_c0249",
+                "GAZP-2023-ЭО_b0004_c0250",
+                "GAZP-2023-ЭО_b0004_c0251"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b13",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b13",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0252",
+                "GAZP-2023-ЭО_b0004_c0253",
+                "GAZP-2023-ЭО_b0004_c0254",
+                "GAZP-2023-ЭО_b0004_c0255",
+                "GAZP-2023-ЭО_b0004_c0256",
+                "GAZP-2023-ЭО_b0004_c0257",
+                "GAZP-2023-ЭО_b0004_c0258"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b13",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0252",
+                "GAZP-2023-ЭО_b0004_c0253",
+                "GAZP-2023-ЭО_b0004_c0254",
+                "GAZP-2023-ЭО_b0004_c0255",
+                "GAZP-2023-ЭО_b0004_c0256",
+                "GAZP-2023-ЭО_b0004_c0257",
+                "GAZP-2023-ЭО_b0004_c0258"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b14",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b14",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0221",
+                "GAZP-2023-ЭО_b0004_c0222",
+                "GAZP-2023-ЭО_b0004_c0223",
+                "GAZP-2023-ЭО_b0004_c0224",
+                "GAZP-2023-ЭО_b0004_c0225",
+                "GAZP-2023-ЭО_b0004_c0226"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b14",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0221",
+                "GAZP-2023-ЭО_b0004_c0222",
+                "GAZP-2023-ЭО_b0004_c0223",
+                "GAZP-2023-ЭО_b0004_c0224",
+                "GAZP-2023-ЭО_b0004_c0225",
+                "GAZP-2023-ЭО_b0004_c0226"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b15",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b15",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0221",
+                "GAZP-2023-ЭО_b0004_c0222",
+                "GAZP-2023-ЭО_b0004_c0223",
+                "GAZP-2023-ЭО_b0004_c0224",
+                "GAZP-2023-ЭО_b0004_c0225",
+                "GAZP-2023-ЭО_b0004_c0226"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b15",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0221",
+                "GAZP-2023-ЭО_b0004_c0222",
+                "GAZP-2023-ЭО_b0004_c0223",
+                "GAZP-2023-ЭО_b0004_c0224",
+                "GAZP-2023-ЭО_b0004_c0225",
+                "GAZP-2023-ЭО_b0004_c0226"
+              ]
+            }
+          },
+          {
+            "block_id": "GAZP-2023-ЭО:p16:b17",
+            "before": {
+              "block_id": "GAZP-2023-ЭО:p16:b17",
+              "status": "extracted",
+              "reason": "Извлечены самостоятельные экологические утверждения и/или использован точный контекст показателей с обратными ссылками.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0259",
+                "GAZP-2023-ЭО_b0004_c0260",
+                "GAZP-2023-ЭО_b0004_c0261"
+              ]
+            },
+            "after": {
+              "block_id": "GAZP-2023-ЭО:p16:b17",
+              "status": "pending",
+              "reason": "Не закрыт числовой контекст заявления; требуется сверка PDF.",
+              "claim_ids": [
+                "GAZP-2023-ЭО_b0004_c0259",
+                "GAZP-2023-ЭО_b0004_c0260",
+                "GAZP-2023-ЭО_b0004_c0261"
+              ]
+            }
+          }
+        ],
+        "validation": {
+          "pending_blocks": 27,
+          "pending_claims": 82,
+          "pending_classifications": 0,
+          "decision_profile_version": "3.1",
+          "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness.",
+          "cleared_unsupported_fields": {
+            "period": 2
+          },
+          "reopened_blocks": 22
+        },
+        "status": "derivative_only_not_promoted_to_accepted"
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0005",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0005.json",
+      "original_sha256": "664d40f826caaf29ab7e7036a48e03be36539f263d7533148177b2fa10b43d14",
+      "claims": 257,
+      "coverage_blocks": 75,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 11,
+        "pending_claims": 143,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0006",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0006.json",
+      "original_sha256": "f63652abdb03ef92489492b8eef0ebd680cc2034de2b2652773112717f230841",
+      "claims": 229,
+      "coverage_blocks": 78,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 16,
+        "pending_claims": 207,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0007",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0007.json",
+      "original_sha256": "d4b1083ecad5083342118d1a7e2ab0c056c74f9cd29eca5a5d78ab535bf3ad8f",
+      "claims": 167,
+      "coverage_blocks": 71,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 55,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "batch_id": "GAZP-2023-ЭО_b0008",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2023-ЭО-e19d3c1277-23de9bbe99/accepted/GAZP-2023-ЭО_b0008.json",
+      "original_sha256": "05c6f3a892d11e99e20ee1ae53a01aa2f4cb6c7ec9e551d0ad7c60880704e0bd",
+      "claims": 172,
+      "coverage_blocks": 50,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 15,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "batch_id": "GAZP-2024-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2024-ОУР-7e2563d09d-23de9bbe99/accepted/GAZP-2024-ОУР_b0002.json",
+      "original_sha256": "71fc975429164ddddd78c18c6147eb74a2e6e75bb362b96295e967f6cd7816f1",
+      "claims": 103,
+      "coverage_blocks": 223,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 28,
+        "pending_claims": 56,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "batch_id": "GAZP-2025-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/GAZP-2025-ОУР-b2c92082e7-23de9bbe99/accepted/GAZP-2025-ОУР_b0002.json",
+      "original_sha256": "59b873041da917fb206a59fb87bace19ecde1a0546cbba867ba274a313350e01",
+      "claims": 113,
+      "coverage_blocks": 260,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 10,
+        "pending_claims": 42,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "IRKN-2023-ИО",
+      "batch_id": "IRKN-2023-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/IRKN-2023-ИО-7ea9b126c7-23de9bbe99/accepted/IRKN-2023-ИО_b0001.json",
+      "original_sha256": "48a6f209812e69f4bf07d6e3c448dd74ca000e3eed930a469f8517fc6db65925",
+      "claims": 17,
+      "coverage_blocks": 50,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "LKOH-2023-ОУР",
+      "batch_id": "LKOH-2023-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2023-ОУР-78477d8d68-23de9bbe99/accepted/LKOH-2023-ОУР_b0001.json",
+      "original_sha256": "0511a90a22846e6aa3d00b98b30703f9c7b6da534d7fcfb0ed237fa43712c728",
+      "claims": 97,
+      "coverage_blocks": 227,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 79,
+        "pending_claims": 65,
+        "pending_classifications": 22,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "LKOH-2024-ОУР",
+      "batch_id": "LKOH-2024-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2024-ОУР-48397e1c59-23de9bbe99/accepted/LKOH-2024-ОУР_b0001.json",
+      "original_sha256": "bfd9c42e4446704ec39de0c7e27153653c77fac82030fd817259e9fbf413b9de",
+      "claims": 14,
+      "coverage_blocks": 93,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 14,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "LKOH-2024-ОУР",
+      "batch_id": "LKOH-2024-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2024-ОУР-48397e1c59-23de9bbe99/accepted/LKOH-2024-ОУР_b0002.json",
+      "original_sha256": "c32cbccac3438444f82cf4c9699f9a8882d25b7dd97be3a3db52f46f0d800895",
+      "claims": 65,
+      "coverage_blocks": 143,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 45,
+        "pending_claims": 13,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "LKOH-2025-ОУР",
+      "batch_id": "LKOH-2025-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2025-ОУР-4a095ca7de-23de9bbe99/accepted/LKOH-2025-ОУР_b0001.json",
+      "original_sha256": "dce2d0d77a9c2a6bb944e0c492f88c08a59cfaf5e0706015664c1b63799a6ed4",
+      "claims": 23,
+      "coverage_blocks": 155,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 28,
+        "pending_claims": 2,
+        "pending_classifications": 1,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "LKOH-2025-ОУР",
+      "batch_id": "LKOH-2025-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2025-ОУР-4a095ca7de-23de9bbe99/accepted/LKOH-2025-ОУР_b0002.json",
+      "original_sha256": "cba904ebc0f12a0cc4f93165ba6bc5102a8144eb4ae51d0bdea0a7109bcdeb78",
+      "claims": 41,
+      "coverage_blocks": 192,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 110,
+        "pending_claims": 16,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "LKOH-2025-ОУР",
+      "batch_id": "LKOH-2025-ОУР_b0003",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/LKOH-2025-ОУР-4a095ca7de-23de9bbe99/accepted/LKOH-2025-ОУР_b0003.json",
+      "original_sha256": "dcebdc03050fc794ad31d2a5e012997ceb48887e34c79dd25bbd26e475bfc05b",
+      "claims": 74,
+      "coverage_blocks": 137,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 24,
+        "pending_claims": 3,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "NVTK-2024-ОУР",
+      "batch_id": "NVTK-2024-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/NVTK-2024-ОУР-f51a645909-23de9bbe99/accepted/NVTK-2024-ОУР_b0001.json",
+      "original_sha256": "17ba48b1dc7517fe7a53ec7439b5d260ee560d148ca80257a1dd67db1529579d",
+      "claims": 59,
+      "coverage_blocks": 153,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 21,
+        "pending_claims": 1,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "NVTK-2024-ОУР",
+      "batch_id": "NVTK-2024-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/NVTK-2024-ОУР-f51a645909-23de9bbe99/accepted/NVTK-2024-ОУР_b0002.json",
+      "original_sha256": "a4d33a9aa8529d166a415c0d6d1857d95970aff4af17cc61f56d56f33dfa2b3d",
+      "claims": 70,
+      "coverage_blocks": 216,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 55,
+        "pending_claims": 30,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "NVTK-2024-ОУР",
+      "batch_id": "NVTK-2024-ОУР_b0003",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/NVTK-2024-ОУР-f51a645909-23de9bbe99/accepted/NVTK-2024-ОУР_b0003.json",
+      "original_sha256": "5f85da45ffc7990f19fd8d6c167e15cdce509fcd06b18606770381b2daa55c86",
+      "claims": 139,
+      "coverage_blocks": 374,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 263,
+        "pending_claims": 72,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "ROSN-2025-ИО",
+      "batch_id": "ROSN-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/ROSN-2025-ИО-91c7765d5c-23de9bbe99/accepted/ROSN-2025-ИО_b0001.json",
+      "original_sha256": "dc02de1fd59e05c4d7c33318af27ec58c479d3a8e1bede70ca68b8ebe65f0f2a",
+      "claims": 55,
+      "coverage_blocks": 330,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 13,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TATN-2025-ИО",
+      "batch_id": "TATN-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TATN-2025-ИО-9004d8ceec-23de9bbe99/accepted/TATN-2025-ИО_b0001.json",
+      "original_sha256": "1eff6f4b7b1d0e9aabda87146dc15d7be9970a0aeb492662c5389d92d8f838ca",
+      "claims": 0,
+      "coverage_blocks": 139,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TATN-2025-ИО",
+      "batch_id": "TATN-2025-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TATN-2025-ИО-9004d8ceec-23de9bbe99/accepted/TATN-2025-ИО_b0002.json",
+      "original_sha256": "a5b1a25bc85308dbbb2de854fb4cc4e1da7a12248986420421ef9d9666923731",
+      "claims": 41,
+      "coverage_blocks": 407,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 84,
+        "pending_claims": 16,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2023-ИО",
+      "batch_id": "TRNF-2023-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2023-ИО-6a817f7d30-23de9bbe99/accepted/TRNF-2023-ИО_b0001.json",
+      "original_sha256": "a521918b3754088b7dcb2d503ce5b24e05c2888ab9e626450de27ab3ea6b2c1a",
+      "claims": 2,
+      "coverage_blocks": 167,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2023-ИО",
+      "batch_id": "TRNF-2023-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2023-ИО-6a817f7d30-23de9bbe99/accepted/TRNF-2023-ИО_b0002.json",
+      "original_sha256": "7a12fc8f7170c5ed875bf63da31cb858e780d858081096028f1f3bb1abcfd252",
+      "claims": 18,
+      "coverage_blocks": 207,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 9,
+        "pending_claims": 2,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0001.json",
+      "original_sha256": "098be6d558570d665060f7dad0c5c4e7d4809b0587cb170f92cf80368e6695ad",
+      "claims": 2,
+      "coverage_blocks": 26,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0002.json",
+      "original_sha256": "d2db5eea3ca3cff488a1c0aead45c4be4023e376a9e5f5d1a40aec9f51a6a8f2",
+      "claims": 15,
+      "coverage_blocks": 14,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 7,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0003",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0003.json",
+      "original_sha256": "599eb7b42c7e510b2b7610a57fe4cba3d06a6570cb1cfe28aec10fe5a9385929",
+      "claims": 25,
+      "coverage_blocks": 22,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 14,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0004",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0004.json",
+      "original_sha256": "29cf4c1fa59ab3537c677948553c835e640345e4f94b9235c2850b5495c5d488",
+      "claims": 36,
+      "coverage_blocks": 12,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 6,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0005",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0005.json",
+      "original_sha256": "4a5f51c45e6015c768f240ea1635f3a4504789228ddcedfe4b251b06d21f3c7c",
+      "claims": 41,
+      "coverage_blocks": 12,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 22,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0006",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0006.json",
+      "original_sha256": "988905538d3a346d4ce7e158da31fbb3c46bb2d1c30955f01bb7c2231cd48d8f",
+      "claims": 30,
+      "coverage_blocks": 12,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 10,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0007",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0007.json",
+      "original_sha256": "85ecfe2c79a44dac1bb4857766139c77e003d298118b7f27c417201e112c76aa",
+      "claims": 56,
+      "coverage_blocks": 14,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 6,
+        "pending_claims": 10,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0008",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0008.json",
+      "original_sha256": "a4e549285d958433bd2cc1b84038e778a2e05f37b41fc8dc3412b3083b38abd6",
+      "claims": 59,
+      "coverage_blocks": 41,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 11,
+        "pending_claims": 57,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0009",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0009.json",
+      "original_sha256": "dcd1cfd47359f54dc2f7956bd0ef65a490aae78659c8f19c084e6aa0649fd142",
+      "claims": 3,
+      "coverage_blocks": 12,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 1,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0010",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0010.json",
+      "original_sha256": "eb935ac9c5083c3aedc576c652beff2758f4588095925ddadf37b124ccb273c6",
+      "claims": 12,
+      "coverage_blocks": 12,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 5,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2024-ИО",
+      "batch_id": "TRNF-2024-ИО_b0011",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2024-ИО-1aa04fcbbe-23de9bbe99/accepted/TRNF-2024-ИО_b0011.json",
+      "original_sha256": "d18259e98f87d48945e15b5b363aeef2fadbadf33f2276db9093bb678541cdb1",
+      "claims": 42,
+      "coverage_blocks": 12,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRNF-2025-ИО",
+      "batch_id": "TRNF-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRNF-2025-ИО-13683f47fe-23de9bbe99/accepted/TRNF-2025-ИО_b0001.json",
+      "original_sha256": "2d0ab1cd57301b98f96475c7ebd99858dbcffebb2f9ddd3cb78cb8ef46140d5c",
+      "claims": 2,
+      "coverage_blocks": 42,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MAGN-2023-ИО",
+      "batch_id": "MAGN-2023-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2023-ИО-b5f44cefc8-23de9bbe99/accepted/MAGN-2023-ИО_b0001.json",
+      "original_sha256": "49aaccc8b649d7e44a7f75b330255848043272301180e5bc1111e9f9c0fc3ec6",
+      "claims": 34,
+      "coverage_blocks": 437,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 30,
+        "pending_claims": 6,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MAGN-2023-ИО",
+      "batch_id": "MAGN-2023-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2023-ИО-b5f44cefc8-23de9bbe99/accepted/MAGN-2023-ИО_b0002.json",
+      "original_sha256": "333ebaca7a1f0845cf866856c93c136566047bce174161adaa1a49055291eb5f",
+      "claims": 7,
+      "coverage_blocks": 246,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 15,
+        "pending_claims": 3,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MAGN-2023-ИО",
+      "batch_id": "MAGN-2023-ИО_b0003",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2023-ИО-b5f44cefc8-23de9bbe99/accepted/MAGN-2023-ИО_b0003.json",
+      "original_sha256": "734a1586a7563744f977ef3708ffde6de149c41795648e294a58a94a781c0625",
+      "claims": 40,
+      "coverage_blocks": 489,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 115,
+        "pending_claims": 30,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MAGN-2024-ИО",
+      "batch_id": "MAGN-2024-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2024-ИО-2ee42d45f7-23de9bbe99/accepted/MAGN-2024-ИО_b0001.json",
+      "original_sha256": "7e54443522a9285bfb960df453cb19425ff4c02eb5c697a297c062cb225216c1",
+      "claims": 55,
+      "coverage_blocks": 486,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 20,
+        "pending_claims": 16,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MAGN-2024-ИО",
+      "batch_id": "MAGN-2024-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MAGN-2024-ИО-2ee42d45f7-23de9bbe99/accepted/MAGN-2024-ИО_b0002.json",
+      "original_sha256": "41ba4b4050d1ef6d12251d56473fcbafe6cf2837ae4140086ff4d72231928c29",
+      "claims": 6,
+      "coverage_blocks": 200,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 13,
+        "pending_claims": 3,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MINV-2025-ОУР",
+      "batch_id": "MINV-2025-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MINV-2025-ОУР-b6afdf15e5-23de9bbe99/accepted/MINV-2025-ОУР_b0001.json",
+      "original_sha256": "4b849483e3b836cfc1c04dc9f5264e12fb26eff2eed5c64cc569eb8471c9eb59",
+      "claims": 80,
+      "coverage_blocks": 566,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 29,
+        "pending_claims": 38,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MTLR-2023-ОУР",
+      "batch_id": "MTLR-2023-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2023-ОУР-43f2dbb643-23de9bbe99/accepted/MTLR-2023-ОУР_b0001.json",
+      "original_sha256": "d84c6b929277f10b88002a39fc1997606f57ba972a19390f482cc9476f62d499",
+      "claims": 54,
+      "coverage_blocks": 31,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 6,
+        "pending_claims": 4,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MTLR-2023-ОУР",
+      "batch_id": "MTLR-2023-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2023-ОУР-43f2dbb643-23de9bbe99/accepted/MTLR-2023-ОУР_b0002.json",
+      "original_sha256": "e56fe8c129fe74967aff9cb9db25efbbf120550657562d9a21bcccac63d112c9",
+      "claims": 61,
+      "coverage_blocks": 32,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 8,
+        "pending_claims": 50,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MTLR-2024-ОУР",
+      "batch_id": "MTLR-2024-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2024-ОУР-b90eebaf23-23de9bbe99/accepted/MTLR-2024-ОУР_b0001.json",
+      "original_sha256": "cb0ccd9b859bcfd3526b63be93021a0022f85e1e2bfabc02fcca2c9d52db99b9",
+      "claims": 50,
+      "coverage_blocks": 270,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 29,
+        "pending_claims": 12,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MTLR-2024-ОУР",
+      "batch_id": "MTLR-2024-ОУР_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MTLR-2024-ОУР-b90eebaf23-23de9bbe99/accepted/MTLR-2024-ОУР_b0002.json",
+      "original_sha256": "7d5806504e4fd4d148eadc2e806447bc24c2990aedbcd88d5f72362035b8bfae",
+      "claims": 105,
+      "coverage_blocks": 515,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 205,
+        "pending_claims": 103,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "NLMK-2025-ИО",
+      "batch_id": "NLMK-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/NLMK-2025-ИО-58a2592b5d-23de9bbe99/accepted/NLMK-2025-ИО_b0001.json",
+      "original_sha256": "3f68acdbf9e8d752ee9f3b5fe052bbb4d9e80681673f2e528ee75309a144ed33",
+      "claims": 21,
+      "coverage_blocks": 200,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 10,
+        "pending_claims": 2,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "PLZL-2023-ОУР",
+      "batch_id": "PLZL-2023-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/PLZL-2023-ОУР-2368c71fb5-23de9bbe99/accepted/PLZL-2023-ОУР_b0001.json",
+      "original_sha256": "eda9ea8e7b1e7dba57bdcede09bc6f34d60aca0599c3eafe9de52234b53c417c",
+      "claims": 69,
+      "coverage_blocks": 323,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 47,
+        "pending_claims": 9,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "PLZL-2025-ОУР",
+      "batch_id": "PLZL-2025-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/PLZL-2025-ОУР-923535c792-23de9bbe99/accepted/PLZL-2025-ОУР_b0001.json",
+      "original_sha256": "408c110f4178c5e1d846777af770a8c9d62b83437877755e62bfffb0a51ac814",
+      "claims": 53,
+      "coverage_blocks": 399,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 12,
+        "pending_claims": 5,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "RASP-2023-ОУР",
+      "batch_id": "RASP-2023-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/RASP-2023-ОУР-0281377f10-23de9bbe99/accepted/RASP-2023-ОУР_b0001.json",
+      "original_sha256": "624ef7099c07837e79cba28b68c5c9d4f60bf3e838f453feecb755d13014cc0c",
+      "claims": 13,
+      "coverage_blocks": 206,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "CHMF-2024-ИО",
+      "batch_id": "CHMF-2024-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2024-ИО-74cfbca7fb-23de9bbe99/accepted/CHMF-2024-ИО_b0001.json",
+      "original_sha256": "20d2d4f57fa8eb3561636ffdcd8c412b099b1ab8ea754847e3ed719876d94c41",
+      "claims": 54,
+      "coverage_blocks": 210,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 7,
+        "pending_claims": 7,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "CHMF-2024-ИО",
+      "batch_id": "CHMF-2024-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2024-ИО-74cfbca7fb-23de9bbe99/accepted/CHMF-2024-ИО_b0002.json",
+      "original_sha256": "3a19dcd3dc716aa0f65368931ac09e4a48f9a27a54f4e276fd76a6afd1c05ba2",
+      "claims": 71,
+      "coverage_blocks": 423,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 52,
+        "pending_claims": 10,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "CHMF-2025-ИО",
+      "batch_id": "CHMF-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2025-ИО-70f2da8eb9-23de9bbe99/accepted/CHMF-2025-ИО_b0001.json",
+      "original_sha256": "2ef5e2297bb127c626ff144d508b4e0ebc85bdfc3e0fb061d3519d5dafe67850",
+      "claims": 41,
+      "coverage_blocks": 213,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 5,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "CHMF-2025-ИО",
+      "batch_id": "CHMF-2025-ИО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/CHMF-2025-ИО-70f2da8eb9-23de9bbe99/accepted/CHMF-2025-ИО_b0002.json",
+      "original_sha256": "ed51c0b0bbdb69187417ec7c95658f2f6e0abac839dc50c20a4d4136fe0cb51c",
+      "claims": 57,
+      "coverage_blocks": 368,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 96,
+        "pending_claims": 5,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "TRMK-2024-ОУР",
+      "batch_id": "TRMK-2024-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/TRMK-2024-ОУР-6496315571-23de9bbe99/accepted/TRMK-2024-ОУР_b0001.json",
+      "original_sha256": "8dbe5af3250222338e3d8502ea1fbb2a00a2748907396c34fa03b3e855830725",
+      "claims": 1,
+      "coverage_blocks": 65,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "AKRN-2024-ОУР",
+      "batch_id": "AKRN-2024-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/AKRN-2024-ОУР-5b713d4f4e-23de9bbe99/accepted/AKRN-2024-ОУР_b0001.json",
+      "original_sha256": "55a51453e1a4345cee108ace8da3602ea519fb43e1089b258bf4a794e43b619f",
+      "claims": 30,
+      "coverage_blocks": 207,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 8,
+        "pending_claims": 1,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "AKRN-2025-ИО",
+      "batch_id": "AKRN-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/AKRN-2025-ИО-8fff881498-23de9bbe99/accepted/AKRN-2025-ИО_b0001.json",
+      "original_sha256": "07b9ad705f50889dc85e661f8ec34a083e24a6eb298314623309d7fd8e5996b3",
+      "claims": 24,
+      "coverage_blocks": 268,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 19,
+        "pending_claims": 8,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "SIBR-2024-ИО",
+      "batch_id": "SIBR-2024-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/SIBR-2024-ИО-d95ff92c93-23de9bbe99/accepted/SIBR-2024-ИО_b0001.json",
+      "original_sha256": "9198f5153b63abc0a1a51cdd892609829a33356b372bd9b1ec5f5e0ae2c8435e",
+      "claims": 54,
+      "coverage_blocks": 354,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 13,
+        "pending_claims": 8,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "SIBR-2025-ИО",
+      "batch_id": "SIBR-2025-ИО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/SIBR-2025-ИО-3c90d6d427-23de9bbe99/accepted/SIBR-2025-ИО_b0001.json",
+      "original_sha256": "0ac9dff0fa0a804dff5b86d49ef963019a8beb09ae0701c5760938b140c2e865",
+      "claims": 57,
+      "coverage_blocks": 367,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 11,
+        "pending_claims": 4,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "URKA-2023-ОУР",
+      "batch_id": "URKA-2023-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/URKA-2023-ОУР-c3613b9cee-23de9bbe99/accepted/URKA-2023-ОУР_b0001.json",
+      "original_sha256": "0bd16cd2a2274aebc971e142561986854105dea4504bd6026f07c070a4b77089",
+      "claims": 57,
+      "coverage_blocks": 261,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 6,
+        "pending_claims": 15,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "URKA-2025-ОУР",
+      "batch_id": "URKA-2025-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/URKA-2025-ОУР-5db809ad6a-23de9bbe99/accepted/URKA-2025-ОУР_b0001.json",
+      "original_sha256": "d8c5464fd574f235a5e983891c5353c49e63d0631b9a49e33a547ddf7c739092",
+      "claims": 51,
+      "coverage_blocks": 307,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 12,
+        "pending_claims": 10,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "KMAZ-2025-ГО",
+      "batch_id": "KMAZ-2025-ГО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/KMAZ-2025-ГО-0f4fe82185-23de9bbe99/accepted/KMAZ-2025-ГО_b0001.json",
+      "original_sha256": "8aba940bea5252f946384999f3bfdd4e2904483aa5b59534284a9ca22d4bd418",
+      "claims": 17,
+      "coverage_blocks": 163,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 4,
+        "pending_claims": 5,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "KMAZ-2025-ГО",
+      "batch_id": "KMAZ-2025-ГО_b0002",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/KMAZ-2025-ГО-0f4fe82185-23de9bbe99/accepted/KMAZ-2025-ГО_b0002.json",
+      "original_sha256": "699d3f5f344a143739fa6b2aeab1fcb52e14238852d4a1f15b02269b7c8bf4c0",
+      "claims": 31,
+      "coverage_blocks": 264,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 6,
+        "pending_claims": 8,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "SVEZ-2023-ОУР",
+      "batch_id": "SVEZ-2023-ОУР_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/SVEZ-2023-ОУР-55242773ea-23de9bbe99/accepted/SVEZ-2023-ОУР_b0001.json",
+      "original_sha256": "bb0a555d07812c784c9b50c33e79c5e79e4b76887f81a81697b48fc99673b264",
+      "claims": 46,
+      "coverage_blocks": 272,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 16,
+        "pending_claims": 3,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    },
+    {
+      "report_id": "MVDK-2025-ГО",
+      "batch_id": "MVDK-2025-ГО_b0001",
+      "path": "/Users/nikitachukreev/.local/state/sber-esg-worker/MVDK-2025-ГО-de1b3c92dd-23de9bbe99/accepted/MVDK-2025-ГО_b0001.json",
+      "original_sha256": "d2ffeb248cafdac14f7d8a955ff100c7287bcd5f5e23cf49e8f4b7ec26d66db9",
+      "claims": 2,
+      "coverage_blocks": 75,
+      "status": "validated",
+      "validation": {
+        "pending_blocks": 5,
+        "pending_claims": 0,
+        "pending_classifications": 0,
+        "decision_profile_version": "3.1",
+        "decision_trace": "Declared model reasoning and rule references; not independently verified semantic correctness."
+      }
+    }
+  ],
+  "source_and_cache_readback": {
+    "files_tracked": 1813,
+    "changed_files": [],
+    "all_originals_unchanged": true
+  },
+  "invalid_reason_counts": {
+    "period не подтверждено дословным фрагментом соответствующей роли": 1
+  }
+}

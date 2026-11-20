@@ -1,0 +1,12 @@
+{
+  "command": "python3 -m unittest discover -s '11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/01_Перевод_PDF_в_Markdown/Агент' -p test_review_gate.py -v",
+  "tests": 38,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "duration_seconds": 1.081,
+  "suite_scope": "Existing synthetic gate fixtures, not validation of corpus content",
+  "gate_partial_exit_code": 0,
+  "gate_require_checked_exit_code": 2,
+  "cwd": "/Users/nikitachukreev/Documents/Система"
+}

@@ -1,0 +1,10 @@
+test_fully_covered_md_does_not_claim_external_verification (__main__.IntegrityTests.test_fully_covered_md_does_not_claim_external_verification) ... ok
+test_invalid_response_blocks_ready_status (__main__.IntegrityTests.test_invalid_response_blocks_ready_status) ... ok
+test_pending_pdf_is_visible_after_all_batches (__main__.IntegrityTests.test_pending_pdf_is_visible_after_all_batches) ... ok
+test_same_local_ids_in_different_batches_preserve_both_claims (__main__.IntegrityTests.test_same_local_ids_in_different_batches_preserve_both_claims) ... ok
+test_unfinished_batches_cannot_be_complete (__main__.IntegrityTests.test_unfinished_batches_cannot_be_complete) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

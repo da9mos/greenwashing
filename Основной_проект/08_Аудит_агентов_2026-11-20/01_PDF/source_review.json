@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex independent source review, project PDF_TO_MD_AGENT, 2026-11-20",
+  "reviewed_at": "2026-11-20T17:09:29.532714+00:00",
+  "mode": "review_existing_translation_no_DeepSeek_run",
+  "source": {
+    "path": "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2023-ЭО.pdf",
+    "sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+    "pages": 84
+  },
+  "output": {
+    "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+    "sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+    "reviewed_snapshot_path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/original_report.snapshot.md"
+  },
+  "status": "partial",
+  "scope": {
+    "physical_pages_visually_inspected": [
+      7,
+      14,
+      37,
+      38
+    ],
+    "verified_claims": 4,
+    "full_document_checked": false,
+    "page_component_checked": false,
+    "not_reviewed": "80 other physical pages and full component/display acceptance of all 84 pages"
+  },
+  "claims": [
+    {
+      "claim_id": "GAZP-2023-EO-DEMO-001",
+      "quote": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+      "claim_type": "обязательство",
+      "pdf_page": 37,
+      "entity_scope": "ООО «Газпром нефтехим Салават»",
+      "period": "до 2025",
+      "boundary": "объекты I категории",
+      "source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf#page=37",
+      "status": "verified",
+      "verification_scope": "faithfulness_to_local_pdf_and_saved_md_only",
+      "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search",
+      "source_locator": {
+        "pdf_page": 37,
+        "printed_page": "35",
+        "bbox": [
+          67,
+          541,
+          312,
+          791
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-37.png",
+        "crop": "pdf-page-37-claim-crop.png"
+      },
+      "output_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-37",
+        "excerpt": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+        "excerpt_present_exactly": true
+      },
+      "finding": "Нижний серый блок слева: в апреле 2023 ООО «Газпром нефтехим Салават» подписало четырехстороннее соглашение; стороны договорились взаимодействовать в том числе при установке САКВ до 2025 года. Непосредственно цитата обязывает предприятие разработать план САКВ на эксплуатируемых объектах I категории и представить сведения о количестве источников, планируемых к оснащению до 2025 года. Это договорное обязательство/план, не подтверждение исполнения и не безусловное утверждение об оснащении каждого источника. Продолжение вверху правой колонки: все мероприятия за собственные средства. Юридический оригинал соглашения данным аудитом не проверялся.",
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "output_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+      "external_fact_verdict": "not_assessed",
+      "remaining_questions": [],
+      "additional_context_locators": [
+        {
+          "pdf_page": 37,
+          "bbox": [
+            319,
+            169,
+            561,
+            204
+          ],
+          "finding": "Продолжение про собственные средства в правой колонке"
+        }
+      ]
+    },
+    {
+      "claim_id": "GAZP-2023-EO-DEMO-002",
+      "quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+      "claim_type": "результат",
+      "pdf_page": 14,
+      "entity_scope": "Группа Газпром",
+      "period": "2023 относительно 2022",
+      "boundary": "Российская Федерация",
+      "source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf#page=14",
+      "status": "verified",
+      "verification_scope": "faithfulness_to_local_pdf_and_saved_md_only",
+      "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search",
+      "source_locator": {
+        "pdf_page": 14,
+        "printed_page": "12",
+        "bbox": [
+          33,
+          169,
+          277,
+          213
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-14.png",
+        "crop": "pdf-page-14-claim-crop.png"
+      },
+      "output_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-14",
+        "excerpt": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+        "excerpt_present_exactly": true
+      },
+      "finding": "Левая колонка, первый абзац раздела «Финансирование охраны окружающей среды»: общие расходы Группы Газпром на ООС именно в Российской Федерации, отчетный 2023 год к 2022 году; 96,23 млрд руб. и рост 8,0 %. График рядом: 2023=96,23; 2022=89,14 млрд руб. Это общие расходы, не только капитальные инвестиции. Сумма 52,07 млрд руб. в правой колонке относится к отдельному инвестиционному показателю.",
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "output_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+      "external_fact_verdict": "not_assessed",
+      "remaining_questions": []
+    },
+    {
+      "claim_id": "GAZP-2023-EO-DEMO-003",
+      "quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+      "claim_type": "декларация",
+      "pdf_page": 7,
+      "entity_scope": "Газпром",
+      "period": "не указан",
+      "boundary": "не конкретизированы",
+      "source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf#page=7",
+      "status": "verified",
+      "verification_scope": "faithfulness_to_local_pdf_and_saved_md_only",
+      "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search",
+      "source_locator": {
+        "pdf_page": 7,
+        "printed_page": "5",
+        "bbox": [
+          319,
+          304,
+          562,
+          367
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-07.png",
+        "crop": "pdf-page-07-claim-crop.png"
+      },
+      "output_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-7",
+        "excerpt": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+        "excerpt_present_exactly": true
+      },
+      "finding": "Цитата в правой колонке обращения О.Е. Аксютина к читателям. Общий принцип работы Газпрома, без измеримого целевого результата, дедлайна или конкретизированной операционной границы. Дата 2023 относится к отчету, не превращает принцип в результат за 2023 год. Соседний текст связывает его с широкомасштабным применением природного газа и целями устойчивого развития.",
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "output_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+      "external_fact_verdict": "not_assessed",
+      "remaining_questions": []
+    },
+    {
+      "claim_id": "GAZP-2023-EO-EXTERNAL-004",
+      "quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "claim_type": "результат",
+      "pdf_page": 38,
+      "entity_scope": "Группа Газпром",
+      "period": "2023",
+      "boundary": "объекты Группы",
+      "source_url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf#page=38",
+      "status": "verified",
+      "verification_scope": "faithfulness_to_local_pdf_and_saved_md_only",
+      "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search",
+      "source_locator": {
+        "pdf_page": 38,
+        "printed_page": "36",
+        "bbox": [
+          33,
+          169,
+          278,
+          224
+        ],
+        "coordinate_system": "PDF points, top-left origin",
+        "full_raster": "pdf-page-38.png",
+        "crop": "pdf-page-38-claim-crop.png"
+      },
+      "output_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-38",
+        "excerpt": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+        "excerpt_present_exactly": true
+      },
+      "finding": "Верх левой колонки: 761 — число проверок объектов Группы Газпром в 2023 г.; 517 — число выявленных нарушений, 563 — число проверок без нарушений. Разные единицы учета: 517 нельзя вычитать как число проверок или складывать с 563 для проверки суммы 761. В правой колонке поясняется дальнейший статус 517 нарушений. Внешнюю истинность статистики аудит PDF не устанавливает.",
+      "source_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+      "output_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+      "external_fact_verdict": "not_assessed",
+      "remaining_questions": []
+    }
+  ],
+  "open_document_defects": [
+    {
+      "id": "PDF-MD-001",
+      "pdf_page": 7,
+      "severity": "material",
+      "source_bbox": [
+        67,
+        406,
+        312,
+        459
+      ],
+      "source": "Они обеспечат ... позволят организовать",
+      "saved_md": "Они обеспечивают ... позволяют организовать",
+      "finding": "Будущее действие ошибочно преобразовано в настоящее; может менять тип ESG-заявления. Четыре проверенные цитаты не затронуты.",
+      "action": "Адресно восстановить обеспечат / позволят после разрешенной правки текущего MD и обновить SHA; исходник этим аудитом не менялся."
+    },
+    {
+      "id": "PDF-MD-002",
+      "pdf_page": 14,
+      "severity": "minor",
+      "source": "вложения инвестиционных средств",
+      "saved_md": "вложение инвестиционных средств",
+      "finding": "Изменено число существительного в нижней правой колонке.",
+      "action": "Восстановить «вложения» в согласованной версии MD.",
+      "source_bbox": [
+        285,
+        615,
+        531,
+        649
+      ]
+    },
+    {
+      "id": "PDF-MD-003",
+      "pdf_pages": [
+        7,
+        14,
+        37,
+        38
+      ],
+      "severity": "fidelity",
+      "finding": "Печатные номера 5/12/35/36 не перенесены в авторский текст MD; на 14/37 также отсутствует боковой колонтитул. Source image в текущей MD отсутствует и заменен внешней ссылкой, что честно подписано. Самостоятельный полный перенос графики/портрета этим комплектом не подтвержден."
+    }
+  ],
+  "limitations": [
+    "Подтверждено содержание локального PDF, а не фактическая истинность утверждений или исполнение соглашения.",
+    "Новый DeepSeek API-прогон не выполнялся; происхождение исходного MD как DeepSeek не переаттестовывалось.",
+    "Статус всего документа и каждой полной страницы не повышен до checked."
+  ],
+  "patched_result_review": "patch_review.json"
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "files": {
+    "input.json": "5bd16e205d1ae5e5e9e5d7cc36ae1f090638982bdd8d965a221aa57cd4c345eb",
+    "plan.json": "d1f8e1fa69991a4e32a6fefe9a9865e9172943292f9bb418bb6ea9c992652406",
+    "prompt.md": "1cf0ec06990b6fdbbe5a67f1b543bd6638a680b9d060dcb40253f224b44c49b7"
+  },
+  "claims_count": 8
+}

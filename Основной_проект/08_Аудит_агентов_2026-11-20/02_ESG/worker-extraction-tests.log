@@ -1,0 +1,8 @@
+test_exhausted_shared_budget_does_not_start_second_model (__main__.ExtractionRetryTests.test_exhausted_shared_budget_does_not_start_second_model) ... ok
+test_invalid_then_valid_preserves_first_and_accepts_second (__main__.ExtractionRetryTests.test_invalid_then_valid_preserves_first_and_accepts_second) ... ok
+test_twice_invalid_rejects_and_preserves_both (__main__.ExtractionRetryTests.test_twice_invalid_rejects_and_preserves_both) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.059s
+
+OK

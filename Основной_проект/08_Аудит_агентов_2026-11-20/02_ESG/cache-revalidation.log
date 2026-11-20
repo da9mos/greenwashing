@@ -1,0 +1,24 @@
+{
+  "totals": {
+    "reports_in_registry": 92,
+    "accepted_files_found": 67,
+    "claims_in_accepted_files": 3717,
+    "validated_batches": 66,
+    "validated_claims": 3455,
+    "validated_pending_blocks": 1740,
+    "validated_pending_claims": 1315,
+    "validated_pending_classifications": 23,
+    "invalid_batches": 1,
+    "claims_in_invalid_batches": 262,
+    "derivative_candidates": 1,
+    "claims_in_derivative_candidates": 262
+  },
+  "readback": {
+    "files_tracked": 1813,
+    "changed_files": [],
+    "all_originals_unchanged": true
+  },
+  "invalid_reason_counts": {
+    "period не подтверждено дословным фрагментом соответствующей роли": 1
+  }
+}

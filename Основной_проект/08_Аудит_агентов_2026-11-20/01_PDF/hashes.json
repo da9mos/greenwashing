@@ -1,0 +1,11 @@
+{
+  "hashes": {
+    "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2023-ЭО.pdf": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+    "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+    "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/01_Перевод_PDF_в_Markdown/Агент/PDF_TO_MD_AGENT.md": "4892ff10b319d7a59fb09ab24bbf343d0fa6b2ddba68498334104dadd745c6a0",
+    "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/01_Перевод_PDF_в_Markdown/Агент/Справка/ERROR_RULES.md": "0d1b201d5de2ee7eae7db38bc94aa0c5aea19953175abaa0ddc6be4230aa6eda",
+    "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/01_Перевод_PDF_в_Markdown/Агент/review_gate.py": "07e35a88bca13b3bceb2a6159873be58860f229bd2bd6d4a934d53cfb3412d61"
+  },
+  "pdf_pages": 84,
+  "locality": "stat: st_blocks>0, SF_DATALESS unset before content reads"
+}

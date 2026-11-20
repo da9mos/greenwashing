@@ -1,0 +1,7 @@
+{
+  "02_Аналитика_заявлений/Агент/scripts/esg_agent_v3.py": "5a45ffa2ba273f2b14fd63fe926c79733b902c7c0844e993380737562c3a50f6",
+  "02_Аналитика_заявлений/Агент/scripts/review_response.py": "d5a6fe0c8358803cdb9e344b0bf7bf8acca1cf18b10fc077aa6c7c0c1698d15b",
+  "02_Аналитика_заявлений/Агент/tests/test_numeric_evidence.py": "1265f83712738c2ad31db5a96f35a72bfecd86c57035fa4160d18b2260b77e14",
+  "06_Прогон_корпуса/run_corpus.py": "1f2add77cd3e8499c12e749c55a2d269571193ef7e52e188c4f77956d9e045ca",
+  "06_Прогон_корпуса/test_run_corpus.py": "a75fbb5438deade0cc7612ebce7594fd1dd3cbdbda75e49e9a6cf1389ab27ebe"
+}

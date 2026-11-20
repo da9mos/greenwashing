@@ -1,0 +1,220 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "5bd16e205d1ae5e5e9e5d7cc36ae1f090638982bdd8d965a221aa57cd4c345eb",
+  "claim_id": "C000001",
+  "quote": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории",
+  "reviewer": "Codex, GPT-6 family; project FACT_CHECK_AGENT.md; exact model snapshot unavailable; derivative atomic assessment from existing accepted research",
+  "checked_at": "2026-11-20T22:36:06.576110+05:00",
+  "revision": 1,
+  "research_status": "complete",
+  "verdict": "insufficient_evidence",
+  "reason": "Исследуется принятие обязанности подготовить план, не установка САКВ. Прочитаны сведения о соглашении и официальный комментарий, но юридический оригинал с обязанностью, объектами I категории и приложениями не прочитан. Подходящего независимого подтверждения или опровержения этого точного обязательства недостаточно.",
+  "target": {
+    "proposition": "ООО «Газпром нефтехим Салават» приняло обязательство разработать план создания САКВ на эксплуатируемых объектах I категории.",
+    "entity": "ООО «Газпром нефтехим Салават»",
+    "period": "апрель 2023 — принятие обязательства; срок разработки плана в цитате не установлен",
+    "boundary": "Эксплуатируемые объекты НВОС I категории ООО «Газпром нефтехим Салават»",
+    "assessment_object": "promise_made"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдены корпоративный отчет и контекст соглашения; исторические leads открыты отдельно. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.]"
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найден надзорный контекст; связанная закупка2025 прочитана, сопоставимого опровержения обещания не найдено. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.]"
+    },
+    {
+      "id": "Q3",
+      "direction": "support",
+      "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+      "tool": "web.run",
+      "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+      "searched_at": "2026-11-20T22:09:23+05:00",
+      "status": "completed",
+      "source_ids": [
+        "SAL"
+      ],
+      "outcome_note": "Найдено и прочитано официальное муниципальное сообщение. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.]"
+    },
+    {
+      "id": "Q4",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+      "tool": "web.run",
+      "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+      "searched_at": "2026-11-20T22:10:36+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Дополнительный запрос о нарушениях точного соглашения не дал прочитанного сопоставимого опровержения обязательств. Не интерпретируется как их подтверждение. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.]"
+    },
+    {
+      "id": "Q5",
+      "direction": "support",
+      "query": "https://www.kommersant.ru/doc/5927481",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+      "searched_at": "2026-11-20T22:08:45+05:00",
+      "status": "completed",
+      "source_ids": [
+        "KOM"
+      ],
+      "outcome_note": "Проверен исторический lead: реальное открытие и чтение статьи. Не утверждается, что URL был заново найден поисковой выдачей. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.]"
+    },
+    {
+      "id": "Q6",
+      "direction": "contradiction",
+      "query": "https://zakupki.kontur.ru/GP521689",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+      "searched_at": "2026-11-20T22:08:45+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Проверен исторический lead закупки; не дает сопоставимого опровержения обещания. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.]"
+    }
+  ],
+  "sources": [
+    {
+      "id": "KOM",
+      "url": "https://www.kommersant.ru/doc/5927481",
+      "publisher": "Коммерсантъ Уфа",
+      "origin_group": "Пресс-служба правительства Башкирии",
+      "origin_basis": "Статья прямо ссылается на пресс-службу правительства, а не собственную проверку текста соглашения; отдельного независимого измерения нет.",
+      "publication_date": "2023-04-12",
+      "publication_date_note": null,
+      "event_period": "2023-04-12",
+      "locator": "Строки 104 и 106",
+      "content": "В рамках соглашений запланированы мероприятия по снижению выбросов загрязняющих веществ, установка систем автоматического контроля до 2025 года и развитие системы мониторинга качества воздуха.",
+      "content_sha256": "92070f69419950d9502526f4e35a947b8cd1f425bb3eb6adedf6eef1ed0133a0",
+      "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+      "retrieved_at": "2026-11-20T22:08:45+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "SAL",
+      "url": "https://www.salavatsovet.ru/2023/04/12/salavat-i-sterlitamak-vklyuchili-v-proekt-chistyj-vozdux/",
+      "publisher": "Совет ГО г. Салават",
+      "origin_group": "Администрация ГО Салават / проектный офис Чистый воздух",
+      "origin_basis": "Официальная муниципальная публикация воспроизводит объяснение руководителя проектного офиса; источник внизу страницы — Администрация ГО. Не юридический оригинал соглашения.",
+      "publication_date": "2023-04-12",
+      "publication_date_note": null,
+      "event_period": "2023-04-11/2023-04-12",
+      "locator": "Строки 75–76",
+      "content": "Следующая задача – оснащение труб системами автоматического контроля выбросов.",
+      "content_sha256": "eec659388948f7a4c4e7a309cbe51fbfd9c95042f60e92c86c4672c23da8389a",
+      "tool_ref": "web.run turn6view0; journal/07_auditor_scope.json",
+      "retrieved_at": "2026-11-20T22:09:49+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "source_id": "KOM",
+      "quote": "В рамках соглашений запланированы мероприятия по снижению выбросов загрязняющих веществ, установка систем автоматического контроля до 2025 года и развитие системы мониторинга качества воздуха.",
+      "relation": "context",
+      "reason": "Контекст соглашения/задачи САКВ; не юридический оригинал с точной обязанностью разработки плана на объектах I категории.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Указано ООО Газпром нефтехим Салават."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Соглашение апреля 2023 с горизонтом 2025."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Нет юридического приложения с полным списком объектов I категории."
+        },
+        "metric": {
+          "status": "unknown",
+          "reason": "Не удостоверено точное обязательство разработать именно план САКВ; оснащение труб и экологический план модернизации не тождественны этому документу."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "Проверяется факт принятия обязательств, не количественный результат."
+        }
+      }
+    },
+    {
+      "id": "E2",
+      "source_id": "SAL",
+      "quote": "Следующая задача – оснащение труб системами автоматического контроля выбросов.",
+      "relation": "context",
+      "reason": "Контекст соглашения/задачи САКВ; не юридический оригинал с точной обязанностью разработки плана на объектах I категории.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Предприятие названо в статье."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Апрель 2023."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Нет списка объектов и категории."
+        },
+        "metric": {
+          "status": "unknown",
+          "reason": "Не удостоверено точное обязательство разработать именно план САКВ; оснащение труб и экологический план модернизации не тождественны этому документу."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "Наличие обещания."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Принято обязательство разработать план создания САКВ на эксплуатируемых объектах I категории.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "reason": "Исследуется принятие обязанности подготовить план, не установка САКВ. Прочитаны сведения о соглашении и официальный комментарий, но юридический оригинал с обязанностью, объектами I категории и приложениями не прочитан. Подходящего независимого подтверждения или опровержения этого точного обязательства недостаточно."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Атом 001-a проектного ESG3.1. Только аспекты ['A1'] родительской строки; юридический scope, period и unit пересмотрены отдельно. Полный корпус не заявляется.",
+  "source_review": {
+    "status": "verified",
+    "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search; только точность цитаты, не внешняя истинность; атомарная сборка сверена по точным quote_fragments проверенной исходной цитаты",
+    "locator": "../01_PDF/source_review.json; {\"pdf_page\": 37, \"printed_page\": \"35\", \"bbox\": [67, 541, 312, 791], \"coordinate_system\": \"PDF points, top-left origin\", \"full_raster\": \"pdf-page-37.png\", \"crop\": \"pdf-page-37-claim-crop.png\"}; ../02_ESG/classification_review.json part_id=001-a; provenance.json atomic_id=GAZP-2023-ATOMIC-001-a",
+    "review_artifact_sha256": "caf1afbeb88751479002828e2aee817eaaa4ed5dabb7dd1e0ce4fb57c44cf786",
+    "scope": "verified parent PDF quote plus deterministic exact-fragment assembly; not independent external truth",
+    "parent_packet_sha256": "34ad066e80057df234c9fe6f07b6da6b0ee54954bd7888cedfaf915d8c7a1fe5"
+  },
+  "limitations": [
+    "Заключение ограничено реально выполненными запросами и прочитанными источниками; полнота публичного интернета не заявляется.",
+    "Нет юридического вывода о гринвошинге, селективном раскрытии или намерении обмануть.",
+    "Это производная оценка конкретного атома по ранее выполненным поискам; checked_at — дата атомарного пересмотра, searched_at — сохраненная дата реальных запросов."
+  ],
+  "derived_research": {
+    "provenance": "provenance.json",
+    "atomic_id": "GAZP-2023-ATOMIC-001-a",
+    "new_searches": false,
+    "parent_packet_sha256": "34ad066e80057df234c9fe6f07b6da6b0ee54954bd7888cedfaf915d8c7a1fe5"
+  }
+}

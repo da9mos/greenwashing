@@ -28,8 +28,9 @@ def display(record, report, number):
         raise ValueError(f"{report['report_id']}: rewrite table {record['id']} with traceable context before exporting")
     pages = {int(m[1]) for e in item.get('evidence', [])
              if (m := re.search(r':p(\d+):b\d+$', e['block_id']))}
-    if type(item.get('page')) is int:
-        pages.add(item['page'])
+    for page_key in ('page', 'pdf_page'):
+        if type(item.get(page_key)) is int:
+            pages.add(item[page_key])
     if not pages or min(pages) < 1 or max(pages) > report['physical_pages']:
         raise ValueError(f"{report['report_id']}: source pages missing or invalid for {record['id']}")
     status = record['research_status']

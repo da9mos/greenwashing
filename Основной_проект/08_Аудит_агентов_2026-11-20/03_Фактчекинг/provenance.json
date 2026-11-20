@@ -1,0 +1,646 @@
+{
+  "schema_version": "atomic-derivation-1.0",
+  "derived_at": "2026-11-20T22:36:06.576110+05:00",
+  "method": "Existing project FACT_CHECK_AGENT esg-factcheck-1.0; atomic selection and reassessment, no new search calls",
+  "classification_review": "02_ESG/classification_review.json",
+  "classification_review_sha256": "738462293eb9ea6f8084b4538fcb27912d6947494cb1f1555694ac7743394a4a",
+  "atomic_input_sha256": "5bd16e205d1ae5e5e9e5d7cc36ae1f090638982bdd8d965a221aa57cd4c345eb",
+  "parent_run": "run",
+  "native_journals": "journal/",
+  "atomic_count": 8,
+  "new_searches": false,
+  "mappings": [
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-001-a",
+      "esg_part_id": "001-a",
+      "parent_packet": "run/results/C000001.r000001.json",
+      "parent_packet_sha256": "34ad066e80057df234c9fe6f07b6da6b0ee54954bd7888cedfaf915d8c7a1fe5",
+      "parent_claim_id": "C000001",
+      "parent_aspect_ids": [
+        "A1"
+      ],
+      "selected_evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "excluded_evidence": [
+        {
+          "id": "E3",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        },
+        {
+          "id": "E4",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        }
+      ],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории",
+        "parent_quote": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+        "fragment_spans": [
+          {
+            "quote": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории",
+            "start": 0,
+            "end": 236
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "period": ""
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000001",
+      "atomic_response": "atomic_responses/C000001.r000001.json",
+      "atomic_response_sha256": "0a69ce6cf066c61ef20c2e9f9f18a5c0a3a1c999bfd2dda9e30d9c272affa7cc",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+          "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+          "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+          "searched_at": "2026-11-20T22:09:23+05:00"
+        },
+        {
+          "id": "Q4",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q5",
+          "direction": "support",
+          "query": "https://www.kommersant.ru/doc/5927481",
+          "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        },
+        {
+          "id": "Q6",
+          "direction": "contradiction",
+          "query": "https://zakupki.kontur.ru/GP521689",
+          "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-001-b",
+      "esg_part_id": "001-b",
+      "parent_packet": "run/results/C000001.r000001.json",
+      "parent_packet_sha256": "34ad066e80057df234c9fe6f07b6da6b0ee54954bd7888cedfaf915d8c7a1fe5",
+      "parent_claim_id": "C000001",
+      "parent_aspect_ids": [
+        "A2"
+      ],
+      "selected_evidence_ids": [
+        "E1"
+      ],
+      "excluded_evidence": [
+        {
+          "id": "E2",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        },
+        {
+          "id": "E3",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        },
+        {
+          "id": "E4",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        }
+      ],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "Предприятие обязуется представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+        "parent_quote": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+        "fragment_spans": [
+          {
+            "quote": "Предприятие обязуется",
+            "start": 0,
+            "end": 21
+          },
+          {
+            "quote": "представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+            "start": 246,
+            "end": 343
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "period": "Срок представления сведений не указан; до 2025 г. — планируемое оснащение."
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000002",
+      "atomic_response": "atomic_responses/C000002.r000001.json",
+      "atomic_response_sha256": "0674ba84f919af32c11f1f93eb9fb2e4d81b204c2bed82bf04c8315ae8888349",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+          "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+          "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+          "searched_at": "2026-11-20T22:09:23+05:00"
+        },
+        {
+          "id": "Q4",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q5",
+          "direction": "support",
+          "query": "https://www.kommersant.ru/doc/5927481",
+          "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        },
+        {
+          "id": "Q6",
+          "direction": "contradiction",
+          "query": "https://zakupki.kontur.ru/GP521689",
+          "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-002-a",
+      "esg_part_id": "002-a",
+      "parent_packet": "run/results/C000002.r000001.json",
+      "parent_packet_sha256": "b0f64286d2f87a0c34f6c03d8aa8a3a6c664851cd4eada0957f497cdde9ddfe5",
+      "parent_claim_id": "C000002",
+      "parent_aspect_ids": [
+        "A1"
+      ],
+      "selected_evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "excluded_evidence": [],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации 96,23 млрд руб.",
+        "parent_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+        "fragment_spans": [
+          {
+            "quote": "общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации",
+            "start": 16,
+            "end": 94
+          },
+          {
+            "quote": "96,23 млрд руб.",
+            "start": 151,
+            "end": 166
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "metric": "общие расходы на охрану окружающей среды",
+          "value": "96,23",
+          "unit": "млрд руб.",
+          "period": "2023",
+          "entity_scope": "Группа Газпром",
+          "period_evidence": {
+            "quote": "| 2023 | 96,23 |",
+            "pdf_page": 14
+          }
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000003",
+      "atomic_response": "atomic_responses/C000003.r000001.json",
+      "atomic_response_sha256": "3b8fe455c71c0a5448b92075bb9812c1b0d1cfd0e17f06c53650b0e5bdacee02",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром\" \"96,23\" \"8,0\" 2023 расходы",
+          "tool_ref": "web.run turn2search12; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром\" \"96,23\" ошибки исправление расходы 2023 2022",
+          "tool_ref": "web.run turn2search13,turn2search14; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "\"Газпром\" \"96,23\" \"аудитор\" 2023 расходы",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_HTML",
+          "direction": "support",
+          "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+          "searched_at": "2026-11-20T22:10:59+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-002-b",
+      "esg_part_id": "002-b",
+      "parent_packet": "run/results/C000002.r000001.json",
+      "parent_packet_sha256": "b0f64286d2f87a0c34f6c03d8aa8a3a6c664851cd4eada0957f497cdde9ddfe5",
+      "parent_claim_id": "C000002",
+      "parent_aspect_ids": [
+        "A2"
+      ],
+      "selected_evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "excluded_evidence": [],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 %",
+        "parent_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+        "fragment_spans": [
+          {
+            "quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 %",
+            "start": 0,
+            "end": 138
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "metric": "изменение общих расходов на охрану окружающей среды относительно 2022 г.",
+          "value": "8,0",
+          "unit": "%",
+          "period": "2023 относительно 2022",
+          "entity_scope": "Группа Газпром"
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000004",
+      "atomic_response": "atomic_responses/C000004.r000001.json",
+      "atomic_response_sha256": "b0f6c6ef3315d6cde1e944fa963963584d731b0aabc3b450a12932c809750776",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром\" \"96,23\" \"8,0\" 2023 расходы",
+          "tool_ref": "web.run turn2search12; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром\" \"96,23\" ошибки исправление расходы 2023 2022",
+          "tool_ref": "web.run turn2search13,turn2search14; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "\"Газпром\" \"96,23\" \"аудитор\" 2023 расходы",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_HTML",
+          "direction": "support",
+          "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+          "searched_at": "2026-11-20T22:10:59+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-003-a",
+      "esg_part_id": "003-a",
+      "parent_packet": "run/results/C000003.r000001.json",
+      "parent_packet_sha256": "11aa90738a88ade7e3949124b32b0a29a0188e82aebed7ba00d29a17a59f6518",
+      "parent_claim_id": "C000003",
+      "parent_aspect_ids": [
+        "A1",
+        "A2"
+      ],
+      "selected_evidence_ids": [
+        "E1"
+      ],
+      "excluded_evidence": [
+        {
+          "id": "E2",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        }
+      ],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+        "parent_quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+        "fragment_spans": [
+          {
+            "quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+            "start": 0,
+            "end": 128
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {}
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000005",
+      "atomic_response": "atomic_responses/C000005.r000001.json",
+      "atomic_response_sha256": "8323737b256c459c209629faea1e03ca143e1b98ec8d16f500f9e2e5067b745d",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Сохранение благоприятной окружающей среды\" \"Газпрома\" принцип",
+          "tool_ref": "web.run turn3search7; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром\" экологическая политика 2023 нарушения Росприроднадзор",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-004-a",
+      "esg_part_id": "004-a",
+      "parent_packet": "run/results/C000004.r000001.json",
+      "parent_packet_sha256": "3b5ca203d3c6721b5dc1c59dfb4a4196e498b60ce4f9125a8425be688d7820a9",
+      "parent_claim_id": "C000004",
+      "parent_aspect_ids": [
+        "A1"
+      ],
+      "selected_evidence_ids": [
+        "E1"
+      ],
+      "excluded_evidence": [
+        {
+          "id": "E2",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        }
+      ],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром",
+        "parent_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+        "fragment_spans": [
+          {
+            "quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром",
+            "start": 0,
+            "end": 155
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "metric": "проверки соблюдения требований в области ООС и природопользования",
+          "value": "761",
+          "unit": "проверка",
+          "period": "2023",
+          "entity_scope": "объекты Группы Газпром"
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000006",
+      "atomic_response": "atomic_responses/C000006.r000001.json",
+      "atomic_response_sha256": "5e3a1df06cf3bdf189786548f47782ee0cad9d7cd538bd3b8519c7bbdf405dc1",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+          "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+          "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+          "searched_at": "2026-11-20T22:10:02+05:00"
+        },
+        {
+          "id": "Q4",
+          "direction": "contradiction",
+          "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+          "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-004-b",
+      "esg_part_id": "004-b",
+      "parent_packet": "run/results/C000004.r000001.json",
+      "parent_packet_sha256": "3b5ca203d3c6721b5dc1c59dfb4a4196e498b60ce4f9125a8425be688d7820a9",
+      "parent_claim_id": "C000004",
+      "parent_aspect_ids": [
+        "A2"
+      ],
+      "selected_evidence_ids": [
+        "E1"
+      ],
+      "excluded_evidence": [
+        {
+          "id": "E2",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        }
+      ],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "зультате которых выявлено 517 нарушений.",
+        "parent_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+        "fragment_spans": [
+          {
+            "quote": "зультате которых выявлено 517 нарушений.",
+            "start": 163,
+            "end": 203
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "metric": "выявленные экологические нарушения",
+          "value": "517",
+          "unit": "нарушений",
+          "period": "2023",
+          "entity_scope": "объекты Группы Газпром"
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000007",
+      "atomic_response": "atomic_responses/C000007.r000001.json",
+      "atomic_response_sha256": "7ba0acbcb131028c2beebc32bbebf628428e0a3e98ed2df2f8003c2dc4f06ad3",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+          "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+          "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+          "searched_at": "2026-11-20T22:10:02+05:00"
+        },
+        {
+          "id": "Q4",
+          "direction": "contradiction",
+          "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+          "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ]
+    },
+    {
+      "atomic_id": "GAZP-2023-ATOMIC-004-c",
+      "esg_part_id": "004-c",
+      "parent_packet": "run/results/C000004.r000001.json",
+      "parent_packet_sha256": "3b5ca203d3c6721b5dc1c59dfb4a4196e498b60ce4f9125a8425be688d7820a9",
+      "parent_claim_id": "C000004",
+      "parent_aspect_ids": [
+        "A3"
+      ],
+      "selected_evidence_ids": [
+        "E1"
+      ],
+      "excluded_evidence": [
+        {
+          "id": "E2",
+          "reason": "Не нужен для данного атома: закупка/отдельная надзорная проверка не устанавливает точное принятие обещания, групповой счетчик или операциональный критерий принципа; не выдается за опровержение."
+        }
+      ],
+      "quote_assembly": {
+        "method": "join quote_fragments using a single ASCII space; fragment characters unchanged",
+        "statement": "По результатам\n563 проверок нарушений выявлено не было.",
+        "parent_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+        "fragment_spans": [
+          {
+            "quote": "По результатам\n563 проверок нарушений выявлено не было.",
+            "start": 204,
+            "end": 259
+          }
+        ],
+        "context": "Фрагменты могут быть разнесены или содержать исходный перенос/часть слова; полный исходный абзац сохранен и проверен PDF-агентом. Не заявляется, что сборка является непрерывной дословной цитатой.",
+        "quantitative_fields": {
+          "metric": "проверки без выявленных нарушений",
+          "value": "563",
+          "unit": "проверок",
+          "period": "2023",
+          "entity_scope": "объекты Группы Газпром"
+        }
+      },
+      "reuse_disclosure": "Производная атомарная оценка по уже выполненному живому поиску принятой родительской строки. Новых запросов нет; searched_at, tool_ref, content и content_sha256 не переписываются.",
+      "canonical_claim_id": "C000008",
+      "atomic_response": "atomic_responses/C000008.r000001.json",
+      "atomic_response_sha256": "96175968028d9e60ac4f7e03f148853012199e5f6a92f626bd79733bc12eb14d",
+      "reused_searches": [
+        {
+          "id": "Q1",
+          "direction": "support",
+          "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+          "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "direction": "contradiction",
+          "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q3",
+          "direction": "support",
+          "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+          "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+          "searched_at": "2026-11-20T22:10:02+05:00"
+        },
+        {
+          "id": "Q4",
+          "direction": "contradiction",
+          "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+          "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "direction": "contradiction",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ]
+    }
+  ]
+}

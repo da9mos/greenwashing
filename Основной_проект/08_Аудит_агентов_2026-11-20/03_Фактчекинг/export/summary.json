@@ -1,0 +1,14 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "status": "research_complete",
+  "total": 4,
+  "unfinished": 0,
+  "report_id": null,
+  "md_sha256": null,
+  "extraction_coverage_complete": false,
+  "verdict_counts": {
+    "insufficient_evidence": 3,
+    "not_verifiable": 1
+  },
+  "limitation": "Structural/provenance checks only. Reviewer judgments of independence, alignment, aspect completeness and truth are not mechanically proven. Research completion is not factual certainty or proof of greenwashing."
+}

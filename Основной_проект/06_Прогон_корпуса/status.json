@@ -1,19 +1,21 @@
 {
-  "updated_at": "2026-11-20T17:10:01+05:00",
+  "updated_at": "2026-11-20T22:59:20+05:00",
   "companies": 30,
   "reports": 92,
   "totals": {
     "pages": 14731,
     "total_batches": 3716,
-    "accepted_batches": 41,
-    "candidate_claims": 1841,
-    "pending_blocks": 759,
-    "pending_claims": 467
+    "accepted_batches": 65,
+    "candidate_claims": 3433,
+    "pending_blocks": 1734,
+    "pending_claims": 1314,
+    "pending_classifications": 23,
+    "research_attempted": 1,
+    "research_finished": 0
   },
   "control": {
-    "state": "selecting",
-    "pid": 34946,
-    "validation_blocks": {}
+    "state": "prepared",
+    "updated_at": "2026-11-20T22:58:53+05:00"
   },
   "report_status": [
     {
@@ -28,6 +30,9 @@
       "candidate_claims": 44,
       "pending_blocks": 35,
       "pending_claims": 23,
+      "pending_classifications": 0,
+      "research_attempted": 1,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "GAZP-2023-ОУР_b0002"
@@ -43,40 +48,45 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/44 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "GAZP-2023-ЭО",
       "company": "Газпром",
       "company_id": "GAZP",
       "pages": 84,
-      "source_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+      "source_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 21,
-      "accepted_batches": 4,
-      "candidate_claims": 353,
-      "pending_blocks": 27,
-      "pending_claims": 107,
+      "accepted_batches": 6,
+      "candidate_claims": 894,
+      "pending_blocks": 52,
+      "pending_claims": 444,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "GAZP-2023-ЭО_b0001",
-        "GAZP-2023-ЭО_b0002",
         "GAZP-2023-ЭО_b0003",
-        "GAZP-2023-ЭО_b0004"
+        "GAZP-2023-ЭО_b0005",
+        "GAZP-2023-ЭО_b0006",
+        "GAZP-2023-ЭО_b0007",
+        "GAZP-2023-ЭО_b0008"
       ],
       "esg_counts": {
-        "E": 337,
-        "S": 6,
-        "G": 10
+        "G": 7,
+        "E": 884,
+        "S": 3
       },
       "type_counts": {
+        "результат": 881,
         "декларация": 5,
-        "результат": 342,
-        "обязательство": 6
+        "обязательство": 8
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/894 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "GAZP-2024-ОУР",
@@ -90,6 +100,9 @@
       "candidate_claims": 103,
       "pending_blocks": 28,
       "pending_claims": 56,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "GAZP-2024-ОУР_b0002"
@@ -106,7 +119,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/103 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "GAZP-2025-ОУР",
@@ -120,6 +133,9 @@
       "candidate_claims": 113,
       "pending_blocks": 10,
       "pending_claims": 42,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "GAZP-2025-ОУР_b0002"
@@ -136,7 +152,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/113 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "IRKN-2023-ИО",
@@ -150,6 +166,9 @@
       "candidate_claims": 17,
       "pending_blocks": 4,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "IRKN-2023-ИО_b0001"
@@ -163,7 +182,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/17 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "IRKN-2024-ИО",
@@ -177,13 +196,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "IRKN-2025-ИО",
@@ -197,13 +219,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "LKOH-2023-ОУР",
@@ -213,17 +238,29 @@
       "source_sha256": "78477d8d68fafe192f6855113b6d5caf2064f1816b63f7c4932d55dc55ad9d1b",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 29,
-      "accepted_batches": 0,
-      "candidate_claims": 0,
-      "pending_blocks": 0,
-      "pending_claims": 0,
+      "accepted_batches": 1,
+      "candidate_claims": 97,
+      "pending_blocks": 79,
+      "pending_claims": 65,
+      "pending_classifications": 22,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
-      "accepted_batch_ids": [],
-      "esg_counts": {},
-      "type_counts": {},
-      "status": "Партии подготовлены, извлечение не выполнено",
+      "accepted_batch_ids": [
+        "LKOH-2023-ОУР_b0001"
+      ],
+      "esg_counts": {
+        "S": 40,
+        "G": 10,
+        "E": 47
+      },
+      "type_counts": {
+        "обязательство": 4,
+        "результат": 93
+      },
+      "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/97 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "LKOH-2024-ОУР",
@@ -237,6 +274,9 @@
       "candidate_claims": 79,
       "pending_blocks": 50,
       "pending_claims": 27,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "LKOH-2024-ОУР_b0001",
@@ -253,7 +293,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/79 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "LKOH-2025-ОУР",
@@ -263,27 +303,32 @@
       "source_sha256": "4a095ca7dee5b49f5649ba9d11b01d2999f705faada1983e12a5ca4ceab9e4ab",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 29,
-      "accepted_batches": 2,
-      "candidate_claims": 64,
-      "pending_blocks": 138,
-      "pending_claims": 18,
+      "accepted_batches": 3,
+      "candidate_claims": 138,
+      "pending_blocks": 162,
+      "pending_claims": 21,
+      "pending_classifications": 1,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "LKOH-2025-ОУР_b0001",
-        "LKOH-2025-ОУР_b0002"
+        "LKOH-2025-ОУР_b0002",
+        "LKOH-2025-ОУР_b0003"
       ],
       "esg_counts": {
-        "E": 26,
-        "S": 29,
-        "G": 9
+        "E": 31,
+        "S": 36,
+        "G": 71
       },
       "type_counts": {
-        "декларация": 1,
-        "результат": 63
+        "декларация": 2,
+        "результат": 135,
+        "обязательство": 1
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/138 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NVTK-2023-ОУР",
@@ -297,13 +342,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NVTK-2024-ОУР",
@@ -313,27 +361,32 @@
       "source_sha256": "f51a645909476b5f67dc3bac6004cb9e280e235d13f7c5a8766c8dcbd2409cd3",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 33,
-      "accepted_batches": 1,
-      "candidate_claims": 59,
-      "pending_blocks": 21,
-      "pending_claims": 1,
+      "accepted_batches": 3,
+      "candidate_claims": 268,
+      "pending_blocks": 339,
+      "pending_claims": 103,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "NVTK-2024-ОУР_b0001"
+        "NVTK-2024-ОУР_b0001",
+        "NVTK-2024-ОУР_b0002",
+        "NVTK-2024-ОУР_b0003"
       ],
       "esg_counts": {
-        "S": 24,
-        "E": 14,
-        "G": 21
+        "S": 95,
+        "E": 119,
+        "G": 54
       },
       "type_counts": {
-        "декларация": 15,
-        "результат": 42,
-        "обязательство": 2
+        "декларация": 34,
+        "результат": 203,
+        "обязательство": 31
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/268 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NVTK-2025-ОУР",
@@ -347,13 +400,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "ROSN-2023-ОУР",
@@ -367,13 +423,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "ROSN-2024-ОУР",
@@ -387,13 +446,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "ROSN-2025-ИО",
@@ -403,17 +465,30 @@
       "source_sha256": "91c7765d5ca9267edd389d16b3ddf972f12229a2483c1010728b5d4bb3a1fa1a",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 17,
-      "accepted_batches": 0,
-      "candidate_claims": 0,
-      "pending_blocks": 0,
-      "pending_claims": 0,
+      "accepted_batches": 1,
+      "candidate_claims": 55,
+      "pending_blocks": 4,
+      "pending_claims": 13,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
-      "accepted_batch_ids": [],
-      "esg_counts": {},
-      "type_counts": {},
-      "status": "Партии подготовлены, извлечение не выполнено",
+      "accepted_batch_ids": [
+        "ROSN-2025-ИО_b0001"
+      ],
+      "esg_counts": {
+        "G": 3,
+        "E": 16,
+        "S": 36
+      },
+      "type_counts": {
+        "результат": 49,
+        "обязательство": 2,
+        "декларация": 4
+      },
+      "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/55 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TATN-2023-ИО",
@@ -427,13 +502,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TATN-2024-ИО",
@@ -447,13 +525,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TATN-2025-ИО",
@@ -463,19 +544,31 @@
       "source_sha256": "9004d8ceec4db2912f45ffc42a5c2f0094bfa186448c537815659361b3785741",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 65,
-      "accepted_batches": 1,
-      "candidate_claims": 0,
-      "pending_blocks": 4,
-      "pending_claims": 0,
+      "accepted_batches": 2,
+      "candidate_claims": 41,
+      "pending_blocks": 88,
+      "pending_claims": 16,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "TATN-2025-ИО_b0001"
+        "TATN-2025-ИО_b0001",
+        "TATN-2025-ИО_b0002"
       ],
-      "esg_counts": {},
-      "type_counts": {},
+      "esg_counts": {
+        "G": 5,
+        "E": 9,
+        "S": 27
+      },
+      "type_counts": {
+        "результат": 30,
+        "обязательство": 4,
+        "декларация": 7
+      },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/41 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TRNF-2023-ИО",
@@ -485,23 +578,29 @@
       "source_sha256": "6a817f7d3011511a32777094b18b06d1643728d4c6049ef447955d6973ab6995",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 86,
-      "accepted_batches": 1,
-      "candidate_claims": 2,
-      "pending_blocks": 4,
-      "pending_claims": 0,
+      "accepted_batches": 2,
+      "candidate_claims": 20,
+      "pending_blocks": 13,
+      "pending_claims": 2,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "TRNF-2023-ИО_b0001"
+        "TRNF-2023-ИО_b0001",
+        "TRNF-2023-ИО_b0002"
       ],
       "esg_counts": {
-        "G": 2
+        "G": 16,
+        "S": 4
       },
       "type_counts": {
-        "результат": 2
+        "результат": 19,
+        "обязательство": 1
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/20 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TRNF-2024-ИО",
@@ -511,23 +610,40 @@
       "source_sha256": "1aa04fcbbef46624aafa0ceb4060afce7663c12683fa6974cff5879b3746a50f",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 76,
-      "accepted_batches": 1,
-      "candidate_claims": 2,
-      "pending_blocks": 4,
-      "pending_claims": 0,
+      "accepted_batches": 11,
+      "candidate_claims": 321,
+      "pending_blocks": 59,
+      "pending_claims": 132,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "TRNF-2024-ИО_b0001"
+        "TRNF-2024-ИО_b0001",
+        "TRNF-2024-ИО_b0002",
+        "TRNF-2024-ИО_b0003",
+        "TRNF-2024-ИО_b0004",
+        "TRNF-2024-ИО_b0005",
+        "TRNF-2024-ИО_b0006",
+        "TRNF-2024-ИО_b0007",
+        "TRNF-2024-ИО_b0008",
+        "TRNF-2024-ИО_b0009",
+        "TRNF-2024-ИО_b0010",
+        "TRNF-2024-ИО_b0011"
       ],
       "esg_counts": {
-        "G": 2
+        "G": 78,
+        "S": 131,
+        "E": 112
       },
       "type_counts": {
-        "результат": 2
+        "результат": 249,
+        "декларация": 19,
+        "обязательство": 53
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/321 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TRNF-2025-ИО",
@@ -541,6 +657,9 @@
       "candidate_claims": 2,
       "pending_blocks": 4,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "TRNF-2025-ИО_b0001"
@@ -553,7 +672,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/2 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "ALRS-2023-ОУР",
@@ -567,13 +686,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "ALRS-2024-ОУР",
@@ -587,13 +709,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "ALRS-2025-ОУР",
@@ -607,13 +732,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MAGN-2023-ИО",
@@ -623,27 +751,32 @@
       "source_sha256": "b5f44cefc8b74a894d4c74a5340505d118d56f9a4cc386a4d6dcb31f6f180142",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 61,
-      "accepted_batches": 1,
-      "candidate_claims": 34,
-      "pending_blocks": 30,
-      "pending_claims": 6,
+      "accepted_batches": 3,
+      "candidate_claims": 81,
+      "pending_blocks": 160,
+      "pending_claims": 39,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "MAGN-2023-ИО_b0001"
+        "MAGN-2023-ИО_b0001",
+        "MAGN-2023-ИО_b0002",
+        "MAGN-2023-ИО_b0003"
       ],
       "esg_counts": {
-        "G": 3,
-        "E": 5,
-        "S": 26
+        "G": 11,
+        "E": 19,
+        "S": 51
       },
       "type_counts": {
-        "результат": 25,
-        "декларация": 4,
-        "обязательство": 5
+        "результат": 63,
+        "декларация": 7,
+        "обязательство": 11
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/81 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MAGN-2024-ИО",
@@ -653,27 +786,31 @@
       "source_sha256": "2ee42d45f713865613aa7191a98ded4cf074d7007b2f4f65bcbd66ab408eb4ed",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 83,
-      "accepted_batches": 1,
-      "candidate_claims": 55,
-      "pending_blocks": 20,
-      "pending_claims": 16,
+      "accepted_batches": 2,
+      "candidate_claims": 61,
+      "pending_blocks": 33,
+      "pending_claims": 19,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "MAGN-2024-ИО_b0001"
+        "MAGN-2024-ИО_b0001",
+        "MAGN-2024-ИО_b0002"
       ],
       "esg_counts": {
-        "G": 3,
-        "S": 37,
-        "E": 15
+        "G": 4,
+        "S": 41,
+        "E": 16
       },
       "type_counts": {
-        "результат": 49,
+        "результат": 55,
         "обязательство": 5,
         "декларация": 1
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/61 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MAGN-2025-ИО",
@@ -687,13 +824,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MINV-2023-ОУР",
@@ -707,13 +847,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MINV-2024-ОУР",
@@ -727,13 +870,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MINV-2025-ОУР",
@@ -743,17 +889,30 @@
       "source_sha256": "b6afdf15e58731fbd8502f0360ecc1a89a565e9da191d7b9e5ebb34b10a7dc23",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 47,
-      "accepted_batches": 0,
-      "candidate_claims": 0,
-      "pending_blocks": 0,
-      "pending_claims": 0,
+      "accepted_batches": 1,
+      "candidate_claims": 80,
+      "pending_blocks": 29,
+      "pending_claims": 38,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
-      "accepted_batch_ids": [],
-      "esg_counts": {},
-      "type_counts": {},
-      "status": "Партии подготовлены, извлечение не выполнено",
+      "accepted_batch_ids": [
+        "MINV-2025-ОУР_b0001"
+      ],
+      "esg_counts": {
+        "S": 52,
+        "E": 23,
+        "G": 5
+      },
+      "type_counts": {
+        "результат": 70,
+        "декларация": 9,
+        "обязательство": 1
+      },
+      "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/80 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MTLR-2023-ОУР",
@@ -767,6 +926,9 @@
       "candidate_claims": 115,
       "pending_blocks": 14,
       "pending_claims": 54,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "MTLR-2023-ОУР_b0001",
@@ -784,7 +946,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/115 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MTLR-2024-ОУР",
@@ -794,27 +956,31 @@
       "source_sha256": "b90eebaf2372de042d5028f878d4252baeb36378aa75e313d56c0c17c785f7e1",
       "profile_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
       "total_batches": 34,
-      "accepted_batches": 1,
-      "candidate_claims": 50,
-      "pending_blocks": 29,
-      "pending_claims": 12,
+      "accepted_batches": 2,
+      "candidate_claims": 155,
+      "pending_blocks": 234,
+      "pending_claims": 115,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
-        "MTLR-2024-ОУР_b0001"
+        "MTLR-2024-ОУР_b0001",
+        "MTLR-2024-ОУР_b0002"
       ],
       "esg_counts": {
-        "G": 12,
-        "S": 23,
-        "E": 15
+        "G": 28,
+        "S": 72,
+        "E": 55
       },
       "type_counts": {
-        "результат": 28,
+        "результат": 133,
         "обязательство": 9,
         "декларация": 13
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/155 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MTLR-2025-ГО",
@@ -828,13 +994,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MTLR-2025-ОУР",
@@ -848,13 +1017,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NLMK-2023-ОУР",
@@ -868,13 +1040,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NLMK-2024-ИО",
@@ -888,13 +1063,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NLMK-2025-ИО",
@@ -908,6 +1086,9 @@
       "candidate_claims": 21,
       "pending_blocks": 10,
       "pending_claims": 2,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "NLMK-2025-ИО_b0001"
@@ -921,7 +1102,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/21 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NORN-2023-ОУР",
@@ -935,13 +1116,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NORN-2024-ОУР",
@@ -955,13 +1139,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "NORN-2025-ОУР",
@@ -975,13 +1162,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PLZL-2023-ОУР",
@@ -995,6 +1185,9 @@
       "candidate_claims": 69,
       "pending_blocks": 47,
       "pending_claims": 9,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "PLZL-2023-ОУР_b0001"
@@ -1011,7 +1204,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/69 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PLZL-2024-ОУР",
@@ -1025,13 +1218,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PLZL-2025-ИО",
@@ -1045,13 +1241,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PLZL-2025-ОУР",
@@ -1065,6 +1264,9 @@
       "candidate_claims": 53,
       "pending_blocks": 12,
       "pending_claims": 5,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "PLZL-2025-ОУР_b0001"
@@ -1081,7 +1283,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/53 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RUAL-2023-ОУР",
@@ -1095,13 +1297,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RUAL-2024-ОУР",
@@ -1115,13 +1320,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RUAL-2025-ИО",
@@ -1135,13 +1343,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RASP-2023-ОУР",
@@ -1155,6 +1366,9 @@
       "candidate_claims": 13,
       "pending_blocks": 5,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "RASP-2023-ОУР_b0001"
@@ -1169,7 +1383,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/13 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RASP-2024-ОУР",
@@ -1183,13 +1397,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RASP-2025-ОУР",
@@ -1203,13 +1420,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "CHMF-2023-ОУР",
@@ -1223,13 +1443,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "CHMF-2024-ИО",
@@ -1243,6 +1466,9 @@
       "candidate_claims": 125,
       "pending_blocks": 59,
       "pending_claims": 17,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "CHMF-2024-ИО_b0001",
@@ -1260,7 +1486,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/125 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "CHMF-2025-ИО",
@@ -1274,6 +1500,9 @@
       "candidate_claims": 98,
       "pending_blocks": 100,
       "pending_claims": 10,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "CHMF-2025-ИО_b0001",
@@ -1291,7 +1520,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/98 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TRMK-2023-ИО",
@@ -1305,13 +1534,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TRMK-2024-ОУР",
@@ -1325,6 +1557,9 @@
       "candidate_claims": 1,
       "pending_blocks": 4,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "TRMK-2024-ОУР_b0001"
@@ -1337,7 +1572,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/1 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "TRMK-2025-ОУР",
@@ -1351,13 +1586,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "AKRN-2023-ОУР",
@@ -1371,13 +1609,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "AKRN-2024-ОУР",
@@ -1391,6 +1632,9 @@
       "candidate_claims": 30,
       "pending_blocks": 8,
       "pending_claims": 1,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "AKRN-2024-ОУР_b0001"
@@ -1407,7 +1651,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/30 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "AKRN-2025-ИО",
@@ -1421,6 +1665,9 @@
       "candidate_claims": 24,
       "pending_blocks": 19,
       "pending_claims": 8,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "AKRN-2025-ИО_b0001"
@@ -1435,7 +1682,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/24 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PIGM-2023-ОУР",
@@ -1449,13 +1696,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PIGM-2024-ОУР",
@@ -1469,13 +1719,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PIGM-2025-ОУР",
@@ -1489,13 +1742,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SIBR-2023-ИО",
@@ -1509,13 +1765,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SIBR-2024-ИО",
@@ -1529,6 +1788,9 @@
       "candidate_claims": 54,
       "pending_blocks": 13,
       "pending_claims": 8,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "SIBR-2024-ИО_b0001"
@@ -1545,7 +1807,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/54 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SIBR-2025-ИО",
@@ -1559,6 +1821,9 @@
       "candidate_claims": 57,
       "pending_blocks": 11,
       "pending_claims": 4,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "SIBR-2025-ИО_b0001"
@@ -1575,7 +1840,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/57 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URKA-2023-ОУР",
@@ -1589,6 +1854,9 @@
       "candidate_claims": 57,
       "pending_blocks": 6,
       "pending_claims": 15,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "URKA-2023-ОУР_b0001"
@@ -1605,7 +1873,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/57 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URKA-2024-ОУР",
@@ -1619,13 +1887,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URKA-2025-ГО",
@@ -1639,13 +1910,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URKA-2025-ОУР",
@@ -1659,6 +1933,9 @@
       "candidate_claims": 51,
       "pending_blocks": 12,
       "pending_claims": 10,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "URKA-2025-ОУР_b0001"
@@ -1675,7 +1952,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/51 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URCH-2023-ОУР",
@@ -1689,13 +1966,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URCH-2024-ОУР",
@@ -1709,13 +1989,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "URCH-2025-ОУР",
@@ -1729,13 +2012,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PHOR-2023-ИО",
@@ -1749,13 +2035,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PHOR-2024-ИО",
@@ -1769,13 +2058,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "PHOR-2025-ИО",
@@ -1789,13 +2081,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "KMAZ-2023-ОУР",
@@ -1809,13 +2104,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "KMAZ-2024-ОУР",
@@ -1829,13 +2127,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "KMAZ-2025-ГО",
@@ -1849,6 +2150,9 @@
       "candidate_claims": 48,
       "pending_blocks": 10,
       "pending_claims": 13,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "KMAZ-2025-ГО_b0001",
@@ -1866,7 +2170,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/48 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SHLZ-2023-ОУР",
@@ -1880,13 +2184,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SHLZ-2024-ОУР",
@@ -1900,13 +2207,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SVEZ-2023-ОУР",
@@ -1920,6 +2230,9 @@
       "candidate_claims": 46,
       "pending_blocks": 16,
       "pending_claims": 3,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "SVEZ-2023-ОУР_b0001"
@@ -1936,7 +2249,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/46 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SVEZ-2024-ОУР",
@@ -1950,13 +2263,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SGZH-2023-ИО",
@@ -1970,13 +2286,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SGZH-2024-ИО",
@@ -1990,13 +2309,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "SGZH-2025-ИО",
@@ -2010,13 +2332,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MVDK-2023-ГО",
@@ -2030,13 +2355,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MVDK-2024-ГО",
@@ -2050,13 +2378,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "MVDK-2025-ГО",
@@ -2070,6 +2401,9 @@
       "candidate_claims": 2,
       "pending_blocks": 5,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
         "MVDK-2025-ГО_b0001"
@@ -2082,7 +2416,7 @@
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/2 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RVDK-2023-ОУР",
@@ -2096,13 +2430,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RVDK-2024-ОУР",
@@ -2116,13 +2453,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "RVDK-2025-ОУР",
@@ -2136,13 +2476,16 @@
       "candidate_claims": 0,
       "pending_blocks": 0,
       "pending_claims": 0,
+      "pending_classifications": 0,
+      "research_attempted": 0,
+      "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [],
       "esg_counts": {},
       "type_counts": {},
       "status": "Партии подготовлены, извлечение не выполнено",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Массовая внешняя проверка не завершена"
+      "factcheck": "Внешнее исследование: 0/0 кандидатов; приёмка корпуса открыта"
     }
   ]
 }

@@ -12,6 +12,33 @@ VERSION = 'esg-extraction-3.0'
 TYPES = ('обязательство', 'результат', 'декларация')
 TOPICS = ('E', 'S', 'G')
 
+# Keep numeric evidence verbatim, but do not accept part of a different number.
+# Grouping spaces include the two non-breaking variants used by report tables.
+_INTEGER = r'(?:\d{1,3}(?:[ \u00a0\u202f]\d{3})+(?!\d)|\d+)'
+_NUMBER = rf'(?:[+−][ \u00a0\u202f]*|-)?{_INTEGER}(?:[.,]\d+)?(?:[eE][+\-−]?\d+)?'
+_NUMERIC_EXPRESSION = re.compile(rf'{_NUMBER}(?:[ \u00a0\u202f]*(?:[–—\-/])[ \u00a0\u202f]*{_NUMBER})*')
+
+
+def evidence_supports(field, value, quote):
+    """Check literal support; numeric fields must cover whole numeric expressions.
+
+    A value may appear within prose, but 5 is not supported by 517, -5, 5.17,
+    1 005 or 5–7. Full ranges/periods and surrounding words remain allowed.
+    This only checks tokens, not metric/year/column semantic alignment.
+    """
+    if field not in ('value', 'period'):
+        return value in quote
+    if not value:
+        return False
+    numbers = list(_NUMERIC_EXPRESSION.finditer(quote))
+    for match in re.finditer(re.escape(value), quote):
+        start, end = match.span()
+        if all(not (number.start() < end and number.end() > start)
+               or (start <= number.start() and number.end() <= end)
+               for number in numbers):
+            return True
+    return False
+
 
 def require(value, message):
     if not value:
@@ -155,6 +182,8 @@ def check(work, response):
             require(isinstance(e,dict) and e.get('block_id') in blocks,'Неизвестный evidence-блок')
             require(text(e.get('quote')) and e['quote'] in blocks[e['block_id']]['text'],'Цитата не совпадает точно')
             require(e.get('role') in ('statement','subject','metric','value','unit','period','context'),'Неверная роль')
+            require(e['role'] not in ('value','period') or evidence_supports(e['role'], e['quote'], blocks[e['block_id']]['text']),
+                    'Числовая цитата вырезана из другого числа/периода')
             used[cid].add(e['block_id'])
         require(any(e['block_id'] in targets and e['role'] in ('statement','value','metric') for e in ev),'Заявление без собственного statement/value/metric в target')
         if not c['quantitative']:
@@ -165,7 +194,7 @@ def check(work, response):
             require(all(isinstance(c.get(k),str) for k in fields),'Количественные поля должны быть строками, неизвестные — пустыми строками')
             for k in fields:
                 role='subject' if k=='entity_scope' else k
-                require(not c[k] or any(e['role']==role and c[k] in e['quote'] for e in ev), f'{k} не подтверждено дословным фрагментом соответствующей роли')
+                require(not c[k] or any(e['role']==role and evidence_supports(k, c[k], e['quote']) for e in ev), f'{k} не подтверждено дословным фрагментом соответствующей роли')
             complete=all(text(c.get(k)) for k in fields) and {'subject','metric','value','unit','period'} <= {e['role'] for e in ev}
             require(complete or c['source_status']=='needs_pdf_review','Неполный количественный контекст требует needs_pdf_review')
         require(c['source_kind']!='chart' or c['source_status']=='needs_pdf_review','График требует PDF review')

@@ -1,0 +1,54 @@
+test_classification_pending_blocks_profile_export (__main__.RegressionSpecifications.test_classification_pending_blocks_profile_export) ... ok
+test_incomplete_numeric_context_must_reopen_coverage (__main__.RegressionSpecifications.test_incomplete_numeric_context_must_reopen_coverage) ... FAIL
+test_number_substring_must_not_pass (__main__.RegressionSpecifications.test_number_substring_must_not_pass) ... FAIL
+test_numeric_withheld_still_blocks_export (__main__.RegressionSpecifications.test_numeric_withheld_still_blocks_export) ... ok
+test_period_substring_must_not_pass (__main__.RegressionSpecifications.test_period_substring_must_not_pass) ... FAIL
+test_review_must_not_leave_unsupported_number_md_only (__main__.RegressionSpecifications.test_review_must_not_leave_unsupported_number_md_only) ... FAIL
+test_valid_complete_number_is_accepted (__main__.RegressionSpecifications.test_valid_complete_number_is_accepted) ... ok
+
+======================================================================
+FAIL: test_incomplete_numeric_context_must_reopen_coverage (__main__.RegressionSpecifications.test_incomplete_numeric_context_must_reopen_coverage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/02_ESG/reproduce_defects.py", line 90, in test_incomplete_numeric_context_must_reopen_coverage
+    self.assertEqual(data['coverage'][0]['status'], 'pending')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'extracted' != 'pending'
+- extracted
++ pending
+
+
+======================================================================
+FAIL: test_number_substring_must_not_pass (__main__.RegressionSpecifications.test_number_substring_must_not_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/02_ESG/reproduce_defects.py", line 66, in test_number_substring_must_not_pass
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_period_substring_must_not_pass (__main__.RegressionSpecifications.test_period_substring_must_not_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/02_ESG/reproduce_defects.py", line 71, in test_period_substring_must_not_pass
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_review_must_not_leave_unsupported_number_md_only (__main__.RegressionSpecifications.test_review_must_not_leave_unsupported_number_md_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/02_ESG/reproduce_defects.py", line 81, in test_review_must_not_leave_unsupported_number_md_only
+    self.assertEqual(data['claims'][0]['source_status'], 'needs_pdf_review')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'md_only' != 'needs_pdf_review'
+- md_only
++ needs_pdf_review
+
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.037s
+
+FAILED (failures=4)

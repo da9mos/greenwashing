@@ -3,7 +3,8 @@
   "source_sha256": "4a095ca7dee5b49f5649ba9d11b01d2999f705faada1983e12a5ca4ceab9e4ab",
   "accepted_batch_ids": [
     "LKOH-2025-ОУР_b0001",
-    "LKOH-2025-ОУР_b0002"
+    "LKOH-2025-ОУР_b0002",
+    "LKOH-2025-ОУР_b0003"
   ],
   "expected_batches": 29,
   "complete": false,
@@ -2892,6 +2893,3462 @@
         "classification_status": "resolved",
         "ambiguity_note": ""
       }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c001",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "ПАО «ЛУКОЙЛ» представляет 16-й Отчет\nоб устойчивом развитии Группы «ЛУКОЙЛ» (далее –\nОтчет), отражающий результаты деятельности\nГруппы «ЛУКОЙЛ» в России за период с 1 января\nпо 31 декабря 2025 года.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b4",
+          "quote": "ПАО «ЛУКОЙЛ» представляет 16-й Отчет\nоб устойчивом развитии Группы «ЛУКОЙЛ» (далее –\nОтчет), отражающий результаты деятельности\nГруппы «ЛУКОЙЛ» в России за период с 1 января\nпо 31 декабря 2025 года.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "ПАО «ЛУКОЙЛ» представляет 16-й Отчет\nоб устойчивом развитии Группы «ЛУКОЙЛ» (далее –\nОтчет), отражающий результаты деятельности\nГруппы «ЛУКОЙЛ» в России за период с 1 января\nпо 31 декабря 2025 года.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c002",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Предыдущий отчет\nГруппы «ЛУКОЙЛ» был опубликован в июле 2025 года\n(за отчетный период с 1 января по 31 декабря 2024 года).",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b4",
+          "quote": "Предыдущий отчет\nГруппы «ЛУКОЙЛ» был опубликован в июле 2025 года\n(за отчетный период с 1 января по 31 декабря 2024 года).",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Предыдущий отчет\nГруппы «ЛУКОЙЛ» был опубликован в июле 2025 года\n(за отчетный период с 1 января по 31 декабря 2024 года).",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c003",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Настоящий Отчет рассмотрен Комитетом по стратегии,\nинвестициям, устойчивому развитию и климатической\nадаптации Совета директоров ПАО «ЛУКОЙЛ»\nи утвержден Советом директоров ПАО «ЛУКОЙЛ».",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b6",
+          "quote": "Настоящий Отчет рассмотрен Комитетом по стратегии,\nинвестициям, устойчивому развитию и климатической\nадаптации Совета директоров ПАО «ЛУКОЙЛ»\nи утвержден Советом директоров ПАО «ЛУКОЙЛ».",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Настоящий Отчет рассмотрен Комитетом по стратегии,\nинвестициям, устойчивому развитию и климатической\nадаптации Совета директоров ПАО «ЛУКОЙЛ»\nи утвержден Советом директоров ПАО «ЛУКОЙЛ».",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c004",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Аудиторское заключение приведено в Приложении 7.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b6",
+          "quote": "Аудиторское заключение приведено в Приложении 7.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Аудиторское заключение приведено в Приложении 7.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c005",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Отчет прошел процедуру общественного\nзаверения Российского союза промышленников\nи предпринимателей (РСПП).",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b6",
+          "quote": "Отчет прошел процедуру общественного\nзаверения Российского союза промышленников\nи предпринимателей (РСПП).",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Отчет прошел процедуру общественного\nзаверения Российского союза промышленников\nи предпринимателей (РСПП).",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c006",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Справочник показателей в области устойчивого\nразвития (Приложение 6) является неотъемлемой\nчастью Отчета.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b7",
+          "quote": "Справочник показателей в области устойчивого\nразвития (Приложение 6) является неотъемлемой\nчастью Отчета.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Справочник показателей в области устойчивого\nразвития (Приложение 6) является неотъемлемой\nчастью Отчета.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c007",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Он содержит количественные\nпоказатели за три года <sup>1</sup>, характеризующие социальные\nи экологические воздействия от деятельности",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b7",
+          "quote": "Он содержит количественные\nпоказатели за три года <sup>1</sup>, характеризующие социальные\nи экологические воздействия от деятельности",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b9",
+          "quote": "организаций Группы «ЛУКОЙЛ» в России и систему\nкорпоративного управления.",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b20",
+          "quote": "1 Если показатели отражены менее чем за три года, это означает,\nчто: а) раскрыт новый показатель; б) показатель пересчитан в связи\nс изменением стандартов отчетности, применением новых стандартов\nотчетности или корректировкой критериев консолидации данных\nбез возможности ретроспективного раскрытия данных за предыдущие\nотчетные периоды.",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Он содержит количественные\nпоказатели за три года <sup>1</sup>, характеризующие социальные\nи экологические воздействия от деятельности",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c008",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "В Отчет включены\nколичественные показатели, отражающие ключевые\nвоздействия на окружающую среду и общество.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b9",
+          "quote": "В Отчет включены\nколичественные показатели, отражающие ключевые\nвоздействия на окружающую среду и общество.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В Отчет включены\nколичественные показатели, отражающие ключевые\nвоздействия на окружающую среду и общество.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c009",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "В тексте Отчета приведены ссылки на корпоративный\nсайт и другие источники корпоративной информации,\nкоторые содержат дополнительные или более\nподробные сведения по темам устойчивого развития.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b13",
+          "quote": "В тексте Отчета приведены ссылки на корпоративный\nсайт и другие источники корпоративной информации,\nкоторые содержат дополнительные или более\nподробные сведения по темам устойчивого развития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В тексте Отчета приведены ссылки на корпоративный\nсайт и другие источники корпоративной информации,\nкоторые содержат дополнительные или более\nподробные сведения по темам устойчивого развития.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c010",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Информация на сайте актуализируется регулярно.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b13",
+          "quote": "Информация на сайте актуализируется регулярно.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Информация на сайте актуализируется регулярно.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c011",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "- В Центре документов размещена новая\n[брошюра «Регионы, в которых мы живем](https://lukoil.ru/FileSystem/9/724097.pdf)\n<u>[и работаем»](https://lukoil.ru/FileSystem/9/724097.pdf)</u>",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b19",
+          "quote": "- В Центре документов размещена новая\n[брошюра «Регионы, в которых мы живем](https://lukoil.ru/FileSystem/9/724097.pdf)\n<u>[и работаем»](https://lukoil.ru/FileSystem/9/724097.pdf)</u>",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- В Центре документов размещена новая\n[брошюра «Регионы, в которых мы живем](https://lukoil.ru/FileSystem/9/724097.pdf)\n<u>[и работаем»](https://lukoil.ru/FileSystem/9/724097.pdf)</u>",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c012",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "В организациях Группы «ЛУКОЙЛ» заняты\nболее 90 тысяч работников.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Собственное утверждение компании; предмет — персонал и оплата; правило S1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b22",
+          "quote": "В организациях Группы «ЛУКОЙЛ» заняты\nболее 90 тысяч работников.",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b22",
+          "quote": "заняты",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b22",
+          "quote": "более 90",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b22",
+          "quote": "тысяч работников",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b22",
+          "quote": "Группы «ЛУКОЙЛ»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "заняты",
+      "value": "более 90",
+      "unit": "тысяч работников",
+      "period": "",
+      "entity_scope": "Группы «ЛУКОЙЛ»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы «ЛУКОЙЛ»",
+        "proposition": "В организациях Группы «ЛУКОЙЛ» заняты\nболее 90 тысяч работников.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c013",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Численность работников Группы «ЛУКОЙЛ»: >90 тыс. работников.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Собственное утверждение компании; предмет — персонал и оплата; правило S1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b27",
+          "quote": "# >90",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b28",
+          "quote": "работников",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b27",
+          "quote": ">90",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b28",
+          "quote": "тыс. работников",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p9:b22",
+          "quote": "Группы «ЛУКОЙЛ»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "работников",
+      "value": ">90",
+      "unit": "тыс. работников",
+      "period": "",
+      "entity_scope": "Группы «ЛУКОЙЛ»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы «ЛУКОЙЛ»",
+        "proposition": "Численность работников Группы «ЛУКОЙЛ»: >90 тыс. работников.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c014",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "ПАО «ЛУКОЙЛ» является Корпоративным\nцентром Группы «ЛУКОЙЛ». Одна из его основных\nфункций – координация организационных,\nинвестиционных и финансовых процессов\nв дочерних обществах и управление ими.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b13",
+          "quote": "ПАО «ЛУКОЙЛ» является Корпоративным\nцентром Группы «ЛУКОЙЛ». Одна из его основных\nфункций – координация организационных,\nинвестиционных и финансовых процессов\nв дочерних обществах и управление ими.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "ПАО «ЛУКОЙЛ» является Корпоративным\nцентром Группы «ЛУКОЙЛ». Одна из его основных\nфункций – координация организационных,\nинвестиционных и финансовых процессов\nв дочерних обществах и управление ими.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c015",
+      "type": "результат",
+      "block": "E",
+      "topic": "энергия",
+      "block2": "",
+      "statement": "Выработка электроэнергии объектами возобновляемой энергетики в 2025 году составила 1 448,4 млн кВт•ч.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — энергия; правило E1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b20",
+          "quote": "Суммарный объем выработки\nэлектроэнергии объектами возобновляемой\nэнергетики, включая ветровые, солнечные\nи гидроэлектростанции, составил 1 448,4 млн кВт•ч.",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b20",
+          "quote": "Суммарный объем выработки\nэлектроэнергии объектами возобновляемой\nэнергетики",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b20",
+          "quote": "1 448,4",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b20",
+          "quote": "млн кВт•ч",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b20",
+          "quote": "2025",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b14",
+          "quote": "Компания",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Суммарный объем выработки\nэлектроэнергии объектами возобновляемой\nэнергетики",
+      "value": "1 448,4",
+      "unit": "млн кВт•ч",
+      "period": "2025",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Выработка электроэнергии объектами возобновляемой энергетики в 2025 году составила 1 448,4 млн кВт•ч.",
+        "esg_object": "энергия",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c016",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "- Межведомственная рабочая группа по устойчивому\nразвитию под председательством министра\nэкономического развития Российской Федерации;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Участие компании в названной инициативе; название не означает доказанный эффект или выполнение цели.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b25",
+          "quote": "- Межведомственная рабочая группа по устойчивому\nразвитию под председательством министра\nэкономического развития Российской Федерации;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b24",
+          "quote": "В 2025 году ПАО «ЛУКОЙЛ» являлось участником\nследующих инициатив:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Межведомственная рабочая группа по устойчивому\nразвитию под председательством министра\nэкономического развития Российской Федерации;",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c017",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "- Глобальный договор ООН;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Участие компании в названной инициативе; название не означает доказанный эффект или выполнение цели.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b26",
+          "quote": "- Глобальный договор ООН;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b24",
+          "quote": "В 2025 году ПАО «ЛУКОЙЛ» являлось участником\nследующих инициатив:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Глобальный договор ООН;",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c018",
+      "type": "результат",
+      "block": "S",
+      "topic": "права человека",
+      "block2": "",
+      "statement": "- Социальная хартия российского бизнеса;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Участие компании в названной инициативе; название не означает доказанный эффект или выполнение цели.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b27",
+          "quote": "- Социальная хартия российского бизнеса;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b24",
+          "quote": "В 2025 году ПАО «ЛУКОЙЛ» являлось участником\nследующих инициатив:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S2",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Социальная хартия российского бизнеса;",
+        "esg_object": "права человека",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c019",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "- Нулевое рутинное сжигание попутного нефтяного\nгаза к 2030 году.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Участие компании в названной инициативе; название не означает доказанный эффект или выполнение цели.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b28",
+          "quote": "- Нулевое рутинное сжигание попутного нефтяного\nгаза к 2030 году.",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b24",
+          "quote": "В 2025 году ПАО «ЛУКОЙЛ» являлось участником\nследующих инициатив:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Нулевое рутинное сжигание попутного нефтяного\nгаза к 2030 году.",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c020",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Компания регулярно](https://lukoil.ru/Sustainability/ratingsandinitiatives)\nнаправляет информацию о своей деятельности\nпо запросам рейтинговых агентств и участвует\nв экспертных и тематических мероприятиях.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b29",
+          "quote": "Компания регулярно](https://lukoil.ru/Sustainability/ratingsandinitiatives)\nнаправляет информацию о своей деятельности\nпо запросам рейтинговых агентств и участвует\nв экспертных и тематических мероприятиях.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Компания регулярно](https://lukoil.ru/Sustainability/ratingsandinitiatives)\nнаправляет информацию о своей деятельности\nпо запросам рейтинговых агентств и участвует\nв экспертных и тематических мероприятиях.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c021",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Группа А",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3. Категориальная позиция: Позиция 2024 года. Порядок колонок установлен по явной HTML-шапке в MD; PDF не проверен.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "Группа А",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2024 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "<tr><td rowspan=\"3\">РСПП</td><td>Индекс «Ответственность и открытость»</td><td>Группа А</td><td>Группа А</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "Индекс «Ответственность и открытость»",
+          "role": "metric"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Индекс «Ответственность и открытость»: Группа А, позиция 2024 года.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c022",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Группа А",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3. Категориальная позиция: Позиция 2025 года. Порядок колонок установлен по явной HTML-шапке в MD; PDF не проверен.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "Группа А",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "<tr><td rowspan=\"3\">РСПП</td><td>Индекс «Ответственность и открытость»</td><td>Группа А</td><td>Группа А</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "Индекс «Ответственность и открытость»",
+          "role": "metric"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Индекс «Ответственность и открытость»: Группа А, позиция 2025 года.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c023",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "BB",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — этика и антикоррупция; правило G2. Категориальная позиция: Позиция 2024 года. Порядок колонок установлен по явной HTML-шапке в MD; PDF не проверен.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "BB",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2024 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "<tr><td>Антикоррупционный рейтинг российского<br>бизнеса</td><td>BB</td><td>BB</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "Антикоррупционный рейтинг российского<br>бизнеса",
+          "role": "metric"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G2",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Антикоррупционный рейтинг российского бизнеса: BB, позиция 2024 года.",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c024",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "BB",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — этика и антикоррупция; правило G2. Категориальная позиция: Позиция 2025 года. Порядок колонок установлен по явной HTML-шапке в MD; PDF не проверен.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "BB",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "<tr><td>Антикоррупционный рейтинг российского<br>бизнеса</td><td>BB</td><td>BB</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b32",
+          "quote": "Антикоррупционный рейтинг российского<br>бизнеса",
+          "role": "metric"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G2",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Антикоррупционный рейтинг российского бизнеса: BB, позиция 2025 года.",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c025",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "Рейтинг углеродного следа: 17-е место из 34, позиция 2024 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — климат; правило E1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td rowspan=\"5\">AK&amp;M</td><td>Рейтинг углеродного следа</td><td>17-е место<br>из 34</td><td>14-е место<br>из 34</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг углеродного следа",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "17-е",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "место",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2024 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг углеродного следа",
+      "value": "17-е",
+      "unit": "место",
+      "period": "2024",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компании",
+        "proposition": "Рейтинг углеродного следа: 17-е место из 34, позиция 2024 года.",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c026",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "Рейтинг углеродного следа: 14-е место из 34, позиция 2025 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — климат; правило E1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td rowspan=\"5\">AK&amp;M</td><td>Рейтинг углеродного следа</td><td>17-е место<br>из 34</td><td>14-е место<br>из 34</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг углеродного следа",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "14-е",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "место",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг углеродного следа",
+      "value": "14-е",
+      "unit": "место",
+      "period": "2025",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компании",
+        "proposition": "Рейтинг углеродного следа: 14-е место из 34, позиция 2025 года.",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c027",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Рейтинг нефинансовой отчетности: 96 баллов из 100, позиция 2024 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td>Рейтинг нефинансовой отчетности</td><td>96 баллов<br>из 100</td><td>96 баллов<br>из 100</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг нефинансовой отчетности",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "96",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "баллов",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2024 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг нефинансовой отчетности",
+      "value": "96",
+      "unit": "баллов",
+      "period": "2024",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Компании",
+        "proposition": "Рейтинг нефинансовой отчетности: 96 баллов из 100, позиция 2024 года.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c028",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Рейтинг нефинансовой отчетности: 96 баллов из 100, позиция 2025 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td>Рейтинг нефинансовой отчетности</td><td>96 баллов<br>из 100</td><td>96 баллов<br>из 100</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг нефинансовой отчетности",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "96",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "баллов",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг нефинансовой отчетности",
+      "value": "96",
+      "unit": "баллов",
+      "period": "2025",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Компании",
+        "proposition": "Рейтинг нефинансовой отчетности: 96 баллов из 100, позиция 2025 года.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c029",
+      "type": "результат",
+      "block": "S",
+      "topic": "местные сообщества",
+      "block2": "",
+      "statement": "Рейтинг ответственности перед обществом: 14-е место из 32, позиция 2024 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — местные сообщества; правило S2.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td>Рейтинг ответственности перед обществом</td><td>14-е место<br>из 32</td><td>14-е место<br>из 37</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг ответственности перед обществом",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "14-е",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "место",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2024 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг ответственности перед обществом",
+      "value": "14-е",
+      "unit": "место",
+      "period": "2024",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S2",
+        "subject": "Компании",
+        "proposition": "Рейтинг ответственности перед обществом: 14-е место из 32, позиция 2024 года.",
+        "esg_object": "местные сообщества",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c030",
+      "type": "результат",
+      "block": "S",
+      "topic": "местные сообщества",
+      "block2": "",
+      "statement": "Рейтинг ответственности перед обществом: 14-е место из 37, позиция 2025 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — местные сообщества; правило S2.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td>Рейтинг ответственности перед обществом</td><td>14-е место<br>из 32</td><td>14-е место<br>из 37</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг ответственности перед обществом",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "14-е",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "место",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг ответственности перед обществом",
+      "value": "14-е",
+      "unit": "место",
+      "period": "2025",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S2",
+        "subject": "Компании",
+        "proposition": "Рейтинг ответственности перед обществом: 14-е место из 37, позиция 2025 года.",
+        "esg_object": "местные сообщества",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c031",
+      "type": "результат",
+      "block": "S",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Рейтинг социальной эффективности: 19-е место из 33, позиция 2024 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило S2.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td>Рейтинг социальной эффективности</td><td>19-е место<br>из 33</td><td>21-е место<br>из 38</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг социальной эффективности",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "19-е",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "место",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2024 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг социальной эффективности",
+      "value": "19-е",
+      "unit": "место",
+      "period": "2024",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S2",
+        "subject": "Компании",
+        "proposition": "Рейтинг социальной эффективности: 19-е место из 33, позиция 2024 года.",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c032",
+      "type": "результат",
+      "block": "S",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Рейтинг социальной эффективности: 21-е место из 38, позиция 2025 года.",
+      "source_kind": "table",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило S2.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "<tr><td>Рейтинг социальной эффективности</td><td>19-е место<br>из 33</td><td>21-е место<br>из 38</td></tr>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "Рейтинг социальной эффективности",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "21-е",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b35",
+          "quote": "место",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "Позиция 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b31",
+          "quote": "<tr><td colspan=\"2\">Рейтинг</td><td>Позиция 2024 года</td><td>Позиция 2025 года</td></tr>",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p10:b30",
+          "quote": "Положение Компании в ESG-рейтингах по состоянию на январь 2026 года",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Рейтинг социальной эффективности",
+      "value": "21-е",
+      "unit": "место",
+      "period": "2025",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S2",
+        "subject": "Компании",
+        "proposition": "Рейтинг социальной эффективности: 21-е место из 38, позиция 2025 года.",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c033",
+      "type": "обязательство",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Цель 1. Эффективная система\nкорпоративного управления",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Конкретная корпоративная цель эффективного управления; номер цели не количественный показатель.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p11:b5",
+          "quote": "Цель 1. Эффективная система\nкорпоративного управления",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p11:b4",
+          "quote": "Цели Группы «ЛУКОЙЛ»\nв области устойчивого развития",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I2",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Цель 1. Эффективная система\nкорпоративного управления",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c034",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Обеспечение высокого качества\nкорпоративного, стратегического\nи оперативного управления, включая\nуправление в области устойчивого развития",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b4",
+          "quote": "Обеспечение высокого качества\nкорпоративного, стратегического\nи оперативного управления, включая\nуправление в области устойчивого развития",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b3",
+          "quote": "Основные воздействия от деятельности Компании <sup>1</sup>\n# Об Отчете",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b6",
+          "quote": "Характер фактических воздействий\nв 2025 году",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Обеспечение высокого качества\nкорпоративного, стратегического\nи оперативного управления, включая\nуправление в области устойчивого развития",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c035",
+      "type": "результат",
+      "block": "G",
+      "topic": "управление рисками",
+      "block2": "",
+      "statement": "Обеспечение функционирования механизмов\nуправления рисками, внутреннего контроля\nи внутреннего аудита",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — управление рисками; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b5",
+          "quote": "Обеспечение функционирования механизмов\nуправления рисками, внутреннего контроля\nи внутреннего аудита",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b3",
+          "quote": "Основные воздействия от деятельности Компании <sup>1</sup>\n# Об Отчете",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b6",
+          "quote": "Характер фактических воздействий\nв 2025 году",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Обеспечение функционирования механизмов\nуправления рисками, внутреннего контроля\nи внутреннего аудита",
+        "esg_object": "управление рисками",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c036",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "- <u>[Политика Группы «ЛУКОЙЛ» в области](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\n<u>[устойчивого развития](https://lukoil.ru/FileSystem/9/572570.pdf)</u>",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Политика компании указана как действующий корпоративный документ устойчивого развития.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b12",
+          "quote": "- <u>[Политика Группы «ЛУКОЙЛ» в области](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\n<u>[устойчивого развития](https://lukoil.ru/FileSystem/9/572570.pdf)</u>",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b11",
+          "quote": "Корпоративные документы",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- <u>[Политика Группы «ЛУКОЙЛ» в области](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\n<u>[устойчивого развития](https://lukoil.ru/FileSystem/9/572570.pdf)</u>",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c037",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "- Учет вопросов устойчивого развития\nв системе корпоративного управления\nи принятия решений",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b14",
+          "quote": "- Учет вопросов устойчивого развития\nв системе корпоративного управления\nи принятия решений",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b13",
+          "quote": "Механизмы реализации",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b3",
+          "quote": "Основные воздействия от деятельности Компании <sup>1</sup>\n# Об Отчете",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Учет вопросов устойчивого развития\nв системе корпоративного управления\nи принятия решений",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c038",
+      "type": "результат",
+      "block": "G",
+      "topic": "управление рисками",
+      "block2": "",
+      "statement": "- Идентификация и управление рисками,\nвнутренний аудит практик в области\nустойчивого развития",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — управление рисками; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b15",
+          "quote": "- Идентификация и управление рисками,\nвнутренний аудит практик в области\nустойчивого развития",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b13",
+          "quote": "Механизмы реализации",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b3",
+          "quote": "Основные воздействия от деятельности Компании <sup>1</sup>\n# Об Отчете",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Идентификация и управление рисками,\nвнутренний аудит практик в области\nустойчивого развития",
+        "esg_object": "управление рисками",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c039",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "- Мониторинг показателей и отчетность\nв области устойчивого развития",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b16",
+          "quote": "- Мониторинг показателей и отчетность\nв области устойчивого развития",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b13",
+          "quote": "Механизмы реализации",
+          "role": "context"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b3",
+          "quote": "Основные воздействия от деятельности Компании <sup>1</sup>\n# Об Отчете",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- Мониторинг показателей и отчетность\nв области устойчивого развития",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c040",
+      "type": "декларация",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Группа «ЛУКОЙЛ» рассматривает концепцию\nустойчивого развития в качестве одного\nиз инструментов управления бизнесом.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b17",
+          "quote": "Группа «ЛУКОЙЛ» рассматривает концепцию\nустойчивого развития в качестве одного\nиз инструментов управления бизнесом.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Группа «ЛУКОЙЛ» рассматривает концепцию\nустойчивого развития в качестве одного\nиз инструментов управления бизнесом.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c041",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "[Позиция Компании закреплена в Политике](https://lukoil.ru/FileSystem/9/572570.pdf)\n<u>[Группы «ЛУКОЙЛ» в области устойчивого](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\n<u>[развития. Документ определяет корпоративные](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\nпринципы и семь целей, которые формируют\nустойчивость Группы «ЛУКОЙЛ».",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Действующая политика содержит корпоративные принципы и семь целей. Период утверждения/действия не указан.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b17",
+          "quote": "[Позиция Компании закреплена в Политике](https://lukoil.ru/FileSystem/9/572570.pdf)\n<u>[Группы «ЛУКОЙЛ» в области устойчивого](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\n<u>[развития. Документ определяет корпоративные](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\nпринципы и семь целей, которые формируют\nустойчивость Группы «ЛУКОЙЛ».",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b17",
+          "quote": "целей",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b17",
+          "quote": "семь",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b17",
+          "quote": "целей",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b17",
+          "quote": "Группы «ЛУКОЙЛ»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "целей",
+      "value": "семь",
+      "unit": "целей",
+      "period": "",
+      "entity_scope": "Группы «ЛУКОЙЛ»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Группы «ЛУКОЙЛ»",
+        "proposition": "[Позиция Компании закреплена в Политике](https://lukoil.ru/FileSystem/9/572570.pdf)\n<u>[Группы «ЛУКОЙЛ» в области устойчивого](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\n<u>[развития. Документ определяет корпоративные](https://lukoil.ru/FileSystem/9/572570.pdf)</u>\nпринципы и семь целей, которые формируют\nустойчивость Группы «ЛУКОЙЛ».",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c042",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "[В Компании создана система распределения](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement/ManagementSystem)\n<u>[ответственности и кросс-функционального](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement/ManagementSystem)</u>\nвзаимодействия между различными уровнями\nуправления по существенным аспектам устойчивого\nразвития.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b21",
+          "quote": "[В Компании создана система распределения](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement/ManagementSystem)\n<u>[ответственности и кросс-функционального](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement/ManagementSystem)</u>\nвзаимодействия между различными уровнями\nуправления по существенным аспектам устойчивого\nразвития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "[В Компании создана система распределения](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement/ManagementSystem)\n<u>[ответственности и кросс-функционального](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement/ManagementSystem)</u>\nвзаимодействия между различными уровнями\nуправления по существенным аспектам устойчивого\nразвития.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c043",
+      "type": "результат",
+      "block": "G",
+      "topic": "управление рисками",
+      "block2": "",
+      "statement": "Тенденции в области устойчивого развития\nучитываются в процессе идентификации рисков\nи при разработке сценарных условий стратегического\nразвития Группы «ЛУКОЙЛ».",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — управление рисками; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b21",
+          "quote": "Тенденции в области устойчивого развития\nучитываются в процессе идентификации рисков\nи при разработке сценарных условий стратегического\nразвития Группы «ЛУКОЙЛ».",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Тенденции в области устойчивого развития\nучитываются в процессе идентификации рисков\nи при разработке сценарных условий стратегического\nразвития Группы «ЛУКОЙЛ».",
+        "esg_object": "управление рисками",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c044",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "В частности, при актуализации\nстратегии Компании для оценки климатических\nрисков рассматривается низкоуглеродный сценарий,\nсоответствующий целям Парижского соглашения\nпо климату.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Оценка климатических рисков с использованием низкоуглеродного сценария — экологический риск как предмет, E2.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b21",
+          "quote": "В частности, при актуализации\nстратегии Компании для оценки климатических\nрисков рассматривается низкоуглеродный сценарий,\nсоответствующий целям Парижского соглашения\nпо климату.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E2",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В частности, при актуализации\nстратегии Компании для оценки климатических\nрисков рассматривается низкоуглеродный сценарий,\nсоответствующий целям Парижского соглашения\nпо климату.",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c045",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "[В Политике Группы «ЛУКОЙЛ» в области устойчивого](https://lukoil.ru/FileSystem/9/572570.pdf)\n<u>[развития представлены цели и задачи Группы «ЛУКОЙЛ».](https://lukoil.ru/FileSystem/9/572570.pdf)</u>",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b22",
+          "quote": "[В Политике Группы «ЛУКОЙЛ» в области устойчивого](https://lukoil.ru/FileSystem/9/572570.pdf)\n<u>[развития представлены цели и задачи Группы «ЛУКОЙЛ».](https://lukoil.ru/FileSystem/9/572570.pdf)</u>",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "[В Политике Группы «ЛУКОЙЛ» в области устойчивого](https://lukoil.ru/FileSystem/9/572570.pdf)\n<u>[развития представлены цели и задачи Группы «ЛУКОЙЛ».](https://lukoil.ru/FileSystem/9/572570.pdf)</u>",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c046",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Положения политики распространяются на все бизнессегменты, учитывают требования законодательства,\nа также международные и национальные ориентиры.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b22",
+          "quote": "Положения политики распространяются на все бизнессегменты, учитывают требования законодательства,\nа также международные и национальные ориентиры.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Положения политики распространяются на все бизнессегменты, учитывают требования законодательства,\nа также международные и национальные ориентиры.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c047",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Формулировки носят рамочный характер и задают\nприоритеты и направления действий.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b22",
+          "quote": "Формулировки носят рамочный характер и задают\nприоритеты и направления действий.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Формулировки носят рамочный характер и задают\nприоритеты и направления действий.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c048",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "В настоящем Отчете\nони раскрываются через операционные цели и показатели,\nпо которым оцениваются результаты отчетного года.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — другое; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b22",
+          "quote": "В настоящем Отчете\nони раскрываются через операционные цели и показатели,\nпо которым оцениваются результаты отчетного года.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В настоящем Отчете\nони раскрываются через операционные цели и показатели,\nпо которым оцениваются результаты отчетного года.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c049",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "В ПАО «ЛУКОЙЛ» и иных организациях Группы «ЛУКОЙЛ»\nключевые показатели деятельности (КПД) применяются\nдля оценки достигнутых результатов и эффективности\nуправления.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b23",
+          "quote": "В ПАО «ЛУКОЙЛ» и иных организациях Группы «ЛУКОЙЛ»\nключевые показатели деятельности (КПД) применяются\nдля оценки достигнутых результатов и эффективности\nуправления.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В ПАО «ЛУКОЙЛ» и иных организациях Группы «ЛУКОЙЛ»\nключевые показатели деятельности (КПД) применяются\nдля оценки достигнутых результатов и эффективности\nуправления.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c050",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Ряд КПД включен в систему мотивации\nруководящих работников, другие используются\nдля мониторинга и внутреннего контроля выполнения\nкорпоративных требований и целевых программ.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b23",
+          "quote": "Ряд КПД включен в систему мотивации\nруководящих работников, другие используются\nдля мониторинга и внутреннего контроля выполнения\nкорпоративных требований и целевых программ.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Ряд КПД включен в систему мотивации\nруководящих работников, другие используются\nдля мониторинга и внутреннего контроля выполнения\nкорпоративных требований и целевых программ.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c051",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "S",
+      "statement": "В частности, КПД «Обеспечение требуемого уровня ПБ, ОТ\nи ОС» представляет собой мотивационный интегральный\nпоказатель; целевые значения устанавливаются ежегодно\nдля каждого бизнес-сегмента и бизнес-сектора.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b24",
+          "quote": "В частности, КПД «Обеспечение требуемого уровня ПБ, ОТ\nи ОС» представляет собой мотивационный интегральный\nпоказатель; целевые значения устанавливаются ежегодно\nдля каждого бизнес-сегмента и бизнес-сектора.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В частности, КПД «Обеспечение требуемого уровня ПБ, ОТ\nи ОС» представляет собой мотивационный интегральный\nпоказатель; целевые значения устанавливаются ежегодно\nдля каждого бизнес-сегмента и бизнес-сектора.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "S",
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c052",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "S",
+      "statement": "В конце\nгода подводятся результаты, которые представляются\nна заседании Комитета ПАО «ЛУКОЙЛ» по промышленной\nбезопасности, охраны труда и окружающей среды (далее\nтакже ПБ, ОТ и ОС).",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b24",
+          "quote": "В конце\nгода подводятся результаты, которые представляются\nна заседании Комитета ПАО «ЛУКОЙЛ» по промышленной\nбезопасности, охраны труда и окружающей среды (далее\nтакже ПБ, ОТ и ОС).",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В конце\nгода подводятся результаты, которые представляются\nна заседании Комитета ПАО «ЛУКОЙЛ» по промышленной\nбезопасности, охраны труда и окружающей среды (далее\nтакже ПБ, ОТ и ОС).",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "S",
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c053",
+      "type": "результат",
+      "block": "G",
+      "topic": "управление рисками",
+      "block2": "E",
+      "statement": "Показатель «Выбросы парниковых\nгазов по охватам 1 и 2» находится в режиме тестирования\nдо 2027 года.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Тестирование показателя описывает механизм мониторинга, а не величину выбросов; номер охвата и дата окончания не являются значением измеренного ESG-показателя.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b24",
+          "quote": "Показатель «Выбросы парниковых\nгазов по охватам 1 и 2» находится в режиме тестирования\nдо 2027 года.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Показатель «Выбросы парниковых\nгазов по охватам 1 и 2» находится в режиме тестирования\nдо 2027 года.",
+        "esg_object": "управление рисками",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c054",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Целевые операционные показатели, которые\nиспользуются для оценки реализации целевых программ\nи выполнения обязательств Компании, раскрываются\nв соответствующих разделах Отчета.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b25",
+          "quote": "Целевые операционные показатели, которые\nиспользуются для оценки реализации целевых программ\nи выполнения обязательств Компании, раскрываются\nв соответствующих разделах Отчета.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Целевые операционные показатели, которые\nиспользуются для оценки реализации целевых программ\nи выполнения обязательств Компании, раскрываются\nв соответствующих разделах Отчета.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c055",
+      "type": "результат",
+      "block": "G",
+      "topic": "управление рисками",
+      "block2": "",
+      "statement": "Целевые значения\nоперационных КПД устанавливаются преимущественно\nна календарный (финансовый) год.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — управление рисками; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b25",
+          "quote": "Целевые значения\nоперационных КПД устанавливаются преимущественно\nна календарный (финансовый) год.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Целевые значения\nоперационных КПД устанавливаются преимущественно\nна календарный (финансовый) год.",
+        "esg_object": "управление рисками",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c056",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "[Подробная информация о системе управления вопросами устойчивого развития представлена на сайте Компании в разделе «Устойчивое развитие» /](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement)\n<u>[«Управление устойчивым развитием». Корпоративные политики и другие внутренние документы представлены на сайте Компании в разделе «Центр](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement)</u>\n<u>[документов».](https://lukoil.ru/Sustainability/DocumentCenter)</u>",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b27",
+          "quote": "[Подробная информация о системе управления вопросами устойчивого развития представлена на сайте Компании в разделе «Устойчивое развитие» /](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement)\n<u>[«Управление устойчивым развитием». Корпоративные политики и другие внутренние документы представлены на сайте Компании в разделе «Центр](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement)</u>\n<u>[документов».](https://lukoil.ru/Sustainability/DocumentCenter)</u>",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "[Подробная информация о системе управления вопросами устойчивого развития представлена на сайте Компании в разделе «Устойчивое развитие» /](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement)\n<u>[«Управление устойчивым развитием». Корпоративные политики и другие внутренние документы представлены на сайте Компании в разделе «Центр](https://lukoil.ru/Sustainability/sustainabledevelopmentmanagement)</u>\n<u>[документов».](https://lukoil.ru/Sustainability/DocumentCenter)</u>",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c057",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Совет директоров ПАО «ЛУКОЙЛ» (далее – Совет\nдиректоров) осуществляет общее руководство\nдеятельностью Группы «ЛУКОЙЛ» за исключением\nвопросов, отнесенных к компетенции Общего\nсобрания акционеров.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b29",
+          "quote": "Совет директоров ПАО «ЛУКОЙЛ» (далее – Совет\nдиректоров) осуществляет общее руководство\nдеятельностью Группы «ЛУКОЙЛ» за исключением\nвопросов, отнесенных к компетенции Общего\nсобрания акционеров.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Совет директоров ПАО «ЛУКОЙЛ» (далее – Совет\nдиректоров) осуществляет общее руководство\nдеятельностью Группы «ЛУКОЙЛ» за исключением\nвопросов, отнесенных к компетенции Общего\nсобрания акционеров.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c058",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "В рамках своих функций\nданный орган управления играет важную роль",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b29",
+          "quote": "В рамках своих функций\nданный орган управления играет важную роль",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b34",
+          "quote": "в определении стратегии Компании, контролирует\nее исполнение, обеспечивает защиту и реализацию\nправ акционеров.",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В рамках своих функций\nданный орган управления играет важную роль",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c059",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "При обсуждении стратегии Компании Совет директоров\n<u>[учитывает потенциальное влияние международной](https://lukoil.ru/Business/Futuremarkettrends)</u>\nи национальной повестки в области устойчивого\nразвития на Группу «ЛУКОЙЛ», а также изменения\nзаконодательной среды и экономических условий\nдеятельности Компании.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b31",
+          "quote": "При обсуждении стратегии Компании Совет директоров\n<u>[учитывает потенциальное влияние международной](https://lukoil.ru/Business/Futuremarkettrends)</u>\nи национальной повестки в области устойчивого\nразвития на Группу «ЛУКОЙЛ», а также изменения\nзаконодательной среды и экономических условий\nдеятельности Компании.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "При обсуждении стратегии Компании Совет директоров\n<u>[учитывает потенциальное влияние международной](https://lukoil.ru/Business/Futuremarkettrends)</u>\nи национальной повестки в области устойчивого\nразвития на Группу «ЛУКОЙЛ», а также изменения\nзаконодательной среды и экономических условий\nдеятельности Компании.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c060",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "В процессе стратегического\nпланирования Совет директоров рассматривает вопросы\nустойчивого развития, а также связанные с ними риски\nи управленческие приоритеты в ходе актуализации\nпрограммы стратегического развития.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b31",
+          "quote": "В процессе стратегического\nпланирования Совет директоров рассматривает вопросы\nустойчивого развития, а также связанные с ними риски\nи управленческие приоритеты в ходе актуализации\nпрограммы стратегического развития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В процессе стратегического\nпланирования Совет директоров рассматривает вопросы\nустойчивого развития, а также связанные с ними риски\nи управленческие приоритеты в ходе актуализации\nпрограммы стратегического развития.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c061",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "С учетом\nэтих факторов при необходимости обеспечивается\nактуализация корпоративных политик и подходов\nк управлению рисками, поддерживающих реализацию\nстратегии.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b31",
+          "quote": "С учетом\nэтих факторов при необходимости обеспечивается\nактуализация корпоративных политик и подходов\nк управлению рисками, поддерживающих реализацию\nстратегии.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "С учетом\nэтих факторов при необходимости обеспечивается\nактуализация корпоративных политик и подходов\nк управлению рисками, поддерживающих реализацию\nстратегии.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c062",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "В соответствии с рекомендациями Кодекса корпоративного\nуправления Советом директоров ежегодно заслушивается\nвопрос о раскрытии информации в отчетах об устойчивом\nразвитии, обсуждаются результаты реализации целевых\nпрограмм и изменение показателей по основным\nнаправлениям, предусмотренным Политикой\nГруппы «ЛУКОЙЛ» в области устойчивого развития.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "В соответствии с рекомендациями Кодекса корпоративного\nуправления Советом директоров ежегодно заслушивается\nвопрос о раскрытии информации в отчетах об устойчивом\nразвитии, обсуждаются результаты реализации целевых\nпрограмм и изменение показателей по основным\nнаправлениям, предусмотренным Политикой\nГруппы «ЛУКОЙЛ» в области устойчивого развития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В соответствии с рекомендациями Кодекса корпоративного\nуправления Советом директоров ежегодно заслушивается\nвопрос о раскрытии информации в отчетах об устойчивом\nразвитии, обсуждаются результаты реализации целевых\nпрограмм и изменение показателей по основным\nнаправлениям, предусмотренным Политикой\nГруппы «ЛУКОЙЛ» в области устойчивого развития.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c063",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Начиная с 2021 года вопросы, связанные с тематикой\nустойчивого развития и взаимодействием с отдельными\nгруппами заинтересованных сторон, составляют около\n30% вопросов повестки дня заседаний или заочных\nголосований Совета директоров.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "Начиная с 2021 года вопросы, связанные с тематикой\nустойчивого развития и взаимодействием с отдельными\nгруппами заинтересованных сторон, составляют около\n30% вопросов повестки дня заседаний или заочных\nголосований Совета директоров.",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "вопросов повестки дня заседаний или заочных\nголосований Совета директоров",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "около\n30%",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "Начиная с 2021 года",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b32",
+          "quote": "Совета директоров",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "вопросов повестки дня заседаний или заочных\nголосований Совета директоров",
+      "value": "около\n30%",
+      "unit": "%",
+      "period": "Начиная с 2021 года",
+      "entity_scope": "Совета директоров",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G1",
+        "subject": "Совета директоров",
+        "proposition": "Начиная с 2021 года вопросы, связанные с тематикой\nустойчивого развития и взаимодействием с отдельными\nгруппами заинтересованных сторон, составляют около\n30% вопросов повестки дня заседаний или заочных\nголосований Совета директоров.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c064",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "В состав Совета директоров\nвходят лица, обладающие знаниями, навыками\nи опытом, соответствующими их полномочиям\nи рассматриваемым вопросам.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b34",
+          "quote": "В состав Совета директоров\nвходят лица, обладающие знаниями, навыками\nи опытом, соответствующими их полномочиям\nи рассматриваемым вопросам.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В состав Совета директоров\nвходят лица, обладающие знаниями, навыками\nи опытом, соответствующими их полномочиям\nи рассматриваемым вопросам.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c065",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Предварительная проработка соответствующих\nматериалов осуществляется профильными комитетами\nСовета директоров: Комитетом по стратегии,\nинвестициям, устойчивому развитию и климатической\nадаптации, Комитетом по аудиту и Комитетом по кадрам\nи вознаграждениям.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b35",
+          "quote": "Предварительная проработка соответствующих\nматериалов осуществляется профильными комитетами\nСовета директоров: Комитетом по стратегии,\nинвестициям, устойчивому развитию и климатической\nадаптации, Комитетом по аудиту и Комитетом по кадрам\nи вознаграждениям.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Предварительная проработка соответствующих\nматериалов осуществляется профильными комитетами\nСовета директоров: Комитетом по стратегии,\nинвестициям, устойчивому развитию и климатической\nадаптации, Комитетом по аудиту и Комитетом по кадрам\nи вознаграждениям.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c066",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c067",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Всего рассмотрено 19 вопросов, среди них:",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "Всего рассмотрено 19 вопросов, среди них:",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "вопросов",
+          "role": "metric"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "19",
+          "role": "value"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "вопросов",
+          "role": "unit"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "2025",
+          "role": "period"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "Советом директоров",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "вопросов",
+      "value": "19",
+      "unit": "вопросов",
+      "period": "2025",
+      "entity_scope": "Советом директоров",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G1",
+        "subject": "Советом директоров",
+        "proposition": "Всего рассмотрено 19 вопросов, среди них:",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c068",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "S",
+      "statement": "- отчет о работе по управлению персоналом\nв организациях Группы «ЛУКОЙЛ»;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b37",
+          "quote": "- отчет о работе по управлению персоналом\nв организациях Группы «ЛУКОЙЛ»;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием. Всего рассмотрено 19 вопросов, среди них:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- отчет о работе по управлению персоналом\nв организациях Группы «ЛУКОЙЛ»;",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "S"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c069",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "S",
+      "statement": "- о состоянии промышленной безопасности, охраны труда\nи окружающей среды;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b38",
+          "quote": "- о состоянии промышленной безопасности, охраны труда\nи окружающей среды;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием. Всего рассмотрено 19 вопросов, среди них:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- о состоянии промышленной безопасности, охраны труда\nи окружающей среды;",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "S",
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c070",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "- о надежности и эффективности функционирования\nсистемы управления рисками и внутреннего контроля;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b39",
+          "quote": "- о надежности и эффективности функционирования\nсистемы управления рисками и внутреннего контроля;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием. Всего рассмотрено 19 вопросов, среди них:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- о надежности и эффективности функционирования\nсистемы управления рисками и внутреннего контроля;",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c071",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "- о реализации Политики ПАО «ЛУКОЙЛ»\nпо противодействию коррупции;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b40",
+          "quote": "- о реализации Политики ПАО «ЛУКОЙЛ»\nпо противодействию коррупции;",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием. Всего рассмотрено 19 вопросов, среди них:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- о реализации Политики ПАО «ЛУКОЙЛ»\nпо противодействию коррупции;",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c072",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "S",
+      "statement": "- об утверждении Политики в области внешней\nсоциальной деятельности Группы «ЛУКОЙЛ».",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b41",
+          "quote": "- об утверждении Политики в области внешней\nсоциальной деятельности Группы «ЛУКОЙЛ».",
+          "role": "statement"
+        },
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b36",
+          "quote": "В 2025 году Советом директоров рассматривались\nвопросы корпоративного управления, в том числе\nфункционирования органов Компании, значительное\nвнимание уделялось вопросам, связанным с устойчивым\nразвитием. Всего рассмотрено 19 вопросов, среди них:",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "- об утверждении Политики в области внешней\nсоциальной деятельности Группы «ЛУКОЙЛ».",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "S"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c073",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Таким образом, Совет директоров и его комитеты\nрассмотрели существенные вопросы корпоративного\nуправления и контроля, включая аспекты устойчивого\nразвития.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — совет директоров и акционеры; правило G1.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b42",
+          "quote": "Таким образом, Совет директоров и его комитеты\nрассмотрели существенные вопросы корпоративного\nуправления и контроля, включая аспекты устойчивого\nразвития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Таким образом, Совет директоров и его комитеты\nрассмотрели существенные вопросы корпоративного\nуправления и контроля, включая аспекты устойчивого\nразвития.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c074",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Более подробные сведения, включая описание\nсистемы вознаграждения членов Совета директоров\nи руководящих работников высшего уровня управления,\n[представлены в Годовом отчете](https://lukoil.ru/FileSystem/9/726420.pdf) <sup>2</sup> .",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Собственное утверждение компании; предмет — раскрытие и заверение; правило G3.",
+      "evidence": [
+        {
+          "block_id": "LKOH-2025-ОУР:p12:b42",
+          "quote": "Более подробные сведения, включая описание\nсистемы вознаграждения членов Совета директоров\nи руководящих работников высшего уровня управления,\n[представлены в Годовом отчете](https://lukoil.ru/FileSystem/9/726420.pdf) <sup>2</sup> .",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «ЛУКОЙЛ» / Группа «ЛУКОЙЛ»",
+        "proposition": "Более подробные сведения, включая описание\nсистемы вознаграждения членов Совета директоров\nи руководящих работников высшего уровня управления,\n[представлены в Годовом отчете](https://lukoil.ru/FileSystem/9/726420.pdf) <sup>2</sup> .",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
     }
   ],
   "coverage": [
@@ -5331,6 +8788,1081 @@
       "status": "pending",
       "reason": "Изображение исходной страницы отсутствует. Требуется визуальное чтение PDF; ссылка не подтверждает содержание графики.",
       "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b3",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b4",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c001",
+        "LKOH-2025-ОУР_b0003::c002"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b5",
+      "status": "excluded",
+      "reason": "Юбилей и история компании без конкретного ESG-предмета.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b6",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c003",
+        "LKOH-2025-ОУР_b0003::c004",
+        "LKOH-2025-ОУР_b0003::c005"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b7",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c006",
+        "LKOH-2025-ОУР_b0003::c007"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b8",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b9",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c007",
+        "LKOH-2025-ОУР_b0003::c008"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b10",
+      "status": "excluded",
+      "reason": "Справочное описание приложений, терминов или границ; самостоятельной практики контроля или ESG-показателя нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b11",
+      "status": "excluded",
+      "reason": "Справочное описание приложений, терминов или границ; самостоятельной практики контроля или ESG-показателя нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b12",
+      "status": "excluded",
+      "reason": "Справочное описание приложений, терминов или границ; самостоятельной практики контроля или ESG-показателя нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b13",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c009",
+        "LKOH-2025-ОУР_b0003::c010"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b14",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b15",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b16",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b17",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b18",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b19",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c011"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b20",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c007"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b21",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b22",
+      "status": "pending",
+      "reason": "Для количественного утверждения не установлен период; требуется проверка контекста оригинала.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c012",
+        "LKOH-2025-ОУР_b0003::c013"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b23",
+      "status": "excluded",
+      "reason": "Организация операционных бизнес-сегментов и цепочки стоимости без конкретной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b24",
+      "status": "excluded",
+      "reason": "Название обычного операционного сегмента без ESG-предмета.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b25",
+      "status": "excluded",
+      "reason": "Название обычного операционного сегмента без ESG-предмета.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b26",
+      "status": "excluded",
+      "reason": "Название обычного операционного сегмента без ESG-предмета.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b27",
+      "status": "pending",
+      "reason": "Для количественного утверждения не установлен период; требуется проверка контекста оригинала.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c013"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b28",
+      "status": "pending",
+      "reason": "Единица показателя связана с числом в b27; период не установлен, требуется сверка оригинала.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c013"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b29",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b30",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b31",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b32",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p9:b33",
+      "status": "pending",
+      "reason": "Изображение отсутствует в MD; ссылка на оригинал сохранена в batch.json. Требуется визуальное чтение физической PDF-страницы; графика не проверена.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b3",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b4",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b5",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b6",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b7",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b8",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b9",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b10",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b11",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b12",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b13",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c014"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b14",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c015"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b15",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b16",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b17",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b18",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b19",
+      "status": "excluded",
+      "reason": "Обычное описание производства, запасов, продукции или структуры бизнеса; экологического либо социального результата не утверждается.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b20",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c015"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b21",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b22",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b23",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b24",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c016",
+        "LKOH-2025-ОУР_b0003::c017",
+        "LKOH-2025-ОУР_b0003::c018",
+        "LKOH-2025-ОУР_b0003::c019"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b25",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c016"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b26",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c017"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b27",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c018"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b28",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c019"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b29",
+      "status": "pending",
+      "reason": "Включение в неназванный ряд рейтингов не позволяет установить предмет E/S/G; отдельно извлечены предоставление информации и участие в мероприятиях.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c020"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b30",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c021",
+        "LKOH-2025-ОУР_b0003::c022",
+        "LKOH-2025-ОУР_b0003::c023",
+        "LKOH-2025-ОУР_b0003::c024",
+        "LKOH-2025-ОУР_b0003::c025",
+        "LKOH-2025-ОУР_b0003::c026",
+        "LKOH-2025-ОУР_b0003::c027",
+        "LKOH-2025-ОУР_b0003::c028",
+        "LKOH-2025-ОУР_b0003::c029",
+        "LKOH-2025-ОУР_b0003::c030",
+        "LKOH-2025-ОУР_b0003::c031",
+        "LKOH-2025-ОУР_b0003::c032"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b31",
+      "status": "pending",
+      "reason": "Общий ESG-ренкинг НРА: Группа 1 за 2024 и 2025 годы; предмет признания по E/S/G не установлен. Нужна предметная расшифровка, буква не назначена.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c021",
+        "LKOH-2025-ОУР_b0003::c022",
+        "LKOH-2025-ОУР_b0003::c023",
+        "LKOH-2025-ОУР_b0003::c024",
+        "LKOH-2025-ОУР_b0003::c025",
+        "LKOH-2025-ОУР_b0003::c026",
+        "LKOH-2025-ОУР_b0003::c027",
+        "LKOH-2025-ОУР_b0003::c028",
+        "LKOH-2025-ОУР_b0003::c029",
+        "LKOH-2025-ОУР_b0003::c030",
+        "LKOH-2025-ОУР_b0003::c031",
+        "LKOH-2025-ОУР_b0003::c032"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b32",
+      "status": "pending",
+      "reason": "Извлечены индексы открытости и антикоррупционный рейтинг за оба года. Индекс «Вектор устойчивого развития» (Группа В / Группа А) оставлен pending: конкретная предметная область признания не раскрыта.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c021",
+        "LKOH-2025-ОУР_b0003::c022",
+        "LKOH-2025-ОУР_b0003::c023",
+        "LKOH-2025-ОУР_b0003::c024"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b33",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b34",
+      "status": "pending",
+      "reason": "Оценка ААА ЭКГ-рейтинга: область E/S/G по содержанию блока не установлена; не классифицируется G автоматически.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b35",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c025",
+        "LKOH-2025-ОУР_b0003::c026",
+        "LKOH-2025-ОУР_b0003::c027",
+        "LKOH-2025-ОУР_b0003::c028",
+        "LKOH-2025-ОУР_b0003::c029",
+        "LKOH-2025-ОУР_b0003::c030",
+        "LKOH-2025-ОУР_b0003::c031",
+        "LKOH-2025-ОУР_b0003::c032"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b36",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b37",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b38",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b39",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p10:b40",
+      "status": "pending",
+      "reason": "Изображение отсутствует в MD; ссылка на оригинал сохранена в batch.json. Требуется визуальное чтение физической PDF-страницы; графика не проверена.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b3",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b4",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c033"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b5",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c033"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b6",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b7",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b8",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b9",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b10",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b11",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b12",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b13",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b14",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b15",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b16",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p11:b17",
+      "status": "pending",
+      "reason": "Изображение отсутствует в MD; ссылка на оригинал сохранена в batch.json. Требуется визуальное чтение физической PDF-страницы; графика не проверена.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b3",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c034",
+        "LKOH-2025-ОУР_b0003::c035",
+        "LKOH-2025-ОУР_b0003::c037",
+        "LKOH-2025-ОУР_b0003::c038",
+        "LKOH-2025-ОУР_b0003::c039"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b4",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c034"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b5",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c035"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b6",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c034",
+        "LKOH-2025-ОУР_b0003::c035"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b7",
+      "status": "pending",
+      "reason": "Отдельная метка матрицы воздействий; соответствие прямого/косвенного и позитивного/негативного воздействия строкам по MD не установлено. Требуется визуальная сверка.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b8",
+      "status": "pending",
+      "reason": "Отдельная метка матрицы воздействий; соответствие прямого/косвенного и позитивного/негативного воздействия строкам по MD не установлено. Требуется визуальная сверка.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b9",
+      "status": "pending",
+      "reason": "Отдельная метка матрицы воздействий; соответствие прямого/косвенного и позитивного/негативного воздействия строкам по MD не установлено. Требуется визуальная сверка.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b10",
+      "status": "pending",
+      "reason": "Отдельная метка матрицы воздействий; соответствие прямого/косвенного и позитивного/негативного воздействия строкам по MD не установлено. Требуется визуальная сверка.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b11",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c036"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b12",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c036"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b13",
+      "status": "pending",
+      "reason": "Блок использован в доказательствах. Требуется проверить, содержит ли он отдельное заявление.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c037",
+        "LKOH-2025-ОУР_b0003::c038",
+        "LKOH-2025-ОУР_b0003::c039"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b14",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c037"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b15",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c038"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b16",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c039"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b17",
+      "status": "pending",
+      "reason": "Для количественного утверждения не установлен период; требуется проверка контекста оригинала.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c040",
+        "LKOH-2025-ОУР_b0003::c041"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b18",
+      "status": "excluded",
+      "reason": "Методическое определение воздействий, рисков и возможностей; не отдельный результат или практика компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b19",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b20",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b21",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c042",
+        "LKOH-2025-ОУР_b0003::c043",
+        "LKOH-2025-ОУР_b0003::c044"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b22",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c045",
+        "LKOH-2025-ОУР_b0003::c046",
+        "LKOH-2025-ОУР_b0003::c047",
+        "LKOH-2025-ОУР_b0003::c048"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b23",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c049",
+        "LKOH-2025-ОУР_b0003::c050"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b24",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c051",
+        "LKOH-2025-ОУР_b0003::c052",
+        "LKOH-2025-ОУР_b0003::c053"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b25",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c054",
+        "LKOH-2025-ОУР_b0003::c055"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b26",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b27",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c056"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b28",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b29",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c057",
+        "LKOH-2025-ОУР_b0003::c058"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b30",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b31",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c059",
+        "LKOH-2025-ОУР_b0003::c060",
+        "LKOH-2025-ОУР_b0003::c061"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b32",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c062",
+        "LKOH-2025-ОУР_b0003::c063"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b33",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b34",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c058",
+        "LKOH-2025-ОУР_b0003::c064"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b35",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c065"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b36",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c066",
+        "LKOH-2025-ОУР_b0003::c067",
+        "LKOH-2025-ОУР_b0003::c068",
+        "LKOH-2025-ОУР_b0003::c069",
+        "LKOH-2025-ОУР_b0003::c070",
+        "LKOH-2025-ОУР_b0003::c071",
+        "LKOH-2025-ОУР_b0003::c072"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b37",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c068"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b38",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c069"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b39",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c070"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b40",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c071"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b41",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c072"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b42",
+      "status": "extracted",
+      "reason": "Извлечены самостоятельные ESG-утверждения; цитаты и контекст сохранены.",
+      "claim_ids": [
+        "LKOH-2025-ОУР_b0003::c073",
+        "LKOH-2025-ОУР_b0003::c074"
+      ]
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b43",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b44",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b45",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b46",
+      "status": "excluded",
+      "reason": "Техническая разметка, навигация, самостоятельный заголовок или ссылка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "LKOH-2025-ОУР:p12:b47",
+      "status": "pending",
+      "reason": "Изображение отсутствует в MD; ссылка на оригинал сохранена в batch.json. Требуется визуальное чтение физической PDF-страницы; графика не проверена.",
+      "claim_ids": []
     }
   ],
   "id_provenance": [
@@ -5653,6 +10185,376 @@
       "id": "LKOH-2025-ОУР_b0002::LKOH-2025-ОУР_b0002:c041",
       "original_id": "LKOH-2025-ОУР_b0002:c041",
       "batch_id": "LKOH-2025-ОУР_b0002"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c001",
+      "original_id": "c001",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c002",
+      "original_id": "c002",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c003",
+      "original_id": "c003",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c004",
+      "original_id": "c004",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c005",
+      "original_id": "c005",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c006",
+      "original_id": "c006",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c007",
+      "original_id": "c007",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c008",
+      "original_id": "c008",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c009",
+      "original_id": "c009",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c010",
+      "original_id": "c010",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c011",
+      "original_id": "c011",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c012",
+      "original_id": "c012",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c013",
+      "original_id": "c013",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c014",
+      "original_id": "c014",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c015",
+      "original_id": "c015",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c016",
+      "original_id": "c016",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c017",
+      "original_id": "c017",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c018",
+      "original_id": "c018",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c019",
+      "original_id": "c019",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c020",
+      "original_id": "c020",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c021",
+      "original_id": "c021",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c022",
+      "original_id": "c022",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c023",
+      "original_id": "c023",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c024",
+      "original_id": "c024",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c025",
+      "original_id": "c025",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c026",
+      "original_id": "c026",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c027",
+      "original_id": "c027",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c028",
+      "original_id": "c028",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c029",
+      "original_id": "c029",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c030",
+      "original_id": "c030",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c031",
+      "original_id": "c031",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c032",
+      "original_id": "c032",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c033",
+      "original_id": "c033",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c034",
+      "original_id": "c034",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c035",
+      "original_id": "c035",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c036",
+      "original_id": "c036",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c037",
+      "original_id": "c037",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c038",
+      "original_id": "c038",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c039",
+      "original_id": "c039",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c040",
+      "original_id": "c040",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c041",
+      "original_id": "c041",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c042",
+      "original_id": "c042",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c043",
+      "original_id": "c043",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c044",
+      "original_id": "c044",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c045",
+      "original_id": "c045",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c046",
+      "original_id": "c046",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c047",
+      "original_id": "c047",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c048",
+      "original_id": "c048",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c049",
+      "original_id": "c049",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c050",
+      "original_id": "c050",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c051",
+      "original_id": "c051",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c052",
+      "original_id": "c052",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c053",
+      "original_id": "c053",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c054",
+      "original_id": "c054",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c055",
+      "original_id": "c055",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c056",
+      "original_id": "c056",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c057",
+      "original_id": "c057",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c058",
+      "original_id": "c058",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c059",
+      "original_id": "c059",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c060",
+      "original_id": "c060",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c061",
+      "original_id": "c061",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c062",
+      "original_id": "c062",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c063",
+      "original_id": "c063",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c064",
+      "original_id": "c064",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c065",
+      "original_id": "c065",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c066",
+      "original_id": "c066",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c067",
+      "original_id": "c067",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c068",
+      "original_id": "c068",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c069",
+      "original_id": "c069",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c070",
+      "original_id": "c070",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c071",
+      "original_id": "c071",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c072",
+      "original_id": "c072",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c073",
+      "original_id": "c073",
+      "batch_id": "LKOH-2025-ОУР_b0003"
+    },
+    {
+      "id": "LKOH-2025-ОУР_b0003::c074",
+      "original_id": "c074",
+      "batch_id": "LKOH-2025-ОУР_b0003"
     }
   ],
   "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."

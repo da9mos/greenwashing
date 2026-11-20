@@ -1,0 +1,321 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "7402986b59606afe103cf15fbfa6358c6a284a0750b7753f2b71a2c03bd8afcc",
+  "claim_id": "C000001",
+  "quote": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+  "reviewer": "Codex, GPT-6 family; project FACT_CHECK_AGENT.md; exact model snapshot unavailable",
+  "checked_at": "2026-11-20T22:14:07.071587+05:00",
+  "revision": 1,
+  "research_status": "complete",
+  "verdict": "insufficient_evidence",
+  "reason": "Оба направления реально исследованы. Есть официальный контекст и сообщение СМИ о соглашении, но юридический оригинал с двумя точными обязательствами/периметром не прочитан. Закупка 2025 и иные нарушения не опровергают факт обещания 2023. Внешней независимой базы для true/false недостаточно.",
+  "target": {
+    "proposition": "В апреле 2023 ООО Газпром нефтехим Салават приняло обязательство разработать план САКВ на объектах I категории и представить количество стационарных источников, планируемых к оснащению до 2025.",
+    "entity": "ООО «Газпром нефтехим Салават»",
+    "period": "апрель 2023; горизонт планируемого оснащения до 2025",
+    "boundary": "Эксплуатируемые объекты НВОС I категории ООО Газпром нефтехим Салават",
+    "assessment_object": "promise_made"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдены корпоративный отчет и контекст соглашения; исторические leads открыты отдельно."
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [
+        "RPN"
+      ],
+      "outcome_note": "Найден надзорный контекст; связанная закупка2025 прочитана, сопоставимого опровержения обещания не найдено."
+    },
+    {
+      "id": "Q3",
+      "direction": "support",
+      "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+      "tool": "web.run",
+      "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+      "searched_at": "2026-11-20T22:09:23+05:00",
+      "status": "completed",
+      "source_ids": [
+        "SAL"
+      ],
+      "outcome_note": "Найдено и прочитано официальное муниципальное сообщение."
+    },
+    {
+      "id": "Q4",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+      "tool": "web.run",
+      "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+      "searched_at": "2026-11-20T22:10:36+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Дополнительный запрос о нарушениях точного соглашения не дал прочитанного сопоставимого опровержения обязательств. Не интерпретируется как их подтверждение."
+    },
+    {
+      "id": "Q5",
+      "direction": "support",
+      "query": "https://www.kommersant.ru/doc/5927481",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+      "searched_at": "2026-11-20T22:08:45+05:00",
+      "status": "completed",
+      "source_ids": [
+        "KOM"
+      ],
+      "outcome_note": "Проверен исторический lead: реальное открытие и чтение статьи. Не утверждается, что URL был заново найден поисковой выдачей."
+    },
+    {
+      "id": "Q6",
+      "direction": "contradiction",
+      "query": "https://zakupki.kontur.ru/GP521689",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+      "searched_at": "2026-11-20T22:08:45+05:00",
+      "status": "completed",
+      "source_ids": [
+        "TEN"
+      ],
+      "outcome_note": "Проверен исторический lead закупки; не дает сопоставимого опровержения обещания."
+    }
+  ],
+  "sources": [
+    {
+      "id": "KOM",
+      "url": "https://www.kommersant.ru/doc/5927481",
+      "publisher": "Коммерсантъ Уфа",
+      "origin_group": "Пресс-служба правительства Башкирии",
+      "origin_basis": "Статья прямо ссылается на пресс-службу правительства, а не собственную проверку текста соглашения; отдельного независимого измерения нет.",
+      "publication_date": "2023-04-12",
+      "publication_date_note": null,
+      "event_period": "2023-04-12",
+      "locator": "Строки 104 и 106",
+      "content": "В рамках соглашений запланированы мероприятия по снижению выбросов загрязняющих веществ, установка систем автоматического контроля до 2025 года и развитие системы мониторинга качества воздуха.",
+      "content_sha256": "92070f69419950d9502526f4e35a947b8cd1f425bb3eb6adedf6eef1ed0133a0",
+      "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+      "retrieved_at": "2026-11-20T22:08:45+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "SAL",
+      "url": "https://www.salavatsovet.ru/2023/04/12/salavat-i-sterlitamak-vklyuchili-v-proekt-chistyj-vozdux/",
+      "publisher": "Совет ГО г. Салават",
+      "origin_group": "Администрация ГО Салават / проектный офис Чистый воздух",
+      "origin_basis": "Официальная муниципальная публикация воспроизводит объяснение руководителя проектного офиса; источник внизу страницы — Администрация ГО. Не юридический оригинал соглашения.",
+      "publication_date": "2023-04-12",
+      "publication_date_note": null,
+      "event_period": "2023-04-11/2023-04-12",
+      "locator": "Строки 75–76",
+      "content": "Следующая задача – оснащение труб системами автоматического контроля выбросов.",
+      "content_sha256": "eec659388948f7a4c4e7a309cbe51fbfd9c95042f60e92c86c4672c23da8389a",
+      "tool_ref": "web.run turn6view0; journal/07_auditor_scope.json",
+      "retrieved_at": "2026-11-20T22:09:49+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "TEN",
+      "url": "https://zakupki.kontur.ru/GP521689",
+      "publisher": "Контур.Закупки",
+      "origin_group": "Извещение заказчика ООО Газпром нефтехим Салават на ЭТП ГПБ",
+      "origin_basis": "Контур агрегирует закупочное извещение самого заказчика; независимое происхождение факта исполнения плана не установлено. Первичная ЭТП недоступна turn1view2/turn8view3.",
+      "publication_date": "2025-09-09",
+      "publication_date_note": null,
+      "event_period": "2025; извещение, не факт приемки САКВ",
+      "locator": "Строки 50,52,74",
+      "content": "# 14/02.09.2025/МИ Выбор марки/производителя САКВ по проекту Создание системы автоматического контроля источников выбросов",
+      "content_sha256": "e09659ebe5c711fda3e07614f854fac2d6cda4fbbbdbbbdb60c9700dee1c44e4",
+      "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+      "retrieved_at": "2026-11-20T22:08:45+05:00",
+      "access": "excerpt",
+      "independence": "issuer_republication"
+    },
+    {
+      "id": "RPN",
+      "url": "https://rpn.gov.ru/press/news/v_khode_proverki_ooo_gazprom_neftekhim_salavat_rosprirodnadzor_vyyavil_26_narusheniy_obyazatelnykh_t/",
+      "publisher": "Росприроднадзор",
+      "origin_group": "Росприроднадзор, собственная надзорная проверка",
+      "origin_basis": "Регулятор независим от проверяемого предприятия; доступен индексированный поисковый фрагмент, прямое открытие 403.",
+      "publication_date": null,
+      "publication_date_note": "В прочитанном фрагменте нет точной календарной даты публикации; год отчета не подменяет дату публикации.",
+      "event_period": "2023-11-13/2023-12-08",
+      "locator": "Поисковый фрагмент о проверке 13.11–08.12.2023",
+      "content": "С 13 ноября по 08 декабря 2023 года Федеральной службой по надзору в сфере природопользования проведена плановая выездная проверка в отношении ООО «Газпром нефтехим Салават».",
+      "content_sha256": "77ec3c6e8cd1c64da18f03f2b5b001ed47fd548c929b2c6a1b876cd629bcc1bc",
+      "tool_ref": "web.run turn0search2; open failures turn1view3, turn4view2; journal/01_c1_search.json",
+      "retrieved_at": "2026-11-20T22:08:34+05:00",
+      "access": "snippet",
+      "independence": "independent"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "source_id": "KOM",
+      "quote": "В рамках соглашений запланированы мероприятия по снижению выбросов загрязняющих веществ, установка систем автоматического контроля до 2025 года и развитие системы мониторинга качества воздуха.",
+      "relation": "context",
+      "reason": "Подтверждает сообщение о подписании соглашений и общем направлении установки САКВ; не удостоверяет весь юридический текст двух обязанностей.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Указано ООО Газпром нефтехим Салават."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Соглашение апреля 2023 с горизонтом 2025."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Нет юридического приложения с полным списком объектов I категории."
+        },
+        "metric": {
+          "status": "unknown",
+          "reason": "Нет точного текста обеих обязанностей: план и предоставление количества источников."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "Проверяется факт принятия обязательств, не количественный результат."
+        }
+      }
+    },
+    {
+      "id": "E2",
+      "source_id": "SAL",
+      "quote": "Следующая задача – оснащение труб системами автоматического контроля выбросов.",
+      "relation": "context",
+      "reason": "Первичный официальный комментарий о предстоящем соглашении; план модернизации/наблюдения не тождествен конкретному плану САКВ.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Предприятие названо в статье."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Апрель 2023."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Нет списка объектов и категории."
+        },
+        "metric": {
+          "status": "mismatch",
+          "reason": "Будущая задача оснащения труб, не оба точных договорных обязательства."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "Наличие обещания."
+        }
+      }
+    },
+    {
+      "id": "E3",
+      "source_id": "TEN",
+      "quote": "# 14/02.09.2025/МИ Выбор марки/производителя САКВ по проекту Создание системы автоматического контроля источников выбросов",
+      "relation": "context",
+      "reason": "Закупка 2025 не опровергает наличие плана или обещания 2023; не доказательство исполнения до 2025.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Заказчик то же ООО."
+        },
+        "period": {
+          "status": "mismatch",
+          "reason": "Извещение 2025, заявление 2023."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Площадочный охват неизвестен."
+        },
+        "metric": {
+          "status": "mismatch",
+          "reason": "Выбор марки, не принятие обязательства составить план/предоставить сведения."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "Договорное обязательство."
+        }
+      }
+    },
+    {
+      "id": "E4",
+      "source_id": "RPN",
+      "quote": "С 13 ноября по 08 декабря 2023 года Федеральной службой по надзору в сфере природопользования проведена плановая выездная проверка в отношении ООО «Газпром нефтехим Салават».",
+      "relation": "context",
+      "reason": "Надзорная проверка и нарушения не удостоверяют отсутствие плана САКВ; прямой источник не прочитан из-за 403.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "То же ООО."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "2023."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Периметр всех объектовI категории не раскрыт."
+        },
+        "metric": {
+          "status": "mismatch",
+          "reason": "Проверка природоохранных требований, не принятие двух обязательств."
+        },
+        "unit": {
+          "status": "mismatch",
+          "reason": "Проверки/нарушения, не факт принятия обещания."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Принято обязательство разработать план САКВ на эксплуатируемых объектах I категории.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ],
+      "reason": "Сообщения о мероприятиях и закупке уже/еще не устанавливают точный договорный текст."
+    },
+    {
+      "id": "A2",
+      "proposition": "Принято обязательство представить количество стационарных источников для планируемого оснащения до 2025.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "reason": "Нет прочитанного оригинала соглашения/приложения с этой обязанностью и точной временной формулировкой."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Охвачены обе глагольные обязанности, субъект, категория объектов и горизонт планируемого оснащения. Исполнение и фактическое оснащение не подменяют объект promise_made.",
+  "source_review": {
+    "status": "verified",
+    "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search; только точность цитаты, не внешняя истинность",
+    "locator": "../01_PDF/source_review.json; {\"pdf_page\": 37, \"printed_page\": \"35\", \"bbox\": [67, 541, 312, 791], \"coordinate_system\": \"PDF points, top-left origin\", \"full_raster\": \"pdf-page-37.png\", \"crop\": \"pdf-page-37-claim-crop.png\"}",
+    "review_artifact_sha256": "caf1afbeb88751479002828e2aee817eaaa4ed5dabb7dd1e0ce4fb57c44cf786",
+    "scope": "faithfulness_to_local_pdf_and_saved_md_only"
+  },
+  "limitations": [
+    "Заключение ограничено реально выполненными запросами и прочитанными источниками; полнота публичного интернета не заявляется.",
+    "Нет юридического вывода о гринвошинге, селективном раскрытии или намерении обмануть."
+  ]
+}

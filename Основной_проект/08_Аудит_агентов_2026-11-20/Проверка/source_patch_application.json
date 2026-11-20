@@ -1,0 +1,54 @@
+{
+  "old_source_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+  "new_source_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+  "old_source_frozen": "/Users/nikitachukreev/.local/state/sber-esg-worker/frozen_inputs/e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd.md",
+  "prior_cache_preserved": true,
+  "unchanged_batches_rebased": [
+    {
+      "batch_id": "GAZP-2023-ЭО_b0001",
+      "old_response_sha256": "2376b19110c21dec8258f5202a262e195de45da7b768c1050c196376f664d47a",
+      "new_response_sha256": "6a047938900f67622248fc947eb89140f9bd7ac461e7a4e8006be98048b30298",
+      "basis": "Byte-identical batch blocks/context; only whole-document source hash rebased. No model rerun claimed."
+    },
+    {
+      "batch_id": "GAZP-2023-ЭО_b0003",
+      "old_response_sha256": "20080d112b83074539869a12d48fff1c3fe9569c872a8e1c856cc60e070279d3",
+      "new_response_sha256": "975a788dd5d3af3449596c8dbea9fb9bd25aee2888a45757af90e95a32a08d62",
+      "basis": "Byte-identical batch blocks/context; only whole-document source hash rebased. No model rerun claimed."
+    },
+    {
+      "batch_id": "GAZP-2023-ЭО_b0005",
+      "old_response_sha256": "664d40f826caaf29ab7e7036a48e03be36539f263d7533148177b2fa10b43d14",
+      "new_response_sha256": "64daeeacdc68c60e3bbe844f241b836bd696d0a201687537953400e530596aa5",
+      "basis": "Byte-identical batch blocks/context; only whole-document source hash rebased. No model rerun claimed."
+    },
+    {
+      "batch_id": "GAZP-2023-ЭО_b0006",
+      "old_response_sha256": "f63652abdb03ef92489492b8eef0ebd680cc2034de2b2652773112717f230841",
+      "new_response_sha256": "a1f6e5c938d50e5561fbd5d2e5e5acd7af0db45a9293cec541deb2128674de26",
+      "basis": "Byte-identical batch blocks/context; only whole-document source hash rebased. No model rerun claimed."
+    },
+    {
+      "batch_id": "GAZP-2023-ЭО_b0007",
+      "old_response_sha256": "d4b1083ecad5083342118d1a7e2ab0c056c74f9cd29eca5a5d78ab535bf3ad8f",
+      "new_response_sha256": "1192fb7aa6afd83395f2c291eec153e75356b5753ddf308ef24f5c9869da4c88",
+      "basis": "Byte-identical batch blocks/context; only whole-document source hash rebased. No model rerun claimed."
+    },
+    {
+      "batch_id": "GAZP-2023-ЭО_b0008",
+      "old_response_sha256": "05c6f3a892d11e99e20ee1ae53a01aa2f4cb6c7ec9e551d0ad7c60880704e0bd",
+      "new_response_sha256": "0d02c78f1e861234a662c7593f8b44fffa8c1d501fef0332221352eb5efa86f9",
+      "basis": "Byte-identical batch blocks/context; only whole-document source hash rebased. No model rerun claimed."
+    }
+  ],
+  "requires_model_rerun": [
+    {
+      "batch_id": "GAZP-2023-ЭО_b0002",
+      "reason": "source blocks or context changed"
+    },
+    {
+      "batch_id": "GAZP-2023-ЭО_b0004",
+      "reason": "source blocks or context changed"
+    }
+  ]
+}

@@ -720,12 +720,12 @@
     "drive_id": "1gvSpvDRNwLowLl7zBD-58dZIGoAw1lda",
     "repository_path": "00_Отчёты/Газпром/GAZP-2023-ЭО.md",
     "physical_pages": 84,
-    "version": "Codex: рабочая версия с адресными исправлениями пилота; явная замена пути исходного индекса",
+    "version": "Codex: рабочая версия с адресными исправлениями пилота; явная замена пути исходного индекса; адресная PDF-сверка 20.11.2026",
     "source_md": "11_Проект_Сбер/Итоговый проект/1 шаг - перевод PDF в MD/Результаты работы/Газпром 2023 - экологический отчёт/report.md",
     "index_source_md": "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/Codex/GAZP/GAZP-2023-ЭО/report.md",
     "source_override": true,
     "source_md_sha256": "c9b0f1a7c1215b55ae71e2bab071906fd389a99120371c0092d00c51544719a7",
-    "packaged_md_sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd",
+    "packaged_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
     "pdf_source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf",
     "pdf_source_kind": "pdf_or_source_file",
     "external_url_reverified": false,
@@ -1155,7 +1155,8 @@
     ],
     "page_markers_verified": true,
     "pdf_page_count_verified": true,
-    "preexisting_broken_fragment_links": []
+    "preexisting_broken_fragment_links": [],
+    "source_patch_provenance": "08_Аудит_агентов_2026-11-20/01_PDF/patch_review.json"
   },
   {
     "report_id": "GAZP-2024-ОУР",

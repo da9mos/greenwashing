@@ -1,0 +1,121 @@
+{
+  "atomic_count": 8,
+  "native_searches_added": 0,
+  "all_invariants_passed": true,
+  "queue": [],
+  "rows": [
+    {
+      "claim_id": "C000001",
+      "original_atomic_id": "GAZP-2023-ATOMIC-001-a",
+      "esg_part_id": "001-a",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A1"
+      ],
+      "sources": 2,
+      "evidence": 2,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000002",
+      "original_atomic_id": "GAZP-2023-ATOMIC-001-b",
+      "esg_part_id": "001-b",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A2"
+      ],
+      "sources": 1,
+      "evidence": 1,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000003",
+      "original_atomic_id": "GAZP-2023-ATOMIC-002-a",
+      "esg_part_id": "002-a",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A1"
+      ],
+      "sources": 2,
+      "evidence": 2,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000004",
+      "original_atomic_id": "GAZP-2023-ATOMIC-002-b",
+      "esg_part_id": "002-b",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A2"
+      ],
+      "sources": 2,
+      "evidence": 2,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000005",
+      "original_atomic_id": "GAZP-2023-ATOMIC-003-a",
+      "esg_part_id": "003-a",
+      "verdict": "not_verifiable",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A1",
+        "A2"
+      ],
+      "sources": 1,
+      "evidence": 1,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000006",
+      "original_atomic_id": "GAZP-2023-ATOMIC-004-a",
+      "esg_part_id": "004-a",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A1"
+      ],
+      "sources": 1,
+      "evidence": 1,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000007",
+      "original_atomic_id": "GAZP-2023-ATOMIC-004-b",
+      "esg_part_id": "004-b",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A2"
+      ],
+      "sources": 1,
+      "evidence": 1,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    },
+    {
+      "claim_id": "C000008",
+      "original_atomic_id": "GAZP-2023-ATOMIC-004-c",
+      "esg_part_id": "004-c",
+      "verdict": "insufficient_evidence",
+      "research_status": "complete",
+      "selected_parent_aspects": [
+        "A3"
+      ],
+      "sources": 1,
+      "evidence": 1,
+      "unchanged_search_provenance": true,
+      "exact_fragment_assembly": true
+    }
+  ]
+}

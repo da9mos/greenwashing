@@ -1,0 +1,200 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "7402986b59606afe103cf15fbfa6358c6a284a0750b7753f2b71a2c03bd8afcc",
+  "claim_id": "C000002",
+  "quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+  "reviewer": "Codex, GPT-6 family; project FACT_CHECK_AGENT.md; exact model snapshot unavailable",
+  "checked_at": "2026-11-20T22:14:07.071587+05:00",
+  "revision": 1,
+  "research_status": "complete",
+  "verdict": "insufficient_evidence",
+  "reason": "Оба направления поиска завершены. Корпоративная ретроспективная таблица согласуется с суммой и округлением роста, однако независимый проверенный источник тех же расходов/периметра не найден. Отчет 2024 наАКМ дважды недоступен поtimeout; использован прочитанный первичныйHTML. Это недостаток независимых доказательств, не опровержение.",
+  "target": {
+    "proposition": "Общие расходы Группы Газпром на ООС в РФ в 2023 составили 96,23 млрдруб и выросли на 8,0% к 2022.",
+    "entity": "Группа Газпром",
+    "period": "2023 против 2022",
+    "boundary": "Российская Федерация; общие расходы Группы",
+    "assessment_object": "reported_fact"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Газпром\" \"96,23\" \"8,0\" 2023 расходы",
+      "tool": "web.run",
+      "tool_ref": "web.run turn2search12; journal/03_c1primary_c2_search_akm.json",
+      "searched_at": "2026-11-20T22:08:55+05:00",
+      "status": "completed",
+      "source_ids": [
+        "PDF"
+      ],
+      "outcome_note": "Найден корпоративный отчет; HTML2024 прочитан как первичный источник и согласован с исходнымPDF."
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"96,23\" ошибки исправление расходы 2023 2022",
+      "tool": "web.run",
+      "tool_ref": "web.run turn2search13,turn2search14; journal/03_c1primary_c2_search_akm.json",
+      "searched_at": "2026-11-20T22:08:55+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "В выдаче не найдено релевантного исправления или независимого опровержения этих двух показателей."
+    },
+    {
+      "id": "Q3",
+      "direction": "support",
+      "query": "\"Газпром\" \"96,23\" \"аудитор\" 2023 расходы",
+      "tool": "web.run",
+      "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+      "searched_at": "2026-11-20T22:10:36+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Целевой поиск независимого аудита не дал прочитанного заключения, удостоверяющего расходы2023. Страница ключевых проверенных показателей2024 открыта отдельно, но включает иные метрики."
+    },
+    {
+      "id": "Q_HTML",
+      "direction": "support",
+      "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+      "searched_at": "2026-11-20T22:10:59+05:00",
+      "status": "completed",
+      "source_ids": [
+        "FIN"
+      ],
+      "outcome_note": "Первичный корпоративный HTML найден в живой выдаче turn3search7, затем открыт и прочитан; ретроспективная таблица сопоставлена с цитатой."
+    }
+  ],
+  "sources": [
+    {
+      "id": "FIN",
+      "url": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "publisher": "ПАО Газпром",
+      "origin_group": "ПАО Газпром, собственный отчет2024",
+      "origin_basis": "Первичный корпоративный отчет; ретроспективная таблица2022–2024 не является независимым подтверждением расходов2023.",
+      "publication_date": null,
+      "publication_date_note": "В прочитанном фрагменте нет точной календарной даты публикации; год отчета не подменяет дату публикации.",
+      "event_period": "2022/2023/2024",
+      "locator": "Раздел Расходы на охрану окружающей среды; строки112,115,120",
+      "content": "Итого по Группе Газпром  | 89 138,75  | 96 232,61  | 87 903,63  | – 8,7",
+      "content_sha256": "51a26cb0204d9a9251f30f04bd75d61b9798947c649fe84f8508c2fca6f07503",
+      "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+      "retrieved_at": "2026-11-20T22:10:59+05:00",
+      "access": "excerpt",
+      "independence": "issuer"
+    },
+    {
+      "id": "PDF",
+      "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+      "publisher": "ПАО Газпром; хостинг АО ДРАГА",
+      "origin_group": "ПАО Газпром, экологический отчет2023",
+      "origin_basis": "Републикация того же корпоративного отчета, не внешний независимый аудит.",
+      "publication_date": null,
+      "publication_date_note": "В прочитанном фрагменте нет точной календарной даты публикации; год отчета не подменяет дату публикации.",
+      "event_period": "2023",
+      "locator": "Физическая страница14 (P13 инструмента), строки578–581",
+      "content": "В отчетном году общие расходы Группы Газпром на\nохрану окружающей среды в Российской Федерации по\nотношению к 2022 г. увеличились на 8,0 % и составили\n96,23 млрд руб.",
+      "content_sha256": "d0b4c18eaf5c3f2d629f95841dce5aeda127328ebe8e74db64eb19a4c7137a06",
+      "tool_ref": "web.run turn9view1; journal/10_targeted_read_followup.json",
+      "retrieved_at": "2026-11-20T22:10:36+05:00",
+      "access": "excerpt",
+      "independence": "issuer_republication"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "source_id": "FIN",
+      "quote": "Итого по Группе Газпром  | 89 138,75  | 96 232,61  | 87 903,63  | – 8,7",
+      "relation": "supports",
+      "reason": "Таблица издателя согласуется с 96,23 млрд после округления. Рост вычислен из 96232,61 и 89138,75:7,9582%, что округляется до 8,0%. Не независимая проверка фактических расходов.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Группа Газпром."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Ретроспективные 2023 и 2022."
+        },
+        "boundary": {
+          "status": "matched",
+          "reason": "Раздел задает РФ, таблица общих расходов группы."
+        },
+        "metric": {
+          "status": "matched",
+          "reason": "Общие расходы на ООС, не только инвестиции."
+        },
+        "unit": {
+          "status": "matched",
+          "reason": "Таблица млнруб; 96232,61 млн=96,23261 млрд."
+        }
+      }
+    },
+    {
+      "id": "E2",
+      "source_id": "PDF",
+      "quote": "В отчетном году общие расходы Группы Газпром на\nохрану окружающей среды в Российской Федерации по\nотношению к 2022 г. увеличились на 8,0 % и составили\n96,23 млрд руб.",
+      "relation": "supports",
+      "reason": "Повторно прочитан исходный отчет; самостоятельной независимой силы нет.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Группа Газпром."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Ретроспективные 2023 и 2022."
+        },
+        "boundary": {
+          "status": "matched",
+          "reason": "Раздел задает РФ, таблица общих расходов группы."
+        },
+        "metric": {
+          "status": "matched",
+          "reason": "Общие расходы на ООС, не только инвестиции."
+        },
+        "unit": {
+          "status": "matched",
+          "reason": "Таблица млнруб; 96232,61 млн=96,23261 млрд."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Сумма общих расходов 2023 в РФ составляет 96,23 млрдруб.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "reason": "Корпоративно согласуется; независимая проверка фактической суммы не установлена."
+    },
+    {
+      "id": "A2",
+      "proposition": "Рост к 2022 составляет 8,0%.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "reason": "Арифметически согласуется после округления; исходные суммы корпоративные и независимо не установлены."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Две существенные числовые части рассмотрены отдельно. У обоих проверены entity,period,boundary,metric,unit; расходы не заменены инвестициями.",
+  "source_review": {
+    "status": "verified",
+    "method": "Codex visual comparison of full PyMuPDF raster, enlarged source crop, exact saved Markdown excerpt; text layer used only for geometry and search; только точность цитаты, не внешняя истинность",
+    "locator": "../01_PDF/source_review.json; {\"pdf_page\": 14, \"printed_page\": \"12\", \"bbox\": [33, 169, 277, 213], \"coordinate_system\": \"PDF points, top-left origin\", \"full_raster\": \"pdf-page-14.png\", \"crop\": \"pdf-page-14-claim-crop.png\"}",
+    "review_artifact_sha256": "caf1afbeb88751479002828e2aee817eaaa4ed5dabb7dd1e0ce4fb57c44cf786",
+    "scope": "faithfulness_to_local_pdf_and_saved_md_only"
+  },
+  "limitations": [
+    "Заключение ограничено реально выполненными запросами и прочитанными источниками; полнота публичного интернета не заявляется.",
+    "Нет юридического вывода о гринвошинге, селективном раскрытии или намерении обмануть."
+  ]
+}

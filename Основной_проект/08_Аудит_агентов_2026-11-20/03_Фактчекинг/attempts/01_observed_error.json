@@ -1,0 +1,7 @@
+{
+  "tool": "exec_command",
+  "tool_ref": "chunk_id 5da0e4",
+  "command": "factcheck.py ingest run responses/C000001.r000001.json",
+  "observed_stderr": "ERROR: invalid evidence links",
+  "cause": "Reviewer staging formatter changed aspect evidence_ids E1 to E 1. Fixed before accepted revision1; no CLI defect."
+}

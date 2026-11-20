@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2023-ЭО.pdf",
+    "sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+    "pages": 84
+  },
+  "output": {
+    "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+    "sha256": "e19d3c127718195c45028cea624aef59516315c7055d1df085a3baf7ef41c1cd"
+  },
+  "artifacts": [
+    {
+      "id": "p7-source_image",
+      "kind": "source_image",
+      "pdf_page": 7,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-07.png",
+      "sha256": "42c33adfe3f506a46c521d436473bba1d0bbabf93a657aef538d52babd25308d",
+      "render_scale": 1.5
+    },
+    {
+      "id": "p7-source_crop",
+      "kind": "source_crop",
+      "pdf_page": 7,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-07-claim-crop.png",
+      "sha256": "d208cb236da170d87ec2dff4977b9fab8f9884696850d4f11b47e1488b3e29c6",
+      "render_scale": 3,
+      "clip": [
+        319,
+        304,
+        562,
+        367
+      ]
+    },
+    {
+      "id": "p14-source_image",
+      "kind": "source_image",
+      "pdf_page": 14,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-14.png",
+      "sha256": "5090fdef039371a83aef06f6d0cb7f6b85b61dd5e968891390204ba59a600828",
+      "render_scale": 1.5
+    },
+    {
+      "id": "p14-source_crop",
+      "kind": "source_crop",
+      "pdf_page": 14,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-14-claim-crop.png",
+      "sha256": "8bd8bf4f9afd5a030831fbc8f4754a45c45e9d10d7ff077be5f59e3568fcf5d6",
+      "render_scale": 3,
+      "clip": [
+        33,
+        169,
+        277,
+        213
+      ]
+    },
+    {
+      "id": "p37-source_image",
+      "kind": "source_image",
+      "pdf_page": 37,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-37.png",
+      "sha256": "c1333d190a0caf39f27f8d210b1c011dd2993706a9e9f75615a8d68c48719f86",
+      "render_scale": 1.5
+    },
+    {
+      "id": "p37-source_crop",
+      "kind": "source_crop",
+      "pdf_page": 37,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-37-claim-crop.png",
+      "sha256": "4098b53ddbc1ef3fcf8fb49715ce7005222843c10945010fbf22acd80e80d716",
+      "render_scale": 3,
+      "clip": [
+        67,
+        541,
+        312,
+        791
+      ]
+    },
+    {
+      "id": "p38-source_image",
+      "kind": "source_image",
+      "pdf_page": 38,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-38.png",
+      "sha256": "dffac172a092ebdaf630cb8d44ff7925b33d1181ecfc43bfb92d57c73aa84cf7",
+      "render_scale": 1.5
+    },
+    {
+      "id": "p38-source_crop",
+      "kind": "source_crop",
+      "pdf_page": 38,
+      "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/01_PDF/pdf-page-38-claim-crop.png",
+      "sha256": "558e3cb54fe27dac65c7709beff2cab29c1ef45f64d2ceacf9f21929248772fd",
+      "render_scale": 3,
+      "clip": [
+        33,
+        169,
+        278,
+        224
+      ]
+    }
+  ],
+  "review": {
+    "status": "partial",
+    "reviewer": "Codex independent source review, project PDF_TO_MD_AGENT, 2026-11-20",
+    "method": "sample",
+    "reviewed_at": "2026-11-20T17:10:17.710660+00:00",
+    "issues": [
+      {
+        "id": "PDF-MD-001",
+        "pdf_page": 7,
+        "severity": "material",
+        "source_bbox": [
+          67,
+          406,
+          312,
+          459
+        ],
+        "source": "Они обеспечат ... позволят организовать",
+        "saved_md": "Они обеспечивают ... позволяют организовать",
+        "finding": "Будущее действие ошибочно преобразовано в настоящее; может менять тип ESG-заявления. Четыре проверенные цитаты не затронуты.",
+        "action": "Адресно восстановить обеспечат / позволят после разрешенной правки текущего MD и обновить SHA; исходник этим аудитом не менялся."
+      },
+      {
+        "id": "PDF-MD-002",
+        "pdf_page": 14,
+        "severity": "minor",
+        "source": "вложения инвестиционных средств",
+        "saved_md": "вложение инвестиционных средств",
+        "finding": "Изменено число существительного в нижней правой колонке.",
+        "action": "Восстановить «вложения» в согласованной версии MD.",
+        "source_bbox": [
+          285,
+          615,
+          531,
+          649
+        ]
+      },
+      {
+        "id": "PDF-MD-003",
+        "pdf_pages": [
+          7,
+          14,
+          37,
+          38
+        ],
+        "severity": "fidelity",
+        "finding": "Печатные номера 5/12/35/36 не перенесены в авторский текст MD; на 14/37 также отсутствует боковой колонтитул. Source image в текущей MD отсутствует и заменен внешней ссылкой, что честно подписано. Самостоятельный полный перенос графики/портрета этим комплектом не подтвержден."
+      }
+    ],
+    "pages": [
+      {
+        "pdf_page": 7,
+        "issues": [
+          {
+            "id": "PDF-MD-001",
+            "pdf_page": 7,
+            "severity": "material",
+            "source_bbox": [
+              67,
+              406,
+              312,
+              459
+            ],
+            "source": "Они обеспечат ... позволят организовать",
+            "saved_md": "Они обеспечивают ... позволяют организовать",
+            "finding": "Будущее действие ошибочно преобразовано в настоящее; может менять тип ESG-заявления. Четыре проверенные цитаты не затронуты.",
+            "action": "Адресно восстановить обеспечат / позволят после разрешенной правки текущего MD и обновить SHA; исходник этим аудитом не менялся."
+          },
+          {
+            "id": "PDF-MD-003",
+            "pdf_pages": [
+              7,
+              14,
+              37,
+              38
+            ],
+            "severity": "fidelity",
+            "finding": "Печатные номера 5/12/35/36 не перенесены в авторский текст MD; на 14/37 также отсутствует боковой колонтитул. Source image в текущей MD отсутствует и заменен внешней ссылкой, что честно подписано. Самостоятельный полный перенос графики/портрета этим комплектом не подтвержден."
+          }
+        ],
+        "components": {
+          "text": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "numbers": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "tables": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "footnotes": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "graphics": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "reading_order": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "links": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          },
+          "display": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p7-source_image",
+              "p7-source_crop"
+            ]
+          }
+        }
+      },
+      {
+        "pdf_page": 14,
+        "issues": [
+          {
+            "id": "PDF-MD-002",
+            "pdf_page": 14,
+            "severity": "minor",
+            "source": "вложения инвестиционных средств",
+            "saved_md": "вложение инвестиционных средств",
+            "finding": "Изменено число существительного в нижней правой колонке.",
+            "action": "Восстановить «вложения» в согласованной версии MD.",
+            "source_bbox": [
+              285,
+              615,
+              531,
+              649
+            ]
+          },
+          {
+            "id": "PDF-MD-003",
+            "pdf_pages": [
+              7,
+              14,
+              37,
+              38
+            ],
+            "severity": "fidelity",
+            "finding": "Печатные номера 5/12/35/36 не перенесены в авторский текст MD; на 14/37 также отсутствует боковой колонтитул. Source image в текущей MD отсутствует и заменен внешней ссылкой, что честно подписано. Самостоятельный полный перенос графики/портрета этим комплектом не подтвержден."
+          }
+        ],
+        "components": {
+          "text": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "numbers": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "tables": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "footnotes": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "graphics": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "reading_order": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "links": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          },
+          "display": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p14-source_image",
+              "p14-source_crop"
+            ]
+          }
+        }
+      },
+      {
+        "pdf_page": 37,
+        "issues": [
+          {
+            "id": "PDF-MD-003",
+            "pdf_pages": [
+              7,
+              14,
+              37,
+              38
+            ],
+            "severity": "fidelity",
+            "finding": "Печатные номера 5/12/35/36 не перенесены в авторский текст MD; на 14/37 также отсутствует боковой колонтитул. Source image в текущей MD отсутствует и заменен внешней ссылкой, что честно подписано. Самостоятельный полный перенос графики/портрета этим комплектом не подтвержден."
+          }
+        ],
+        "components": {
+          "text": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "numbers": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "tables": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "footnotes": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "graphics": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "reading_order": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "links": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          },
+          "display": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p37-source_image",
+              "p37-source_crop"
+            ]
+          }
+        }
+      },
+      {
+        "pdf_page": 38,
+        "issues": [
+          {
+            "id": "PDF-MD-003",
+            "pdf_pages": [
+              7,
+              14,
+              37,
+              38
+            ],
+            "severity": "fidelity",
+            "finding": "Печатные номера 5/12/35/36 не перенесены в авторский текст MD; на 14/37 также отсутствует боковой колонтитул. Source image в текущей MD отсутствует и заменен внешней ссылкой, что честно подписано. Самостоятельный полный перенос графики/портрета этим комплектом не подтвержден."
+          }
+        ],
+        "components": {
+          "text": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "numbers": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "tables": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "footnotes": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "graphics": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "reading_order": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "links": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          },
+          "display": {
+            "status": "pending",
+            "reason": "Only the selected claim and immediate context were visually compared; full-page component acceptance and MD display review were not performed.",
+            "evidence": [
+              "p38-source_image",
+              "p38-source_crop"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "suite": "pdf",
+    "tests": 38,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "suite": "esg",
+    "tests": 55,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "suite": "facts",
+    "tests": 23,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "suite": "corpus",
+    "tests": 8,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "suite": "export",
+    "tests": 2,
+    "exit_code": 0,
+    "passed": true
+  },
+  {
+    "suite": "worker",
+    "tests": 17,
+    "exit_code": 0,
+    "passed": true
+  }
+]
