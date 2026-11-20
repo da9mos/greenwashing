@@ -1,0 +1,11 @@
+{
+  "previous_prompt_sha256": "23de9bbe99f2f4ed9e08eaa112df4fd358911139c40689f28b6a002c1a3128dc",
+  "current": {
+    "02_Аналитика_заявлений/Агент/agent/esg_agent_v3_1.md": "5490c8242c1258335ae256242bc83f4935582d0e147d9182c80fef9fe5032121",
+    "02_Аналитика_заявлений/Агент/scripts/esg_agent_v3.py": "c21bdb9f68b09bbb7c165fc848db0d07ca88b09e9db9234695cb3bb22594303c",
+    "02_Аналитика_заявлений/Агент/scripts/review_response.py": "a973794a3b534009e2ffb3a0c9eb796368afc81218c7438be7f555c9c27bfd5d",
+    "02_Аналитика_заявлений/Агент/tests/test_presentation_quotes.py": "20411fafea8ee3681bee757622b337415e86454f75091c209c394360104112c6"
+  },
+  "numeric_ast_unchanged_against_git_HEAD": true,
+  "numeric_ast_sha256": "6d5a424a95514323f2c3302cb3098096f4225022cccff567fac287c5650142f8"
+}

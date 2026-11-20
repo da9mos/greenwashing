@@ -1,0 +1,35 @@
+{
+  "scope": "Read-only inventory of the four current Gazprom report JSONs; not revalidation of source, classification, semantic completeness or truth.",
+  "reports": [
+    {
+      "file": "04_Итоги_проверки/Газпром/Текущий_прогон/GAZP-2023-ОУР.json",
+      "sha256": "4798db9fd724c5fab824a0aad6741dff2ae93f716fb221470eab7e55bb0147ff",
+      "claims": 44,
+      "without_presentation_pair": 44,
+      "with_any_presentation_field": 0
+    },
+    {
+      "file": "04_Итоги_проверки/Газпром/Текущий_прогон/GAZP-2023-ЭО.json",
+      "sha256": "c5566d0249736e8843f2fdddfc6cfa729231adfd8ca54f900a57212bdb9712b2",
+      "claims": 894,
+      "without_presentation_pair": 894,
+      "with_any_presentation_field": 0
+    },
+    {
+      "file": "04_Итоги_проверки/Газпром/Текущий_прогон/GAZP-2024-ОУР.json",
+      "sha256": "09ed6c4fb2b88ebc27911906238d5147ec9fd66049b8f9ee173a5454221a4813",
+      "claims": 103,
+      "without_presentation_pair": 103,
+      "with_any_presentation_field": 0
+    },
+    {
+      "file": "04_Итоги_проверки/Газпром/Текущий_прогон/GAZP-2025-ОУР.json",
+      "sha256": "bfac5794b877dbd53356d35a08c94309699bbdb3b0c703777907e069790d07c2",
+      "claims": 113,
+      "without_presentation_pair": 113,
+      "with_any_presentation_field": 0
+    }
+  ],
+  "claims": 1154,
+  "without_presentation_pair": 1154
+}

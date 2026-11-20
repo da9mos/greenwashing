@@ -1,0 +1,15 @@
+{
+  "output": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/export_r3",
+  "schema_version": "esg-factcheck-1.0",
+  "status": "research_complete",
+  "total": 8,
+  "unfinished": 0,
+  "report_id": null,
+  "md_sha256": null,
+  "extraction_coverage_complete": false,
+  "verdict_counts": {
+    "insufficient_evidence": 7,
+    "not_verifiable": 1
+  },
+  "limitation": "Structural/provenance checks only. Reviewer judgments of independence, alignment, aspect completeness and truth are not mechanically proven. Research completion is not factual certainty or proof of greenwashing."
+}

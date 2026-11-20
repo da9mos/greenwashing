@@ -47,6 +47,54 @@
       "status": "completed",
       "source_ids": [],
       "outcome_note": "synthetic zero hits"
+    },
+    {
+      "id": "fixture-rosp_enforcement",
+      "query": "SYNTHETIC UNIT FIXTURE rosp_enforcement",
+      "direction": "support",
+      "tool": "fixture",
+      "tool_ref": "fixture:q1",
+      "searched_at": "2026-11-19T08:00:00+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Synthetic zero results; not live research",
+      "category": "rosp_enforcement"
+    },
+    {
+      "id": "fixture-rost_enforcement",
+      "query": "SYNTHETIC UNIT FIXTURE rost_enforcement",
+      "direction": "support",
+      "tool": "fixture",
+      "tool_ref": "fixture:q1",
+      "searched_at": "2026-11-19T08:00:00+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Synthetic zero results; not live research",
+      "category": "rost_enforcement"
+    },
+    {
+      "id": "fixture-court_cases",
+      "query": "SYNTHETIC UNIT FIXTURE court_cases",
+      "direction": "support",
+      "tool": "fixture",
+      "tool_ref": "fixture:q1",
+      "searched_at": "2026-11-19T08:00:00+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Synthetic zero results; not live research",
+      "category": "court_cases"
+    },
+    {
+      "id": "fixture-media_incidents",
+      "query": "SYNTHETIC UNIT FIXTURE media_incidents",
+      "direction": "support",
+      "tool": "fixture",
+      "tool_ref": "fixture:q1",
+      "searched_at": "2026-11-19T08:00:00+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Synthetic zero results; not live research",
+      "category": "media_incidents"
     }
   ],
   "sources": [
@@ -107,6 +155,44 @@
         "e1"
       ],
       "reason": "fixture"
+    }
+  ],
+  "risk_checks": [
+    {
+      "category": "rosp_enforcement",
+      "search_indexes": [
+        2
+      ],
+      "finding": "Synthetic unit fixture only",
+      "entity_scope": "Test Co",
+      "period_scope": "2023"
+    },
+    {
+      "category": "rost_enforcement",
+      "search_indexes": [
+        3
+      ],
+      "finding": "Synthetic unit fixture only",
+      "entity_scope": "Test Co",
+      "period_scope": "2023"
+    },
+    {
+      "category": "court_cases",
+      "search_indexes": [
+        4
+      ],
+      "finding": "Synthetic unit fixture only",
+      "entity_scope": "Test Co",
+      "period_scope": "2023"
+    },
+    {
+      "category": "media_incidents",
+      "search_indexes": [
+        5
+      ],
+      "finding": "Synthetic unit fixture only",
+      "entity_scope": "Test Co",
+      "period_scope": "2023"
     }
   ]
 }

@@ -65,6 +65,9 @@ def lock(run):
         path.rmdir()
 
 
+RISK_CATEGORIES = ('rosp_enforcement', 'rost_enforcement', 'court_cases', 'media_incidents')
+
+
 def prepare(source, run, prompt=None):
     source, run = Path(source), Path(run)
     require(not run.exists(), 'output exists; use next to resume')
@@ -97,6 +100,7 @@ def prepare(source, run, prompt=None):
             'report_id': extraction_manifest.get('report_id'), 'md_sha256': extraction_manifest.get('source_sha256'),
             'extraction_coverage_complete': coverage_complete,
             'search_directions': ['support', 'contradiction'],
+            'required_risk_categories': list(RISK_CATEGORIES),
             'instruction': 'Researcher must specify atomic aspects, entity/period/boundary, then run both search directions. This is a queue, not completed research.'}
     files = {'input.json': raw, 'plan.json': encoded(plan), 'prompt.md': prompt_bytes}
     run.mkdir(parents=True)
@@ -174,6 +178,27 @@ def validate(packet, plan):
     directions = {q['direction'] for q in searches if q['status'] == 'completed'}
     if state == 'complete':
         require(directions == {'support', 'contradiction'}, 'completed research requires both directions')
+    required = plan.get('required_risk_categories', [])
+    if required or 'risk_checks' in packet:
+        expected = set(required or RISK_CATEGORIES)
+        checks = packet.get('risk_checks')
+        require(isinstance(checks, list) and all(isinstance(c, dict) for c in checks),
+                'risk_checks required: Rosprirodnadzor, Rostechnadzor, courts and media incidents')
+        require(len(checks) == len(expected) and {c.get('category') for c in checks} == expected,
+                'each required risk category must be checked exactly once')
+        for check in checks:
+            for key in ('finding', 'entity_scope', 'period_scope'):
+                require(nonempty(check.get(key)), f'risk check {key} required')
+            indexes = check.get('search_indexes')
+            require(isinstance(indexes, list) and (indexes or state != 'complete')
+                    and all(type(i) is int and 0 <= i < len(searches) for i in indexes)
+                    and len(indexes) == len(set(indexes)), 'risk check needs real search indexes')
+            queries = [searches[i] for i in indexes]
+            require(all(q.get('category') == check['category'] for q in queries),
+                    'risk check search category mismatch')
+            if state == 'complete':
+                require(any(q['status'] == 'completed' for q in queries),
+                        'completed research requires a completed search for each risk category')
     for e in evidence:
         require(e.get('source_id') in sm, 'unknown evidence source')
         require(nonempty(e.get('quote')) and e['quote'] in sm[e['source_id']]['content'], 'evidence quote not exact in snapshot')

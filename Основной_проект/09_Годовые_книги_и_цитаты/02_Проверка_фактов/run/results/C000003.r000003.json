@@ -1,0 +1,405 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "7c71e9e2057472889795163366b356e9157a0a8455ff9d68b67715d3746a471b",
+  "claim_id": "C000003",
+  "quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+  "reviewer": "Codex, GPT-6 family; project FACT_CHECK_AGENT.md; exact model snapshot unavailable; derivative atomic assessment from existing accepted research",
+  "checked_at": "2026-11-20T23:27:42.675818+05:00",
+  "revision": 3,
+  "research_status": "complete",
+  "verdict": "insufficient_evidence",
+  "reason": "Газпром, отчёт за 2023 год: 96,23 млрд руб.; отчёт за 2024 год: 96 232,61 млн руб. за тот же год. Вывод: суммы согласуются после округления, но независимого подтверждения общих расходов Группы в РФ нет.",
+  "target": {
+    "proposition": "Общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации в 2023 г. составили 96,23 млрд руб.",
+    "entity": "Группа Газпром",
+    "period": "2023",
+    "boundary": "Общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации",
+    "assessment_object": "reported_fact"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Газпром\" \"96,23\" \"8,0\" 2023 расходы",
+      "tool": "web.run",
+      "tool_ref": "web.run turn2search12; journal/03_c1primary_c2_search_akm.json",
+      "searched_at": "2026-11-20T22:08:55+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найден корпоративный отчет; HTML2024 прочитан как первичный источник и согласован с исходнымPDF. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"96,23\" ошибки исправление расходы 2023 2022",
+      "tool": "web.run",
+      "tool_ref": "web.run turn2search13,turn2search14; journal/03_c1primary_c2_search_akm.json",
+      "searched_at": "2026-11-20T22:08:55+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "В выдаче не найдено релевантного исправления или независимого опровержения этих двух показателей. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q3",
+      "direction": "support",
+      "query": "\"Газпром\" \"96,23\" \"аудитор\" 2023 расходы",
+      "tool": "web.run",
+      "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+      "searched_at": "2026-11-20T22:10:36+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Целевой поиск независимого аудита не дал прочитанного заключения, удостоверяющего расходы2023. Страница ключевых проверенных показателей2024 открыта отдельно, но включает иные метрики. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q_HTML",
+      "direction": "support",
+      "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+      "searched_at": "2026-11-20T22:10:59+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Первичный корпоративный HTML найден в живой выдаче turn3search7, затем открыт и прочитан; ретроспективная таблица сопоставлена с цитатой. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "NEW_SUPPORT",
+      "direction": "support",
+      "query": "\"Газпром\" \"2023\" \"расходы на охрану окружающей среды\" \"ФБК\"",
+      "tool": "web.run",
+      "tool_ref": "web.run turn16search14; journal/06_independent_scope_search.json",
+      "searched_at": "2026-11-20T23:13:13+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Поиск первичного независимого подтверждения экологических расходов; корпоративный отчет не независимый аудит."
+    },
+    {
+      "id": "NEW_OPPOSING",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"96,23\" расходы ошибка исправление",
+      "tool": "web.run",
+      "tool_ref": "web.run turn18search15; journal/08_final_primary_read.json",
+      "searched_at": "2026-11-20T23:13:48+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Не найдено сопоставимого исправления исходных показателей; финансовые котировки исключены."
+    },
+    {
+      "id": "NEW_OPEN_FIN",
+      "direction": "support",
+      "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "tool": "web.run find",
+      "tool_ref": "web.run turn19view1; journal/09_read_relevant_excerpts.json",
+      "searched_at": "2026-11-20T23:13:59+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_FIN"
+      ],
+      "outcome_note": "Прочитана таблица2022–2024 с тем же показателем и единицами; источник корпоративный."
+    },
+    {
+      "id": "NEW_OPEN_PDF",
+      "direction": "support",
+      "query": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+      "tool": "web.run find",
+      "tool_ref": "web.run turn20view1; journal/10_read_original_metrics.json",
+      "searched_at": "2026-11-20T23:14:36+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_PDF_FIN"
+      ],
+      "outcome_note": "Повторно прочитан исходный абзац; не независимое подтверждение."
+    },
+    {
+      "id": "RISK_2023_rosp_enforcement",
+      "direction": "contradiction",
+      "query": "site.rpn.gov.ru \"Газпром\" \"2023\" штраф нарушения предписание",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [
+        "R23"
+      ],
+      "outcome_note": "Росприроднадзор: опубликованный судебный текст подтверждает предписание Салавату №135-В от28.09.2023. Новостной первоисточник о26нарушениях ранее вернул403; закрытый реестр не считается прочитанным. Один объект не доказывает групповые итоги или отсутствие плана САКВ.",
+      "category": "rosp_enforcement"
+    },
+    {
+      "id": "RISK_2023_rost_enforcement",
+      "direction": "contradiction",
+      "query": "site.gosnadzor.ru \"Газпром\" \"2023\" нарушения предписание штраф",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [
+        "T23"
+      ],
+      "outcome_note": "Ростехнадзор: судебный текст отражает контроль и новое предписание ООО Газпром сжиженный газ от10.07.2023. Иной субъект/метрика: это не опровержение экологических расходов, точного обещания или трех групповых счетчиков.",
+      "category": "rost_enforcement"
+    },
+    {
+      "id": "RISK_2023_court_cases",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"2023\" суд экологический ущерб штраф Салават",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [
+        "R23"
+      ],
+      "outcome_note": "Судебная практика: А07-40790/2023 рассмотрен21.02.2024, касается предписания2023. Наличие экологических нарушений учтено как контекст; не заменяет юридический оригинал соглашения либо полный свод актов Группы.",
+      "category": "court_cases"
+    },
+    {
+      "id": "RISK_2023_media_incidents",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"2023\" авария инцидент взрыв Салават",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "СМИ/инциденты: выполнены запросы поГазпрому/Салавату2023. Встреченные эпизоды иных лет и отдельных объектов не сопоставимы с проверяемыми метриками; отсутствия всех аварий не утверждается.",
+      "category": "media_incidents"
+    },
+    {
+      "id": "RISK_2023_rost_followup",
+      "direction": "contradiction",
+      "query": "\"Ростехнадзор\" \"Газпром\" \"2023\" предписание штраф",
+      "tool": "web.run",
+      "tool_ref": "web.run turn29search0,turn29search2,turn29search11; journal/19_risk_followup_and_read.json",
+      "searched_at": "2026-11-20T23:21:08+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Ростехнадзор: судебный текст отражает контроль и новое предписание ООО Газпром сжиженный газ от10.07.2023. Иной субъект/метрика: это не опровержение экологических расходов, точного обещания или трех групповых счетчиков.",
+      "category": "rost_enforcement"
+    },
+    {
+      "id": "RISK_2023_media_followup",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"2023\" авария взрыв Интерфакс",
+      "tool": "web.run",
+      "tool_ref": "web.run turn29search16,turn29search19; journal/19_risk_followup_and_read.json",
+      "searched_at": "2026-11-20T23:21:08+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "СМИ/инциденты: выполнены запросы поГазпрому/Салавату2023. Встреченные эпизоды иных лет и отдельных объектов не сопоставимы с проверяемыми метриками; отсутствия всех аварий не утверждается.",
+      "category": "media_incidents"
+    }
+  ],
+  "sources": [
+    {
+      "id": "N_FIN",
+      "url": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "publisher": "Газпром, отчет2024",
+      "origin_group": "ПАО Газпром, собственная ретроспектива расходов",
+      "origin_basis": "Первичная корпоративная таблица; не независимое подтверждение расходов.",
+      "publication_date": null,
+      "publication_date_note": "Точная дата публикации в прочитанном фрагменте не указана; год отчета не заменяет дату публикации.",
+      "event_period": "2022/2023/2024",
+      "locator": "L112/115/120; млнруб, столбцы2022/2023/2024",
+      "content": "Итого по Группе Газпром  | 89 138,75  | 96 232,61  | 87 903,63  | – 8,7",
+      "content_sha256": "51a26cb0204d9a9251f30f04bd75d61b9798947c649fe84f8508c2fca6f07503",
+      "tool_ref": "web.run turn19view1; journal/09_read_relevant_excerpts.json",
+      "retrieved_at": "2026-11-20T23:13:59+05:00",
+      "access": "excerpt",
+      "independence": "issuer"
+    },
+    {
+      "id": "N_PDF_FIN",
+      "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+      "publisher": "Газпром, экологический отчет2023",
+      "origin_group": "ПАО Газпром; хостинг ДРАГА",
+      "origin_basis": "Републикация проверяемого корпоративного отчета; не независимый аудит.",
+      "publication_date": null,
+      "publication_date_note": "Точная дата публикации в прочитанном фрагменте не указана; год отчета не заменяет дату публикации.",
+      "event_period": "2023",
+      "locator": "Физическая страница14, печатная12; L578–581",
+      "content": "В отчетном году общие расходы Группы Газпром на\nохрану окружающей среды в Российской Федерации по\nотношению к 2022 г. увеличились на 8,0 % и составили\n96,23 млрд руб.",
+      "content_sha256": "d0b4c18eaf5c3f2d629f95841dce5aeda127328ebe8e74db64eb19a4c7137a06",
+      "tool_ref": "web.run turn20view1; journal/10_read_original_metrics.json",
+      "retrieved_at": "2026-11-20T23:14:36+05:00",
+      "access": "excerpt",
+      "independence": "issuer_republication"
+    },
+    {
+      "id": "R23",
+      "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+      "publisher": "Арбитражный суд Республики Башкортостан; копия onlineecology",
+      "origin_group": "Арбитражный суд Республики Башкортостан",
+      "origin_basis": "Первичный текст судебного решения; источник фактов о предписании — суд, не предприятие. Не групповой полный свод.",
+      "publication_date": "2024-02-21",
+      "publication_date_note": null,
+      "event_period": "Предписание28.09.2023; решение21.02.2024",
+      "locator": "Страница1–2; строки19–20",
+      "content": "о признании частично недействительным предписания\nРосприроднадзора от 28.09.2023 № 135-В,",
+      "content_sha256": "07b90a49a9ced7bbb36069941334dfaa7fc573b53c54d1245b45b05c8fe27a98",
+      "tool_ref": "web.run turn30view3; journal/20_risk_records_read.json",
+      "retrieved_at": "2026-11-20T23:21:31+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "T23",
+      "url": "https://www.zakonrf.info/arbsud/doc-e4fae0db-51d2-5a32-bd56-0218ef396b78/",
+      "publisher": "Одиннадцатый арбитражный апелляционный суд; копия ЗаконРФ",
+      "origin_group": "11 ААС, делоА65-20459/2023",
+      "origin_basis": "Судебный текст о надзоре промышленной безопасности отдельного ООО; не экологический групповой счетчик.",
+      "publication_date": "2023-11-20",
+      "publication_date_note": null,
+      "event_period": "Предписание10.07.2023",
+      "locator": "L237",
+      "content": "Результаты контрольных (надзорных) действий Управления были зафиксированы в Протоколе осмотра от 10.07.2023 № 43-15-2023-22, после чего было оформлено и выдано обществу новое Предписание от 10.07.2023 № 43-15- 2023-22.",
+      "content_sha256": "69d2666a6cc9f7f5d45762e021be1ec237598efb03ddb29bbbd49a62034e285c",
+      "tool_ref": "web.run turn30view4; journal/20_risk_records_read.json",
+      "retrieved_at": "2026-11-20T23:21:31+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "N_E1",
+      "source_id": "N_FIN",
+      "quote": "Итого по Группе Газпром  | 89 138,75  | 96 232,61  | 87 903,63  | – 8,7",
+      "relation": "supports",
+      "reason": "Корпоративное раскрытие суммы 96,23 млрд руб. либо 96 232,61 млн руб. за 2023; независимого происхождения нет.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Группа Газпром."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Ретроспективные 2023 и 2022."
+        },
+        "boundary": {
+          "status": "matched",
+          "reason": "Раздел задает РФ, таблица общих расходов группы."
+        },
+        "metric": {
+          "status": "matched",
+          "reason": "Именно сумма общих экологических расходов за2023, не только инвестиции."
+        },
+        "unit": {
+          "status": "matched",
+          "reason": "Млрдруб; для корпоративной таблицы выполнено точное преобразование 96 232,61 млнруб /1000=96,23261 млрдруб с округлением до96,23."
+        }
+      }
+    },
+    {
+      "id": "N_E2",
+      "source_id": "N_PDF_FIN",
+      "quote": "В отчетном году общие расходы Группы Газпром на\nохрану окружающей среды в Российской Федерации по\nотношению к 2022 г. увеличились на 8,0 % и составили\n96,23 млрд руб.",
+      "relation": "supports",
+      "reason": "Корпоративное раскрытие суммы 96,23 млрд руб. либо 96 232,61 млн руб. за 2023; независимого происхождения нет.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Группа Газпром."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Ретроспективные 2023 и 2022."
+        },
+        "boundary": {
+          "status": "matched",
+          "reason": "Раздел задает РФ, таблица общих расходов группы."
+        },
+        "metric": {
+          "status": "matched",
+          "reason": "Именно сумма общих экологических расходов за2023, не только инвестиции."
+        },
+        "unit": {
+          "status": "matched",
+          "reason": "Млрдруб; для корпоративной таблицы выполнено точное преобразование 96 232,61 млнруб /1000=96,23261 млрдруб с округлением до96,23."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Сумма общих расходов 2023 в РФ составляет 96,23 млрдруб.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "N_E1",
+        "N_E2"
+      ],
+      "reason": "Газпром, отчёт за 2023 год: 96,23 млрд руб.; отчёт за 2024 год: 96 232,61 млн руб. за тот же год. Вывод: суммы согласуются после округления, но независимого подтверждения общих расходов Группы в РФ нет."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Полная цитата сохранена отдельно; оценивается только указанный атом GAZP-2023-ATOMIC-002-a. Все существенные части этого атома сохранены; другие части полной цитаты имеют собственные строки.",
+  "source_review": {
+    "status": "verified",
+    "method": "Fresh local full-page and x3-crop renders inspected by Codex. Text-layer geometry and literal MD offsets are supporting locators, not substitutes for image reading.; проверен полный родительский абзац и привязка конкретного аспекта, не внешняя истинность",
+    "locator": "../01_Сверка_цитат/citation_review.json; quote_id=GAZP-2023-EO-DEMO-002; page=14",
+    "review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+    "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+    "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24"
+  },
+  "limitations": [
+    "Заключение ограничено реально выполненными запросами и прочитанными источниками; полнота публичного интернета не заявляется.",
+    "Нет юридического вывода о гринвошинге, селективном раскрытии или намерении обмануть.",
+    "Это производная оценка конкретного атома по ранее выполненным поискам; checked_at — дата атомарного пересмотра, searched_at — сохраненная дата реальных запросов.",
+    "Четыре категории внешних рисков проверены отдельными реальными запросами. Негативные факты несовпадающего периметра/метрики не назначены опровержением."
+  ],
+  "derived_research": {
+    "reassessment": true,
+    "parent_packet_sha256": "3b8fe455c71c0a5448b92075bb9812c1b0d1cfd0e17f06c53650b0e5bdacee02",
+    "new_searches": true,
+    "prior_search_times_preserved": true
+  },
+  "research_lineage": {
+    "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000003.r000001.json",
+    "parent_packet_sha256": "3b8fe455c71c0a5448b92075bb9812c1b0d1cfd0e17f06c53650b0e5bdacee02",
+    "parent_native_journal_base": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal",
+    "new_native_journal_base": "journal/",
+    "new_input_reason": "Полная непрерывная проверенная цитата вместо старых склеенных фрагментов; аспект хранится отдельно."
+  },
+  "risk_checks": [
+    {
+      "category": "rosp_enforcement",
+      "search_indexes": [
+        8
+      ],
+      "finding": "Росприроднадзор: опубликованный судебный текст подтверждает предписание Салавату №135-В от28.09.2023. Новостной первоисточник о26нарушениях ранее вернул403; закрытый реестр не считается прочитанным. Один объект не доказывает групповые итоги или отсутствие плана САКВ.",
+      "entity_scope": "Группа Газпром; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    },
+    {
+      "category": "rost_enforcement",
+      "search_indexes": [
+        9,
+        12
+      ],
+      "finding": "Ростехнадзор: судебный текст отражает контроль и новое предписание ООО Газпром сжиженный газ от10.07.2023. Иной субъект/метрика: это не опровержение экологических расходов, точного обещания или трех групповых счетчиков.",
+      "entity_scope": "Группа Газпром; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    },
+    {
+      "category": "court_cases",
+      "search_indexes": [
+        10
+      ],
+      "finding": "Судебная практика: А07-40790/2023 рассмотрен21.02.2024, касается предписания2023. Наличие экологических нарушений учтено как контекст; не заменяет юридический оригинал соглашения либо полный свод актов Группы.",
+      "entity_scope": "Группа Газпром; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    },
+    {
+      "category": "media_incidents",
+      "search_indexes": [
+        11,
+        13
+      ],
+      "finding": "СМИ/инциденты: выполнены запросы поГазпрому/Салавату2023. Встреченные эпизоды иных лет и отдельных объектов не сопоставимы с проверяемыми метриками; отсутствия всех аварий не утверждается.",
+      "entity_scope": "Группа Газпром; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    }
+  ],
+  "risk_revision_parent_sha256": "b844a3cafea74a718e1f4db5b36442f61e39c86b210f5ee7c3c1c8cc7881529e",
+  "presentation_revision_parent_sha256": "42c481090b00ca4cbc3da3774ed51a94ccd55cf39d7df9e905df98e7ade2209e",
+  "presentation_revision_note": "Краткое объяснение согласовано с уже прочитанными судебными фактами и четырьмя risk_checks. Запросы и даты не изменены; новых поисков в этой редактуре нет."
+}

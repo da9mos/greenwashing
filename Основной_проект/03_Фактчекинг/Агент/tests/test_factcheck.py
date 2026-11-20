@@ -10,7 +10,7 @@ import factcheck as f
 
 def response(plan):
     content = 'Synthetic independent measurement: emissions were 10 tonnes in 2023.'
-    return {'schema_version': f.SCHEMA, 'source_sha256': plan['source_sha256'],
+    packet = {'schema_version': f.SCHEMA, 'source_sha256': plan['source_sha256'],
             'claim_id':'C000001', 'quote':plan['claims'][0]['quote'], 'revision':1,
             'reviewer':'synthetic-test-reviewer','checked_at':'2026-11-19T09:00:00+05:00',
             'research_status':'complete','verdict':'true','reason':'Synthetic fixture only',
@@ -31,6 +31,18 @@ def response(plan):
                          'relation':'supports','reason':'fixture measurement',
                          'alignment':{k:{'status':'matched','reason':'synthetic exact match'} for k in f.AXES}}],
             'aspects':[{'id':'a1','proposition':'10 tonnes','status':'supported','evidence_ids':['e1'],'reason':'fixture'}]}
+
+    packet['risk_checks'] = []
+    for category in f.RISK_CATEGORIES:
+        i = len(packet['searches'])
+        q = copy.deepcopy(packet['searches'][0])
+        q.update(id='fixture-' + category, query='synthetic category query ' + category,
+                 category=category, source_ids=[], direction='support')
+        packet['searches'].append(q)
+        packet['risk_checks'].append({'category': category, 'search_indexes': [i],
+                                     'finding': 'synthetic fixture only', 'entity_scope': 'Test Co', 'period_scope': '2023'})
+    return packet
+
 
 
 class Tests(unittest.TestCase):
@@ -89,6 +101,7 @@ class Tests(unittest.TestCase):
         self.bad(lambda p:p.update(research_status='blocked'))
     def test_blocked_not_insufficient(self):
         self.p.update(sources=[],evidence=[],searches=[],research_status='blocked',verdict='not_verifiable')
+        for check in self.p['risk_checks']: check['search_indexes']=[]
         self.p['aspects'][0].update(status='unresolved',evidence_ids=[])
         self.ingest();self.assertEqual(len(f.queue(self.run)),2)
     def test_future_promise(self):

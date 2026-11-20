@@ -1,0 +1,355 @@
+{
+  "schema_version": "esg-user-presentation-1.0",
+  "checked_at": "2026-11-20T23:16:53.383504+05:00",
+  "label_mapping": {
+    "true": "Правда",
+    "false": "Неправда",
+    "partial": "Частично правда",
+    "insufficient_evidence": "Недостаточно данных",
+    "not_verifiable": "Непроверяемая декларация",
+    "not_due": "Срок не наступил"
+  },
+  "rows": [
+    {
+      "atom_id": "GAZP-2023-ATOMIC-001-a",
+      "claim_id": "C000001",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Коммерсантъ и Совет Салавата: соглашение предусматривает САКВ и развитие мониторинга. Дело А07-40790/2023: предписание Росприроднадзора Салавату №135-В от 28.09.2023 касается выбросов. Вывод: этот надзорный факт не удостоверяет точный пункт о плане САКВ или его исполнение; доступного оригинала соглашения нет.",
+      "sources": [
+        {
+          "name": "Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/5927481",
+          "assertion": "Сообщает о соглашении и планируемой установке САКВ; точный пункт данного атома не приведен.",
+          "access": "excerpt",
+          "independence": "independent"
+        },
+        {
+          "name": "Совет Салавата",
+          "url": "https://www.salavatsovet.ru/2023/04/12/salavat-i-sterlitamak-vklyuchili-v-proekt-chistyj-vozdux/",
+          "assertion": "Описывает задачу оснащения труб и развитие мониторинга; точных двух обязанностей не содержит.",
+          "access": "excerpt",
+          "independence": "independent"
+        },
+        {
+          "name": "Выбор Салават",
+          "url": "https://gazetavibor.ru/news/novosti/2023-04-13/salavat-i-sterlitamak-voshli-v-federalnyy-proekt-chistyy-vozduh-soglasheniya-podpisany-3218587",
+          "assertion": "Поисковый текст пересказывает слова пресс-службы предприятия; оригинал закрыт (403), поэтому не решающее подтверждение.",
+          "access": "snippet",
+          "independence": "issuer_republication"
+        },
+        {
+          "name": "Арбитражный суд Республики Башкортостан, дело А07-40790/2023 (копия решения)",
+          "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+          "assertion": "Суд рассматривает предписание Росприроднадзора Салавату №135-В от28.09.2023; это отдельный надзорный эпизод, не полный перечень Группы и не оригинал соглашения.",
+          "access": "excerpt",
+          "independence": "independent"
+        }
+      ],
+      "exact_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+      "quote_id": "GAZP-2023-EO-DEMO-001",
+      "aspect": "ООО «Газпром нефтехим Салават» приняло обязательство разработать план создания САКВ на эксплуатируемых объектах I категории.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 37,
+      "type": "обязательство",
+      "block": "E",
+      "record_path": "run/results/C000001.r000003.json",
+      "assessment_path": "run/results/C000001.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-001-b",
+      "claim_id": "C000002",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Коммерсантъ и Совет Салавата: подтверждают соглашение и задачи САКВ. Дело А07-40790/2023: предписание Росприроднадзора №135-В от 28.09.2023 не удостоверяет обязанность представить количество источников. Вывод: точный пункт соглашения не установлен; «до 2025 г.» относится к оснащению, а не к сроку представления сведений.",
+      "sources": [
+        {
+          "name": "Коммерсантъ",
+          "url": "https://www.kommersant.ru/doc/5927481",
+          "assertion": "Сообщает о соглашении и планируемой установке САКВ; точный пункт данного атома не приведен.",
+          "access": "excerpt",
+          "independence": "independent"
+        },
+        {
+          "name": "Совет Салавата",
+          "url": "https://www.salavatsovet.ru/2023/04/12/salavat-i-sterlitamak-vklyuchili-v-proekt-chistyj-vozdux/",
+          "assertion": "Описывает задачу оснащения труб и развитие мониторинга; точных двух обязанностей не содержит.",
+          "access": "excerpt",
+          "independence": "independent"
+        },
+        {
+          "name": "Выбор Салават",
+          "url": "https://gazetavibor.ru/news/novosti/2023-04-13/salavat-i-sterlitamak-voshli-v-federalnyy-proekt-chistyy-vozduh-soglasheniya-podpisany-3218587",
+          "assertion": "Поисковый текст пересказывает слова пресс-службы предприятия; оригинал закрыт (403), поэтому не решающее подтверждение.",
+          "access": "snippet",
+          "independence": "issuer_republication"
+        },
+        {
+          "name": "Арбитражный суд Республики Башкортостан, дело А07-40790/2023 (копия решения)",
+          "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+          "assertion": "Суд рассматривает предписание Росприроднадзора Салавату №135-В от28.09.2023; это отдельный надзорный эпизод, не полный перечень Группы и не оригинал соглашения.",
+          "access": "excerpt",
+          "independence": "independent"
+        }
+      ],
+      "exact_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+      "quote_id": "GAZP-2023-EO-DEMO-001",
+      "aspect": "ООО «Газпром нефтехим Салават» приняло обязательство представить сведения о количестве стационарных источников, планируемых к оснащению САКВ до 2025 г.; срок представления не установлен.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 37,
+      "type": "обязательство",
+      "block": "E",
+      "record_path": "run/results/C000002.r000003.json",
+      "assessment_path": "run/results/C000002.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-002-a",
+      "claim_id": "C000003",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Газпром, отчёт за 2023 год: 96,23 млрд руб.; отчёт за 2024 год: 96 232,61 млн руб. за тот же год. Вывод: суммы согласуются после округления, но независимого подтверждения общих расходов Группы в РФ нет.",
+      "sources": [
+        {
+          "name": "Газпром, отчёт за 2024 год",
+          "url": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "assertion": "Корпоративная таблица:2022: 89 138,75 млн руб.,2023: 96 232,61 млн руб.; независимым аудитом не является.",
+          "access": "excerpt",
+          "independence": "issuer"
+        },
+        {
+          "name": "Газпром, экологический отчёт за 2023 год",
+          "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+          "assertion": "Исходный корпоративный отчет:96,23 млрд руб. и 8,0%; сравнение раскрытий не подтверждает фактическую независимую сумму.",
+          "access": "excerpt",
+          "independence": "issuer_republication"
+        }
+      ],
+      "exact_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+      "quote_id": "GAZP-2023-EO-DEMO-002",
+      "aspect": "Общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации в 2023 г. составили 96,23 млрд руб.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 14,
+      "type": "результат",
+      "block": "E",
+      "record_path": "run/results/C000003.r000003.json",
+      "assessment_path": "run/results/C000003.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-002-b",
+      "claim_id": "C000004",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Газпром, отчёт за 2024 год: 89 138,75 млн руб. за 2022 и 96 232,61 млн руб. за 2023 дают рост 7,96%; отчёт за 2023 год указывает 8,0%. Вывод: округление верно, но исходные суммы независимо не подтверждены.",
+      "sources": [
+        {
+          "name": "Газпром, отчёт за 2024 год",
+          "url": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "assertion": "Корпоративная таблица:2022: 89 138,75 млн руб.,2023: 96 232,61 млн руб.; независимым аудитом не является.",
+          "access": "excerpt",
+          "independence": "issuer"
+        },
+        {
+          "name": "Газпром, экологический отчёт за 2023 год",
+          "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+          "assertion": "Исходный корпоративный отчет:96,23 млрд руб. и 8,0%; сравнение раскрытий не подтверждает фактическую независимую сумму.",
+          "access": "excerpt",
+          "independence": "issuer_republication"
+        }
+      ],
+      "exact_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+      "quote_id": "GAZP-2023-EO-DEMO-002",
+      "aspect": "Общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации в 2023 г. увеличились на 8,0% относительно 2022 г.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 14,
+      "type": "результат",
+      "block": "E",
+      "record_path": "run/results/C000004.r000003.json",
+      "assessment_path": "run/results/C000004.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-003-a",
+      "claim_id": "C000005",
+      "verdict": "not_verifiable",
+      "check_label": "Непроверяемое заявление",
+      "short_reason": "Газпром: сохранение природы закреплено в экологической политике и названо принципом работы. Вывод: измеримый критерий «главного принципа» не задан; оценить эту декларацию как достигнутый результат нельзя.",
+      "sources": [
+        {
+          "name": "Газпром, экологическая политика",
+          "url": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "assertion": "Собственная экологическая политика; не задает измеримый критерий статуса главного принципа.",
+          "access": "excerpt",
+          "independence": "issuer"
+        }
+      ],
+      "exact_quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+      "quote_id": "GAZP-2023-EO-DEMO-003",
+      "aspect": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 7,
+      "type": "декларация",
+      "block": "E",
+      "record_path": "run/results/C000005.r000003.json",
+      "assessment_path": "run/results/C000005.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-a",
+      "claim_id": "C000006",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Газпром, отчёт за 2023 год: проведена 761 проверка. Дело А07-40790/2023: предписание Росприроднадзора Салавату №135-В от 28.09.2023 подтверждает отдельный надзорный эпизод. Вывод: это один объект, не полный перечень проверок Группы; независимого подтверждения общего итога нет.",
+      "sources": [
+        {
+          "name": "Газпром, экологический отчёт за 2023 год",
+          "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+          "assertion": "Корпоративный итог за 2023 год: 761 проверка, 517 нарушений, 563 проверки без нарушений; разные единицы учета.",
+          "access": "excerpt",
+          "independence": "issuer_republication"
+        },
+        {
+          "name": "Арбитражный суд Республики Башкортостан, дело А07-40790/2023 (копия решения)",
+          "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+          "assertion": "Суд рассматривает предписание Росприроднадзора Салавату №135-В от28.09.2023; это отдельный надзорный эпизод, не полный перечень Группы и не оригинал соглашения.",
+          "access": "excerpt",
+          "independence": "independent"
+        }
+      ],
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "aspect": "В 2023 г. государственные надзорные органы провели 761 проверку требований ООС и природопользования на объектах Группы Газпром.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 38,
+      "type": "результат",
+      "block": "E",
+      "record_path": "run/results/C000006.r000003.json",
+      "assessment_path": "run/results/C000006.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-b",
+      "claim_id": "C000007",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Газпром, отчёт за 2023 год: выявлено 517 нарушений. Дело А07-40790/2023: предписание Росприроднадзора Салавату №135-В от 28.09.2023 относится к отдельному объекту. Вывод: судебный факт учтён, но групповой итог 517 им не подтверждается и не опровергается.",
+      "sources": [
+        {
+          "name": "Газпром, экологический отчёт за 2023 год",
+          "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+          "assertion": "Корпоративный итог за 2023 год: 761 проверка, 517 нарушений, 563 проверки без нарушений; разные единицы учета.",
+          "access": "excerpt",
+          "independence": "issuer_republication"
+        },
+        {
+          "name": "Арбитражный суд Республики Башкортостан, дело А07-40790/2023 (копия решения)",
+          "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+          "assertion": "Суд рассматривает предписание Росприроднадзора Салавату №135-В от28.09.2023; это отдельный надзорный эпизод, не полный перечень Группы и не оригинал соглашения.",
+          "access": "excerpt",
+          "independence": "independent"
+        }
+      ],
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "aspect": "В результате описанных государственных проверок объектов Группы Газпром в 2023 г. выявлено 517 нарушений.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 38,
+      "type": "результат",
+      "block": "E",
+      "record_path": "run/results/C000007.r000003.json",
+      "assessment_path": "run/results/C000007.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-c",
+      "claim_id": "C000008",
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Газпром, отчёт за 2023 год: 563 проверки завершились без нарушений. Дело А07-40790/2023: предписание Росприроднадзора Салавату №135-В от 28.09.2023 касается одного объекта. Вывод: это не полный перечень Группы; независимого подтверждения 563 проверок нет, а 517 нарушений имеют другую единицу учёта.",
+      "sources": [
+        {
+          "name": "Газпром, экологический отчёт за 2023 год",
+          "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+          "assertion": "Корпоративный итог за 2023 год: 761 проверка, 517 нарушений, 563 проверки без нарушений; разные единицы учета.",
+          "access": "excerpt",
+          "independence": "issuer_republication"
+        },
+        {
+          "name": "Арбитражный суд Республики Башкортостан, дело А07-40790/2023 (копия решения)",
+          "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+          "assertion": "Суд рассматривает предписание Росприроднадзора Салавату №135-В от28.09.2023; это отдельный надзорный эпизод, не полный перечень Группы и не оригинал соглашения.",
+          "access": "excerpt",
+          "independence": "independent"
+        }
+      ],
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "aspect": "По результатам 563 описанных государственных проверок объектов Группы Газпром в 2023 г. нарушений выявлено не было.",
+      "aspect_is_direct_quote": false,
+      "pdf_page": 38,
+      "type": "результат",
+      "block": "E",
+      "record_path": "run/results/C000008.r000003.json",
+      "assessment_path": "run/results/C000008.r000003.json",
+      "assessment_export_path": "export_r3/claims.json",
+      "assessment_revision": 3,
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    }
+  ]
+}

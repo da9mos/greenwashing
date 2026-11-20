@@ -1,0 +1,11 @@
+test_exhausted_shared_budget_does_not_start_second_model (__main__.ExtractionRetryTests.test_exhausted_shared_budget_does_not_start_second_model) ... ok
+test_invalid_then_valid_preserves_first_and_accepts_second (__main__.ExtractionRetryTests.test_invalid_then_valid_preserves_first_and_accepts_second) ... ok
+test_legacy_adds_only_quotes_and_archives_exact_original (__main__.ExtractionRetryTests.test_legacy_adds_only_quotes_and_archives_exact_original) ... ok
+test_legacy_class_change_or_claim_removal_keeps_original_accepted (__main__.ExtractionRetryTests.test_legacy_class_change_or_claim_removal_keeps_original_accepted) ... ok
+test_new_model_response_cannot_use_legacy_missing_display_quote (__main__.ExtractionRetryTests.test_new_model_response_cannot_use_legacy_missing_display_quote) ... ok
+test_twice_invalid_rejects_and_preserves_both (__main__.ExtractionRetryTests.test_twice_invalid_rejects_and_preserves_both) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.152s
+
+OK

@@ -97,6 +97,21 @@ def source_review_for(report, claim):
     return None
 
 
+def current_research_complete(case):
+    result = case.get('result', {})
+    packet = result.get('packet') or {}
+    if result.get('status') != 'complete' or not packet:
+        return False
+    try:
+        worker.factcheck.validate(packet, {
+            'source_sha256': packet['source_sha256'],
+            'claims': [{'id': packet['claim_id'], 'quote': packet['quote']}],
+            'required_risk_categories': list(worker.factcheck.RISK_CATEGORIES)})
+    except (ValueError, KeyError, TypeError):
+        return False
+    return True
+
+
 def research_step():
     """Execute the existing project fact agent on an accepted claim without waiting for the entire corpus."""
     for report in registry():
@@ -105,7 +120,7 @@ def research_step():
             path = research_path(report, claim)
             if path.exists():
                 previous = worker.base.read(path)
-                if previous['result'].get('status') == 'complete' or previous.get('retry_after_epoch', 0) > time.time():
+                if current_research_complete(previous) or previous.get('retry_after_epoch', 0) > time.time():
                     continue
             state = {'state': 'researching', 'report_id': report['report_id'], 'claim_id': claim['id'],
                      'updated_at': now(), 'pid': os.getpid(), 'project_agent': '03_Фактчекинг/Агент/FACT_CHECK_AGENT.md'}
@@ -138,6 +153,7 @@ def inspect_report(report):
         raise ValueError('Cached source version mismatch')
     claims, coverage, accepted, invalid, ids, id_provenance = [], [], [], [], set(), []
     pending_claims = pending_classifications = 0
+    presentation_ready_claims = presentation_unready_claims = 0
     for batch in manifest['batches']:
         path = root / 'accepted' / (batch['id'] + '.json')
         published = OUTPUT / report['company'] / 'Текущий_прогон/Ответы' / report['packaged_md_sha256'][:12] / (batch['id'] + '.json')
@@ -170,13 +186,15 @@ def inspect_report(report):
         coverage.extend(data['coverage'])
         pending_claims += summary['pending_claims']
         pending_classifications += summary['pending_classifications']
+        presentation_ready_claims += summary.get('presentation_ready_claims', 0)
+        presentation_unready_claims += summary.get('presentation_unready_claims', len(data['claims']))
         accepted.append(batch['id'])
         published.parent.mkdir(parents=True, exist_ok=True)
         published.write_bytes(path.read_bytes())
     pending_blocks = sum(c['status'] == 'pending' for c in coverage)
     total = len(manifest['batches'])
     researched = [worker.base.read(p) for c in claims if (p := research_path(report, c)).exists()]
-    finished = sum(p['result'].get('status') == 'complete' for p in researched)
+    finished = sum(current_research_complete(p) for p in researched)
     result = {
         'report_id': report['report_id'], 'company': report['company'],
         'company_id': report['company_id'], 'pages': report['physical_pages'],
@@ -185,6 +203,7 @@ def inspect_report(report):
         'accepted_batches': len(accepted), 'candidate_claims': len(claims),
         'pending_blocks': pending_blocks, 'pending_claims': pending_claims,
         'pending_classifications': pending_classifications,
+        'presentation_ready_claims': presentation_ready_claims, 'presentation_unready_claims': presentation_unready_claims,
         'research_attempted': len(researched), 'research_finished': finished,
         'invalid_batches': invalid, 'accepted_batch_ids': accepted,
         'esg_counts': dict(Counter(c['block'] for c in claims)),
@@ -214,7 +233,7 @@ def snapshot(control=None):
     totals = {key: sum(r[key] for r in reports) for key in
               ('pages', 'total_batches', 'accepted_batches', 'candidate_claims', 'pending_blocks', 'pending_claims',
                'pending_classifications')}
-    totals.update({key: sum(r.get(key, 0) for r in reports) for key in ('research_attempted', 'research_finished')})
+    totals.update({key: sum(r.get(key, 0) for r in reports) for key in ('research_attempted', 'research_finished', 'presentation_ready_claims', 'presentation_unready_claims')})
     payload = {'updated_at': stamp, 'companies': len(by_company), 'reports': len(reports),
                'totals': totals, 'control': control or {}, 'report_status': reports}
     atomic(HERE / 'status.json', payload)
@@ -243,7 +262,7 @@ def snapshot(control=None):
                 text = text[:pos] + '\n' + marker + 'Ниже сохранены сведения прежнего пилота/подготовки.\n' + text[pos:]
                 readme.write_text(text)
     fields = ['report_id', 'company', 'pages', 'total_batches', 'accepted_batches', 'candidate_claims',
-              'pending_blocks', 'pending_claims', 'pending_classifications', 'research_attempted', 'research_finished', 'status', 'pdf_review', 'factcheck']
+              'pending_blocks', 'pending_claims', 'pending_classifications', 'presentation_ready_claims', 'presentation_unready_claims', 'research_attempted', 'research_finished', 'status', 'pdf_review', 'factcheck']
     with (HERE / 'Сводка_прогона.csv').open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fields, delimiter=';', extrasaction='ignore')
         writer.writeheader(); writer.writerows(reports)
@@ -268,7 +287,8 @@ def run(watch, stage='all'):
         while not (CONTROL / 'STOP').exists():
             status = snapshot({'state': 'selecting', 'pid': os.getpid(), 'validation_blocks': blocked_reports})
             todo = next((r for r in status['report_status']
-                         if r['accepted_batches'] < r['total_batches'] and r['report_id'] not in blocked_reports), None)
+                         if (r['accepted_batches'] < r['total_batches'] or r.get('presentation_unready_claims', 0))
+                         and r['report_id'] not in blocked_reports), None)
             if stage == 'factcheck' or (stage == 'all' and (turn % 2 or not todo)):
                 if research_step():
                     turn += 1
@@ -300,7 +320,8 @@ def run(watch, stage='all'):
             atomic(attempt / 'result.json', result)
             turn += 1
             after, _ = inspect_report(report)
-            if after['accepted_batches'] > todo['accepted_batches']:
+            if (after['accepted_batches'] > todo['accepted_batches']
+                    or after.get('presentation_ready_claims', 0) > todo.get('presentation_ready_claims', 0)):
                 failures = 0
                 snapshot({'state': 'running', 'last_report': report['report_id'], 'updated_at': now()})
                 print(f"{now()} {report['report_id']}: {after['accepted_batches']}/{after['total_batches']}", flush=True)

@@ -20,7 +20,7 @@ class AgentInteroperabilityTests(unittest.TestCase):
         row = exporter.display(self.record(14), report, 1)
         self.assertEqual(len(row), 6)
         self.assertIn('Страницы PDF 14', row[5])
-        self.assertEqual(row[4], 'Недостаточно сопоставимых данных')
+        self.assertEqual(row[4], 'Не установлено')
 
     def test_wrong_physical_page_is_not_silently_exported(self):
         report = {'report_id': 'UNIT', 'physical_pages': 84, 'pdf_source_url': 'https://example.org/unit-pdf'}

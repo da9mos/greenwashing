@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-20T18:13:06.891404+00:00",
+  "mode": "PDF_TO_MD_AGENT independent Codex citation review of existing saved translation",
+  "report_id": "GAZP-2023-ЭО",
+  "source_md_path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+  "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+  "source_pdf_path": "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2023-ЭО.pdf",
+  "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24",
+  "source_pdf_pages": 84,
+  "whole_pdf_status": "partial",
+  "scope": "Only four contiguous quotations and their necessary immediate context on physical pages 37,14,7,38; not full page/component or whole-PDF acceptance",
+  "quotes": [
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+      "quote_id": "GAZP-2023-EO-DEMO-001",
+      "parent_run_claim_id": "C000001",
+      "page": 37,
+      "printed_page": "35",
+      "exact_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+      "verified": true,
+      "source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf#page=37",
+      "bbox": [
+        67,
+        655,
+        312,
+        791
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "source_md_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-37",
+        "contiguous_start_offset_in_saved_page": 2374,
+        "contiguous_length": 567,
+        "exact_contiguous_match": true
+      },
+      "atom_ids": [
+        "GAZP-2023-ATOMIC-001-a",
+        "GAZP-2023-ATOMIC-001-b"
+      ],
+      "context_review": "Два непосредственно следующих друг за другом предложения: первое называет ООО «Газпром нефтехим Салават» и соглашение, второе полностью сохраняет две части обязательства. Не доказывает установку САКВ. «До 2025 г.» относится к планируемому оснащению; отдельный срок подготовки плана/представления сведений не назван.",
+      "evidence": {
+        "full_raster": "page-37-full.png",
+        "quote_crop": "page-37-quote.png",
+        "render_scale_full": 1.5,
+        "render_scale_crop": 3
+      },
+      "text_policy": "One contiguous exact substring of current saved MD; no ellipsis, fragments or rewritten symbols. Existing PDF word-wrap treatment in MD is preserved; page38 retains line-break hyphenation.",
+      "verified_at": "2026-11-20T18:13:47.502051+00:00",
+      "verified_scope": "Literal continuous quote and necessary source context read against freshly rendered original PDF image; no external truth verdict."
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+      "quote_id": "GAZP-2023-EO-DEMO-002",
+      "parent_run_claim_id": "C000002",
+      "page": 14,
+      "printed_page": "12",
+      "exact_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+      "verified": true,
+      "source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf#page=14",
+      "bbox": [
+        33,
+        169,
+        277,
+        213
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "source_md_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-14",
+        "contiguous_start_offset_in_saved_page": 141,
+        "contiguous_length": 166,
+        "exact_contiguous_match": true
+      },
+      "atom_ids": [
+        "GAZP-2023-ATOMIC-002-a",
+        "GAZP-2023-ATOMIC-002-b"
+      ],
+      "context_review": "Одна полная фраза об общих расходах на ООС в РФ за отчетный 2023 год к 2022 году. Сумма и темп роста присутствуют в самой фразе; объединять ячейки диаграммы в новое предложение не требуется.",
+      "evidence": {
+        "full_raster": "page-14-full.png",
+        "quote_crop": "page-14-quote.png",
+        "render_scale_full": 1.5,
+        "render_scale_crop": 3
+      },
+      "text_policy": "One contiguous exact substring of current saved MD; no ellipsis, fragments or rewritten symbols. Existing PDF word-wrap treatment in MD is preserved; page38 retains line-break hyphenation.",
+      "table_context": {
+        "kind": "chart",
+        "not_part_of_exact_quote": true,
+        "title_exact": "Динамика расходов Группы Газпром на ООС, 2019–2023 гг., млрд руб.",
+        "bbox": [
+          33,
+          282,
+          276,
+          376
+        ],
+        "evidence": "page-14-chart-context.png",
+        "verified": true,
+        "values": [
+          {
+            "year": "2023",
+            "value": "96,23",
+            "unit": "млрд руб."
+          },
+          {
+            "year": "2022",
+            "value": "89,14",
+            "unit": "млрд руб."
+          }
+        ],
+        "note": "Это график, представленный таблицей в MD; данные строк не превращаются в новое предложение от автора."
+      },
+      "verified_at": "2026-11-20T18:13:47.502278+00:00",
+      "verified_scope": "Literal continuous quote and necessary source context read against freshly rendered original PDF image; no external truth verdict."
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+      "quote_id": "GAZP-2023-EO-DEMO-003",
+      "parent_run_claim_id": "C000003",
+      "page": 7,
+      "printed_page": "5",
+      "exact_quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+      "verified": true,
+      "source_url": "https://rspp.ru/upload/uf/412/mm9xy7zpgpbewr0ne387jj07aephg95u/gazprom_environmental_report_2023_ru.pdf#page=7",
+      "bbox": [
+        319,
+        304,
+        562,
+        338
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "source_md_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-7",
+        "contiguous_start_offset_in_saved_page": 3404,
+        "contiguous_length": 128,
+        "exact_contiguous_match": true
+      },
+      "atom_ids": [
+        "GAZP-2023-ATOMIC-003-a"
+      ],
+      "context_review": "Одна полная фраза из обращения О.Е. Аксютина. Субъект назван в самой цитате. Это общий принцип без отдельного срока/количественного результата.",
+      "evidence": {
+        "full_raster": "page-07-full.png",
+        "quote_crop": "page-07-quote.png",
+        "render_scale_full": 1.5,
+        "render_scale_crop": 3
+      },
+      "text_policy": "One contiguous exact substring of current saved MD; no ellipsis, fragments or rewritten symbols. Existing PDF word-wrap treatment in MD is preserved; page38 retains line-break hyphenation.",
+      "verified_at": "2026-11-20T18:13:47.502287+00:00",
+      "verified_scope": "Literal continuous quote and necessary source context read against freshly rendered original PDF image; no external truth verdict."
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "parent_run_claim_id": "C000004",
+      "page": 38,
+      "printed_page": "36",
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "verified": true,
+      "source_url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf#page=38",
+      "bbox": [
+        33,
+        169,
+        278,
+        224
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "source_md_locator": {
+        "path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2023-ЭО.md",
+        "anchor": "pdf-page-38",
+        "contiguous_start_offset_in_saved_page": 138,
+        "contiguous_length": 259,
+        "exact_contiguous_match": true
+      },
+      "atom_ids": [
+        "GAZP-2023-ATOMIC-004-a",
+        "GAZP-2023-ATOMIC-004-b",
+        "GAZP-2023-ATOMIC-004-c"
+      ],
+      "context_review": "Два последовательных полных предложения одного абзаца. Сохранены слова перед числом нарушений и связь со всеми проверками. 761 и 563 — проверки, 517 — нарушения; единицы не смешиваются.",
+      "evidence": {
+        "full_raster": "page-38-full.png",
+        "quote_crop": "page-38-quote.png",
+        "render_scale_full": 1.5,
+        "render_scale_crop": 3
+      },
+      "text_policy": "One contiguous exact substring of current saved MD; no ellipsis, fragments or rewritten symbols. Existing PDF word-wrap treatment in MD is preserved; page38 retains line-break hyphenation.",
+      "verified_at": "2026-11-20T18:13:47.502309+00:00",
+      "verified_scope": "Literal continuous quote and necessary source context read against freshly rendered original PDF image; no external truth verdict."
+    }
+  ],
+  "atomic_bindings": [
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-001-a",
+      "atomic_run_claim_id": "C000001",
+      "quote_id": "GAZP-2023-EO-DEMO-001",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 37,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "ООО «Газпром нефтехим Салават» приняло обязательство разработать план создания САКВ на эксплуатируемых объектах I категории.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-001-b",
+      "atomic_run_claim_id": "C000002",
+      "quote_id": "GAZP-2023-EO-DEMO-001",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 37,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "ООО «Газпром нефтехим Салават» приняло обязательство представить сведения о количестве стационарных источников, планируемых к оснащению САКВ до 2025 г.; срок представления не установлен.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-002-a",
+      "atomic_run_claim_id": "C000003",
+      "quote_id": "GAZP-2023-EO-DEMO-002",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 14,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "Общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации в 2023 г. составили 96,23 млрд руб.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-002-b",
+      "atomic_run_claim_id": "C000004",
+      "quote_id": "GAZP-2023-EO-DEMO-002",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 14,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "Общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации в 2023 г. увеличились на 8,0% относительно 2022 г.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-003-a",
+      "atomic_run_claim_id": "C000005",
+      "quote_id": "GAZP-2023-EO-DEMO-003",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 7,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-004-a",
+      "atomic_run_claim_id": "C000006",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 38,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "В 2023 г. государственные надзорные органы провели 761 проверку требований ООС и природопользования на объектах Группы Газпром.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-004-b",
+      "atomic_run_claim_id": "C000007",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 38,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "В результате описанных государственных проверок объектов Группы Газпром в 2023 г. выявлено 517 нарушений.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    },
+    {
+      "atomic_source_id": "GAZP-2023-ATOMIC-004-c",
+      "atomic_run_claim_id": "C000008",
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "report_id": "GAZP-2023-ЭО",
+      "page": 38,
+      "quote_field_for_excel": "exact_quote of referenced parent; never use old atomic quote/statement/quote_fragments",
+      "atomic_proposition_label": "По результатам 563 описанных государственных проверок объектов Группы Газпром в 2023 г. нарушений выявлено не было.",
+      "proposition_is_direct_quote": false,
+      "exact_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "verified": true,
+      "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858"
+    }
+  ],
+  "immutable_prior_audit_changed": false,
+  "review_method": "Fresh local full-page and x3-crop renders inspected by Codex. Text-layer geometry and literal MD offsets are supporting locators, not substitutes for image reading.",
+  "issues": [
+    "Старые атомарные поля quote/statement/quote_fragments в immutable08 не являются готовыми цитатами для нового Excel: 001-b и002-a склеены, 004-b обрезан внутри слова. Новые exact_quote заменяют только представление цитаты; фактические оценки атомов этим этапом не пересматривались.",
+    "В p38 сохранены оригинальные для текущего MD переносы прове-\\nдена и ре-\\nзультате; нормализованная строка с иными символами не выдается за exact_quote.",
+    "URL источников унаследованы из входных parent-цитат; онлайн-доступность URL в этой локальной проверке не проверялась.",
+    "Проверены 4 цитаты отчета за2023 год. Отчеты2024/2025 и весь PDF не получают verified/checked по этой выборке."
+  ]
+}

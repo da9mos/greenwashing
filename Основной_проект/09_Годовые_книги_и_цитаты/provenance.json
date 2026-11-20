@@ -1,0 +1,145 @@
+{
+  "scope": "10 selected assertions, not the complete company corpus",
+  "records": [
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-001-a",
+      "assessment_path": "02_Проверка_фактов/run/results/C000001.r000003.json",
+      "assessment_sha256": "65a7f804a882f0aea972ad0d174d507c6a2f1f86d519172c50899f69716d6c7e",
+      "revision": 3,
+      "display_quote_sha256": "b732c72d10ee96b50b589f6f471e1cd2b0680609918c539165ed15a06f2c2d7d",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-001-b",
+      "assessment_path": "02_Проверка_фактов/run/results/C000002.r000003.json",
+      "assessment_sha256": "4356ff2196e680393e1078b856b9561fa508db54e22cb88977193eb91833ab0d",
+      "revision": 3,
+      "display_quote_sha256": "b732c72d10ee96b50b589f6f471e1cd2b0680609918c539165ed15a06f2c2d7d",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-002-a",
+      "assessment_path": "02_Проверка_фактов/run/results/C000003.r000003.json",
+      "assessment_sha256": "549c868525ab2e3c54a3b5cb540c7937c5c57433ef86d286a3025a09add126a6",
+      "revision": 3,
+      "display_quote_sha256": "19eff34c03121163e81fb6aff977e29ccc39a5c693ded4cb819f00a84f30a3bd",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-002-b",
+      "assessment_path": "02_Проверка_фактов/run/results/C000004.r000003.json",
+      "assessment_sha256": "f19074a4b0528a2c96df19b7580cec8ae8dabdfe2bb60a83e72cf1c6e89b1bb4",
+      "revision": 3,
+      "display_quote_sha256": "19eff34c03121163e81fb6aff977e29ccc39a5c693ded4cb819f00a84f30a3bd",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-003-a",
+      "assessment_path": "02_Проверка_фактов/run/results/C000005.r000003.json",
+      "assessment_sha256": "acce2d144e142bea84ee4cd3267d4b49779401cb75ab93e4ba1221c4350588ac",
+      "revision": 3,
+      "display_quote_sha256": "4eaeeeb38fbf70754702d9afaea7f41e599add16805e15956852dcfcd6f9b0d6",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-004-a",
+      "assessment_path": "02_Проверка_фактов/run/results/C000006.r000003.json",
+      "assessment_sha256": "ec2ff457ba9aecd73b6b3a84d737b51b2a3f03f61012cee60e737981183fe381",
+      "revision": 3,
+      "display_quote_sha256": "a97ffa100f33b5808357f75797d3574a41799b81548a94fd95de470e099d14c5",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-004-b",
+      "assessment_path": "02_Проверка_фактов/run/results/C000007.r000003.json",
+      "assessment_sha256": "09fdeb2021f0f0b752278c5a4a106a528df04d83bfa5d0aaee56471f487fee10",
+      "revision": 3,
+      "display_quote_sha256": "a97ffa100f33b5808357f75797d3574a41799b81548a94fd95de470e099d14c5",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2023-ЭО",
+      "source_id": "GAZP-2023-ATOMIC-004-c",
+      "assessment_path": "02_Проверка_фактов/run/results/C000008.r000003.json",
+      "assessment_sha256": "af19202162383616b0194b1f89717f71bb18808233ce7791fcbe75bdd4ba9e71",
+      "revision": 3,
+      "display_quote_sha256": "a97ffa100f33b5808357f75797d3574a41799b81548a94fd95de470e099d14c5",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "source_id": "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094",
+      "assessment_path": "02_Проверка_фактов/annual_2024/run/results/C000001.r000001.json",
+      "assessment_sha256": "ee6919cc40948b1dc9006d293d1d12049ccb85387596d38a463d41e5e700d05a",
+      "revision": 1,
+      "display_quote_sha256": "f6dc1859576fd4149173bc6858c5ac9627ee3d4591d6ebf86a28d9c8daa191db",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "source_id": "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008",
+      "assessment_path": "02_Проверка_фактов/annual_2025/run/results/C000001.r000001.json",
+      "assessment_sha256": "48f6b71e948ca5feca9854d62efab0c68f5085f13287b10f22a685147cb3df05",
+      "revision": 1,
+      "display_quote_sha256": "dd090f5e0a90adc8e533ffed4f071ace422ed6786b3c34779e1f90984555e572",
+      "risk_categories": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    }
+  ]
+}

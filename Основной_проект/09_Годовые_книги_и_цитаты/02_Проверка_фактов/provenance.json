@@ -1,0 +1,508 @@
+{
+  "schema_version": "reassessment-lineage-1.0",
+  "input_sha256": "7c71e9e2057472889795163366b356e9157a0a8455ff9d68b67715d3746a471b",
+  "old_run_unchanged": true,
+  "new_input_immutable": true,
+  "new_revision": 1,
+  "reason": "Новая версия исходной цитаты: полный непрерывный абзац, проверенный в09. Исторические searched_at не обновлялись; новые запросы сохранены отдельно.",
+  "parent_input_sha256": "5bd16e205d1ae5e5e9e5d7cc36ae1f090638982bdd8d965a221aa57cd4c345eb",
+  "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+  "mappings": [
+    {
+      "atom_id": "GAZP-2023-ATOMIC-001-a",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000001.r000001.json",
+      "parent_packet_sha256": "0a69ce6cf066c61ef20c2e9f9f18a5c0a3a1c999bfd2dda9e30d9c272affa7cc",
+      "response_sha256": "e65aa9f0e7d66057f24c5cc4bc18eb9d73fb94a33fb3d99b8078af5d646311d2",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+          "direction": "support",
+          "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+          "direction": "support",
+          "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+          "searched_at": "2026-11-20T22:09:23+05:00"
+        },
+        {
+          "id": "Q4",
+          "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q5",
+          "query": "https://www.kommersant.ru/doc/5927481",
+          "direction": "support",
+          "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        },
+        {
+          "id": "Q6",
+          "query": "https://zakupki.kontur.ru/GP521689",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_KOM",
+        "NEW_OPEN_SAL"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-001-b",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000002.r000001.json",
+      "parent_packet_sha256": "0674ba84f919af32c11f1f93eb9fb2e4d81b204c2bed82bf04c8315ae8888349",
+      "response_sha256": "f4d06f0488aae3cd55ab1d308aafa3a0b1685eff621dda2b184871ea8f278a03",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+          "direction": "support",
+          "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+          "direction": "support",
+          "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+          "searched_at": "2026-11-20T22:09:23+05:00"
+        },
+        {
+          "id": "Q4",
+          "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q5",
+          "query": "https://www.kommersant.ru/doc/5927481",
+          "direction": "support",
+          "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        },
+        {
+          "id": "Q6",
+          "query": "https://zakupki.kontur.ru/GP521689",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+          "searched_at": "2026-11-20T22:08:45+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_KOM",
+        "NEW_OPEN_SAL"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-002-a",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000003.r000001.json",
+      "parent_packet_sha256": "3b8fe455c71c0a5448b92075bb9812c1b0d1cfd0e17f06c53650b0e5bdacee02",
+      "response_sha256": "b844a3cafea74a718e1f4db5b36442f61e39c86b210f5ee7c3c1c8cc7881529e",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром\" \"96,23\" \"8,0\" 2023 расходы",
+          "direction": "support",
+          "tool_ref": "web.run turn2search12; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром\" \"96,23\" ошибки исправление расходы 2023 2022",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn2search13,turn2search14; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "\"Газпром\" \"96,23\" \"аудитор\" 2023 расходы",
+          "direction": "support",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_HTML",
+          "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "direction": "support",
+          "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+          "searched_at": "2026-11-20T22:10:59+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_FIN",
+        "NEW_OPEN_PDF"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-002-b",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000004.r000001.json",
+      "parent_packet_sha256": "b0f6c6ef3315d6cde1e944fa963963584d731b0aabc3b450a12932c809750776",
+      "response_sha256": "749a9a184612dd157bad586690d1c67b913d3a09c19c9115a4622d80516f3b99",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром\" \"96,23\" \"8,0\" 2023 расходы",
+          "direction": "support",
+          "tool_ref": "web.run turn2search12; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром\" \"96,23\" ошибки исправление расходы 2023 2022",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn2search13,turn2search14; journal/03_c1primary_c2_search_akm.json",
+          "searched_at": "2026-11-20T22:08:55+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "\"Газпром\" \"96,23\" \"аудитор\" 2023 расходы",
+          "direction": "support",
+          "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_HTML",
+          "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+          "direction": "support",
+          "tool_ref": "web.run turn10view0; journal/11_finance_boundary.json",
+          "searched_at": "2026-11-20T22:10:59+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_FIN",
+        "NEW_OPEN_PDF"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-003-a",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000005.r000001.json",
+      "parent_packet_sha256": "8323737b256c459c209629faea1e03ca143e1b98ec8d16f500f9e2e5067b745d",
+      "response_sha256": "bdd2aae8af9b649f2ed22b4b46c4adbf55c17709260aa011fc45a51990f50f12",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Сохранение благоприятной окружающей среды\" \"Газпрома\" принцип",
+          "direction": "support",
+          "tool_ref": "web.run turn3search7; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром\" экологическая политика 2023 нарушения Росприроднадзор",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPEN_POL"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-a",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000006.r000001.json",
+      "parent_packet_sha256": "5e3a1df06cf3bdf189786548f47782ee0cad9d7cd538bd3b8519c7bbdf405dc1",
+      "response_sha256": "cc62139acce7b9867b22a286be9384db38aa201bd38bfeecdd9421123bd4ddbc",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+          "direction": "support",
+          "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+          "direction": "support",
+          "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+          "searched_at": "2026-11-20T22:10:02+05:00"
+        },
+        {
+          "id": "Q4",
+          "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_STAT"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-b",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000007.r000001.json",
+      "parent_packet_sha256": "7ba0acbcb131028c2beebc32bbebf628428e0a3e98ed2df2f8003c2dc4f06ad3",
+      "response_sha256": "9649243cb19c6b67eb7698bd34e8f76e19415816402e2eaafd873a53f2d2096d",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+          "direction": "support",
+          "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+          "direction": "support",
+          "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+          "searched_at": "2026-11-20T22:10:02+05:00"
+        },
+        {
+          "id": "Q4",
+          "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_STAT"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-c",
+      "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000008.r000001.json",
+      "parent_packet_sha256": "96175968028d9e60ac4f7e03f148853012199e5f6a92f626bd79733bc12eb14d",
+      "response_sha256": "5785f30832de49b12e1a162b7982f32216240ae58ce05826ee16b9d26fda9b1f",
+      "source_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+      "old_searches": [
+        {
+          "id": "Q1",
+          "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+          "direction": "support",
+          "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q2",
+          "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+          "searched_at": "2026-11-20T22:09:09+05:00"
+        },
+        {
+          "id": "Q3",
+          "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+          "direction": "support",
+          "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+          "searched_at": "2026-11-20T22:10:02+05:00"
+        },
+        {
+          "id": "Q4",
+          "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+          "searched_at": "2026-11-20T22:10:36+05:00"
+        },
+        {
+          "id": "Q_RPN",
+          "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+          "direction": "contradiction",
+          "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+          "searched_at": "2026-11-20T22:08:34+05:00"
+        }
+      ],
+      "new_search_ids": [
+        "NEW_SUPPORT",
+        "NEW_OPPOSING",
+        "NEW_OPEN_STAT"
+      ]
+    }
+  ],
+  "latest_assessments": [
+    {
+      "id": "GAZP-2023-ATOMIC-001-a",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000001.r000003.json",
+      "assessment_sha256": "65a7f804a882f0aea972ad0d174d507c6a2f1f86d519172c50899f69716d6c7e",
+      "quote_length": 567,
+      "short_reason_length": 310
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-001-b",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000002.r000003.json",
+      "assessment_sha256": "4356ff2196e680393e1078b856b9561fa508db54e22cb88977193eb91833ab0d",
+      "quote_length": 567,
+      "short_reason_length": 321
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-002-a",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000003.r000003.json",
+      "assessment_sha256": "549c868525ab2e3c54a3b5cb540c7937c5c57433ef86d286a3025a09add126a6",
+      "quote_length": 166,
+      "short_reason_length": 202
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-002-b",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000004.r000003.json",
+      "assessment_sha256": "f19074a4b0528a2c96df19b7580cec8ae8dabdfe2bb60a83e72cf1c6e89b1bb4",
+      "quote_length": 166,
+      "short_reason_length": 205
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-003-a",
+      "year": 2023,
+      "verdict": "not_verifiable",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000005.r000003.json",
+      "assessment_sha256": "acce2d144e142bea84ee4cd3267d4b49779401cb75ab93e4ba1221c4350588ac",
+      "quote_length": 128,
+      "short_reason_length": 204
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-004-a",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000006.r000003.json",
+      "assessment_sha256": "ec2ff457ba9aecd73b6b3a84d737b51b2a3f03f61012cee60e737981183fe381",
+      "quote_length": 259,
+      "short_reason_length": 277
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-004-b",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000007.r000003.json",
+      "assessment_sha256": "09fdeb2021f0f0b752278c5a4a106a528df04d83bfa5d0aaee56471f487fee10",
+      "quote_length": 259,
+      "short_reason_length": 254
+    },
+    {
+      "id": "GAZP-2023-ATOMIC-004-c",
+      "year": 2023,
+      "verdict": "insufficient_evidence",
+      "revision": 3,
+      "risk_categories": 4,
+      "assessment_path": "run/results/C000008.r000003.json",
+      "assessment_sha256": "af19202162383616b0194b1f89717f71bb18808233ce7791fcbe75bdd4ba9e71",
+      "quote_length": 259,
+      "short_reason_length": 299
+    },
+    {
+      "id": "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094",
+      "year": 2024,
+      "verdict": "insufficient_evidence",
+      "revision": 1,
+      "risk_categories": 4,
+      "assessment_path": "annual_2024/run/results/C000001.r000001.json",
+      "assessment_sha256": "ee6919cc40948b1dc9006d293d1d12049ccb85387596d38a463d41e5e700d05a",
+      "quote_length": 227,
+      "short_reason_length": 232
+    },
+    {
+      "id": "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008",
+      "year": 2025,
+      "verdict": "true",
+      "revision": 1,
+      "risk_categories": 4,
+      "assessment_path": "annual_2025/run/results/C000001.r000001.json",
+      "assessment_sha256": "48f6b71e948ca5feca9854d62efab0c68f5085f13287b10f22a685147cb3df05",
+      "quote_length": 206,
+      "short_reason_length": 219
+    }
+  ],
+  "presentation_sha256": "211e77f81960926726cfcffd3a20af8a748293a3d874fcf0922fdfd116519f04",
+  "annual_presentation_sha256": "7dacde37879a635b24138761714efba295748fb646cb210991e05512cee02388",
+  "annual_citation_review_sha256": "f1711c69377320b8ec613b373bc50e0209f225d03e6d79aecbfcd066eb6ee37a"
+}

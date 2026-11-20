@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-20T18:16:49.917698+00:00",
+  "reviewer": "Codex under project PDF_TO_MD_AGENT; local independent saved-translation review",
+  "status": "partial",
+  "scope": "Two selected annual claims only, not complete extraction or verification of all 2024/2025 reports",
+  "quotes": [
+    {
+      "report_id": "GAZP-2024-ОУР",
+      "year": 2024,
+      "source_md_path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2024-ОУР.md",
+      "source_md_sha256": "7e2563d09da93a0321998a15d81a52186b79f25c6180155d29da78bfa71ef36d",
+      "source_pdf_path": "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2024-ОУР.pdf",
+      "source_pdf_sha256": "f12d3070200d1240e6e6247725545bf27559787c0effd235e990895337d9b19b",
+      "source_pdf_pages": 150,
+      "quote_id": "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094",
+      "claim_id": "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094",
+      "page": 8,
+      "printed_page": "12 (левая половина физического разворота 12–13)",
+      "exact_quote": "Форма собственности\nПАО «Газпром»\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %",
+      "source_md_locator": {
+        "anchor": "pdf-page-8",
+        "start_offset_in_saved_page": 2437,
+        "length": 235,
+        "raw_excerpt_contiguous": true
+      },
+      "md_markup_handling": "Removed only the two pairs of ** bold delimiters around the two source headings; no source letters, punctuation, quote marks, hyphenation or line breaks changed.",
+      "verified": true,
+      "source_url": "https://drive.google.com/file/d/1F8ueI_NRxhBbvOT3eTsIhxSLEyPCHVMw/view#page=8",
+      "bbox": [
+        439,
+        426,
+        534,
+        547
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "source_block_ids": [
+        "b17"
+      ],
+      "evidence": {
+        "full_raster": "annual-2024-page-08-full.png",
+        "quote_crop": "annual-2024-page-08-quote.png",
+        "render_scale_full": 1.5,
+        "render_scale_crop": 3
+      },
+      "verification_scope": "Selected quote faithful to local source PDF and saved MD. No external fact verdict or whole-year extraction acceptance.",
+      "whole_pdf_status": "partial",
+      "context_review": "Полный блок раскрывает субъект ПАО «Газпром», смешанную российскую собственность с долей федеральной собственности и суммарную долю акций под прямым и косвенным контролем Российской Федерации более 50 %. Не подменять этот показатель прямой долей владения государства. В источнике в конце блока нет точки; не добавлена.",
+      "raw_md_quote": "**Форма собственности**\n**ПАО «Газпром»**\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %",
+      "formatting_only_transform": [
+        "remove_markdown_bold"
+      ],
+      "verification_method": "Codex read the complete selected author text in fresh full-page raster and x3 crop from original PDF; then read back saved MD raw span and only explicitly authorized formatting transform. No external fact verdict.",
+      "verified_at": "2026-11-20T18:17:30.213893+00:00",
+      "readback_checks": {
+        "raw_md_quote_is_contiguous_saved_md_span": true,
+        "only_explicit_transform_equals_exact_quote": true,
+        "source_md_sha256_unchanged": true,
+        "source_pdf_sha256_unchanged": true,
+        "no_ellipsis_or_disjoint_assembly": true
+      },
+      "assessed_raw_md_quote": "**Форма собственности**\n**ПАО «Газпром»**\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %",
+      "assessed_exact_quote": "Форма собственности\nПАО «Газпром»\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %",
+      "assessed_formatting_only_transform": [
+        "remove_markdown_bold"
+      ],
+      "assessed_bbox": [
+        439,
+        426,
+        534,
+        547
+      ],
+      "assessed_quote_review": {
+        "verified": true,
+        "reviewed_at": "2026-11-20T18:26:29.482346+00:00",
+        "method": "Codex visual reading of complete source phrase in fresh x3 PDF crop; literal contiguous saved-MD span and declared formatting transform rechecked.",
+        "scope": "Source citation fidelity only; external fact verdict remains owned by fact-check agent.",
+        "context_sufficiency": "Сохранен весь блок собственности с заголовком, субъектом, смешанной собственностью и совокупным прямым/косвенным контролем РФ более 50 %; содержательные слова или условия не исключены."
+      }
+    },
+    {
+      "report_id": "GAZP-2025-ОУР",
+      "year": 2025,
+      "source_md_path": "11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/00_Отчёты/Газпром/GAZP-2025-ОУР.md",
+      "source_md_sha256": "b2c92082e77d88e3adf14c73dc7f502c9d099ed4abad7f37fb78ef7c63714690",
+      "source_pdf_path": "11_Проект_Сбер/2_итерация/Тесты_PDF_в_MD_DeepSeek_Codex/_источники/GAZP-2025-ОУР.pdf",
+      "source_pdf_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0",
+      "source_pdf_pages": 152,
+      "quote_id": "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008",
+      "claim_id": "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008",
+      "page": 5,
+      "printed_page": "6 (левая половина физического разворота 6–7)",
+      "exact_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.\n\n\n189 новых Вечных огней появилось на карте\nРоссии по итогам реализации проекта.\nИз них 80 зажглись одновременно в канун\nДня Победы.",
+      "source_md_locator": {
+        "anchor": "pdf-page-5",
+        "start_offset_in_saved_page": 1568,
+        "length": 339,
+        "raw_excerpt_contiguous": true
+      },
+      "md_markup_handling": "None: exact_quote is one unchanged continuous substring of saved MD, including the original paragraph breaks.",
+      "verified": true,
+      "source_url": "https://drive.google.com/file/d/11ik3YY801ZVdwyOl80pPalkm0mmTsMJR/view#page=5",
+      "bbox": [
+        71,
+        649,
+        269,
+        763
+      ],
+      "coordinate_system": "PDF points, top-left origin",
+      "source_block_ids": [
+        "b13",
+        "b14"
+      ],
+      "evidence": {
+        "full_raster": "annual-2025-page-05-full.png",
+        "quote_crop": "annual-2025-page-05-quote.png",
+        "render_scale_full": 1.5,
+        "render_scale_crop": 3
+      },
+      "verification_scope": "Selected quote faithful to local source PDF and saved MD. No external fact verdict or whole-year extraction acceptance.",
+      "whole_pdf_status": "partial",
+      "context_review": "Три непосредственно смежных целых предложения в двух исходных абзацах. Первое подтверждает, что отчет заявляет реализацию в 2025 году ПАО «Газпром» Всероссийского проекта «Храним огонь Победы» по подключению мемориальных комплексов к сетевому природному газу. Следующий абзац с 189 и 80 оставлен как источник необходимого контекста; здесь не создается отдельный проверенный количественный тезис.",
+      "assessed_proposition": "Существование/реализация Всероссийского проекта «Храним огонь Победы» по утверждению отчета 2025 года.",
+      "context_numbers": [
+        {
+          "value": "189",
+          "role": "context_only",
+          "external_accuracy_assessed": false
+        },
+        {
+          "value": "80",
+          "role": "context_only",
+          "external_accuracy_assessed": false
+        }
+      ],
+      "raw_md_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.\n\n\n189 новых Вечных огней появилось на карте\nРоссии по итогам реализации проекта.\nИз них 80 зажглись одновременно в канун\nДня Победы.",
+      "formatting_only_transform": [],
+      "verification_method": "Codex read the complete selected author text in fresh full-page raster and x3 crop from original PDF; then read back saved MD raw span and only explicitly authorized formatting transform. No external fact verdict.",
+      "verified_at": "2026-11-20T18:17:30.241629+00:00",
+      "readback_checks": {
+        "raw_md_quote_is_contiguous_saved_md_span": true,
+        "only_explicit_transform_equals_exact_quote": true,
+        "source_md_sha256_unchanged": true,
+        "source_pdf_sha256_unchanged": true,
+        "no_ellipsis_or_disjoint_assembly": true
+      },
+      "assessed_raw_md_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.",
+      "assessed_exact_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.",
+      "assessed_formatting_only_transform": [],
+      "context_raw_md_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.\n\n\n189 новых Вечных огней появилось на карте\nРоссии по итогам реализации проекта.\nИз них 80 зажглись одновременно в канун\nДня Победы.",
+      "context_exact_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.\n\n\n189 новых Вечных огней появилось на карте\nРоссии по итогам реализации проекта.\nИз них 80 зажглись одновременно в канун\nДня Победы.",
+      "assessed_bbox": [
+        71,
+        649,
+        269,
+        712
+      ],
+      "assessed_quote_review": {
+        "verified": true,
+        "reviewed_at": "2026-11-20T18:26:29.482634+00:00",
+        "method": "Codex visual reading of complete source phrase in fresh x3 PDF crop; literal contiguous saved-MD span and declared formatting transform rechecked.",
+        "scope": "Source citation fidelity only; external fact verdict remains owned by fact-check agent.",
+        "context_sufficiency": "Полное самостоятельное предложение называет год, ПАО «Газпром», название Всероссийского проекта, подключение к сетевому природному газу, мемориальные комплексы и их посвящение событиям Великой Отечественной войны. Все слова первого абзаца сохранены. Следующий абзац с 189 и 80 содержит дополнительные результаты и не задает условия или оговорки реализации проекта.",
+        "source_crop": "annual-2025-page-05-assessed-quote.png"
+      },
+      "export_scope_instruction": "Use assessed_exact_quote as assessed statement in Excel; full exact_quote/context_exact_quote, including189/80, is source context only and does not inherit the assessed proposition external verdict."
+    }
+  ],
+  "previous_four_quote_review_unchanged": true,
+  "external_research_performed": false,
+  "issues": [
+    "В exact_quote сохранены переносы и авторские символы текущего MD. Для 2024 выполнено только remove_markdown_bold; raw_md_quote — непрерывный исходный MD span. Дефисы и переводы строк не нормализованы.",
+    "В исходной MD-версии 2024 прежний перенос слова «контро-/лем» в PDF уже снят. Эта типографика унаследована от MD; новой операции нормализации данным проходом нет. Полнота слова «контролем» прочитана по растру.",
+    "Source URL взяты из локальных шапок MD; онлайн-доступность URL не перепроверялась.",
+    "Проверены только две выбранные цитаты и ближайший контекст. Полный охват 2024/2025, полнота страниц и внешняя истинность всех чисел не заявляются."
+  ],
+  "previous_four_quote_review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf"
+}

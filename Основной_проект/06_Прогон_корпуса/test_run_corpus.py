@@ -87,13 +87,20 @@ class IntegrityTests(unittest.TestCase):
             self.assertIn('Неоднозначных классификаций', markdown)
             self.assertIn('| 0 | 0 | 2 |', markdown)
 
+    def test_old_complete_result_without_mandatory_risk_checks_is_not_current(self):
+        packet = controller.worker.base.read(controller.worker.FACT / 'examples/synthetic_response.json')
+        self.assertTrue(controller.current_research_complete({'result': {'status': 'complete', 'packet': packet}}))
+        packet.pop('risk_checks')
+        self.assertFalse(controller.current_research_complete({'result': {'status': 'complete', 'packet': packet}}))
+
     def test_external_research_can_start_from_partial_extraction(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             report = {'report_id': 'report', 'company': 'Company', 'packaged_md_sha256': 'hash'}
             claim = {'id': 'batch::c1', 'statement': 'Точная цитата'}
             summary = {'accepted_batches': 1, 'total_batches': 100}
-            result = {'status': 'complete', 'packet': {'verdict': 'insufficient_evidence'}}
+            packet = controller.worker.base.read(controller.worker.FACT / 'examples/synthetic_response.json')
+            result = {'status': 'complete', 'packet': packet}
             with patch.object(controller, 'OUTPUT', root / 'output'), \
                     patch.object(controller, 'CONTROL', root / 'control'), \
                     patch.object(controller, 'registry', return_value=[report]), \

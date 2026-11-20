@@ -61,6 +61,51 @@ def text(value):
     return isinstance(value, str) and bool(value.strip())
 
 
+def whole_word_quote(quote, source):
+    """Match a continuous source span without clipping a word or its line wrap."""
+    for match in re.finditer(re.escape(quote), source):
+        start, end = match.span()
+        start += len(quote) - len(quote.lstrip())
+        end -= len(quote) - len(quote.rstrip())
+        if start == end:
+            continue
+        word = lambda char: char.isalnum() or char == '_'
+        if word(source[start]):
+            if start and word(source[start - 1]):
+                continue
+            # Do not accept "зультате" from "ре-\nзультате" or a compound word.
+            if re.search(r'\w[-\u00ad\u2010\u2011](?:[ \t\r]*\n[ \t]*)?$', source[:start]):
+                continue
+        if word(source[end - 1]):
+            if end < len(source) and word(source[end]):
+                continue
+            if re.match(r'[-\u00ad\u2010\u2011](?:[ \t\r]*\n[ \t]*)?\w', source[end:]):
+                continue
+        return True
+    return False
+
+
+def presentation_status(claim, blocks):
+    """Validate display-only provenance; never substitute an analytical statement.
+
+    Legacy absence preserves classification compatibility and remains unprepared
+    for display. Ready means mechanically verified text, not semantic/PDF QA.
+    """
+    present = ('presentation_quote' in claim, 'presentation_block_id' in claim)
+    if not any(present):
+        return 'unprepared_legacy'
+    require(all(present), 'Неполная пара presentation_quote/presentation_block_id')
+    quote, block_id = claim['presentation_quote'], claim['presentation_block_id']
+    require(text(quote) and isinstance(block_id, str) and block_id in blocks,
+            'Пустая цитата для вывода или неизвестный presentation_block_id')
+    require(any(e['block_id'] == block_id for e in claim['evidence']),
+            'Presentation-блок не связан с evidence заявления')
+    require(quote in blocks[block_id]['text'], 'Presentation quote не является непрерывной точной цитатой')
+    require(whole_word_quote(quote, blocks[block_id]['text']),
+            'Presentation quote обрезает слово или перенос слова')
+    return 'ready'
+
+
 def preamble(path):
     path=Path(path)
     if path.suffix.lower() != '.md':return ''
@@ -167,7 +212,7 @@ def check(work, response):
     batch=read(Path(work)/batch_entry['file']); targets=set(batch['target_block_ids']); blocks={b['id']:b for b in batch['blocks']}
     require(text(d.get('reviewer')),'Нет проверяющего')
     require(isinstance(d.get('claims'),list) and isinstance(d.get('coverage'),list),'Нет claims/coverage')
-    claims={}; used={}; pending_claims=0
+    claims={}; used={}; pending_claims=0; presentation_ready=0; presentation_statuses={}
     for c in d['claims']:
         require(isinstance(c,dict) and text(c.get('id')) and c['id'] not in claims,'Дубль/неверный ID заявления')
         cid=c['id']; claims[cid]=c
@@ -199,6 +244,8 @@ def check(work, response):
             require(complete or c['source_status']=='needs_pdf_review','Неполный количественный контекст требует needs_pdf_review')
         require(c['source_kind']!='chart' or c['source_status']=='needs_pdf_review','График требует PDF review')
         pending_claims+=c['source_status']=='needs_pdf_review'
+        presentation_statuses[cid] = presentation_status(c, blocks)
+        presentation_ready += presentation_statuses[cid] == 'ready'
     cov={}
     for e in d['coverage']:
         require(isinstance(e,dict) and e.get('block_id') in targets and e['block_id'] not in cov,'Пропуск/дубль/чужой coverage-блок')
@@ -212,7 +259,10 @@ def check(work, response):
     require(set(cov)==targets,'Не все target блоки покрыты')
     for cid,bids in used.items():
         require(all(cid in cov[bid]['claim_ids'] for bid in bids&targets),'Нет обратной coverage ссылки')
-    return d, {'pending_blocks':sum(e['status']=='pending' for e in cov.values()),'pending_claims':pending_claims}
+    return d, {'pending_blocks':sum(e['status']=='pending' for e in cov.values()),'pending_claims':pending_claims,
+               'presentation_ready_claims':presentation_ready,
+               'presentation_unready_claims':len(claims)-presentation_ready,
+               'presentation_status_by_claim':presentation_statuses}
 
 
 def csv_write(path, rows, fields):
@@ -223,25 +273,30 @@ def csv_write(path, rows, fields):
 
 
 def export(work, responses, output, allow_partial=False):
-    m,_=workspace(work); expected={b['id'] for b in m['batches']}; seen=set(); ids=set(); claims=[]; coverage=[]; pb=pc=0
+    m,_=workspace(work); expected={b['id'] for b in m['batches']}; seen=set(); ids=set(); claims=[]; coverage=[]; pb=pc=pr=pu=0
     for path in responses:
         d,s=check(work,path); require(d['batch_id'] not in seen,'Дублирован ответ партии');seen.add(d['batch_id'])
         for c in d['claims']:
             require(c['id'] not in ids,'Дублирован ID заявления между партиями');ids.add(c['id']);claims.append(c)
         coverage.extend(d['coverage']);pb+=s['pending_blocks'];pc+=s['pending_claims']
+        pr+=s['presentation_ready_claims'];pu+=s['presentation_unready_claims']
     require(seen==expected,'Недостающие/лишние ответы партий')
     partial=bool(pb or pc); require(not partial or allow_partial,'Есть unresolved coverage/source; нужен --allow-partial')
     out=Path(output); out=out.with_name(out.name+'_draft') if allow_partial else out
     require(not out.exists(),'Каталог экспорта уже существует')
     blocks=read(Path(work)/'blocks.json'); order={b['id']:i for i,b in enumerate(blocks)};page={b['id']:b['page'] for b in blocks}
     claims.sort(key=lambda c:min(order[e['block_id']] for e in c['evidence']))
-    rows=[{'id':c['id'],'statement':c['statement'],'type':c['type'],'block':c['block'],'topic':c['topic'],'block2':c['block2'],'source_status':c['source_status'],'pages':','.join(map(str,sorted({page[e['block_id']] for e in c['evidence']})))} for c in claims]
-    fields=['id','statement','type','block','topic','block2','source_status','pages']
+    rows=[{'id':c['id'],'statement':c['statement'],'type':c['type'],'block':c['block'],'topic':c['topic'],'block2':c['block2'],'source_status':c['source_status'],'pages':','.join(map(str,sorted({page[e['block_id']] for e in c['evidence']}))),
+           'presentation_quote':c.get('presentation_quote',''),'presentation_block_id':c.get('presentation_block_id',''),
+           'presentation_status':'ready' if 'presentation_quote' in c else 'unprepared_legacy'} for c in claims]
+    fields=['id','statement','type','block','topic','block2','source_status','pages','presentation_quote','presentation_block_id','presentation_status']
     out.mkdir(parents=True)
     csv_write(out/'claims.csv',rows,fields)
     for topic in TOPICS:csv_write(out/(topic+'.csv'),[r for r in rows if r['block']==topic],fields)
     csv_write(out/'coverage.csv',[{'block_id':e['block_id'],'status':e['status'],'reason':e['reason'],'claim_ids':','.join(e['claim_ids'])} for e in coverage],['block_id','status','reason','claim_ids'])
     summary={'schema_version':VERSION,'status':'partial' if allow_partial else 'declared_md_coverage_complete','claims':len(claims),'pending_blocks':pb,'pending_claims':pc,'primary_counts':{t:sum(c['block']==t for c in claims) for t in TOPICS},'secondary_counts':{t:sum(c['block2']==t for c in claims) for t in TOPICS},'page_kind':m['page_kind'],'preamble_status':m['preamble_status'],'limitations':'MD coverage only; not proven semantic recall, PDF completeness or external truth. Numeric reconstruction requires semantic review.'}
+    summary.update(presentation_ready_claims=pr,presentation_unready_claims=pu,
+                   presentation_readiness='mechanical_quote_checks_only_not_semantic_or_pdf_certification')
     write(out/'claims.json',{'manifest':m,'claims':claims,'coverage':coverage});write(out/'summary.json',summary)
     return out,summary
 

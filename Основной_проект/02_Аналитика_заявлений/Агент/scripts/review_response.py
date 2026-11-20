@@ -12,6 +12,8 @@ FIELDS = {'metric': 'metric', 'value': 'value', 'unit': 'unit', 'period': 'perio
 
 
 def review(work, response):
+    # Display quotes are validated by profile.check below. Never construct them
+    # from statement fragments or expand them heuristically; legacy stays unready.
     data = base.read(response)
     manifest, _ = base.workspace(work)
     entry = next((item for item in manifest['batches'] if item['id'] == data['batch_id']), None)

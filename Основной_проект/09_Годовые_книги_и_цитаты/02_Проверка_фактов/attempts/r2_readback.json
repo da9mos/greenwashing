@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "atom_id": "GAZP-2023-ATOMIC-001-a",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000001.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-001-b",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000002.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-002-a",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000003.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-002-b",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000004.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-003-a",
+      "revision": 2,
+      "verdict": "not_verifiable",
+      "risk_categories": 4,
+      "record_path": "run/results/C000005.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-a",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000006.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-b",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000007.r000002.json"
+    },
+    {
+      "atom_id": "GAZP-2023-ATOMIC-004-c",
+      "revision": 2,
+      "verdict": "insufficient_evidence",
+      "risk_categories": 4,
+      "record_path": "run/results/C000008.r000002.json"
+    }
+  ],
+  "queue": [],
+  "old_parent_packet_hashes_unchanged": true,
+  "native_journal_files": 20,
+  "actual_search_queries": 51
+}

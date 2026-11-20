@@ -1,0 +1,200 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "7c71e9e2057472889795163366b356e9157a0a8455ff9d68b67715d3746a471b",
+  "claim_id": "C000006",
+  "quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+  "reviewer": "Codex, GPT-6 family; project FACT_CHECK_AGENT.md; exact model snapshot unavailable; derivative atomic assessment from existing accepted research",
+  "checked_at": "2026-11-20T23:16:53.383504+05:00",
+  "revision": 1,
+  "research_status": "complete",
+  "verdict": "insufficient_evidence",
+  "reason": "Газпром, экологический отчёт за 2023 год: государственные органы провели 761 проверку. Вывод: независимого полного реестра проверок объектов Группы за тот же год нет, поэтому этот итог независимо не подтвержден.",
+  "target": {
+    "proposition": "В 2023 г. государственные надзорные органы провели 761 проверку требований ООС и природопользования на объектах Группы Газпром.",
+    "entity": "объекты Группы Газпром",
+    "period": "2023",
+    "boundary": "Объекты Группы Газпром; государственные проверки ООС и природопользования; география не сужена до РФ",
+    "assessment_object": "reported_fact"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Газпром\" \"761\" \"517\" \"563\" 2023 проверки",
+      "tool": "web.run",
+      "tool_ref": "web.run turn3search12; journal/04_c3_c4_search.json",
+      "searched_at": "2026-11-20T22:09:09+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найден и заново прочитан исходныйPDF; самостоятельного независимого группового свода не найдено. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром\" 2023 \"517 нарушений\" исправление Росприроднадзор",
+      "tool": "web.run",
+      "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+      "searched_at": "2026-11-20T22:09:09+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдены отдельные надзорные события, не сопоставимое опровержение групповым итогам;RPNпроверкаСалават найдена первым запросомC1 и заново открывалась с403. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q3",
+      "direction": "support",
+      "query": "site.rpn.gov.ru \"Газпром\" \"2023\" \"517\"",
+      "tool": "web.run",
+      "tool_ref": "web.run turn7search12,turn7search13; journal/08_2023_primary_audits.json",
+      "searched_at": "2026-11-20T22:10:02+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Точный запрос к регулятору дал корпоративные копии и нерелевантные числовые совпадения; независимый свод не получен. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q4",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"761\" \"проверка\" 2023 Росприроднадзор опровержение",
+      "tool": "web.run",
+      "tool_ref": "web.run turn9search0,turn9search12; journal/10_targeted_read_followup.json",
+      "searched_at": "2026-11-20T22:10:36+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Дополнительный поиск опровержения761 дал нерелевантные газовые счетчики/периоды и корпоративную копию; сопоставимого опровержения нет. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q_RPN",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Фактически выполненный общий надзорный запрос; найденный источник повторно используется как явно несопоставимый контекст данной строки. Открытия403 указаны в source и журнале. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "NEW_SUPPORT",
+      "direction": "support",
+      "query": "\"Газпром\" \"2023\" \"761 проверка\" -site:draga.ru -site:reportcollection.inion.ru",
+      "tool": "web.run",
+      "tool_ref": "web.run turn16search1; journal/06_independent_scope_search.json",
+      "searched_at": "2026-11-20T23:13:13+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Независимого полного группового свода не найдено; нерелевантные газовые счетчики исключены."
+    },
+    {
+      "id": "NEW_OPPOSING",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"517 нарушений\" \"563\" исправление 2023",
+      "tool": "web.run",
+      "tool_ref": "web.run turn18search12; journal/08_final_primary_read.json",
+      "searched_at": "2026-11-20T23:13:48+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Прямого сопоставимого опровержения группового счетчика не найдено; отдельные предприятия не подменяют группу."
+    },
+    {
+      "id": "NEW_OPEN_STAT",
+      "direction": "support",
+      "query": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+      "tool": "web.run find",
+      "tool_ref": "web.run turn20view0; journal/10_read_original_metrics.json",
+      "searched_at": "2026-11-20T23:14:36+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_STAT"
+      ],
+      "outcome_note": "Прочитан весь абзац с тремя разными мерами учета; источник корпоративный."
+    }
+  ],
+  "sources": [
+    {
+      "id": "N_STAT",
+      "url": "https://draga.ru/wp-content/uploads/2024/06/gazprom-environmental-report-2023-ru.pdf",
+      "publisher": "Газпром, экологический отчет2023",
+      "origin_group": "ПАО Газпром; хостинг ДРАГА",
+      "origin_basis": "Републикация исходного корпоративного раскрытия, а не полный реестр государственных проверок.",
+      "publication_date": null,
+      "publication_date_note": "Точная дата публикации в прочитанном фрагменте не указана; год отчета не заменяет дату публикации.",
+      "event_period": "2023",
+      "locator": "Физическая страница38, печатная36; L2215–2217",
+      "content": "В 2023 г. государственными надзорными органами прове\u0002дена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре\u0002зультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было.",
+      "content_sha256": "0dec9d2ff302e89f724bb7bde59b50bf1f53cf0acf1b187d2b799716d6918350",
+      "tool_ref": "web.run turn20view0; journal/10_read_original_metrics.json",
+      "retrieved_at": "2026-11-20T23:14:36+05:00",
+      "access": "excerpt",
+      "independence": "issuer_republication"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "N_E1",
+      "source_id": "N_STAT",
+      "quote": "В 2023 г. государственными надзорными органами прове\u0002дена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром",
+      "relation": "supports",
+      "reason": "Число проверок — 761; собственное корпоративное раскрытие, не независимый свод.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Группа Газпром."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "2023."
+        },
+        "boundary": {
+          "status": "matched",
+          "reason": "Объекты Группы в областиООС/природопользования."
+        },
+        "metric": {
+          "status": "matched",
+          "reason": "Число проверок — 761; не смешивается с двумя другими счетчиками."
+        },
+        "unit": {
+          "status": "matched",
+          "reason": "Проверки; не нарушения и не объекты."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Проведена 761 проверка требованийООС и природопользования.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "N_E1"
+      ],
+      "reason": "Газпром, экологический отчёт за 2023 год: государственные органы провели 761 проверку. Вывод: независимого полного реестра проверок объектов Группы за тот же год нет, поэтому этот итог независимо не подтвержден."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Полная цитата сохранена отдельно; оценивается только указанный атом GAZP-2023-ATOMIC-004-a. Все существенные части этого атома сохранены; другие части полной цитаты имеют собственные строки.",
+  "source_review": {
+    "status": "verified",
+    "method": "Fresh local full-page and x3-crop renders inspected by Codex. Text-layer geometry and literal MD offsets are supporting locators, not substitutes for image reading.; проверен полный родительский абзац и привязка конкретного аспекта, не внешняя истинность",
+    "locator": "../01_Сверка_цитат/citation_review.json; quote_id=GAZP-2023-EO-EXTERNAL-004; page=38",
+    "review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+    "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+    "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24"
+  },
+  "limitations": [
+    "Заключение ограничено реально выполненными запросами и прочитанными источниками; полнота публичного интернета не заявляется.",
+    "Нет юридического вывода о гринвошинге, селективном раскрытии или намерении обмануть.",
+    "Это производная оценка конкретного атома по ранее выполненным поискам; checked_at — дата атомарного пересмотра, searched_at — сохраненная дата реальных запросов."
+  ],
+  "derived_research": {
+    "reassessment": true,
+    "parent_packet_sha256": "5e3a1df06cf3bdf189786548f47782ee0cad9d7cd538bd3b8519c7bbdf405dc1",
+    "new_searches": true,
+    "prior_search_times_preserved": true
+  },
+  "research_lineage": {
+    "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000006.r000001.json",
+    "parent_packet_sha256": "5e3a1df06cf3bdf189786548f47782ee0cad9d7cd538bd3b8519c7bbdf405dc1",
+    "parent_native_journal_base": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal",
+    "new_native_journal_base": "journal/",
+    "new_input_reason": "Полная непрерывная проверенная цитата вместо старых склеенных фрагментов; аспект хранится отдельно."
+  }
+}

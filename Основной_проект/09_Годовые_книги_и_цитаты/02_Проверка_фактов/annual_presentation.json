@@ -1,0 +1,99 @@
+{
+  "schema_version": "esg-user-presentation-1.0",
+  "checked_at": "2026-11-20T23:26:30.769793+05:00",
+  "coverage": "Two selected claims only; not completeness of annual reports.",
+  "rows": [
+    {
+      "atom_id": "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094",
+      "claim_id": "C000001",
+      "report_id": "GAZP-2024-ОУР",
+      "year": 2024,
+      "verdict": "insufficient_evidence",
+      "check_label": "Не установлено",
+      "short_reason": "Годовой отчёт Газпрома: 50,23% на 31.12.2024; Интерфакс: более 50% 03.12.2024 и 27.06.2025. Вывод: раскрытия согласуются, но независимая фиксация именно на 31.12.2024 не получена; прямое владение 38,37% не равно суммарному контролю.",
+      "exact_quote": "Форма собственности\nПАО «Газпром»\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %",
+      "parent_context_quote": "Форма собственности\nПАО «Газпром»\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %",
+      "aspect": "На 31 декабря 2024 года суммарная доля акций ПАО Газпром под прямым и косвенным контролем Российской Федерации превышает50%.",
+      "aspect_is_direct_quote": false,
+      "assessed_quote_complete": true,
+      "pdf_page": 8,
+      "block": "G",
+      "type": "результат",
+      "sources": [
+        {
+          "name": "Газпром, годовой отчет2024",
+          "url": "https://draga.ru/wp-content/uploads/2025/06/2.-go-2024.pdf",
+          "assertion": "Доля контроля раскрывается на дату2024-12-31.",
+          "independence": "issuer_republication"
+        },
+        {
+          "name": "Интерфакс,03.12.2024",
+          "url": "https://www.interfax.ru/business/995742",
+          "assertion": "Доля контроля раскрывается на дату2024-12-03.",
+          "independence": "independent"
+        },
+        {
+          "name": "Интерфакс,27.06.2025",
+          "url": "https://www.interfax.ru/business/1033380",
+          "assertion": "Доля контроля раскрывается на дату2025-06-27.",
+          "independence": "independent"
+        }
+      ],
+      "run": "annual_2024/run",
+      "export": "annual_2024/export",
+      "source_review_sha256": "f1711c69377320b8ec613b373bc50e0209f225d03e6d79aecbfcd066eb6ee37a",
+      "record_path": "annual_2024/run/results/C000001.r000001.json",
+      "assessment_path": "annual_2024/run/results/C000001.r000001.json",
+      "assessment_export_path": "annual_2024/export/claims.json",
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    },
+    {
+      "atom_id": "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008",
+      "claim_id": "C000001",
+      "report_id": "GAZP-2025-ОУР",
+      "year": 2025,
+      "verdict": "true",
+      "check_label": "Правда",
+      "short_reason": "Интерфакс: корреспондент с церемонии 06.05.2025 подтвердил проведение акции и газификацию мемориалов; телеканал «Санкт-Петербург» описал подключение к природному газу. Вывод: реализация проекта в 2025 году подтверждена.",
+      "exact_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.",
+      "parent_context_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.\n\n\n189 новых Вечных огней появилось на карте\nРоссии по итогам реализации проекта.\nИз них 80 зажглись одновременно в канун\nДня Победы.",
+      "aspect": "В 2025 году ПАО Газпром реализовало проект «Храним огонь Победы» по подключению мемориальных комплексов Великой Отечественной войны к сетевому природному газу.",
+      "aspect_is_direct_quote": false,
+      "assessed_quote_complete": true,
+      "pdf_page": 5,
+      "block": "S",
+      "type": "результат",
+      "sources": [
+        {
+          "name": "Интерфакс, корреспондент с церемонии",
+          "url": "https://www.interfax.ru/russia/1024253",
+          "assertion": "Собственный репортаж о проведении и газификации.",
+          "independence": "independent"
+        },
+        {
+          "name": "Телеканал Санкт-Петербург, Дмитрий Ковалев",
+          "url": "https://tvspb.ru/news/2025/05/6/kak-v-peterburge-proshla-vserossijskaya-akcziya-hranim-ogon-pobedy",
+          "assertion": "Собственный репортаж о проведении и газификации.",
+          "independence": "independent"
+        }
+      ],
+      "run": "annual_2025/run",
+      "export": "annual_2025/export",
+      "source_review_sha256": "f1711c69377320b8ec613b373bc50e0209f225d03e6d79aecbfcd066eb6ee37a",
+      "record_path": "annual_2025/run/results/C000001.r000001.json",
+      "assessment_path": "annual_2025/run/results/C000001.r000001.json",
+      "assessment_export_path": "annual_2025/export/claims.json",
+      "risk_categories_checked": [
+        "rosp_enforcement",
+        "rost_enforcement",
+        "court_cases",
+        "media_incidents"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "suite": "pdf",
+    "tests": 38,
+    "passed": true
+  },
+  {
+    "suite": "esg",
+    "tests": 65,
+    "passed": true
+  },
+  {
+    "suite": "facts",
+    "tests": 31,
+    "passed": true
+  },
+  {
+    "suite": "corpus",
+    "tests": 9,
+    "passed": true
+  },
+  {
+    "suite": "export",
+    "tests": 11,
+    "passed": true
+  },
+  {
+    "suite": "worker",
+    "tests": 20,
+    "passed": true
+  }
+]

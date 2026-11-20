@@ -1,0 +1,176 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "7c71e9e2057472889795163366b356e9157a0a8455ff9d68b67715d3746a471b",
+  "claim_id": "C000005",
+  "quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+  "reviewer": "Codex, GPT-6 family; project FACT_CHECK_AGENT.md; exact model snapshot unavailable; derivative atomic assessment from existing accepted research",
+  "checked_at": "2026-11-20T23:16:53.383504+05:00",
+  "revision": 1,
+  "research_status": "complete",
+  "verdict": "not_verifiable",
+  "reason": "Газпром: сохранение природы закреплено в экологической политике и названо принципом работы. Вывод: измеримый критерий «главного принципа» не задан; оценить эту декларацию как достигнутый результат нельзя.",
+  "target": {
+    "proposition": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома.",
+    "entity": "Газпром",
+    "period": "В самой декларации срок не указан; размещена в отчете за 2023 г.",
+    "boundary": "Сохранение окружающей среды и природных богатств нашей страны; перечень операций не задан",
+    "assessment_object": "principle"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Сохранение благоприятной окружающей среды\" \"Газпрома\" принцип",
+      "tool": "web.run",
+      "tool_ref": "web.run turn3search7; journal/04_c3_c4_search.json",
+      "searched_at": "2026-11-20T22:09:09+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдена и прочитана корпоративная экологическая политика в первичномHTML. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром\" экологическая политика 2023 нарушения Росприроднадзор",
+      "tool": "web.run",
+      "tool_ref": "web.run turn3search2; journal/04_c3_c4_search.json",
+      "searched_at": "2026-11-20T22:09:09+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдены надзорные события; дополнительно рассмотрен регуляторный результат первого запросаC1. Прямые открытияRPN403; только контекст, не решающее опровержение. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q_RPN",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Фактически выполненный общий надзорный запрос; найденный источник повторно используется как явно несопоставимый контекст данной строки. Открытия403 указаны в source и журнале. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "NEW_SUPPORT",
+      "direction": "support",
+      "query": "\"Газпром\" \"2023\" \"сохранение\" \"принцип\" экологическая политика нарушения",
+      "tool": "web.run",
+      "tool_ref": "web.run turn16search14; journal/06_independent_scope_search.json",
+      "searched_at": "2026-11-20T23:13:13+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Проверен контекст политики; не найден операциональный критерий общего принципа."
+    },
+    {
+      "id": "NEW_OPEN_POL",
+      "direction": "support",
+      "query": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "tool": "web.run find",
+      "tool_ref": "web.run turn19view2; journal/09_read_relevant_excerpts.json",
+      "searched_at": "2026-11-20T23:13:59+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_POL"
+      ],
+      "outcome_note": "Прочитано наличие и содержание политики; результат и эффективность не подменены принципом."
+    }
+  ],
+  "sources": [
+    {
+      "id": "N_POL",
+      "url": "https://sustainability.gazpromreport.ru/2024/environmental-protection/environmental-management/",
+      "publisher": "Газпром, экологическая политика",
+      "origin_group": "ПАО Газпром, собственная политика",
+      "origin_basis": "Наличие экологической политики не удостоверяет достижение измеримого результата или реальную иерархию приоритетов.",
+      "publication_date": null,
+      "publication_date_note": "Точная дата публикации в прочитанном фрагменте не указана; год отчета не заменяет дату публикации.",
+      "event_period": "Политика2015 в отчете2024",
+      "locator": "L47",
+      "content": "Экологической политике ПАО «Газпром»",
+      "content_sha256": "d6a2d91ea68c8f9f3442aa6bd52f3ff60ed8ecbe54ed37f18e2b0bee9dfc23c9",
+      "tool_ref": "web.run turn19view2; journal/09_read_relevant_excerpts.json",
+      "retrieved_at": "2026-11-20T23:13:59+05:00",
+      "access": "excerpt",
+      "independence": "issuer"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "N_E1",
+      "source_id": "N_POL",
+      "quote": "Экологической политике ПАО «Газпром»",
+      "relation": "context",
+      "reason": "Наличие экологической политики согласуется с декларацией. Нет критерия, по которому главный принцип может быть истинным/ложным как операционный результат.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "Газпром."
+        },
+        "period": {
+          "status": "unknown",
+          "reason": "Исходный принцип без периода; политика 2015/изложение 2024."
+        },
+        "boundary": {
+          "status": "unknown",
+          "reason": "Точного операционного периметра в принципе нет."
+        },
+        "metric": {
+          "status": "not_applicable",
+          "reason": "Качественный принцип без измеримого показателя."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "У принципа нет единицы измерения."
+        }
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Сохранение благоприятной окружающей среды является главным рабочим принципом.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "N_E1"
+      ],
+      "reason": "Газпром: сохранение природы закреплено в экологической политике и названо принципом работы. Вывод: измеримый критерий «главного принципа» не задан; оценить эту декларацию как достигнутый результат нельзя."
+    },
+    {
+      "id": "A2",
+      "proposition": "Сохранение природных богатств страны является главным рабочим принципом.",
+      "status": "unresolved",
+      "evidence_ids": [
+        "N_E1"
+      ],
+      "reason": "Газпром: сохранение природы закреплено в экологической политике и названо принципом работы. Вывод: измеримый критерий «главного принципа» не задан; оценить эту декларацию как достигнутый результат нельзя."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Полная цитата сохранена отдельно; оценивается только указанный атом GAZP-2023-ATOMIC-003-a. Все существенные части этого атома сохранены; другие части полной цитаты имеют собственные строки.",
+  "source_review": {
+    "status": "verified",
+    "method": "Fresh local full-page and x3-crop renders inspected by Codex. Text-layer geometry and literal MD offsets are supporting locators, not substitutes for image reading.; проверен полный родительский абзац и привязка конкретного аспекта, не внешняя истинность",
+    "locator": "../01_Сверка_цитат/citation_review.json; quote_id=GAZP-2023-EO-DEMO-003; page=7",
+    "review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+    "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+    "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24"
+  },
+  "limitations": [
+    "Заключение ограничено реально выполненными запросами и прочитанными источниками; полнота публичного интернета не заявляется.",
+    "Нет юридического вывода о гринвошинге, селективном раскрытии или намерении обмануть.",
+    "Это производная оценка конкретного атома по ранее выполненным поискам; checked_at — дата атомарного пересмотра, searched_at — сохраненная дата реальных запросов."
+  ],
+  "derived_research": {
+    "reassessment": true,
+    "parent_packet_sha256": "8323737b256c459c209629faea1e03ca143e1b98ec8d16f500f9e2e5067b745d",
+    "new_searches": true,
+    "prior_search_times_preserved": true
+  },
+  "research_lineage": {
+    "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000005.r000001.json",
+    "parent_packet_sha256": "8323737b256c459c209629faea1e03ca143e1b98ec8d16f500f9e2e5067b745d",
+    "parent_native_journal_base": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal",
+    "new_native_journal_base": "journal/",
+    "new_input_reason": "Полная непрерывная проверенная цитата вместо старых склеенных фрагментов; аспект хранится отдельно."
+  }
+}
