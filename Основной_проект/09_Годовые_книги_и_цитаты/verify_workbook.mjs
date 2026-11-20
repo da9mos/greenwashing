@@ -13,10 +13,10 @@ for(const [i,year] of data.sheets.entries()){
  const actual=s.getRange(`A1:F${expected.length}`).values;
  if(JSON.stringify(actual)!==JSON.stringify(expected))throw new Error(`Value readback differs in ${year.title}`);
  for(const row of year.rows){
-  if(/Исследовано:|направления поиска|сохранены в журнале|Проверка проектных агентов/i.test(row.join('\n')))throw new Error('Process boilerplate found');
+  if(/Вывод\s*:|Исследовано:|направления поиска|сохранены в журнале|Проверка проектных агентов/i.test(row.join('\n')))throw new Error('Process boilerplate found');
   if(row.length!==6||row.some(c=>c===null||c===''))throw new Error('Missing user-facing content');
  }
- const image=await book.render({sheetName:s.name,range:`A1:F${Math.min(expected.length,3)}`,scale:1.2,format:'png'});
+ const image=await book.render({sheetName:s.name,range:`A1:F${Math.min(expected.length,6)}`,scale:1.2,format:'png'});
  await fs.writeFile(new URL(`Проверка_вида/${s.name}.png`,here),new Uint8Array(await image.arrayBuffer()));
  count+=year.rows.length;
 }

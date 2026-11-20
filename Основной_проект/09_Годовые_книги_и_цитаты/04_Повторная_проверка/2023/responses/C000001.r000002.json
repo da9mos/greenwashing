@@ -1,0 +1,501 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "source_sha256": "415d6519c973ee4815ceb7d08261b2ad382b50bd4f13f759ef0e05554660c612",
+  "claim_id": "C000001",
+  "quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г.",
+  "reviewer": "Codex; project FACT_CHECK_AGENT; reassessment with competent primary records, preserved real search history",
+  "checked_at": "2026-11-21T00:00:09.566637+05:00",
+  "revision": 2,
+  "research_status": "complete",
+  "verdict": "true",
+  "reason": "Выбор, сообщение пресс-службы Салавата от 13.04.2023: обещаны снижение выбросов, план САКВ и сведения об источниках, оснащаемых до 2025 г. Это объявленные обязательства, а не сообщение об их исполнении.",
+  "target": {
+    "proposition": "В2023г. Салават публично принял названные в цитате обязательства по снижению выбросов, плану САКВ и сведениям об источниках.",
+    "entity": "ООО «Газпром нефтехим Салават»",
+    "period": "2023; до2025г. относится к планируемому оснащению источников",
+    "boundary": "Публичные обязательства предприятия и объектов НВОС I категории; без проверки исполнения",
+    "assessment_object": "promise_made"
+  },
+  "searches": [
+    {
+      "id": "Q1",
+      "direction": "support",
+      "query": "\"Газпром нефтехим Салават\" \"план\" \"САКВ\" 2023",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search13; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдены корпоративный отчет и контекст соглашения; исторические leads открыты отдельно. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q2",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" автоматического контроля выбросов нарушения план 2023 2025",
+      "tool": "web.run",
+      "tool_ref": "web.run turn0search2; journal/01_c1_search.json",
+      "searched_at": "2026-11-20T22:08:34+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найден надзорный контекст; связанная закупка2025 прочитана, сопоставимого опровержения обещания не найдено. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q3",
+      "direction": "support",
+      "query": "site.mnr.gov.ru Салават 12 апреля 2023 соглашения автоматического контроля",
+      "tool": "web.run",
+      "tool_ref": "web.run turn4search0; journal/05_primary_open_search.json",
+      "searched_at": "2026-11-20T22:09:23+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Найдено и прочитано официальное муниципальное сообщение. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q4",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" \"САКВ\" \"соглашение\" \"2023\" \"план\" нарушения",
+      "tool": "web.run",
+      "tool_ref": "web.run turn9search12; journal/10_targeted_read_followup.json",
+      "searched_at": "2026-11-20T22:10:36+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Дополнительный запрос о нарушениях точного соглашения не дал прочитанного сопоставимого опровержения обязательств. Не интерпретируется как их подтверждение. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q5",
+      "direction": "support",
+      "query": "https://www.kommersant.ru/doc/5927481",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn1view0; journal/02_c1_open.json",
+      "searched_at": "2026-11-20T22:08:45+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Проверен исторический lead: реальное открытие и чтение статьи. Не утверждается, что URL был заново найден поисковой выдачей. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "Q6",
+      "direction": "contradiction",
+      "query": "https://zakupki.kontur.ru/GP521689",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn1view1; journal/02_c1_open.json",
+      "searched_at": "2026-11-20T22:08:45+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Проверен исторический lead закупки; не дает сопоставимого опровержения обещания. [Атомарная производная: запрос и время сохранены; source_ids ограничены источниками данного атома. Полный результат запроса — в родительском native journal.] Исторический запрос08; прежняя дата и ссылка сохранены, полный ответ доступен по parent native_journal_base."
+    },
+    {
+      "id": "NEW_SUPPORT",
+      "direction": "support",
+      "query": "\"Салават\" \"разработать план создания\" соглашение 2023 -site:all-pribors.ru -site:reportcollection.inion.ru -site:draga.ru -site:gazetavibor.ru",
+      "tool": "web.run",
+      "tool_ref": "web.run turn13search6; journal/03_primary_promise_search.json",
+      "searched_at": "2026-11-20T23:12:14+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_VIB"
+      ],
+      "outcome_note": "Точный текст обязанностей найден в корпоративной пресс-службе через газету; прямой доступ403, не decisive."
+    },
+    {
+      "id": "NEW_OPPOSING",
+      "direction": "contradiction",
+      "query": "\"Газпром нефтехим Салават\" \"план создания\" опровержение соглашение 2023",
+      "tool": "web.run",
+      "tool_ref": "web.run turn18search0; journal/08_final_primary_read.json",
+      "searched_at": "2026-11-20T23:13:48+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Сопоставимого опровержения принятия точного обязательства не найдено."
+    },
+    {
+      "id": "NEW_OPEN_KOM",
+      "direction": "support",
+      "query": "https://www.kommersant.ru/doc/5927481",
+      "tool": "web.run open",
+      "tool_ref": "web.run turn17view2; journal/07_primary_2023_report.json",
+      "searched_at": "2026-11-20T23:13:23+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_KOM"
+      ],
+      "outcome_note": "Открыто сообщение по сведениям правительства; установлены границы содержания."
+    },
+    {
+      "id": "NEW_OPEN_SAL",
+      "direction": "support",
+      "query": "https://www.salavatsovet.ru/2023/04/12/salavat-i-sterlitamak-vklyuchili-v-proekt-chistyj-vozdux/",
+      "tool": "web.run find",
+      "tool_ref": "web.run turn19view4; journal/09_read_relevant_excerpts.json",
+      "searched_at": "2026-11-20T23:13:59+05:00",
+      "status": "completed",
+      "source_ids": [
+        "N_SAL"
+      ],
+      "outcome_note": "Прочитан официальный муниципальный контекст; два точных пункта не приведены."
+    },
+    {
+      "id": "RISK_2023_rosp_enforcement",
+      "direction": "contradiction",
+      "query": "site.rpn.gov.ru \"Газпром\" \"2023\" штраф нарушения предписание",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [
+        "R23"
+      ],
+      "outcome_note": "Росприроднадзор: опубликованный судебный текст подтверждает предписание Салавату №135-В от28.09.2023. Новостной первоисточник о26нарушениях ранее вернул403; закрытый реестр не считается прочитанным. Один объект не доказывает групповые итоги или отсутствие плана САКВ.",
+      "category": "rosp_enforcement"
+    },
+    {
+      "id": "RISK_2023_rost_enforcement",
+      "direction": "contradiction",
+      "query": "site.gosnadzor.ru \"Газпром\" \"2023\" нарушения предписание штраф",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [
+        "T23"
+      ],
+      "outcome_note": "Ростехнадзор: судебный текст отражает контроль и новое предписание ООО Газпром сжиженный газ от10.07.2023. Иной субъект/метрика: это не опровержение экологических расходов, точного обещания или трех групповых счетчиков.",
+      "category": "rost_enforcement"
+    },
+    {
+      "id": "RISK_2023_court_cases",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"2023\" суд экологический ущерб штраф Салават",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [
+        "R23"
+      ],
+      "outcome_note": "Судебная практика: А07-40790/2023 рассмотрен21.02.2024, касается предписания2023. Наличие экологических нарушений учтено как контекст; не заменяет юридический оригинал соглашения либо полный свод актов Группы.",
+      "category": "court_cases"
+    },
+    {
+      "id": "RISK_2023_media_incidents",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"2023\" авария инцидент взрыв Салават",
+      "tool": "web.run",
+      "tool_ref": "web.run turn26search0,turn26search4,turn26search13; journal/16_risks_2023.json",
+      "searched_at": "2026-11-20T23:20:04+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "СМИ/инциденты: выполнены запросы поГазпрому/Салавату2023. Встреченные эпизоды иных лет и отдельных объектов не сопоставимы с проверяемыми метриками; отсутствия всех аварий не утверждается.",
+      "category": "media_incidents"
+    },
+    {
+      "id": "RISK_2023_rost_followup",
+      "direction": "contradiction",
+      "query": "\"Ростехнадзор\" \"Газпром\" \"2023\" предписание штраф",
+      "tool": "web.run",
+      "tool_ref": "web.run turn29search0,turn29search2,turn29search11; journal/19_risk_followup_and_read.json",
+      "searched_at": "2026-11-20T23:21:08+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "Ростехнадзор: судебный текст отражает контроль и новое предписание ООО Газпром сжиженный газ от10.07.2023. Иной субъект/метрика: это не опровержение экологических расходов, точного обещания или трех групповых счетчиков.",
+      "category": "rost_enforcement"
+    },
+    {
+      "id": "RISK_2023_media_followup",
+      "direction": "contradiction",
+      "query": "\"Газпром\" \"2023\" авария взрыв Интерфакс",
+      "tool": "web.run",
+      "tool_ref": "web.run turn29search16,turn29search19; journal/19_risk_followup_and_read.json",
+      "searched_at": "2026-11-20T23:21:08+05:00",
+      "status": "completed",
+      "source_ids": [],
+      "outcome_note": "СМИ/инциденты: выполнены запросы поГазпрому/Салавату2023. Встреченные эпизоды иных лет и отдельных объектов не сопоставимы с проверяемыми метриками; отсутствия всех аварий не утверждается.",
+      "category": "media_incidents"
+    },
+    {
+      "id": "FRESH_07_0",
+      "direction": "support",
+      "query": "\"Салават и Стерлитамак вошли\" \"Предприятие обязуется\"",
+      "tool": "web.run",
+      "tool_ref": "web.run turn37search4; journal/07_records_and_commitment.json",
+      "searched_at": "2026-11-20T23:53:12+05:00",
+      "status": "completed",
+      "source_ids": [
+        "PRIMARY_PROMISE"
+      ],
+      "outcome_note": "Точное содержание трёх объявленных обязательств найдено; развернутый текст прочитан в последующем реальном запросе."
+    },
+    {
+      "id": "FRESH_08_0",
+      "direction": "support",
+      "query": "site:gazetavibor.ru \"Салават и Стерлитамак вошли\" \"Пресс\"",
+      "tool": "web.run",
+      "tool_ref": "web.run turn38search0; journal/08_precise_reads.json",
+      "searched_at": "2026-11-20T23:53:26+05:00",
+      "status": "completed",
+      "source_ids": [
+        "PRIMARY_PROMISE"
+      ],
+      "outcome_note": "Получен развернутый текст с прямой атрибуцией пресс-службе; доступ отмечен как cached excerpt, прямойURL403."
+    }
+  ],
+  "sources": [
+    {
+      "id": "N_KOM",
+      "url": "https://www.kommersant.ru/doc/5927481",
+      "publisher": "Коммерсантъ",
+      "origin_group": "Пресс-служба правительства Республики Башкортостан",
+      "origin_basis": "Редакционное сообщение по сведениям государственного контрагента; не заявление собственной проверки текста соглашения.",
+      "publication_date": "2023-04-12",
+      "publication_date_note": null,
+      "event_period": "2023-04-12",
+      "locator": "L106",
+      "content": "В рамках соглашений запланированы мероприятия по снижению выбросов загрязняющих веществ, установка систем автоматического контроля до 2025 года и развитие системы мониторинга качества воздуха.",
+      "content_sha256": "92070f69419950d9502526f4e35a947b8cd1f425bb3eb6adedf6eef1ed0133a0",
+      "tool_ref": "web.run turn17view2; journal/07_primary_2023_report.json",
+      "retrieved_at": "2026-11-20T23:13:23+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "N_SAL",
+      "url": "https://www.salavatsovet.ru/2023/04/12/salavat-i-sterlitamak-vklyuchili-v-proekt-chistyj-vozdux/",
+      "publisher": "Совет Салавата",
+      "origin_group": "Администрация ГО Салават / проектный офис Чистый воздух",
+      "origin_basis": "Первичное официальное сообщение с объяснением руководителя проектного офиса; не содержит точных двух пунктов обязанностей.",
+      "publication_date": "2023-04-12",
+      "publication_date_note": null,
+      "event_period": "2023-04-11/2023-04-12",
+      "locator": "L75–76",
+      "content": "Следующая задача – оснащение труб системами автоматического контроля выбросов.",
+      "content_sha256": "eec659388948f7a4c4e7a309cbe51fbfd9c95042f60e92c86c4672c23da8389a",
+      "tool_ref": "web.run turn19view4; journal/09_read_relevant_excerpts.json",
+      "retrieved_at": "2026-11-20T23:13:59+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "N_VIB",
+      "url": "https://gazetavibor.ru/news/novosti/2023-04-13/salavat-i-sterlitamak-voshli-v-federalnyy-proekt-chistyy-vozduh-soglasheniya-podpisany-3218587",
+      "publisher": "Выбор Салават",
+      "origin_group": "Пресс-служба ООО Газпром нефтехим Салават",
+      "origin_basis": "Сам текст статьи приписывает изложение работ пресс-службе предприятия. Прямое открытие403 (turn12view0); текст выдан поиском, не открытый оригинал и не решающее доказательство.",
+      "publication_date": "2023-04-13",
+      "publication_date_note": null,
+      "event_period": "2023-04-12",
+      "locator": "Индексированный текст публикации13.04.2023; абзац об обязанностях",
+      "content": "Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ)",
+      "content_sha256": "bef6316d36943e6618b242886bf9ae7bf568d26a61227304ff015697296af2a8",
+      "tool_ref": "web.run turn14search0; journal/04_official_promise_read.json",
+      "retrieved_at": "2026-11-20T23:12:27+05:00",
+      "access": "snippet",
+      "independence": "issuer_republication"
+    },
+    {
+      "id": "R23",
+      "url": "https://onlineecology.com/file/download-inline/a273118f-2125-4e25-8130-6cea31672acf/%D0%9007-40790-2023__20240221.pdf",
+      "publisher": "Арбитражный суд Республики Башкортостан; копия onlineecology",
+      "origin_group": "Арбитражный суд Республики Башкортостан",
+      "origin_basis": "Первичный текст судебного решения; источник фактов о предписании — суд, не предприятие. Не групповой полный свод.",
+      "publication_date": "2024-02-21",
+      "publication_date_note": null,
+      "event_period": "Предписание28.09.2023; решение21.02.2024",
+      "locator": "Страница1–2; строки19–20",
+      "content": "о признании частично недействительным предписания\nРосприроднадзора от 28.09.2023 № 135-В,",
+      "content_sha256": "07b90a49a9ced7bbb36069941334dfaa7fc573b53c54d1245b45b05c8fe27a98",
+      "tool_ref": "web.run turn30view3; journal/20_risk_records_read.json",
+      "retrieved_at": "2026-11-20T23:21:31+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "T23",
+      "url": "https://www.zakonrf.info/arbsud/doc-e4fae0db-51d2-5a32-bd56-0218ef396b78/",
+      "publisher": "Одиннадцатый арбитражный апелляционный суд; копия ЗаконРФ",
+      "origin_group": "11 ААС, делоА65-20459/2023",
+      "origin_basis": "Судебный текст о надзоре промышленной безопасности отдельного ООО; не экологический групповой счетчик.",
+      "publication_date": "2023-11-20",
+      "publication_date_note": null,
+      "event_period": "Предписание10.07.2023",
+      "locator": "L237",
+      "content": "Результаты контрольных (надзорных) действий Управления были зафиксированы в Протоколе осмотра от 10.07.2023 № 43-15-2023-22, после чего было оформлено и выдано обществу новое Предписание от 10.07.2023 № 43-15- 2023-22.",
+      "content_sha256": "69d2666a6cc9f7f5d45762e021be1ec237598efb03ddb29bbbd49a62034e285c",
+      "tool_ref": "web.run turn30view4; journal/20_risk_records_read.json",
+      "retrieved_at": "2026-11-20T23:21:31+05:00",
+      "access": "excerpt",
+      "independence": "independent"
+    },
+    {
+      "id": "PRIMARY_PROMISE",
+      "url": "https://gazetavibor.ru/news/novosti/2023-04-13/salavat-i-sterlitamak-voshli-v-federalnyy-proekt-chistyy-vozduh-soglasheniya-podpisany-3218587",
+      "publisher": "Пресс-служба ООО Газпром нефтехим Салават; газета Выбор",
+      "origin_group": "Пресс-служба ООО Газпром нефтехим Салават",
+      "origin_basis": "Полный текст статьи, фактически полученный поисковым инструментом, содержит прямую атрибуцию пресс-службе и точные обязательства. Это первичное публичное объявление в републикации. Прямой URL403; не заявляется прямое чтение сайта или оригинала подписанного соглашения.",
+      "publication_date": "2023-04-13",
+      "publication_date_note": null,
+      "event_period": "2023",
+      "locator": "Кэшированный развернутый текст статьи13.04.2023: абзац прямой речи пресс-службы; direct open turn38view0=403",
+      "content": "— В частности, в соответствии с соглашением компания «Газпром нефтехим Салават» должна обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов загрязняющих веществ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению до 2025 года.",
+      "content_sha256": "97d8fc68bad286def823450af2c6211115cf51cf52bfc6faa0dd053b6ef5435d",
+      "tool_ref": "web.run turn38search0; journal/08_precise_reads.json",
+      "retrieved_at": "2026-11-20T23:53:26+05:00",
+      "access": "excerpt",
+      "independence": "issuer_republication"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "PC",
+      "source_id": "PRIMARY_PROMISE",
+      "quote": "— В частности, в соответствии с соглашением компания «Газпром нефтехим Салават» должна обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов загрязняющих веществ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению до 2025 года.",
+      "relation": "supports",
+      "reason": "Пресс-служба участника соглашения компетентна публично объявить собственные обязательства; отдельное датированное сообщение предшествует проверяемому отчету.",
+      "alignment": {
+        "entity": {
+          "status": "matched",
+          "reason": "ООО Газпром нефтехим Салават прямо названо."
+        },
+        "period": {
+          "status": "matched",
+          "reason": "Публикация13.04.2023 о подписании12.04.2023."
+        },
+        "boundary": {
+          "status": "matched",
+          "reason": "Эксплуатируемые объекты НВОС I категории; именно содержание публичного обещания."
+        },
+        "metric": {
+          "status": "matched",
+          "reason": "Снижение выбросов, план САКВ, сведения о стационарных источниках; исполнение не утверждается."
+        },
+        "unit": {
+          "status": "not_applicable",
+          "reason": "Качественное утверждение без числовой единицы."
+        }
+      },
+      "evidence_basis": {
+        "kind": "authoritative_primary",
+        "claim_kind": "announced_commitment",
+        "record_type": "official_announcement",
+        "competence": "Пресс-служба участника соглашения компетентна публично объявить собственные обязательства; отдельное датированное сообщение предшествует проверяемому отчету.",
+        "why_sufficient": "Три публичных обязательства, без удостоверения юридической полноты договора и исполнения.",
+        "source_locator": "Кэшированный развернутый текст статьи13.04.2023: абзац прямой речи пресс-службы; direct open turn38view0=403",
+        "statement_scope": "Три публичных обязательства, без удостоверения юридической полноты договора и исполнения.",
+        "record_id": "Сообщение пресс-службы13.04.2023 о соглашении12.04.2023",
+        "source_url": "https://gazetavibor.ru/news/novosti/2023-04-13/salavat-i-sterlitamak-voshli-v-federalnyy-proekt-chistyy-vozduh-soglasheniya-podpisany-3218587",
+        "reviewed_record": true,
+        "not_circular": true
+      }
+    }
+  ],
+  "aspects": [
+    {
+      "id": "A1",
+      "proposition": "Публично объявлено обязательство провести мероприятия и добиться снижения совокупного объема выбросов ЗВ.",
+      "status": "supported",
+      "evidence_ids": [
+        "PC"
+      ],
+      "reason": "Точная пропозиция приведена в отдельном датированном сообщении пресс-службы."
+    },
+    {
+      "id": "A2",
+      "proposition": "Публично объявлено обязательство разработать план создания САКВ на эксплуатируемых объектах НВОС I категории.",
+      "status": "supported",
+      "evidence_ids": [
+        "PC"
+      ],
+      "reason": "Точная пропозиция приведена в отдельном датированном сообщении пресс-службы."
+    },
+    {
+      "id": "A3",
+      "proposition": "Публично объявлено обязательство представить сведения о количестве стационарных источников, планируемых к оснащению САКВ до2025г.",
+      "status": "supported",
+      "evidence_ids": [
+        "PC"
+      ],
+      "reason": "Точная пропозиция приведена в отдельном датированном сообщении пресс-службы."
+    }
+  ],
+  "aspect_coverage_confirmed": true,
+  "aspect_coverage_reason": "Все существенные пропозиции полной отображаемой цитаты выделены явно; прежние атомы сохранены в metadata. Никакой результат одного атома не распространен на непроверенную часть цитаты.",
+  "source_review": {
+    "status": "verified",
+    "method": "Fresh local full-page and x3-crop renders inspected by Codex. Text-layer geometry and literal MD offsets are supporting locators, not substitutes for image reading.; проверен полный родительский абзац и привязка конкретного аспекта, не внешняя истинность",
+    "locator": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/01_Сверка_цитат/citation_review.json; quote_id=GAZP-2023-EO-DEMO-001; physical_page=37",
+    "review_sha256": "ba01cc275d1187359469bf8a4fe5e8150aee10545cd94d59ba2ca3420d30ebaf",
+    "source_md_sha256": "3391a4496c8848f65b5581ddfe30583a1660944c074a9d063d82b09bf556a858",
+    "source_pdf_sha256": "2021a9a2e16ea79d4c028765bb51d275a402a563622f0e1aa5b7a3ea051fcd24"
+  },
+  "limitations": [
+    "Прочитан развернутый кэшированный текст инструмента; прямое открытие URL403. Это публичное объявление, не юридический оригинал соглашения и не подтверждение исполнения.",
+    "Предписание РПН135-В от28.09.2023 — неблагоприятный контекст, не опровержение существования обещания."
+  ],
+  "derived_research": {
+    "reassessment": true,
+    "parent_packet_sha256": "0a69ce6cf066c61ef20c2e9f9f18a5c0a3a1c999bfd2dda9e30d9c272affa7cc",
+    "new_searches": true,
+    "prior_search_times_preserved": true
+  },
+  "research_lineage": {
+    "parent_packet": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/atomic_run/results/C000001.r000001.json",
+    "parent_packet_sha256": "0a69ce6cf066c61ef20c2e9f9f18a5c0a3a1c999bfd2dda9e30d9c272affa7cc",
+    "parent_native_journal_base": "08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal",
+    "new_native_journal_base": "journal/",
+    "new_input_reason": "Полная непрерывная проверенная цитата вместо старых склеенных фрагментов; аспект хранится отдельно."
+  },
+  "risk_checks": [
+    {
+      "category": "rosp_enforcement",
+      "search_indexes": [
+        10
+      ],
+      "finding": "Росприроднадзор: опубликованный судебный текст подтверждает предписание Салавату №135-В от28.09.2023. Новостной первоисточник о26нарушениях ранее вернул403; закрытый реестр не считается прочитанным. Один объект не доказывает групповые итоги или отсутствие плана САКВ.",
+      "entity_scope": "ООО «Газпром нефтехим Салават»; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    },
+    {
+      "category": "rost_enforcement",
+      "search_indexes": [
+        11,
+        14
+      ],
+      "finding": "Ростехнадзор: судебный текст отражает контроль и новое предписание ООО Газпром сжиженный газ от10.07.2023. Иной субъект/метрика: это не опровержение экологических расходов, точного обещания или трех групповых счетчиков.",
+      "entity_scope": "ООО «Газпром нефтехим Салават»; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    },
+    {
+      "category": "court_cases",
+      "search_indexes": [
+        12
+      ],
+      "finding": "Судебная практика: А07-40790/2023 рассмотрен21.02.2024, касается предписания2023. Наличие экологических нарушений учтено как контекст; не заменяет юридический оригинал соглашения либо полный свод актов Группы.",
+      "entity_scope": "ООО «Газпром нефтехим Салават»; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    },
+    {
+      "category": "media_incidents",
+      "search_indexes": [
+        13,
+        15
+      ],
+      "finding": "СМИ/инциденты: выполнены запросы поГазпрому/Салавату2023. Встреченные эпизоды иных лет и отдельных объектов не сопоставимы с проверяемыми метриками; отсутствия всех аварий не утверждается.",
+      "entity_scope": "ООО «Газпром нефтехим Салават»; релевантные объекты группы сопоставлены отдельно",
+      "period_scope": "2023; дата публикации может быть позднее даты события и указана отдельно"
+    }
+  ],
+  "risk_revision_parent_sha256": "e65aa9f0e7d66057f24c5cc4bc18eb9d73fb94a33fb3d99b8078af5d646311d2",
+  "presentation_revision_parent_sha256": "c3e5b36847c9482ad66008cc5503168c81812e997444e07d327d993ce59a90e8",
+  "presentation_revision_note": "Краткое объяснение согласовано с уже прочитанными судебными фактами и четырьмя risk_checks. Запросы и даты не изменены; новых поисков в этой редактуре нет.",
+  "assessed_quote_complete": true,
+  "provenance": {
+    "parent_assessment_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000001.r000003.json",
+    "parent_assessment_sha256": "65a7f804a882f0aea972ad0d174d507c6a2f1f86d519172c50899f69716d6c7e",
+    "parent_atom_ids": [
+      "GAZP-2023-ATOMIC-001-a",
+      "GAZP-2023-ATOMIC-001-b"
+    ],
+    "reused_native_journal_base": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/journal",
+    "older_native_journal_base": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal",
+    "new_native_journal_base": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal",
+    "search_dates_preserved": true
+  }
+}

@@ -29,7 +29,7 @@ def verify_risk_assessment(record):
     spec.loader.exec_module(contract)
     assessment = record.get('assessment') or {}
     plan = {'source_sha256': assessment.get('source_sha256'),
-            'claims': [{'id': record['id'], 'quote': record['quote']}],
+            'claims': [{'id': record['id'], 'quote': record['quote'], 'original': record.get('original', {})}],
             'required_risk_categories': list(contract.RISK_CATEGORIES)}
     contract.validate(assessment, plan)
 
@@ -66,7 +66,7 @@ def display(record, report, number, presentation=None, require_presentation=Fals
         raise ValueError(f"{report['report_id']}: concise source-based explanation missing for {record['id']}")
     explanation = explanation or assessment.get('reason') or 'Внешние источники ещё не проверены.'
     if require_presentation and (len(explanation) > 900 or re.search(
-            r'направлени[яй].{0,30}поиска|сохранен[ыо].{0,30}журнал|проверка проектных агентов|research_complete',
+            r'\bвывод\s*:|направлени[яй].{0,30}поиска|сохранен[ыо].{0,30}журнал|проверка проектных агентов|research_complete',
             explanation, re.I)):
         raise ValueError(f"{report['report_id']}: explanation contains process text or is too long")
     source_items = presentation.get('sources', assessment.get('sources', []))
@@ -155,8 +155,12 @@ def prepare(company_id, exports, allow_draft):
         draft |= not complete
         year = str(report['year'])
         report_ids[year].append(report['report_id'])
+        displayed_quotes = set()
         for record in claims:
-            verify_presentation(record, report)
+            verified_quote = verify_presentation(record, report)
+            if verified_quote in displayed_quotes:
+                raise ValueError('Repeated full quote: assess all of its aspects together before exporting one row')
+            displayed_quotes.add(verified_quote)
             by_year[year].append(display(record, report, len(by_year[year]) + 1, require_presentation=True))
             presentation = record.get('presentation') or {}
             pages = presentation.get('pages') or [record['original'].get('pdf_page', record['original'].get('page'))]

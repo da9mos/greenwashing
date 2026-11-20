@@ -66,6 +66,51 @@ def lock(run):
 
 
 RISK_CATEGORIES = ('rosp_enforcement', 'rost_enforcement', 'court_cases', 'media_incidents')
+PRIMARY_RECORD_TYPES = {
+    'ownership': {'ownership_disclosure', 'company_register', 'court_decision'},
+    'disclosed_quantity': {'accounting_record', 'statistical_record', 'audited_report'},
+    'announced_commitment': {'official_announcement', 'signed_agreement'},
+    'factual_event': {'event_record', 'onsite_report', 'regulator_record', 'court_decision'},
+    'legal_fact': {'signed_agreement', 'court_decision', 'regulator_record', 'company_register'},
+    'declared_policy': {'approved_policy'},
+}
+
+
+def primary_record_basis(evidence, source, target, original_quote, original_url=None):
+    """Check declared record fitness separately from publisher independence.
+
+    Whether a record is authentic, competent and correctly interpreted is still
+    the reviewer's judgment; these fields make that judgment inspectable.
+    """
+    basis = evidence.get('evidence_basis')
+    if basis is None:
+        return False
+    require(isinstance(basis, dict) and basis.get('kind') == 'authoritative_primary',
+            'invalid evidence_basis')
+    kind = basis.get('claim_kind')
+    require(kind in PRIMARY_RECORD_TYPES and basis.get('record_type') in PRIMARY_RECORD_TYPES[kind],
+            'primary record type is not competent for the declared claim kind')
+    for key in ('competence', 'why_sufficient', 'source_locator', 'statement_scope', 'record_id', 'source_url'):
+        require(nonempty(basis.get(key)), f'primary evidence basis {key} required')
+    require(basis['source_url'] == source['url'], 'primary basis belongs to another source')
+    require(basis.get('reviewed_record') is True and basis.get('not_circular') is True,
+            'primary record must be read and distinct from a circular repetition')
+    if kind == 'declared_policy':
+        require(target['assessment_object'] == 'principle' and target.get('principle_test') == 'documented_policy',
+                'an approved policy verifies a documented principle, not its universal implementation')
+    elif kind == 'announced_commitment':
+        require(target['assessment_object'] == 'promise_made',
+                'an announcement verifies that a promise was made, not its fulfillment')
+    else:
+        require(target['assessment_object'] in {'reported_fact', 'promise_fulfillment'},
+                'primary record does not operationalize a general principle')
+    if kind == 'disclosed_quantity':
+        require(evidence['quote'].strip() != original_quote.strip(),
+                'repeating the original quantitative claim is not an underlying record')
+        if original_url:
+            require(source['url'].split('#')[0] != original_url.split('#')[0],
+                    'quantitative verification needs a distinct underlying or comparative record')
+    return True
 
 
 def prepare(source, run, prompt=None):
@@ -208,9 +253,14 @@ def validate(packet, plan):
         for axis in AXES:
             a = align.get(axis, {})
             require(a.get('status') in {'matched', 'not_applicable', 'mismatch', 'unknown'} and nonempty(a.get('reason')), f'alignment {axis} missing')
+        if 'evidence_basis' in e:
+            primary_record_basis(e, sm[e['source_id']], target, packet['quote'],
+                                 claim.get('original', {}).get('source_url'))
     def usable(eid, relation):
         e = em[eid]; s = sm[e['source_id']]
-        return (e['relation'] == relation and s['access'] != 'snippet' and s['independence'] == 'independent'
+        fit = (s['independence'] == 'independent'
+               or primary_record_basis(e, s, target, packet['quote'], claim.get('original', {}).get('source_url')))
+        return (e['relation'] == relation and s['access'] != 'snippet' and fit
                 and all(e['alignment'][a]['status'] in {'matched', 'not_applicable'} for a in AXES))
     aspects = packet.get('aspects', [])
     require(isinstance(aspects, list) and aspects, 'atomic aspects required')
@@ -222,7 +272,8 @@ def validate(packet, plan):
         require(isinstance(ids, list) and len(ids) == len(set(ids)) and set(ids) <= em.keys(), 'invalid evidence links')
         if a['status'] != 'unresolved':
             rel = 'supports' if a['status'] == 'supported' else 'contradicts'
-            require(any(usable(eid, rel) for eid in ids), 'decisive aspect needs independent, non-snippet, aligned evidence')
+            require(any(usable(eid, rel) for eid in ids),
+                    'decisive aspect needs independent or competent primary, non-snippet, aligned evidence')
             opposite = 'contradicts' if rel == 'supports' else 'supports'
             # Preserve all relevant evidence. Contradictions cannot disappear through selective aspect links.
             conflicts = [eid for eid in ids if usable(eid, opposite)]

@@ -1,0 +1,13 @@
+{
+  "schema_version": "esg-factcheck-1.0",
+  "status": "research_complete",
+  "total": 1,
+  "unfinished": 0,
+  "report_id": "GAZP-2024-ОУР",
+  "md_sha256": "7e2563d09da93a0321998a15d81a52186b79f25c6180155d29da78bfa71ef36d",
+  "extraction_coverage_complete": false,
+  "verdict_counts": {
+    "true": 1
+  },
+  "limitation": "Structural/provenance checks only. Reviewer judgments of independence, alignment, aspect completeness and truth are not mechanically proven. Research completion is not factual certainty or proof of greenwashing."
+}

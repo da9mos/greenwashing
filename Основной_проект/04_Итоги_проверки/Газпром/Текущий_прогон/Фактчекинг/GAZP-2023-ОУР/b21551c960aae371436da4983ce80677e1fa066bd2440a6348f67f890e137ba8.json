@@ -1,0 +1,17 @@
+{
+  "report_id": "GAZP-2023-ОУР",
+  "claim_id": "GAZP-2023-ОУР_b0002::GAZP-2023-ОУР_b0002:c002",
+  "source_sha256": "0d59b784c554e3e9bc3df8ca7990dfe1f4d9893a8d4d2a2d81b9f1ce1d5920d1",
+  "updated_at": "2026-11-20T23:09:25+05:00",
+  "result": {
+    "report_id": "GAZP-2023-ОУР",
+    "claim_id": "GAZP-2023-ОУР_b0002::GAZP-2023-ОУР_b0002:c002",
+    "status": "failed",
+    "research_run": "/Users/nikitachukreev/.local/state/sber-esg-worker/research_runs/GAZP-2023-ОУР/89b508a0d7c9f824e2eb15815ecdaffa5d1514f2ce5538576b3ac2b59a4f855b/run",
+    "display": {
+      "status": "Поиск требует повтора",
+      "reason": "Результат веб-поиска не прошёл техническую проверку (ValueError)."
+    }
+  },
+  "retry_after_epoch": 1795201765.5016398
+}

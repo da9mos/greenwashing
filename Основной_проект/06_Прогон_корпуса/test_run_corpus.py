@@ -89,9 +89,9 @@ class IntegrityTests(unittest.TestCase):
 
     def test_old_complete_result_without_mandatory_risk_checks_is_not_current(self):
         packet = controller.worker.base.read(controller.worker.FACT / 'examples/synthetic_response.json')
-        self.assertTrue(controller.current_research_complete({'result': {'status': 'complete', 'packet': packet}}))
+        self.assertTrue(controller.current_research_complete({'result': {'status': 'complete', 'packet': packet}, 'verification_policy_sha256': controller.verification_policy_sha256()}))
         packet.pop('risk_checks')
-        self.assertFalse(controller.current_research_complete({'result': {'status': 'complete', 'packet': packet}}))
+        self.assertFalse(controller.current_research_complete({'result': {'status': 'complete', 'packet': packet}, 'verification_policy_sha256': controller.verification_policy_sha256()}))
 
     def test_external_research_can_start_from_partial_extraction(self):
         with tempfile.TemporaryDirectory() as directory:

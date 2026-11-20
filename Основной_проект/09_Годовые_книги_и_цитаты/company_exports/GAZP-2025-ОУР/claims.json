@@ -9,16 +9,17 @@
         "statement": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.",
         "type": "результат",
         "block": "S",
-        "pdf_page": 5
+        "pdf_page": 5,
+        "source_url": "https://drive.google.com/file/d/11ik3YY801ZVdwyOl80pPalkm0mmTsMJR/view"
       },
       "assessment": {
         "schema_version": "esg-factcheck-1.0",
-        "source_sha256": "31830039f3a4f9aa2d2241681194be7705f5524441d3faa4da389a07d79834cb",
+        "source_sha256": "c5f03ee67ec6c199e677d5a14ad26103a630a85bccc471baaefe33aa3e79293c",
         "claim_id": "C000001",
         "quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны.",
-        "revision": 1,
-        "reviewer": "Codex following project FACT_CHECK_AGENT; real web research, no synthetic fixtures",
-        "checked_at": "2026-11-20T23:26:30.769793+05:00",
+        "revision": 2,
+        "reviewer": "Codex; project FACT_CHECK_AGENT; reassessment with competent primary records, preserved real search history",
+        "checked_at": "2026-11-21T00:00:09.930464+05:00",
         "research_status": "complete",
         "verdict": "true",
         "target": {
@@ -243,7 +244,7 @@
               "E1",
               "E2"
             ],
-            "reason": "Независимые авторские репортажи с места мероприятия6мая2025 подтверждают проведение."
+            "reason": "Собственные репортажи с мероприятия6мая2025 подтверждают именно факт проекта и подключение мемориалов; годовые счетчики не входят в цитату."
           },
           {
             "id": "A2",
@@ -253,15 +254,15 @@
               "E1",
               "E2"
             ],
-            "reason": "Оба независимых репортажа сообщают о подключении мемориалов к природному газу. Итоги189/80не входят в оцениваемую цитату и не удостоверяются."
+            "reason": "Собственные репортажи с мероприятия6мая2025 подтверждают именно факт проекта и подключение мемориалов; годовые счетчики не входят в цитату."
           }
         ],
         "aspect_coverage_confirmed": true,
-        "aspect_coverage_reason": "Все существенные части полной оцениваемой цитаты покрыты аспектами; неоцениваемый количественный абзац2025 вынесен в parent_context_quote,не входит в quote.",
+        "aspect_coverage_reason": "Все существенные пропозиции полной отображаемой цитаты выделены явно; прежние атомы сохранены в metadata. Никакой результат одного атома не распространен на непроверенную часть цитаты.",
         "source_review": {
           "status": "verified",
           "method": "Codex read the complete selected author text in fresh full-page raster and x3 crop from original PDF; then read back saved MD raw span and only explicitly authorized formatting transform. No external fact verdict.",
-          "locator": "../01_Сверка_цитат/annual_citation_review.json; quote_id=GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008; physical_page=5",
+          "locator": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/01_Сверка_цитат/annual_citation_review.json; quote_id=GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008; physical_page=5",
           "review_sha256": "f1711c69377320b8ec613b373bc50e0209f225d03e6d79aecbfcd066eb6ee37a",
           "source_md_sha256": "b2c92082e77d88e3adf14c73dc7f502c9d099ed4abad7f37fb78ef7c63714690",
           "source_pdf_sha256": "7003c00a1446812686f0f640dbb3b60dd3fba86ee75aa39fd3f9944867e8d7f0"
@@ -271,7 +272,7 @@
           "Два выбранных годовых примера не подтверждают полноту извлечения или проверки отчетов2024/2025.",
           "Вердикт относится только к полному первому предложению о реализации проекта. Контекст189новыхогней и80одновременно не включен в quote и не получил true."
         ],
-        "reason": "Интерфакс: корреспондент с церемонии06.05.2025 подтвердил проведение акции и газификацию мемориалов; телеканал«Санкт-Петербург» описал подключение к природному газу. Вывод: реализация проекта в2025 году подтверждена.",
+        "reason": "Интерфакс, репортаж от 6 мая 2025 года: специалисты Газпрома подключали мемориалы к сетевому газу в проекте «Храним огонь Победы». Телеканал Санкт-Петербург также сообщает о газификации мемориальных комплексов в рамках проекта.",
         "risk_checks": [
           {
             "category": "rosp_enforcement",
@@ -310,7 +311,18 @@
             "entity_scope": "ПАО «Газпром»; релевантные объекты группы сопоставлены отдельно",
             "period_scope": "2025; дата публикации может быть позднее даты события и указана отдельно"
           }
-        ]
+        ],
+        "provenance": {
+          "parent_assessment_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/annual_2025/run/results/C000001.r000001.json",
+          "parent_assessment_sha256": "48f6b71e948ca5feca9854d62efab0c68f5085f13287b10f22a685147cb3df05",
+          "parent_atom_ids": [
+            "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008"
+          ],
+          "reused_native_journal_base": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/journal",
+          "older_native_journal_base": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal",
+          "new_native_journal_base": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal",
+          "search_dates_preserved": true
+        }
       },
       "research_status": "complete",
       "presentation": {
@@ -322,18 +334,20 @@
           5
         ],
         "verified": true,
-        "short_reason": "Интерфакс: корреспондент с церемонии 06.05.2025 подтвердил проведение акции и газификацию мемориалов; телеканал «Санкт-Петербург» описал подключение к природному газу. Вывод: реализация проекта в 2025 году подтверждена.",
+        "short_reason": "Интерфакс, репортаж от 6 мая 2025 года: специалисты Газпрома подключали мемориалы к сетевому газу в проекте «Храним огонь Победы». Телеканал Санкт-Петербург также сообщает о газификации мемориальных комплексов в рамках проекта.",
         "sources": [
           {
             "name": "Интерфакс, корреспондент с церемонии",
             "url": "https://www.interfax.ru/russia/1024253",
-            "assertion": "Собственный репортаж о проведении и газификации.",
+            "assertion": "Собственный корреспондент сообщает о проекте и подключении мемориалов специалистами Газпрома к сетевому природному газу.",
+            "access": "excerpt",
             "independence": "independent"
           },
           {
             "name": "Телеканал Санкт-Петербург, Дмитрий Ковалев",
             "url": "https://tvspb.ru/news/2025/05/6/kak-v-peterburge-proshla-vserossijskaya-akcziya-hranim-ogon-pobedy",
-            "assertion": "Собственный репортаж о проведении и газификации.",
+            "assertion": "Авторский репортаж подтверждает проведение проекта и газификацию мемориальных комплексов.",
+            "access": "excerpt",
             "independence": "independent"
           }
         ],

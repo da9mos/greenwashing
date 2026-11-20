@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-20T23:35:39+05:00",
+  "updated_at": "2026-11-21T00:05:34+05:00",
   "companies": 30,
   "reports": 92,
   "totals": {
     "pages": 14731,
     "total_batches": 3716,
-    "accepted_batches": 65,
-    "candidate_claims": 3433,
-    "pending_blocks": 1734,
-    "pending_claims": 1314,
+    "accepted_batches": 66,
+    "candidate_claims": 3497,
+    "pending_blocks": 1758,
+    "pending_claims": 1328,
     "pending_classifications": 23,
-    "research_attempted": 2,
+    "research_attempted": 3,
     "research_finished": 0,
-    "presentation_ready_claims": 0,
+    "presentation_ready_claims": 64,
     "presentation_unready_claims": 3433
   },
   "control": {
     "state": "prepared",
-    "updated_at": "2026-11-20T23:35:12+05:00"
+    "updated_at": "2026-11-21T00:05:10+05:00"
   },
   "report_status": [
     {
@@ -28,31 +28,33 @@
       "source_sha256": "0d59b784c554e3e9bc3df8ca7990dfe1f4d9893a8d4d2a2d81b9f1ce1d5920d1",
       "profile_sha256": "5490c8242c1258335ae256242bc83f4935582d0e147d9182c80fef9fe5032121",
       "total_batches": 34,
-      "accepted_batches": 1,
-      "candidate_claims": 44,
-      "pending_blocks": 35,
-      "pending_claims": 23,
+      "accepted_batches": 2,
+      "candidate_claims": 108,
+      "pending_blocks": 59,
+      "pending_claims": 37,
       "pending_classifications": 0,
-      "presentation_ready_claims": 0,
+      "presentation_ready_claims": 64,
       "presentation_unready_claims": 44,
-      "research_attempted": 2,
+      "research_attempted": 3,
       "research_finished": 0,
       "invalid_batches": [],
       "accepted_batch_ids": [
+        "GAZP-2023-ОУР_b0001",
         "GAZP-2023-ОУР_b0002"
       ],
       "esg_counts": {
-        "S": 33,
-        "G": 5,
-        "E": 6
+        "G": 22,
+        "S": 68,
+        "E": 18
       },
       "type_counts": {
-        "декларация": 6,
-        "результат": 38
+        "результат": 84,
+        "декларация": 17,
+        "обязательство": 7
       },
       "status": "Частичное извлечение",
       "pdf_review": "Полная независимая сверка не подтверждена",
-      "factcheck": "Внешнее исследование: 0/44 кандидатов; приёмка корпуса открыта"
+      "factcheck": "Внешнее исследование: 0/108 кандидатов; приёмка корпуса открыта"
     },
     {
       "report_id": "GAZP-2023-ЭО",

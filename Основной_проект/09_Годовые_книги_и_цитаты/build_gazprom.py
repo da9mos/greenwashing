@@ -7,19 +7,29 @@ e=importlib.util.module_from_spec(spec);spec.loader.exec_module(e)
 facts=HERE/'02_Проверка_фактов'
 review=json.loads((HERE/'01_Сверка_цитат/citation_review.json').read_text())
 annual=json.loads((HERE/'01_Сверка_цитат/annual_citation_review.json').read_text())
-present=json.loads((facts/'presentation.json').read_text())['rows']
-more=json.loads((facts/'annual_presentation.json').read_text())['rows']
+current=HERE/'04_Повторная_проверка/presentation.json'
+if current.exists():
+    facts=current.parent
+    present=json.loads(current.read_text())['rows']
+    more=[]
+else:
+    present=json.loads((facts/'presentation.json').read_text())['rows']
+    more=json.loads((facts/'annual_presentation.json').read_text())['rows']
 bindings={b['atomic_source_id']:b for b in review['atomic_bindings']}
 annual_by_id={q['claim_id']:q for q in annual['quotes']}
+parent_by_id={q['quote_id']:q for q in review['quotes']}
 registry=e.read(PROJECT/'00_Отчёты/manifest.json');by_id={r['report_id']:r for r in registry}
 records={};provenance=[]
 for row in present+more:
     packet_path=facts/row.get('assessment_path',row['record_path'])
     packet=e.read(packet_path)
-    identity=row.get('atom_id') or row.get('source_id') or row.get('claim_id')
+    identity=row.get('quote_id') or row.get('atom_id') or row.get('source_id') or row.get('claim_id')
     binding=bindings.get(identity)
     if binding:
         rid=binding['report_id'];q={'exact_quote':binding['exact_quote'],'verified':binding['verified'],'source_md_sha256':binding['source_md_sha256'],'pages':[binding['page']]}
+    elif identity in parent_by_id:
+        citation=parent_by_id[identity];rid=citation['report_id']
+        q={'exact_quote':citation['exact_quote'],'verified':citation['verified'],'source_md_sha256':citation['source_md_sha256'],'pages':[citation['page']]}
     else:
         citation=annual_by_id.get(identity)
         if citation is None:
@@ -36,7 +46,7 @@ for row in present+more:
         assert packet['quote']==q['exact_quote'], 'Categorical assessment covers a different display span'
         q['assessed_quote_complete']=True
     record={'id':packet['claim_id'],'source_id':identity,'quote':packet['quote'],
-            'original':{'id':identity,'statement':packet['quote'],'type':row['type'],'block':row['block'],'pdf_page':q['pages'][0]},
+            'original':{'id':identity,'statement':packet['quote'],'type':row['type'],'block':row['block'],'pdf_page':q['pages'][0],'source_url':report['pdf_source_url']},
             'assessment':packet,'research_status':packet['research_status'],'presentation':q}
     e.verify_presentation(record,report)
     e.display(record,report,1,require_presentation=True)
@@ -44,7 +54,8 @@ for row in present+more:
     provenance.append({'report_id':rid,'source_id':identity,'assessment_path':str(packet_path.relative_to(HERE)),
                        'assessment_sha256':hashlib.sha256(packet_path.read_bytes()).hexdigest(),'revision':packet['revision'],
                        'display_quote_sha256':hashlib.sha256(q['exact_quote'].encode()).hexdigest(),
-                       'risk_categories':[c['category'] for c in packet['risk_checks']]})
+                       'risk_categories':[c['category'] for c in packet['risk_checks']],
+                       'legacy_atomic_source_ids':row.get('legacy_atomic_source_ids',[])})
 staging=HERE/'company_exports';staging.mkdir(exist_ok=True)
 for rid,rows in records.items():
     target=staging/rid;target.mkdir(exist_ok=True)
@@ -55,7 +66,7 @@ for rid,rows in records.items():
 data=e.prepare('GAZP',staging,True)
 assert [s['title'] for s in data['sheets']]==['2023','2024','2025']
 input_path=HERE/'company.json';input_path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
-(HERE/'provenance.json').write_text(json.dumps({'scope':'10 selected assertions, not the complete company corpus','records':provenance},ensure_ascii=False,indent=2)+'\n')
+(HERE/'provenance.json').write_text(json.dumps({'scope':f'{len(provenance)} complete selected quotes, not the complete company corpus','records':provenance},ensure_ascii=False,indent=2)+'\n')
 dependencies=Path.home()/'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules'
 if not (HERE/'node_modules').exists():(HERE/'node_modules').symlink_to(dependencies,target_is_directory=True)
 output=Path(tempfile.mkdtemp(prefix='sber-annual-export-'))/'export'

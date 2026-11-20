@@ -97,10 +97,16 @@ def source_review_for(report, claim):
     return None
 
 
+def verification_policy_sha256():
+    return __import__('hashlib').sha256((worker.base.sha(worker.FACT / 'FACT_CHECK_AGENT.md')
+                                        + worker.base.sha(worker.FACT / 'factcheck.py')).encode()).hexdigest()
+
+
 def current_research_complete(case):
     result = case.get('result', {})
     packet = result.get('packet') or {}
-    if result.get('status') != 'complete' or not packet:
+    if (result.get('status') != 'complete' or not packet
+            or case.get('verification_policy_sha256') != verification_policy_sha256()):
         return False
     try:
         worker.factcheck.validate(packet, {
@@ -120,7 +126,9 @@ def research_step():
             path = research_path(report, claim)
             if path.exists():
                 previous = worker.base.read(path)
-                if current_research_complete(previous) or previous.get('retry_after_epoch', 0) > time.time():
+                if (current_research_complete(previous)
+                        or (previous.get('verification_policy_sha256') == verification_policy_sha256()
+                            and previous.get('retry_after_epoch', 0) > time.time())):
                     continue
             state = {'state': 'researching', 'report_id': report['report_id'], 'claim_id': claim['id'],
                      'updated_at': now(), 'pid': os.getpid(), 'project_agent': '03_Фактчекинг/Агент/FACT_CHECK_AGENT.md'}
@@ -129,6 +137,7 @@ def research_step():
             result = worker.search_claim({'report': report, 'claim': claim, 'source_review': source_review_for(report, claim)})
             atomic(path, {'report_id': report['report_id'], 'claim_id': claim['id'],
                           'source_sha256': report['packaged_md_sha256'], 'updated_at': now(), 'result': result,
+                          'verification_policy_sha256': verification_policy_sha256(),
                           'retry_after_epoch': 0 if result.get('status') == 'complete' else time.time() + 3600})
             finished = {'state': 'research_complete' if result.get('status') == 'complete' else 'research_open',
                         'report_id': report['report_id'], 'claim_id': claim['id'], 'updated_at': now()}

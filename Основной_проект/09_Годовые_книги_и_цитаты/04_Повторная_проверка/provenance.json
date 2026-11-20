@@ -1,0 +1,204 @@
+{
+  "parent_assessments": [
+    {
+      "quote_id": "GAZP-2023-EO-DEMO-001",
+      "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000001.r000003.json",
+      "parent_packet_sha256": "65a7f804a882f0aea972ad0d174d507c6a2f1f86d519172c50899f69716d6c7e",
+      "parent_atom_ids": [
+        "GAZP-2023-ATOMIC-001-a",
+        "GAZP-2023-ATOMIC-001-b"
+      ],
+      "full_quote_unchanged": true
+    },
+    {
+      "quote_id": "GAZP-2023-EO-DEMO-002",
+      "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000003.r000003.json",
+      "parent_packet_sha256": "549c868525ab2e3c54a3b5cb540c7937c5c57433ef86d286a3025a09add126a6",
+      "parent_atom_ids": [
+        "GAZP-2023-ATOMIC-002-a",
+        "GAZP-2023-ATOMIC-002-b"
+      ],
+      "full_quote_unchanged": true
+    },
+    {
+      "quote_id": "GAZP-2023-EO-DEMO-003",
+      "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000005.r000003.json",
+      "parent_packet_sha256": "acce2d144e142bea84ee4cd3267d4b49779401cb75ab93e4ba1221c4350588ac",
+      "parent_atom_ids": [
+        "GAZP-2023-ATOMIC-003-a"
+      ],
+      "full_quote_unchanged": true
+    },
+    {
+      "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+      "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000006.r000003.json",
+      "parent_packet_sha256": "ec2ff457ba9aecd73b6b3a84d737b51b2a3f03f61012cee60e737981183fe381",
+      "parent_atom_ids": [
+        "GAZP-2023-ATOMIC-004-a",
+        "GAZP-2023-ATOMIC-004-b",
+        "GAZP-2023-ATOMIC-004-c"
+      ],
+      "full_quote_unchanged": true
+    },
+    {
+      "quote_id": "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094",
+      "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/annual_2024/run/results/C000001.r000001.json",
+      "parent_packet_sha256": "ee6919cc40948b1dc9006d293d1d12049ccb85387596d38a463d41e5e700d05a",
+      "parent_atom_ids": [
+        "GAZP-2024-ОУР_b0002::GAZP-2024-ОУР_b0002:c094"
+      ],
+      "full_quote_unchanged": true
+    },
+    {
+      "quote_id": "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008",
+      "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/annual_2025/run/results/C000001.r000001.json",
+      "parent_packet_sha256": "48f6b71e948ca5feca9854d62efab0c68f5085f13287b10f22a685147cb3df05",
+      "parent_atom_ids": [
+        "GAZP-2025-ОУР_b0002::GAZP-2025-ОУР_b0002_c008"
+      ],
+      "full_quote_unchanged": true
+    }
+  ],
+  "prior_native_journal_roots": [
+    "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/journal",
+    "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/08_Аудит_агентов_2026-11-20/03_Фактчекинг/journal"
+  ],
+  "fresh_native_journals": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/04_primary_sources_open.json",
+      "sha256": "8a490a81d215b28467ef16903460c622dba4348346ac9eac8e31c104eda04b7e"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/09_boundary_read.json",
+      "sha256": "a304a595c618ad5e59219bc13cff4bee81baa31154ff6ec0bc8f61199f161b8c"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/10_policy_scope.json",
+      "sha256": "00fb473b62e524f53b538c4382cd5100e1f60854622cbbb431a5a609b03035ff"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/06_exact_scope.json",
+      "sha256": "e87e7165c242d257067958b0423e89d2c74a711db1bd4b24b8860035f7099781"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/07_records_and_commitment.json",
+      "sha256": "13ad1c25ffbd195b940de33605825bc01577fc570e7c97d89bfd7164cee42c94"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/01_ownership_primary.json",
+      "sha256": "6113f39af81f35f05d55769adcc04cbfebc8fce1cfa109b8af3e32736796ab10"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/11_policy_document.json",
+      "sha256": "91d27b0d5068fcc6727d2b3790c63cf20b4108930de77a87ecfaca64b393e0a0"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/02_primary_by_claim_nature.json",
+      "sha256": "f498133e3e9c6322107008fac18dcabf52f1ea6647c15e3327390375f9b98f6e"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/03_exact_primary_followup.json",
+      "sha256": "1b35f6b44c2e84a82a0828b0c5d8cdb4a31e73ed107e69f77feb7e801db28ae9"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/08_precise_reads.json",
+      "sha256": "de9e5a1bfdd83b5adc38325cb711a4036415ccd8edb937207cbdc88c4dc909ce"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/12_policy_original_read.json",
+      "sha256": "5cca1a4e4cbd810fe9f81fde84420db352a974629a85435383cab3ef68542916"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/journal/05_all_remaining.json",
+      "sha256": "bac23dc4b218ec01fa9710290608f7913cde124ebfe03f7e125d9e8413e2bb3d"
+    }
+  ],
+  "reused_risk_queries": "Те же entity/period scopes; queries, searched_at, tool_ref, source_ids и0-basedindexes сохранены из родителей; новые запросы добавлены в конец.",
+  "new_scope": "4полные2023+1полная2024+1полное предложение2025; существенные аспекты3+2+2+3+2+2=14; старые10проверочныхатомов сохранены.",
+  "all_ten_parent_assessments": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000001.r000003.json",
+      "sha256": "65a7f804a882f0aea972ad0d174d507c6a2f1f86d519172c50899f69716d6c7e",
+      "source_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000002.r000003.json",
+      "sha256": "4356ff2196e680393e1078b856b9561fa508db54e22cb88977193eb91833ab0d",
+      "source_quote": "В частности, в соответствии с соглашением ООО «Газпром нефтехим Салават» должно обеспечить проведение мероприятий по снижению выбросов и достижение результата по снижению совокупного объема выбросов ЗВ в атмосферный воздух. Предприятие обязуется разработать план создания систем автоматического контроля выбросов загрязняющих веществ (САКВ) на эксплуатируемых объектах, оказывающих негативное воздействие на окружающую среду, относящихся к объектам I категории, а также представить сведения о количестве стационарных источников, планируемых к оснащению ими до 2025 г."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000003.r000003.json",
+      "sha256": "549c868525ab2e3c54a3b5cb540c7937c5c57433ef86d286a3025a09add126a6",
+      "source_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000004.r000003.json",
+      "sha256": "f19074a4b0528a2c96df19b7580cec8ae8dabdfe2bb60a83e72cf1c6e89b1bb4",
+      "source_quote": "В отчетном году общие расходы Группы Газпром на охрану окружающей среды в Российской Федерации по отношению к 2022 г. увеличились на 8,0 % и составили 96,23 млрд руб."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000005.r000003.json",
+      "sha256": "acce2d144e142bea84ee4cd3267d4b49779401cb75ab93e4ba1221c4350588ac",
+      "source_quote": "Сохранение благоприятной окружающей среды и природных богатств нашей страны является одним из главных принципов работы Газпрома."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000006.r000003.json",
+      "sha256": "ec2ff457ba9aecd73b6b3a84d737b51b2a3f03f61012cee60e737981183fe381",
+      "source_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000007.r000003.json",
+      "sha256": "09fdeb2021f0f0b752278c5a4a106a528df04d83bfa5d0aaee56471f487fee10",
+      "source_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/run/results/C000008.r000003.json",
+      "sha256": "af19202162383616b0194b1f89717f71bb18808233ce7791fcbe75bdd4ba9e71",
+      "source_quote": "В 2023 г. государственными надзорными органами прове-\nдена 761 проверка соблюдения требований в области ООС\nи природопользования на объектах Группы Газпром, в ре-\nзультате которых выявлено 517 нарушений. По результатам\n563 проверок нарушений выявлено не было."
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/annual_2024/run/results/C000001.r000001.json",
+      "sha256": "ee6919cc40948b1dc9006d293d1d12049ccb85387596d38a463d41e5e700d05a",
+      "source_quote": "Форма собственности\nПАО «Газпром»\nСмешанная россий-\nская собственность\nс долей федераль-\nной собственности.\nСуммарная доля акций\nПАО «Газпром», нахо-\nдящихся под прямым\nи косвенным контролем Российской\nФедерации,\nпревышает 50 %"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/02_Проверка_фактов/annual_2025/run/results/C000001.r000001.json",
+      "sha256": "48f6b71e948ca5feca9854d62efab0c68f5085f13287b10f22a685147cb3df05",
+      "source_quote": "В 2025 г. ПАО «Газпром» реализован\nВсероссийский проект «Храним огонь\nПобеды» по подключению к сетевому\nприродному газу мемориальных комплексов,\nпосвященных героическим событиям\nВеликой Отечественной войны."
+    }
+  ],
+  "current_assessments": [
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2023/run/results/C000001.r000002.json",
+      "sha256": "dd2f095ce4b7f17f785a0f8e35131bb028beb6422c3dfe6a7f102eac93f1b001"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2023/run/results/C000002.r000002.json",
+      "sha256": "53ac59ffc05ec9217e10d4cf9646b6a58736038050e247718bc9bcb8f5ae06db"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2023/run/results/C000003.r000002.json",
+      "sha256": "b027a10497b090cd5a93afdb2bb173570162807d8cbe5e97c51b675645b7de98"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2023/run/results/C000004.r000003.json",
+      "sha256": "14cc9c82126fcfb3b717dafd0117925ca124bda5b1e6df96c467f9c03d4ff27e"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2024/run/results/C000001.r000002.json",
+      "sha256": "b9d98cdb4accf32c20ee9ac630dcfd5acccf268c02106568830457c747161c36"
+    },
+    {
+      "path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2025/run/results/C000001.r000002.json",
+      "sha256": "f119a2e43f2bb6acfa16ffc4e5ae732863d6f284f4660bff4e0c1f5b311cc96e"
+    }
+  ],
+  "native_journal_resolution": "Fresh FRESH_* searches and PRIMARY_*/POLICY*/ANNUAL_OWN/FIN_FORM sources resolve in04/journal. Inherited journal refs resolve in02/journal unless search.outcome_note explicitly marks Исторический запрос08, which resolves in08 journal root. All inherited source/search fields retain original dates and refs. Parent packets+their provenance retain finer lineage.",
+  "editorial_revision_3": {
+    "quote_id": "GAZP-2023-EO-EXTERNAL-004",
+    "parent_packet_path": "/Users/nikitachukreev/Documents/Документы — MacBook Pro — Nikita/Система/11_Проект_Сбер/3_итерация/greenwashing_main_project/Основной_проект/09_Годовые_книги_и_цитаты/04_Повторная_проверка/2023/run/results/C000004.r000002.json",
+    "parent_packet_sha256": "97e66ec29459f10bb4674d39f07f7be9af3bde4f6167fe1aae10644efd61b9b4",
+    "change": "Уточнена краткая причина: границы конкретного судебного акта вместо глобального утверждения об отсутствии данных.",
+    "research_changed": false
+  }
+}

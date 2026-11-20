@@ -61,9 +61,22 @@ class AnnualExportTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'risk_checks required'):
             e.display(self.record,self.report,1,require_presentation=True)
 
+    def test_redundant_conclusion_marker_is_not_written_into_a_reason(self):
+        self.record['assessment']['short_reason']='Источник: государство контролирует 60%. Вывод: правда.'
+        with self.assertRaises(ValueError):e.display(self.record,self.report,1,require_presentation=True)
+
     def test_process_boilerplate_is_rejected(self):
         self.record['assessment']['short_reason']='Оба направления поиска сохранены в журнале.'
         with self.assertRaises(ValueError):e.display(self.record,self.report,1,require_presentation=True)
+
+    def test_unmerged_atoms_cannot_repeat_one_complete_quote_in_separate_rows(self):
+        exports=self.root/'exports';d=exports/self.report['report_id'];d.mkdir(parents=True)
+        second=copy.deepcopy(self.record);second['id']='C000002';second['assessment']['claim_id']='C000002'
+        (d/'claims.json').write_text(json.dumps({'claims':[self.record,second]}))
+        (d/'summary.json').write_text(json.dumps({'total':2,'status':'research_complete','report_id':self.report['report_id'],'md_sha256':self.report['packaged_md_sha256'],'extraction_coverage_complete':True}))
+        original_read=e.read
+        with patch.object(e,'read',side_effect=lambda path:[self.report] if path.name=='manifest.json' else original_read(path)):
+            with self.assertRaisesRegex(ValueError,'Repeated full quote'):e.prepare('GAZP',exports,False)
 
     def test_two_reports_of_one_year_share_one_tab_with_continuous_numbering(self):
         reports=[dict(self.report,report_id='UNIT-2023-ОУР'),dict(self.report,report_id='UNIT-2023-ЭО',report_type='ЭО'),dict(self.report,report_id='UNIT-2024-ОУР',year='2024'),dict(self.report,report_id='UNIT-2025-ОУР',year='2025')]
