@@ -1,0 +1,11 @@
+{
+  "report_id": "KMAZ-2024-ОУР",
+  "source_sha256": "6ec9f488d91f80286d7fa02d0261572efb25b08f8c71ccf541f2db1ea6ebc315",
+  "accepted_batch_ids": [],
+  "expected_batches": 32,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

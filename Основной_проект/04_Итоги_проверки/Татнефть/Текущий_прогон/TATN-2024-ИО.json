@@ -1,0 +1,11 @@
+{
+  "report_id": "TATN-2024-ИО",
+  "source_sha256": "5c5ec6076c4353d704738253ab18021f6b39a4bd6a5c5448e86a594cead910c0",
+  "accepted_batch_ids": [],
+  "expected_batches": 50,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

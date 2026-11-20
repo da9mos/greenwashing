@@ -1,0 +1,11 @@
+{
+  "report_id": "ALRS-2023-ОУР",
+  "source_sha256": "92c865e73036254c2edc04b1605c151c59577649a47b4330a6b85d7010ebfbb6",
+  "accepted_batch_ids": [],
+  "expected_batches": 43,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

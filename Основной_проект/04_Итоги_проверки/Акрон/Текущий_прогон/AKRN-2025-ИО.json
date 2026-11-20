@@ -1,0 +1,3475 @@
+{
+  "report_id": "AKRN-2025-ИО",
+  "source_sha256": "8fff8814982941fa8b3546a2b4b453fdfa6d1e237da8cd8e6af2dbc5e637c4ec",
+  "accepted_batch_ids": [
+    "AKRN-2025-ИО_b0001"
+  ],
+  "expected_batches": 30,
+  "complete": false,
+  "claims": [
+    {
+      "id": "AKRN-2025-ИО_b0001::c001",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "В 2025 году объем средств, выделенных на проекты в области устойчивого развития, увеличился на 60% и составил 6,2 млрд руб.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Объем средств, выделенных на проекты в области устойчивого развития",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b8",
+          "quote": "В 2025 году объем средств, выделенных на проекты в области",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "устойчивого развития, увеличился на 60% и составил 6,2 млрд руб.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b8",
+          "quote": "объем средств, выделенных на проекты в области",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "устойчивого развития",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "6,2",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "млрд руб.",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b8",
+          "quote": "2025",
+          "role": "period"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b2",
+          "quote": "Группа «Акрон»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "6,2",
+      "unit": "млрд руб.",
+      "period": "2025",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Группа «Акрон»",
+        "proposition": "Объем средств, выделенных на проекты в области устойчивого развития",
+        "esg_object": "Расходы на устойчивое развитие без разделения на E/S",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c002",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "В 2025 году объем средств, выделенных на проекты в области устойчивого развития, увеличился на 60% и составил 6,2 млрд руб.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Увеличение объема средств, выделенных на проекты в области устойчивого развития",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b8",
+          "quote": "В 2025 году объем средств, выделенных на проекты в области",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "устойчивого развития, увеличился на 60% и составил 6,2 млрд руб.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b8",
+          "quote": "объем средств, выделенных на проекты в области",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "устойчивого развития",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "60",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b9",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b8",
+          "quote": "2025",
+          "role": "period"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b2",
+          "quote": "Группа «Акрон»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "60",
+      "unit": "%",
+      "period": "2025",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Группа «Акрон»",
+        "proposition": "Увеличение объема средств, выделенных на проекты в области устойчивого развития",
+        "esg_object": "Расходы на устойчивое развитие без разделения на E/S",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c003",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Компания сохранила все льготы и гарантии",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Сохранены льготы и гарантии",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b10",
+          "quote": "Компания сохранила все льготы и гарантии",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Компания",
+        "proposition": "Сохранены льготы и гарантии",
+        "esg_object": "Социальные гарантии работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c004",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "заработная плата сотрудников предприятий была проиндексирована.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Заработная плата проиндексирована",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b10",
+          "quote": "заработная плата",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b11",
+          "quote": "сотрудников предприятий была проиндексирована.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Сотрудники предприятий",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Сотрудники предприятий",
+        "proposition": "Заработная плата проиндексирована",
+        "esg_object": "Оплата работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c005",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Предварительно утвержден Советом директоров ПАО «Акрон»  22 мая 2026 года. Протокол № 732 от 25 мая 2026 года.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Предварительное утверждение годового отчета Советом директоров",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b20",
+          "quote": "Предварительно утвержден Советом директоров",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b21",
+          "quote": "ПАО «Акрон»  22 мая 2026 года.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b22",
+          "quote": "Протокол № 732 от 25 мая 2026 года.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b19",
+          "quote": "Сведения об утверждении Годового отчета",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Совет директоров ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "Совет директоров ПАО «Акрон»",
+        "proposition": "Предварительное утверждение годового отчета Советом директоров",
+        "esg_object": "Полномочия Совета директоров",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c006",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Утвержден годовым Общим собранием акционеров ПАО «Акрон» 30 июня 2026 года.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Утверждение годового отчета общим собранием",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b24",
+          "quote": "Утвержден годовым Общим собранием акционеров",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b25",
+          "quote": "ПАО «Акрон» 30 июня 2026 года.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b19",
+          "quote": "Сведения об утверждении Годового отчета",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Годовое Общее собрание акционеров ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "Годовое Общее собрание акционеров ПАО «Акрон»",
+        "proposition": "Утверждение годового отчета общим собранием",
+        "esg_object": "Полномочия акционеров",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c007",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Консолидированная финансовая отчетность, составленная по между- народным стандартам, на основании которой в настоящем Годовом отчете раскрыта информация о финансово-хозяйственной деятельности Акционерного общества, дает объективное и достоверное представле- ние об активах, обязательствах, финансовом состоянии, прибыли или убытке Акционерного общества.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Компания утверждает объективность и достоверность консолидированной финансовой отчетности",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b28",
+          "quote": "Консолидированная финансовая отчетность, составленная по между-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b29",
+          "quote": "народным стандартам, на основании которой в настоящем Годовом",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b30",
+          "quote": "отчете раскрыта информация о финансово-хозяйственной деятельности",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b31",
+          "quote": "Акционерного общества, дает объективное и достоверное представле-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b32",
+          "quote": "ние об активах, обязательствах, финансовом состоянии, прибыли или",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b33",
+          "quote": "убытке Акционерного общества.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Акрон»",
+        "proposition": "Компания утверждает объективность и достоверность консолидированной финансовой отчетности",
+        "esg_object": "Достоверность раскрытия",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c008",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Информация о финансовом состоянии и результатах деятельности Акционерного общества содержит досто- верное представление о деятельности Акционерного общества, а также об основных рисках, связанных с его деятельностью.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Компания утверждает достоверность информации о деятельности и основных рисках",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b33",
+          "quote": "Информация о финансовом состоянии",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b34",
+          "quote": "и результатах деятельности Акционерного общества содержит досто-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b35",
+          "quote": "верное представление о деятельности Акционерного общества, а также",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b36",
+          "quote": "об основных рисках, связанных с его деятельностью.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Акрон»",
+        "proposition": "Компания утверждает достоверность информации о деятельности и основных рисках",
+        "esg_object": "Достоверность раскрытия рисков и деятельности",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c009",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Настоящий Годовой отчет содержит оценки и прогнозы в отношении будущих событий и (или) действий, перспектив развития отрасли эко- номики, в которой Акционерное общество осуществляет основную деятельность, и результатов деятельности Акционерного общества, его планов, вероятности наступления определенных событий и со- вершения определенных действий.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Раскрывается наличие оценок и прогнозов в годовом отчете",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b37",
+          "quote": "Настоящий Годовой отчет содержит оценки и прогнозы в отношении",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b38",
+          "quote": "будущих событий и (или) действий, перспектив развития отрасли эко-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b39",
+          "quote": "номики, в которой Акционерное общество осуществляет основную",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b40",
+          "quote": "деятельность, и результатов деятельности Акционерного общества,",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b41",
+          "quote": "его планов, вероятности наступления определенных событий и со-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b42",
+          "quote": "вершения определенных действий.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Акрон»",
+        "proposition": "Раскрывается наличие оценок и прогнозов в годовом отчете",
+        "esg_object": "Содержание раскрытия инвесторам",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c010",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Инвесторы не должны полностью полагаться на оценки и прогно- зы, приведенные в настоящем Годовом отчете, так как фактические результаты деятельности Акционерного общества в будущем могут отличаться от прогнозируемых результатов по многим причинам.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Инвесторам раскрывается ограничение надежности прогнозов",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b43",
+          "quote": "Инвесторы не должны полностью полагаться на оценки и прогно-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b44",
+          "quote": "зы, приведенные в настоящем Годовом отчете, так как фактические",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b45",
+          "quote": "результаты деятельности Акционерного общества в будущем могут",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b46",
+          "quote": "отличаться от прогнозируемых результатов по многим причинам.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Акрон»",
+        "proposition": "Инвесторам раскрывается ограничение надежности прогнозов",
+        "esg_object": "Предупреждение инвесторов об ограничениях раскрытия",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c011",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Приобретение ценных бумаг Акционерного общества связано с рисками, в том числе описанными в настоящем Годовом отчете.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Раскрывается риск приобретения ценных бумаг общества",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b47",
+          "quote": "Приобретение ценных бумаг Акционерного общества связано",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b48",
+          "quote": "с рисками, в том числе описанными в настоящем Годовом отчете.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Акрон»",
+        "proposition": "Раскрывается риск приобретения ценных бумаг общества",
+        "esg_object": "Информирование инвесторов о рисках",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c012",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Настоящий Годовой отчет ПАО «Акрон» составлен за отчетный период с 1 января по 31 декабря 2025 года. Отчет составлен в соответствии с требованиями Положения Банка России № 714-П от 27 марта 2020 года «О раскрытии информации эмитентами эмиссионных ценных бумаг» и Кодекса корпоративного управления.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Указаны период и нормативная основа составления собственного годового отчета",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p2:b49",
+          "quote": "Настоящий Годовой отчет ПАО «Акрон» составлен за отчетный",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b50",
+          "quote": "период с 1 января по 31 декабря 2025 года.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b51",
+          "quote": "Отчет составлен в соответствии с требованиями Положения Банка",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b52",
+          "quote": "России № 714-П от 27 марта 2020 года «О раскрытии информации",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b53",
+          "quote": "эмитентами эмиссионных ценных бумаг» и Кодекса корпоративного",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p2:b54",
+          "quote": "управления.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "ПАО «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Акрон»",
+        "proposition": "Указаны период и нормативная основа составления собственного годового отчета",
+        "esg_object": "Процедура подготовки и раскрытия отчетности",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c013",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "часть прибыли на дивиденды: в 2025 году Группа «Акрон» дважды выплачивала дивиденды, выделив на эти цели 206 млн долл. США.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "На дивиденды в 2025 году выделено 206 млн долл. США; выплаты дважды за год",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p3:b62",
+          "quote": "часть прибыли на дивиденды: в 2025 году",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b63",
+          "quote": "Группа «Акрон» дважды выплачивала дивиденды,",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b64",
+          "quote": "выделив на эти цели 206 млн долл. США.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b63",
+          "quote": "Группа «Акрон»",
+          "role": "subject"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b63",
+          "quote": "дивиденды",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b64",
+          "quote": "206",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b64",
+          "quote": "млн долл. США",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p3:b62",
+          "quote": "2025",
+          "role": "period"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "206",
+      "unit": "млн долл. США",
+      "period": "2025",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G1",
+        "subject": "Группа «Акрон»",
+        "proposition": "На дивиденды в 2025 году выделено 206 млн долл. США; выплаты дважды за год",
+        "esg_object": "Распределение прибыли акционерам",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c014",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "6,2 млрд руб. РАСХОДЫ НА УСТОЙЧИВОЕ РАЗВИТИЕ",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Расходы на устойчивое развитие — отдельное появление показателя У выносного показателя нет явного периода; привязку к 2025 году необходимо проверить по PDF.",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b24",
+          "quote": "6,2 млрд руб.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b25",
+          "quote": "РАСХОДЫ",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b26",
+          "quote": "НА УСТОЙЧИВОЕ",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b27",
+          "quote": "РАЗВИТИЕ",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b24",
+          "quote": "6,2",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b24",
+          "quote": "млрд руб.",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b25",
+          "quote": "РАСХОДЫ",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b26",
+          "quote": "НА УСТОЙЧИВОЕ",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b27",
+          "quote": "РАЗВИТИЕ",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b66",
+          "quote": "Группы «Акрон»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "6,2",
+      "unit": "млрд руб.",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Группа «Акрон»",
+        "proposition": "Расходы на устойчивое развитие — отдельное появление показателя",
+        "esg_object": "Общие расходы на устойчивое развитие",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c015",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Сегодня «Акрон» объединяет 13 тыс. сотрудников",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Численность сотрудников на момент описания",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b67",
+          "quote": "Сегодня «Акрон»",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b68",
+          "quote": "объединяет 13 тыс. сотрудников",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b68",
+          "quote": "объединяет",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b68",
+          "quote": "13 тыс.",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b68",
+          "quote": "сотрудников",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b67",
+          "quote": "Сегодня",
+          "role": "period"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b67",
+          "quote": "«Акрон»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "13 тыс.",
+      "unit": "сотрудников",
+      "period": "Сегодня",
+      "entity_scope": "«Акрон»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "«Акрон»",
+        "proposition": "Численность сотрудников на момент описания",
+        "esg_object": "Работники Группы",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c016",
+      "type": "декларация",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "и именно люди остаются его главной ценностью, силой и ос- новой дальнейшего развития.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Люди названы главной ценностью и основой развития",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b68",
+          "quote": "и именно люди",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b69",
+          "quote": "остаются его главной ценностью, силой и ос-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b70",
+          "quote": "новой дальнейшего развития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S1",
+        "subject": "Группа «Акрон»",
+        "proposition": "Люди названы главной ценностью и основой развития",
+        "esg_object": "Ценность работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c017",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Со своей сторо- ны, Группа создает комфортные, безопасные и достойные условия труда для своих сотрудников",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Группа создает комфортные, безопасные и достойные условия труда",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b70",
+          "quote": "Со своей сторо-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b71",
+          "quote": "ны, Группа создает комфортные, безопасные и",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b72",
+          "quote": "достойные условия труда для своих сотрудников",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа «Акрон»",
+        "proposition": "Группа создает комфортные, безопасные и достойные условия труда",
+        "esg_object": "Условия труда работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c018",
+      "type": "результат",
+      "block": "S",
+      "topic": "местные сообщества",
+      "block2": "",
+      "statement": "и вносит вклад в социально-экономическое раз- витие регионов присутствия.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Группа вносит вклад в социально-экономическое развитие регионов присутствия",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b73",
+          "quote": "и вносит вклад в социально-экономическое раз-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b74",
+          "quote": "витие регионов присутствия.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b71",
+          "quote": "Группа",
+          "role": "subject"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S2",
+        "subject": "Группа «Акрон»",
+        "proposition": "Группа вносит вклад в социально-экономическое развитие регионов присутствия",
+        "esg_object": "Регионы присутствия",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c019",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "В 2025 году объем средств, выделенных на проекты в области устойчивого развития, увели- чился на 60% и составил 6,2 млрд руб.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Объем средств, выделенных на проекты в области устойчивого развития",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b75",
+          "quote": "В 2025 году объем средств, выделенных на",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b76",
+          "quote": "проекты в области устойчивого развития, увели-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "чился на 60% и составил 6,2 млрд руб.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b75",
+          "quote": "объем средств, выделенных на",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b76",
+          "quote": "проекты в области устойчивого развития",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "6,2",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "млрд руб.",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b75",
+          "quote": "2025",
+          "role": "period"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b66",
+          "quote": "Группы «Акрон»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "6,2",
+      "unit": "млрд руб.",
+      "period": "2025",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Группа «Акрон»",
+        "proposition": "Объем средств, выделенных на проекты в области устойчивого развития",
+        "esg_object": "Расходы на устойчивое развитие без разбивки по направлениям",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c020",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "В 2025 году объем средств, выделенных на проекты в области устойчивого развития, увели- чился на 60% и составил 6,2 млрд руб.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Увеличение объема средств, выделенных на проекты в области устойчивого развития",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b75",
+          "quote": "В 2025 году объем средств, выделенных на",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b76",
+          "quote": "проекты в области устойчивого развития, увели-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "чился на 60% и составил 6,2 млрд руб.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b75",
+          "quote": "объем средств, выделенных на",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b76",
+          "quote": "проекты в области устойчивого развития",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "60",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b75",
+          "quote": "2025",
+          "role": "period"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b66",
+          "quote": "Группы «Акрон»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "60",
+      "unit": "%",
+      "period": "2025",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "Группа «Акрон»",
+        "proposition": "Увеличение объема средств, выделенных на проекты в области устойчивого развития",
+        "esg_object": "Расходы на устойчивое развитие без разбивки по направлениям",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c021",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Компания сохранила все льготы и гарантии",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Сохранены все льготы и гарантии",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b77",
+          "quote": "Компания",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b78",
+          "quote": "сохранила все льготы и гарантии",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Компания",
+        "proposition": "Сохранены все льготы и гарантии",
+        "esg_object": "Социальные гарантии работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c022",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "заработная плата сотрудников предприятий была проиндек- сирована.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Заработная плата сотрудников проиндексирована",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b78",
+          "quote": "заработная",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b79",
+          "quote": "плата сотрудников предприятий была проиндек-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b80",
+          "quote": "сирована.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Сотрудники предприятий",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Сотрудники предприятий",
+        "proposition": "Заработная плата сотрудников проиндексирована",
+        "esg_object": "Оплата труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c023",
+      "type": "результат",
+      "block": "S",
+      "topic": "другое",
+      "block2": "E",
+      "statement": "Группа «Акрон» получила награды в соци- альной и экологической сферах",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Получены награды в социальной и экологической сферах без конкретизации предмета",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b83",
+          "quote": "Группа «Акрон» получила награды в соци-",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b84",
+          "quote": "альной и экологической сферах",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S2",
+        "subject": "Группа «Акрон»",
+        "proposition": "Получены награды в социальной и экологической сферах без конкретизации предмета",
+        "esg_object": "Социальное и экологическое признание",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c024",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "и традиционно вошла в топ-100 лучших работодателей России по версии HeadHunter.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Вхождение в топ-100 работодателей России по версии HeadHunter Указана категория топ-100, а не точное место; единица и период рейтинга не раскрыты. Требуется сверка с PDF.",
+      "evidence": [
+        {
+          "block_id": "AKRN-2025-ИО:p4:b84",
+          "quote": "и традиционно",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b85",
+          "quote": "вошла в топ-100 лучших работодателей России",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b86",
+          "quote": "по версии HeadHunter.",
+          "role": "statement"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b83",
+          "quote": "Группа «Акрон»",
+          "role": "subject"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b85",
+          "quote": "лучших работодателей России",
+          "role": "metric"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b85",
+          "quote": "топ-100",
+          "role": "value"
+        },
+        {
+          "block_id": "AKRN-2025-ИО:p4:b86",
+          "quote": "по версии HeadHunter.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "",
+      "value": "топ-100",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Группа «Акрон»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группа «Акрон»",
+        "proposition": "Вхождение в топ-100 работодателей России по версии HeadHunter",
+        "esg_object": "Признание как работодателя",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "block_id": "AKRN-2025-ИО:p1:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p1:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p1:b3",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p1:b4",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p1:b5",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p1:b6",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал: > Визуальный материал: Полная исходная страница 1. Физическая PDF-страница 1. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1FLY86keRtBDjSfEIGwPYQSA14-yz0Ooz/view). Визуальная сверка не подтверждается этой ссылкой. Требуется проверяемая визуальная расшифровка PDF; содержимое не исключается по отсутствию текста.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p1:b7",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b2",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c001",
+        "AKRN-2025-ИО_b0001::c002"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b3",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b4",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b5",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b6",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b7",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b8",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c001",
+        "AKRN-2025-ИО_b0001::c002"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b9",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c001",
+        "AKRN-2025-ИО_b0001::c002"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b10",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c003",
+        "AKRN-2025-ИО_b0001::c004"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b11",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c004"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b12",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b13",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b14",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b15",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b16",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b17",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b18",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b19",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c005",
+        "AKRN-2025-ИО_b0001::c006"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b20",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c005"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b21",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c005"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b22",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c005"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b23",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b24",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c006"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b25",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c006"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b26",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b27",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b28",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c007"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b29",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c007"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b30",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c007"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b31",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c007"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b32",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c007"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b33",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c007",
+        "AKRN-2025-ИО_b0001::c008"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b34",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c008"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b35",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c008"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b36",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c008"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b37",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c009"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b38",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c009"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b39",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c009"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b40",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c009"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b41",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c009"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b42",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c009"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b43",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c010"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b44",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c010"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b45",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c010"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b46",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c010"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b47",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c011"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b48",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c011"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b49",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c012"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b50",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c012"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b51",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c012"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b52",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c012"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b53",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c012"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b54",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c012"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b55",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b56",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b57",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b58",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b59",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b60",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b61",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b62",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b63",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b64",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b65",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b66",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b67",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b68",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b69",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b70",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b71",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b72",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b73",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b74",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b75",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b76",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал: > Визуальный материал: Полная исходная страница 2. Физическая PDF-страница 2. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1FLY86keRtBDjSfEIGwPYQSA14-yz0Ooz/view). Визуальная сверка не подтверждается этой ссылкой. Требуется проверяемая визуальная расшифровка PDF; содержимое не исключается по отсутствию текста.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p2:b77",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b3",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b4",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b5",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b6",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b7",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b8",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b9",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b10",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b11",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b12",
+      "status": "excluded",
+      "reason": "Приветствие или благодарность без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b13",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b14",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b15",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b16",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b17",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b18",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b19",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b20",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b21",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b22",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b23",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b24",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b25",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b26",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b27",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b28",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b29",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b30",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b31",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b32",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b33",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b34",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b35",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b36",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b37",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b38",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b39",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b40",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b41",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b42",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b43",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b44",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b45",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b46",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b47",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b48",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b49",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b50",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b51",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b52",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b53",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b54",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b55",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b56",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b57",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b58",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b59",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b60",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b61",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b62",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c013"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b63",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c013"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b64",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c013"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b65",
+      "status": "excluded",
+      "reason": "Приветствие или благодарность без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b66",
+      "status": "pending",
+      "reason": "Фрагмент общей позиции об улучшении всех аспектов деятельности и устойчивом развитии; конкретный ESG-предмет или механизм не установлен. Требуется уточнение контекста, G автоматически не назначается.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b67",
+      "status": "pending",
+      "reason": "Фрагмент общей позиции об улучшении всех аспектов деятельности и устойчивом развитии; конкретный ESG-предмет или механизм не установлен. Требуется уточнение контекста, G автоматически не назначается.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b68",
+      "status": "pending",
+      "reason": "Фрагмент общей позиции об улучшении всех аспектов деятельности и устойчивом развитии; конкретный ESG-предмет или механизм не установлен. Требуется уточнение контекста, G автоматически не назначается.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b69",
+      "status": "pending",
+      "reason": "Фрагмент общей позиции об улучшении всех аспектов деятельности и устойчивом развитии; конкретный ESG-предмет или механизм не установлен. Требуется уточнение контекста, G автоматически не назначается.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b70",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b71",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b72",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b73",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b74",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b75",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b76",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b77",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b78",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b79",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b80",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b81",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b82",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b83",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b84",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b85",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b86",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b87",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b88",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал: > Визуальный материал: Полная исходная страница 3. Физическая PDF-страница 3. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1FLY86keRtBDjSfEIGwPYQSA14-yz0Ooz/view). Визуальная сверка не подтверждается этой ссылкой. Требуется проверяемая визуальная расшифровка PDF; содержимое не исключается по отсутствию текста.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p3:b89",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b1",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b2",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b3",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b4",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b5",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b6",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b7",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b8",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b9",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b10",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b11",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b12",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b13",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b14",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b15",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b16",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b17",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b18",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b19",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b20",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b21",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b22",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b23",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b24",
+      "status": "pending",
+      "reason": "У выносного показателя нет явного периода; привязку к 2025 году необходимо проверить по PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c014"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b25",
+      "status": "pending",
+      "reason": "У выносного показателя нет явного периода; привязку к 2025 году необходимо проверить по PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c014"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b26",
+      "status": "pending",
+      "reason": "У выносного показателя нет явного периода; привязку к 2025 году необходимо проверить по PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c014"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b27",
+      "status": "pending",
+      "reason": "У выносного показателя нет явного периода; привязку к 2025 году необходимо проверить по PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c014"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b28",
+      "status": "excluded",
+      "reason": "Приветствие или благодарность без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b29",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b30",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b31",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b32",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b33",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b34",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b35",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b36",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b37",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b38",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b39",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b40",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b41",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b42",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b43",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b44",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b45",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b46",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b47",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b48",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b49",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b50",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b51",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b52",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b53",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b54",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b55",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b56",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b57",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b58",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b59",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b60",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b61",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b62",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b63",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b64",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b65",
+      "status": "excluded",
+      "reason": "Описание рынка, производства, мощностей, инвестиций, собственности или финансов без конкретного экологического, социального предмета или механизма корпоративной подотчетности.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b66",
+      "status": "pending",
+      "reason": "У выносного показателя нет явного периода; привязку к 2025 году необходимо проверить по PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c014",
+        "AKRN-2025-ИО_b0001::c019",
+        "AKRN-2025-ИО_b0001::c020"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b67",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c015"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b68",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c015",
+        "AKRN-2025-ИО_b0001::c016"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b69",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c016"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b70",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c016",
+        "AKRN-2025-ИО_b0001::c017"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b71",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c017",
+        "AKRN-2025-ИО_b0001::c018"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b72",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c017"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b73",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c018"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b74",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c018"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b75",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c019",
+        "AKRN-2025-ИО_b0001::c020"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b76",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c019",
+        "AKRN-2025-ИО_b0001::c020"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b77",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c019",
+        "AKRN-2025-ИО_b0001::c020",
+        "AKRN-2025-ИО_b0001::c021"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b78",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c021",
+        "AKRN-2025-ИО_b0001::c022"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b79",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c022"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b80",
+      "status": "extracted",
+      "reason": "Точный фрагмент заявления или его контекста; см. связанные claims.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c022"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b81",
+      "status": "pending",
+      "reason": "Общее ESG-признание рейтинговыми агентствами; предмет оценки не уточнен. Не присваивается G только по факту внешней оценки. Конкретные награды и признание работодателя извлечены из следующих блоков.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b82",
+      "status": "pending",
+      "reason": "Общее ESG-признание рейтинговыми агентствами; предмет оценки не уточнен. Не присваивается G только по факту внешней оценки. Конкретные награды и признание работодателя извлечены из следующих блоков.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b83",
+      "status": "pending",
+      "reason": "Указана категория топ-100, а не точное место; единица и период рейтинга не раскрыты. Требуется сверка с PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c023",
+        "AKRN-2025-ИО_b0001::c024"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b84",
+      "status": "pending",
+      "reason": "Указана категория топ-100, а не точное место; единица и период рейтинга не раскрыты. Требуется сверка с PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c023",
+        "AKRN-2025-ИО_b0001::c024"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b85",
+      "status": "pending",
+      "reason": "Указана категория топ-100, а не точное место; единица и период рейтинга не раскрыты. Требуется сверка с PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c024"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b86",
+      "status": "pending",
+      "reason": "Указана категория топ-100, а не точное место; единица и период рейтинга не раскрыты. Требуется сверка с PDF.",
+      "claim_ids": [
+        "AKRN-2025-ИО_b0001::c024"
+      ]
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b87",
+      "status": "excluded",
+      "reason": "Приветствие или благодарность без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b88",
+      "status": "excluded",
+      "reason": "Приветствие или благодарность без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b89",
+      "status": "excluded",
+      "reason": "Приветствие или благодарность без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b90",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b91",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b92",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b93",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b94",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал: > Визуальный материал: Полная исходная страница 4. Физическая PDF-страница 4. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1FLY86keRtBDjSfEIGwPYQSA14-yz0Ooz/view). Визуальная сверка не подтверждается этой ссылкой. Требуется проверяемая визуальная расшифровка PDF; содержимое не исключается по отсутствию текста.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "AKRN-2025-ИО:p4:b95",
+      "status": "excluded",
+      "reason": "Техническая разметка, заголовок, оглавление, контакт или подпись без самостоятельной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    }
+  ],
+  "id_provenance": [
+    {
+      "id": "AKRN-2025-ИО_b0001::c001",
+      "original_id": "c001",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c002",
+      "original_id": "c002",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c003",
+      "original_id": "c003",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c004",
+      "original_id": "c004",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c005",
+      "original_id": "c005",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c006",
+      "original_id": "c006",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c007",
+      "original_id": "c007",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c008",
+      "original_id": "c008",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c009",
+      "original_id": "c009",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c010",
+      "original_id": "c010",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c011",
+      "original_id": "c011",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c012",
+      "original_id": "c012",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c013",
+      "original_id": "c013",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c014",
+      "original_id": "c014",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c015",
+      "original_id": "c015",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c016",
+      "original_id": "c016",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c017",
+      "original_id": "c017",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c018",
+      "original_id": "c018",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c019",
+      "original_id": "c019",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c020",
+      "original_id": "c020",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c021",
+      "original_id": "c021",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c022",
+      "original_id": "c022",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c023",
+      "original_id": "c023",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    },
+    {
+      "id": "AKRN-2025-ИО_b0001::c024",
+      "original_id": "c024",
+      "batch_id": "AKRN-2025-ИО_b0001"
+    }
+  ],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

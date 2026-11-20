@@ -1,0 +1,11 @@
+{
+  "report_id": "NLMK-2024-ИО",
+  "source_sha256": "067c55b3ac90cc95383538263c6dc34cd335fc91e5a787a41475387dc587fd82",
+  "accepted_batch_ids": [],
+  "expected_batches": 43,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

@@ -1,0 +1,11 @@
+{
+  "report_id": "NVTK-2023-ОУР",
+  "source_sha256": "a4c7cf4cc42f2b16458e090d0178dffd68ae8781bc5147aebd4f06adc7532320",
+  "accepted_batch_ids": [],
+  "expected_batches": 35,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

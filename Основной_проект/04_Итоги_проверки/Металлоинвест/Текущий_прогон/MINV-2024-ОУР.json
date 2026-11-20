@@ -1,0 +1,11 @@
+{
+  "report_id": "MINV-2024-ОУР",
+  "source_sha256": "b93eb4966d273899e817962d6cc3ac989d575b3e38ba11bb2075baeef25dc98a",
+  "accepted_batch_ids": [],
+  "expected_batches": 41,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

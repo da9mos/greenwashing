@@ -1,0 +1,11 @@
+{
+  "report_id": "RUAL-2023-ОУР",
+  "source_sha256": "bdbc29a522c85dba56bd74406055681b8e75ad16f70f1413d4ff8d6dd836f4f2",
+  "accepted_batch_ids": [],
+  "expected_batches": 52,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

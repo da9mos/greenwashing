@@ -1,0 +1,11 @@
+{
+  "report_id": "MAGN-2025-ИО",
+  "source_sha256": "bfa0ff76650feb2eeaaf21f5afec93cc4c1e8c3e5a83a51da5079d9345920294",
+  "accepted_batch_ids": [],
+  "expected_batches": 95,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

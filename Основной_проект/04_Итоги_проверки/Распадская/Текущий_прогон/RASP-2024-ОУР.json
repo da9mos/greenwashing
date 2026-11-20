@@ -1,0 +1,11 @@
+{
+  "report_id": "RASP-2024-ОУР",
+  "source_sha256": "dca6cbf01bd9f27c34261823662b3433abc44f3e1c1b34d5b8758c24a7e16b57",
+  "accepted_batch_ids": [],
+  "expected_batches": 26,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

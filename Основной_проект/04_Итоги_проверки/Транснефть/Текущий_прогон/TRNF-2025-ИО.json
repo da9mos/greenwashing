@@ -1,0 +1,404 @@
+{
+  "report_id": "TRNF-2025-ИО",
+  "source_sha256": "13683f47fe5c47e0c3ef30003149af00f4bd60152c68d3c0974e645180b1b09f",
+  "accepted_batch_ids": [
+    "TRNF-2025-ИО_b0001"
+  ],
+  "expected_batches": 48,
+  "complete": false,
+  "claims": [
+    {
+      "id": "TRNF-2025-ИО_b0001::TRNF-2025-ИО_b0001_c001",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Годовой отчет ПАО «Транснефть» за 2025 год предварительно утвержден Советом директоров ПАО «Транснефть» 26.05.2026 (протокол от 28.05.2026 №7)",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I1/G3: сообщается о фактической процедуре утверждения годового отчета компании; даты и номера документов являются реквизитами процедуры, а не количественным ESG-показателем.",
+      "evidence": [
+        {
+          "block_id": "TRNF-2025-ИО:p2:b4",
+          "quote": "Годовой отчет ПАО «Транснефть» за 2025 год предварительно утвержден Советом директоров ПАО «Транснефть» 26.05.2026 (протокол от 28.05.2026 №7)",
+          "role": "statement"
+        },
+        {
+          "block_id": "TRNF-2025-ИО:p2:b4",
+          "quote": "Годовой отчет ПАО «Транснефть» за 2025 год",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "Совет директоров ПАО «Транснефть»",
+        "proposition": "Предварительно утвержден годовой отчет ПАО «Транснефть» за 2025 год.",
+        "esg_object": "Процедура утверждения корпоративной отчетности и подотчетность компании.",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "TRNF-2025-ИО_b0001::TRNF-2025-ИО_b0001_c002",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "утвержден распоряжением Росимущества от 30.06.2026 №1523-р.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I1/G3: сообщается о фактической процедуре утверждения годового отчета компании; даты и номера документов являются реквизитами процедуры, а не количественным ESG-показателем.",
+      "evidence": [
+        {
+          "block_id": "TRNF-2025-ИО:p2:b4",
+          "quote": "утвержден распоряжением Росимущества от 30.06.2026 №1523-р.",
+          "role": "statement"
+        },
+        {
+          "block_id": "TRNF-2025-ИО:p2:b4",
+          "quote": "Годовой отчет ПАО «Транснефть» за 2025 год",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "Росимущество",
+        "proposition": "Утвержден годовой отчет ПАО «Транснефть» за 2025 год.",
+        "esg_object": "Процедура утверждения корпоративной отчетности и подотчетность компании.",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "block_id": "TRNF-2025-ИО:p1:b1",
+      "status": "excluded",
+      "reason": "Технический якорь страницы.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p1:b2",
+      "status": "excluded",
+      "reason": "Служебное описание конвертации и ограничений сверки, без собственной ESG-практики компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p1:b3",
+      "status": "excluded",
+      "reason": "Название компании на обложке, без утверждаемого ESG-содержания.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p1:b4",
+      "status": "excluded",
+      "reason": "Название отчета на обложке, без ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p1:b5",
+      "status": "excluded",
+      "reason": "Техническое оформление ссылки на источник.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p1:b6",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал исходной PDF-страницы 1: изображение отсутствует в batch.json. Ссылка не подтверждает визуальную сверку; требуется чтение оригинала, содержание и возможные ESG-заявления не установлены.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p1:b7",
+      "status": "excluded",
+      "reason": "Закрывающая техническая разметка.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b1",
+      "status": "excluded",
+      "reason": "Технический якорь страницы.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b2",
+      "status": "excluded",
+      "reason": "Заголовок оглавления.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b3",
+      "status": "excluded",
+      "reason": "Оглавление: названия разделов и номера страниц; упоминания устойчивого развития и корпоративного управления не утверждают собственную практику.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b4",
+      "status": "extracted",
+      "reason": "Извлечены две самостоятельные стадии утверждения годового отчета: предварительное утверждение Советом директоров и утверждение распоряжением Росимущества.",
+      "claim_ids": [
+        "TRNF-2025-ИО_b0001::TRNF-2025-ИО_b0001_c001",
+        "TRNF-2025-ИО_b0001::TRNF-2025-ИО_b0001_c002"
+      ]
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b5",
+      "status": "excluded",
+      "reason": "Техническое оформление ссылки на источник.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b6",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал исходной PDF-страницы 2: изображение отсутствует в batch.json. Ссылка не подтверждает визуальную сверку; требуется чтение оригинала, содержание и возможные ESG-заявления не установлены.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p2:b7",
+      "status": "excluded",
+      "reason": "Закрывающая техническая разметка.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b1",
+      "status": "excluded",
+      "reason": "Технический якорь страницы.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b2",
+      "status": "excluded",
+      "reason": "Служебная пометка статуса конвертации, без ESG-пропозиции компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b3",
+      "status": "excluded",
+      "reason": "Заголовок оглавления.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b4",
+      "status": "excluded",
+      "reason": "Подробное оглавление разделов 1–5: названия тем и страницы, без самостоятельного утверждения о практике компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b5",
+      "status": "excluded",
+      "reason": "Подробное оглавление разделов 6–8 и приложений. Названия ESG-тем, стандартов и перечней не являются утверждениями об их исполнении.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b6",
+      "status": "excluded",
+      "reason": "Самостоятельный печатный номер страницы.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b7",
+      "status": "excluded",
+      "reason": "Служебный заголовок ссылок PDF.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b8",
+      "status": "excluded",
+      "reason": "Технический список внутренних переходов PDF; числа являются адресами страниц, а не ESG-показателями.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b9",
+      "status": "excluded",
+      "reason": "Техническое оформление ссылки на источник.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b10",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал исходной PDF-страницы 3: изображение отсутствует в batch.json. Ссылка не подтверждает визуальную сверку; требуется чтение оригинала, содержание и возможные ESG-заявления не установлены.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p3:b11",
+      "status": "excluded",
+      "reason": "Закрывающая техническая разметка.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b1",
+      "status": "excluded",
+      "reason": "Технический якорь страницы.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b2",
+      "status": "excluded",
+      "reason": "Служебная пометка статуса конвертации, без ESG-пропозиции компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b3",
+      "status": "excluded",
+      "reason": "Самостоятельный печатный номер страницы.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b4",
+      "status": "excluded",
+      "reason": "Колонтитул с названием отчета и годом, без ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b5",
+      "status": "excluded",
+      "reason": "Заголовок художественного раздела «Капсула времени».",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b6",
+      "status": "excluded",
+      "reason": "Заголовок «Послание», без ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b7",
+      "status": "excluded",
+      "reason": "Фрагмент историко-художественного послания В.В. Путина (соседние блоки 7–14); нет утверждения о собственном ESG-воздействии, практике или обязательстве компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b8",
+      "status": "excluded",
+      "reason": "Фрагмент историко-художественного послания В.В. Путина (соседние блоки 7–14); нет утверждения о собственном ESG-воздействии, практике или обязательстве компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b9",
+      "status": "excluded",
+      "reason": "Фрагмент историко-художественного послания В.В. Путина (соседние блоки 7–14); нет утверждения о собственном ESG-воздействии, практике или обязательстве компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b10",
+      "status": "excluded",
+      "reason": "Фрагмент историко-художественного послания В.В. Путина (соседние блоки 7–14); нет утверждения о собственном ESG-воздействии, практике или обязательстве компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b11",
+      "status": "excluded",
+      "reason": "Фрагмент историко-художественного послания В.В. Путина (соседние блоки 7–14); нет утверждения о собственном ESG-воздействии, практике или обязательстве компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b12",
+      "status": "excluded",
+      "reason": "Фрагмент историко-художественного послания В.В. Путина (соседние блоки 7–14); нет утверждения о собственном ESG-воздействии, практике или обязательстве компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X4"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b13",
+      "status": "excluded",
+      "reason": "Подпись автора послания, без самостоятельного ESG-утверждения компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b14",
+      "status": "excluded",
+      "reason": "Должность автора послания, без самостоятельного ESG-утверждения компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b15",
+      "status": "excluded",
+      "reason": "Техническое оформление ссылки на источник.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b16",
+      "status": "pending",
+      "reason": "Непрочитанный визуальный материал исходной PDF-страницы 4: изображение отсутствует в batch.json. Ссылка не подтверждает визуальную сверку; требуется чтение оригинала, содержание и возможные ESG-заявления не установлены.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "TRNF-2025-ИО:p4:b17",
+      "status": "excluded",
+      "reason": "Закрывающая техническая разметка.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    }
+  ],
+  "id_provenance": [
+    {
+      "id": "TRNF-2025-ИО_b0001::TRNF-2025-ИО_b0001_c001",
+      "original_id": "TRNF-2025-ИО_b0001_c001",
+      "batch_id": "TRNF-2025-ИО_b0001"
+    },
+    {
+      "id": "TRNF-2025-ИО_b0001::TRNF-2025-ИО_b0001_c002",
+      "original_id": "TRNF-2025-ИО_b0001_c002",
+      "batch_id": "TRNF-2025-ИО_b0001"
+    }
+  ],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

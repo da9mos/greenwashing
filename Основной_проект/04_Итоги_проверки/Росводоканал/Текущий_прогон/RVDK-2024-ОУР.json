@@ -1,0 +1,11 @@
+{
+  "report_id": "RVDK-2024-ОУР",
+  "source_sha256": "18400ca44ae4c3cdf82ab017e08d2902967066aa3aff5aef7e6bedc5352c508a",
+  "accepted_batch_ids": [],
+  "expected_batches": 24,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

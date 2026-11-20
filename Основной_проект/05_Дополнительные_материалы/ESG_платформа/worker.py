@@ -10,6 +10,8 @@ import time
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent / "3_итерация/greenwashing_main_project/Основной_проект"
+if not (REPO / "00_Отчёты/manifest.json").exists():
+    REPO = HERE.parents[1]  # Published copy under Основной_проект/05_Дополнительные_материалы/.
 AGENT = REPO / "02_Аналитика_заявлений/Агент"
 sys.path.insert(0, str(AGENT / "scripts"))
 import esg_agent_v3 as base
@@ -27,7 +29,7 @@ def remote(*args, payload=None):
                           input=payload, text=True, capture_output=True, check=True, timeout=45).stdout
 
 
-def process(report, limit, continue_jobs=False):
+def process(report, limit, continue_jobs=False, batch_timeout=420):
     rid = report["report_id"]
     source = REPO / report["repository_path"]
     if base.sha(source) != report["packaged_md_sha256"]:
@@ -66,7 +68,7 @@ def process(report, limit, continue_jobs=False):
                     subprocess.run(["codex", "exec", "--skip-git-repo-check", "-C", str(scratch),
                                     "--sandbox", "workspace-write", "-c", "model_reasoning_effort=medium", prompt],
                                    stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT,
-                                   check=True, timeout=420)
+                                   check=True, timeout=batch_timeout)
                 data, _ = review(work, output)
                 temp = validated.with_suffix(".tmp")
                 base.write(temp, data)

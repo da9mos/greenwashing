@@ -1,0 +1,3109 @@
+{
+  "schema_version": "esg-extraction-3.0",
+  "source_sha256": "43f2dbb6435bd9268070eb6db48c313c2af57edaded99bad13b0b22101a15eed",
+  "batch_id": "MTLR-2023-ОУР_b0002",
+  "reviewer": "Codex",
+  "coverage": [
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b1",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b2",
+      "status": "pending",
+      "reason": "Извлечены все самостоятельные ESG-показатели таблицы. Период не указан; требуется PDF. Финансовые, производственные показатели, патенты и ИТ-вложения без ESG-предмета не извлечены (X3).",
+      "claim_ids": [
+        "c001",
+        "c002",
+        "c003",
+        "c004",
+        "c005",
+        "c006",
+        "c007",
+        "c008",
+        "c009",
+        "c010",
+        "c011",
+        "c012",
+        "c013"
+      ]
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b3",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b4",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b5",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b6",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b7",
+      "status": "pending",
+      "reason": "Непрочитанная полная исходная страница; ссылка на PDF не подтверждает визуальную сверку.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p5:b8",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b1",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b2",
+      "status": "pending",
+      "reason": "Извлечены ESG-события и суммы. Привязка событий к годам временной шкалы не проверяется по линейному тексту. Регистрация, листинг, сделки, производственные инвестиции без экологического эффекта, ИТ-стратегия и талисман не имеют самостоятельного ESG-предмета (X3/X4).",
+      "claim_ids": [
+        "c014",
+        "c015",
+        "c016",
+        "c017",
+        "c018",
+        "c019",
+        "c020",
+        "c021",
+        "c022",
+        "c023",
+        "c024",
+        "c025",
+        "c026",
+        "c027",
+        "c028",
+        "c029",
+        "c030",
+        "c031",
+        "c032",
+        "c033",
+        "c034",
+        "c035",
+        "c036",
+        "c037",
+        "c038",
+        "c039",
+        "c040",
+        "c041",
+        "c042",
+        "c043"
+      ]
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b3",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b4",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b5",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b6",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b7",
+      "status": "pending",
+      "reason": "Непрочитанная полная исходная страница; ссылка на PDF не подтверждает визуальную сверку.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p6:b8",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b1",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b2",
+      "status": "pending",
+      "reason": "Извлечены текстовые объяснения; показатели диаграмм оставлены кандидатами. Требуются значения, соответствие полов/годов (34; 34; 34,8; 66; 66; 65,2 и 2021–2023), ряды LTIFR, охват договоров, численность, антикоррупционное информирование и выбросы с годовыми периметрами из сноски 9.",
+      "claim_ids": [
+        "c044",
+        "c045",
+        "c046",
+        "c047",
+        "c048",
+        "c049",
+        "c050",
+        "c051",
+        "c052",
+        "c053",
+        "c054",
+        "c055",
+        "c056",
+        "c057"
+      ]
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b3",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b4",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b5",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b6",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b7",
+      "status": "pending",
+      "reason": "Непрочитанная полная исходная страница; ссылка на PDF не подтверждает визуальную сверку.",
+      "claim_ids": [
+        "c051",
+        "c052",
+        "c053",
+        "c054",
+        "c055",
+        "c056",
+        "c057"
+      ]
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p7:b8",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b1",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b2",
+      "status": "pending",
+      "reason": "Извлечены оценка открытости и практики ESG-управления. Сообщение о Группе 2 ESG-рэнкинга НРА оставлено pending: общая ESG-оценка без установленной основной E/S/G-области; G автоматически не назначается.",
+      "claim_ids": [
+        "c058",
+        "c059",
+        "c060",
+        "c061"
+      ]
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b3",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b4",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b5",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b6",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b7",
+      "status": "pending",
+      "reason": "Непрочитанная полная исходная страница; ссылка на PDF не подтверждает визуальную сверку.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "MTLR-2023-ОУР:p8:b8",
+      "status": "excluded",
+      "reason": "X1: техническая разметка, служебное предупреждение или навигационные ссылки без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c001",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Общая списочная численность: 46<br/>944 чел.; субъект: сотрудников Группы",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Общая списочная численность \n</sup><br/>сотрудников Группы — 46<br/>944 чел.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Общая списочная численность",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "46<br/>944",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "чел.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "сотрудников Группы",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Общая списочная численность",
+      "value": "46<br/>944",
+      "unit": "чел.",
+      "period": "",
+      "entity_scope": "сотрудников Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "сотрудников Группы",
+        "proposition": "Общая списочная численность: 46<br/>944 чел.; субъект: сотрудников Группы",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c002",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Текучесть кадров: 25,7 %; субъект: Группы",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Текучесть кадров — 25,7%",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Текучесть кадров",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "25,7",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Группы",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Текучесть кадров",
+      "value": "25,7",
+      "unit": "%",
+      "period": "",
+      "entity_scope": "Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы",
+        "proposition": "Текучесть кадров: 25,7 %; субъект: Группы",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c003",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Доля всех сотрудников, охваченных \n</sup><br/>коллективными договорами: 92 %; субъект: сотрудников",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Доля всех сотрудников, охваченных \n</sup><br/>коллективными договорами — 92%",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Доля всех сотрудников, охваченных \n</sup><br/>коллективными договорами",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "92",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "сотрудников",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Доля всех сотрудников, охваченных \n</sup><br/>коллективными договорами",
+      "value": "92",
+      "unit": "%",
+      "period": "",
+      "entity_scope": "сотрудников",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "сотрудников",
+        "proposition": "Доля всех сотрудников, охваченных \n</sup><br/>коллективными договорами: 92 %; субъект: сотрудников",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c004",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Случаи травматизма со смертельным исходом: 9 случаев; субъект: сотрудников Компании и подрядчиков",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: безопасность труда.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Случаи травматизма со смертельным исходом \n</sup><br/>среди сотрудников Компании и подрядчиков  —<br/>9 случаев",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Случаи травматизма со смертельным исходом",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "9",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "случаев",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "сотрудников Компании и подрядчиков",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Случаи травматизма со смертельным исходом",
+      "value": "9",
+      "unit": "случаев",
+      "period": "",
+      "entity_scope": "сотрудников Компании и подрядчиков",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "сотрудников Компании и подрядчиков",
+        "proposition": "Случаи травматизма со смертельным исходом: 9 случаев; субъект: сотрудников Компании и подрядчиков",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c005",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Случаи профессиональных заболеваний: 129 случаев; субъект: сотрудников Компании",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: безопасность труда.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Случаи профессиональных заболеваний \n</sup><br/>среди сотрудников Компании — 129 случаев",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Случаи профессиональных заболеваний",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "129",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "случаев",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "сотрудников Компании",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Случаи профессиональных заболеваний",
+      "value": "129",
+      "unit": "случаев",
+      "period": "",
+      "entity_scope": "сотрудников Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "сотрудников Компании",
+        "proposition": "Случаи профессиональных заболеваний: 129 случаев; субъект: сотрудников Компании",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c006",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "Доля местных деловых партнёров, которые были про­</sup><br/>информированы об имеющихся в Компании политиках<br/>и методах противодействия коррупции: 76 %; субъект: местных деловых партнёров",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: этика и антикоррупция.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Доля местных деловых партнёров, которые были про­</sup><br/>информированы об имеющихся в Компании политиках<br/>и методах противодействия коррупции — 76%",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Доля местных деловых партнёров, которые были про­</sup><br/>информированы об имеющихся в Компании политиках<br/>и методах противодействия коррупции",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "76",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "местных деловых партнёров",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Доля местных деловых партнёров, которые были про­</sup><br/>информированы об имеющихся в Компании политиках<br/>и методах противодействия коррупции",
+      "value": "76",
+      "unit": "%",
+      "period": "",
+      "entity_scope": "местных деловых партнёров",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G2",
+        "subject": "местных деловых партнёров",
+        "proposition": "Доля местных деловых партнёров, которые были про­</sup><br/>информированы об имеющихся в Компании политиках<br/>и методах противодействия коррупции: 76 %; субъект: местных деловых партнёров",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c007",
+      "type": "результат",
+      "block": "S",
+      "topic": "местные сообщества",
+      "block2": "",
+      "statement": "Общий объём закупок у местных \n</sup><br/>поставщиков: 512,1 млрд руб.; субъект: Компании",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Закупки у местных поставщиков как вклад в экономику местных сообществ; денежная величина сама по себе не определяет G.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Общий объём закупок у местных \n</sup><br/>поставщиков — 512,1 млрд руб.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Общий объём закупок у местных \n</sup><br/>поставщиков",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "512,1",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "млрд руб.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компании",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Общий объём закупок у местных \n</sup><br/>поставщиков",
+      "value": "512,1",
+      "unit": "млрд руб.",
+      "period": "",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S2",
+        "subject": "Компании",
+        "proposition": "Общий объём закупок у местных \n</sup><br/>поставщиков: 512,1 млрд руб.; субъект: Компании",
+        "esg_object": "местные сообщества",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c008",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "Общее количество сообщений, \n</sup><br/>поступивших на пункты доверия: 159 шт.; субъект: Компании",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: этика и антикоррупция.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Общее количество сообщений, \n</sup><br/>поступивших на пункты доверия  —  159 шт.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Общее количество сообщений, \n</sup><br/>поступивших на пункты доверия",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "159",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "шт.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компании",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Общее количество сообщений, \n</sup><br/>поступивших на пункты доверия",
+      "value": "159",
+      "unit": "шт.",
+      "period": "",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G2",
+        "subject": "Компании",
+        "proposition": "Общее количество сообщений, \n</sup><br/>поступивших на пункты доверия: 159 шт.; субъект: Компании",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c009",
+      "type": "результат",
+      "block": "E",
+      "topic": "вода",
+      "block2": "",
+      "statement": "Объём водопотребления: 151,97 млн м³; субъект: Компания",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: вода.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объём водопотребления — 151,97 млн м³",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объём водопотребления",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "151,97",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "млн м³",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компания",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Объём водопотребления",
+      "value": "151,97",
+      "unit": "млн м³",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Объём водопотребления: 151,97 млн м³; субъект: Компания",
+        "esg_object": "вода",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c010",
+      "type": "результат",
+      "block": "E",
+      "topic": "вода",
+      "block2": "",
+      "statement": "Объём оборотного цикла: 1 680,73 млн м³; субъект: Компания",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: вода.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объём оборотного цикла —  1 680,73 млн м³",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объём оборотного цикла",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "1 680,73",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "млн м³",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компания",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Объём оборотного цикла",
+      "value": "1 680,73",
+      "unit": "млн м³",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Объём оборотного цикла: 1 680,73 млн м³; субъект: Компания",
+        "esg_object": "вода",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c011",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "Объем выбросов парниковых газов (Охват1): 13,98 млн т СО<br/>2<br/>-экв.; субъект: Компания",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: климат.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объем выбросов парниковых газов (Охват1)  — \n</sup><br/>13,98 млн т СО<br/>2<br/>-экв.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объем выбросов парниковых газов (Охват1)",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "13,98",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "млн т СО<br/>2<br/>-экв.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компания",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Объем выбросов парниковых газов (Охват1)",
+      "value": "13,98",
+      "unit": "млн т СО<br/>2<br/>-экв.",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Объем выбросов парниковых газов (Охват1): 13,98 млн т СО<br/>2<br/>-экв.; субъект: Компания",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c012",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "Объем выбросов парниковых газов (Охват 2): 1,29 млн т СО<br/>2<br/>-экв.; субъект: Компания",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: климат.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объем выбросов парниковых газов (Охват 2) —\n</sup><br/>1,29 млн т СО<br/>2<br/>-экв.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Объем выбросов парниковых газов (Охват 2)",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "1,29",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "млн т СО<br/>2<br/>-экв.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компания",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Объем выбросов парниковых газов (Охват 2)",
+      "value": "1,29",
+      "unit": "млн т СО<br/>2<br/>-экв.",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Объем выбросов парниковых газов (Охват 2): 1,29 млн т СО<br/>2<br/>-экв.; субъект: Компания",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c013",
+      "type": "результат",
+      "block": "E",
+      "topic": "энергия",
+      "block2": "",
+      "statement": "Энергоёмкость: 14,38 МДж/МВт*ч; субъект: Компания",
+      "source_kind": "table",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: энергия.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Энергоёмкость — 14,38 МДж/МВт*ч",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Энергоёмкость",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "14,38",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "МДж/МВт*ч",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p5:b2",
+          "quote": "Компания",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Энергоёмкость",
+      "value": "14,38",
+      "unit": "МДж/МВт*ч",
+      "period": "",
+      "entity_scope": "Компания",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Компания",
+        "proposition": "Энергоёмкость: 14,38 МДж/МВт*ч; субъект: Компания",
+        "esg_object": "энергия",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c014",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "Утверждено положение</p>\n<p>о нормах делового</p>\n<p>поведения и этики.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: этика и антикоррупция.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждено положение</p>\n<p>о нормах делового</p>\n<p>поведения и этики.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G2",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждено положение</p>\n<p>о нормах делового</p>\n<p>поведения и этики.",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c015",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Запущен пилотный про­</p>\n<p>ект по повышению эффек­</p>\n<p>тивности мероприятий</p>\n<p>по улучшению условий</p>\n<p>труда на промышленных</p>\n<p>предприятиях Группы.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Запущен пилотный про­</p>\n<p>ект по повышению эффек­</p>\n<p>тивности мероприятий</p>\n<p>по улучшению условий</p>\n<p>труда на промышленных</p>\n<p>предприятиях Группы.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа",
+        "proposition": "Запущен пилотный про­</p>\n<p>ект по повышению эффек­</p>\n<p>тивности мероприятий</p>\n<p>по улучшению условий</p>\n<p>труда на промышленных</p>\n<p>предприятиях Группы.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c016",
+      "type": "результат",
+      "block": "E",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Подписано четырёхсторон­</p>\n<p>нее соглашение в области</p>\n<p>экологии и охраны окружа­</p>\n<p>ющей среды между ЧМК,</p>\n<p>Правительством Челябин­</p>\n<p>ской области, Росприрод­</p>\n<p>надзором и Минприроды.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Подписано четырёхсторон­</p>\n<p>нее соглашение в области</p>\n<p>экологии и охраны окружа­</p>\n<p>ющей среды между ЧМК,</p>\n<p>Правительством Челябин­</p>\n<p>ской области, Росприрод­</p>\n<p>надзором и Минприроды.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "ЧМК",
+        "proposition": "Подписано четырёхсторон­</p>\n<p>нее соглашение в области</p>\n<p>экологии и охраны окружа­</p>\n<p>ющей среды между ЧМК,</p>\n<p>Правительством Челябин­</p>\n<p>ской области, Росприрод­</p>\n<p>надзором и Минприроды.",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c017",
+      "type": "результат",
+      "block": "E",
+      "topic": "вода",
+      "block2": "",
+      "statement": "На «Мечел-Кокс» за­</p>\n<p>пущено в эксплуатацию</p>\n<p>бензольное отделение с</p>\n<p>закрытым циклом охлаж­</p>\n<p>дения коксового газа в</p>\n<p>цехе улавливания № 2.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: вода.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "На «Мечел-Кокс» за­</p>\n<p>пущено в эксплуатацию</p>\n<p>бензольное отделение с</p>\n<p>закрытым циклом охлаж­</p>\n<p>дения коксового газа в</p>\n<p>цехе улавливания № 2.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "«Мечел-Кокс»",
+        "proposition": "На «Мечел-Кокс» за­</p>\n<p>пущено в эксплуатацию</p>\n<p>бензольное отделение с</p>\n<p>закрытым циклом охлаж­</p>\n<p>дения коксового газа в</p>\n<p>цехе улавливания № 2.",
+        "esg_object": "вода",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c018",
+      "type": "результат",
+      "block": "E",
+      "topic": "воздух",
+      "block2": "",
+      "statement": "Торговый порт Посьет за­</p>\n<p>пускает первую очередь</p>\n<p>специализированного обо­</p>\n<p>рудования (спринклерной</p>\n<p>системы) для пылеподавле­</p>\n<p>ния на складских площадках.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: воздух.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Торговый порт Посьет за­</p>\n<p>пускает первую очередь</p>\n<p>специализированного обо­</p>\n<p>рудования (спринклерной</p>\n<p>системы) для пылеподавле­</p>\n<p>ния на складских площадках.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "Торговый порт Посьет",
+        "proposition": "Торговый порт Посьет за­</p>\n<p>пускает первую очередь</p>\n<p>специализированного обо­</p>\n<p>рудования (спринклерной</p>\n<p>системы) для пылеподавле­</p>\n<p>ния на складских площадках.",
+        "esg_object": "воздух",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c019",
+      "type": "результат",
+      "block": "E",
+      "topic": "другое",
+      "block2": "",
+      "statement": "На заводе «Москокс» начата</p>\n<p>реализация обновлённой</p>\n<p>экологической програм­</p>\n<p>мы, рассчитанной до 2025</p>\n<p>года с объёмом вложений</p>\n<p>около 1 млрд рублей.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "На заводе «Москокс» начата</p>\n<p>реализация обновлённой</p>\n<p>экологической програм­</p>\n<p>мы, рассчитанной до 2025</p>\n<p>года с объёмом вложений</p>\n<p>около 1 млрд рублей.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "«Москокс»",
+        "proposition": "На заводе «Москокс» начата</p>\n<p>реализация обновлённой</p>\n<p>экологической програм­</p>\n<p>мы, рассчитанной до 2025</p>\n<p>года с объёмом вложений</p>\n<p>около 1 млрд рублей.",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c020",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "E",
+      "statement": "Утверждена должность</p>\n<p>заместителя генерального</p>\n<p>директора по экологии и</p>\n<p>природоохранной деятель­</p>\n<p>ности в ПАО «Мечел».",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: совет директоров и акционеры.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждена должность</p>\n<p>заместителя генерального</p>\n<p>директора по экологии и</p>\n<p>природоохранной деятель­</p>\n<p>ности в ПАО «Мечел».",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждена должность</p>\n<p>заместителя генерального</p>\n<p>директора по экологии и</p>\n<p>природоохранной деятель­</p>\n<p>ности в ПАО «Мечел».",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c021",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "Утверждена политика по</p>\n<p>противодействию коррупции.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: этика и антикоррупция.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждена политика по</p>\n<p>противодействию коррупции.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G2",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждена политика по</p>\n<p>противодействию коррупции.",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c022",
+      "type": "результат",
+      "block": "G",
+      "topic": "поставщики",
+      "block2": "",
+      "statement": "Утверждено положение</p>\n<p>об организации и проведении</p>\n<p>закупочных процедур.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: поставщики.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждено положение</p>\n<p>об организации и проведении</p>\n<p>закупочных процедур.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G2",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждено положение</p>\n<p>об организации и проведении</p>\n<p>закупочных процедур.",
+        "esg_object": "поставщики",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c023",
+      "type": "результат",
+      "block": "E",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Утверждена экологическая</p>\n<p>политика.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждена экологическая</p>\n<p>политика.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждена экологическая</p>\n<p>политика.",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c024",
+      "type": "результат",
+      "block": "E",
+      "topic": "воздух",
+      "block2": "",
+      "statement": "На заводе «Мечел-Кокс» по­</p>\n<p>сле реконструкции запущена</p>\n<p>коксовая батарея № 8, что</p>\n<p>обеспечило сокращение вы­</p>\n<p>бросов загрязняющих веществ.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: воздух.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "На заводе «Мечел-Кокс» по­</p>\n<p>сле реконструкции запущена</p>\n<p>коксовая батарея № 8, что</p>\n<p>обеспечило сокращение вы­</p>\n<p>бросов загрязняющих веществ.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "«Мечел-Кокс»",
+        "proposition": "На заводе «Мечел-Кокс» по­</p>\n<p>сле реконструкции запущена</p>\n<p>коксовая батарея № 8, что</p>\n<p>обеспечило сокращение вы­</p>\n<p>бросов загрязняющих веществ.",
+        "esg_object": "воздух",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c025",
+      "type": "результат",
+      "block": "E",
+      "topic": "земля",
+      "block2": "",
+      "statement": "Утверждена программа</p>\n<p>по рекультивации</p>\n<p>нарушенных земель.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: земля.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждена программа</p>\n<p>по рекультивации</p>\n<p>нарушенных земель.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждена программа</p>\n<p>по рекультивации</p>\n<p>нарушенных земель.",
+        "esg_object": "земля",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c026",
+      "type": "результат",
+      "block": "G",
+      "topic": "совет директоров и акционеры",
+      "block2": "",
+      "statement": "Утверждён Кодекс</p>\n<p>корпоративного управления.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: совет директоров и акционеры.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждён Кодекс</p>\n<p>корпоративного управления.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждён Кодекс</p>\n<p>корпоративного управления.",
+        "esg_object": "совет директоров и акционеры",
+        "source_refs": [
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c027",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Создано Управление</p>\n<p>по коммуникациям</p>\n<p>и устойчивому</p>\n<p>развитию в ПАО «Мечел».",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Создано Управление</p>\n<p>по коммуникациям</p>\n<p>и устойчивому</p>\n<p>развитию в ПАО «Мечел».",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Создано Управление</p>\n<p>по коммуникациям</p>\n<p>и устойчивому</p>\n<p>развитию в ПАО «Мечел».",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c028",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Сформирована рабочая группа</p>\n<p>в области устойчивого развития</p>\n<p>в ПАО «Мечел».",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Сформирована рабочая группа</p>\n<p>в области устойчивого развития</p>\n<p>в ПАО «Мечел».",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Сформирована рабочая группа</p>\n<p>в области устойчивого развития</p>\n<p>в ПАО «Мечел».",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c029",
+      "type": "результат",
+      "block": "G",
+      "topic": "управление рисками",
+      "block2": "E",
+      "statement": "Создано направление</p>\n<p>по климату</p>\n<p>в организационной структуре</p>\n<p>Компании под руководством</p>\n<p>привлечённого эксперта.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: управление рисками.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Создано направление</p>\n<p>по климату</p>\n<p>в организационной структуре</p>\n<p>Компании под руководством</p>\n<p>привлечённого эксперта.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "Компания",
+        "proposition": "Создано направление</p>\n<p>по климату</p>\n<p>в организационной структуре</p>\n<p>Компании под руководством</p>\n<p>привлечённого эксперта.",
+        "esg_object": "управление рисками",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [
+          "E"
+        ],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c030",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Утверждена политика</p>\n<p>в области охраны труда</p>\n<p>и промышленной безопасности.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: безопасность труда.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждена политика</p>\n<p>в области охраны труда</p>\n<p>и промышленной безопасности.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждена политика</p>\n<p>в области охраны труда</p>\n<p>и промышленной безопасности.",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c031",
+      "type": "результат",
+      "block": "S",
+      "topic": "права человека",
+      "block2": "",
+      "statement": "Утверждена политика</p>\n<p>в области прав человека.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: права человека.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждена политика</p>\n<p>в области прав человека.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждена политика</p>\n<p>в области прав человека.",
+        "esg_object": "права человека",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c032",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Утверждено положение</p>\n<p>о системе управле­</p>\n<p>ния охраной труда.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: безопасность труда.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Утверждено положение</p>\n<p>о системе управле­</p>\n<p>ния охраной труда.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Утверждено положение</p>\n<p>о системе управле­</p>\n<p>ния охраной труда.",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c033",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Разработаны и введены новые</p>\n<p>нормы обеспечения СИЗ на</p>\n<p>основании требований единых</p>\n<p>типовых норм обеспечения СИЗ.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: безопасность труда.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Разработаны и введены новые</p>\n<p>нормы обеспечения СИЗ на</p>\n<p>основании требований единых</p>\n<p>типовых норм обеспечения СИЗ.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Разработаны и введены новые</p>\n<p>нормы обеспечения СИЗ на</p>\n<p>основании требований единых</p>\n<p>типовых норм обеспечения СИЗ.",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c034",
+      "type": "результат",
+      "block": "E",
+      "topic": "воздух",
+      "block2": "",
+      "statement": "Завершена реализация экологи­</p>\n<p>ческого проекта по прекращению</p>\n<p>выбросов от сталеплавильного</p>\n<p>производства на заводе</p>\n<p>ПАО «Ижсталь». Стоимость работ</p>\n<p>составила более 300 млн рублей.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: воздух.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Завершена реализация экологи­</p>\n<p>ческого проекта по прекращению</p>\n<p>выбросов от сталеплавильного</p>\n<p>производства на заводе</p>\n<p>ПАО «Ижсталь». Стоимость работ</p>\n<p>составила более 300 млн рублей.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "ПАО «Ижсталь»",
+        "proposition": "Завершена реализация экологи­</p>\n<p>ческого проекта по прекращению</p>\n<p>выбросов от сталеплавильного</p>\n<p>производства на заводе</p>\n<p>ПАО «Ижсталь». Стоимость работ</p>\n<p>составила более 300 млн рублей.",
+        "esg_object": "воздух",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c035",
+      "type": "результат",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "Завершена работа</p>\n<p>по созданию системы</p>\n<p>учёта парниковых газов.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: климат.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Завершена работа</p>\n<p>по созданию системы</p>\n<p>учёта парниковых газов.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Завершена работа</p>\n<p>по созданию системы</p>\n<p>учёта парниковых газов.",
+        "esg_object": "климат",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c036",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Проведены первые</p>\n<p>Общекорпоративные турниры</p>\n<p>по мини-футболу и шахматам.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Проведены первые</p>\n<p>Общекорпоративные турниры</p>\n<p>по мини-футболу и шахматам.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Проведены первые</p>\n<p>Общекорпоративные турниры</p>\n<p>по мини-футболу и шахматам.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c037",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "«Мечел» получил 4 звезды за</p>\n<p>очень высокое качество годового</p>\n<p>отчёта за 2022 по мнению RAEX.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: раскрытие и заверение.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Мечел» получил 4 звезды за</p>\n<p>очень высокое качество годового</p>\n<p>отчёта за 2022 по мнению RAEX.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "«Мечел»",
+        "proposition": "«Мечел» получил 4 звезды за</p>\n<p>очень высокое качество годового</p>\n<p>отчёта за 2022 по мнению RAEX.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c038",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Начало взаимодействия с</p>\n<p>рейтинговыми агентствами в</p>\n<p>рамках совершенствования</p>\n<p>практик устойчивого развития.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Начало взаимодействия с</p>\n<p>рейтинговыми агентствами в</p>\n<p>рамках совершенствования</p>\n<p>практик устойчивого развития.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "ПАО «Мечел»",
+        "proposition": "Начало взаимодействия с</p>\n<p>рейтинговыми агентствами в</p>\n<p>рамках совершенствования</p>\n<p>практик устойчивого развития.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c039",
+      "type": "результат",
+      "block": "E",
+      "topic": "другое",
+      "block2": "",
+      "statement": "«Москокс» подписал с Мини­</p>\n<p>стерством экологии и при­</p>\n<p>родопользования Московской</p>\n<p>области соглаше­ние о сни­</p>\n<p>жении воздействия на окру­</p>\n<p>жающую среду. Инвести­ции</p>\n<p>в проект до 2025 года соста­</p>\n<p>вят более 800 млн рублей.",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Москокс» подписал с Мини­</p>\n<p>стерством экологии и при­</p>\n<p>родопользования Московской</p>\n<p>области соглаше­ние о сни­</p>\n<p>жении воздействия на окру­</p>\n<p>жающую среду. Инвести­ции</p>\n<p>в проект до 2025 года соста­</p>\n<p>вят более 800 млн рублей.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "«Москокс»",
+        "proposition": "«Москокс» подписал с Мини­</p>\n<p>стерством экологии и при­</p>\n<p>родопользования Московской</p>\n<p>области соглаше­ние о сни­</p>\n<p>жении воздействия на окру­</p>\n<p>жающую среду. Инвести­ции</p>\n<p>в проект до 2025 года соста­</p>\n<p>вят более 800 млн рублей.",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c040",
+      "type": "результат",
+      "block": "E",
+      "topic": "другое",
+      "block2": "",
+      "statement": "объёмом вложений: около 1 млрд рублей; период: до 2025</p>\n<p>года; субъект: «Москокс»",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Числовое раскрытие с точными опорами; год события по линейной расшифровке временной шкалы не установлен. Указанный период относится к программе/проекту или оцениваемому отчёту, а не автоматически к году события.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "На заводе «Москокс» начата</p>\n<p>реализация обновлённой</p>\n<p>экологической програм­</p>\n<p>мы, рассчитанной до 2025</p>\n<p>года с объёмом вложений</p>\n<p>около 1 млрд рублей.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "объёмом вложений",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "около 1",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "млрд рублей",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "до 2025</p>\n<p>года",
+          "role": "period"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Москокс»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "объёмом вложений",
+      "value": "около 1",
+      "unit": "млрд рублей",
+      "period": "до 2025</p>\n<p>года",
+      "entity_scope": "«Москокс»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "«Москокс»",
+        "proposition": "объёмом вложений: около 1 млрд рублей; период: до 2025</p>\n<p>года; субъект: «Москокс»",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c041",
+      "type": "результат",
+      "block": "E",
+      "topic": "воздух",
+      "block2": "",
+      "statement": "Стоимость работ: более 300 млн рублей; субъект: ПАО «Ижсталь»",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Числовое раскрытие с точными опорами; год события по линейной расшифровке временной шкалы не установлен. Указанный период относится к программе/проекту или оцениваемому отчёту, а не автоматически к году события.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Завершена реализация экологи­</p>\n<p>ческого проекта по прекращению</p>\n<p>выбросов от сталеплавильного</p>\n<p>производства на заводе</p>\n<p>ПАО «Ижсталь». Стоимость работ</p>\n<p>составила более 300 млн рублей.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Стоимость работ",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "более 300",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "млн рублей",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "ПАО «Ижсталь»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Стоимость работ",
+      "value": "более 300",
+      "unit": "млн рублей",
+      "period": "",
+      "entity_scope": "ПАО «Ижсталь»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "ПАО «Ижсталь»",
+        "proposition": "Стоимость работ: более 300 млн рублей; субъект: ПАО «Ижсталь»",
+        "esg_object": "воздух",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c042",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "качество годового: 4 звезды; период: 2022; субъект: «Мечел»",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Числовое раскрытие с точными опорами; год события по линейной расшифровке временной шкалы не установлен. Указанный период относится к программе/проекту или оцениваемому отчёту, а не автоматически к году события.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Мечел» получил 4 звезды за</p>\n<p>очень высокое качество годового</p>\n<p>отчёта за 2022 по мнению RAEX.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "качество годового",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "4",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "звезды",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "2022",
+          "role": "period"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Мечел»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "качество годового",
+      "value": "4",
+      "unit": "звезды",
+      "period": "2022",
+      "entity_scope": "«Мечел»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G3",
+        "subject": "«Мечел»",
+        "proposition": "качество годового: 4 звезды; период: 2022; субъект: «Мечел»",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c043",
+      "type": "обязательство",
+      "block": "E",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Инвести­ции: более 800 млн рублей; период: до 2025 года; субъект: «Москокс»",
+      "source_kind": "text",
+      "source_status": "needs_pdf_review",
+      "reason": "Числовое раскрытие с точными опорами; год события по линейной расшифровке временной шкалы не установлен. Указанный период относится к программе/проекту или оцениваемому отчёту, а не автоматически к году события.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Москокс» подписал с Мини­</p>\n<p>стерством экологии и при­</p>\n<p>родопользования Московской</p>\n<p>области соглаше­ние о сни­</p>\n<p>жении воздействия на окру­</p>\n<p>жающую среду. Инвести­ции</p>\n<p>в проект до 2025 года соста­</p>\n<p>вят более 800 млн рублей.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "Инвести­ции",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "более 800",
+          "role": "value"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "млн рублей",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "до 2025 года",
+          "role": "period"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p6:b2",
+          "quote": "«Москокс»",
+          "role": "subject"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Инвести­ции",
+      "value": "более 800",
+      "unit": "млн рублей",
+      "period": "до 2025 года",
+      "entity_scope": "«Москокс»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "«Москокс»",
+        "proposition": "Инвести­ции: более 800 млн рублей; период: до 2025 года; субъект: «Москокс»",
+        "esg_object": "другое",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c044",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Отрицательная динамика общей списоч­ной чис­</p>\n<p>ленности сотрудников Группы обусловлена опти­</p>\n<p>мизацией бизнес-процессов и изменением состава</p>\n<p>Группы.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Отрицательная динамика общей списоч­ной чис­</p>\n<p>ленности сотрудников Группы обусловлена опти­</p>\n<p>мизацией бизнес-процессов и изменением состава</p>\n<p>Группы.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа «Мечел»",
+        "proposition": "Отрицательная динамика общей списоч­ной чис­</p>\n<p>ленности сотрудников Группы обусловлена опти­</p>\n<p>мизацией бизнес-процессов и изменением состава</p>\n<p>Группы.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c045",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Превалирующее количество мужчин в об­</p>\n<p>щей структуре персонала от­ражает спец­</p>\n<p>ифику сфер деятельности предприятий</p>\n<p>Группы и ряда професси­ональных ограни­</p>\n<p>чений для женщин в связи с особенностями</p>\n<p>условий труда.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Превалирующее количество мужчин в об­</p>\n<p>щей структуре персонала от­ражает спец­</p>\n<p>ифику сфер деятельности предприятий</p>\n<p>Группы и ряда професси­ональных ограни­</p>\n<p>чений для женщин в связи с особенностями</p>\n<p>условий труда.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа «Мечел»",
+        "proposition": "Превалирующее количество мужчин в об­</p>\n<p>щей структуре персонала от­ражает спец­</p>\n<p>ифику сфер деятельности предприятий</p>\n<p>Группы и ряда професси­ональных ограни­</p>\n<p>чений для женщин в связи с особенностями</p>\n<p>условий труда.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c046",
+      "type": "результат",
+      "block": "S",
+      "topic": "права человека",
+      "block2": "",
+      "statement": "Положительная динамика связана с усовершен­</p>\n<p>ствованием корпоративной культуры, повышением</p>\n<p>уровня социальной ответственности предприятий</p>\n<p>и созданием комфортных условий для людей с ОВЗ.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: права человека.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Положительная динамика связана с усовершен­</p>\n<p>ствованием корпоративной культуры, повышением</p>\n<p>уровня социальной ответственности предприятий</p>\n<p>и созданием комфортных условий для людей с ОВЗ.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа «Мечел»",
+        "proposition": "Положительная динамика связана с усовершен­</p>\n<p>ствованием корпоративной культуры, повышением</p>\n<p>уровня социальной ответственности предприятий</p>\n<p>и созданием комфортных условий для людей с ОВЗ.",
+        "esg_object": "права человека",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c047",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Отрицательная динамика обусловлена изменени­</p>\n<p>ем общего количества сотрудников предприятий,</p>\n<p>входящих в периметр отчётности.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: персонал и оплата.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Отрицательная динамика обусловлена изменени­</p>\n<p>ем общего количества сотрудников предприятий,</p>\n<p>входящих в периметр отчётности.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа «Мечел»",
+        "proposition": "Отрицательная динамика обусловлена изменени­</p>\n<p>ем общего количества сотрудников предприятий,</p>\n<p>входящих в периметр отчётности.",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c048",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Позитивная динамика пока­</p>\n<p>зателя обусловлена стро­</p>\n<p>гим соблюдений техники</p>\n<p>безопасности на  предпри­</p>\n<p>ятиях и повышением обще­</p>\n<p>го уровня ответственности</p>\n<p>персонала путем информи­</p>\n<p>рования сотрудников и про­</p>\n<p>ведения регулярных обуче­</p>\n<p>ний по ОТиПБ.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: безопасность труда.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Позитивная динамика пока­</p>\n<p>зателя обусловлена стро­</p>\n<p>гим соблюдений техники</p>\n<p>безопасности на  предпри­</p>\n<p>ятиях и повышением обще­</p>\n<p>го уровня ответственности</p>\n<p>персонала путем информи­</p>\n<p>рования сотрудников и про­</p>\n<p>ведения регулярных обуче­</p>\n<p>ний по ОТиПБ.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "Группа «Мечел»",
+        "proposition": "Позитивная динамика пока­</p>\n<p>зателя обусловлена стро­</p>\n<p>гим соблюдений техники</p>\n<p>безопасности на  предпри­</p>\n<p>ятиях и повышением обще­</p>\n<p>го уровня ответственности</p>\n<p>персонала путем информи­</p>\n<p>рования сотрудников и про­</p>\n<p>ведения регулярных обуче­</p>\n<p>ний по ОТиПБ.",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c049",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "Положительная динамика числа</p>\n<p>проинформирован­ных постав­</p>\n<p>щиков обусловлена сокраще­</p>\n<p>нием количества зарубежных</p>\n<p>поставщиков от общего числа</p>\n<p>поставщиков.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: этика и антикоррупция.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Положительная динамика числа</p>\n<p>проинформирован­ных постав­</p>\n<p>щиков обусловлена сокраще­</p>\n<p>нием количества зарубежных</p>\n<p>поставщиков от общего числа</p>\n<p>поставщиков.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G2",
+        "subject": "Группа «Мечел»",
+        "proposition": "Положительная динамика числа</p>\n<p>проинформирован­ных постав­</p>\n<p>щиков обусловлена сокраще­</p>\n<p>нием количества зарубежных</p>\n<p>поставщиков от общего числа</p>\n<p>поставщиков.",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c050",
+      "type": "результат",
+      "block": "E",
+      "topic": "воздух",
+      "block2": "",
+      "statement": "Изменение показателей об­</p>\n<p>условлено модернизацией</p>\n<p>оборудования на производ­</p>\n<p>ственных площадках.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: воздух.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Изменение показателей об­</p>\n<p>условлено модернизацией</p>\n<p>оборудования на производ­</p>\n<p>ственных площадках.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "E1",
+        "subject": "Группа «Мечел»",
+        "proposition": "Изменение показателей об­</p>\n<p>условлено модернизацией</p>\n<p>оборудования на производ­</p>\n<p>ственных площадках.",
+        "esg_object": "воздух",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c051",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Общая списочная численность сотрудников Группы:  чел.; субъект: Группы",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Общая списочная численность сотрудников Группы",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Общая списочная численность сотрудников Группы",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "чел.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Группы",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Общая списочная численность сотрудников Группы",
+      "value": "",
+      "unit": "чел.",
+      "period": "",
+      "entity_scope": "Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы",
+        "proposition": "Общая списочная численность сотрудников Группы:  чел.; субъект: Группы",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c052",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Структура персонала в 2023 году в разбивке по полу, %:  %; субъект: Группы",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Структура персонала в 2023 году в разбивке по полу, %",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Структура персонала в 2023 году в разбивке по полу, %",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Группы",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Структура персонала в 2023 году в разбивке по полу, %",
+      "value": "",
+      "unit": "%",
+      "period": "",
+      "entity_scope": "Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы",
+        "proposition": "Структура персонала в 2023 году в разбивке по полу, %:  %; субъект: Группы",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c053",
+      "type": "результат",
+      "block": "S",
+      "topic": "права человека",
+      "block2": "",
+      "statement": "Численность сотрудников Группы</p>\n<p></p>\n<p>с ограниченными возможностями, чел.:  чел.; субъект: Группы",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Численность сотрудников Группы</p>\n<p></p>\n<p>с ограниченными возможностями, чел.",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Численность сотрудников Группы</p>\n<p></p>\n<p>с ограниченными возможностями, чел.",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "чел.",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Группы",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Численность сотрудников Группы</p>\n<p></p>\n<p>с ограниченными возможностями, чел.",
+      "value": "",
+      "unit": "чел.",
+      "period": "",
+      "entity_scope": "Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы",
+        "proposition": "Численность сотрудников Группы</p>\n<p></p>\n<p>с ограниченными возможностями, чел.:  чел.; субъект: Группы",
+        "esg_object": "права человека",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c054",
+      "type": "результат",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "Сотрудники, охваченные коллективным</p>\n<p></p>\n<p>договором, %:  %; субъект: Группы",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Сотрудники, охваченные коллективным</p>\n<p></p>\n<p>договором, %",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Сотрудники, охваченные коллективным</p>\n<p></p>\n<p>договором, %",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Группы",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Сотрудники, охваченные коллективным</p>\n<p></p>\n<p>договором, %",
+      "value": "",
+      "unit": "%",
+      "period": "",
+      "entity_scope": "Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы",
+        "proposition": "Сотрудники, охваченные коллективным</p>\n<p></p>\n<p>договором, %:  %; субъект: Группы",
+        "esg_object": "персонал и оплата",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c055",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "Коэффициент LTIFR (lost time injury frequency rate):; субъект: Группы",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Коэффициент LTIFR (lost time injury frequency rate)",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Коэффициент LTIFR (lost time injury frequency rate)",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Группы",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Коэффициент LTIFR (lost time injury frequency rate)",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "Группы",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "S1",
+        "subject": "Группы",
+        "proposition": "Коэффициент LTIFR (lost time injury frequency rate):; субъект: Группы",
+        "esg_object": "безопасность труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c056",
+      "type": "результат",
+      "block": "G",
+      "topic": "этика и антикоррупция",
+      "block2": "",
+      "statement": "Доля деловых партнёров, которые были проинформированы об имеющихся:  %; субъект: Компании",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Доля деловых партнёров, которые были проинформированы об имеющихся",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Доля деловых партнёров, которые были проинформированы об имеющихся",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "%",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Компании",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Доля деловых партнёров, которые были проинформированы об имеющихся",
+      "value": "",
+      "unit": "%",
+      "period": "",
+      "entity_scope": "Компании",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "G2",
+        "subject": "Компании",
+        "proposition": "Доля деловых партнёров, которые были проинформированы об имеющихся:  %; субъект: Компании",
+        "esg_object": "этика и антикоррупция",
+        "source_refs": [
+          "G12023",
+          "OECD2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c057",
+      "type": "результат",
+      "block": "E",
+      "topic": "воздух",
+      "block2": "",
+      "statement": "Объём выбросов загрязняющих веществ в атмосферу:  тыс. т; субъект: Группе «Мечел»",
+      "source_kind": "chart",
+      "source_status": "needs_pdf_review",
+      "reason": "Кандидат: показатель назван, значения/соответствие серий и периодов требуют визуального чтения PDF. Числа не восстановлены из порядка элементов.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Объём выбросов загрязняющих веществ в атмосферу",
+          "role": "statement"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Объём выбросов загрязняющих веществ в атмосферу",
+          "role": "metric"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "тыс. т",
+          "role": "unit"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b2",
+          "quote": "Группе «Мечел»",
+          "role": "subject"
+        },
+        {
+          "block_id": "MTLR-2023-ОУР:p7:b7",
+          "quote": "> Визуальный материал: Полная исходная страница 7. Физическая PDF-страница 7. Изображение не включено в эту Markdown-версию; [открыть источник](https://drive.google.com/file/d/1xYXH9hpz25p-JI7bejq9OuOeamZnSRr6/view). Визуальная сверка не подтверждается этой ссылкой.",
+          "role": "context"
+        }
+      ],
+      "quantitative": true,
+      "metric": "Объём выбросов загрязняющих веществ в атмосферу",
+      "value": "",
+      "unit": "тыс. т",
+      "period": "",
+      "entity_scope": "Группе «Мечел»",
+      "decision": {
+        "inclusion_rule": "I4",
+        "classification_rule": "E1",
+        "subject": "Группе «Мечел»",
+        "proposition": "Объём выбросов загрязняющих веществ в атмосферу:  тыс. т; субъект: Группе «Мечел»",
+        "esg_object": "воздух",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c058",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "«Мечел» получил оценку B+</p>\n<p>в Индексе РСПП</p>\n<p>«Ответственность и открытость».",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Получение оценки в индексе с прямо названным предметом открытости; не доказательство достоверности отчётности.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p8:b2",
+          "quote": "«Мечел» получил оценку B+</p>\n<p>в Индексе РСПП</p>\n<p>«Ответственность и открытость».",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "«Мечел»",
+        "proposition": "«Мечел» получил оценку B+</p>\n<p>в Индексе РСПП</p>\n<p>«Ответственность и открытость».",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c059",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Проведена диагностика уровня развития практик управления</p>\n<p>устойчивым развитием.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p8:b2",
+          "quote": "Проведена диагностика уровня развития практик управления</p>\n<p>устойчивым развитием.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "«Мечел»",
+        "proposition": "Проведена диагностика уровня развития практик управления</p>\n<p>устойчивым развитием.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c060",
+      "type": "результат",
+      "block": "G",
+      "topic": "другое",
+      "block2": "",
+      "statement": "Инициирована разработка Дорожной карты в области ESG.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: другое.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p8:b2",
+          "quote": "Инициирована разработка Дорожной карты в области ESG.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "«Мечел»",
+        "proposition": "Инициирована разработка Дорожной карты в области ESG.",
+        "esg_object": "другое",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "c061",
+      "type": "результат",
+      "block": "G",
+      "topic": "раскрытие и заверение",
+      "block2": "",
+      "statement": "Организовано активное взаимодействие с ESG-рейтинговыми агентствами.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "Самостоятельное раскрытие собственной практики или показателя компании; предмет: раскрытие и заверение.",
+      "evidence": [
+        {
+          "block_id": "MTLR-2023-ОУР:p8:b2",
+          "quote": "Организовано активное взаимодействие с ESG-рейтинговыми агентствами.",
+          "role": "statement"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "G3",
+        "subject": "«Мечел»",
+        "proposition": "Организовано активное взаимодействие с ESG-рейтинговыми агентствами.",
+        "esg_object": "раскрытие и заверение",
+        "source_refs": [
+          "OECD2023",
+          "G12023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    }
+  ]
+}

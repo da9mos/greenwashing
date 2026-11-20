@@ -1,0 +1,11 @@
+{
+  "report_id": "ROSN-2025-ИО",
+  "source_sha256": "91c7765d5ca9267edd389d16b3ddf972f12229a2483c1010728b5d4bb3a1fa1a",
+  "accepted_batch_ids": [],
+  "expected_batches": 17,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

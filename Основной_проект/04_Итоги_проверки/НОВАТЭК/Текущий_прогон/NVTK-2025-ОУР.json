@@ -1,0 +1,11 @@
+{
+  "report_id": "NVTK-2025-ОУР",
+  "source_sha256": "15d2a75a84c1ef457029808f07e4a735552c3bbb10741dad42734caaa55a04da",
+  "accepted_batch_ids": [],
+  "expected_batches": 31,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

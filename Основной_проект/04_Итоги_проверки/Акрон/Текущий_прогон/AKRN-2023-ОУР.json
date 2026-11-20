@@ -1,0 +1,11 @@
+{
+  "report_id": "AKRN-2023-ОУР",
+  "source_sha256": "53d848b3d80ad8a039b500a6e1cb3c7cc98368a9a9cda0ddf2c5c926bb50d411",
+  "accepted_batch_ids": [],
+  "expected_batches": 14,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

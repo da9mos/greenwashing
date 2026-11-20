@@ -1,0 +1,11 @@
+{
+  "report_id": "URKA-2024-ОУР",
+  "source_sha256": "71bc15dc27d7e71e3f404aa7baa457d386b594afea89096f64d568c43cea0c9b",
+  "accepted_batch_ids": [],
+  "expected_batches": 33,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

@@ -1,0 +1,11 @@
+{
+  "report_id": "SHLZ-2024-ОУР",
+  "source_sha256": "4e4c95d8786e060b09dee54cbea2a0e15a01086bcdf5a15b786555ae066e51f1",
+  "accepted_batch_ids": [],
+  "expected_batches": 14,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

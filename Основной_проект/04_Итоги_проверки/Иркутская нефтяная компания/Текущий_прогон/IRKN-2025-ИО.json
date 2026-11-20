@@ -1,0 +1,11 @@
+{
+  "report_id": "IRKN-2025-ИО",
+  "source_sha256": "5f85cfd7dfe9e2a8bfe9dd836eb823e18b09f00755d825663634383f826599eb",
+  "accepted_batch_ids": [],
+  "expected_batches": 52,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

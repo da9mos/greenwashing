@@ -1,0 +1,2277 @@
+{
+  "report_id": "RASP-2023-ОУР",
+  "source_sha256": "0281377f10ed0aaac151eaa6ba08b35fb4f358704841a4bdefb755403fae7610",
+  "accepted_batch_ids": [
+    "RASP-2023-ОУР_b0001"
+  ],
+  "expected_batches": 18,
+  "complete": false,
+  "claims": [
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c001",
+      "type": "результат",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "занимает одно из ведущих мест в отрасли по уровню безопасности и технологичности производства.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I1: раскрыта текущая качественная характеристика безопасности производства. S1: безопасность людей на производстве.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b8",
+          "quote": "занимает",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b9",
+          "quote": "одно из ведущих мест в отрасли по уровню безопасности и технологичности производства.",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I1",
+        "classification_rule": "S1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Компания заявляет о ведущем положении в отрасли по безопасности и технологичности производства",
+        "esg_object": "безопасность людей на производстве",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c002",
+      "type": "декларация",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "уникальная система контроля безопасности;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S1: производственная безопасность работников.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b12",
+          "quote": "уникальная система контроля безопасности;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b11",
+          "quote": "БЕЗОПАСНОСТЬ ПРОИЗВОДСТВА:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлен подход с уникальной системой контроля безопасности",
+        "esg_object": "производственная безопасность работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c003",
+      "type": "декларация",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "сильная культура поведения на производстве;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S1: культура безопасного труда.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b13",
+          "quote": "сильная культура поведения на производстве;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b11",
+          "quote": "БЕЗОПАСНОСТЬ ПРОИЗВОДСТВА:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлена сильная культура поведения на производстве",
+        "esg_object": "культура безопасного труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c004",
+      "type": "декларация",
+      "block": "S",
+      "topic": "безопасность труда",
+      "block2": "",
+      "statement": "вовлечение работников в идентификацию рисков.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S1: участие работников в обеспечении безопасных условий труда.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b14",
+          "quote": "вовлечение работников в идентификацию рисков.",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b11",
+          "quote": "БЕЗОПАСНОСТЬ ПРОИЗВОДСТВА:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлено вовлечение работников в идентификацию рисков безопасности",
+        "esg_object": "участие работников в обеспечении безопасных условий труда",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c005",
+      "type": "декларация",
+      "block": "S",
+      "topic": "клиенты и качество",
+      "block2": "",
+      "statement": "внедрение современных технических решений;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S3: качество продукции для потребителей.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b16",
+          "quote": "внедрение современных технических решений;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b15",
+          "quote": "КАЧЕСТВО ПРОДУКЦИИ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S3",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлено внедрение современных технических решений для качества продукции",
+        "esg_object": "качество продукции для потребителей",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c006",
+      "type": "декларация",
+      "block": "S",
+      "topic": "клиенты и качество",
+      "block2": "",
+      "statement": "контроль качества на всех этапах производства;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S3: качество продукции для потребителей.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b17",
+          "quote": "контроль качества на всех этапах производства;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b15",
+          "quote": "КАЧЕСТВО ПРОДУКЦИИ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S3",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлен контроль качества на всех этапах производства",
+        "esg_object": "качество продукции для потребителей",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c007",
+      "type": "декларация",
+      "block": "S",
+      "topic": "клиенты и качество",
+      "block2": "",
+      "statement": "привлечение независимых экспертов.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S3: проверка качества продукции для потребителей, а не заверение опубликованной отчетности.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b18",
+          "quote": "привлечение независимых экспертов.",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b15",
+          "quote": "КАЧЕСТВО ПРОДУКЦИИ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S3",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлено привлечение независимых экспертов по качеству продукции",
+        "esg_object": "проверка качества продукции для потребителей, а не заверение опубликованной отчетности",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008",
+      "type": "декларация",
+      "block": "S",
+      "topic": "персонал и оплата",
+      "block2": "",
+      "statement": "социальные гарантии для работников;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S1: социальные условия и гарантии работников.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b21",
+          "quote": "социальные гарантии для работников;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b19",
+          "quote": "ОТВЕТСТВЕННОСТЬ",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b20",
+          "quote": "ПЕРЕД ОБЩЕСТВОМ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлены социальные гарантии для работников",
+        "esg_object": "социальные условия и гарантии работников",
+        "source_refs": [
+          "ESRS2023",
+          "SASB2023"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009",
+      "type": "декларация",
+      "block": "S",
+      "topic": "местные сообщества",
+      "block2": "",
+      "statement": "инвестиции в развитие регионов присутствия;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S2: развитие местных сообществ.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b22",
+          "quote": "инвестиции в развитие регионов присутствия;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b19",
+          "quote": "ОТВЕТСТВЕННОСТЬ",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b20",
+          "quote": "ПЕРЕД ОБЩЕСТВОМ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S2",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлены инвестиции в развитие регионов присутствия",
+        "esg_object": "развитие местных сообществ",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010",
+      "type": "декларация",
+      "block": "S",
+      "topic": "местные сообщества",
+      "block2": "",
+      "statement": "участие в социальных и благотворительных проектах.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. S2: социальная поддержка местных сообществ.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b23",
+          "quote": "участие в социальных и благотворительных",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b24",
+          "quote": "проектах.",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b19",
+          "quote": "ОТВЕТСТВЕННОСТЬ",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b20",
+          "quote": "ПЕРЕД ОБЩЕСТВОМ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "S2",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлено участие в социальных и благотворительных проектах",
+        "esg_object": "социальная поддержка местных сообществ",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c011",
+      "type": "декларация",
+      "block": "E",
+      "topic": "климат",
+      "block2": "",
+      "statement": "снижение выбросов парниковых газов;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. E1: выбросы парниковых газов.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b26",
+          "quote": "снижение выбросов парниковых газов;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b25",
+          "quote": "ЗАБОТА О ПРИРОДЕ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "E1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлен подход к снижению выбросов парниковых газов",
+        "esg_object": "выбросы парниковых газов",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c012",
+      "type": "декларация",
+      "block": "E",
+      "topic": "вода",
+      "block2": "",
+      "statement": "разумное водопотребление;",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. E1: потребление водных ресурсов.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b27",
+          "quote": "разумное водопотребление;",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b25",
+          "quote": "ЗАБОТА О ПРИРОДЕ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "E1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлено разумное водопотребление",
+        "esg_object": "потребление водных ресурсов",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c013",
+      "type": "декларация",
+      "block": "E",
+      "topic": "биоразнообразие",
+      "block2": "",
+      "statement": "восстановление биоразнообразия.",
+      "source_kind": "text",
+      "source_status": "md_only",
+      "reason": "I3: пункт собственного подхода компании; общий принцип без подтверждения конкретного выполненного действия, измеренного результата или будущего срока. E1: биоразнообразие и экосистемы.",
+      "evidence": [
+        {
+          "block_id": "RASP-2023-ОУР:p4:b28",
+          "quote": "восстановление биоразнообразия.",
+          "role": "statement"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b7",
+          "quote": "ПАО «Распадская» (также «Распадская», Компания)",
+          "role": "subject"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b25",
+          "quote": "ЗАБОТА О ПРИРОДЕ:",
+          "role": "context"
+        },
+        {
+          "block_id": "RASP-2023-ОУР:p4:b10",
+          "quote": "Наш подход",
+          "role": "context"
+        }
+      ],
+      "quantitative": false,
+      "metric": "",
+      "value": "",
+      "unit": "",
+      "period": "",
+      "entity_scope": "",
+      "decision": {
+        "inclusion_rule": "I3",
+        "classification_rule": "E1",
+        "subject": "ПАО «Распадская»",
+        "proposition": "Заявлено восстановление биоразнообразия",
+        "esg_object": "биоразнообразие и экосистемы",
+        "source_refs": [
+          "ESRS2023",
+          "GRI2021"
+        ],
+        "secondary_blocks": [],
+        "classification_status": "resolved",
+        "ambiguity_note": ""
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "block_id": "RASP-2023-ОУР:p1:b1",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b2",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b3",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b4",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b5",
+      "status": "pending",
+      "reason": "Лозунг «Сохраняем устойчивость» не устанавливает конкретный ESG-предмет: финансовая/операционная или экологическая/социальная устойчивость не уточнена. Буква не назначена; требуется содержательный контекст.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b6",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b7",
+      "status": "pending",
+      "reason": "Непрочитанная исходная графика: изображение отсутствует в batch.json; ссылка сохранена в тексте блока. Требуется визуальное чтение PDF, включая возможные дополнительные ESG-заявления.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p1:b8",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b1",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b2",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b3",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b4",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b5",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b6",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b7",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b8",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b9",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b10",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b11",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b12",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b13",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b14",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b15",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b16",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b17",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b18",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b19",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b20",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b21",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b22",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b23",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b24",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b25",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b26",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b27",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b28",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b29",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b30",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b31",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b32",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b33",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b34",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b35",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b36",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b37",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b38",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b39",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b40",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b41",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b42",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b43",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b44",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b45",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b46",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b47",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b48",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b49",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b50",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b51",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b52",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b53",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b54",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b55",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b56",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b57",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b58",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b59",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b60",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b61",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b62",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b63",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b64",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b65",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b66",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b67",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b68",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b69",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b70",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b71",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b72",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b73",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b74",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b75",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b76",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b77",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b78",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b79",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b80",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b81",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b82",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b83",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b84",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b85",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b86",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b87",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b88",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b89",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b90",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b91",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b92",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b93",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b94",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b95",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b96",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b97",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b98",
+      "status": "pending",
+      "reason": "Непрочитанная исходная графика: изображение отсутствует в batch.json; ссылка сохранена в тексте блока. Требуется визуальное чтение PDF, включая возможные дополнительные ESG-заявления.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p2:b99",
+      "status": "excluded",
+      "reason": "Оглавление, номер страницы либо технические ссылки/пометки; собственной ESG-пропозиции нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b1",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b2",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b3",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b4",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b5",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b6",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b7",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b8",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b9",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b10",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b11",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b12",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b13",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b14",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b15",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b16",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b17",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b18",
+      "status": "excluded",
+      "reason": "Срок отработки угольных запасов при текущей добыче — операционная характеристика без утверждаемого экологического или социального воздействия.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b19",
+      "status": "excluded",
+      "reason": "Срок отработки угольных запасов при текущей добыче — операционная характеристика без утверждаемого экологического или социального воздействия.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b20",
+      "status": "excluded",
+      "reason": "Срок отработки угольных запасов при текущей добыче — операционная характеристика без утверждаемого экологического или социального воздействия.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b21",
+      "status": "excluded",
+      "reason": "Срок отработки угольных запасов при текущей добыче — операционная характеристика без утверждаемого экологического или социального воздействия.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b22",
+      "status": "excluded",
+      "reason": "Срок отработки угольных запасов при текущей добыче — операционная характеристика без утверждаемого экологического или социального воздействия.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b23",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b24",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b25",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b26",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b27",
+      "status": "pending",
+      "reason": "Непрочитанная исходная графика: изображение отсутствует в batch.json; ссылка сохранена в тексте блока. Требуется визуальное чтение PDF, включая возможные дополнительные ESG-заявления.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p3:b28",
+      "status": "excluded",
+      "reason": "Заголовок, навигация, колонтитул, номер страницы или техническая разметка без собственной ESG-пропозиции.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b1",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b2",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b3",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b4",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b5",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b6",
+      "status": "excluded",
+      "reason": "Только идентификаторы GRI; не утверждение о конкретной практике компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b7",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c001",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c002",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c003",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c004",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c005",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c006",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c007",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c011",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c012",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c013"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b8",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c001"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b9",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c001"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b10",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c002",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c003",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c004",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c005",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c006",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c007",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c011",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c012",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c013"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b11",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c002",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c003",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c004"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b12",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c002"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b13",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c003"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b14",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c004"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b15",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c005",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c006",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c007"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b16",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c005"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b17",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c006"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b18",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c007"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b19",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b20",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b21",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b22",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b23",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b24",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b25",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c011",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c012",
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c013"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b26",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c011"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b27",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c012"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b28",
+      "status": "extracted",
+      "reason": "Извлечено самостоятельное ESG-содержание либо сохранен точный субъект/тематический контекст связанного заявления.",
+      "claim_ids": [
+        "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c013"
+      ]
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b29",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b30",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b31",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b32",
+      "status": "excluded",
+      "reason": "Только идентификаторы GRI; не утверждение о конкретной практике компании.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b33",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b34",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b35",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b36",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b37",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b38",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b39",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b40",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b41",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b42",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b43",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b44",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b45",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b46",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b47",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b48",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b49",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b50",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b51",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b52",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b53",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b54",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b55",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b56",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b57",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b58",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b59",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b60",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b61",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b62",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b63",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b64",
+      "status": "excluded",
+      "reason": "Портфель, востребованность, технические свойства марок угля или объем добычи; не заявлены безопасность для потребителей либо конкретный ESG-эффект. Выход летучих веществ здесь свойство угля, не атмосферные выбросы.",
+      "claim_ids": [],
+      "exclusion_rule": "X3"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b65",
+      "status": "excluded",
+      "reason": "Библиографическая сноска к обозначениям марок угля; собственной ESG-практики нет.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b66",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b67",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b68",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b69",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b70",
+      "status": "pending",
+      "reason": "Непрочитанная исходная графика: изображение отсутствует в batch.json; ссылка сохранена в тексте блока. Требуется визуальное чтение PDF, включая возможные дополнительные ESG-заявления.",
+      "claim_ids": []
+    },
+    {
+      "block_id": "RASP-2023-ОУР:p4:b71",
+      "status": "excluded",
+      "reason": "Название, заголовок, дата на обложке, номер страницы либо техническая разметка без самостоятельного ESG-утверждения.",
+      "claim_ids": [],
+      "exclusion_rule": "X1"
+    }
+  ],
+  "id_provenance": [
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c001",
+      "original_id": "RASP-2023-ОУР_b0001_c001",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c002",
+      "original_id": "RASP-2023-ОУР_b0001_c002",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c003",
+      "original_id": "RASP-2023-ОУР_b0001_c003",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c004",
+      "original_id": "RASP-2023-ОУР_b0001_c004",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c005",
+      "original_id": "RASP-2023-ОУР_b0001_c005",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c006",
+      "original_id": "RASP-2023-ОУР_b0001_c006",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c007",
+      "original_id": "RASP-2023-ОУР_b0001_c007",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c008",
+      "original_id": "RASP-2023-ОУР_b0001_c008",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c009",
+      "original_id": "RASP-2023-ОУР_b0001_c009",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c010",
+      "original_id": "RASP-2023-ОУР_b0001_c010",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c011",
+      "original_id": "RASP-2023-ОУР_b0001_c011",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c012",
+      "original_id": "RASP-2023-ОУР_b0001_c012",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    },
+    {
+      "id": "RASP-2023-ОУР_b0001::RASP-2023-ОУР_b0001_c013",
+      "original_id": "RASP-2023-ОУР_b0001_c013",
+      "batch_id": "RASP-2023-ОУР_b0001"
+    }
+  ],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

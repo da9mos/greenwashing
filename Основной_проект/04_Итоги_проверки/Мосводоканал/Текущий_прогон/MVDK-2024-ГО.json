@@ -1,0 +1,11 @@
+{
+  "report_id": "MVDK-2024-ГО",
+  "source_sha256": "6ec267f30d742206f9bc1f40dbb4809543f7d4a055fc5505015f2c6d9f4a1201",
+  "accepted_batch_ids": [],
+  "expected_batches": 23,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

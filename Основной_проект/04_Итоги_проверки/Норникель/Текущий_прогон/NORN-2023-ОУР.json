@@ -1,0 +1,11 @@
+{
+  "report_id": "NORN-2023-ОУР",
+  "source_sha256": "435d682673a5086affdc71b5af7c58c1bce02e800fa9ffd27ae04663656e8727",
+  "accepted_batch_ids": [],
+  "expected_batches": 62,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

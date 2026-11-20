@@ -1,0 +1,11 @@
+{
+  "report_id": "CHMF-2023-ОУР",
+  "source_sha256": "744d2276c70145791ed69edbb05524b65b652701b6b90ad90ec128ddfadff41c",
+  "accepted_batch_ids": [],
+  "expected_batches": 74,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

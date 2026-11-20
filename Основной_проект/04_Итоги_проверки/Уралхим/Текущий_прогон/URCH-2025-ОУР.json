@@ -1,0 +1,11 @@
+{
+  "report_id": "URCH-2025-ОУР",
+  "source_sha256": "50a08d80d0f86b61ecb2e01f633ead92e6c3807d8edeb59a5f699cb84527178b",
+  "accepted_batch_ids": [],
+  "expected_batches": 30,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}

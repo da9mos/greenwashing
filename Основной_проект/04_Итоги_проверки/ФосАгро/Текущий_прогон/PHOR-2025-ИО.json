@@ -1,0 +1,11 @@
+{
+  "report_id": "PHOR-2025-ИО",
+  "source_sha256": "23ca1f177ab53faefde960d8d3d31b1e0fb1bd01764dc5b8d9c53b055e59d513",
+  "accepted_batch_ids": [],
+  "expected_batches": 55,
+  "complete": false,
+  "claims": [],
+  "coverage": [],
+  "id_provenance": [],
+  "limitation": "Partial MD extraction; PDF review, semantic recall and external verification remain open."
+}
