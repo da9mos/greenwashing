@@ -12,5 +12,12 @@
   "local_asset_links_remaining": 0,
   "visual_references_replaced": 14793,
   "full_content_verified": false,
-  "exceptions": []
+  "exceptions": [],
+  "repeat_run": {
+    "report_count": 92,
+    "physical_pages": 14731,
+    "pdfs_opened": 92,
+    "all_page_markers_and_anchors_visible": true,
+    "unresolved_internal_links": {}
+  }
 }
