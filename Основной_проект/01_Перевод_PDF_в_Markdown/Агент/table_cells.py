@@ -298,6 +298,24 @@ def review_table(page, table, index, by_text, numbers, repair):
     return edits, checked, findings
 
 
+def check_repeated_headers(page, signature, tables, by_text, numbers):
+    rows = [table_rows(table) for _, table in tables]
+    if len(signature) < 3 or any(len(table) < 3 for table in rows):
+        return {}
+    labels = [cell_text(row[0][3]) for table in rows for row in table[1:]]
+    if not all(labels) or len(set(labels)) != len(labels):
+        return {}
+
+    columns = len(signature) - 1 - (signature[1].casefold() in UNIT_HEADINGS)
+    matched = {}
+    for (index, table), parsed in zip(tables, rows, strict=True):
+        _, count, findings = review_table(page, table, index, by_text, numbers, repair=False)
+        if count != columns * (len(parsed) - 1) or findings:
+            return {}
+        matched[index] = count
+    return matched
+
+
 def review_cells(text, page, rendered_markdown_tables=()):
     tables = [(match, 'html') for match in TABLE.finditer(text)]
     tables.extend((match, 'markdown') for snippet in rendered_markdown_tables
@@ -306,20 +324,30 @@ def review_cells(text, page, rendered_markdown_tables=()):
                if NUMERIC_CELL.search(match[1])]
     if not numeric:
         return text, 0, []
-    signatures = Counter(header_signature(table) for table, _ in tables)
+    signatures = defaultdict(list)
+    for index, (table, _) in enumerate(tables, 1):
+        if signature := header_signature(table):
+            signatures[signature].append((index, table))
     lines = source_lines(page)
     by_text = defaultdict(list)
     for line in lines:
         by_text[line.text].append(line)
     numbers = [line for line in lines if not line.has_index and VALUE.fullmatch(line.text)]
+    repeated = {}
+    for signature, group in signatures.items():
+        if len(group) > 1:
+            repeated.update(check_repeated_headers(page, signature, group, by_text, numbers))
     edits = []
     checked = 0
     findings = []
     for index, table, kind in numeric:
         signature = header_signature(table)
-        if signature and signatures[signature] > 1:
-            findings.append(issue(index, 'manual', format=kind,
-                                  reason='одинаковые заголовки у нескольких таблиц на странице'))
+        if signature and len(signatures[signature]) > 1:
+            if index in repeated:
+                checked += repeated[index]
+            else:
+                findings.append(issue(index, 'manual', format=kind,
+                                      reason='одинаковые заголовки у нескольких таблиц на странице'))
             continue
         changes, cells, notes = review_table(page, table, index, by_text, numbers, repair=kind == 'html')
         edits.extend(changes)

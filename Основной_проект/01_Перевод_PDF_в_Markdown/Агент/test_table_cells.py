@@ -126,6 +126,18 @@ class TableCellTests(unittest.TestCase):
             self.assertIn('одинаковые заголовки', item['reason'])
             self.assertNotIn('bbox', item)
 
+    def test_repeated_headers_with_distinct_rows_are_checked_without_repair(self):
+        second = [('Gas', '19', '22'), ('Steel', '44', '57')]
+        self.draw(HEADER, second, offset=200)
+        before = markup(ROWS) + '\n\n' + markup(second)
+        self.assertEqual(review_cells(before, self.page), (before, 10, []))
+
+        altered = markup(ROWS) + '\n\n' + markup([('Gas', '22', '19'), second[1]])
+        preserved, compared, findings = review_cells(altered, self.page)
+        self.assertEqual((preserved, compared), (altered, 0))
+        self.assertEqual([note['status'] for note in findings], ['manual', 'manual'])
+        self.assertTrue(all('bbox' not in note for note in findings))
+
     def test_repeated_pdf_labels_block_mismatch_from_wrong_table(self):
         self.page = self.doc.new_page(width=1130, height=420)
         self.draw(HEADER, ROWS)
@@ -222,6 +234,16 @@ class RealTableCellTests(unittest.TestCase):
         self.assertEqual(fixed, content)
         self.assertEqual([(note['column'], note['expected']) for note in findings
                           if note['status'] == 'repaired'], [('2023', '471'), ('2024', '459')])
+
+    def test_water_tables_with_repeated_headers_in_mmk_report(self):
+        content, page = self.load_page('MAGN-2024-ИО', 115)
+        self.assertEqual(review_cells(content, page, markdown_tables(content)), (content, 24, []))
+        altered = content.replace('>1 168<', '>1 094<', 1)
+        self.assertNotEqual(altered, content)
+        fixed, count, findings = review_cells(altered, page, markdown_tables(altered))
+        self.assertEqual((fixed, count), (altered, 0))
+        self.assertEqual([note['status'] for note in findings], ['manual', 'manual'])
+        self.assertTrue(all('bbox' not in note for note in findings))
 
 
 if __name__ == '__main__':
