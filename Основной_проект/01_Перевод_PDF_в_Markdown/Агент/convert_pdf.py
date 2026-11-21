@@ -17,6 +17,7 @@ from urllib.parse import unquote
 from markdown_it import MarkdownIt
 import pymupdf
 
+from table_cells import review_cells
 from table_layout import review_tables
 
 PAGE = re.compile(r'^<!--\s*pdf_page:\s*(\d+)\s*-->[ \t]*$', re.M)
@@ -27,6 +28,7 @@ PARAGRAPH = re.compile(r'<p>(.*?)</p>')
 CONTROL = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f]')
 ANCHOR_TAG = re.compile(r'<a\b[^>]*>', re.I)
 ATTR = re.compile('\\b(id|href)=["\']([^"\']+)["\']', re.I)
+PIPE_RULE = re.compile(r'(?m)^ {0,3}\|?\s*:?-{3,}:?\s*\|')
 FENCE = re.compile(r'(?m)^ {0,3}(?:`{3,}|~{3,})')
 MATH = re.compile(r'(?<![\w.,])[-−+]?\d+(?:[,.]\d+)*(?![\w.,])')
 WORD = re.compile(r'[^\W\d_]{3,}', re.UNICODE)
@@ -198,6 +200,22 @@ def assess(source, markup):
     return flags, absent_numbers
 
 
+def markdown_tables(content):
+    if not PIPE_RULE.search(content):
+        return []
+    env = {}
+    tokens = ENGINE.parse(content, env)
+    tables = []
+    start = None
+    for index, token in enumerate(tokens):
+        if token.type == 'table_open':
+            start = index
+        elif token.type == 'table_close' and start is not None:
+            tables.append(ENGINE.renderer.render(tokens[start:index + 1], ENGINE.options, env))
+            start = None
+    return tables
+
+
 def display_page(number, content):
     content = content.strip('\n')
     return f'<!-- pdf_page: {number} -->\n<a id="pdf-page-{number}"></a>\n\n{content}\n'
@@ -280,6 +298,8 @@ def report(task):
     figures = {fix['page']: fix for fix in fixes if 'figure' in fix}
     assets = {}
     table_pages = {}
+    cell_review = []
+    compared_cells = repaired_cells = 0
     joined = corrected = formatted = tables_repaired = 0
     doc = pymupdf.open(pdf) if found else None
     try:
@@ -300,10 +320,19 @@ def report(task):
                     tables_repaired += table_count
                     if table_count:
                         table_pages[number] = table_count
+                cell_notes = []
+                if not FENCE.search(page):
+                    page, compared, cell_notes = review_cells(page, source, markdown_tables(page))
+                    compared_cells += compared
+                    repaired_cells += sum(note['status'] == 'repaired' for note in cell_notes)
+                    if compared or cell_notes:
+                        cell_review.append({'page': number, 'compared': compared, 'findings': cell_notes})
                 markup = check_display(number, page)
                 text = '\n'.join(line[0] for block in blocks for line in block)
                 flags, absent = assess(text, markup)
                 flags.extend(f'сверить таблицу: {issue}' for issue in table_issues)
+                if any(note['status'] == 'manual' for note in cell_notes):
+                    flags.append('сверить числовые ячейки по PDF')
                 if flags:
                     review.append({'page': number, 'flags': flags, 'different_number_spellings': absent})
             else:
@@ -346,6 +375,8 @@ def report(task):
         'formatted_pages': formatted, 'merged_lines': joined, 'verified_fixes': corrected,
         'repaired_tables': tables_repaired,
         'table_repair_pages': table_pages,
+        'table_cells_compared': compared_cells, 'table_cells_repaired': repaired_cells,
+        'table_cell_review': cell_review,
         'assets': assets,
         'version': version, 'verification_status': note, 'review_queue': review,
         'skipped_fixes': skipped_fixes, 'unresolved_internal_links': invalid_links,
@@ -466,7 +497,9 @@ def corpus(args):
             checked = 'с PDF' if result['pdf_checked'] else 'только MD'
             print(f'{rid}: {result["physical_pages"]} стр., {checked}, '
                   f'{result["merged_lines"]} склеенных строк, {result["verified_fixes"]} адресных правок, '
-                  f'{result["repaired_tables"]} исправленных таблиц', flush=True)
+                  f'{result["repaired_tables"]} исправленных таблиц, '
+                  f'{result["table_cells_compared"]} сверено и '
+                  f'{result["table_cells_repaired"]} переставлено ячеек', flush=True)
     summary = {
         'report_count': len(results),
         'physical_pages': sum(row['physical_pages'] for row in results),
