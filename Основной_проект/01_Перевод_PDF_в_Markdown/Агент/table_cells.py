@@ -236,11 +236,15 @@ def review_table(page, table, index, by_text, numbers, repair):
     matched = groups[0]
     # At least one untouched row must corroborate the table before any repair.
     controls = {i: cells for i, cells in matched.items()
-                if [line.text for line in cells] == texts[i][1:]}
+                if len(by_text[labels[i]]) == 1 and [line.text for line in cells] == texts[i][1:]}
     edits = []
     checked = 0
     findings = []
     for i, source in matched.items():
+        if len(by_text[labels[i]]) != 1:
+            findings.append(issue(index, 'manual', row=labels[i],
+                                  reason='подпись строки повторяется в PDF на этой странице'))
+            continue
         expected = [line.text for line in source]
         actual = texts[i][1:]
         if expected == actual:

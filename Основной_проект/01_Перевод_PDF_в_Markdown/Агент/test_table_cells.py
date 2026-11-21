@@ -108,6 +108,20 @@ class TableCellTests(unittest.TestCase):
             self.assertIn('одинаковые заголовки', item['reason'])
             self.assertNotIn('bbox', item)
 
+    def test_repeated_pdf_labels_block_mismatch_from_wrong_table(self):
+        self.page = self.doc.new_page(width=1130, height=420)
+        self.draw(HEADER, ROWS)
+        for row, values in enumerate([HEADER, SWAPS[0], *ROWS[1:]]):
+            for column, (x, value) in enumerate(zip((560, 820, 946), values, strict=True)):
+                # Years in the second header are on a separate baseline.
+                y = 65 + 30 * row + (13 if row == 0 and column > 0 else 0)
+                self.page.insert_text((x, y), value, fontsize=14)
+        before = markup([SWAPS[0], *ROWS[1:]])
+        fixed, compared, findings = review_cells(before, self.page)
+        self.assertEqual((fixed, compared), (before, 0))
+        self.assertTrue(any(note.get('row') == 'Water' for note in findings))
+        self.assertTrue(all(note['status'] == 'manual' and 'bbox' not in note for note in findings))
+
     def test_open_finding_if_local_reread_disagrees(self):
         before = markup([SWAPS[0], *ROWS[1:]])
         extract = self.page.get_text
