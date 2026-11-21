@@ -17,8 +17,10 @@ from urllib.parse import unquote
 from markdown_it import MarkdownIt
 import pymupdf
 
+from table_layout import review_tables
+
 PAGE = re.compile(r'^<!--\s*pdf_page:\s*(\d+)\s*-->[ \t]*$', re.M)
-VERSION = 'локальный повторный прогон'
+VERSION = 'проверка вёрстки'
 ANCHOR = re.compile(r'''<a\s+id=["'](pdf-page-\d+)["']\s*></a>''')
 PARAGRAPHS = re.compile(r'(?m)^(?:<p>[^\n]*?</p>[ \t]*\n(?:[ \t]*\n)*){2,}')
 PARAGRAPH = re.compile(r'<p>(.*?)</p>')
@@ -74,6 +76,17 @@ def following_line(previous, current):
         and not re.match(r'^\s*(?:[A-ZА-ЯЁ]{2,}|\d)', first)  # Заголовки, номерные примечания и короткие значения.
     )
 
+
+def continuation_pairs(blocks):
+    occurrences = Counter(normalized(line[0]) for block in blocks for line in block)
+    pairs = set()
+    for block in blocks:
+        for first, second in zip(block, block[1:]):
+            a, b = normalized(first[0]), normalized(second[0])
+            if (following_line(first, second) and occurrences[a] == occurrences[b] == 1
+                    and not a.endswith(('.', '!', '?', ';', ':'))):
+                pairs.add((a, b))
+    return pairs
 
 def reflow(text, blocks):
     if '<p>' not in text:
@@ -223,6 +236,26 @@ def atomic_write(path, data):
     staging.replace(path)
 
 
+def save_figure(fix, page, original, dest, report_id, markup):
+    figure = fix['figure']
+    filename = figure['filename']
+    if not re.fullmatch(re.escape(report_id) + r'-p\d+-[a-z][a-z0-9-]*\.png', filename):
+        raise ValueError('недопустимое имя графики из PDF')
+    relative_path = Path('assets') / filename
+    if f'src="{relative_path.as_posix()}"' not in unquote(markup):
+        return None
+    if page is None:
+        data = (original.parent / relative_path).read_bytes()
+    else:
+        rect = pymupdf.Rect(figure['rect'])
+        if rect.is_empty or not page.rect.contains(rect):
+            raise ValueError('границы изображения выходят за пределы страницы PDF')
+        image = page.get_pixmap(matrix=pymupdf.Matrix(1.15, 1.15), clip=rect, alpha=False)
+        data = image.tobytes('png')
+    atomic_write(dest.parent / relative_path, data)
+    return relative_path
+
+
 def report(task):
     row, root, pdf_dir, out, fixes = task
     rid = row['report_id']
@@ -242,14 +275,18 @@ def report(task):
     pdf_digest = sha(pdf) if found else None
     result = []
     review = []
+    matching_fixes = [fix for fix in fixes if fix['pdf_sha256'] == pdf_digest]
     skipped_fixes = [fix['finding'] for fix in fixes if fix['pdf_sha256'] != pdf_digest]
-    joined = corrected = formatted = 0
+    figures = {fix['page']: fix for fix in fixes if 'figure' in fix}
+    assets = {}
+    table_pages = {}
+    joined = corrected = formatted = tables_repaired = 0
     doc = pymupdf.open(pdf) if found else None
     try:
         if doc is not None and (not doc.is_pdf or doc.needs_pass or doc.is_repaired or len(doc) != count):
             raise ValueError('исходный PDF не открывается либо число страниц отличается от реестра')
         for number, content in enumerate(previous, 1):
-            page, edits = apply_fixes(content, fixes, pdf_digest, number)
+            page, edits = apply_fixes(content, matching_fixes, pdf_digest, number)
             page = fix_markup(page)
             corrected += edits
             if doc is not None:
@@ -257,20 +294,36 @@ def report(task):
                 blocks = native_blocks(source)
                 page, merges = reflow(page, blocks)
                 joined += merges
+                table_issues = []
+                if '<table>' in page and not FENCE.search(page):
+                    page, table_count, table_issues = review_tables(page, source, continuation_pairs(blocks))
+                    tables_repaired += table_count
+                    if table_count:
+                        table_pages[number] = table_count
                 markup = check_display(number, page)
                 text = '\n'.join(line[0] for block in blocks for line in block)
                 flags, absent = assess(text, markup)
+                flags.extend(f'сверить таблицу: {issue}' for issue in table_issues)
                 if flags:
                     review.append({'page': number, 'flags': flags, 'different_number_spellings': absent})
             else:
-                check_display(number, page)
+                markup = check_display(number, page)
+            if number in figures:
+                fix = figures[number]
+                verified_source = doc is not None and fix['pdf_sha256'] == pdf_digest
+                asset = save_figure(fix, doc[number - 1] if verified_source else None, original, dest, rid, markup)
+                if verified_source and asset is None:
+                    raise ValueError(f'страница {number}: ссылка на графику отсутствует после рендеринга')
+                if asset is not None:
+                    repository_path = (Path(row['repository_path']).parent / asset).as_posix()
+                    assets[repository_path] = sha(dest.parent / asset)
             formatted += content != page
             result.append(display_page(number, page))
     finally:
         if doc is not None:
             doc.close()
     note = ('Исходный PDF открыт, текстовый слой каждой страницы сопоставлен с Markdown. '
-            'Строки объединены только по геометрии PDF. Полная визуальная и смысловая сверка не завершена.'
+            'Повторно проверены структура и вёрстка. Полная визуальная и смысловая сверка не завершена.'
             if found else 'Проверены структура и отображение Markdown. Исходный PDF для повторной сверки недоступен.')
     header = re.sub(r'(?m)^- Проверка: .*$', '- Проверка: ' + note, header, count=1)
     if '- Проверка: ' + note not in header:
@@ -291,6 +344,9 @@ def report(task):
         'report_id': rid, 'physical_pages': count, 'pdf_checked': found, 'pdf_sha256': pdf_digest,
         'previous_md_sha256': original_digest, 'packaged_md_sha256': hashlib.sha256(data).hexdigest(),
         'formatted_pages': formatted, 'merged_lines': joined, 'verified_fixes': corrected,
+        'repaired_tables': tables_repaired,
+        'table_repair_pages': table_pages,
+        'assets': assets,
         'version': version, 'verification_status': note, 'review_queue': review,
         'skipped_fixes': skipped_fixes, 'unresolved_internal_links': invalid_links,
     }
@@ -409,7 +465,8 @@ def corpus(args):
             results.append(result)
             checked = 'с PDF' if result['pdf_checked'] else 'только MD'
             print(f'{rid}: {result["physical_pages"]} стр., {checked}, '
-                  f'{result["merged_lines"]} склеенных строк, {result["verified_fixes"]} адресных правок', flush=True)
+                  f'{result["merged_lines"]} склеенных строк, {result["verified_fixes"]} адресных правок, '
+                  f'{result["repaired_tables"]} исправленных таблиц', flush=True)
     summary = {
         'report_count': len(results),
         'physical_pages': sum(row['physical_pages'] for row in results),
