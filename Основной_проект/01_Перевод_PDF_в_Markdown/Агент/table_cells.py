@@ -20,6 +20,7 @@ NUMERIC_CELL = re.compile(
 INLINE = re.compile(r'</?(?:sup|sub|strong|em|b|i)>', re.I)
 SEMANTIC_INLINE = re.compile(r'<(?:sup|sub|br)\b', re.I)
 BREAK = re.compile(r'<br\s*/?>', re.I)
+UNIT_HEADINGS = {'ед. изм.', 'ед. изм', 'ед. измерения', 'единица измерения', 'единицы измерения'}
 TEXT_FLAGS = pymupdf.TEXTFLAGS_DICT & ~pymupdf.TEXT_PRESERVE_IMAGES
 
 
@@ -136,26 +137,33 @@ def table_rows(table):
     return rows
 
 
-def read_row(label, headings, numbers):
+def read_row(label, headings, numbers, units=None):
     axes = [heading.x for heading in headings]
     gaps = [b - a for a, b in zip(axes, axes[1:])]
     cuts = [(a + b) / 2 for a, b in zip(axes, axes[1:])]
     left = max(label.bbox[2], axes[0] - gaps[0] / 2)
     right = axes[-1] + gaps[-1] / 2
     regions = [[] for _ in headings]
+    if units is not None:
+        regions[0] = [
+            line for line in units
+            if not line.has_index and same_line(label, line) and line.bbox[0] >= label.bbox[2]
+            and left < line.bbox[2] < cuts[0] - .25 * line.height
+        ]
     for line in numbers:
         if same_line(label, line) and line.bbox[0] >= label.bbox[2] and left < line.bbox[2] < right:
             column = sum(line.bbox[2] >= cut for cut in cuts)
             if any(abs(line.bbox[2] - cut) <= .25 * line.height for cut in cuts):
                 return ()
-            regions[column].append(line)
+            if column or units is None:
+                regions[column].append(line)
     if any(len(region) != 1 for region in regions):
         return ()
     ordered = tuple(region[0] for region in regions)
     return ordered if all(a.bbox[2] < b.bbox[0] for a, b in zip(ordered, ordered[1:])) else ()
 
 
-def match_rows(rows, labels, headings, by_text, numbers, first_heading):
+def match_rows(rows, labels, headings, by_text, numbers, first_heading, unit_values=None):
     headers = list(header_positions(headings, by_text))
     for header in headers:
         anchor = header[0]
@@ -179,7 +187,8 @@ def match_rows(rows, labels, headings, by_text, numbers, first_heading):
                 and line.y - previous_y <= 4 * max(anchor.height, line.height)
                 and (not label_head or abs(line.bbox[0] - label_head[0].bbox[0]) < 2 * anchor.height)
             ]
-            if len(possible) == 1 and (cells := read_row(possible[0], header, numbers)):
+            units = by_text.get(unit_values[i], ()) if unit_values is not None else None
+            if len(possible) == 1 and (cells := read_row(possible[0], header, numbers, units)):
                 matched[i] = cells
                 previous_y = possible[0].y
         yield matched
@@ -215,19 +224,23 @@ def review_table(page, table, index, by_text, numbers, repair):
         return [], 0, [issue(index, 'manual', reason='сложная или неполная сетка')]
     texts = [[cell_text(cell[3]) for cell in row] for row in rows]
     first, *headings = texts[0]
-    if (len(headings) < 2 or not all(headings) or len(set(headings)) != len(headings)
+    has_units = bool(headings and headings[0].casefold() in UNIT_HEADINGS)
+    numeric_start = 2 if has_units else 1
+    if (len(texts[0]) < numeric_start + 2 or not all(headings) or len(set(headings)) != len(headings)
             or any(SEMANTIC_INLINE.search(cell[3]) for cell in rows[0][1:])):
         return [], 0, [issue(index, 'manual', reason='нет однозначных заголовков столбцов')]
 
     labels = [row[0] for row in texts]
     counts = Counter(labels[1:])
-    numeric_rows = [i for i, row in enumerate(texts[1:], 1) if any(map(is_number, row[1:]))]
+    unit_values = [row[1] for row in texts] if has_units else None
+    numeric_rows = [i for i, row in enumerate(texts[1:], 1) if any(map(is_number, row[numeric_start:]))]
     anchors = [i for i, row in enumerate(texts[1:], 1)
-               if row[0] and counts[row[0]] == 1 and all(not value or VALUE.fullmatch(value) for value in row[1:])]
+               if row[0] and counts[row[0]] == 1 and all(not value or VALUE.fullmatch(value)
+                                                        for value in row[numeric_start:])]
     eligible = {i for i in numeric_rows if not any(SEMANTIC_INLINE.search(cell[3]) for cell in rows[i][1:])}
     groups = [
         {i: cells for i, cells in group.items() if i in eligible}
-        for group in match_rows(anchors, labels, headings, by_text, numbers, first)
+        for group in match_rows(anchors, labels, headings, by_text, numbers, first, unit_values)
     ]
     groups = [group for group in groups if group]
     if len(groups) != 1:
@@ -235,7 +248,7 @@ def review_table(page, table, index, by_text, numbers, repair):
 
     matched = groups[0]
     # At least one untouched row must corroborate the table before any repair.
-    controls = {i: cells for i, cells in matched.items()
+    controls = {i: cells[numeric_start - 1:] for i, cells in matched.items()
                 if len(by_text[labels[i]]) == 1 and [line.text for line in cells] == texts[i][1:]}
     edits = []
     checked = 0
@@ -248,9 +261,10 @@ def review_table(page, table, index, by_text, numbers, repair):
         expected = [line.text for line in source]
         actual = texts[i][1:]
         if expected == actual:
-            checked += len(source)
+            checked += len(source) - (numeric_start - 1)
             continue
-        if not neighboring_control(i, source, controls):
+        numeric_source = source[numeric_start - 1:]
+        if not neighboring_control(i, numeric_source, controls):
             findings.append(issue(index, 'manual', row=labels[i],
                                   reason='границы спорной строки не подтверждены соседней контрольной строкой'))
             continue
@@ -259,18 +273,21 @@ def review_table(page, table, index, by_text, numbers, repair):
             findings.append(issue(index, 'manual', row=labels[i],
                                   reason='повторное чтение области PDF не подтвердило значения'))
             continue
-        checked += len(source)
+        checked += len(numeric_source)
+        expected = expected[numeric_start - 1:]
+        actual = texts[i][numeric_start:]
         repaired = False
         # Only a pure permutation is eligible for automatic repair. Move original
         # cell contents verbatim, including their signs, spacing and HTML entities.
-        raw_by_value = dict(zip(actual, (cell[3] for cell in rows[i][1:]), strict=True))
-        if repair and len(raw_by_value) == len(source) and raw_by_value.keys() == set(expected):
+        numeric_cells = rows[i][numeric_start:]
+        raw_by_value = dict(zip(actual, (cell[3] for cell in numeric_cells), strict=True))
+        if repair and len(raw_by_value) == len(numeric_source) and raw_by_value.keys() == set(expected):
             replacements = [raw_by_value[value] for value in expected]
             if all('<' not in raw and '>' not in raw for raw in replacements):
                 edits.extend((table.start(1) + cell.start(3), table.start(1) + cell.end(3), raw)
-                             for cell, raw in zip(rows[i][1:], replacements, strict=True))
+                             for cell, raw in zip(numeric_cells, replacements, strict=True))
                 repaired = True
-        for heading, before, line in zip(headings, actual, source, strict=True):
+        for heading, before, line in zip(texts[0][numeric_start:], actual, numeric_source, strict=True):
             if before != line.text:
                 findings.append(issue(index, 'repaired' if repaired else 'manual', row=labels[i],
                                       column=heading, observed=before, expected=line.text,

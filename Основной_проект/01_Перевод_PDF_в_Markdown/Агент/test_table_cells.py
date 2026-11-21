@@ -1,6 +1,7 @@
 import csv
 import os
 from pathlib import Path
+import re
 import unittest
 from unittest.mock import patch
 
@@ -52,6 +53,23 @@ class TableCellTests(unittest.TestCase):
         fixed, compared, findings = review_cells(before, self.page)
         self.assertEqual((fixed, compared), (markup(ROWS), 6))
         self.assertEqual([item['expected'] for item in findings], ['(197)', '+309'])
+
+    def test_repair_requires_unit_in_the_correct_pdf_column(self):
+        headings = ('Indicator', 'Ед. изм.', '2023', '2024')
+        rows = [('Water', 'm3', '123', '456'), ('Waste', 'tons', '789', '900')]
+        page = self.doc.new_page(width=670, height=420)
+        page.insert_font(fontname='unicode', fontbuffer=pymupdf.Font('helv').buffer)
+        for i, row in enumerate([headings, *rows]):
+            for x, value in zip((40, 206, 315, 427), row, strict=True):
+                page.insert_text((x, 55 + 28 * i), value, fontname='unicode', fontsize=13)
+        swapped = markup([('Water', 'm3', '456', '123'), rows[1]], headings)
+        fixed, compared, findings = review_cells(swapped, page)
+        self.assertEqual((fixed, compared), (markup(rows, headings), 4))
+        self.assertEqual([item['column'] for item in findings], ['2023', '2024'])
+        wrong_unit = swapped.replace('>m3<', '>tons<')
+        preserved, compared, findings = review_cells(wrong_unit, page)
+        self.assertEqual((preserved, compared), (wrong_unit, 2))
+        self.assertTrue(all(item['status'] == 'manual' for item in findings))
 
     def test_do_not_cross_into_correctly_labeled_row_of_next_table(self):
         self.page = self.doc.new_page(width=670, height=700)
@@ -194,6 +212,16 @@ class RealTableCellTests(unittest.TestCase):
         self.assertEqual(fixed, content)
         self.assertEqual(sum('одинаковые заголовки' in note.get('reason', '') for note in findings), 3)
         self.assertFalse(any('bbox' in note for note in findings))
+
+    def test_energy_table_with_units_in_lukoil_report(self):
+        content, page = self.load_page('LKOH-2024-ОУР', 21)
+        original = re.compile(r'(<td[^>]*>млн ГДж</td><td[^>]*>)471(</td><td[^>]*>)459(</td>)')
+        altered, count = original.subn(r'\g<1>459\g<2>471\g<3>', content)
+        self.assertEqual(count, 1)
+        fixed, _, findings = review_cells(altered, page, markdown_tables(altered))
+        self.assertEqual(fixed, content)
+        self.assertEqual([(note['column'], note['expected']) for note in findings
+                          if note['status'] == 'repaired'], [('2023', '471'), ('2024', '459')])
 
 
 if __name__ == '__main__':
