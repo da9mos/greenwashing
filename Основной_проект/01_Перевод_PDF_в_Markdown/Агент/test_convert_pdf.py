@@ -1,6 +1,8 @@
+import json
+from pathlib import Path
 import unittest
 
-from convert_pdf import assess, display_page, fix_markup, reflow, verify_document
+from convert_pdf import apply_fixes, assess, display_page, fix_markup, reflow, verify_document
 
 
 class ConverterTests(unittest.TestCase):
@@ -19,6 +21,18 @@ class ConverterTests(unittest.TestCase):
         self.assertEqual(reflow(text, [[a, b], [b]]), (text, 0))
         table = f'<table><tr><td>\n{text}</td></tr></table>'
         self.assertEqual(reflow(table, [[a, b]]), (table, 0))
+
+    def test_novatek_header_repair_keeps_group_period_and_unit_with_value(self):
+        fixes = json.loads(Path(__file__).with_name('source_fixes.json').read_text(encoding='utf-8'))
+        age_fix = next(fix for fix in fixes['NVTK-2023-ОУР'] if '18 столбцах' in fix['finding'])
+        before, digest, page = age_fix['before'], age_fix['pdf_sha256'], age_fix['page']
+        markup, count = apply_fixes(before, [age_fix], digest, page)
+        self.assertEqual(count, 1)
+        self.assertIn('<th>2021<br/>Женщины<br/>Человек</th><th>2021<br/>Женщины<br/>%</th>', markup)
+        self.assertIn('<th>2022<br/>Мужчины<br/>Человек</th><th>2022<br/>Мужчины<br/>%</th>', markup)
+        self.assertIn('<tr><td>До 30</td><td>430</td><td>11</td>', markup)
+        self.assertEqual(apply_fixes(markup, [age_fix], digest, page), (markup, 0))
+        self.assertEqual(apply_fixes(before, [age_fix], '0' * 64, page), (before, 0))
 
     def test_preserve_ambiguous_hyphen(self):
         first = 'Версия показателя социально-'
