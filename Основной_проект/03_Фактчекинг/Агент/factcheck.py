@@ -365,10 +365,12 @@ def export(run, output, allow_partial=False):
         atomic(target / 'claims.json', encoded({'claims': rows}))
         atomic(target / 'summary.json', encoded(summary))
         with (target / 'claims.csv').open('w', encoding='utf-8-sig', newline='') as f:
-            w = csv.writer(f, delimiter=';'); w.writerow(['id','source_id','page','type','block','quote','research_status','verdict','reason'])
+            w = csv.writer(f, delimiter=';'); w.writerow(['id','source_id','page','type','block','quote','research_status','verdict','reason','sources'])
             for r in rows:
                 a = r['assessment'] or {}; o = r['original']
-                w.writerow([r['id'],r['source_id'],o.get('page',o.get('pdf_page','')),o.get('type',o.get('claim_type','')),o.get('block',''),r['quote'],r['research_status'],a.get('verdict','not_researched'),a.get('reason','Поиск ещё не выполнен')])
+                srcs = a.get('sources') or []
+                sources_cell = ' | '.join(f"{s.get('publisher','')}: {s.get('url','')}".strip(' :') for s in srcs)
+                w.writerow([r['id'],r['source_id'],o.get('page',o.get('pdf_page','')),o.get('type',o.get('claim_type','')),o.get('block',''),r['quote'],r['research_status'],a.get('verdict','not_researched'),a.get('reason','Поиск ещё не выполнен'),sources_cell])
         return {'output': str(target), **summary}
 
 
