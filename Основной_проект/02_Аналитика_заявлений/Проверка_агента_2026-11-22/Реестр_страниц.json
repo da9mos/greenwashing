@@ -1,0 +1,26 @@
+[
+  {
+    "report_id": "KMAZ-2024-ОУР",
+    "physical_pdf_page": 120,
+    "number_in_packet": 1,
+    "pdf_sha256": "724cda1699cb70b5da77aa68cf4e453d63ab9638aadddde7c33d7a85e9eb768c",
+    "image": "KMAZ_PDF_120.png",
+    "image_sha256": "ae35692d17c491e72da37b6e8515e0cb3b15e379ba8266ae2c16f06ae498891a"
+  },
+  {
+    "report_id": "ALRS-2024-ОУР",
+    "physical_pdf_page": 177,
+    "number_in_packet": 2,
+    "pdf_sha256": "595844f02fbd2efd6094f2bfd1b3fb32b03310b94caf9bbe6b1a5de69fab338e",
+    "image": "ALRS_PDF_177.png",
+    "image_sha256": "b264493f2dbe04e6beca8d26444e14d2ca9ffaaa7655fdbd2472f4bf1b434da2"
+  },
+  {
+    "report_id": "PLZL-2025-ИО",
+    "physical_pdf_page": 88,
+    "number_in_packet": 3,
+    "pdf_sha256": "7d6a1cdfc6df9465dadd5f1c617d01d834dd8cddb494b2c93b960ce34add0a61",
+    "image": "PLZL_PDF_88.png",
+    "image_sha256": "1eb4b18fbbb847af6fc512ef4f2bd6f14721d22022b093d5383e4e05ef056847"
+  }
+]

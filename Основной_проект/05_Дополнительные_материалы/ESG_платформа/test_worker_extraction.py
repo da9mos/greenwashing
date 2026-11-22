@@ -110,6 +110,14 @@ class ExtractionRetryTests(unittest.TestCase):
         self.assertIn('statement', retry_prompt)
         for name in ('esg_agent_v3_1.md', 'decision_rules_v3_1.json', 'taxonomy_v3_1.csv', 'batch.json'):
             self.assertIn(name, retry_prompt)
+        args = self.calls[0][0]
+        self.assertIn('web_search="disabled"', args)
+        scratch = Path(args[args.index('-C') + 1])
+        policy = worker.base.read(scratch / 'decision_rules_v3_1.json')
+        self.assertNotIn('sources', policy)
+        self.assertNotIn('source_refs', policy['classification_rules']['E1'])
+        taxonomy = (scratch / 'taxonomy_v3_1.csv').read_text(encoding='utf-8-sig')
+        self.assertNotIn('источник', taxonomy.splitlines()[0])
 
     def test_twice_invalid_rejects_and_preserves_both(self):
         result = self.execute(set(), timeout=10000)

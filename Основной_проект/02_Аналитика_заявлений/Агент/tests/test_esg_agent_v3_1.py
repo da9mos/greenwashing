@@ -61,6 +61,20 @@ class DecisionTests(unittest.TestCase):
         self.decision().update(classification_status='pending',ambiguity_note='Two plausible topics')
         with self.assertRaises(ValueError):agent.export(self.work,[self.response()],self.root/'out')
         self.assertFalse((self.root/'out').exists())
+    def test_model_inputs_omit_bibliography_and_export_restores_rule_refs(self):
+        policy = agent.load_policy(self.rules)
+        model_files = agent.write_model_inputs(self.root / 'model', self.manifest, policy)
+        rules = agent.base.read(model_files['decision_rules'])
+        self.assertNotIn('sources', rules)
+        self.assertEqual(rules['classification_rules']['E1'], {'block': 'E', 'description': 'Climate'})
+        self.assertNotIn('https://', Path(model_files['decision_rules']).read_text(encoding='utf-8'))
+        self.decision().pop('source_refs')
+        response = self.response()
+        data, _ = agent.check(self.work, response)
+        self.assertNotIn('source_refs', data['claims'][0]['decision'])
+        out, _ = agent.export(self.work, [response], self.root / 'out')
+        self.assertEqual(agent.base.read(out / 'claims.json')['claims'][0]['decision']['source_refs'], ['ESRS'])
+        self.assertNotIn('source_refs', agent.base.read(response)['claims'][0]['decision'])
     def test_pending_preserved_in_draft_and_csv(self):
         self.decision().update(classification_status='pending',ambiguity_note='Two plausible topics')
         out,summary=agent.export(self.work,[self.response()],self.root/'out',True)
@@ -68,6 +82,8 @@ class DecisionTests(unittest.TestCase):
         for filename in ('claims.csv','E.csv'):
             with (out/filename).open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f,delimiter=';'))
             self.assertEqual(rows[0]['classification_status'],'pending');self.assertEqual(rows[0]['source_refs'],'ESRS');self.assertEqual(rows[0]['statement'],'Мы снизили выбросы.')
+            self.assertEqual(rows[0]['report_id'], self.manifest['report_id'])
+            self.assertEqual(agent.base.json.loads(rows[0]['evidence_json']), self.data['claims'][0]['evidence'])
         self.assertEqual(agent.base.read(out/'claims.json')['claims'][0]['decision'],self.decision())
     def test_all_three_topics_preserved(self):
         self.data['claims'][0]['block2']='S';self.decision()['secondary_blocks']=['S','G']

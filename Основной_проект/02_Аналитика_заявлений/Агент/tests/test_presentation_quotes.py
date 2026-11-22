@@ -24,7 +24,7 @@ class PresentationQuoteTests(unittest.TestCase):
         self.addCleanup(temp.cleanup)
         self.root = Path(temp.name)
         source = self.root / 'source.md'
-        source.write_text('<!-- pdf_page: 1 -->' + PARAGRAPH + '\n\nКонтакты.')
+        source.write_text('<!-- pdf_page: 1 -->' + PARAGRAPH + '\n\nКонтакты.', encoding='utf-8', newline='\n')
         self.work = self.root / 'work'
         manifest = profile.prepare(source, self.work, 'QUOTES')
         batch = base.read(self.work / manifest['batches'][0]['file'])

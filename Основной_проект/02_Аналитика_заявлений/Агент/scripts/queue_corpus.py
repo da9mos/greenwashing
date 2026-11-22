@@ -18,15 +18,18 @@ def queue(work_root, responses, report_ids, limit):
         if report_ids and report_id not in report_ids:
             continue
         work = work_root / report_id
-        m, _ = base.workspace(work)
+        m, taxonomy = base.workspace(work)
+        policy = profile.load_workspace_policy(m)
+        model_inputs = None
         for batch in m['batches']:
             response = responses / report_id / f"{batch['id']}.json"
             if response.exists():
-                profile.check(work, response)
+                profile.check_batch(work, response, m, taxonomy, policy)
                 continue
+            if model_inputs is None:
+                model_inputs = profile.write_model_inputs(work / 'model_inputs', m, policy)
             yield {'report_id': report_id, 'batch_id': batch['id'], 'input': str(work / batch['file']),
-                   'response': str(response), 'workspace': str(work), 'prompt': m['prompt_path'],
-                   'taxonomy': m['taxonomy_path'], 'decision_rules': m['decision_rules_path']}
+                   'response': str(response), 'workspace': str(work), **model_inputs}
             limit -= 1
             if not limit:
                 return

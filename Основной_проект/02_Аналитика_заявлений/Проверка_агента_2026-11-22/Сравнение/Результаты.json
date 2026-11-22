@@ -1,0 +1,56 @@
+[
+  {
+    "run": "KMAZ-2024-ОУР-old",
+    "raw_records": 22,
+    "source_coverage": 18,
+    "gold_records": 18,
+    "numeric_coverage": 4,
+    "numeric_expected": 4,
+    "elapsed_seconds": 69.852
+  },
+  {
+    "run": "KMAZ-2024-ОУР-new",
+    "raw_records": 23,
+    "source_coverage": 18,
+    "gold_records": 18,
+    "numeric_coverage": 4,
+    "numeric_expected": 4,
+    "elapsed_seconds": 74.601
+  },
+  {
+    "run": "ALRS-2024-ОУР-old",
+    "raw_records": 96,
+    "source_coverage": 96,
+    "gold_records": 96,
+    "numeric_coverage": 96,
+    "numeric_expected": 96,
+    "elapsed_seconds": 169.788
+  },
+  {
+    "run": "ALRS-2024-ОУР-new",
+    "raw_records": 96,
+    "source_coverage": 96,
+    "gold_records": 96,
+    "numeric_coverage": 96,
+    "numeric_expected": 96,
+    "elapsed_seconds": 172.68
+  },
+  {
+    "run": "PLZL-2025-ИО-old",
+    "raw_records": 54,
+    "source_coverage": 53,
+    "gold_records": 53,
+    "numeric_coverage": 35,
+    "numeric_expected": 35,
+    "elapsed_seconds": 185.018
+  },
+  {
+    "run": "PLZL-2025-ИО-new",
+    "raw_records": 62,
+    "source_coverage": 53,
+    "gold_records": 53,
+    "numeric_coverage": 35,
+    "numeric_expected": 35,
+    "elapsed_seconds": 204.075
+  }
+]

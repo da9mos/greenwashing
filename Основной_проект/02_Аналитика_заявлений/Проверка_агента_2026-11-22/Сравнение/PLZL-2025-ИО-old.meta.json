@@ -1,0 +1,12 @@
+{
+  "version": "old",
+  "report_id": "PLZL-2025-\u0418\u041e",
+  "page": 88,
+  "model": "gpt-6.2-sol",
+  "effort": "medium",
+  "elapsed_seconds": 185.01751700000023,
+  "exit_code": 0,
+  "prompt_sha256": "518bfd90f3bd899b9fa0e1bac9b70aeb76b6be948f1b0d1d1ea337f2dcae95ce",
+  "image_sha256": "1eb4b18fbbb847af6fc512ef4f2bd6f14721d22022b093d5383e4e05ef056847",
+  "claims": 54
+}

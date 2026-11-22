@@ -11,7 +11,7 @@ v3=importlib.util.module_from_spec(spec);spec.loader.exec_module(v3)
 class ContractTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name)
-        self.src=self.root/'r.md';self.src.write_text('<!-- pdf_page: 1 -->\nДа.\n\n| Год | т |\n|---|---|\n| 2024 | 0 |\n<!-- pdf_page: 2 -->\nПланируем сократить выбросы.\n')
+        self.src=self.root/'r.md';self.src.write_text('<!-- pdf_page: 1 -->\nДа.\n\n| Год | т |\n|---|---|\n| 2024 | 0 |\n<!-- pdf_page: 2 -->\nПланируем сократить выбросы.\n', encoding='utf-8', newline='\n')
         self.prompt=self.root/'prompt.md';self.prompt.write_text('Read all')
         self.tax=self.root/'tax.csv';self.tax.write_text('block;topic\nE;климат\nS;персонал\nG;этика\n')
         self.work=self.root/'work';self.man=v3.prepare(self.src,self.work,'TEST-2024',self.prompt,self.tax,1)
