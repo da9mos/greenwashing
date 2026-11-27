@@ -15,7 +15,7 @@ TOPICS = ('E', 'S', 'G')
 # Keep numeric evidence verbatim, but do not accept part of a different number.
 # Grouping spaces include the two non-breaking variants used by report tables.
 _INTEGER = r'(?:\d{1,3}(?:[ \u00a0\u202f]\d{3})+(?!\d)|\d+)'
-_NUMBER = rf'(?:[+−][ \u00a0\u202f]*|-)?{_INTEGER}(?:[.,]\d+)?(?:[eE][+\-−]?\d+)?'
+_NUMBER = rf'(?:[+−↑↓][ \u00a0\u202f]*|-)?{_INTEGER}(?:[.,]\d+)?(?:[eE][+\-−]?\d+)?'
 _NUMERIC_EXPRESSION = re.compile(rf'{_NUMBER}(?:[ \u00a0\u202f]*(?:[–—\-/])[ \u00a0\u202f]*{_NUMBER})*')
 
 
@@ -203,7 +203,10 @@ def workspace(work):
 
 
 def check(work, response):
-    m,taxonomy=workspace(work)
+    return check_batch(work, response, *workspace(work))
+
+
+def check_batch(work, response, m, taxonomy):
     d=read(response) if isinstance(response,(str,Path)) else response
     require(isinstance(d,dict),'Ожидается объект ответа')
     require(d.get('schema_version')==VERSION and d.get('source_sha256')==m['source_sha256'],'Версия/хеш ответа неверны')
@@ -273,9 +276,15 @@ def csv_write(path, rows, fields):
 
 
 def export(work, responses, output, allow_partial=False):
-    m,_=workspace(work); expected={b['id'] for b in m['batches']}; seen=set(); ids=set(); claims=[]; coverage=[]; pb=pc=pr=pu=0
-    for path in responses:
-        d,s=check(work,path); require(d['batch_id'] not in seen,'Дублирован ответ партии');seen.add(d['batch_id'])
+    m, taxonomy = workspace(work)
+    checked = (check_batch(work, response, m, taxonomy) for response in responses)
+    return export_checked(work, checked, output, m, allow_partial)
+
+
+def export_checked(work, checked, output, m, allow_partial):
+    expected={b['id'] for b in m['batches']}; seen=set(); ids=set(); claims=[]; coverage=[]; pb=pc=pr=pu=0
+    for d,s in checked:
+        require(d['batch_id'] not in seen,'Дублирован ответ партии');seen.add(d['batch_id'])
         for c in d['claims']:
             require(c['id'] not in ids,'Дублирован ID заявления между партиями');ids.add(c['id']);claims.append(c)
         coverage.extend(d['coverage']);pb+=s['pending_blocks'];pc+=s['pending_claims']

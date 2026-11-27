@@ -1,0 +1,12 @@
+{
+  "version": "old",
+  "report_id": "KMAZ-2024-\u041e\u0423\u0420",
+  "page": 120,
+  "model": "gpt-6.2-sol",
+  "effort": "medium",
+  "elapsed_seconds": 69.8515539,
+  "exit_code": 0,
+  "prompt_sha256": "86e2b59d0d5c054276332d8285d3875e9d2e3957533bf28302e506535a099569",
+  "image_sha256": "ae35692d17c491e72da37b6e8515e0cb3b15e379ba8266ae2c16f06ae498891a",
+  "claims": 22
+}

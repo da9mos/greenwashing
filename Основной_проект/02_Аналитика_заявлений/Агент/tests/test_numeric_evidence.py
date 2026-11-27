@@ -59,6 +59,12 @@ class NumericEvidenceTests(unittest.TestCase):
                 self.assertFalse(base.evidence_supports('value', '5', signed))
                 self.assertTrue(base.evidence_supports('value', signed, signed))
 
+    def test_table_direction_marker_cannot_be_removed(self):
+        for signed in ('↓ 3,7', '↑\u00a03,7'):
+            with self.subTest(signed=signed):
+                self.assertFalse(base.evidence_supports('value', '3,7', f'{signed}%'))
+                self.assertTrue(base.evidence_supports('value', signed, f'{signed}%'))
+
     def test_exact_occurrence_can_follow_invalid_occurrence(self):
         self.assertTrue(base.evidence_supports('value', '517', '1 517 тонн; ранее 517 тонн'))
         self.assertTrue(base.evidence_supports('value', '517', '517 2023'))

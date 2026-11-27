@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 from pathlib import Path
+from shutil import copyfile
 import esg_agent_v3 as base
 
 ROOT = base.ROOT
@@ -42,15 +43,50 @@ def prepare(source, output, report_id, prompt=ROOT/'agent/esg_agent_v3_1.md',
 
 def policy_for(work):
     manifest, _ = base.workspace(work)
+    return load_workspace_policy(manifest)
+
+
+def load_workspace_policy(manifest):
     base.require(manifest.get('decision_profile_version') == PROFILE, 'Workspace не подготовлен профилем 3.1')
     path = manifest.get('decision_rules_path')
     base.require(isinstance(path, str) and base.sha(path) == manifest.get('decision_rules_sha256'), 'Decision policy изменена')
     return load_policy(path)
 
 
+def write_model_inputs(output, manifest, policy):
+    """Publish only the prompt, operational rules and topics for the model."""
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    paths = {
+        'prompt': output / 'esg_agent_v3_1.md',
+        'decision_rules': output / 'decision_rules_v3_1.json',
+        'taxonomy': output / 'taxonomy_v3_1.csv',
+    }
+    copyfile(manifest['prompt_path'], paths['prompt'])
+    model_rules = {'version': policy['version']}
+    for section in ('inclusion_rules', 'classification_rules', 'exclusion_rules'):
+        model_rules[section] = {
+            key: {field: rule[field] for field in ('description', 'block') if field in rule}
+            for key, rule in policy[section].items()
+        }
+    base.write(paths['decision_rules'], model_rules)
+    with Path(manifest['taxonomy_path']).open(encoding='utf-8-sig', newline='') as source:
+        reader = csv.DictReader(source, delimiter=';')
+        fields = [key for key in ('block', 'topic', 'что входит', 'слова-признаки (начала слов)')
+                  if key in reader.fieldnames]
+        rows = [{key: row[key] for key in fields} for row in reader]
+    base.csv_write(paths['taxonomy'], rows, fields)
+    return {key: str(path) for key, path in paths.items()}
+
+
 def check(work, response):
-    policy = policy_for(work)
-    data, stats = base.check(work, response)
+    manifest, taxonomy = base.workspace(work)
+    policy = load_workspace_policy(manifest)
+    return check_batch(work, response, manifest, taxonomy, policy)
+
+
+def check_batch(work, response, manifest, taxonomy, policy):
+    data, stats = base.check_batch(work, response, manifest, taxonomy)
     pending = 0
     for claim in data['claims']:
         cid = claim['id']
@@ -64,9 +100,10 @@ def check(work, response):
         base.require(rule['block'] == claim['block'], f'{cid}: правило относится к другому ESG-блоку')
         for field in ('subject', 'proposition', 'esg_object'):
             base.require(base.text(decision.get(field)), f'{cid}: пустое {field}')
-        refs = decision.get('source_refs')
-        base.require(isinstance(refs, list) and all(isinstance(r, str) and r in policy['sources'] for r in refs), f'{cid}: неизвестный source_ref')
-        base.require(len(refs) == len(set(refs)) and set(rule['source_refs']) <= set(refs), f'{cid}: отсутствуют ссылки правила или есть повторы')
+        if 'source_refs' in decision:
+            refs = decision['source_refs']
+            base.require(isinstance(refs, list) and all(isinstance(r, str) and r in policy['sources'] for r in refs), f'{cid}: неизвестный source_ref')
+            base.require(len(refs) == len(set(refs)) and set(rule['source_refs']) <= set(refs), f'{cid}: отсутствуют ссылки правила или есть повторы')
         secondary = decision.get('secondary_blocks')
         base.require(isinstance(secondary, list) and all(isinstance(b, str) and b in base.TOPICS for b in secondary), f'{cid}: неверные secondary_blocks')
         base.require(len(secondary) == len(set(secondary)) and claim['block'] not in secondary, f'{cid}: повтор основной/дополнительной темы')
@@ -87,15 +124,29 @@ def check(work, response):
 
 
 def export(work, responses, output, allow_partial=False):
-    responses = list(responses)
-    pending = 0
-    for response in responses:
-        _, stats = check(work, response)
-        pending += stats['pending_classifications']
+    manifest, taxonomy = base.workspace(work)
+    policy = load_workspace_policy(manifest)
+    checked = [check_batch(work, response, manifest, taxonomy, policy) for response in responses]
+    pending = sum(stats['pending_classifications'] for _, stats in checked)
     base.require(not pending or allow_partial, 'Есть pending classification; нужен --allow-partial')
-    out, summary = base.export(work, responses, output, allow_partial=allow_partial)
+    checked = [({**data, 'claims': [
+        {**claim, 'decision': {
+            'source_refs': policy['classification_rules'][claim['decision']['classification_rule']]['source_refs'],
+            **claim['decision'],
+        }} for claim in data['claims']
+    ]}, stats) for data, stats in checked]
+    out, summary = base.export_checked(work, checked, output, manifest, allow_partial)
     data = base.read(out/'claims.json')
     decisions = {claim['id']: claim['decision'] for claim in data['claims']}
+    machine_fields = ['report_id', 'source_sha256', 'source_kind', 'quantitative',
+                      'metric', 'value', 'unit', 'period', 'entity_scope', 'evidence_json']
+    machine_rows = {}
+    for claim in data['claims']:
+        fields = {key: claim.get(key, '') for key in machine_fields}
+        fields.update(report_id=manifest['report_id'], source_sha256=manifest['source_sha256'],
+                      quantitative='true' if claim['quantitative'] else 'false',
+                      evidence_json=base.json.dumps(claim['evidence'], ensure_ascii=False))
+        machine_rows[claim['id']] = fields
     # Expand only this newly-created export, preserving all original columns and evidence JSON.
     for name in ('claims.csv', 'E.csv', 'S.csv', 'G.csv'):
         with (out/name).open(encoding='utf-8-sig', newline='') as f:
@@ -105,7 +156,8 @@ def export(work, responses, output, allow_partial=False):
         for row in rows:
             decision = decisions[row['id']]
             row.update({field: ','.join(decision[field]) if field in ('source_refs', 'secondary_blocks') else decision[field] for field in TRACE_FIELDS})
-        base.csv_write(out/name, rows, fields + TRACE_FIELDS)
+            row.update(machine_rows[row['id']])
+        base.csv_write(out/name, rows, fields + TRACE_FIELDS + machine_fields)
     # Keep exclusion provenance readable without requiring JSON inspection.
     with (out/'coverage.csv').open(encoding='utf-8-sig', newline='') as f:
         reader = csv.DictReader(f, delimiter=';'); fields = list(reader.fieldnames); rows = list(reader)
@@ -128,6 +180,7 @@ def main():
     a.add_argument('--prompt', default=ROOT/'agent/esg_agent_v3_1.md'); a.add_argument('--taxonomy', default=ROOT/'agent/taxonomy_v3_1.csv')
     a.add_argument('--decision-rules', default=ROOT/'agent/decision_rules_v3_1.json'); a.add_argument('--pages-per-batch', type=int, default=4)
     a = sub.add_parser('check'); a.add_argument('--work', required=True); a.add_argument('response')
+    a = sub.add_parser('model-files'); a.add_argument('--work', required=True); a.add_argument('--out', required=True)
     a = sub.add_parser('export'); a.add_argument('--work', required=True); a.add_argument('--responses', nargs='+', required=True); a.add_argument('--out', required=True); a.add_argument('--allow-partial', action='store_true')
     args = p.parse_args()
     try:
@@ -135,6 +188,9 @@ def main():
             result = prepare(args.source, args.out, args.report_id, args.prompt, args.taxonomy, args.decision_rules, args.pages_per_batch)
         elif args.command == 'check':
             _, result = check(args.work, args.response)
+        elif args.command == 'model-files':
+            manifest, _ = base.workspace(args.work)
+            result = write_model_inputs(args.out, manifest, load_workspace_policy(manifest))
         else:
             out, result = export(args.work, args.responses, args.out, args.allow_partial); result['output'] = str(out)
         print(base.json.dumps(result, ensure_ascii=False)); return 0
